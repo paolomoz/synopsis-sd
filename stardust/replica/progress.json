@@ -165,6 +165,12 @@
           "cause": "glyph-antialiasing",
           "detail": "remaining 0.32% @1440 / ~2% @360 is thin-edge text antialiasing and the hero gradient dithering; chrome crops \u226598.6%.",
           "status": "residual"
+        },
+        {
+          "id": "R6",
+          "cause": "scroll-spy-label",
+          "detail": "mobile anchor-nav collapsed label: live scroll-spies to the current section name (\"Features\"); EDS block shows the first item. Visible only in pinned state at \u2264729px (published 360 band 4000\u20134500).",
+          "status": "deferred"
         }
       ],
       "motion": {
@@ -236,5 +242,26 @@
     "article": "blogs-chip-design-multiphysics-chip-design-challenges-html",
     "form": "success-stories-electronics-digital-twins-volvo-cars-html",
     "unique": "authors-sassine-ghazi-html"
+  },
+  "siblingAnalysis": {
+    "method": "AEM component sequence per program page (stardust/current/pages/*.html)",
+    "exactTemplateMatches": [
+      "verification-simulation-vcs-html"
+    ],
+    "nearest": {
+      "implementation-and-signoff-signoff-primetime-html": "adds second carousel + 3-up image card grid",
+      "designware-ip-interface-ip-html": "adds 3-up card grid + mid-page skinny banner"
+    },
+    "newBlocksNeededForOtherProgramPages": [
+      "photo/video hero banner",
+      "image card grid (cards default)",
+      "quote",
+      "accordion",
+      "tabs",
+      "logo row",
+      "icon list",
+      "stat band",
+      "nav-list (explore family)"
+    ]
   }
 }
