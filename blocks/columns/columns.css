@@ -33,9 +33,14 @@
   }
 }
 
-/* features variant (lifted: .component-column .col-sm-6 + .component-text) */
+/* features variant (lifted: .component-column .col-sm-6 + .component-text) — authored order on every width (text, then diagram) */
 .columns.features > div {
   margin: 0 -15px;
+}
+
+.columns.features > div > div,
+.columns.features > div > .columns-img-col {
+  order: unset;
 }
 
 .columns.features > div > div {

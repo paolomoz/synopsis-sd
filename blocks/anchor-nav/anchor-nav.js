@@ -54,6 +54,7 @@ export default async function decorate(block) {
   const wrapper = block.parentElement;
   const header = document.querySelector('header');
   const update = () => {
+    if (!wrapper.offsetParent) return; // section still hidden (data-section-status) — no geometry yet
     const navRow = header ? header.querySelector('.nav-row') : null;
     const navH = navRow ? navRow.getBoundingClientRect().height : 80;
     const fixed = window.scrollY >= wrapper.offsetTop - navH;
@@ -62,5 +63,8 @@ export default async function decorate(block) {
   };
   window.addEventListener('scroll', update, { passive: true });
   window.addEventListener('resize', update);
+  window.addEventListener('load', update);
+  requestAnimationFrame(update);
+  setTimeout(update, 1500);
   update();
 }

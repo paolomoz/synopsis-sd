@@ -71,7 +71,9 @@
 }
 
 .cards.benefits .cards-card-body p {
+  max-height: 56px; /* source clamps the tile title to two lines */
   margin: 0;
+  overflow: hidden;
   color: var(--ink);
   font-size: 20px;
   font-weight: 300;

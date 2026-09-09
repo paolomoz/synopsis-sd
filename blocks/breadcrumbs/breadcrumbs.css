@@ -63,7 +63,7 @@
   height: 8px;
   margin: 0 20px 0 5px;
   vertical-align: top;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 8'%3E%3Cpath d='M1 1.5 5 6.5 9 1.5' fill='none' stroke='%23646e81' stroke-width='1.5'/%3E%3C/svg%3E") no-repeat center / 10px 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='%23646e81' d='M352 160c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-9.2-9.2-11.9-22.9-6.9-34.9S19.1 160 32 160l320 0z'/%3E%3C/svg%3E") no-repeat center / 10px 10px;
 }
 
 .breadcrumbs .breadcrumbs-ellipsis {

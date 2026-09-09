@@ -13,7 +13,7 @@ B = page['body']
 hdr = open('stardust/prototypes/_partials/header.html').read()
 ftr = open('stardust/prototypes/_partials/footer.html').read()
 main = open('stardust/prototypes/_partials/main-vcs.html').read()
-MEDIA = 'https://www.synopsys.com/content/dam/synopsys'  # DA media upload blocked (token expired) — fully-qualified source CDN per D4; re-point to content.da.live/…/media once uploaded
+MEDIA = 'https://content.da.live/paolomoz/synopsis-sd/media'  # DA media upload blocked (token expired) — fully-qualified source CDN per D4; re-point to content.da.live/…/media once uploaded
 LIVE = 'https://www.synopsys.com'
 
 def localize(href):
@@ -87,7 +87,7 @@ def li(x):
     t = esc(x).replace('MATLAB', '<a href="/verification/simulation/vcs/vcs-matlab">MATLAB</a>') if 'MATLAB' in x else esc(x)
     return f'<li>{t}</li>'
 feat_html = ''.join(f'<p><strong>{esc(t)}</strong></p><ul>{"".join(li(x) for x in xs)}</ul>' for t, xs in features)
-kb = [('star-purple.svg.imgo.svg', 'Industry-Leading Performance & Capacity'), ('automate-purple.svg.imgo.svg', 'Advanced Simulation Technologies'), ('native-integration-purple.svg.imgo.svg', 'Planning, Coverage & Execution Management Native Integration')]
+kb = [('star-purple.svg', 'Industry-Leading Performance & Capacity'), ('automate-purple.svg', 'Advanced Simulation Technologies'), ('native-integration-purple.svg', 'Planning, Coverage & Execution Management Native Integration')]
 cards = []
 for c in re.findall(r'<section[^>]*class="component-assetcard.*?</section>', main, flags=re.S):
     opening = c[:c.find('>') + 1]
@@ -104,7 +104,7 @@ vcs_sections = [
     f'<div class="hero"><div><div><h1>{esc(B[9])}</h1><p><em><a href="/verification/resources/datasheets/vcs-industrysngqs-highest-performance-simulation-solution">Datasheet</a></em></p></div></div></div>',
     '<div class="anchor-nav"><div><div><ul><li><a href="#overview">Overview</a></li><li><a href="#benefits">Key Benefits</a></li><li><a href="#features">Features</a></li><li><a href="#resources">Resources</a></li></ul><p><strong><a href="/contact-sales">Get Started</a></strong></p></div></div></div>',
     '<h2>The Industry’s Highest Performance Simulation Solution</h2>' + ''.join(f'<p>{rich(p)}</p>' for p in intro) + '<div class="section-metadata"><div><div>anchor</div><div>overview</div></div></div>',
-    '<h2>Key Benefits</h2><div class="cards benefits">' + ''.join(f'<div><div><img src="{MEDIA}/icon/{f}" alt="{esc(t)}"></div><div><p>{esc(t)}</p></div></div>' for f, t in kb) + '</div><div class="section-metadata"><div><div>style</div><div>tinted</div></div><div><div>anchor</div><div>benefits</div></div></div>',
+    '<h2>Key Benefits</h2><div class="cards benefits">' + ''.join(f'<div><div><img src="{MEDIA}/icons/{f}" alt="{esc(t)}"></div><div><p>{esc(t)}</p></div></div>' for f, t in kb) + '</div><div class="section-metadata"><div><div>style</div><div>tinted</div></div><div><div>anchor</div><div>benefits</div></div></div>',
     f'<h2>Industry’s Highest Performance Simulation Solution</h2><div class="columns features"><div><div>{feat_html}</div><div><img src="{diagram}" alt="Synopsys VCS Diagram"></div></div></div><div class="section-metadata"><div><div>anchor</div><div>features</div></div></div>',
     '<h2>Resources</h2><div class="carousel resources">' + ''.join(f'<div><div><p><strong>{esc(l)}</strong></p><h3>{esc(h)}</h3><p><a href="{localize(u)}">{esc(c)}</a></p></div></div>' for l, h, c, u in cards) + '</div><div class="section-metadata"><div><div>style</div><div>tinted</div></div><div><div>anchor</div><div>resources</div></div></div>',
     '<div class="hero connect"><div><div><h2>Connect with Us</h2><p><em><a href="/contact-sales">Contact Sales</a></em></p></div></div></div>',

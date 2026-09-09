@@ -125,7 +125,7 @@ body.appear {
 
 header {
   height: var(--nav-height);
-  background: var(--utility);
+  background: #fff;
 }
 
 header .header,
