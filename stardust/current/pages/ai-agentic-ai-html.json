@@ -1,0 +1,778 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:58.318Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ai-agentic-ai-html",
+  "url": "https://www.synopsys.com/ai/agentic-ai.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:58.318Z",
+  "finalUrl": "https://www.synopsys.com/ai/agentic-ai.html",
+  "title": "Agentic AI: Automating Engineering Workflows with AI Agents | Synopsys",
+  "description": "Agentic AI empowers engineering teams with multi-agent automation, streamlining workflows, boosting productivity, and enabling scalable, future-ready solutions.",
+  "og": {
+    "title": "Agentic AI: Automating Engineering Workflows with AI Agents | Synopsys",
+    "description": "Agentic AI empowers engineering teams with multi-agent automation, streamlining workflows, boosting productivity, and enabling scalable, future-ready solutions.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "AgentEngineer\u2122: Transform Engineering with AI-powered Automation"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys Autonomous Verification Closure Agent: 50\u00d7 faster RTL validation, +20% higher coverage"
+    },
+    {
+      "tag": "h2",
+      "text": "Key Benefits"
+    },
+    {
+      "tag": "h2",
+      "text": "AgentEngineer\u2122"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Scaling Expertise with AI Agents Across the Formal Workflow"
+    },
+    {
+      "tag": "h4",
+      "text": "Agentic AI - Synopsys and NVIDIA Transforming Silicon Design and Manufacturing"
+    },
+    {
+      "tag": "h4",
+      "text": "Re-Engineering Engineering \u2013 The Age of Agentic Engineering"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Synopsys.ai Contact Sales AI Chip Development Agentic AI AI-powered EDA Generative AI Physical AI",
+    "Agentic AI",
+    "Agentic AI",
+    "Overview",
+    "Key Benefits",
+    "AgentEngineer\u2122",
+    "Resources",
+    "Autonomous, goal-driven DV workflow built on Synopsys agentic AI. A long-running orchestrator coordinates agents from test planning to coverage closure and debug\u2014compressing weeks into hours, up to 50\u00d7 faster RTL validation and +20% coverage.",
+    "AgentEngineer\u2122 is built on Synopsys\u2019 industry-leading Agentic AI framework, enabling a new class of AI-powered agents that go far beyond traditional automation. These agents can reason, plan, learn, and execute engineering tasks both individually and in coordinated teams. By working together, these multi-agent systems can tackle complex, multi-step engineering challenges that previously required significant manual effort and expertise. As AgentEngineer technology takes on more computationally intensive tasks, in addition to providing oversight, human engineers will be able to focus more on higher-level activities such as strategic thinking and complex problem solving.",
+    "Reason and Plan: Agents analyze goals, constraints, and available resources to develop intelligent plans of action, adapting dynamically as requirements evolve.",
+    "Learn and Improve: With every project, agents learn from outcomes and feedback, continuously improving their strategies and effectiveness.",
+    "Execute and Orchestrate: Agents autonomously carry out tasks such as RTL generation, verification planning, testbench creation, and more\u2014streamlining processes and freeing engineers to focus on higher-value innovation.",
+    "As the first company to deliver GenAI agents and envision the future of Agentic AI through our L1 \u2013 L5 framework, Synopsys is leading the development of Agentic capabilities our customers will use to address greater complexity, accelerate time-to-market and enable revolutionary engineer productivity. The figure below shows the progression from basic, assistive automation (L1) to collaborative, partially autonomous agents (L2\u2013L4), and ultimately to highly autonomous, self-directed agents (L5), where human engineers rely on AI agents for a myriad of engineering tasks.",
+    "Explore How Synopsys.ai Can Accelerate Your Innovation",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Synopsys.ai",
+      "href": "/ai.html"
+    },
+    {
+      "label": "Agentic AI",
+      "href": "/ai/agentic-ai.html"
+    },
+    {
+      "label": "Watch Demo",
+      "href": "/webinars/synopsys-autonomous-verification-closure-agent.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/ai/contact-us.html"
+    },
+    {
+      "label": "Watch Full Demo",
+      "href": "/webinars/synopsys-autonomous-verification-closure-agent.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/scaling-ai-agents-formal-workflow.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/agentic-ai-synopsys-nvidia-chip-design.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/age-of-agentic-engineering.html"
+    },
+    {
+      "label": "Get Started Today",
+      "href": "/ai/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/ai/agentic-ai.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/ai/contact-us.html",
+    "https://www.synopsys.com/webinars/synopsys-autonomous-verification-closure-agent.html",
+    "https://www.synopsys.com/webinars/scaling-ai-agents-formal-workflow.html",
+    "https://www.synopsys.com/webinars/agentic-ai-synopsys-nvidia-chip-design.html",
+    "https://www.synopsys.com/webinars/age-of-agentic-engineering.html",
+    "https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html",
+    "https://www.synopsys.com/webinars/agentengineer-your-ai-coworker.html",
+    "https://www.synopsys.com/blogs/chip-design/agentic-ai-chip-design.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-hero-banner-v2(1)?qlt=82&wid=1900&ts=1787162117890&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 530
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/systems-purple.svg.imgo.svg",
+        "alt": "Next-Level Automation",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/validation-purple.svg.imgo.svg",
+        "alt": "Productivity Redefined",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/silicon-ip-purple.svg.imgo.svg",
+        "alt": "Empowered Engineers",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai%20agents-formal-workflow-thumbnail%20v2?qlt=82&wid=1200&ts=1785772963230&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/agenticai-snps-nvidia-silicon%20design-manufacturing?qlt=82&wid=1200&ts=1785771976490&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/agentic-engineering-thumb?qlt=82&wid=1200&ts=1785771678729&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/agentic-ai-chip-agentengineet-thumb?qlt=82&wid=1200&ts=1785771950943&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/agentengineer-ai-thumb?qlt=82&wid=1200&ts=1776420938288&$responsive$&fit=constrain&dpr=off",
+        "alt": "boundary-value-testing",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/em360b-podcast-thumbnail?qlt=82&wid=1200&ts=1766084243433&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 38,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/69149afa-ee45-4f9c-b5e2-393309024939/36a2562e-c3ac-4aa9-b324-aab7a9a7abfb/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [
+      {
+        "src": "blob:https://www.synopsys.com/f99da362-07c5-4ae0-9557-94ca09e39e92",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/69149afa-ee45-4f9c-b5e2-393309024939/36a2562e-c3ac-4aa9-b324-aab7a9a7abfb/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 11,
+    "mainTextLen": 143693,
+    "realImageCount": 33,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/ai-agentic-ai-html.png",
+  "renderedHtml": "pages/ai-agentic-ai-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Agentic AI: Automating Engineering Workflows with AI Agents",
+    "summary": "Agentic AI empowers engineering teams with multi-agent automation, streamlining workflows, boosting productivity, and enabling scalable, future-ready solutions.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": true,
+      "items": [
+        "Scaling Expertise with AI Agents Across the Formal Workflow",
+        "Agentic AI - Synopsys and NVIDIA Transforming Silicon Design and Manufacturing",
+        "Re-Engineering Engineering \u2013 The Age of Agentic Engineering"
+      ]
+    },
+    "sections": [
+      "AgentEngineer\u2122: Transform Engineering with AI-powered Automation",
+      "Synopsys Autonomous Verification Closure Agent: 50\u00d7 faster RTL validation, +20% higher coverage",
+      "Key Benefits",
+      "AgentEngineer\u2122",
+      "Resources"
+    ],
+    "cta-band": false
+  },
+  "pageType": "program"
+}

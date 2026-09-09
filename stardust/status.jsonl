@@ -1,0 +1,7 @@
+{ "ts": "2026-09-09T15:01:22Z", "skill": "stardust:replica", "phase": "1-extract", "event": "start", "detail": "extract --prep scoped to 64-page representative roster (hands-off default caps; full inventory 6679 www pages)" }
+{ "ts": "2026-09-09T15:12:44Z", "skill": "stardust:extract", "phase": "2-capture", "event": "end", "detail": "64/64 pages live (playwright, medium 2500ms, all 200); home re-shot after OneTrust", "artifact": "stardust/current/pages/" }
+{ "ts": "2026-09-09T15:18:06Z", "skill": "stardust:extract", "phase": "3-6-brand-surface-and-report", "event": "end", "detail": "brand-extraction, PRODUCT.md, DESIGN.md/json, brand-review.html, state.json (64 typed pages), 10 module candidates", "artifact": "stardust/current/" }
+{ "ts": "2026-09-09T15:18:06Z", "skill": "stardust:replica", "phase": "1-extract", "event": "end", "detail": "extract --prep complete: 64/64 live", "artifact": "stardust/current/" }
+{ "ts": "2026-09-09T15:18:06Z", "skill": "stardust:replica", "phase": "2-preserve-direction", "event": "start" }
+{ "ts": "2026-09-09T15:18:06Z", "skill": "stardust:replica", "phase": "2-preserve-direction", "event": "end", "detail": "verbatim promotion; empty register", "artifact": "stardust/direction.md" }
+{"ts": "2026-09-09T16:24:05Z", "skill": "stardust:replica", "phase": "3-4-recreate-gate", "event": "end", "detail": "program archetype (vcs) gated: 1440 0.32% \u03940 \u00b7 360 1.68% \u03940 \u00b7 0 structural red \u00b7 approvedBy hands-off", "artifact": "stardust/prototypes/vcs-proposed.html"}

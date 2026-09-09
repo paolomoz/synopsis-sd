@@ -1,0 +1,1177 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:04:31.365Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "sitemap-html",
+  "url": "https://www.synopsys.com/sitemap.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:04:31.365Z",
+  "finalUrl": "https://www.synopsys.com/sitemap.html",
+  "title": "Sitemap | Synopsys US",
+  "description": null,
+  "og": {
+    "title": "Sitemap | Synopsys US",
+    "description": null,
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Solutions"
+    },
+    {
+      "tag": "h5",
+      "text": "Solutions - By Industry"
+    },
+    {
+      "tag": "h5",
+      "text": "Solutions - By Technology"
+    },
+    {
+      "tag": "h3",
+      "text": "Products: Design, Verification & Manufacturing"
+    },
+    {
+      "tag": "h5",
+      "text": "Design"
+    },
+    {
+      "tag": "h5",
+      "text": "Manufacturing"
+    },
+    {
+      "tag": "h5",
+      "text": "Verification"
+    },
+    {
+      "tag": "h5",
+      "text": "Modeling and Simulation"
+    },
+    {
+      "tag": "h5",
+      "text": "3D Image Processing"
+    },
+    {
+      "tag": "h5",
+      "text": "Other"
+    },
+    {
+      "tag": "h3",
+      "text": "Products: Silicon IP"
+    },
+    {
+      "tag": "h5",
+      "text": "Interface IP"
+    },
+    {
+      "tag": "h5",
+      "text": "Security IP"
+    },
+    {
+      "tag": "h5",
+      "text": "IP Accelerated"
+    },
+    {
+      "tag": "h5",
+      "text": "Memories & Libraries"
+    },
+    {
+      "tag": "h5",
+      "text": "SoC Architecture"
+    },
+    {
+      "tag": "h5",
+      "text": "Soc Infrastructure IP"
+    },
+    {
+      "tag": "h5",
+      "text": "IP Markets"
+    },
+    {
+      "tag": "h3",
+      "text": "Products: Systems Verification & Validation"
+    },
+    {
+      "tag": "h5",
+      "text": "Emulation & Prototyping"
+    },
+    {
+      "tag": "h5",
+      "text": "Virtual Prototyping"
+    },
+    {
+      "tag": "h5",
+      "text": "Verification IP for SoC Designs"
+    },
+    {
+      "tag": "h5",
+      "text": "FPGA Development"
+    },
+    {
+      "tag": "h5",
+      "text": "System Test Generation"
+    },
+    {
+      "tag": "h3",
+      "text": "Support"
+    },
+    {
+      "tag": "h3",
+      "text": "News"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Top Glossaries"
+    },
+    {
+      "tag": "h4",
+      "text": "Top Blogs"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Sitemap",
+    "Solutions",
+    "Products",
+    "Support",
+    "News",
+    "Company",
+    "Resources",
+    "Aerospace & Government Solutions",
+    "Automotive Solutions",
+    "High-Performance Computing (HPC) & Data Center Solution",
+    "IoT Design Solution & IoT Technology",
+    "Medical Solutions: 3D Medical Image Processing",
+    "Manufacturing Solutions",
+    "Memory Solutions: End-to-End Development Flow",
+    "5G Design Solution & Design Technology",
+    "AI Chip Design \u2013 AI-Driven EDA Solutions",
+    "AI-Powered EDA Suite for Chip Design & AI Applications",
+    "Cloud EDA: Unlimited Access to EDA Software Licenses",
+    "Design Technology Co-Optimization (DTCO) Solutions",
+    "Energy Efficient Chips Solutions",
+    "Multi-Die Solution",
+    "RF Design Solutions",
+    "RISC-V Solutions",
+    "Silicon Lifecycle Management Tools (SLM)",
+    "Chip Design Software & Tools",
+    "3DIC Compiler: Platform for Multi-Die Designs",
+    "PrimeSim: Circuit Simulation Solution",
+    "Signal and Power Integriy",
+    "TestMAX: Advanced Test Automation Solutions",
+    "RTL Design & Synthesis Solutions for Advanced Nodes",
+    "Physical Implementation Solutions for Optimal PPA",
+    "Physical Verification: IC Validator",
+    "Design Signoff: Trusted Golden Solution for Chip Designs",
+    "LynxNXT Automation System: Design Automation",
+    "FPGA Design Tools \u2013 FPGA Synthesis Solution",
+    "System Solutions Design Services",
+    "Technology Computer Aided Design (TCAD)",
+    "Atomistic Simulation Software \u2013 QuantumATK",
+    "Mask Solutions",
+    "Manufacturing Analytics",
+    "High-Performance Simulation Solutions",
+    "Static and Formal Verification",
+    "Debug and Verification Management",
+    "Verification IP for SoC Designs",
+    "SoC Verification Automation",
+    "Saber Virtual Prototyping: Power Electronics Design",
+    "3D Image Processing Solutions",
+    "3D Image Processing Software - Simpleware",
+    "Optical Design",
+    "Photonic Design",
+    "USB IP",
+    "UALink IP Solution",
+    "PCI Express IP Solutions",
+    "DDR IP",
+    "MIPI IP",
+    "CXL IP",
+    "CCIX IP",
+    "SerDES PHY IP",
+    "Ethernet IP Solutions",
+    "Die-to-Die IP",
+    "HBM IP Solutions: High-Bandwith Memory",
+    "Secure Interfaces",
+    "HDMI IP",
+    "Embedded Flash Storage IP",
+    "Security IP Solutions",
+    "Root of Trust Security IP",
+    "Cryptography IP Solutions: TRNG, PUF, PKAs",
+    "Security Modules for Standard Interface IP",
+    "Security Protocol Accelerator (SPAcc) IP",
+    "HAV Interface Solutions",
+    "Interface IP Subsystems",
+    "IP Hardening",
+    "Silicon bring-up",
+    "Logic Library, Memory Compiler, OTP, NVM | Foundation IP",
+    "Standard Cell Libraries",
+    "Memory Compilers IP",
+    "Duet Packages",
+    "HPC Design Kit",
+    "SLM PVT Monitoring IP",
+    "Non-Volatile Memory IP",
+    "SoC Architecture Design",
+    "SoC Infrastructure IP | Synopsys IP",
+    "IP for AMBA Interconnect",
+    "Library IP",
+    "IP Solutions by Market",
+    "Automotive IP",
+    "Data Center IP Solutions",
+    "ZeBu Server 5: High-Capacity Emulator for Fast SoC Bring-Up",
+    "ZeBu-200",
+    "ZeBu EP: Scalable Emulation & Prototyping Platform",
+    "ZeBU Empower",
+    "ZeBU Cloud: Hosted Emulation Solution",
+    "HAPS-200",
+    "HAPS-100: High-Performance Scalable Prototyping System",
+    "Platform Architect: SoC Architecture Analysis & Optimization",
+    "Platform Architect for Multi-Die",
+    "Virtualizer: VDK Creation & Deployment Tools",
+    "Virtualizer Models: Transaction-Level Models",
+    "Silver: Software-in-the-Loop Solution for Virtual ECUs",
+    "Automotive Ecosystem Collaboration",
+    "Exploring Synopsys & Virtual Prototyping Services",
+    "VC Verification IP for Memory",
+    "Verification IP for Arm AMBA Protocols",
+    "Verification IP for Ethernet",
+    "Verification IP for MIPI",
+    "Verification CoStart Services",
+    "ImperasDV: RISC-V Processor Verification Solution",
+    "STING: RISC-V CPU & SoC Verification Tool",
+    "Synopsys Support Services",
+    "Training and Education",
+    "Synopsys Newsroom: Latest News, Expert Views, and Upcoming Events",
+    "About Us",
+    "Synopsys Academic & Research Alliances (SARA)",
+    "Synopsys Benefits",
+    "Working at Synopsys",
+    "Corporate Governance & Ethics",
+    "Environment, Social, and Governance (ESG)",
+    "Interoperability Programs",
+    "Investor Relations & Investor Resources",
+    "Management Team",
+    "Synopsys Partners - Find a Partner or Become a Partner",
+    "Professional Services",
+    "SNUG (Synopsys Users Group) Conference",
+    "Company Resources",
+    "Synopsys Blog | Latest Insights on EDA, IP & Systems Design",
+    "Explore Synopsys Events | Information & Access to Global Events",
+    "EDA & Semiconductor IP Terms Explained | Synopsys Glossary",
+    "Synopsys - News Releases",
+    "Synopsys Newsletters",
+    "Success Stories",
+    "Webinars",
+    "What is ADAS (Advanced Driver Assistance Systems)?",
+    "What is an Autonomous Car? \u2013 How Self-Driving Cars Work",
+    "What is a Battery Management System (BMS)? \u2013 How it Works",
+    "What is Electronic Design Automation (EDA)? \u2013 How it Works",
+    "What is a Physical Unclonable Function (PUF)? \u2013 How it Works",
+    "What is RISC-V? \u2013 How Does it Work?",
+    "What is RF Circuit Design? \u2013 How to Design RF Circuits",
+    "What is Wiring Harness? - How it Works",
+    "The 6 Levels of Vehicle Autonomy Explained",
+    "Unified Power Format Expands Low-Power IC Design",
+    "Multi-Chip Module Packaging Types | Multi-Die Chip Design",
+    "RRAM & MRAM: Non-Volatile Memory Explained",
+    "What is Mobile Industry Processor Interface (MIPI) Protocol?",
+    "Power Semiconductor Devices Explained",
+    "Mastering DDR-PHY Interoperability via DFI",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "Aerospace & Government Solutions",
+      "href": "/solutions/aerospace-government.html"
+    },
+    {
+      "label": "Automotive Solutions",
+      "href": "/solutions/automotive.html"
+    },
+    {
+      "label": "High-Performance Computing (HPC) & Data Center Solution",
+      "href": "/solutions/hpc-data-center.html"
+    },
+    {
+      "label": "IoT Design Solution & IoT Technology",
+      "href": "/solutions/iot.html"
+    },
+    {
+      "label": "Medical Solutions: 3D Medical Image Processing",
+      "href": "/solutions/medical.html"
+    },
+    {
+      "label": "Manufacturing Solutions",
+      "href": "https://www.synopsys.com/manufacturing.html"
+    },
+    {
+      "label": "Memory Solutions: End-to-End Development Flow",
+      "href": "/solutions/memory.html"
+    },
+    {
+      "label": "5G Design Solution & Design Technology",
+      "href": "/solutions/5g.html"
+    },
+    {
+      "label": "AI Chip Design \u2013 AI-Driven EDA Solutions",
+      "href": "/ai/ai-powered-eda.html"
+    },
+    {
+      "label": "AI-Powered EDA Suite for Chip Design & AI Applications",
+      "href": "/ai.html"
+    },
+    {
+      "label": "Cloud EDA: Unlimited Access to EDA Software Licenses",
+      "href": "/cloud.html"
+    },
+    {
+      "label": "Design Technology Co-Optimization (DTCO) Solutions",
+      "href": "/manufacturing/tcad/dtco.html"
+    },
+    {
+      "label": "Energy Efficient Chips Solutions",
+      "href": "/solutions/energy-efficient.html"
+    },
+    {
+      "label": "Multi-Die Solution",
+      "href": "/solutions/multi-die-design.html"
+    },
+    {
+      "label": "RF Design Solutions",
+      "href": "/solutions/rf-design.html"
+    },
+    {
+      "label": "RISC-V Solutions",
+      "href": "/solutions/risc-v.html"
+    },
+    {
+      "label": "Silicon Lifecycle Management Tools (SLM)",
+      "href": "/solutions/silicon-lifecycle-management.html"
+    },
+    {
+      "label": "Products: Design, Verification & Manufacturing",
+      "href": "https://www.synopsys.com/silicon-design.html"
+    },
+    {
+      "label": "Chip Design Software & Tools",
+      "href": "https://www.synopsys.com/implementation-and-signoff.html"
+    },
+    {
+      "label": "3DIC Compiler: Platform for Multi-Die Designs",
+      "href": "https://www.synopsys.com/implementation-and-signoff/3dic-design.html"
+    },
+    {
+      "label": "PrimeSim: Circuit Simulation Solution",
+      "href": "https://www.synopsys.com/implementation-and-signoff/ams-simulation.html"
+    },
+    {
+      "label": "Signal and Power Integriy",
+      "href": "https://www.synopsys.com/implementation-and-signoff/signal-and-power-integrity.html"
+    },
+    {
+      "label": "TestMAX: Advanced Test Automation Solutions",
+      "href": "https://www.synopsys.com/implementation-and-signoff/test-automation.html"
+    },
+    {
+      "label": "RTL Design & Synthesis Solutions for Advanced Nodes",
+      "href": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test.html"
+    },
+    {
+      "label": "Physical Implementation Solutions for Optimal PPA",
+      "href": "https://www.synopsys.com/implementation-and-signoff/physical-implementation.html"
+    },
+    {
+      "label": "Physical Verification: IC Validator",
+      "href": "https://www.synopsys.com/implementation-and-signoff/physical-verification.html"
+    },
+    {
+      "label": "Design Signoff: Trusted Golden Solution for Chip Designs",
+      "href": "https://www.synopsys.com/implementation-and-signoff/signoff.html"
+    },
+    {
+      "label": "LynxNXT Automation System: Design Automation",
+      "href": "https://www.synopsys.com/implementation-and-signoff/lynxnxt-automation-system.html"
+    },
+    {
+      "label": "FPGA Design Tools \u2013 FPGA Synthesis Solution",
+      "href": "https://www.synopsys.com/implementation-and-signoff/fpga-based-design.html"
+    },
+    {
+      "label": "System Solutions Design Services",
+      "href": "https://www.synopsys.com/services/design-services.html"
+    },
+    {
+      "label": "Technology Computer Aided Design (TCAD)",
+      "href": "/manufacturing/tcad.html"
+    },
+    {
+      "label": "Atomistic Simulation Software \u2013 QuantumATK",
+      "href": "https://www.synopsys.com/manufacturing/quantumatk.html"
+    },
+    {
+      "label": "Mask Solutions",
+      "href": "https://www.synopsys.com/manufacturing/mask-solutions.html"
+    },
+    {
+      "label": "Manufacturing Analytics",
+      "href": "https://www.synopsys.com/manufacturing/manufacturing-analytics.html"
+    },
+    {
+      "label": "High-Performance Simulation Solutions",
+      "href": "https://www.synopsys.com/verification/simulation.html"
+    },
+    {
+      "label": "Static and Formal Verification",
+      "href": "https://www.synopsys.com/verification/static-and-formal-verification.html"
+    },
+    {
+      "label": "Debug and Verification Management",
+      "href": "https://www.synopsys.com/verification/debug.html"
+    },
+    {
+      "label": "Verification IP for SoC Designs",
+      "href": "https://www.synopsys.com/verification/verification-ip.html"
+    },
+    {
+      "label": "SoC Verification Automation",
+      "href": "https://www.synopsys.com/verification/soc-verification-automation.html"
+    },
+    {
+      "label": "Saber Virtual Prototyping: Power Electronics Design",
+      "href": "https://www.synopsys.com/verification/virtual-prototyping/saber.html"
+    },
+    {
+      "label": "3D Image Processing Solutions",
+      "href": "https://www.synopsys.com/simpleware.html"
+    },
+    {
+      "label": "3D Image Processing Software - Simpleware",
+      "href": "https://www.synopsys.com/simpleware/software.html"
+    },
+    {
+      "label": "Optical Design",
+      "href": "/optical-solutions.html"
+    },
+    {
+      "label": "Photonic Design",
+      "href": "/photonic-solutions.html"
+    },
+    {
+      "label": "Products: Silicon IP",
+      "href": "https://www.synopsys.com/designware-ip.html"
+    },
+    {
+      "label": "Interface IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip.html"
+    },
+    {
+      "label": "USB IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/usb.html"
+    },
+    {
+      "label": "UALink IP Solution",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/ualink.html"
+    },
+    {
+      "label": "PCI Express IP Solutions",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/pci-express.html"
+    },
+    {
+      "label": "DDR IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/ddr.html"
+    },
+    {
+      "label": "MIPI IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/mipi.html"
+    },
+    {
+      "label": "CXL IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/cxl.html"
+    },
+    {
+      "label": "CCIX IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/ccix.html"
+    },
+    {
+      "label": "SerDES PHY IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/serdes-phy-ip.html"
+    },
+    {
+      "label": "Ethernet IP Solutions",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/ethernet.html"
+    },
+    {
+      "label": "Die-to-Die IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/die-to-die.html"
+    },
+    {
+      "label": "HBM IP Solutions: High-Bandwith Memory",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/hbm.html"
+    },
+    {
+      "label": "Secure Interfaces",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/secure-interfaces.html"
+    },
+    {
+      "label": "HDMI IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/hdmi.html"
+    },
+    {
+      "label": "Embedded Flash Storage IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip/mobile-storage.html"
+    },
+    {
+      "label": "Security IP Solutions",
+      "href": "https://www.synopsys.com/designware-ip/security-ip.html"
+    },
+    {
+      "label": "Root of Trust Security IP",
+      "href": "https://www.synopsys.com/designware-ip/security-ip/root-of-trust.html"
+    },
+    {
+      "label": "Cryptography IP Solutions: TRNG, PUF, PKAs",
+      "href": "https://www.synopsys.com/designware-ip/security-ip/cryptography-ip.html"
+    },
+    {
+      "label": "Security Modules for Standard Interface IP",
+      "href": "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules.html"
+    },
+    {
+      "label": "Security Protocol Accelerator (SPAcc) IP",
+      "href": "https://www.synopsys.com/designware-ip/security-ip/security-protocol-accelerators.html"
+    },
+    {
+      "label": "IP Accelerated",
+      "href": "https://www.synopsys.com/designware-ip/ip-accelerated.html"
+    },
+    {
+      "label": "HAV Interface Solutions",
+      "href": "/verification/emulation-prototyping/hav-interface-solutions.html"
+    },
+    {
+      "label": "Interface IP Subsystems",
+      "href": "https://www.synopsys.com/designware-ip/ip-subsystems.html"
+    },
+    {
+      "label": "IP Hardening",
+      "href": "https://www.synopsys.com/designware-ip/ip-accelerated/ip-hardening.html"
+    },
+    {
+      "label": "Silicon bring-up",
+      "href": "https://www.synopsys.com/designware-ip/ip-accelerated/silicon-bring-up.html"
+    },
+    {
+      "label": "Logic Library, Memory Compiler, OTP, NVM | Foundation IP",
+      "href": "https://www.synopsys.com/designware-ip/memories-logic-libraries.html"
+    },
+    {
+      "label": "Standard Cell Libraries",
+      "href": "/designware-ip/memories-logic-libraries/standard-cell.html"
+    },
+    {
+      "label": "Memory Compilers IP",
+      "href": "/designware-ip/memories-logic-libraries/sram-memory-compilers.html"
+    },
+    {
+      "label": "Duet Packages",
+      "href": "/designware-ip/memories-logic-libraries/duet-package.html"
+    },
+    {
+      "label": "HPC Design Kit",
+      "href": "/designware-ip/memories-logic-libraries/hpc-design-kit.html"
+    },
+    {
+      "label": "SLM PVT Monitoring IP",
+      "href": "/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html"
+    },
+    {
+      "label": "Non-Volatile Memory IP",
+      "href": "/content/synopsys/en-us/designware-ip/memories-logic-libraries/non-volatile-memory"
+    },
+    {
+      "label": "SoC Architecture Design",
+      "href": "https://www.synopsys.com/designware-ip/ip-accelerated/soc-architecture.html"
+    },
+    {
+      "label": "SoC Infrastructure IP | Synopsys IP",
+      "href": "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html"
+    },
+    {
+      "label": "IP for AMBA Interconnect",
+      "href": "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba.html"
+    },
+    {
+      "label": "Library IP",
+      "href": "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/designware-library.html"
+    },
+    {
+      "label": "IP Solutions by Market",
+      "href": "https://www.synopsys.com/designware-ip/ip-market-segments.html"
+    },
+    {
+      "label": "Automotive IP",
+      "href": "https://www.synopsys.com/designware-ip/ip-market-segments/automotive.html"
+    },
+    {
+      "label": "Data Center IP Solutions",
+      "href": "/designware-ip/ip-market-segments/hpc.html"
+    },
+    {
+      "label": "Products: Systems Verification & Validation",
+      "href": "/systems.html"
+    },
+    {
+      "label": "Emulation & Prototyping",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping.html"
+    },
+    {
+      "label": "ZeBu Server 5: High-Capacity Emulator for Fast SoC Bring-Up",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-server.html"
+    },
+    {
+      "label": "ZeBu-200",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-200.html"
+    },
+    {
+      "label": "ZeBu EP: Scalable Emulation & Prototyping Platform",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-ep.html"
+    },
+    {
+      "label": "ZeBU Empower",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-empower.html"
+    },
+    {
+      "label": "ZeBU Cloud: Hosted Emulation Solution",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-cloud-solution.html"
+    },
+    {
+      "label": "HAPS-200",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/prototyping/haps-200.html"
+    },
+    {
+      "label": "HAPS-100: High-Performance Scalable Prototyping System",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/prototyping/haps-100.html"
+    },
+    {
+      "label": "Virtual Prototyping",
+      "href": "https://www.synopsys.com/verification/virtual-prototyping.html"
+    },
+    {
+      "label": "Platform Architect: SoC Architecture Analysis & Optimization",
+      "href": "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/sitemap.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/solutions/iot.html",
+    "https://www.synopsys.com/solutions/medical.html",
+    "https://www.synopsys.com/solutions/memory.html",
+    "https://www.synopsys.com/manufacturing/tcad/dtco.html",
+    "https://www.synopsys.com/solutions/rf-design.html",
+    "https://www.synopsys.com/solutions/risc-v.html",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/implementation-and-signoff/ams-simulation.html",
+    "https://www.synopsys.com/implementation-and-signoff/signal-and-power-integrity.html",
+    "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation.html",
+    "https://www.synopsys.com/implementation-and-signoff/lynxnxt-automation-system.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/manufacturing/tcad.html",
+    "https://www.synopsys.com/manufacturing/quantumatk.html",
+    "https://www.synopsys.com/manufacturing/mask-solutions.html",
+    "https://www.synopsys.com/manufacturing/manufacturing-analytics.html",
+    "https://www.synopsys.com/verification/simulation.html",
+    "https://www.synopsys.com/verification/static-and-formal-verification.html",
+    "https://www.synopsys.com/verification/debug.html",
+    "https://www.synopsys.com/verification/soc-verification-automation.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/saber.html",
+    "https://www.synopsys.com/simpleware.html",
+    "https://www.synopsys.com/simpleware/software.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ualink.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/cxl.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ccix.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/serdes-phy-ip.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/secure-interfaces.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mobile-storage.html",
+    "https://www.synopsys.com/designware-ip/security-ip/root-of-trust.html",
+    "https://www.synopsys.com/designware-ip/security-ip/cryptography-ip.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules.html",
+    "https://www.synopsys.com/designware-ip/security-ip/security-protocol-accelerators.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated.html",
+    "https://www.synopsys.com/designware-ip/ip-subsystems.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/hav-interface-solutions.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated/ip-hardening.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated/silicon-bring-up.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/standard-cell.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/sram-memory-compilers.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/duet-package.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/hpc-design-kit.html",
+    "https://www.synopsys.com/content/synopsys/en-us/designware-ip/memories-logic-libraries/non-volatile-memory",
+    "https://www.synopsys.com/designware-ip/ip-accelerated/soc-architecture.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/designware-library.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/automotive.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/hpc.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-server.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-200.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-ep.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-empower.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-cloud-solution.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping/haps-200.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping/haps-100.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect-multi-die.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer-models.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/silver.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/automotive-ecosystem-collaboration.html",
+    "https://www.synopsys.com/blogs/chip-design/overview-synopsys-virtual-prototyping-services.html",
+    "https://www.synopsys.com/verification/verification-ip/memory.html",
+    "https://www.synopsys.com/verification/verification-ip/amba.html",
+    "https://www.synopsys.com/verification/verification-ip/ethernet.html",
+    "https://www.synopsys.com/verification/verification-ip/mipi.html",
+    "https://www.synopsys.com/verification/services-costart.html",
+    "https://www.synopsys.com/verification/fpga-simulation.html",
+    "https://www.synopsys.com/verification/imperasdv.html",
+    "https://www.synopsys.com/verification/sting.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/support/training.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/careers/benefits.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/environment-social-governance.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/company/resources.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://news.synopsys.com/",
+    "https://www.synopsys.com/company/resources/newsletters.html",
+    "https://www.synopsys.com/glossary/what-is-wiring-harness.html",
+    "https://www.synopsys.com/glossary/what-is-adas.html",
+    "https://www.synopsys.com/glossary/what-is-autonomous-car.html",
+    "https://ansys.synopsys.com/simulation-topics/what-is-a-battery-management-system",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-a-physical-unclonable-function.html",
+    "https://www.synopsys.com/glossary/what-is-risc-v.html",
+    "https://www.synopsys.com/glossary/what-is-rf-circuit-design.html",
+    "https://www.synopsys.com/blogs/chip-design/autonomous-driving-levels.html",
+    "https://www.synopsys.com/blogs/chip-design/unified-power-format-low-power-ic-design.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-chip-module-packaging-types.html",
+    "https://www.synopsys.com/blogs/chip-design/rram-mram-non-volatile-memory.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-mobile-industry-processor-interface-protocol.html",
+    "https://www.synopsys.com/blogs/chip-design/power-semiconductor-devices.html",
+    "https://www.synopsys.com/blogs/chip-design/mastering-ddr-phy-interoperability-dfi.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://www.synopsys.com/authors.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 32,
+    "mainTextLen": 136642,
+    "realImageCount": 23,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/sitemap-html.png",
+  "renderedHtml": "pages/sitemap-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "Sitemap",
+    "summary": null,
+    "sections": [],
+    "items": [
+      "Top Glossaries",
+      "Top Blogs"
+    ]
+  },
+  "pageType": "unique"
+}

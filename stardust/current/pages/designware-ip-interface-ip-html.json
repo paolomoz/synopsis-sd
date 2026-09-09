@@ -1,0 +1,1089 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:51.913Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "designware-ip-interface-ip-html",
+  "url": "https://www.synopsys.com/designware-ip/interface-ip.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:51.913Z",
+  "finalUrl": "https://www.synopsys.com/designware-ip/interface-ip.html",
+  "title": "Interface IP | Synopsys",
+  "description": "Synopsys IP offers a portfolio of interface IP such as Ethernet, USB, PCIe, DDR, HBM, CXL, HDMI, MIPI, and Die-to-Die UCIe and USR/XSR for SoC design.",
+  "og": {
+    "title": "Interface IP | Synopsys",
+    "description": "Synopsys IP offers a portfolio of interface IP such as Ethernet, USB, PCIe, DDR, HBM, CXL, HDMI, MIPI, and Die-to-Die UCIe and USR/XSR for SoC design.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Silicon-Proven Interface IP Solutions for the Most Popular Protocols"
+    },
+    {
+      "tag": "h2",
+      "text": "What's New"
+    },
+    {
+      "tag": "h4",
+      "text": "CXL 4.0 Arrives \u2014 Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity"
+    },
+    {
+      "tag": "h4",
+      "text": "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects"
+    },
+    {
+      "tag": "h4",
+      "text": "Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution"
+    },
+    {
+      "tag": "h2",
+      "text": "Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Synopsys Delivers First Complete UFS 5.0 and M\u2011PHY v6.0 IP Solution for Next\u2011Gen Storage"
+    },
+    {
+      "tag": "h4",
+      "text": "Synopsys Aims to Reduce Silicon Design Cycles by up to a Year in Collaboration with Arm"
+    },
+    {
+      "tag": "h4",
+      "text": "IP for 3D Multi-Die Designs"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Synopsys IP Foundation IP Interface IP Interface IP Subsystems IP Accelerated Solutions by Market Security IP SoC Infrastructure STAR Hierarchical System Technical Bulletin",
+    "Interface IP 6G PHY IP 10G PHY IP 25G PHY IP 16G PHY IP 32G PHY IP 112G PHY IP CCIX CCIX Controller IP Consumer 8G PHY IP CXL Die-to-Die DisplayPort DDR Die-to-Die Controller IP Embedded Flash Storage Ethernet IP HBM HDMI High-Speed SerDes MIPI PCI Express Secure Interfaces TSMC N3E Process VESA DSC IP XAUI PHY IP UALink IP Solution UALink IP UFS Host Controller IP USB",
+    "Synopsys Interface IP",
+    "Overview",
+    "What's New",
+    "Products",
+    "Resources",
+    "Synopsys provides the industry\u2019s broadest portfolio of complete, silicon-proven IP solutions, with leading power, performance, area, and security, for the most widely used interfaces such as PCI Express\u00ae, CXL, UALink, USB, Ethernet, DDR, HBM, Die-to-Die, CCIX, MIPI, and HDMI.",
+    "With a strong investment in developing high-quality IP, designers can trust that the IP will be interoperable and successfully integrate into their SoCs, while minimizing risk and accelerating time to market. Thousands of customers trust Synopsys IP in their SoCs.",
+    "Secure Interfaces for Critical Semiconductor Applications",
+    "AMBA Synchronous Serial Interface Infrastructure/Fabric AHB DMA Controller AXI DMA Controller APB General Peripheral APB Advanced Peripheral Verification IP",
+    "DDR LPDDR6/5X/5 Controller IP LPDDR6/5X/5 PHY DDR5/4 Controller DDR5/4 PHY DDR5 MRDIMM2 Controller DDR5 MRDIMM2 PHY LPDDR5X/5/4X Controller LPDDR5X/5/4X PHY LPDDR5/4/4X Controller LPDDR5/4/4X PHY Enhanced Universal DDR Controllers Basic Universal DDR Controllers DDR4/3 PHY LPDDR4 multiPHY DDR4 multiPHY Gen 2 DDR multiPHY DDR multiPHY DDR3/2 SDRAM PHY Inline Memory Encryption Security Modules",
+    "Embedded Flash Storage UFS Host Controller IP UniPro Controller IP SD/eMMC Host Controller IP SD/eMMC PHY IP M-PHY IP Verification IP",
+    "HDMI HDMI 2.1 Receiver (RX) HDMI 2.1 Transmitter (TX) HDMI 2.0 Receiver (RX) HDMI 2.0 Transmitter (TX) Content Protection Security Modules Interface IP Subsystems Verification IP",
+    "USB USB4 USB 3.2 USB Type-C USB 3.1 USB 3.0 USB 2.0",
+    "IP Subsystems",
+    "CCIX Controller IP 25G PHY IP Verification IP",
+    "Die-to-Die Universal Chiplet Interconnect Express (UCIe) 112G XSR Controller 112G XSR PHY",
+    "Ethernet ESUN IP 200G/400G and 800G MAC and PCS Enterprise MAC IP Ethernet XGMAC IP Ethernet GMAC IP Ethernet MAC IP Enterprise PCS IP Ethernet PCS IP Ethernet Quality-of-Service IP Complete 1.6T Ethernet IP Solution 1.6T Ethernet MAC IP 1.6T Ethernet PCS IP 224G Ethernet PHY IP 112G PHY IP 56G PHY IP 25G PHY IP 16G PHY IP XAUI PHY IP 200G - 1.6T MACsec Security Modules 1G - 100G MACsec Security Modules (incl. Automotive) Verification IP Ultra Ethernet IP",
+    "High-Speed SerDes",
+    "PCI Express Complete IP Solution for PCIe 7.0 Complete IP Solution for PCIe 6.x Endpoint/Root Port/Dual Mode/Switch Port Controllers (1.1-5.0) PCI Express to AXI Bridge Single Root I/O Virtualization IP PHY IP for PCIe 5.0 PHY IP for PCIe 4.0 PHY IP for PCIe 3.1 PHY IP for PCIe 2.1 PHY IP for PCIe 1.1 IDE Security Modules Verification IP",
+    "Secure Interfaces",
+    "CXL Controller IP 32GT/s PHY IP IDE Security Modules Verification IP",
+    "DisplayPort USB-C 3.1/DisplayPort 1.4 IP Solutions USB-C 3.1/DisplayPort 1.4 Subsystem Solution USB-C 3.1/DisplayPort 1.3 IP Solution Content Protection Security Modules Interface IP Subsystems Verification IP",
+    "HBM HBM4 Controller HBM4 PHY HBM3 Controller HBM3 PHY HBM2/2E PHY",
+    "MIPI CSI-2 Controller IP DSI/DSI-2 Controller IP I3C Controller IP UniPro Controller IP C-PHY/D-PHY IP D-PHY IP M-PHY IP CSE 2.0 Security Module Interface IP Subsystems Verification IP",
+    "UALink Complete UALink IP Solution UALinkSec_200 Security Module",
+    "VESA DSC",
+    "Talk with an IP Expert",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Synopsys IP",
+      "href": "/designware-ip.html"
+    },
+    {
+      "label": "Interface IP",
+      "href": "/designware-ip/interface-ip.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/designware-ip/contact-us.html"
+    },
+    {
+      "label": "PCI Express\u00ae",
+      "href": "/designware-ip/interface-ip/pci-express.html"
+    },
+    {
+      "label": "CXL",
+      "href": "/designware-ip/interface-ip/cxl.html"
+    },
+    {
+      "label": "UALink",
+      "href": "/designware-ip/interface-ip/ualink.html"
+    },
+    {
+      "label": "USB",
+      "href": "/designware-ip/interface-ip/usb.html"
+    },
+    {
+      "label": "Ethernet",
+      "href": "/designware-ip/interface-ip/ethernet.html"
+    },
+    {
+      "label": "DDR",
+      "href": "/designware-ip/interface-ip/ddr.html"
+    },
+    {
+      "label": "HBM",
+      "href": "/designware-ip/interface-ip/hbm.html"
+    },
+    {
+      "label": "Die-to-Die",
+      "href": "/designware-ip/interface-ip/die-to-die.html"
+    },
+    {
+      "label": "CCIX",
+      "href": "/designware-ip/interface-ip/ccix.html"
+    },
+    {
+      "label": "MIPI",
+      "href": "/designware-ip/interface-ip/mipi.html"
+    },
+    {
+      "label": "HDMI",
+      "href": "/designware-ip/interface-ip/hdmi.html"
+    },
+    {
+      "label": "Read Now",
+      "href": "/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity.html"
+    },
+    {
+      "label": "Read Now",
+      "href": "/articles/112g-linear-optics-phy.html"
+    },
+    {
+      "label": "Read Now",
+      "href": "/blogs/chip-design/synopsys-pcie-leadership-recognized.html"
+    },
+    {
+      "label": "Download White Paper",
+      "href": "/designware-ip/security-ip/secure-interfaces-critical-semiconductor-applications.html"
+    },
+    {
+      "label": "Learn More",
+      "href": "/designware-ip/interface-ip/secure-interfaces.html"
+    },
+    {
+      "label": "AMBA",
+      "href": "/designware-ip/soc-infrastructure-ip/amba.html"
+    },
+    {
+      "label": "DDR",
+      "href": "/designware-ip/interface-ip/ddr.html"
+    },
+    {
+      "label": "Embedded Flash Storage",
+      "href": "/designware-ip/interface-ip/mobile-storage.html"
+    },
+    {
+      "label": "HDMI",
+      "href": "/designware-ip/interface-ip/hdmi.html"
+    },
+    {
+      "label": "USB",
+      "href": "/designware-ip/interface-ip/usb.html"
+    },
+    {
+      "label": "IP Subsystems",
+      "href": "/designware-ip/ip-subsystems.html"
+    },
+    {
+      "label": "CCIX",
+      "href": "/designware-ip/interface-ip/ccix.html"
+    },
+    {
+      "label": "Die-to-Die",
+      "href": "/designware-ip/interface-ip/die-to-die.html"
+    },
+    {
+      "label": "Ethernet",
+      "href": "/designware-ip/interface-ip/ethernet.html"
+    },
+    {
+      "label": "High-Speed SerDes",
+      "href": "/designware-ip/interface-ip/serdes-phy-ip.html"
+    },
+    {
+      "label": "PCI Express",
+      "href": "/designware-ip/interface-ip/pci-express.html"
+    },
+    {
+      "label": "Secure Interfaces",
+      "href": "/designware-ip/interface-ip/secure-interfaces.html"
+    },
+    {
+      "label": "CXL",
+      "href": "/designware-ip/interface-ip/cxl.html"
+    },
+    {
+      "label": "DisplayPort",
+      "href": "/designware-ip/interface-ip/displayport.html"
+    },
+    {
+      "label": "HBM",
+      "href": "/designware-ip/interface-ip/hbm.html"
+    },
+    {
+      "label": "MIPI",
+      "href": "/designware-ip/interface-ip/mipi.html"
+    },
+    {
+      "label": "UALink",
+      "href": "/designware-ip/interface-ip/ualink.html"
+    },
+    {
+      "label": "VESA DSC",
+      "href": "/designware-ip/interface-ip/vesa-dsc.html"
+    },
+    {
+      "label": "Learn More",
+      "href": "/blogs/chip-design/complete-ufs-5-0-m-phy-v6-0-ip-solution-storage.html"
+    },
+    {
+      "label": "Learn More",
+      "href": "/blogs/chip-design/synopsys-arm-aim-to-reduce-silicon-design-cycles.html"
+    },
+    {
+      "label": "Learn More",
+      "href": "/articles/multi-die-design-3d-ip.html"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/designware-ip/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/designware-ip/interface-ip.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/designware-ip/ip-subsystems.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated.html",
+    "https://www.synopsys.com/designware-ip/star-hierarchical-test.html",
+    "https://www.synopsys.com/designware-ip/technical-bulletin.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/multi-protocol-6g-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/multi-protocol-10g-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/multi-protocol-25g-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/multi-protocol-16g-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/multi-protocol-32g-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/multi-protocol-112g-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ccix.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ccix-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/consumer8g.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/cxl.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/displayport.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mobile-storage.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/serdes-phy-ip.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/secure-interfaces.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/n3e.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/vesa-dsc.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/xaui-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ualink.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ultra-accelerator-link-cs.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ufs.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb.html",
+    "https://www.synopsys.com/designware-ip/contact-us.html",
+    "https://www.synopsys.com/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity.html",
+    "https://www.synopsys.com/articles/112g-linear-optics-phy.html",
+    "https://www.synopsys.com/blogs/chip-design/synopsys-pcie-leadership-recognized.html",
+    "https://www.synopsys.com/designware-ip/security-ip/secure-interfaces-critical-semiconductor-applications.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba/amba-ssi.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba/amba-fabric.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba/amba-ahb-dma.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba/amba-axi-dma.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba/amba-apb-general.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba/amba-apb-advanced.html",
+    "https://www.synopsys.com/verification/verification-ip/amba/amba-chi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr65x5-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr65x5-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr54-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr54-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr5-mrdimm-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/mrdimm-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr5x54x-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr5x54x-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr54-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr54-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr-enhanced-universal-ctls.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr-universal-ctls.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr43-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/lpddr4-multiphy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr4-multiphy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr-gen2-multiphy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr-multiphy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr/ddr3-phy.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/security-ddr-ime.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-unipro.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mobile-storage/sd-emmc-host-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mobile-storage/sd-emmc-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-m-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi/hdmi-21-rx.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi/hdmi-21-tx.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi/hdmi-20-csds-rx.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi/hdmi-20-csds-tx.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/security-hdcp-esm.html",
+    "https://www.synopsys.com/verification/verification-ip/display/hdmi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb4.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-3-2.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-type-c.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-3-1-gen2.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-3-0.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-2-0-eusb2.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die/ucie.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die/usr-xsr-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ethernet-scale-up-networking-esun.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-200g-400g-800g-mac-pcs.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-enterprise-mac.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-xgmac.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-mac10-100-1000-unive.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-mac10-100-universal.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/enterprise-ether-pcs.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-pcs.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ether-qos.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/1-6t-ethernet-ip.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/1-6t-ethernet-mac-ip.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/1-6t-ethernet-cs.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/224g-ethernet-phy-ip.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/112g-ethernet-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/56g-ethernet-phy.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/hpc-macsec-up-to-1-6t.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/automotive-macsec-1g-25g.html",
+    "https://www.synopsys.com/verification/verification-ip/ethernet.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ultra-ethernet.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pci-express-7.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pci-express-6.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pci-express-controllers.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pci-express-axi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pci-express-sriov.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pcie5-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pcie4-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pcie3-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pcie2-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express/pcie-phy.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules.html",
+    "https://www.synopsys.com/verification/verification-ip/pcie.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/cxl/cxl-controller.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/security-cxl2-ide.html",
+    "https://www.synopsys.com/verification/verification-ip/subsystems/compute-express-link.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-c-31-dp-14.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-c-31-dp-14-ss.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb/usb-c-31-displayport.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/content-protection-ip.html",
+    "https://www.synopsys.com/verification/verification-ip/display/displayport.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm/hbm4-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm/hbm4-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm/hbm3-controller.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm/hbm3-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm/hbm2.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-csi2.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-dsi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-i3c.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-c-phy-d-phy.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi/mipi-d-phy.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/mipi-cse2-security-module.html",
+    "https://www.synopsys.com/verification/verification-ip/mipi.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules/ualinksec-200.html",
+    "https://www.synopsys.com/articles/ultra-ethernet-ualink-ai-networks.html",
+    "https://www.synopsys.com/blogs/chip-design/usb4-device-ip-edge-ai.html",
+    "https://www.synopsys.com/blogs/chip-design/complete-ufs-5-0-m-phy-v6-0-ip-solution-storage.html",
+    "https://www.synopsys.com/blogs/chip-design/synopsys-arm-aim-to-reduce-silicon-design-cycles.html",
+    "https://www.synopsys.com/articles/multi-die-design-3d-ip.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cxl-4-0-launch-social?qlt=82&wid=1200&ts=1785862456759&$responsive$&fit=constrain&dpr=off",
+        "alt": "CXL 4.0",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q3-26-sitb-112g-fig3-thumbnail?qlt=82&wid=1200&ts=1784302828440&$responsive$&fit=constrain&dpr=off",
+        "alt": "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-pcie-leadership-recognized-blog?qlt=82&wid=1200&ts=1781172171338&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q125-ultra-ethernet-ualink-ai-networks-1?qlt=82&wid=1200&ts=1742958134509&$responsive$&fit=constrain&dpr=off",
+        "alt": "How Ultra Ethernet and UALink Enable High-Performance, Scalable AI Networks",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/usb4-ip-certification-graphic-no-subhead-blog-thumbnail?qlt=82&wid=1200&ts=1742958202642&$responsive$&fit=constrain&dpr=off",
+        "alt": "The Industry\u2019s First USB4 Device IP Certification Will Speed Innovation and Edge AI Enablement",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ufs5-launch-diagram-fig2-social?qlt=82&wid=1200&ts=1772820377341&$responsive$&fit=constrain&dpr=off",
+        "alt": "Enabling Massive AI Clusters with the Industry\u2019s First Ultra Ethernet and UALink IP Solutions",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/arm-collaboration-blog-1?qlt=82&wid=1200&ts=1742957634094&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Aims to Reduce Silicon Design Cycles by up to a Year in Collaboration with Arm",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q125-multi-die-design-3d-ip-1?qlt=82&wid=1200&ts=1742957699339&$responsive$&fit=constrain&dpr=off",
+        "alt": "IP for 3D Multi-Die Designs",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q125-ultra-ethernet-ualink-ai-networks-1?qlt=82&wid=1200&ts=1742958134509&$responsive$&fit=constrain&dpr=off",
+        "alt": "How Ultra Ethernet and UALink Enable High-Performance, Scalable AI Networks",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/usb4-ip-certification-graphic-no-subhead-blog-thumbnail?qlt=82&wid=1200&ts=1742958202642&$responsive$&fit=constrain&dpr=off",
+        "alt": "The Industry\u2019s First USB4 Device IP Certification Will Speed Innovation and Edge AI Enablement",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ufs5-launch-diagram-fig2-social?qlt=82&wid=1200&ts=1772820377341&$responsive$&fit=constrain&dpr=off",
+        "alt": "Enabling Massive AI Clusters with the Industry\u2019s First Ultra Ethernet and UALink IP Solutions",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/arm-collaboration-blog-1?qlt=82&wid=1200&ts=1742957634094&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Aims to Reduce Silicon Design Cycles by up to a Year in Collaboration with Arm",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q125-multi-die-design-3d-ip-1?qlt=82&wid=1200&ts=1742957699339&$responsive$&fit=constrain&dpr=off",
+        "alt": "IP for 3D Multi-Die Designs",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q125-ultra-ethernet-ualink-ai-networks-1?qlt=82&wid=1200&ts=1742958134509&$responsive$&fit=constrain&dpr=off",
+        "alt": "How Ultra Ethernet and UALink Enable High-Performance, Scalable AI Networks",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/usb4-ip-certification-graphic-no-subhead-blog-thumbnail?qlt=82&wid=1200&ts=1742958202642&$responsive$&fit=constrain&dpr=off",
+        "alt": "The Industry\u2019s First USB4 Device IP Certification Will Speed Innovation and Edge AI Enablement",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 43,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/f1771b9e-feab-459b-b8a9-9506884b2ca4/6a484348-5f54-4d09-a2f4-999c51403526/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 13,
+    "mainTextLen": 157824,
+    "realImageCount": 38,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/designware-ip-interface-ip-html.png",
+  "renderedHtml": "pages/designware-ip-interface-ip-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Interface IP",
+    "summary": "Synopsys IP offers a portfolio of interface IP such as Ethernet, USB, PCIe, DDR, HBM, CXL, HDMI, MIPI, and Die-to-Die UCIe and USR/XSR for SoC design.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": false,
+      "items": [
+        "CXL 4.0 Arrives \u2014 Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity",
+        "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects",
+        "Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution",
+        "Synopsys Delivers First Complete UFS 5.0 and M\u2011PHY v6.0 IP Solution for Next\u2011Gen Storage",
+        "Synopsys Aims to Reduce Silicon Design Cycles by up to a Year in Collaboration with Arm",
+        "IP for 3D Multi-Die Designs"
+      ]
+    },
+    "sections": [
+      "Silicon-Proven Interface IP Solutions for the Most Popular Protocols",
+      "What's New",
+      "Products",
+      "Resources"
+    ],
+    "cta-band": false
+  },
+  "pageType": "program"
+}

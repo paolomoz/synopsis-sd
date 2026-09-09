@@ -1,0 +1,949 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract --prep",
+    "writtenAt": "2026-09-09T15:15:12Z"
+  },
+  "modules": [
+    {
+      "id": "candidate-b2dc92",
+      "name": "page-title-hero",
+      "description": "Purple-gradient page title band with breadcrumb (h1 60/300 white, optional background photo, optional secondary CTA)",
+      "signal": "headings[h1] + cssBackgrounds",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "eyebrow-breadcrumb",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "subtitle",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "background",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "cta",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "academic-research-html",
+          "selector": null
+        },
+        {
+          "slug": "ai-agentic-ai-html",
+          "selector": null
+        },
+        {
+          "slug": "ai-html",
+          "selector": null
+        },
+        {
+          "slug": "careers-benefits-html",
+          "selector": null
+        },
+        {
+          "slug": "careers-html",
+          "selector": null
+        },
+        {
+          "slug": "cloud-html",
+          "selector": null
+        },
+        {
+          "slug": "community-html",
+          "selector": null
+        },
+        {
+          "slug": "community-snug-html",
+          "selector": null
+        },
+        {
+          "slug": "company-acquisitions-html",
+          "selector": null
+        },
+        {
+          "slug": "company-contact-synopsys-html",
+          "selector": null
+        },
+        {
+          "slug": "company-corporate-governance-ethics-html",
+          "selector": null
+        },
+        {
+          "slug": "company-executive-briefing-center-html",
+          "selector": null
+        },
+        {
+          "slug": "company-html",
+          "selector": null
+        },
+        {
+          "slug": "company-legal-privacy-policy-html",
+          "selector": null
+        },
+        {
+          "slug": "company-responsible-business-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-interface-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "events-virtual-prototyping-day-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-fusion-design-platform-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "manufacturing-html",
+          "selector": null
+        },
+        {
+          "slug": "partners-html",
+          "selector": null
+        },
+        {
+          "slug": "resources-mastering-ai-chip-complexity-ebook-html",
+          "selector": null
+        },
+        {
+          "slug": "services-design-services-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-automotive-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-hpc-data-center-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multi-die-design-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multiphysics-fusion-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-silicon-lifecycle-management-html",
+          "selector": null
+        },
+        {
+          "slug": "startup-innovation-html",
+          "selector": null
+        },
+        {
+          "slug": "success-stories-electronics-digital-twins-volvo-cars-html",
+          "selector": null
+        },
+        {
+          "slug": "success-stories-intel-self-timed-sram-timing-verification-nanotime-html",
+          "selector": null
+        },
+        {
+          "slug": "support-global-support-centers-html",
+          "selector": null
+        },
+        {
+          "slug": "support-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-emulation-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-simulation-vcs-html",
+          "selector": null
+        },
+        {
+          "slug": "webinars-deep-dive-synopsys-ai-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 42,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-e5adff",
+      "name": "anchor-nav",
+      "description": "In-page anchor navigation strip (Overview \u00b7 Key Benefits \u00b7 \u2026 ) with dark \"Get Started\" button",
+      "signal": "ctas[Get Started]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "items",
+          "type": "link[]",
+          "required": false
+        },
+        {
+          "name": "cta",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "ai-agentic-ai-html",
+          "selector": null
+        },
+        {
+          "slug": "ai-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-interface-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "glossary-what-are-chiplets-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-fusion-design-platform-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "manufacturing-html",
+          "selector": null
+        },
+        {
+          "slug": "services-design-services-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-automotive-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-hpc-data-center-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multi-die-design-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multiphysics-fusion-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-silicon-lifecycle-management-html",
+          "selector": null
+        },
+        {
+          "slug": "startup-innovation-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-emulation-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-simulation-vcs-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 21,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-a7c50d",
+      "name": "key-benefits",
+      "description": "3-up icon + title + copy feature tiles under an h2 \"Key Benefits\"",
+      "signal": "headings[h2=Key Benefits]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "heading",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "items[].icon",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "items[].title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "items[].copy",
+          "type": "text",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "ai-agentic-ai-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-fusion-design-platform-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "manufacturing-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-automotive-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-hpc-data-center-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multi-die-design-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-simulation-vcs-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 12,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-8f2691",
+      "name": "whats-new-carousel",
+      "description": "Resource card carousel (image, type chip, title, date, link) under \"What's New\"",
+      "signal": "headings[h2 startswith What's New]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "heading",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].image",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "cards[].label",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].date",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].link",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "ai-html",
+          "selector": null
+        },
+        {
+          "slug": "cloud-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-interface-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-fusion-design-platform-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "index",
+          "selector": null
+        },
+        {
+          "slug": "solutions-automotive-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multi-die-design-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-emulation-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 14,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-51463c",
+      "name": "resources-carousel",
+      "description": "Resource card carousel under h2 \"Resources\" inside main (white paper / blog chips, Download / Learn More links)",
+      "signal": "headings[h2=Resources]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "heading",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].label",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].link",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "academic-research-html",
+          "selector": null
+        },
+        {
+          "slug": "ai-agentic-ai-html",
+          "selector": null
+        },
+        {
+          "slug": "ai-html",
+          "selector": null
+        },
+        {
+          "slug": "company-contact-synopsys-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-interface-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "manufacturing-html",
+          "selector": null
+        },
+        {
+          "slug": "services-design-services-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-hpc-data-center-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multiphysics-fusion-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-silicon-lifecycle-management-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-emulation-prototyping-emulation-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-simulation-vcs-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 15,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-9a0764",
+      "name": "continue-reading",
+      "description": "Three related-article cards under h2 \"Continue Reading\" (image, read time, title, author, tags, Read Article link)",
+      "signal": "headings[h2=Continue Reading]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "cards[].image",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "cards[].meta",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].author",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cards[].tags",
+          "type": "text[]",
+          "required": false
+        },
+        {
+          "name": "cards[].link",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "articles-multi-die-design-3d-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "blogs-chip-design-electronics-digital-twin-platform-html",
+          "selector": null
+        },
+        {
+          "slug": "blogs-chip-design-multiphysics-chip-design-challenges-html",
+          "selector": null
+        },
+        {
+          "slug": "blogs-chip-design-software-defined-hardware-assisted-verification-html",
+          "selector": null
+        },
+        {
+          "slug": "company-acquisitions-html",
+          "selector": null
+        },
+        {
+          "slug": "company-corporate-governance-ethics-html",
+          "selector": null
+        },
+        {
+          "slug": "glossary-what-is-electronic-design-automation-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 7,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-b57e22",
+      "name": "connect-with-us-band",
+      "description": "Full-bleed purple gradient CTA band \"Connect with Us\" with white outlined Contact Sales button",
+      "signal": "body[Connect with Us] + ctas[Contact Sales]",
+      "confidence": "medium",
+      "slots": [
+        {
+          "name": "heading",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "cta",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "academic-research-html",
+          "selector": null
+        },
+        {
+          "slug": "authors-html",
+          "selector": null
+        },
+        {
+          "slug": "community-html",
+          "selector": null
+        },
+        {
+          "slug": "community-snug-html",
+          "selector": null
+        },
+        {
+          "slug": "company-contact-synopsys-html",
+          "selector": null
+        },
+        {
+          "slug": "company-corporate-governance-ethics-html",
+          "selector": null
+        },
+        {
+          "slug": "company-html",
+          "selector": null
+        },
+        {
+          "slug": "company-responsible-business-html",
+          "selector": null
+        },
+        {
+          "slug": "glossary-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-fusion-design-platform-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "index",
+          "selector": null
+        },
+        {
+          "slug": "manufacturing-html",
+          "selector": null
+        },
+        {
+          "slug": "partners-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-automotive-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-hpc-data-center-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multi-die-design-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multiphysics-fusion-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-silicon-lifecycle-management-html",
+          "selector": null
+        },
+        {
+          "slug": "success-stories-html",
+          "selector": null
+        },
+        {
+          "slug": "success-stories-view-all-html",
+          "selector": null
+        },
+        {
+          "slug": "support-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-html",
+          "selector": null
+        },
+        {
+          "slug": "verification-simulation-vcs-html",
+          "selector": null
+        },
+        {
+          "slug": "webinars-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 28,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-e7a477",
+      "name": "icon-tile-grid",
+      "description": "Grid of purple line-icon tiles: icon, title, copy, purple button (3-col)",
+      "signal": "ctas[Learn More] x>=3 + headings h2/h3 tiles",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "items[].icon",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "items[].title",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "items[].copy",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "items[].cta",
+          "type": "link",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "community-html",
+          "selector": null
+        },
+        {
+          "slug": "company-contact-synopsys-html",
+          "selector": null
+        },
+        {
+          "slug": "company-corporate-governance-ethics-html",
+          "selector": null
+        },
+        {
+          "slug": "company-html",
+          "selector": null
+        },
+        {
+          "slug": "company-responsible-business-html",
+          "selector": null
+        },
+        {
+          "slug": "designware-ip-interface-ip-html",
+          "selector": null
+        },
+        {
+          "slug": "implementation-and-signoff-signoff-primetime-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-silicon-lifecycle-management-html",
+          "selector": null
+        },
+        {
+          "slug": "support-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 9,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-25fd2c",
+      "name": "partner-logo-row",
+      "description": "Row of grey partner logos under h2 \"Ecosystem Partners\"",
+      "signal": "headings[h2=Ecosystem Partners] + imgs[partner-logo]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "heading",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "logos[]",
+          "type": "image",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "index",
+          "selector": null
+        },
+        {
+          "slug": "services-design-services-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-hpc-data-center-html",
+          "selector": null
+        },
+        {
+          "slug": "solutions-multi-die-design-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 4,
+      "status": "candidate"
+    },
+    {
+      "id": "candidate-525de5",
+      "name": "glossary-definition",
+      "description": "Glossary article: h1 question, \"Definition\" h2, h6 term list, related start-guide promo",
+      "signal": "headings[h2=Definition]",
+      "confidence": "high",
+      "slots": [
+        {
+          "name": "question",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "definition",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "terms[]",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "promo",
+          "type": "card",
+          "required": false
+        }
+      ],
+      "instances": [
+        {
+          "slug": "glossary-what-are-chiplets-html",
+          "selector": null
+        },
+        {
+          "slug": "glossary-what-is-electronic-design-automation-html",
+          "selector": null
+        }
+      ],
+      "instanceCount": 2,
+      "status": "candidate"
+    }
+  ]
+}

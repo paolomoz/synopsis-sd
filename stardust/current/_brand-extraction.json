@@ -1,0 +1,1357 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-09T15:10:48Z",
+    "stardustVersion": "0.19.8",
+    "readArtifacts": [
+      "stardust/current/pages/*.json (64)",
+      "stardust/current/_style-samples.json (12 pages, computed styles + font intercept)",
+      "stardust/current/pages/index.html (logo, nav DOM)"
+    ],
+    "synthesizedInputs": [],
+    "notes": [
+      "palette clustered at \u0394E<5 over 12 style-sampled pages; 3 minor clusters dropped: #80539c, #d9d9d9, #444444",
+      "type ramp is mode-of-computed-styles per tag; h1 absent on home (hero uses p.48px), present on interior pages",
+      "system-component detection: header/footer from landmark samples on 12 pages + heading/CTA repeats over all 64 records (crawl.mjs does not emit per-landmark fingerprints)",
+      "register brand: marketing landing register, no auth, hero + CTA + partner logos above the fold"
+    ]
+  },
+  "site": {
+    "name": "Synopsys",
+    "tagline": "Powering the Era of Pervasive Intelligence from Silicon to Systems",
+    "originUrl": "https://www.synopsys.com"
+  },
+  "origins": [
+    {
+      "origin": "https://www.synopsys.com",
+      "role": "primary",
+      "pagesCaptured": 64,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "inline-svg",
+    "sourceSelector": "div.component-nav-top a.logo > svg[aria-label=\"Synopsys\"]",
+    "localPath": "stardust/current/assets/logo.svg",
+    "viewBox": "0 0 276.32 60.13",
+    "renderedWidth": 166,
+    "variants": {
+      "header": "purple inline SVG",
+      "footer": "white raster https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo",
+      "utilityBar": "small white wordmark + Ansys co-brand"
+    }
+  },
+  "favicon": {
+    "localPath": "stardust/current/assets/favicon.ico",
+    "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/images/favicon.ico"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 1024,
+      "areaPx": 50405626,
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "sourceSelectors": [
+        "div.site-wrapper",
+        "a",
+        "div.social-icons-wrapper.d-flex",
+        "h3"
+      ],
+      "sources": [
+        "index",
+        "verification-html",
+        "solutions-automotive-html"
+      ],
+      "clusterMembers": [
+        "#ffffff",
+        "#f7f7fa"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#111c24",
+      "occurrences": 637,
+      "areaPx": 20310678,
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "sourceSelectors": [
+        "footer.site-footer",
+        "span.main-nav-item-header",
+        "p",
+        "span"
+      ],
+      "sources": [
+        "glossary-what-are-chiplets-html",
+        "solutions-automotive-html",
+        "blogs-chip-design-multiphysics-chip-design-challenges-html"
+      ],
+      "clusterMembers": [
+        "#111c24"
+      ]
+    },
+    {
+      "role": "accent-1",
+      "value": "#555555",
+      "occurrences": 248,
+      "areaPx": 869814,
+      "usedAs": [
+        "border",
+        "text"
+      ],
+      "sourceSelectors": [
+        "button.slick-prev.slick-arrow",
+        "button.slick-next.slick-arrow",
+        "div.date-time",
+        "a"
+      ],
+      "sources": [
+        "glossary-what-are-chiplets-html",
+        "blogs-chip-design-html",
+        "blogs-chip-design-multiphysics-chip-design-challenges-html"
+      ],
+      "clusterMembers": [
+        "#555555"
+      ]
+    },
+    {
+      "role": "link",
+      "value": "#316aca",
+      "occurrences": 144,
+      "areaPx": 635123,
+      "usedAs": [
+        "text"
+      ],
+      "sourceSelectors": [
+        "a",
+        "a.topLink"
+      ],
+      "sources": [
+        "company-management-team-html",
+        "verification-html",
+        "solutions-automotive-html"
+      ],
+      "clusterMembers": [
+        "#316aca"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#7e45af",
+      "occurrences": 115,
+      "areaPx": 274049,
+      "usedAs": [
+        "background"
+      ],
+      "sourceSelectors": [
+        "a.component-button.primary",
+        "a.component-button.m-0",
+        "div.label-wrapper"
+      ],
+      "sources": [
+        "company-contact-synopsys-html",
+        "index",
+        "verification-html"
+      ],
+      "clusterMembers": [
+        "#7e45af"
+      ]
+    },
+    {
+      "role": "primary-dark",
+      "value": "#5a2a82",
+      "occurrences": 90,
+      "areaPx": 3270615,
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "sourceSelectors": [
+        "h2.title.text-size-normal",
+        "h1.ui-helper-hidden-accessible",
+        "h3.ui-helper-hidden-accessible",
+        "h2.title.text-size-smaller"
+      ],
+      "sources": [
+        "company-contact-synopsys-html",
+        "company-management-team-html",
+        "glossary-what-are-chiplets-html"
+      ],
+      "clusterMembers": [
+        "#5a2a82"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#c4c4c4",
+      "occurrences": 52,
+      "areaPx": 35494,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "sourceSelectors": [
+        "div",
+        "hr.separator",
+        "input.mktoField.mktoTextField",
+        "select.mktoField.mktoHasWidth"
+      ],
+      "sources": [
+        "glossary-what-are-chiplets-html",
+        "solutions-automotive-html",
+        "success-stories-electronics-digital-twins-volvo-cars-html"
+      ],
+      "clusterMembers": [
+        "#c4c4c4",
+        "#c3c3c3",
+        "#bcc3ca"
+      ]
+    },
+    {
+      "role": "accent-3",
+      "value": "#cc0000",
+      "occurrences": 18,
+      "areaPx": 2024,
+      "usedAs": [
+        "border",
+        "text"
+      ],
+      "sourceSelectors": [
+        "div.mktoAsterix",
+        "strong",
+        "input.mktoField.mktoEmailField"
+      ],
+      "sources": [
+        "webinars-deep-dive-synopsys-ai-html",
+        "success-stories-electronics-digital-twins-volvo-cars-html",
+        "blogs-chip-design-multiphysics-chip-design-challenges-html"
+      ],
+      "clusterMembers": [
+        "#cc0000"
+      ]
+    },
+    {
+      "role": "accent-4",
+      "value": "#efefef",
+      "occurrences": 13,
+      "areaPx": 2,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "sourceSelectors": [
+        "button.border-gradient-ask.spin",
+        "input.mktoField.mktoEmailField",
+        "select.mktoField.mktoHasWidth"
+      ],
+      "sources": [
+        "blogs-chip-design-multiphysics-chip-design-challenges-html",
+        "verification-simulation-vcs-html",
+        "index"
+      ],
+      "clusterMembers": [
+        "#efefef",
+        "#e3e3e3"
+      ]
+    },
+    {
+      "role": "accent-5",
+      "value": "#171917",
+      "occurrences": 12,
+      "areaPx": 915840,
+      "usedAs": [
+        "background"
+      ],
+      "sourceSelectors": [
+        "div.container-fluid.pre-header"
+      ],
+      "sources": [
+        "verification-simulation-vcs-html",
+        "index",
+        "verification-html"
+      ],
+      "clusterMembers": [
+        "#171917"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Roboto",
+      "stack": "'Roboto',Arial,sans-serif",
+      "weights": [
+        300,
+        400
+      ],
+      "sizes": [
+        "60px",
+        "24px",
+        "18px",
+        "20px"
+      ],
+      "lineHeights": [
+        "66px",
+        "26.4px",
+        "19.8px",
+        "23px"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Roboto",
+      "stack": "'Roboto',Arial,sans-serif",
+      "weights": [
+        300,
+        400
+      ],
+      "sizes": [
+        "16px",
+        "14px",
+        "14px"
+      ],
+      "lineHeights": [
+        "25.6px",
+        "14px",
+        "14px"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        "a"
+      ]
+    },
+    "monoFamily": null,
+    "familiesObserved": {
+      "Roboto": 1872,
+      "Helvetica": 9
+    },
+    "ramp": {
+      "h1": {
+        "samples": 10,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "60px",
+            "weight": "300",
+            "lineHeight": "66px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 6
+          },
+          {
+            "family": "Roboto",
+            "size": "44px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 2
+          },
+          {
+            "family": "Roboto",
+            "size": "30px",
+            "weight": "300",
+            "lineHeight": "42px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 1
+          }
+        ]
+      },
+      "h2": {
+        "samples": 107,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "24px",
+            "weight": "300",
+            "lineHeight": "26.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 38
+          },
+          {
+            "family": "Roboto",
+            "size": "32px",
+            "weight": "300",
+            "lineHeight": "35.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 32
+          },
+          {
+            "family": "Roboto",
+            "size": "32px",
+            "weight": "300",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 13
+          }
+        ]
+      },
+      "h3": {
+        "samples": 56,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "18px",
+            "weight": "400",
+            "lineHeight": "19.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 48
+          },
+          {
+            "family": "Roboto",
+            "size": "34px",
+            "weight": "300",
+            "lineHeight": "37.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 8
+          }
+        ]
+      },
+      "h4": {
+        "samples": 105,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "20px",
+            "weight": "400",
+            "lineHeight": "23px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 60
+          },
+          {
+            "family": "Roboto",
+            "size": "20px",
+            "weight": "400",
+            "lineHeight": "22px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 31
+          },
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "300",
+            "lineHeight": "22.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 14
+          }
+        ]
+      },
+      "h6": {
+        "samples": 12,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "22px",
+            "weight": "300",
+            "lineHeight": "24.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 12
+          }
+        ]
+      },
+      "p": {
+        "samples": 166,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "300",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 93
+          },
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "300",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 26
+          },
+          {
+            "family": "Roboto",
+            "size": "14px",
+            "weight": "300",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 8
+          }
+        ]
+      },
+      "li": {
+        "samples": 450,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "14px",
+            "weight": "300",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 265
+          },
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "17.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 60
+          },
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "300",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 48
+          }
+        ]
+      },
+      "a": {
+        "samples": 400,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "14px",
+            "weight": "300",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 119
+          },
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "16px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 62
+          },
+          {
+            "family": "Roboto",
+            "size": "16px",
+            "weight": "300",
+            "lineHeight": "25.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 39
+          }
+        ]
+      },
+      "button": {
+        "samples": 73,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "18px",
+            "weight": "300",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 14
+          },
+          {
+            "family": "Roboto",
+            "size": "20px",
+            "weight": "300",
+            "lineHeight": "32px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 14
+          },
+          {
+            "family": "Roboto",
+            "size": "14px",
+            "weight": "600",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 12
+          }
+        ]
+      },
+      "label": {
+        "samples": 18,
+        "variants": [
+          {
+            "family": "Roboto",
+            "size": "12px",
+            "weight": "400",
+            "lineHeight": "12px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 16
+          },
+          {
+            "family": "Helvetica",
+            "size": "12px",
+            "weight": "400",
+            "lineHeight": "14.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "count": 2
+          }
+        ]
+      }
+    },
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        2.5,
+        1.333,
+        0.9
+      ],
+      "matchedScale": null,
+      "basis": "mode font-size of h1\u2192h4 across 12 sampled pages"
+    },
+    "loadStrategy": "truetype @font-face, no font-display observed",
+    "fontFaceRules": [
+      {
+        "family": "Roboto",
+        "css": "@font-face { font-family: Roboto; src: url(\"synopsys-pagelibs/resources/fonts/Roboto/Roboto-Bold.ttf\") format(\"truetype\"); font-weight: 700; font-style: normal; font-display: swap; }"
+      },
+      {
+        "family": "Roboto",
+        "css": "@font-face { font-family: Roboto; src: url(\"synopsys-pagelibs/resources/fonts/Roboto/Roboto-Medium.ttf\") format(\"truetype\"); font-weight: 500; font-style: normal; font-display: swap; }"
+      },
+      {
+        "family": "Roboto",
+        "css": "@font-face { font-family: Roboto; src: url(\"synopsys-pagelibs/resources/fonts/Roboto/Roboto-Regular.ttf\") format(\"truetype\"); font-weight: 400; font-style: normal; font-display: swap; }"
+      },
+      {
+        "family": "Roboto",
+        "css": "@font-face { font-family: Roboto; src: url(\"synopsys-pagelibs/resources/fonts/Roboto/Roboto-Light.ttf\") format(\"truetype\"); font-weight: 300; font-style: normal; font-display: swap; }"
+      },
+      {
+        "family": "Roboto",
+        "css": "@font-face { font-family: Roboto; src: url(\"synopsys-blogs/resources/fonts/Roboto/Roboto-Bold.ttf\") format(\"truetype\"); font-weight: 700; font-style: normal; font-display: swap; }"
+      },
+      {
+        "family": "Roboto",
+        "css": "@font-face { font-family: Roboto; src: url(\"synopsys-blogs/resources/fonts/Roboto/Roboto-Medium.ttf\") format(\"truetype\"); font-weight: 500; font-style: normal; font-display: swap; }"
+      }
+    ],
+    "files": [
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Regular.ttf",
+        "family": "Roboto",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Regular.ttf",
+        "bytes": 162876,
+        "format": "truetype",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Light.ttf",
+        "family": "Roboto",
+        "weight": 300,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Light.ttf",
+        "bytes": 162420,
+        "format": "truetype",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Bold.ttf",
+        "family": "Roboto",
+        "weight": 700,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Bold.ttf",
+        "bytes": 162464,
+        "format": "truetype",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Medium.ttf",
+        "family": "Roboto",
+        "weight": 500,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Medium.ttf",
+        "bytes": 162588,
+        "format": "truetype",
+        "licensingFlag": "open"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "basis": "section paddings and grid gutters observed as multiples of 8px in sampled pages (Bootstrap-derived grid)",
+    "containers": [
+      {
+        "maxWidth": "1900px",
+        "count": 52,
+        "selectors": [
+          "div.site-wrapper",
+          "div.component-nav-top",
+          "footer.site-footer"
+        ]
+      },
+      {
+        "maxWidth": "1170px",
+        "count": 26,
+        "selectors": [
+          "div.nav-top-wrapper.d-flex",
+          "div.cmp-carousel__content.carousel-list-holder",
+          "div.breadcrumb"
+        ]
+      },
+      {
+        "maxWidth": "1660px",
+        "count": 12,
+        "selectors": [
+          "div.container"
+        ]
+      },
+      {
+        "maxWidth": "1168px",
+        "count": 3,
+        "selectors": [
+          "atomic-search-box.atomicSearchbox.hydrated",
+          "atomic-search-layout.hydrated"
+        ]
+      },
+      {
+        "maxWidth": "750px",
+        "count": 1,
+        "selectors": [
+          "section.component-column.row"
+        ]
+      }
+    ],
+    "sectionPadding": [
+      [
+        "10px/0px",
+        4
+      ],
+      [
+        "20px/20px",
+        2
+      ],
+      [
+        "30px/30px",
+        1
+      ],
+      [
+        "60px/60px",
+        1
+      ]
+    ]
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "5px",
+      "secondary": "3px",
+      "pill": "9999px",
+      "occurrences": [
+        {
+          "value": "5px",
+          "count": 119,
+          "selectors": [
+            "a.component-button.m-0",
+            "select.global-nav-link-select",
+            "div.component-button.primary"
+          ]
+        },
+        {
+          "value": "3px",
+          "count": 69,
+          "selectors": [
+            "div.label-wrapper",
+            "input.mktoField.mktoTextField",
+            "input.mktoField.mktoEmailField"
+          ]
+        },
+        {
+          "value": "9999px",
+          "count": 24,
+          "selectors": [
+            "button.btn.btn-default",
+            "button.d-flex.align-items-center"
+          ]
+        },
+        {
+          "value": "50px",
+          "count": 23,
+          "selectors": [
+            "div.profile-circle.two",
+            "div.profile-circle.one"
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 10,
+          "selectors": [
+            "button.slick-prev.slick-arrow",
+            "button.slick-next.slick-arrow"
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 4,
+          "selectors": [
+            "section.snps-aem-mktoForm",
+            "button.mktoButton"
+          ]
+        },
+        {
+          "value": "7px",
+          "count": 2,
+          "selectors": [
+            "a.cmp-tableofcontents__scroll-to-top.visible"
+          ]
+        },
+        {
+          "value": "60px",
+          "count": 1,
+          "selectors": [
+            "button.pause-btn"
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.15) 0px 1px 7px 0px",
+        "count": 91,
+        "selectors": [
+          "section.component-assetcard.no-link",
+          "div.component-card-b.no-link"
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+        "count": 17,
+        "selectors": [
+          "div.component-nav-top",
+          "div.blog-sub-nav-container",
+          "section.component-solutioncard.component-textcomp"
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.22) 0px 0px 10px 0px",
+        "count": 2,
+        "selectors": [
+          "section.snps-aem-mktoForm"
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(107.7deg, rgb(45, 21, 65) 0px, rgb(90, 42, 130) 50%, rgb(126, 69, 175) 100%)",
+        "count": 13
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 28%, rgb(0, 0, 0) 100%)",
+        "count": 4
+      },
+      {
+        "value": "linear-gradient(to right, rgb(126, 69, 175) 0%, rgb(255, 255, 255) 0%)",
+        "count": 2
+      },
+      {
+        "value": "linear-gradient(to right, rgb(90, 42, 130), rgb(113, 71, 148), rgb(149, 110, 182))",
+        "count": 2
+      }
+    ],
+    "patterns": [
+      "full-bleed purple gradient hero band (page-title hero)",
+      "breadcrumb row over hero",
+      "icon + title + copy feature tiles (3-up)",
+      "resource card carousel with type label chip",
+      "purple \"Connect with Us\" CTA band above footer",
+      "four-column dark footer with social row",
+      "utility bar (Synopsys | Ansys) above main nav"
+    ]
+  },
+  "componentStyle": {
+    "buttons": [
+      {
+        "backgroundColor": "#7e45af",
+        "textColor": "#ffffff",
+        "radius": "5px",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "padding": "0px 24px",
+        "height": 40,
+        "border": "0px none rgb(255, 255, 255)",
+        "example": "Contact Sales",
+        "count": 29
+      },
+      {
+        "backgroundColor": null,
+        "textColor": "#ffffff",
+        "radius": "9999px",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "padding": "0px 14px",
+        "height": 36,
+        "border": "2px solid rgba(0, 0, 0, 0)",
+        "example": "English",
+        "count": 24
+      },
+      {
+        "backgroundColor": null,
+        "textColor": "#111c24",
+        "radius": "5px",
+        "fontSize": "20px",
+        "fontWeight": "300",
+        "padding": "8px 24px 8px 8px",
+        "height": 38,
+        "border": "0px none rgb(17, 28, 36)",
+        "example": "How can Synopsys help me define and opti",
+        "count": 14
+      },
+      {
+        "backgroundColor": "#efefef",
+        "textColor": "#ffffff",
+        "radius": "9999px",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "padding": "0px",
+        "height": 54,
+        "border": "4px solid rgba(0, 0, 0, 0)",
+        "example": "Ask a Question",
+        "count": 11
+      },
+      {
+        "backgroundColor": null,
+        "textColor": "#ffffff",
+        "radius": "0px",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "padding": "14px 0px 0px",
+        "height": 59,
+        "border": "0px none rgb(255, 255, 255)",
+        "example": "Introducing Synopsys Physical AI Solutio",
+        "count": 5
+      },
+      {
+        "backgroundColor": "#111c24",
+        "textColor": "#ffffff",
+        "radius": "5px",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "padding": "0px 24px",
+        "height": 40,
+        "border": "0px none rgb(255, 255, 255)",
+        "example": "Get Started",
+        "count": 4
+      }
+    ]
+  },
+  "systemComponents": [
+    {
+      "name": "utility-bar",
+      "kind": "header",
+      "occurrences": 64,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Synopsys",
+        "Ansys",
+        "English",
+        "Ask"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "div.pre-header",
+      "examplePages": [
+        "academic-research-html",
+        "ai-agentic-ai-html",
+        "ai-html"
+      ],
+      "notes": "black bar; Synopsys | Ansys co-brand, language switch, \"Ask\" AI concierge"
+    },
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 64,
+      "headingSequence": [
+        "Why Synopsys",
+        "Solutions",
+        "Products",
+        "Support & Training",
+        "Resources"
+      ],
+      "ctaLabels": [
+        "Contact Sales"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "div.component-nav-top",
+      "examplePages": [
+        "academic-research-html",
+        "ai-agentic-ai-html",
+        "ai-html"
+      ],
+      "notes": "white bar, inline-SVG purple logo (166px), 5 mega-menu items, search icon, purple Contact Sales button"
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 46,
+      "headingSequence": [
+        "Home",
+        "\u2026"
+      ],
+      "ctaLabels": [],
+      "exampleSlug": "verification-html",
+      "exampleSelector": ".breadcrumb",
+      "examplePages": [
+        "verification-html",
+        "verification-simulation-vcs-html",
+        "company-management-team-html"
+      ]
+    },
+    {
+      "name": "connect-with-us-band",
+      "kind": "cta-band",
+      "occurrences": 28,
+      "headingSequence": [
+        "Connect with Us"
+      ],
+      "ctaLabels": [
+        "Contact Sales"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "section.component-banner",
+      "examplePages": [
+        "academic-research-html",
+        "authors-html",
+        "community-html",
+        "community-snug-html",
+        "company-contact-synopsys-html"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 12,
+      "headingSequence": [
+        "Company",
+        "Resources",
+        "Trending",
+        "Learn"
+      ],
+      "ctaLabels": [
+        "About Us",
+        "Careers",
+        "Privacy",
+        "Cookie Settings"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "footer.site-footer",
+      "examplePages": [
+        "academic-research-html",
+        "ai-agentic-ai-html",
+        "ai-html"
+      ],
+      "notes": "dark (#111c24) 4-column footer: Company / Resources / Trending / Learn, language dropdown, social row, white wordmark, legal line"
+    },
+    {
+      "name": "background-motif-ee5bfe",
+      "kind": "background-motif",
+      "occurrences": 63,
+      "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "examplePages": [
+        "academic-research-html",
+        "ai-agentic-ai-html",
+        "ai-html",
+        "articles-ai-powered-analog-design-html",
+        "articles-html",
+        "articles-multi-die-design-3d-ip-html"
+      ]
+    },
+    {
+      "name": "background-motif-9888dd",
+      "kind": "background-motif",
+      "occurrences": 3,
+      "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/81218db6-6d7d-429d-8431-46f7ce3b058f/64698c02-997f-4d81-9c71-4ef64a5c4a74/1920x1080/match/image.jpg",
+      "examplePages": [
+        "blogs-chip-design-software-defined-hardware-assisted-verification-html",
+        "verification-emulation-prototyping-emulation-html",
+        "verification-emulation-prototyping-html"
+      ]
+    },
+    {
+      "name": "background-motif-ccc280",
+      "kind": "background-motif",
+      "occurrences": 2,
+      "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/9ac0c745-7b57-4011-b0e1-dd4b359b1011/cc58b9cc-90b0-4f5b-a802-9f678acea901/1920x1080/match/image.jpg",
+      "examplePages": [
+        "verification-emulation-prototyping-emulation-html",
+        "verification-emulation-prototyping-html"
+      ]
+    }
+  ],
+  "iconFont": {
+    "family": "Font Awesome 6",
+    "evidence": "--fa-font-* custom properties on every page",
+    "file": null,
+    "table": null,
+    "notes": "FA6 declared via tokens; brand icons are SVG line icons (purple stroke) in /content/dam/synopsys/top-nav-icons/"
+  },
+  "voice": {
+    "heroHeadline": "Introducing Synopsys Physical AI Solutions",
+    "heroSubcopy": "Accelerate Physical AI development with trusted simulation",
+    "heroHeadlineBasis": "home carousel slide 1 (screenshot + body[]); site h1 absent on home \u2014 tagline h2 \"Powering the Era of Pervasive Intelligence from Silicon to Systems\"",
+    "siteTagline": "Powering the Era of Pervasive Intelligence from Silicon to Systems",
+    "heroImage": {
+      "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "source": "css-background (video poster)",
+      "domPath": "section.component-banner.carousel-wrapper-hp",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 700
+      }
+    },
+    "heroMedium": {
+      "kind": "video",
+      "mechanism": "brightcove (video.js) background video, autoplay/loop, blob: src",
+      "src": null,
+      "poster": null,
+      "domPath": "section.cmp-carousel.carousel-holder video",
+      "loader": "video.js / Brightcove",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 700
+      }
+    },
+    "primaryCTALabel": "Contact Sales",
+    "ctaSamples": [
+      "Contact Sales",
+      "Services",
+      "English",
+      "Ask",
+      "Search Synopsys.com",
+      "Careers",
+      "Corporate Governance & Ethics",
+      "Investor Relations",
+      "Strategic Acquisitions",
+      "Responsible Business",
+      "Executive Briefing Center",
+      "Solutions"
+    ],
+    "navItems": [
+      "Why Synopsys",
+      "Solutions",
+      "Products",
+      "Support & Training",
+      "Resources"
+    ],
+    "footerHeadings": [
+      "Company",
+      "Resources",
+      "Trending",
+      "Learn"
+    ],
+    "firstParagraph": "Explore the Synopsys Support Community! Login is required. View our service offerings as well.",
+    "tone": {
+      "guess": "technical-precise",
+      "evidence": "noun-heavy product names with \u2122/\u00ae, benefit triads (\"Supercharge Productivity \u00b7 Conquer Complexity \u00b7 Accelerate Time-to-Market\"), third-person corporate voice, few contractions"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Contact Sales",
+        "count": 90
+      },
+      {
+        "label": "Services",
+        "count": 64
+      },
+      {
+        "label": "English",
+        "count": 63
+      },
+      {
+        "label": "Ask",
+        "count": 63
+      },
+      {
+        "label": "Search Synopsys.com",
+        "count": 63
+      },
+      {
+        "label": "Careers",
+        "count": 63
+      },
+      {
+        "label": "Corporate Governance & Ethics",
+        "count": 63
+      },
+      {
+        "label": "Investor Relations",
+        "count": 63
+      },
+      {
+        "label": "Strategic Acquisitions",
+        "count": 63
+      },
+      {
+        "label": "Responsible Business",
+        "count": 62
+      },
+      {
+        "label": "Executive Briefing Center",
+        "count": 62
+      },
+      {
+        "label": "Solutions",
+        "count": 62
+      },
+      {
+        "label": "About Us",
+        "count": 61
+      },
+      {
+        "label": "Ecosystem Partners",
+        "count": 61
+      },
+      {
+        "label": "Leadership",
+        "count": 61
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "Resources",
+        "pages": 64
+      },
+      {
+        "text": "Company",
+        "pages": 64
+      },
+      {
+        "text": "Learn",
+        "pages": 64
+      },
+      {
+        "text": "Trending",
+        "pages": 63
+      },
+      {
+        "text": "Key Benefits",
+        "pages": 12
+      },
+      {
+        "text": "What's New",
+        "pages": 12
+      },
+      {
+        "text": "Continue Reading",
+        "pages": 7
+      },
+      {
+        "text": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "pages": 6
+      },
+      {
+        "text": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "pages": 5
+      },
+      {
+        "text": "Frequently Asked Questions",
+        "pages": 3
+      },
+      {
+        "text": "Multi-Die Start Guide",
+        "pages": 3
+      },
+      {
+        "text": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+        "pages": 4
+      },
+      {
+        "text": "Ecosystem Partners",
+        "pages": 4
+      },
+      {
+        "text": "FAQ",
+        "pages": 3
+      },
+      {
+        "text": "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects",
+        "pages": 3
+      }
+    ],
+    "toneMetrics": {
+      "headingsUppercasePercent": 0.0,
+      "distinctHeadings": 746,
+      "distinctCtaLabels": 1128
+    }
+  },
+  "crossPromo": {
+    "detected": true,
+    "kind": "footer-trending+learn",
+    "anchorHeading": "Trending",
+    "clusterHeadings": [
+      "Learn"
+    ],
+    "notes": "footer carries a Trending (5 latest blog/news) and Learn (8 glossary) cluster on every page"
+  },
+  "customProperties": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "register": "brand"
+}

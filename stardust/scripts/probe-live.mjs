@@ -1,0 +1,30 @@
+import { chromium } from 'playwright';
+const b=await chromium.launch();const ctx=await b.newContext({viewport:{width:1440,height:900},userAgent:'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'});const p=await ctx.newPage();
+await p.goto('https://www.synopsys.com/verification/simulation/vcs.html',{waitUntil:'domcontentloaded'});try{await p.locator('#onetrust-accept-btn-handler').click({timeout:6000})}catch{}
+await p.waitForTimeout(1500);
+const out=await p.evaluate(()=>{
+ const q=s=>document.querySelector(s);const cs=(e,pe)=>e?getComputedStyle(e,pe):null;const pick=(c,keys)=>c?Object.fromEntries(keys.map(k=>[k,c[k]])):null;const cn=e=>String(e.className||'').slice(0,40);
+ const R={};const t=(k,f)=>{try{R[k]=f()}catch(e){R[k]='ERR '+e.message}};
+ const hdr=q('.main-nav .main-nav-item-header');const act=q('.table-of-contents-product-layout a.activeSection');const sb=q('.nav-items-right .icon-search');
+ t('navItemHeader',()=>pick(cs(hdr),['paddingRight','position','display','width']));
+ t('navAfter',()=>pick(cs(hdr,'::after'),['content','borderTop','borderLeft','borderRight','width','height','position','right','top','display','backgroundImage','marginLeft']));
+ t('navLiChildren',()=>[...q('.main-nav .main-nav-item').children].map(c=>c.tagName+'.'+cn(c)+'|'+Math.round(c.getBoundingClientRect().width)));
+ t('navLiAfter',()=>pick(cs(q('.main-nav .main-nav-item'),'::after'),['content','display','width','borderTop','backgroundImage','marginLeft']));
+ t('searchInner',()=>[...sb.childNodes].map(n=>n.nodeType===3?'T:'+JSON.stringify(n.textContent.trim()):n.tagName+'.'+cn(n)+'|'+Math.round(n.getBoundingClientRect().width)+'x'+Math.round(n.getBoundingClientRect().height)+'|'+getComputedStyle(n).fontSize+'|'+getComputedStyle(n).position));
+ t('searchBtnStyle',()=>pick(cs(sb),['fontSize','lineHeight','fontWeight','color','textIndent','overflow','whiteSpace']));
+ t('activeA',()=>pick(cs(act),['color','backgroundColor','padding','borderRadius','fontWeight','height','width']));
+ t('activeLi',()=>pick(cs(act.parentElement),['backgroundColor','borderBottom','padding','height']));
+ t('activeAfter',()=>pick(cs(act,'::after'),['content','backgroundColor','height','bottom','position','width']));
+ t('otherA',()=>pick(cs(q('.table-of-contents-product-layout li.cmp-productsolutions__content-item:nth-child(3) a')),['color','fontWeight','backgroundColor']));
+ t('crumb2',()=>pick(cs(q('.component-breadcrumb li:nth-child(2) a.parent')),['paddingLeft','paddingRight','position','marginLeft']));
+ t('crumb2Before',()=>pick(cs(q('.component-breadcrumb li:nth-child(2) a.parent'),'::before'),['content','color','position','left','fontSize','transform','width','borderLeft','backgroundImage']));
+ t('crumbLiBefore',()=>pick(cs(q('.component-breadcrumb li:nth-child(2)'),'::before'),['content','color','fontSize','borderLeft','width','backgroundImage','marginRight']));
+ t('crumbLi',()=>pick(cs(q('.component-breadcrumb li:nth-child(2)')),['paddingLeft','marginLeft']));
+ t('copyrightSep',()=>[...q('.copyright').childNodes].map(n=>n.nodeType===3?('T:'+JSON.stringify(n.textContent)):(n.tagName+'.'+cn(n)+':'+n.textContent.trim().slice(0,20))));
+ t('copyrightChildStyle',()=>[...q('.copyright').children].map(c=>c.tagName+'|'+getComputedStyle(c).padding+'|'+getComputedStyle(c).borderLeft+'|'+Math.round(c.getBoundingClientRect().width)));
+ t('legal',()=>pick(cs(q('#legal-overlay')),['display','position','visibility']));
+ t('slides',()=>[...document.querySelectorAll('.component-assetcard')].map(s=>(s.classList.contains('slick-cloned')?'C':'R')+s.getAttribute('data-slick-index')).join(' '));
+ t('cardA',()=>{const a=q('.component-assetcard:not(.slick-cloned) .card-text > a');const svg=a.querySelector('svg');return {aW:a.getBoundingClientRect().width,svg:pick(cs(svg),['width','height','marginLeft','marginTop','display','position'])}});
+ t('track',()=>cs(q('.slick-track')).transform);
+ return R;});
+console.log(JSON.stringify(out,null,1));await b.close();

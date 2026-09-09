@@ -1,0 +1,210 @@
+/* carousel — asset-card rail (lifted: .cmp-carousel / .component-assetcard) */
+.carousel {
+  position: relative;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.carousel .carousel-list {
+  position: relative;
+  height: 293px;
+  overflow: hidden;
+}
+
+.carousel .carousel-track {
+  display: flex;
+  width: max-content;
+}
+
+.carousel .carousel-card {
+  position: relative;
+  flex: none;
+  width: 370px;
+  height: 283px;
+  margin: 5px;
+  background: #fff;
+  box-shadow: var(--shadow-card);
+}
+
+.carousel .carousel-card-text {
+  position: relative;
+  height: 283px;
+  padding: 32px 32px 53px;
+}
+
+.carousel .carousel-label {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.carousel .carousel-label p {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: var(--purple);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.carousel .carousel-label p strong {
+  font-weight: 400;
+}
+
+.carousel .carousel-card-body :is(h2, h3, h4) {
+  margin: 20px 0;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.carousel .carousel-card-body p {
+  margin: 0 0 32px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.carousel .carousel-cta {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+
+.carousel .carousel-cta p {
+  margin: 0;
+}
+
+.carousel .carousel-cta a:any-link {
+  display: inline-flex;
+  align-items: center;
+  height: 16px;
+  color: var(--link);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.carousel .carousel-cta a::after {
+  content: "";
+  display: inline-block;
+  width: 7.5px;
+  height: 12px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23316aca' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.carousel .carousel-arrow {
+  position: absolute;
+  top: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+}
+
+.carousel .carousel-arrow::before {
+  content: "";
+  display: block;
+  width: 12.5px;
+  height: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23555555' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.carousel .carousel-prev::before {
+  transform: scaleX(-1);
+}
+
+.carousel .carousel-prev { left: -80px; }
+.carousel .carousel-next { right: -80px; }
+
+.carousel .carousel-dots {
+  display: flex;
+  justify-content: center;
+  height: 8px;
+  max-width: 342px;
+  margin: 28px auto 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel .carousel-dots li {
+  position: relative;
+  width: 50px;
+  height: 8px;
+  margin-right: 8px;
+  padding: 4px 0;
+}
+
+.carousel .carousel-dots li:last-child {
+  margin-right: 0;
+}
+
+.carousel .carousel-dots li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 3px;
+  height: 2px;
+  background: var(--grey-light);
+}
+
+.carousel .carousel-dots li.active::before {
+  background: var(--purple-dark);
+}
+
+.carousel .carousel-dots button {
+  display: block;
+  width: 100%;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  opacity: 0;
+  cursor: pointer;
+}
+
+@media (width <= 729px) {
+  .carousel {
+    padding-bottom: 24px;
+  }
+
+  .carousel .carousel-card {
+    width: 320px;
+  }
+
+  .carousel .carousel-arrow {
+    top: 313px;
+    width: 24px;
+    height: 24px;
+    box-shadow: none;
+  }
+
+  .carousel .carousel-arrow::before {
+    width: 11.25px;
+    height: 18px;
+  }
+
+  .carousel .carousel-prev { left: 30px; }
+  .carousel .carousel-next { right: 30px; }
+
+  .carousel .carousel-dots {
+    max-width: 218px;
+  }
+
+  .carousel .carousel-dots li {
+    width: 30px;
+  }
+}

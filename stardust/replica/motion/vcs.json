@@ -1,0 +1,625 @@
+{
+  "url": "https://www.synopsys.com/verification/simulation/vcs.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".slick-next",
+      "frames": [
+        {
+          "t": 17705.200000047684,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17908.89999985695,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18114.299999952316,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18319.700000047684,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".slick-dots li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 19338.39999985695,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19541.89999985695,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19747.099999904633,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19951.799999952316,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".main-nav .main-nav-item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 28, 36)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 28, 36)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".component-assetcard",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 28, 36)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.15) 0px 1px 7px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h4.heading",
+            "transform": "none",
+            "color": "rgb(17, 28, 36)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(49, 106, 202)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 28, 36)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.15) 0px 1px 7px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h4.heading",
+            "transform": "none",
+            "color": "rgb(17, 28, 36)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(49, 106, 202)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".component-button.cta",
+      "changed": [
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(126, 69, 175)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(126, 69, 175)",
+          "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 0px 99999px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".table-of-contents-product-layout li a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 28, 36)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.2s ease-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(17, 28, 36)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background 0.2s ease-out"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track",
+        "y": 1945,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 1945,
+        "dur": "0s"
+      },
+      {
+        "prop": "rotate",
+        "el": "div.nav-top-wrapper.d-flex > nav.main-nav > ul.utility-nav-enabled > li.main-nav-item.has-dropdown.active > span.main-nav-item-header",
+        "y": 1700,
+        "dur": "0s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.navList.aem-GridColumn.aem-GridColumn--default--12 > div.component-nav-list > ul.nav-list > li. > a",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.navList.aem-GridColumn.aem-GridColumn--default--12 > div.component-nav-list > ul.nav-list > li. > a",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.navList.aem-GridColumn.aem-GridColumn--default--12 > div.component-nav-list > ul.nav-list > li. > a",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "visibility",
+        "el": "section.component-topNavAd > div.cmp-video > div.cmp-video__player-container.embed-responsive.embed-responsive-16by9 > div.cmp-video__thumbnail > div.video-button-container.video-button",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.navList.aem-GridColumn.aem-GridColumn--default--12 > div.component-nav-list > ul.nav-list > li. > a",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.topNav.image.aem-GridColumn > div.component-nav-top > div.active > svg.triangle.triangle_shadow",
+        "y": 1700,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.navList.aem-GridColumn.aem-GridColumn--default--12 > div.component-nav-list > ul.nav-list > li. > a",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.topNav.image.aem-GridColumn > div.component-nav-top > div.active > svg.triangle.main",
+        "y": 1700,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.navList.aem-GridColumn.aem-GridColumn--default--12 > div.component-nav-list > ul.nav-list > li. > a",
+        "y": 1700,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "color",
+        "el": "div.nav-top-wrapper.d-flex > nav.main-nav > ul.utility-nav-enabled > li.main-nav-item.has-dropdown.active > span.main-nav-item-header",
+        "y": 1931,
+        "dur": "0s"
+      },
+      {
+        "prop": "background-image",
+        "el": "div.nav-top-wrapper.d-flex > nav.main-nav > ul.utility-nav-enabled > li.main-nav-item.has-dropdown.active > span.main-nav-item-header",
+        "y": 1931,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "makeSticky"
+        ],
+        "el": "div.root.synopsysContainer.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.synopsysContainer.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.tableOfContents.aem-GridColumn.aem-GridColumn--default--12",
+        "y": 400
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 400
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 800
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 1600
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 2000
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 800
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 500
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 300
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 200
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 150
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 120
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 90
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 60
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 30
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 0
+      },
+      {
+        "added": [
+          "makeSticky"
+        ],
+        "el": "div.root.synopsysContainer.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.synopsysContainer.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.tableOfContents.aem-GridColumn.aem-GridColumn--default--12",
+        "y": 1945
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 1945
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 1945
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 1945
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 1945
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 1945
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 1945
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 2110
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 2110
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 2110
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > div.slick-list > div.slick-track > section.component-assetcard.no-link.cmp-carousel__item",
+        "y": 2110
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.background-component.light-grey-bg.vert-pad-top-xs > section.cmp-carousel.container.carousel-holder > div.cmp-carousel__content.carousel-list-holder.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 2110
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 1700
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.component-nav-top > div.nav-top-wrapper.d-flex > nav.main-nav > ul.utility-nav-enabled > li.main-nav-item.has-dropdown.active",
+        "y": 1700
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.component-nav-top > div.nav-top-wrapper.d-flex > nav.main-nav > ul.utility-nav-enabled > li.main-nav-item.has-dropdown.active",
+        "y": 1700
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.topNav.image.aem-GridColumn > div.component-nav-top > div.active > div.dropdown-list.active",
+        "y": 1700
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.topNav.image.aem-GridColumn > div.component-nav-top > div.active > div.dropdown-list.active > div.dropdown.active",
+        "y": 1700
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.topNav.image.aem-GridColumn > div.component-nav-top > div.active > div.dropdown-list.active > div.dropdown.active",
+        "y": 1700
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.cmp-experiencefragment.cmp-experiencefragment--topnav > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.topNav.image.aem-GridColumn > div.component-nav-top > div.active",
+        "y": 1700
+      },
+      {
+        "added": [
+          "activeSection"
+        ],
+        "el": "section.table-of-contents-product-layout.cmp-tableofcontents > div.container > ul.table-of-contents-product-layout-ul > li.cmp-productsolutions__content-item > a.cmp-productsolutions__content-item-text.activeSection",
+        "y": 1931
+      }
+    ]
+  }
+}

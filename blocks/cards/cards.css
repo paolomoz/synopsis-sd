@@ -1,15 +1,17 @@
+/* cards — default (collection) + `benefits` variant (lifted: .cmp-key-benefits) */
 .cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  border: 1px solid var(--grey-light);
+  border-radius: var(--radius);
+  background-color: #fff;
 }
 
 .cards .cards-card-body {
@@ -24,4 +26,61 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+/* benefits: icon + title tiles, 3 columns, no card chrome */
+.cards.benefits > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0 -15px;
+}
+
+.cards.benefits > ul > li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 33.3333%;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  gap: 16px;
+  margin-bottom: 64px;
+}
+
+.cards.benefits .cards-card-image {
+  flex: none;
+  line-height: 0;
+}
+
+.cards.benefits > ul > li img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+.cards.benefits .cards-card-body {
+  flex: 1;
+  margin: 0;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.cards.benefits .cards-card-body p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+@media (width <= 729px) {
+  .cards.benefits > ul > li {
+    width: 100%;
+    margin-bottom: 48px;
+  }
 }

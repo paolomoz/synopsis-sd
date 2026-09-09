@@ -1,0 +1,1463 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:31.843Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ai-html",
+  "url": "https://www.synopsys.com/ai.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:31.843Z",
+  "finalUrl": "https://www.synopsys.com/ai.html",
+  "title": "AI Solutions for Chip Design & Physical AI | Synopsys",
+  "description": "Synopsys' AI solutions revolutionize HPC and chip design, leveraging advanced silicon to enhance efficiency and accelerate the EDA flow in the era of pervasive intelligence.",
+  "og": {
+    "title": "AI Solutions for Chip Design & Physical AI | Synopsys",
+    "description": "Synopsys' AI solutions revolutionize HPC and chip design, leveraging advanced silicon to enhance efficiency and accelerate the EDA flow in the era of pervasive intelligence.",
+    "image": "https://images.synopsys.com/is/image/synopsys/ai-solutions-social?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Unlock the Future of Chip Design with Synopsys.ai"
+    },
+    {
+      "tag": "h2",
+      "text": "Transformative AI to Drive Your Chip Design to the Next Level"
+    },
+    {
+      "tag": "h2",
+      "text": "What's New"
+    },
+    {
+      "tag": "h4",
+      "text": "Advancing AI-Driven Chip Design: Synopsys and Microsoft Join Forces to Deliver the Future"
+    },
+    {
+      "tag": "h4",
+      "text": "Implementing AI in Chip Design and Effective Onboarding Strategies"
+    },
+    {
+      "tag": "h4",
+      "text": "Opportunities for Innovation in AI-Powered Chip Design"
+    },
+    {
+      "tag": "h2",
+      "text": "AI For Every Function"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Solutions for Digital Design Engineers"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys AI Solutions for Analog Design & Mixed Signal (AMS) Engineers"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Solutions for Verification Engineers"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Solutions for System Architects"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Solution"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Solutions for DFT Engineers"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Solutions for Process and Yield Engineers"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys.ai Powering Your Industry"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Ecosystem Partners"
+    },
+    {
+      "tag": "h2",
+      "text": "FAQ"
+    },
+    {
+      "tag": "h4",
+      "text": "How do Synopsys AI-driven EDA tools improve the chip design process?"
+    },
+    {
+      "tag": "h4",
+      "text": "What benefits do Synopsys solutions offer for HPC and data center applications?"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys address scalability challenges in AI-driven chip design for data centers?"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Synopsys.ai Contact Sales AI Chip Development Agentic AI AI-powered EDA Generative AI Physical AI",
+    "Synopsys.ai: AI-Driven EDA",
+    "Building Products of Tomorrow, Today",
+    "Overview",
+    "AI Solutions & Technology",
+    "AI For Every Function",
+    "AI by Industry",
+    "Partners",
+    "FAQ",
+    "Explore how we can help drive your chip design to the next level.",
+    "Unlock new levels of innovation and productivity with Synopsys\u2019 advanced Digital Design Implementation solutions, powered by AI. Our intelligent tools are designed to help you meet stringent performance, power, and area (PPA) objectives, while seamlessly aligning with manufacturing requirements and quality standards.",
+    "With Synopsys AI-driven solutions, digital design engineers can automate complex workflows, streamline repetitive tasks, and accelerate decision-making. Harnessing the power of data from previous projects, our AI technology provides actionable insights\u2014such as optimized floorplans, early identification of timing challenges, and recommendations to enhance power efficiency. AI-enabled verification tools further boost design confidence by rapidly detecting potential errors, helping you minimize risk and reduce costly iterations.",
+    "By integrating AI throughout the digital design process, you can achieve faster turnaround times, consistently high-quality results, and greater opportunity for breakthrough innovation. Empower your team to push the boundaries of what\u2019s possible with Synopsys AI-powered design solutions.",
+    "DSO.ai",
+    "Design.da",
+    "Formality",
+    "Fusion Compiler",
+    "IC Compiler II",
+    "PrimeTime",
+    "PrimeShield",
+    "RTL Architect",
+    "Whitepaper: Faster and Better Floorplanning with ML-Based Macro Placement",
+    "Whitepaper:Lower Process Nodes Drive Timing Signoff Software Evolution",
+    "Webinar: Achieve Optimal PPA Targets Using AI-driven Technology",
+    "Webinar: Achieve Out-of-the-Box Equivalence Checking with Synopsys Formality ML-driven Distributed Processing",
+    "Blog: Using AI to Accelerate Chip Design: Dynamic, Adaptive Flows",
+    "Datasheet: End-to-End AI-driven Data Analytics Platform",
+    "Analog design is inherently challenging due to its sensitivity to process variations, the complexity of device interactions, and the need for precision across a wide range of operating conditions. Synopsys Award Winning ASO.ai\u2122 revolutionizes analog and mixed-signal design and verification by harnessing the power of AI-driven automation, enabling engineering teams to dramatically accelerate workflows that have traditionally required extensive manual effort.",
+    "Analog design is inherently challenging due to its sensitivity to process variations, the complexity of device interactions, and the need for precision across a wide range of operating conditions. Synopsys Award Winning ASO.ai\u2122 revolutionizes analog and mixed-signal design and verification by harnessing the power of AI-driven automation, enabling engineering teams to dramatically accelerate workflows that have traditionally required extensive manual effort.",
+    "With advanced solutions for analog design migration, multi-objective optimization, and intelligent analysis, Synopsys empowers designers to confidently tackle the demands of the Angstrom era\u2014rapidly migrating IP across technology nodes, optimizing across hundreds of PVT corners, and managing massive simulation workloads with unprecedented efficiency.",
+    "With advanced solutions for analog design migration, multi-objective optimization, and intelligent analysis, Synopsys empowers designers to confidently tackle the demands of the Angstrom era\u2014rapidly migrating IP across technology nodes, optimizing across hundreds of PVT corners, and managing massive simulation workloads with unprecedented efficiency.",
+    "By leveraging machine learning and reinforcement learning, ASO.ai delivers reduced turnaround times, lower costs, and improved design quality, while innovative technologies like SmartScaling further reduce simulation runtimes and database sizes, significantly improving workload-heavy characterization tasks by generating numerous PVT corners instantly from anchor points. The result is a comprehensive, knowledge-based environment that enables analog and mixed-signal engineers to achieve robust, high-quality designs faster and more efficiently than ever before.",
+    "By leveraging machine learning and reinforcement learning, ASO.ai delivers reduced turnaround times, lower costs, and improved design quality, while innovative technologies like SmartScaling further reduce simulation runtimes and database sizes, significantly improving workload-heavy characterization tasks by generating numerous PVT corners instantly from anchor points. The result is a comprehensive, knowledge-based environment that enables analog and mixed-signal engineers to achieve robust, high-quality designs faster and more efficiently than ever before.",
+    "ASO.ai",
+    "PrimeSim",
+    "PrimeWave",
+    "PrimeLib",
+    "SmartScaling",
+    "Webinar: How to Migrate an Analog Design Like a Pro How to Migrate an Analog Design Like a Pro",
+    "Blog: Showcasing AI-Driven Analog Design Migration at Samsung SAFE Forum",
+    "Article: Synopsys Leads AI-Powered Analog Design Innovation",
+    "Accelerate SoC verification and drive exceptional quality with Synopsys\u2019 AI-powered verification solutions. Our intelligent verification platform empowers engineers to efficiently meet functional, performance, and quality targets by automating complex tasks and surfacing issues earlier in the verification process.",
+    "With Synopsys AI-driven technology, you can analyze vast simulation and test datasets to uncover targeted test scenarios, anticipate functional risks, and receive data-informed recommendations to boost coverage and verification efficiency. Advanced AI-powered debug tools further streamline bug detection and root-cause analysis, minimizing the likelihood of costly late-stage changes and rework.",
+    "By integrating Synopsys\u2019 AI-powered verification solutions into your flow, your team can realize faster verification cycles, deeper coverage, improved quality of results, and accelerated time-to-market\u2014enabling you to deliver innovation with confidence.",
+    "VSO.ai",
+    "VC Formal",
+    "Verdi",
+    "VCS",
+    "VC SpyGlass",
+    "Whitepaper: Accelerating Coverage Closure with AI-Based Verification Space Optimization",
+    "Webinar: Accelerate Coverage Closure with Synopsys VSO.ai",
+    "Blog: Reducing Manual Effort and Achieving Better Chip Verification Coverage with AI and Formal Techniques",
+    "Webinar: Accelerating AI-driven Debug and Verification Management with Next-Gen Verdi Platform Accelerating AI-driven Debug and Verification Management with Next-Gen Verdi Platform",
+    "Whitepaper: Achieve 10X Faster CDC Debug Leveraging Machine Learning",
+    "Tackle the complexity of modern system design with confidence using Synopsys\u2019 AI-powered solutions. System engineers are challenged to architect, integrate, and manage advanced systems that seamlessly blend hardware and software, all while meeting demanding schedules and stringent requirements for performance, security, and scalability.",
+    "Synopsys delivers a unified suite of intelligent tools that support the entire journey from silicon to complete systems. Our AI-powered technologies address the unique challenges of 3D ICs and Multiphysics integration\u2014enabling engineers to accelerate design cycles, optimize system architectures, and ensure robust interoperability.",
+    "With Synopsys 3DSO.ai integrated into the 3DIC Compiler platform, system engineers can efficiently explore, implement, and sign off on complex multi-die designs. By leveraging AI-powered insights and automation, you can boost productivity, achieve exceptional system performance, and deliver high-quality results\u2014empowering your team to push the boundaries of next-generation electronic systems.",
+    "3DSO.ai",
+    "Brochure: Synopsys.ai Brochure",
+    "AI is revolutionizing the way DFT engineers approach test challenges. Synopsys AI-driven TestMAX solutions bring a new level of intelligence and automation to the DFT process, empowering engineers to achieve higher quality results, faster and more efficiently than ever before. With TSO.ai\u2122, the industry\u2019s first autonomous AI application for semiconductor test, engineers can rapidly optimize pattern counts, fine-tune ATPG parameters, and accelerate turnaround times\u2014driving down costs and reducing manual intervention.",
+    "TestMAX ATPG harnesses the power of AI to continuously learn from design data, streamlining pattern generation and diagnosis for optimal test coverage and efficiency. Meanwhile, TestMAX DFT delivers automation from RTL to silicon, ensuring robust testability is built in at every stage.",
+    "By integrating advanced AI across the TestMAX family, DFT engineers can confidently keep pace with growing design complexity, achieve ambitious quality and schedule goals, and deliver comprehensive, cost-effective test solutions for today\u2019s most advanced SoCs.",
+    "TSO.ai",
+    "TestMAX DFT",
+    "TestMAX ATPG",
+    "TestMAX",
+    "Webinar: Making the Right Connections - Taking the Guess Work out of DFT Connectivity Validation",
+    "Webinar: Optimize Test QoR & TTM with AI-Driven Technology Optimize Test QoR & TTM with AI-Driven Technology",
+    "Datasheet: TestMAX DFT: Design-for-Test Implementation",
+    "Datasheet: TestMAX ATPG: Advanced Pattern Generation",
+    "Datasheet: TSO.ai: Fewer Patterns, Higher Coverage, Reduced TAT",
+    "AI is transforming semiconductor manufacturing by enabling process and yield engineers to achieve unprecedented levels of efficiency, quality, and productivity. Synopsys\u2019 AI-powered manufacturing analytics solutions deliver real-time insights and intelligent automation, empowering engineers to proactively optimize yield and maintain the highest standards of production.",
+    "With advanced capabilities such as real-time equipment monitoring, dynamic fault detection, and predictive analytics, engineers can swiftly identify process deviations, uncover root causes, and implement corrective actions\u2014often before issues can impact manufacturing outcomes. Solutions like eFDC for equipment fault detection and classification, eDataLyzer for comprehensive root cause analysis, and eR2R for automated recipe optimization drive a transition from reactive problem-solving to proactive process control.",
+    "Integrated chamber matching and recipe management tools further enhance consistency and minimize variability across equipment fleets, supporting robust and reliable manufacturing processes. By harnessing AI-driven insights and automation, Synopsys empowers process and yield engineers to streamline operations, accelerate decision-making, and confidently meet the complex demands of high-volume semiconductor production.",
+    "Silicon.da",
+    "Avalon",
+    "Blog: Demanding Chip Complexity and Manufacturing Requirements Call for Data Analytics",
+    "Article: Silicon Lifecycle Management Advances With Unified Analytics",
+    "Blog: Enhancing Chip Yield Through Machine-Learning-Driven Test Analytics Technology",
+    "Video: Challenges In Ramping New Manufacturing Processes",
+    "Datasheet: Fab.da Comprehensive AI-driven process analytics for faster ramp and efficient high-volume manufacturing",
+    "Webinar: Fab.da: Comprehensive AI-Driven Process Analytics for Faster Ramp and Efficient High-Volume Manufacturing",
+    "Explore How Synopsys.ai Can Accelerate Your Innovation",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Synopsys.ai",
+      "href": "/ai.html"
+    },
+    {
+      "label": "Watch",
+      "href": "#"
+    },
+    {
+      "label": "Download Brochure",
+      "href": "/resources/ai-powered-eda-chip-design-solutions.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/ai/contact-us.html"
+    },
+    {
+      "label": "AI-powered EDA Tame Your Design Complexity Learn More",
+      "href": "/ai/ai-powered-eda.html"
+    },
+    {
+      "label": "Generative AI 24/7 Automated Expertise Learn More",
+      "href": "/ai/generative-ai.html"
+    },
+    {
+      "label": "Agentic AI Automate Your Workflow Learn More",
+      "href": "/ai/agentic-ai.html"
+    },
+    {
+      "label": "Physical AI Build safer and more secure physical AI prior to real-world deployment. Learn More",
+      "href": "/ai/physical-ai.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/ai-chip-design-synopsys-microsoft.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/ai-chip-design-onboarding-strategies.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/opportunities-innovation-ai-powered-chip-design.html"
+    },
+    {
+      "label": "Digital Design Engineers",
+      "href": "#digital-design-engineers"
+    },
+    {
+      "label": "Analog Design Engineers",
+      "href": "#analog-design-engineers"
+    },
+    {
+      "label": "Verification Engineers",
+      "href": "#verification-engineers"
+    },
+    {
+      "label": "System Architects",
+      "href": "#system-architects"
+    },
+    {
+      "label": "DFT Engineers",
+      "href": "#dft-engineers"
+    },
+    {
+      "label": "Process & Yield Engineers",
+      "href": "#process-yield-engineers"
+    },
+    {
+      "label": "DSO.ai",
+      "href": "/ai/ai-powered-eda/dso-ai.html"
+    },
+    {
+      "label": "Design.da",
+      "href": "/ai/ai-powered-eda/design-da.html"
+    },
+    {
+      "label": "Formality",
+      "href": "/implementation-and-signoff/signoff/formality-equivalence-checking.html"
+    },
+    {
+      "label": "Fusion Compiler",
+      "href": "/implementation-and-signoff/physical-implementation/fusion-compiler.html"
+    },
+    {
+      "label": "IC Compiler II",
+      "href": "/implementation-and-signoff/physical-implementation/ic-compiler.html"
+    },
+    {
+      "label": "PrimeTime",
+      "href": "/implementation-and-signoff/signoff/primetime.html"
+    },
+    {
+      "label": "PrimeShield",
+      "href": "/implementation-and-signoff/signoff/primeshield.html"
+    },
+    {
+      "label": "RTL Architect",
+      "href": "/implementation-and-signoff/rtl-synthesis-test/rtl-architect.html"
+    },
+    {
+      "label": "Whitepaper: Faster and Better Floorplanning with ML-Based Macro Placement",
+      "href": "/implementation-and-signoff/resources/whitepapers/ml-macro-placement-wp.html"
+    },
+    {
+      "label": "Whitepaper:Lower Process Nodes Drive Timing Signoff Software Evolution",
+      "href": "/resources/lower-process-nodes-timing-signoff-evolution.html"
+    },
+    {
+      "label": "Webinar: Achieve Optimal PPA Targets Using AI-driven Technology",
+      "href": "/webinars/optimal-ppa-targets-dso-ai.html"
+    },
+    {
+      "label": "Webinar: Achieve Out-of-the-Box Equivalence Checking with Synopsys Formality ML-driven Distributed Processing",
+      "href": "/webinars/ml-driven-equivalence-checking-formality.html"
+    },
+    {
+      "label": "Blog: Using AI to Accelerate Chip Design: Dynamic, Adaptive Flows",
+      "href": "/blogs/chip-design/ai-chip-design-adaptive-flows.html"
+    },
+    {
+      "label": "Datasheet: End-to-End AI-driven Data Analytics Platform",
+      "href": "/implementation-and-signoff/resources/datasheets/design-da.html"
+    },
+    {
+      "label": "Award Winning",
+      "href": "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/award-frost-sullivan.html"
+    },
+    {
+      "label": "ASO.ai",
+      "href": "/ai/ai-powered-eda/aso-ai.html"
+    },
+    {
+      "label": "PrimeSim",
+      "href": "/implementation-and-signoff/ams-simulation.html"
+    },
+    {
+      "label": "PrimeWave",
+      "href": "/implementation-and-signoff/ams-simulation/primewave.html"
+    },
+    {
+      "label": "PrimeLib",
+      "href": "/implementation-and-signoff/signoff/primelib.html"
+    },
+    {
+      "label": "SmartScaling",
+      "href": "/glossary/what-is-smartscaling.html"
+    },
+    {
+      "label": "Webinar: How to Migrate an Analog Design Like a Pro How to Migrate an Analog Design Like a Pro",
+      "href": "/webinars/migrate-analog-design.html"
+    },
+    {
+      "label": "Blog: Showcasing AI-Driven Analog Design Migration at Samsung SAFE Forum",
+      "href": "/blogs/chip-design/ai-analog-design-migration-samsung-safe-forum-2023.html"
+    },
+    {
+      "label": "Article: Synopsys Leads AI-Powered Analog Design Innovation",
+      "href": "/articles/ai-powered-analog-design.html"
+    },
+    {
+      "label": "VSO.ai",
+      "href": "/ai/ai-powered-eda/vso-ai.html"
+    },
+    {
+      "label": "VC Formal",
+      "href": "/verification/static-and-formal-verification/vc-formal.html"
+    },
+    {
+      "label": "Verdi",
+      "href": "/verification/debug.html"
+    },
+    {
+      "label": "VCS",
+      "href": "/verification/simulation/vcs.html"
+    },
+    {
+      "label": "VC SpyGlass",
+      "href": "/verification/static-and-formal-verification/vc-spyglass.html"
+    },
+    {
+      "label": "Whitepaper: Accelerating Coverage Closure with AI-Based Verification Space Optimization",
+      "href": "/verification/resources/whitepapers/vso-ai-wp.html"
+    },
+    {
+      "label": "Webinar: Accelerate Coverage Closure with Synopsys VSO.ai",
+      "href": "/webinars/accelerate-coverage-closure-vso-ai.html"
+    },
+    {
+      "label": "Blog: Reducing Manual Effort and Achieving Better Chip Verification Coverage with AI and Formal Techniques",
+      "href": "/blogs/chip-design/vso-ai-nvidia.html"
+    },
+    {
+      "label": "Webinar: Accelerating AI-driven Debug and Verification Management with Next-Gen Verdi Platform Accelerating AI-driven Debug and Verification Management with Next-Gen Verdi Platform",
+      "href": "/webinars/ai-driven-debug-verdi.html"
+    },
+    {
+      "label": "Whitepaper: Achieve 10X Faster CDC Debug Leveraging Machine Learning",
+      "href": "/verification/resources/whitepapers/10x-cdc-debug-ml.html"
+    },
+    {
+      "label": "3DSO.ai",
+      "href": "/implementation-and-signoff/3dic-design.html"
+    },
+    {
+      "label": "Brochure: Synopsys.ai Brochure",
+      "href": "/resources/ai-powered-eda-chip-design-solutions.html"
+    },
+    {
+      "label": "TSO.ai",
+      "href": "/ai/ai-powered-eda/tso-ai.html"
+    },
+    {
+      "label": "TestMAX DFT",
+      "href": "/implementation-and-signoff/test-automation/testmax-dft.html"
+    },
+    {
+      "label": "TestMAX ATPG",
+      "href": "/implementation-and-signoff/test-automation/testmax-atpg.html"
+    },
+    {
+      "label": "TestMAX",
+      "href": "/implementation-and-signoff/test-automation.html"
+    },
+    {
+      "label": "Webinar: Making the Right Connections - Taking the Guess Work out of DFT Connectivity Validation",
+      "href": "/webinars/testmax-advisor.html"
+    },
+    {
+      "label": "Webinar: Optimize Test QoR & TTM with AI-Driven Technology Optimize Test QoR & TTM with AI-Driven Technology",
+      "href": "/webinars/optimize-atpg-tso-ai.html"
+    },
+    {
+      "label": "Datasheet: TestMAX DFT: Design-for-Test Implementation",
+      "href": "/implementation-and-signoff/resources/datasheets/testmax-dft.html"
+    },
+    {
+      "label": "Datasheet: TestMAX ATPG: Advanced Pattern Generation",
+      "href": "/implementation-and-signoff/resources/datasheets/testmax-atpg.html"
+    },
+    {
+      "label": "Datasheet: TSO.ai: Fewer Patterns, Higher Coverage, Reduced TAT",
+      "href": "/resources/ai-powered-eda-tsoai-ds.html"
+    },
+    {
+      "label": "Silicon.da",
+      "href": "/ai/ai-powered-eda/silicon-da.html"
+    },
+    {
+      "label": "Avalon",
+      "href": "/solutions/silicon-lifecycle-management/avalon.html"
+    },
+    {
+      "label": "Blog: Demanding Chip Complexity and Manufacturing Requirements Call for Data Analytics",
+      "href": "/blogs/chip-design/demanding-chip-complexity-manufacturing-requirements-call-for-data-analytics.html"
+    },
+    {
+      "label": "Article: Silicon Lifecycle Management Advances With Unified Analytics",
+      "href": "https://semiengineering.com/silicon-lifecycle-management-advances-with-unified-analytics/"
+    },
+    {
+      "label": "Blog: Enhancing Chip Yield Through Machine-Learning-Driven Test Analytics Technology",
+      "href": "/blogs/chip-design/semiconductor-yield-analysis-machine-learning.html"
+    },
+    {
+      "label": "Video: Challenges In Ramping New Manufacturing Processes",
+      "href": "https://www.youtube.com/watch?v=KNLNDUmD_z8"
+    },
+    {
+      "label": "Datasheet: Fab.da Comprehensive AI-driven process analytics for faster ramp and efficient high-volume manufacturing",
+      "href": "/content/dam/synopsys/resources/ai-solutions/fab-da-ds.pdf"
+    },
+    {
+      "label": "Webinar: Fab.da: Comprehensive AI-Driven Process Analytics for Faster Ramp and Efficient High-Volume Manufacturing",
+      "href": "/webinars/fab-da-ai-process-analytics.html"
+    },
+    {
+      "label": "AI Chip Development Achieve first-pass silicon success in your AI chip development journey.",
+      "href": "/ai/ai-chip-development.html"
+    },
+    {
+      "label": "HPC & Data Center Accelerate development of AI, server, edge, networking & storage SoCs.",
+      "href": "/solutions/hpc-data-center.html"
+    },
+    {
+      "label": "Multi-Die A comprehensive solution for fast heterogeneous integration.",
+      "href": "/multi-die-system.html"
+    },
+    {
+      "label": "Automotive Create & own your automotive innovation, from software to silicon.",
+      "href": "/solutions/automotive.html"
+    },
+    {
+      "label": "How do Synopsys AI-driven EDA tools improve the chip design process?",
+      "href": null
+    },
+    {
+      "label": "What benefits do Synopsys solutions offer for HPC and data center applications?",
+      "href": null
+    },
+    {
+      "label": "How does Synopsys address scalability challenges in AI-driven chip design for data centers?",
+      "href": null
+    },
+    {
+      "label": "Get Started Today",
+      "href": "/ai/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/ai.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/ai/contact-us.html",
+    "https://www.synopsys.com/resources/ai-powered-eda-chip-design-solutions.html",
+    "https://www.synopsys.com/webinars/ai-chip-design-synopsys-microsoft.html",
+    "https://www.synopsys.com/webinars/ai-chip-design-onboarding-strategies.html",
+    "https://www.synopsys.com/webinars/opportunities-innovation-ai-powered-chip-design.html",
+    "https://www.synopsys.com/webinars/agentic-ai-nuts-bolts-agentengineer.html",
+    "https://www.synopsys.com/webinars/agentic-ai-synopsys-nvidia-chip-design.html",
+    "https://www.synopsys.com/webinars/synopsys-ai-copilot-productivity.html",
+    "https://www.synopsys.com/ai.html#digital-design-engineers",
+    "https://www.synopsys.com/ai.html#analog-design-engineers",
+    "https://www.synopsys.com/ai.html#verification-engineers",
+    "https://www.synopsys.com/ai.html#system-architects",
+    "https://www.synopsys.com/ai.html#dft-engineers",
+    "https://www.synopsys.com/ai.html#process-yield-engineers",
+    "https://www.synopsys.com/ai/ai-powered-eda/dso-ai.html",
+    "https://www.synopsys.com/ai/ai-powered-eda/design-da.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/formality-equivalence-checking.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/ic-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primeshield.html",
+    "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/rtl-architect.html",
+    "https://www.synopsys.com/implementation-and-signoff/resources/whitepapers/ml-macro-placement-wp.html",
+    "https://www.synopsys.com/resources/lower-process-nodes-timing-signoff-evolution.html",
+    "https://www.synopsys.com/webinars/optimal-ppa-targets-dso-ai.html",
+    "https://www.synopsys.com/webinars/ml-driven-equivalence-checking-formality.html",
+    "https://www.synopsys.com/blogs/chip-design/ai-chip-design-adaptive-flows.html",
+    "https://www.synopsys.com/implementation-and-signoff/resources/datasheets/design-da.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/award-frost-sullivan.html",
+    "https://www.synopsys.com/ai/ai-powered-eda/aso-ai.html",
+    "https://www.synopsys.com/implementation-and-signoff/ams-simulation.html",
+    "https://www.synopsys.com/implementation-and-signoff/ams-simulation/primewave.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primelib.html",
+    "https://www.synopsys.com/glossary/what-is-smartscaling.html",
+    "https://www.synopsys.com/webinars/migrate-analog-design.html",
+    "https://www.synopsys.com/blogs/chip-design/ai-analog-design-migration-samsung-safe-forum-2023.html",
+    "https://www.synopsys.com/articles/ai-powered-analog-design.html",
+    "https://www.synopsys.com/ai/ai-powered-eda/vso-ai.html",
+    "https://www.synopsys.com/verification/static-and-formal-verification/vc-formal.html",
+    "https://www.synopsys.com/verification/debug.html",
+    "https://www.synopsys.com/verification/static-and-formal-verification/vc-spyglass.html",
+    "https://www.synopsys.com/verification/resources/whitepapers/vso-ai-wp.html",
+    "https://www.synopsys.com/webinars/accelerate-coverage-closure-vso-ai.html",
+    "https://www.synopsys.com/blogs/chip-design/vso-ai-nvidia.html",
+    "https://www.synopsys.com/webinars/ai-driven-debug-verdi.html",
+    "https://www.synopsys.com/verification/resources/whitepapers/10x-cdc-debug-ml.html",
+    "https://www.synopsys.com/ai/ai-powered-eda/tso-ai.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation/testmax-dft.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation/testmax-atpg.html",
+    "https://www.synopsys.com/webinars/testmax-advisor.html",
+    "https://www.synopsys.com/webinars/optimize-atpg-tso-ai.html",
+    "https://www.synopsys.com/implementation-and-signoff/resources/datasheets/testmax-dft.html",
+    "https://www.synopsys.com/implementation-and-signoff/resources/datasheets/testmax-atpg.html",
+    "https://www.synopsys.com/resources/ai-powered-eda-tsoai-ds.html",
+    "https://www.synopsys.com/ai/ai-powered-eda/silicon-da.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/avalon.html",
+    "https://www.synopsys.com/blogs/chip-design/demanding-chip-complexity-manufacturing-requirements-call-for-data-analytics.html",
+    "https://semiengineering.com/silicon-lifecycle-management-advances-with-unified-analytics/",
+    "https://www.synopsys.com/blogs/chip-design/semiconductor-yield-analysis-machine-learning.html",
+    "https://www.youtube.com/watch?v=KNLNDUmD_z8",
+    "https://www.synopsys.com/content/dam/synopsys/resources/ai-solutions/fab-da-ds.pdf",
+    "https://www.synopsys.com/webinars/fab-da-ai-process-analytics.html",
+    "https://www.synopsys.com/multi-die-system.html",
+    "https://www.synopsys.com/partners/arm.html",
+    "https://www.avnet-asic.com/",
+    "https://www.faraday-tech.com/en/content/index",
+    "https://www.synopsys.com/blogs/chip-design/3dic-packaging-design-tools-guc.html",
+    "https://cloud.google.com/blog/products/infrastructure/eda-on-google-cloud-enabled-by-synopsys-tools",
+    "https://www.alchip.com/",
+    "https://partners.amazonaws.com/partners/0010L00001oApoAQAS/Synopsys",
+    "https://mirafra.com/",
+    "https://www.nsw.co.jp/english/",
+    "https://www.synopsys.com/partners/samsung.html",
+    "https://www.tessolve.com/",
+    "https://www.synopsys.com/partners/tsmc.html",
+    "https://www.synopsys.com/partners/intel-foundry-services.html",
+    "https://azure.microsoft.com/en-us/blog/accelerate-silicon-design-innovation-on-azure-with-synopsys-cloud/",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html",
+    "https://www.onetrust.com/solutions/consent-and-preferences/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-hero-banner-v2(1)?qlt=82&wid=1900&ts=1782943048847&$responsive$&fit=constrain&dpr=off",
+        "alt": "synopsys.ai eda suite",
+        "w": 1440,
+        "h": 530
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-hero-banner-v2(1)?qlt=82&wid=1900&ts=1782943048847&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 530
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/silicon-ip-purple.svg.imgo.svg",
+        "alt": "Supercharge Productivity",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/systems-purple.svg.imgo.svg",
+        "alt": "Conquer Complexity",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/clock-purple.svg.imgo.svg",
+        "alt": "Accelerate Time-to-Market",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-stack-solution-card?qlt=82&wid=1200&ts=1755193050237&$responsive$&fit=constrain&dpr=off",
+        "alt": "AI Chip Development",
+        "w": 441,
+        "h": 520
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-ai-brain?qlt=82&wid=1200&ts=1763574537627&$responsive$&fit=constrain&dpr=off",
+        "alt": "Generative AI",
+        "w": 441,
+        "h": 520
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-social-share?qlt=82&wid=1200&ts=1786152827905&$responsive$&fit=constrain&dpr=off",
+        "alt": "Agentic AI",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/physical-ai-1200x675?qlt=82&wid=1200&ts=1782942985496&$responsive$&fit=constrain&dpr=off",
+        "alt": "Physical AI",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/snps-msft-ai-chip-design?qlt=82&wid=1200&ts=1785772053848&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/Implementing-AI-in-Chip-Design?qlt=82&wid=1200&ts=1785772064566&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/oppportunities-for-innovation-in-ai-powered-chip-design?qlt=82&wid=1200&ts=1785772080419&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/agentic-ai-chip-agentengineet-thumb?qlt=82&wid=1200&ts=1785771950943&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/agenticai-snps-nvidia-silicon%20design-manufacturing?qlt=82&wid=1200&ts=1785771976490&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/leveraging-ai-assisted-tools-end-to-end-productivity?qlt=82&wid=1200&ts=1785772722115&$responsive$&fit=constrain&dpr=off",
+        "alt": "productivity",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage-update/icon-ai-chip.svg.imgo.svg",
+        "alt": "AI & Machine Learning Solutions",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-hpc-data-center.svg.imgo.svg",
+        "alt": "HPC & Data Center Solutions",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage-update/icon-multi-die.svg.imgo.svg",
+        "alt": "Multi-Die Solutions",
+        "w": 50,
+        "h": 50
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-automotive.svg.imgo.svg",
+        "alt": "Automotive Solutions",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/avnet-logo.svg",
+        "alt": "Avnet",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/faraday-logo-horiz.svg",
+        "alt": "Faraday",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/guc-logo.svg",
+        "alt": "GUC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/google-cloud.svg",
+        "alt": "Google Cloud",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/alchip-logo.svg",
+        "alt": "AlChip",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/aws-logo.svg",
+        "alt": "AWS",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/avnet-logo.svg",
+        "alt": "Avnet",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/faraday-logo-horiz.svg",
+        "alt": "Faraday",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/guc-logo.svg",
+        "alt": "GUC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/google-cloud.svg",
+        "alt": "Google Cloud",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/alchip-logo.svg",
+        "alt": "AlChip",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/aws-logo.svg",
+        "alt": "AWS",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/avnet-logo.svg",
+        "alt": "Avnet",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/faraday-logo-horiz.svg",
+        "alt": "Faraday",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/logos/guc-logo.svg",
+        "alt": "GUC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/google-cloud.svg",
+        "alt": "Google Cloud",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/mirafra-logo.svg",
+        "alt": "Mirafra",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/nsw-logo.svg",
+        "alt": "NSW",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/tessolve-logo.svg",
+        "alt": "Tessolve",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/microsoft-azure-logo.svg",
+        "alt": "Microsoft Azure",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/mirafra-logo.svg",
+        "alt": "Mirafra",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/nsw-logo.svg",
+        "alt": "NSW",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/tessolve-logo.svg",
+        "alt": "Tessolve",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/microsoft-azure-logo.svg",
+        "alt": "Microsoft Azure",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/mirafra-logo.svg",
+        "alt": "Mirafra",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/nsw-logo.svg",
+        "alt": "NSW",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/tessolve-logo.svg",
+        "alt": "Tessolve",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 85,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Cookie Preference CenterYour PrivacyStrictly Necessary CookiesFunctional CookiesPerformance CookiesTargeting CookiesYour PrivacyWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer. More informationStrictly Necessary CookiesAlways ActiveThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.Cookies Details\u200eFunctional Cookies Functional Cookies These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.Cookies Details\u200ePerformance Cookies Performance Cookies These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.Cookies Details\u200eTargeting Cookies Targeting Cookies These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.Cookies Details\u200eBack ButtonBackVendor Search Filter ButtonConsent Leg.Interest checkbox label label checkbox label label checkbox label labelView Third Party CookiesNamecookie nameClear checkbox label labelApply CancelSave Settings Allow All"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 1,
+    "distinctHeadings": 26,
+    "mainTextLen": 156389,
+    "realImageCount": 77,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/ai-html.png",
+  "renderedHtml": "pages/ai-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "AI Solutions for Chip Design & Physical AI",
+    "summary": "Synopsys' AI solutions revolutionize HPC and chip design, leveraging advanced silicon to enhance efficiency and accelerate the EDA flow in the era of pervasive intelligence.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": false,
+      "items": [
+        "Advancing AI-Driven Chip Design: Synopsys and Microsoft Join Forces to Deliver the Future",
+        "Implementing AI in Chip Design and Effective Onboarding Strategies",
+        "Opportunities for Innovation in AI-Powered Chip Design",
+        "How do Synopsys AI-driven EDA tools improve the chip design process?",
+        "What benefits do Synopsys solutions offer for HPC and data center applications?",
+        "How does Synopsys address scalability challenges in AI-driven chip design for data centers?"
+      ]
+    },
+    "sections": [
+      "Unlock the Future of Chip Design with Synopsys.ai",
+      "Transformative AI to Drive Your Chip Design to the Next Level",
+      "What's New",
+      "AI For Every Function",
+      "AI Solutions for Digital Design Engineers",
+      "Featured Solutions",
+      "Resources",
+      "Synopsys AI Solutions for Analog Design & Mixed Signal (AMS) Engineers",
+      "Featured Solutions",
+      "Resources",
+      "AI Solutions for Verification Engineers",
+      "Featured Solutions",
+      "Resources",
+      "AI Solutions for System Architects",
+      "Featured Solution",
+      "Resources",
+      "AI Solutions for DFT Engineers",
+      "Featured Solutions",
+      "Resources",
+      "AI Solutions for Process and Yield Engineers",
+      "Featured Solutions",
+      "Resources",
+      "Synopsys.ai Powering Your Industry",
+      "AI Ecosystem Partners",
+      "FAQ"
+    ],
+    "cta-band": false
+  },
+  "pageType": "program"
+}

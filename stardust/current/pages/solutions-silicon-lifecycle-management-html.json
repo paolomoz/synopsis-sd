@@ -1,0 +1,1189 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:45.381Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "solutions-silicon-lifecycle-management-html",
+  "url": "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:45.381Z",
+  "finalUrl": "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+  "title": "Silicon Lifecycle Management (SLM): Optimize Silicon Health & Performance | Synopsys",
+  "description": "Synopsys Silicon Lifecycle Management Platform delivers continuous analysis and optimization of semiconductor devices from design through deployment.",
+  "og": {
+    "title": "Silicon Lifecycle Management (SLM): Optimize Silicon Health & Performance | Synopsys",
+    "description": "Synopsys Silicon Lifecycle Management Platform delivers continuous analysis and optimization of semiconductor devices from design through deployment.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Actionable Insights Through Silicon Lifecycle Monitoring and Analytics"
+    },
+    {
+      "tag": "h2",
+      "text": "Optimize Each Phase of the Device Lifecycle"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Synopsys Silicon Lifecycle Management Family of Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys SLM Family of Products"
+    },
+    {
+      "tag": "h2",
+      "text": "SLM Use Cases"
+    },
+    {
+      "tag": "h2",
+      "text": "Silicon Characterization Based on Foundry Models"
+    },
+    {
+      "tag": "h2",
+      "text": "Correlation Improvement and Design Margin Reduction"
+    },
+    {
+      "tag": "h2",
+      "text": "Optimize Yield Ahead of Production"
+    },
+    {
+      "tag": "h2",
+      "text": "Improve Correlation Between a Predicted and Measured Vmin"
+    },
+    {
+      "tag": "h2",
+      "text": "Reliability, Availability, and Serviceability"
+    },
+    {
+      "tag": "h2",
+      "text": "Videos"
+    },
+    {
+      "tag": "h4",
+      "text": "SLM for Automotive: Silicon Health Data and Analytics That Predict Failures"
+    },
+    {
+      "tag": "h4",
+      "text": "Silicon Lifecycle Management: Actionable Insights at Every Phase of the Chip Lifecycle"
+    },
+    {
+      "tag": "h4",
+      "text": "The SLM Paradigm Shift: Rethinking How Chips Are Designed, Built, and Maintained"
+    },
+    {
+      "tag": "h4",
+      "text": "SLM Benefits: Monitor, Analyze, and Optimize Silicon Health"
+    },
+    {
+      "tag": "h2",
+      "text": "What Our Customers Are Saying"
+    },
+    {
+      "tag": "h4",
+      "text": "SLM Implementation on Arm Cores"
+    },
+    {
+      "tag": "h4",
+      "text": "Advancing HSAT Structural Test"
+    },
+    {
+      "tag": "h4",
+      "text": "Standardization in a Complex Semiconductor Environment"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Evolution of PVT IP: From Analog Mixed Signal (AMS) to Digitally Assisted Analog (DAA) Architecture"
+    },
+    {
+      "tag": "h4",
+      "text": "Designing for Reliability, Availability, and Serviceability Across the System Lifecycle"
+    },
+    {
+      "tag": "h4",
+      "text": "Effective Monitoring, Test, and Repair of Multi-Die Designs"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Solutions Solutions A-Z Aerospace & Government Automotive Electronics Digital Twin Energy-Efficient SoCs HPC & Data Center IoT Medical Memory Multi-Die Multiphysics Fusion RF Design RISC-V Silicon Lifecycle Management",
+    "Silicon Lifecycle Management Contact Sales Avalon Data Highway Functional Monitors Environmental Monitors Monitor Analytics Structural Monitors Response IP SDC/RAS Video Panel Discussion",
+    "Silicon Lifecycle Management",
+    "Overview",
+    "Lifecycle Phases",
+    "Features",
+    "Products",
+    "Use Cases",
+    "Testimonials",
+    "Resources",
+    "Synopsys integrated Silicon Lifecycle Management (SLM) family of products improves silicon health and operational metrics at every phase of the device lifecycle. Synopsys SLM family of products is built on a foundation of enriched in-chip observability, analytics and integrated automation. Monitors enable deep insights from silicon to system. Meaningful data is gathered at every opportunity for continuous analysis and actionable feedback.",
+    "Semiconductor design, manufacturing and system deployment are being challenged on many fronts due to process variability, device aging effects, ever increasing performance expectations, and the continued reduction in time to volume. Synopsys is leading the industry to solve these challenges with its SLM solution, a comprehensive set of integrated tools, IP and methodologies. SLM intelligently and efficiently collects and stores monitor data throughout a system\u2019s life and provides actionable insights through the use of powerful analytics.",
+    "Synopsys SLM PVT Monitor IP has been certified by SGS-T\u00dcV Saar as ASIL-B Ready and meets AEC-Q100 Grade 2 standard. IC and system developers using Synopsys SLM will reap huge benefits, including more efficient design and improved quality. Predictions of in-field chip degradation or failure are extremely valuable for end users by enabling corrective action before sudden and catastrophic system failures.",
+    "Learn more about the individual products within SLM",
+    "In-Chip Monitor IP Environmental Monitors Structural Monitors Functional Monitors",
+    "Intelligent Data Extraction and Communication",
+    "Product Analytics Silicon.da Monitor Analytics Avalon SysNav",
+    "Smart Action IP",
+    "SLM enables solutions to improve silicon health and operational metrics at every phase of the device lifecycle.",
+    "Characterize your silicon based on the expectations from the foundry model. Data from embedded monitors such as ring oscillators can be used to identify potential bottleneck cells or class of cells (e.g., specific Vt, drive strength, cell type, etc.) that are causing low margin and timing fails.",
+    "Understand the manufacturing stability of advanced process nodes and validate how accurately the pre-silicon models can predict post-silicon parametric results. The calibration improves consistency between the behavior predicted by the design models and the actual performance of the hardware.",
+    "Gain insights into in-silicon health, visibility, and insight at each stage of the semiconductor lifecycle. Sensors and monitors include ring oscillators and path margin monitors that enable gathering in-ramp silicon results, comparing and correlating these results to design targets, and producing insights that lead to data driven actions for design, fabrication, production test, and system level test.",
+    "Improve the correlation between a predicted Vmin that comes from a model versus the measured Vmin. Silicon.da analytics solution enables the device to operate at lower power while still meeting the required performance by setting the device specific Vmin during testing on the test floor at the value of the predicted model.",
+    "Detect early silicon issues, perform remote in-system debug and diagnostic, and monitor degradation over time. SLM monitors and in-system scan test transform silicon health data into actionable insights, helping reduce failure rates across the system lifecycle and improving uptime, system longevity, and overall reliability.",
+    "Connect with Us",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "Silicon Lifecycle Management",
+      "href": "/solutions/silicon-lifecycle-management.html"
+    },
+    {
+      "label": "Watch",
+      "href": "#"
+    },
+    {
+      "label": "Brochure",
+      "href": "/content/dam/synopsys/solutions/slm/brochures/slm-brochure.pdf"
+    },
+    {
+      "label": "Get Started",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Download White Paper",
+      "href": "https://www.synopsys.com/cgi-bin/imp/pdfdla/pdfr1.cgi?file=slm-whitepaper.pdf"
+    },
+    {
+      "label": "Click to see the detail",
+      "href": null
+    },
+    {
+      "label": "Intelligent Data Extraction and Communication",
+      "href": "/solutions/silicon-lifecycle-management/data-highway.html"
+    },
+    {
+      "label": "Smart Action IP",
+      "href": "/solutions/silicon-lifecycle-management/response-ip.html"
+    },
+    {
+      "label": "Explore Videos",
+      "href": "/solutions/silicon-lifecycle-management/sdc-ras-video-panel.html"
+    },
+    {
+      "label": "Gap-to-Target Analysis",
+      "href": "#1"
+    },
+    {
+      "label": "Model to Hardware Correlation",
+      "href": "#2"
+    },
+    {
+      "label": "Silicon Timing Failure RCA",
+      "href": "#3"
+    },
+    {
+      "label": "Vmin Prediction",
+      "href": "#4"
+    },
+    {
+      "label": "RAS Enablement",
+      "href": "#5"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/gap-to-target-use-case-ds.pdf"
+    },
+    {
+      "label": "Lean More",
+      "href": "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/slm-mhc-use-case-ds.pdf"
+    },
+    {
+      "label": "Lean More",
+      "href": "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/silicon-timing-failure-rca-ds.pdf"
+    },
+    {
+      "label": "Learn More",
+      "href": "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/slm-use-case-vmin-prediction-ds.pdf"
+    },
+    {
+      "label": "Watch",
+      "href": "#"
+    },
+    {
+      "label": "White Paper",
+      "href": "https://www.synopsys.com/automotive/resources/trustworthy-automotive-semiconductors-wp.html"
+    },
+    {
+      "label": "Watch On-Demand",
+      "href": "/webinars/arm-slm-implementation-arm-cores.html"
+    },
+    {
+      "label": "Watch On-Demand",
+      "href": "/webinars/cisco-advancing-hsat-structural-test-pcie-gen4.html"
+    },
+    {
+      "label": "Watch On-Demand",
+      "href": "/webinars/infineon-standardization-semiconductor-environment-siliconda.html"
+    },
+    {
+      "label": "Learn More",
+      "href": "content/synopsys/en-us/blogs/chip-design/evolution-pvt-ip-ams-digitally-assisted-analog-daa"
+    },
+    {
+      "label": "Learn More",
+      "href": "/resources/designing-ras-slm.html"
+    },
+    {
+      "label": "Learn More",
+      "href": "/resources/monitoring-test-repair-strategies-multi-die.html"
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/solutions/a-z.html",
+    "https://www.synopsys.com/solutions/iot.html",
+    "https://www.synopsys.com/solutions/medical.html",
+    "https://www.synopsys.com/solutions/memory.html",
+    "https://www.synopsys.com/solutions/rf-design.html",
+    "https://www.synopsys.com/solutions/risc-v.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/contact-us.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/avalon.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/data-highway.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/functional-monitors.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/monitor-analytics.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/structural-monitors.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/response-ip.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/sdc-ras-video-panel.html",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/brochures/slm-brochure.pdf",
+    "https://www.synopsys.com/cgi-bin/imp/pdfdla/pdfr1.cgi?file=slm-whitepaper.pdf",
+    "https://www.synopsys.com/ai/ai-powered-eda/silicon-da.html",
+    "https://www.synopsys.com/manufacturing/manufacturing-analytics/sysnav.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html#1",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html#2",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html#3",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html#4",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html#5",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/gap-to-target-use-case-ds.pdf",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/slm-mhc-use-case-ds.pdf",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/silicon-timing-failure-rca-ds.pdf",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/datasheets/slm-use-case-vmin-prediction-ds.pdf",
+    "https://www.synopsys.com/automotive/resources/trustworthy-automotive-semiconductors-wp.html",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/success-stories/cerebras-success-story.pdf",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/success-stories/synopsys-picocom-ss.pdf",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/success-stories/st-microelectronics-success-story.pdf",
+    "https://www.synopsys.com/webinars/arm-slm-implementation-arm-cores.html",
+    "https://www.synopsys.com/webinars/cisco-advancing-hsat-structural-test-pcie-gen4.html",
+    "https://www.synopsys.com/webinars/infineon-standardization-semiconductor-environment-siliconda.html",
+    "https://www.synopsys.com/success-stories/intel-sepl.html",
+    "https://www.synopsys.com/success-stories/google-accelerates-advanced-soc-testing.html",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/success-stories/synopsys-aws-ss.pdf",
+    "https://www.synopsys.com/success-stories/cisco-enhances-asic-slm.html",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/success-stories/socionext-and-synopsys-ss.pdf",
+    "https://www.synopsys.com/content/dam/synopsys/solutions/slm/success-stories/arm-morello-SS.pdf",
+    "https://semiwiki.com/podcast/podcast-ep202-a-deep-dive-on-the-growing-impact-of-silicon-lifecycle-management-with-synopsys-randy-fish/",
+    "https://semiengineering.com/mission-profiles-analytics-for-the-automotive-industry/",
+    "https://www.synopsys.com/blogs/chip-design/multi-die-systems-silicon-lifecycle-management.html",
+    "https://www.synopsys.com/solutions/content/synopsys/en-us/blogs/chip-design/evolution-pvt-ip-ams-digitally-assisted-analog-daa",
+    "https://www.synopsys.com/resources/designing-ras-slm.html",
+    "https://www.synopsys.com/resources/monitoring-test-repair-strategies-multi-die.html",
+    "https://www.synopsys.com/blogs/chip-design/strategic-role-of-glitch-detection-ip-in-modern-socs.html",
+    "https://www.synopsys.com/webinars/slm-pvt-monitoring-gaa.html",
+    "https://aws.amazon.com/blogs/industries/create-smarter-more-reliable-software-defined-vehicles-with-synopsys-and-aws/",
+    "https://semiengineering.com/reimagining-pvt-monitoring-ip-for-advanced-node-gaa-process/",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-vehicles-blackberry-aws.html",
+    "https://semiengineering.com/slm-analytics-of-in-chip-monitor-data-unlock-greater-productivity-and-cost-savings/",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/new-slm-hero-banner-v4?qlt=82&wid=1900&ts=1762541246699&$responsive$&fit=constrain&dpr=off",
+        "alt": "Silicon Lifecycle Management",
+        "w": 1440,
+        "h": 378
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/new-slm-hero-banner-v4?qlt=82&wid=1900&ts=1762541246699&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 378
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/sensors-pvt-purple.svg.imgo.svg",
+        "alt": "In-Design",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/yield-explorer-purple.svg.imgo.svg",
+        "alt": "In-Ramp",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/silicon-dash-purple.svg.imgo.svg",
+        "alt": "In-Production",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/slm-in-field-purple.svg.imgo.svg",
+        "alt": "In-Field",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/slm-family-platform-april24?qlt=82&wid=1200&ts=1728495248150&$responsive$&fit=constrain&dpr=off",
+        "alt": "SLM Family of Products",
+        "w": 1440,
+        "h": 867
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/slm-family-platform-april24?qlt=82&wid=1200&ts=1728495248150&$responsive$&fit=constrain&dpr=off",
+        "alt": "SLM Family of Products",
+        "w": 1440,
+        "h": 867
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/floatingtabs/1/imagetextcta_copy.coreimg.svg/1760127793213/gap-to-target-analysis.svg",
+        "alt": "",
+        "w": 163,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/floatingtabs/2/imagetextcta_2379723.coreimg.svg/1768265346997/model-to-hardware-correlation.svg",
+        "alt": "",
+        "w": 163,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/floatingtabs/3/imagetextcta_2379723.coreimg.svg/1767827162507/silicon-timing-failure-rca.svg",
+        "alt": "",
+        "w": 163,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/floatingtabs/4/imagetextcta_1659149.coreimg.svg/1760127808012/vmin-prediction.svg",
+        "alt": "",
+        "w": 163,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/floatingtabs/7/imagetextcta_2379723.coreimg.svg/1760127813292/ras-enablement.svg",
+        "alt": "",
+        "w": 163,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127481217/colLeft/cards_copy/assetCard/image.coreimg.svg/1742471277497/cerebras-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127481217/colMid/cards_copy_copy/assetCard/image.coreimg.svg/1742471218509/picocom-horiz-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/st-logo?qlt=82&wid=1200&ts=1742471165332&$responsive$&fit=constrain&dpr=off",
+        "alt": "st-logo.jpg",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/pratap-machineni-arm-thumbnail?qlt=82&wid=1200&ts=1788390566068&$responsive$&fit=constrain&dpr=off",
+        "alt": "SLM Implementation on Arm Cores",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cisco-thumbnail-2?qlt=82&wid=1200&ts=1788390601378&$responsive$&fit=constrain&dpr=off",
+        "alt": "Advancing HSAT Structural Test",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cornelia-engel-infineon-thumbnail?qlt=82&wid=1200&ts=1788390634857&$responsive$&fit=constrain&dpr=off",
+        "alt": "Standardization in a Complex Semiconductor Environment",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/intel-thumbnail?qlt=82&wid=1200&ts=1767647373221&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/google-logo?qlt=82&wid=1200&ts=1760546194273&$responsive$&fit=constrain&dpr=off",
+        "alt": "google-logo.jpg",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127475873/colRight/cards_copy/assetCard/image.coreimg.svg/1745278673197/aws-logo.svg",
+        "alt": "AWS Logo",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cisco-thumbnail?qlt=82&wid=1200&ts=1755591965516&$responsive$&fit=constrain&dpr=off",
+        "alt": "cisco",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127478527/colMid/cards_copy_copy/assetCard/image.coreimg.svg/1742470811194/socionext-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127478527/colRight/cards_copy/assetCard/image.coreimg.svg/1742470960039/platinum-arm.svg",
+        "alt": "Arm Logo",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127481217/colLeft/cards_copy/assetCard/image.coreimg.svg/1742471277497/cerebras-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127481217/colMid/cards_copy_copy/assetCard/image.coreimg.svg/1742471218509/picocom-horiz-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/st-logo?qlt=82&wid=1200&ts=1742471165332&$responsive$&fit=constrain&dpr=off",
+        "alt": "st-logo.jpg",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/pratap-machineni-arm-thumbnail?qlt=82&wid=1200&ts=1788390566068&$responsive$&fit=constrain&dpr=off",
+        "alt": "SLM Implementation on Arm Cores",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cisco-thumbnail-2?qlt=82&wid=1200&ts=1788390601378&$responsive$&fit=constrain&dpr=off",
+        "alt": "Advancing HSAT Structural Test",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cornelia-engel-infineon-thumbnail?qlt=82&wid=1200&ts=1788390634857&$responsive$&fit=constrain&dpr=off",
+        "alt": "Standardization in a Complex Semiconductor Environment",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/intel-thumbnail?qlt=82&wid=1200&ts=1767647373221&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/google-logo?qlt=82&wid=1200&ts=1760546194273&$responsive$&fit=constrain&dpr=off",
+        "alt": "google-logo.jpg",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127475873/colRight/cards_copy/assetCard/image.coreimg.svg/1745278673197/aws-logo.svg",
+        "alt": "AWS Logo",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cisco-thumbnail?qlt=82&wid=1200&ts=1755591965516&$responsive$&fit=constrain&dpr=off",
+        "alt": "cisco",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127478527/colMid/cards_copy_copy/assetCard/image.coreimg.svg/1742470811194/socionext-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127478527/colRight/cards_copy/assetCard/image.coreimg.svg/1742470960039/platinum-arm.svg",
+        "alt": "Arm Logo",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127481217/colLeft/cards_copy/assetCard/image.coreimg.svg/1742471277497/cerebras-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/solutions/silicon-lifecycle-management/_jcr_content/root/synopsyscontainer/carousel_1856640423/item_1760127481217/colMid/cards_copy_copy/assetCard/image.coreimg.svg/1742471218509/picocom-horiz-logo.svg",
+        "alt": "",
+        "w": 300,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/st-logo?qlt=82&wid=1200&ts=1742471165332&$responsive$&fit=constrain&dpr=off",
+        "alt": "st-logo.jpg",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 68,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/67f2c200-7670-4ae3-a0eb-96f27aaa9772/adda715b-9038-42b6-9580-cedb5ee6430a/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/568a59e0-dd88-40c1-8541-94012c2111a3/7ce09774-576e-4b39-bc4d-090ae0160106/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/b75e73db-c150-4a7a-9c1c-94370a018b41/43fe3f37-5cd8-4dfe-8d77-d34daf91cfb1/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/23ac7041-df3a-4556-8c81-2b771a672dbf/901e888e-bbd5-4d2c-a636-894bc16b8888/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window."
+    ],
+    "videos": [
+      {
+        "src": "blob:https://www.synopsys.com/0450b572-84ea-4d87-a2ac-41b985980587",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/67f2c200-7670-4ae3-a0eb-96f27aaa9772/adda715b-9038-42b6-9580-cedb5ee6430a/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      },
+      {
+        "src": "blob:https://www.synopsys.com/defe5c92-27a5-4ba9-8aa9-c6dd034b6231",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/568a59e0-dd88-40c1-8541-94012c2111a3/7ce09774-576e-4b39-bc4d-090ae0160106/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      },
+      {
+        "src": "blob:https://www.synopsys.com/47d19daa-bc8e-4cd1-913f-c2ea10f635c8",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/b75e73db-c150-4a7a-9c1c-94370a018b41/43fe3f37-5cd8-4dfe-8d77-d34daf91cfb1/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      },
+      {
+        "src": "blob:https://www.synopsys.com/03ab700d-9d79-4604-99d6-ee1de0ef05fd",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/23ac7041-df3a-4556-8c81-2b771a672dbf/901e888e-bbd5-4d2c-a636-894bc16b8888/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 26,
+    "mainTextLen": 177924,
+    "realImageCount": 63,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/solutions-silicon-lifecycle-management-html.png",
+  "renderedHtml": "pages/solutions-silicon-lifecycle-management-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Silicon Lifecycle Management (SLM): Optimize Silicon Health & Performance",
+    "summary": "Synopsys Silicon Lifecycle Management Platform delivers continuous analysis and optimization of semiconductor devices from design through deployment.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": false,
+      "items": [
+        "SLM for Automotive: Silicon Health Data and Analytics That Predict Failures",
+        "Silicon Lifecycle Management: Actionable Insights at Every Phase of the Chip Lifecycle",
+        "The SLM Paradigm Shift: Rethinking How Chips Are Designed, Built, and Maintained",
+        "SLM Benefits: Monitor, Analyze, and Optimize Silicon Health",
+        "SLM Implementation on Arm Cores",
+        "Advancing HSAT Structural Test"
+      ]
+    },
+    "sections": [
+      "Actionable Insights Through Silicon Lifecycle Monitoring and Analytics",
+      "Optimize Each Phase of the Device Lifecycle",
+      "Explore Synopsys Silicon Lifecycle Management Family of Products",
+      "Synopsys SLM Family of Products",
+      "SLM Use Cases",
+      "Silicon Characterization Based on Foundry Models",
+      "Correlation Improvement and Design Margin Reduction",
+      "Optimize Yield Ahead of Production",
+      "Improve Correlation Between a Predicted and Measured Vmin",
+      "Reliability, Availability, and Serviceability",
+      "Videos",
+      "What Our Customers Are Saying",
+      "Resources"
+    ],
+    "cta-band": true
+  },
+  "pageType": "program"
+}

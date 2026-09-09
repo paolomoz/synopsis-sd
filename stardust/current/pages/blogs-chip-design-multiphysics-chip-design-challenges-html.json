@@ -1,0 +1,978 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:05.689Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "blogs-chip-design-multiphysics-chip-design-challenges-html",
+  "url": "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:05.689Z",
+  "finalUrl": "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+  "title": "Multiphysics Challenges in Advanced Chip Design | Synopsys",
+  "description": "Learn how multiphysics challenges in advanced chip design impact performance, power, and efficiency \u2014 and why early analysis is critical.",
+  "og": {
+    "title": "Multiphysics Challenges in Advanced Chip Design | Synopsys",
+    "description": "Learn how multiphysics challenges in advanced chip design impact performance, power, and efficiency \u2014 and why early analysis is critical.",
+    "image": "https://images.synopsys.com/is/image/synopsys/multi-die-3d-chip-multiphysics-abstract-image-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips"
+    },
+    {
+      "tag": "h2",
+      "text": "Multiphysics Fusion Technology for Multi-Die Designs Explained"
+    },
+    {
+      "tag": "h2",
+      "text": "The rising cost of overdesign"
+    },
+    {
+      "tag": "h2",
+      "text": "Why multi-die designs raise the stakes"
+    },
+    {
+      "tag": "h2",
+      "text": "A more integrated approach to chip design"
+    },
+    {
+      "tag": "h2",
+      "text": "Co-designing with physics, not around it"
+    },
+    {
+      "tag": "h2",
+      "text": "Continue Reading"
+    },
+    {
+      "tag": "h4",
+      "text": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP"
+    },
+    {
+      "tag": "h4",
+      "text": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt"
+    },
+    {
+      "tag": "h4",
+      "text": "Managing 1,000+ Thermal States in a Mobile Device"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Blogs",
+    "Silicon to Systems",
+    "Sumit Vishwakarma",
+    "Jun 17, 2026 / 4 min read",
+    "The rising cost of overdesign",
+    "Why multi-die designs raise the stakes",
+    "A more integrated approach to chip design",
+    "Co-designing with physics, not around it",
+    "In the semiconductor industry, solving one set of problems often leads to another.",
+    "We\u2019re seeing this now with the shift from monolithic chips to 2.5D and 3D multi-die designs. These architectures help address major challenges related to performance, bandwidth, and energy efficiency \u2014 all of which are critical for AI systems and workloads.",
+    "But a new set of problems has emerged: multiphysics.",
+    "As logic, memory, and compute are packed more tightly together and stacked in closer proximity, they are increasingly influenced by thermal, electromagnetic, and other physical effects.",
+    "Historically, these effects were often treated as secondary concerns that could be isolated, analyzed, and addressed in the latter stages of design. More recently, as advanced node and multi-die designs gained momentum and multiphysics interactions became more pronounced \u2014 and harder to predict \u2014 engineering teams have built extra margins into their designs to hedge against uncertainty.",
+    "But that approach has introduced its own set of problems.",
+    "Learn why multiphysics analysis must move earlier in the design flow.",
+    "One of the industry\u2019s traditional ways of coping with uncertainty has been to overdesign.",
+    "When engineers couldn\u2019t fully predict how a chip would behave under real-world conditions, they compensated with extra margin. They added guardbands for timing. They built in safety buffers for power. They made conservative choices to avoid failure later.",
+    "At advanced nodes, however, overdesign is becoming too expensive.",
+    "Every added margin comes with a cost in power, performance, or area. Every conservative assumption can mean wasted silicon and lower efficiency. Those costs add up quickly.",
+    "The International Journal on Science and Technology (IJSAT) estimates the cost of overdesign \u2014 primarily driven by excessive design margins (or guardbands) to mitigate process, voltage, and temperature variations \u2014 accounts for 20% to 45% of total power penalties and 20% to 35% in wasted silicon area on advanced nodes (sub-5 nm).",
+    "These tradeoffs are even more pronounced in AI systems, where performance demands are intense and energy efficiency is critical. Teams cannot afford to leave optimization opportunities on the table simply because they don\u2019t have enough visibility into the physical behavior of the design.",
+    "More analysis and correlation are needed. And they must come earlier.",
+    "Multiphysics effects don't occur in isolation. In 2.5D and 3D multi-die designs, they interact \u2014 and the consequences compound.",
+    "Thermal management: In stacked or tightly integrated designs, heat can become trapped between dies (also called chiplets), causing localized \"hotspots\" that can degrade or destroy the chip.",
+    "Power integrity: Dropping voltages across through-silicon vias (TSVs) can cause power fluctuations and destabilize clock speeds.",
+    "Electromagnetic interference: When high-speed signals travel through dense structures, interference can cause data corruption and crosstalk.",
+    "Mechanical stress: Stacking different materials with different thermal expansion rates can cause structural warpage, leading to cracking or delamination.",
+    "This is why the industry\u2019s \u201cshift left\u201d mindset matters so much. If teams wait too long to evaluate these interactions, they are more likely to face late-stage surprises, repeated fixes, and costly re-spins.",
+    "But if they can see those interactions earlier, they can make better architectural and design decisions \u2014 before complexity hardens into risk.",
+    "At Synopsys, we believe this shift calls for a more integrated approach. One that brings multiphysics awareness and true co-design directly into the workflow, instead of treating it as a downstream activity.",
+    "The first Synopsys Multiphysics Fusion solutions, which combine Synopsys\u2019 industry-leading silicon design tools with the gold-standard signoff analysis capabilities from Ansys, reflect that new approach. Now available for production use, the solutions span five key areas: timing signoff, design closure, multi-die designs, analog and mixed-signal (AMS) design, and photonics design.",
+    "What connects them is not simply more analysis, but better context and stronger correlation within the workflows engineers already use to design and validate complex systems.",
+    "For timing signoff, that means understanding how real-world power and thermal conditions influence timing behavior. For design closure, it means resolving physical issues with greater confidence and fewer iterations. For multi-die design, it means gaining earlier visibility into system-level interactions. For AMS design, it means bringing electromagnetic awareness closer to the point where key decisions are made. And for photonics design, it means eliminating manual design handoffs and accelerating system development.",
+    "These are different workflows, but the underlying challenge is the same: understanding how multiple physical domains interact and influence one another.",
+    "The semiconductor industry has long treated physics as something to validate at the end of the design process. That's no longer sustainable.",
+    "As multi-die architectures grow more complex and the costs of overdesign become more pronounced, physics must become a core design input. One that shapes tradeoffs, improves correlation, and reduces unnecessary margin from the start.",
+    "The teams that make this shift won't just avoid late-stage surprises. They\u2019ll make more confident architectural decisions, reclaim the performance and efficiency that conservative assumptions leave behind, and move faster in a market that rewards speed.",
+    "About Synopsys",
+    "AI & Machine Learning",
+    "Multi-Die",
+    "Multiphysics Fusion",
+    "Design",
+    "Verification",
+    "About Us",
+    "Careers",
+    "Responsible Business",
+    "Investor Relations",
+    "Office Locations",
+    "Ecosystem Partners",
+    "Leadership",
+    "Corporate Governance & Ethics",
+    "Strategic Acquisitions",
+    "Services",
+    "Academic & Research Alliances (SARA)",
+    "Interoperability",
+    "Contact Us",
+    "News Releases",
+    "Executive Briefing Center",
+    "University Program",
+    "Manage Subscriptions",
+    "Sitemap",
+    "Synopsys and Ansys Are Now United",
+    "Mastering AI Chip Complexity",
+    "The A to Z of Multi-Die Design",
+    "Multi-Die Design Start Guide",
+    "Building an AI Chip: Pre Silicon Planning",
+    "Securing Silicon From the Start",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is an Integrated Circuit?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Silicon to Systems Blog",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Topics",
+      "href": null
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs.html"
+    },
+    {
+      "label": "Silicon to Systems",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Sumit Vishwakarma",
+      "href": "/authors/sumit-vishwakarma.html"
+    },
+    {
+      "label": "Subscribe",
+      "href": null
+    },
+    {
+      "label": "Download eBook",
+      "href": "/resources/multiphysics-fusion-technology-for-multi-die.html"
+    },
+    {
+      "label": "20% to 45% of total power penalties and 20% to 35% in wasted silicon area",
+      "href": "https://www.ijsat.org/papers/2025/2/3134.pdf"
+    },
+    {
+      "label": "Synopsys Multiphysics Fusion",
+      "href": "/solutions/multiphysics-fusion.html"
+    },
+    {
+      "label": "Now available",
+      "href": "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions"
+    },
+    {
+      "label": "eBook: Multiphysics Fusion for Multi-Die Design",
+      "href": "/resources/multiphysics-fusion-technology-for-multi-die.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Multi-Die",
+      "href": "/blogs/chip-design/category.multi-die-system.html"
+    },
+    {
+      "label": "Multiphysics Fusion",
+      "href": "/blogs/chip-design/category.multiphysics-fusion.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+      "href": "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html"
+    },
+    {
+      "label": "Anmol Gupta",
+      "href": "/authors/anmol-gupta.html"
+    },
+    {
+      "label": "Anil Kumar Gurugubelli",
+      "href": "/authors/anil-kumar-gurugubelli.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Verification IP",
+      "href": "/blogs/chip-design/category.verificationip.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html"
+    },
+    {
+      "label": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Greg Sorber",
+      "href": "/authors/greg-sorber.html"
+    },
+    {
+      "label": "Executive Voices",
+      "href": "/blogs/chip-design/category.executive-voices.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Physical Implementation",
+      "href": "/blogs/chip-design/category.physical-implementation.html"
+    },
+    {
+      "label": "Energy-Efficient SoCs",
+      "href": "/blogs/chip-design/category.energy-efficient-socs.html"
+    },
+    {
+      "label": "Design Technology Co-Optimization",
+      "href": "/blogs/chip-design/category.design-technology-co-optimization.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/blogs/chip-design/category.hpc-data-center.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Managing 1,000+ Thermal States in a Mobile Device",
+      "href": "/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html"
+    },
+    {
+      "label": "Johannes Stahl",
+      "href": "/authors/dr-johannes-stahl.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Emulation",
+      "href": "/blogs/chip-design/category.emulation.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html"
+    },
+    {
+      "label": "About Us",
+      "href": "https://www.synopsys.com/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "https://www.synopsys.com/company/responsible-business.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Office Locations",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "https://www.synopsys.com/partners.html"
+    },
+    {
+      "label": "Leadership",
+      "href": "https://www.synopsys.com/company/management-team.html"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "https://www.synopsys.com/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "https://www.synopsys.com/company/acquisitions.html"
+    },
+    {
+      "label": "Services",
+      "href": "https://www.synopsys.com/services/design-services.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "https://www.synopsys.com/academic-research.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "https://www.synopsys.com/community/interoperability-programs.html"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://www.synopsys.com/company/contact-synopsys.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "https://www.synopsys.com/newsroom.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "https://www.synopsys.com/company/executive-briefing-center.html"
+    },
+    {
+      "label": "University Program",
+      "href": "https://www.synopsys.com/academic-research/university.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/contact-form-subscription-center.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://www.synopsys.com/sitemap.html"
+    },
+    {
+      "label": "Synopsys and Ansys Are Now United",
+      "href": "https://www.synopsys.com/synopsys-ansys-united.html"
+    },
+    {
+      "label": "Mastering AI Chip Complexity",
+      "href": "https://www.synopsys.com/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html"
+    },
+    {
+      "label": "The A to Z of Multi-Die Design",
+      "href": "https://www.synopsys.com/webinars/a-z-multi-die-design.html"
+    },
+    {
+      "label": "Multi-Die Design Start Guide",
+      "href": "https://www.synopsys.com/multi-die-system/start-guide.html"
+    },
+    {
+      "label": "Building an AI Chip: Pre Silicon Planning",
+      "href": "https://www.synopsys.com/ai/ai-chip-development/building-an-ai-chip-pre-silicon-planning.html"
+    },
+    {
+      "label": "Securing Silicon From the Start",
+      "href": "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "https://www.synopsys.com/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "https://www.synopsys.com/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "https://www.synopsys.com/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "https://www.synopsys.com/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "Authors",
+      "href": "https://www.synopsys.com/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://www.synopsys.com/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/blogs/chip-design/category.3d-image-processing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.3dic-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.5g-wireless.html",
+    "https://www.synopsys.com/blogs/chip-design/category.5nm-and-below.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ai-and-machine-learning.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ams-simulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.amsverification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ar-vr.html",
+    "https://www.synopsys.com/blogs/chip-design/category.about-synopsys.html",
+    "https://www.synopsys.com/blogs/chip-design/category.aerospace-and-government.html",
+    "https://www.synopsys.com/blogs/chip-design/category.analog-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.atomic-scale-modeling.html",
+    "https://www.synopsys.com/blogs/chip-design/category.atomistic-simulation-software.html",
+    "https://www.synopsys.com/blogs/chip-design/category.automotive.html",
+    "https://www.synopsys.com/blogs/chip-design/category.cloud.html",
+    "https://www.synopsys.com/blogs/chip-design/category.consumer.html",
+    "https://www.synopsys.com/blogs/chip-design/category.custom-implementation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.customer-spotlight.html",
+    "https://www.synopsys.com/blogs/chip-design/category.data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/category.debug.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design-technology-co-optimization.html",
+    "https://www.synopsys.com/blogs/chip-design/category.emulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.energy-efficient-socs.html",
+    "https://www.synopsys.com/blogs/chip-design/category.engineering-central.html",
+    "https://www.synopsys.com/blogs/chip-design/category.executive-voices.html",
+    "https://www.synopsys.com/blogs/chip-design/category.fpga-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.formal-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.foundation-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.fusion-design-platform.html",
+    "https://www.synopsys.com/blogs/chip-design/category.fusion-technology.html",
+    "https://www.synopsys.com/blogs/chip-design/category.hpc-data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ide.html",
+    "https://www.synopsys.com/blogs/chip-design/category.insights.html",
+    "https://www.synopsys.com/blogs/chip-design/category.interface-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.interface-ip-subsystems.html",
+    "https://www.synopsys.com/blogs/chip-design/category.internet-of-things.html",
+    "https://www.synopsys.com/blogs/chip-design/category.lowpower.html",
+    "https://www.synopsys.com/blogs/chip-design/category.manufacturing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.mask-solutions.html",
+    "https://www.synopsys.com/blogs/chip-design/category.medical.html",
+    "https://www.synopsys.com/blogs/chip-design/category.memory.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multi-die-system.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multiphysics-fusion.html",
+    "https://www.synopsys.com/blogs/chip-design/category.photonic.html",
+    "https://www.synopsys.com/blogs/chip-design/category.physical-implementation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.physical-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.platform.html",
+    "https://www.synopsys.com/blogs/chip-design/category.prototyping.html",
+    "https://www.synopsys.com/blogs/chip-design/category.quantum-computing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.rf-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.risc-v.html",
+    "https://www.synopsys.com/blogs/chip-design/category.rtl-synthesis.html",
+    "https://www.synopsys.com/blogs/chip-design/category.security-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.signal-&-power-integrity.html",
+    "https://www.synopsys.com/blogs/chip-design/category.signoff.html",
+    "https://www.synopsys.com/blogs/chip-design/category.silicon-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.silicon-lifecycle-management.html",
+    "https://www.synopsys.com/blogs/chip-design/category.simpleware.html",
+    "https://www.synopsys.com/blogs/chip-design/category.simulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.smart-manufacturing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.soc-verification-automation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.static-and-formal-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.static-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.storage.html",
+    "https://www.synopsys.com/blogs/chip-design/category.tcad.html",
+    "https://www.synopsys.com/blogs/chip-design/category.test.html",
+    "https://www.synopsys.com/blogs/chip-design/category.test-automation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verificationip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.virtualprototyping.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/authors/sumit-vishwakarma.html",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.ijsat.org/papers/2025/2/3134.pdf",
+    "https://news.synopsys.com/2026-06-17-Synopsys-Announces-Availability-of-the-First-Wave-of-Multiphysics-Fusion-Solutions",
+    "https://www.synopsys.com/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html",
+    "https://www.synopsys.com/authors/anmol-gupta.html",
+    "https://www.synopsys.com/authors/anil-kumar-gurugubelli.html",
+    "https://www.synopsys.com/blogs/chip-design/energy-efficient-ai-per-watt.html",
+    "https://www.synopsys.com/authors/greg-sorber.html",
+    "https://www.synopsys.com/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html",
+    "https://www.synopsys.com/authors/dr-johannes-stahl.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://www.synopsys.com/company/contact-synopsys.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://online.synopsys.com/contact-form-subscription-center.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/synopsys-ansys-united.html",
+    "https://www.synopsys.com/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html",
+    "https://www.synopsys.com/webinars/a-z-multi-die-design.html",
+    "https://www.synopsys.com/multi-die-system/start-guide.html",
+    "https://www.synopsys.com/ai/ai-chip-development/building-an-ai-chip-pre-silicon-planning.html",
+    "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/authors.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/snps/blogs/chip-design.en-us.xml",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1781718837608&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-3d-chip-multiphysics-abstract-image-1200x675?qlt=82&wid=1200&ts=1781551092037&$responsive$&fit=constrain&dpr=off",
+        "alt": "multi-die-3d-chip-design-multiphysics-image",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-multiphysics-fusion-solutions-announcement-image-1200x675?qlt=82&wid=1200&ts=1781632522872&$responsive$&fit=constrain&dpr=off",
+        "alt": "synopsys-multiphysics-fusion-ppa-benefits-graphic",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1788475547020&$responsive$",
+        "alt": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fpo-headshot-520x520?ts=1788281894717&$responsive$",
+        "alt": "Anmol Gupta",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/anil-kumar-gurugubelli-headshot?ts=1784170439423&$responsive$",
+        "alt": "Anil Kumar Gurugubelli",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-data-center-energy-efficiency-electricity-meter-image-400x225?ts=1788296260596&$responsive$",
+        "alt": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/google-success-story-2026-thumbnail?ts=1788388364756&$responsive$",
+        "alt": "Managing 1,000+ Thermal States in a Mobile Device ",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1762521871153&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1762521871153&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 39,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 14,
+    "mainTextLen": 170714,
+    "realImageCount": 33,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/blogs-chip-design-multiphysics-chip-design-challenges-html.png",
+  "renderedHtml": "pages/blogs-chip-design-multiphysics-chip-design-challenges-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "deck": "Learn how multiphysics challenges in advanced chip design impact performance, power, and efficiency \u2014 and why early analysis is critical.",
+    "byline": null,
+    "meta": "Jun 17, 2026 / 4 min read",
+    "lead-image": "https://images.synopsys.com/is/image/synopsys/multi-die-3d-chip-multiphysics-abstract-image-1200x675?qlt=82&wid=1200&ts=1781551092037&$responsive$&fit=constrain&dpr=off",
+    "body": {
+      "sections": [
+        "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "The rising cost of overdesign",
+        "Why multi-die designs raise the stakes",
+        "A more integrated approach to chip design",
+        "Co-designing with physics, not around it"
+      ]
+    },
+    "pullquotes": [],
+    "related": [
+      "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+      "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "Managing 1,000+ Thermal States in a Mobile Device"
+    ]
+  },
+  "pageType": "article"
+}

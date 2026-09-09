@@ -1,0 +1,1496 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:43.872Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "success-stories-view-all-html",
+  "url": "https://www.synopsys.com/success-stories/view-all.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:43.872Z",
+  "finalUrl": "https://www.synopsys.com/success-stories/view-all.html",
+  "title": "View All \u2013 Customer Success Stories | Synopsys",
+  "description": "Discover how leading companies achieve silicon innovation and success with Synopsys tools, cloud solutions, and advanced design technologies.",
+  "og": {
+    "title": "View All \u2013 Customer Success Stories | Synopsys",
+    "description": "Discover how leading companies achieve silicon innovation and success with Synopsys tools, cloud solutions, and advanced design technologies.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "2025"
+    },
+    {
+      "tag": "h2",
+      "text": "Ferrari"
+    },
+    {
+      "tag": "h2",
+      "text": "IBM"
+    },
+    {
+      "tag": "h2",
+      "text": "Cisco"
+    },
+    {
+      "tag": "h2",
+      "text": "Sophic Silicon"
+    },
+    {
+      "tag": "h2",
+      "text": "DreamBig Semiconductor"
+    },
+    {
+      "tag": "h2",
+      "text": "ABR"
+    },
+    {
+      "tag": "h2",
+      "text": "M31"
+    },
+    {
+      "tag": "h2",
+      "text": "Rain AI"
+    },
+    {
+      "tag": "h2",
+      "text": "2024"
+    },
+    {
+      "tag": "h2",
+      "text": "Intel"
+    },
+    {
+      "tag": "h2",
+      "text": "Iontra"
+    },
+    {
+      "tag": "h2",
+      "text": "Microsoft"
+    },
+    {
+      "tag": "h2",
+      "text": "Rebellions"
+    },
+    {
+      "tag": "h2",
+      "text": "Synaptics"
+    },
+    {
+      "tag": "h2",
+      "text": "CoreHW"
+    },
+    {
+      "tag": "h2",
+      "text": "Multibeam"
+    },
+    {
+      "tag": "h2",
+      "text": "NeuReality"
+    },
+    {
+      "tag": "h2",
+      "text": "CalligoTech"
+    },
+    {
+      "tag": "h2",
+      "text": "HCLTech"
+    },
+    {
+      "tag": "h2",
+      "text": "Amazon Web Services"
+    },
+    {
+      "tag": "h2",
+      "text": "Carnegie Technologies"
+    },
+    {
+      "tag": "h2",
+      "text": "Flex Logix"
+    },
+    {
+      "tag": "h2",
+      "text": "GOWIN"
+    },
+    {
+      "tag": "h2",
+      "text": "2023"
+    },
+    {
+      "tag": "h2",
+      "text": "Achronix"
+    },
+    {
+      "tag": "h2",
+      "text": "Cisco"
+    },
+    {
+      "tag": "h2",
+      "text": "Intel"
+    },
+    {
+      "tag": "h2",
+      "text": "Mentium"
+    },
+    {
+      "tag": "h2",
+      "text": "TetraMem"
+    },
+    {
+      "tag": "h2",
+      "text": "Samsung Foundry"
+    },
+    {
+      "tag": "h2",
+      "text": "Infineon"
+    },
+    {
+      "tag": "h2",
+      "text": "Astera Labs"
+    },
+    {
+      "tag": "h2",
+      "text": "Viettel"
+    },
+    {
+      "tag": "h2",
+      "text": "Impar\u00e9"
+    },
+    {
+      "tag": "h2",
+      "text": "Arm"
+    },
+    {
+      "tag": "h2",
+      "text": "Keysight"
+    },
+    {
+      "tag": "h2",
+      "text": "Lightelligence"
+    },
+    {
+      "tag": "h2",
+      "text": "Xconn"
+    },
+    {
+      "tag": "h2",
+      "text": "2022"
+    },
+    {
+      "tag": "h2",
+      "text": "SiMA.ai"
+    },
+    {
+      "tag": "h2",
+      "text": "Neuchips"
+    },
+    {
+      "tag": "h2",
+      "text": "STMicroelectronics"
+    },
+    {
+      "tag": "h2",
+      "text": "Advantest"
+    },
+    {
+      "tag": "h2",
+      "text": "NXP"
+    },
+    {
+      "tag": "h2",
+      "text": "STMicroelectronics"
+    },
+    {
+      "tag": "h2",
+      "text": "Global Unichip Corp. (GUC)"
+    },
+    {
+      "tag": "h2",
+      "text": "Novatek"
+    },
+    {
+      "tag": "h2",
+      "text": "Cerebras"
+    },
+    {
+      "tag": "h2",
+      "text": "2021"
+    },
+    {
+      "tag": "h2",
+      "text": "Parade Technologies"
+    },
+    {
+      "tag": "h2",
+      "text": "Aaroh Labs"
+    },
+    {
+      "tag": "h2",
+      "text": "Achronix"
+    },
+    {
+      "tag": "h2",
+      "text": "Kyocera"
+    },
+    {
+      "tag": "h2",
+      "text": "2020"
+    },
+    {
+      "tag": "h2",
+      "text": "NSITEXE"
+    },
+    {
+      "tag": "h2",
+      "text": "IntelliProp"
+    },
+    {
+      "tag": "h2",
+      "text": "Orbbec"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Success Stories",
+    "Success Stories - View All",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "Discover how Ferrari solves powertrain electromagnetic challenges and reduces physical prototypes by 40%.",
+    "Learn how IBM accelerates advanced logic interconnect innovation with QuantumATK and Raphael FX.",
+    "Learn how Cisco boosts ASIC reliability and observability using Synopsys SLM IPs and analytics.",
+    "Learn how Sophic Silicon sped wireless SoC innovation using Synopsys Custom Compiler and PrimeSim.",
+    "Learn how DreamBig boosted engineering productivity by 20% using Synopsys 3DIC Cloud.",
+    "Learn how ABR built an ultra-efficient AI edge processor using Synopsys Cloud EDA tools.",
+    "Learn how M31 achieved 15x faster, 77% higher accuracy for 12nm IP on Synopsys Cloud.",
+    "Learn how Rain AI developed a low-power AI chip with Synopsys Cloud in under a year.",
+    "See how Intel addresses real-world vulnerabilities with Taint Propagation in Synopsys VCS.",
+    "Learn how Iontra doubles development speed of battery charging tech using Synopsys Cloud.",
+    "See how Microsoft reformed its verification process with Synopsys VCS ICO AI/ML technology.",
+    "Learn how Synopsys helped Rebellions navigate AI accelerator design & verify its REBEL chip.",
+    "Discover how Synaptics migrates ARC HS58x3 with Synopsys QIK and DSO.ai \u201cWarm Start\u201d.",
+    "Learn how CoreHW uses Synopsys RFIC Design Flow for an 80GHz mmWave PLL on GlobalFoundries 22FDX.",
+    "Learn how Synopsys and Multibeam accelerate innovation with the first production-ready E-beam lithography system.",
+    "See how NeuReality speeds up 7nm AI chip tape-out using Synopsys cloud emulation.",
+    "See how CalligoTech enables next-gen computing at scale with Synopsys Digital Design Flow.",
+    "See how HCLTech accelerates silicon success with Synopsys Cloud and high-quality IP.",
+    "See how AWS leverages high-speed serial interfaces for efficient testing with Synopsys.",
+    "Explore how Carnegie Tech boosts IoT security for industrial assets with GlobalSign and Synopsys.",
+    "Learn how Flex Logix takes eFPGA security to the next level with Synopsys.",
+    "Disocover how GOWIN secures IoT with FPGA solutions from Synopsys.",
+    "See how Achronix speeds up chip design and development 5X with Synopsys Cloud.",
+    "See how Cisco reduces project schedules from 3 months to 4 weeks using Synopsys Cloud.",
+    "See how Intel and Synopsys achieve the first UCIe-connected chiplet-based test chip.",
+    "See how Mentium accelerates AI chip tape-out for space applications using Synopsys Cloud.",
+    "See how TetraMem accelerates novel AI SoC development with Synopsys Cloud.",
+    "See how Samsung Foundry accelerates multi-die system design with advanced Synopsys solutions.",
+    "See how Infineon drives automotive MCU performance higher with Synopsys Interface IP.",
+    "See how Astera Labs accelerates time-to-market for HPC systems with Synopsys Cloud solutions.",
+    "See how Viettel accelerates 5G chip design and rollout in Vietnam with Synopsys.",
+    "See how Impar\u00e9 leverages chip design verification in the cloud with Synopsys.",
+    "See how Arm enhances SoC visibility for secure hardware with Synopsys.",
+    "See how Keysight validates PCIe 6.0 specification speed with Synopsys.",
+    "Discover how Lightelligence revolutionizes optical SoC design with Synopsys.",
+    "Discover how Xconn achieves first-pass silicon success for CXL switch SoC with Synopsys IP.",
+    "Learn how SiMA.ai enables edge machine learning applications with Synopsys.",
+    "Learn how SiMA.ai enables edge machine learning applications with Synopsys.",
+    "Discover how STMicroelectronics implements power-aware clock domain crossing with Synopsys.",
+    "Discover how Advantest improves semiconductor yield with Synopsys test data analytics.",
+    "Discover how NXP accelerates automotive software and processor design with Synopsys.",
+    "Learn how STMicroelectronics accelerates ASIP design and verification with Synopsys.",
+    "Discover how GUC accelerates chip design with Synopsys' chip floorplan design automation technology.",
+    "Learn how Novatek achieves first-pass silicon success for mobile display SoC with Synopsys MIPI IP portfolio.",
+    "Discover how Cerebras uses Synopsys to deploy sensors and monitors in their WSE-2 chip.",
+    "Learn how Parade Technologies successfully tapes out USB4 Retimer DUT with Synopsys verification IP.",
+    "Learn how Aaroh Labs achieves advanced-node semiconductor designs with Synopsys.",
+    "See how Achronix achieves first-pass FPGA success with Synopsys IP.",
+    "Learn how Kyocera achieves first-pass silicon success for image processing SoC with Synopsys IP.",
+    "Learn how NSITEXE develops RISC-V custom processors for autonomous driving SoC with Synopsys.",
+    "Learn how IntelliProp meets aggressive design schedules for memory controllers with Synopsys verification IP.",
+    "Learn how Orbbec achieves first-pass silicon success for 3D cameras with Synopsys MIPI IP.",
+    "Connect with Us",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Success Stories",
+      "href": "/success-stories.html"
+    },
+    {
+      "label": "Ferrari Discover how Ferrari solves powertrain electromagnetic challenges and reduces physical prototypes by 40%.",
+      "href": "https://www.synopsys.com/success-stories/ferrari-cuts-powertrain-prototypes-by-40-percent-with-simulation.html"
+    },
+    {
+      "label": "IBM Learn how IBM accelerates advanced logic interconnect innovation with QuantumATK and Raphael FX.",
+      "href": "https://www.synopsys.com/success-stories/ibm-explores-alternative-interconnect-metals.html"
+    },
+    {
+      "label": "Cisco Learn how Cisco boosts ASIC reliability and observability using Synopsys SLM IPs and analytics.",
+      "href": "https://www.synopsys.com/success-stories/cisco-enhances-asic-slm.html"
+    },
+    {
+      "label": "Sophic Silicon Learn how Sophic Silicon sped wireless SoC innovation using Synopsys Custom Compiler and PrimeSim.",
+      "href": "https://www.synopsys.com/success-stories/sophic-silicon-accelerates-wireless-soc-innovation.html"
+    },
+    {
+      "label": "DreamBig Semiconductor Learn how DreamBig boosted engineering productivity by 20% using Synopsys 3DIC Cloud.",
+      "href": "https://www.synopsys.com/success-stories/dreambig-semiconductors-tapeout-synopsys-3dic-compiler-cloud.html"
+    },
+    {
+      "label": "ABR Learn how ABR built an ultra-efficient AI edge processor using Synopsys Cloud EDA tools.",
+      "href": "https://www.synopsys.com/success-stories/abr-tapes-out-processor-synopsys-cloud.html"
+    },
+    {
+      "label": "M31 Learn how M31 achieved 15x faster, 77% higher accuracy for 12nm IP on Synopsys Cloud.",
+      "href": "https://www.synopsys.com/success-stories/m31-faster-characterization-synopsys-cloud-primelib.html"
+    },
+    {
+      "label": "Rain AI Learn how Rain AI developed a low-power AI chip with Synopsys Cloud in under a year.",
+      "href": "https://www.synopsys.com/success-stories/rain-ai-low-power-ai-accelerator-chip-synopsys-cloud.html"
+    },
+    {
+      "label": "Intel See how Intel addresses real-world vulnerabilities with Taint Propagation in Synopsys VCS.",
+      "href": "https://www.synopsys.com/success-stories/intel-replicates-real-world-vulnerability.html"
+    },
+    {
+      "label": "Iontra Learn how Iontra doubles development speed of battery charging tech using Synopsys Cloud.",
+      "href": "https://www.synopsys.com/success-stories/iontra-accelerates-dev-synopsys-cloud-saas.html"
+    },
+    {
+      "label": "Microsoft See how Microsoft reformed its verification process with Synopsys VCS ICO AI/ML technology.",
+      "href": "https://www.synopsys.com/success-stories/microsoft-uncovers-hidden-testbench-bugs.html"
+    },
+    {
+      "label": "Rebellions Learn how Synopsys helped Rebellions navigate AI accelerator design & verify its REBEL chip.",
+      "href": "https://www.synopsys.com/success-stories/rebellions-transforms-energy-efficient-ai-computing.html"
+    },
+    {
+      "label": "Synaptics Discover how Synaptics migrates ARC HS58x3 with Synopsys QIK and DSO.ai \u201cWarm Start\u201d.",
+      "href": "https://www.synopsys.com/success-stories/synaptics-arc-hs58x3-migration-with-synopsys-qik-and-dso-ai.html"
+    },
+    {
+      "label": "CoreHW Learn how CoreHW uses Synopsys RFIC Design Flow for an 80GHz mmWave PLL on GlobalFoundries 22FDX.",
+      "href": "https://www.synopsys.com/success-stories/corehw-80ghz-mmwave-pll-with-synopsys-rfic-design-flow.html"
+    },
+    {
+      "label": "Multibeam Learn how Synopsys and Multibeam accelerate innovation with the first production-ready E-beam lithography system.",
+      "href": "https://www.synopsys.com/success-stories/multibeam-innovation-with-e-beam-lithography.html"
+    },
+    {
+      "label": "NeuReality See how NeuReality speeds up 7nm AI chip tape-out using Synopsys cloud emulation.",
+      "href": "https://www.synopsys.com/success-stories/neureality-accelerating-ai-chip-tape-out-with-cloud-based-emulation.html"
+    },
+    {
+      "label": "CalligoTech See how CalligoTech enables next-gen computing at scale with Synopsys Digital Design Flow.",
+      "href": "https://www.synopsys.com/success-stories/calligotech-next-gen-computing-with-synopsys-design-flow.html"
+    },
+    {
+      "label": "HCLTech See how HCLTech accelerates silicon success with Synopsys Cloud and high-quality IP.",
+      "href": "https://www.synopsys.com/success-stories/hcltech-accelerating-silicon-success-with-synopsys-cloud-ip.html"
+    },
+    {
+      "label": "Amazon Web Services See how AWS leverages high-speed serial interfaces for efficient testing with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/aws-leveraging-high-speed-interfaces-for-testing-monitoring.html"
+    },
+    {
+      "label": "Carnegie Technologies Explore how Carnegie Tech boosts IoT security for industrial assets with GlobalSign and Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/carnegie-technologies-iot-security-for-asset-management.html"
+    },
+    {
+      "label": "Flex Logix Learn how Flex Logix takes eFPGA security to the next level with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/flex-logix-enhancing-efpga-security.html"
+    },
+    {
+      "label": "GOWIN Disocover how GOWIN secures IoT with FPGA solutions from Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/gowin-securing-iot-with-fpga.html"
+    },
+    {
+      "label": "Achronix See how Achronix speeds up chip design and development 5X with Synopsys Cloud.",
+      "href": "https://www.synopsys.com/success-stories/achronix-accelerates-chip-design-with-synopsys-cloud.html"
+    },
+    {
+      "label": "Cisco See how Cisco reduces project schedules from 3 months to 4 weeks using Synopsys Cloud.",
+      "href": "https://www.synopsys.com/success-stories/cisco-reduces-project-schedule-with-synopsys-cloud.html"
+    },
+    {
+      "label": "Intel See how Intel and Synopsys achieve the first UCIe-connected chiplet-based test chip.",
+      "href": "https://www.synopsys.com/success-stories/intel-achieves-first-ucie-connected-chiplet-based-test-chip.html"
+    },
+    {
+      "label": "Mentium See how Mentium accelerates AI chip tape-out for space applications using Synopsys Cloud.",
+      "href": "https://www.synopsys.com/success-stories/mentium-accelerates-ai-chip-tape-out-for-space-applications.html"
+    },
+    {
+      "label": "TetraMem See how TetraMem accelerates novel AI SoC development with Synopsys Cloud.",
+      "href": "https://www.synopsys.com/success-stories/tetramem-develops-novel-ai-accelerator-soc.html"
+    },
+    {
+      "label": "Samsung Foundry See how Samsung Foundry accelerates multi-die system design with advanced Synopsys solutions.",
+      "href": "https://www.synopsys.com/success-stories/samsung-foundry-achieves-accelerated-multi-die-system-design.html"
+    },
+    {
+      "label": "Infineon See how Infineon drives automotive MCU performance higher with Synopsys Interface IP.",
+      "href": "https://www.synopsys.com/success-stories/infineon-drives-automotive-mcu-performance-with-synopsys.html"
+    },
+    {
+      "label": "Astera Labs See how Astera Labs accelerates time-to-market for HPC systems with Synopsys Cloud solutions.",
+      "href": "https://www.synopsys.com/success-stories/astera-labs-accelerates-hpc-systems-time-to-market.html"
+    },
+    {
+      "label": "Viettel See how Viettel accelerates 5G chip design and rollout in Vietnam with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/viettel-accelerates-5g-chip-design-and-rollout.html"
+    },
+    {
+      "label": "Impar\u00e9 See how Impar\u00e9 leverages chip design verification in the cloud with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/impar-leveraging-chip-design-verification-in-the-cloud.html"
+    },
+    {
+      "label": "Arm See how Arm enhances SoC visibility for secure hardware with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/arm-enabling-soc-visibility-for-secure-hardware.html"
+    },
+    {
+      "label": "Keysight See how Keysight validates PCIe 6.0 specification speed with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/keysight-validates-pcie-6-0-specification.html"
+    },
+    {
+      "label": "Lightelligence Discover how Lightelligence revolutionizes optical SoC design with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/lightelligence-revolutionizes-optical-soc-design.html"
+    },
+    {
+      "label": "Xconn Discover how Xconn achieves first-pass silicon success for CXL switch SoC with Synopsys IP.",
+      "href": "https://www.synopsys.com/success-stories/xconn-achieves-first-pass-silicon-success-for-cxl-switch-soc.html"
+    },
+    {
+      "label": "SiMA.ai Learn how SiMA.ai enables edge machine learning applications with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/sima-ai-enables-edge-machine-learning-applications.html"
+    },
+    {
+      "label": "Neuchips Learn how SiMA.ai enables edge machine learning applications with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/neuchips-creates-ai-accelerator-chip-in-18-months.html"
+    },
+    {
+      "label": "STMicroelectronics Discover how STMicroelectronics implements power-aware clock domain crossing with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/stmicroelectronics-power-aware-clock-domain-crossing.html"
+    },
+    {
+      "label": "Advantest Discover how Advantest improves semiconductor yield with Synopsys test data analytics.",
+      "href": "https://www.synopsys.com/success-stories/advantest-improves-semiconductor-yield-with-test-data-analytics.html"
+    },
+    {
+      "label": "NXP Discover how NXP accelerates automotive software and processor design with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/nxp-accelerates-automotive-software-and-processor-design.html"
+    },
+    {
+      "label": "STMicroelectronics Learn how STMicroelectronics accelerates ASIP design and verification with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/stmicroelectronics-accelerates-asip-design-and-verification.html"
+    },
+    {
+      "label": "Global Unichip Corp. (GUC) Discover how GUC accelerates chip design with Synopsys' chip floorplan design automation technology.",
+      "href": "https://www.synopsys.com/success-stories/guc-accelerates-chip-design-with-floorplan-automation.html"
+    },
+    {
+      "label": "Novatek Learn how Novatek achieves first-pass silicon success for mobile display SoC with Synopsys MIPI IP portfolio.",
+      "href": "https://www.synopsys.com/success-stories/novatek-achieves-first-pass-silicon-success-for-mobile-display-soc.html"
+    },
+    {
+      "label": "Cerebras Discover how Cerebras uses Synopsys to deploy sensors and monitors in their WSE-2 chip.",
+      "href": "https://www.synopsys.com/success-stories/cerebras-uses-in-chip-sensors-in-wse-2-chip.html"
+    },
+    {
+      "label": "Parade Technologies Learn how Parade Technologies successfully tapes out USB4 Retimer DUT with Synopsys verification IP.",
+      "href": "https://www.synopsys.com/success-stories/parade-technologies-tapes-out-usb4-retimer-dut-with-synopsys.html"
+    },
+    {
+      "label": "Aaroh Labs Learn how Aaroh Labs achieves advanced-node semiconductor designs with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/aaroh-labs-advanced-node-semiconductor-designs.html"
+    },
+    {
+      "label": "Achronix See how Achronix achieves first-pass FPGA success with Synopsys IP.",
+      "href": "https://www.synopsys.com/success-stories/achronix-achieves-first-pass-silicon-success-for-high-performance-fpgas.html"
+    },
+    {
+      "label": "Kyocera Learn how Kyocera achieves first-pass silicon success for image processing SoC with Synopsys IP.",
+      "href": "https://www.synopsys.com/success-stories/kyocera-achieves-first-pass-silicon-success-for-image-processing-soc.html"
+    },
+    {
+      "label": "NSITEXE Learn how NSITEXE develops RISC-V custom processors for autonomous driving SoC with Synopsys.",
+      "href": "https://www.synopsys.com/success-stories/nsitexe-develops-risc-v-based-custom-processors.html"
+    },
+    {
+      "label": "IntelliProp Learn how IntelliProp meets aggressive design schedules for memory controllers with Synopsys verification IP.",
+      "href": "https://www.synopsys.com/success-stories/intelliprop-meets-design-schedule-for-memory-controller.html"
+    },
+    {
+      "label": "Orbbec Learn how Orbbec achieves first-pass silicon success for 3D cameras with Synopsys MIPI IP.",
+      "href": "https://www.synopsys.com/success-stories/orbbec-achieves-first-pass-silicon-success-for-3d-camera.html"
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/success-stories/view-all.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/success-stories/view-all.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/success-stories/ferrari-cuts-powertrain-prototypes-by-40-percent-with-simulation.html",
+    "https://www.synopsys.com/success-stories/ibm-explores-alternative-interconnect-metals.html",
+    "https://www.synopsys.com/success-stories/cisco-enhances-asic-slm.html",
+    "https://www.synopsys.com/success-stories/sophic-silicon-accelerates-wireless-soc-innovation.html",
+    "https://www.synopsys.com/success-stories/dreambig-semiconductors-tapeout-synopsys-3dic-compiler-cloud.html",
+    "https://www.synopsys.com/success-stories/abr-tapes-out-processor-synopsys-cloud.html",
+    "https://www.synopsys.com/success-stories/m31-faster-characterization-synopsys-cloud-primelib.html",
+    "https://www.synopsys.com/success-stories/rain-ai-low-power-ai-accelerator-chip-synopsys-cloud.html",
+    "https://www.synopsys.com/success-stories/intel-replicates-real-world-vulnerability.html",
+    "https://www.synopsys.com/success-stories/iontra-accelerates-dev-synopsys-cloud-saas.html",
+    "https://www.synopsys.com/success-stories/microsoft-uncovers-hidden-testbench-bugs.html",
+    "https://www.synopsys.com/success-stories/rebellions-transforms-energy-efficient-ai-computing.html",
+    "https://www.synopsys.com/success-stories/synaptics-arc-hs58x3-migration-with-synopsys-qik-and-dso-ai.html",
+    "https://www.synopsys.com/success-stories/corehw-80ghz-mmwave-pll-with-synopsys-rfic-design-flow.html",
+    "https://www.synopsys.com/success-stories/multibeam-innovation-with-e-beam-lithography.html",
+    "https://www.synopsys.com/success-stories/neureality-accelerating-ai-chip-tape-out-with-cloud-based-emulation.html",
+    "https://www.synopsys.com/success-stories/calligotech-next-gen-computing-with-synopsys-design-flow.html",
+    "https://www.synopsys.com/success-stories/hcltech-accelerating-silicon-success-with-synopsys-cloud-ip.html",
+    "https://www.synopsys.com/success-stories/aws-leveraging-high-speed-interfaces-for-testing-monitoring.html",
+    "https://www.synopsys.com/success-stories/carnegie-technologies-iot-security-for-asset-management.html",
+    "https://www.synopsys.com/success-stories/flex-logix-enhancing-efpga-security.html",
+    "https://www.synopsys.com/success-stories/gowin-securing-iot-with-fpga.html",
+    "https://www.synopsys.com/success-stories/achronix-accelerates-chip-design-with-synopsys-cloud.html",
+    "https://www.synopsys.com/success-stories/cisco-reduces-project-schedule-with-synopsys-cloud.html",
+    "https://www.synopsys.com/success-stories/intel-achieves-first-ucie-connected-chiplet-based-test-chip.html",
+    "https://www.synopsys.com/success-stories/mentium-accelerates-ai-chip-tape-out-for-space-applications.html",
+    "https://www.synopsys.com/success-stories/tetramem-develops-novel-ai-accelerator-soc.html",
+    "https://www.synopsys.com/success-stories/samsung-foundry-achieves-accelerated-multi-die-system-design.html",
+    "https://www.synopsys.com/success-stories/infineon-drives-automotive-mcu-performance-with-synopsys.html",
+    "https://www.synopsys.com/success-stories/astera-labs-accelerates-hpc-systems-time-to-market.html",
+    "https://www.synopsys.com/success-stories/viettel-accelerates-5g-chip-design-and-rollout.html",
+    "https://www.synopsys.com/success-stories/impar-leveraging-chip-design-verification-in-the-cloud.html",
+    "https://www.synopsys.com/success-stories/arm-enabling-soc-visibility-for-secure-hardware.html",
+    "https://www.synopsys.com/success-stories/keysight-validates-pcie-6-0-specification.html",
+    "https://www.synopsys.com/success-stories/lightelligence-revolutionizes-optical-soc-design.html",
+    "https://www.synopsys.com/success-stories/xconn-achieves-first-pass-silicon-success-for-cxl-switch-soc.html",
+    "https://www.synopsys.com/success-stories/sima-ai-enables-edge-machine-learning-applications.html",
+    "https://www.synopsys.com/success-stories/neuchips-creates-ai-accelerator-chip-in-18-months.html",
+    "https://www.synopsys.com/success-stories/stmicroelectronics-power-aware-clock-domain-crossing.html",
+    "https://www.synopsys.com/success-stories/advantest-improves-semiconductor-yield-with-test-data-analytics.html",
+    "https://www.synopsys.com/success-stories/nxp-accelerates-automotive-software-and-processor-design.html",
+    "https://www.synopsys.com/success-stories/stmicroelectronics-accelerates-asip-design-and-verification.html",
+    "https://www.synopsys.com/success-stories/guc-accelerates-chip-design-with-floorplan-automation.html",
+    "https://www.synopsys.com/success-stories/novatek-achieves-first-pass-silicon-success-for-mobile-display-soc.html",
+    "https://www.synopsys.com/success-stories/cerebras-uses-in-chip-sensors-in-wse-2-chip.html",
+    "https://www.synopsys.com/success-stories/parade-technologies-tapes-out-usb4-retimer-dut-with-synopsys.html",
+    "https://www.synopsys.com/success-stories/aaroh-labs-advanced-node-semiconductor-designs.html",
+    "https://www.synopsys.com/success-stories/achronix-achieves-first-pass-silicon-success-for-high-performance-fpgas.html",
+    "https://www.synopsys.com/success-stories/kyocera-achieves-first-pass-silicon-success-for-image-processing-soc.html",
+    "https://www.synopsys.com/success-stories/nsitexe-develops-risc-v-based-custom-processors.html",
+    "https://www.synopsys.com/success-stories/intelliprop-meets-design-schedule-for-memory-controller.html",
+    "https://www.synopsys.com/success-stories/orbbec-achieves-first-pass-silicon-success-for-3d-camera.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/ferrari-thumbnail.jpg",
+        "alt": "Ferrari",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/ibm-thumbnail.png",
+        "alt": "IBM",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/cisco-thumbnail.png",
+        "alt": "Cisco",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/sophic-silicon-logo-thumbnail.jpg",
+        "alt": "Sophic Silicon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/dreambig-thumbnail.jpg",
+        "alt": "DreamBig Semiconductor",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/abr-logos-thumbnail.jpg",
+        "alt": "ABR",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/m31-logo-thumbnail.png",
+        "alt": "M31",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/rain-ai-thumbnail.png",
+        "alt": "RAIN",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/intel-thumbnail.png",
+        "alt": "Intel",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/iontra-logo-thumbnail.png",
+        "alt": "Iontra",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/microsoft-thumbnail.png",
+        "alt": "Microsoft",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/rebellions-thumbnail.png",
+        "alt": "Rebellions",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/synaptics-thumbnail.png",
+        "alt": "Synaptics",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/corehw-thumbnail.png",
+        "alt": "CoreHW",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/multibeam-thumbnail.png",
+        "alt": "Multibeam",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/neureality-thumbnail.png",
+        "alt": "NeuReality",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/calligotech-thumbnail.png",
+        "alt": "CalligoTech",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/hcl-tech-thumbnail.png",
+        "alt": "HCLTech",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/aws-thumbnail.png",
+        "alt": "Amazon Web Services",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/carnegie-technologies-thumbnail.png",
+        "alt": "Carnegie Technologies",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/flexlogix-thumbnail.png",
+        "alt": "Flex Logix",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/gowin-thumbnail.png",
+        "alt": "GOWIN",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/achronix-thumbnail.png",
+        "alt": "Achronix",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/cisco-thumbnail.png",
+        "alt": "Cisco",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/intel-thumbnail.png",
+        "alt": "Intel",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/mentium-thumbnail.png",
+        "alt": "Mentium",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/tetramem-thumbnail.png",
+        "alt": "TetraMem",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/samsung-foundry-thumbnail.png",
+        "alt": "Samsung Foundry",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/infineon-thumbnail.png",
+        "alt": "Infineon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/astera-labs-thumbnail.png",
+        "alt": "Astera Labs",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/viettel-thumbnail.png",
+        "alt": "Viettel",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/impare-thumbnail.png",
+        "alt": "Impar\u00e9",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/arm-thumbnail.png",
+        "alt": "Arm",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/keysight-thumbnail.png",
+        "alt": "Keysight",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/lightelligence-thumbnail.png",
+        "alt": "Lightelligence",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/xconn-tech-thumbnail.png",
+        "alt": "Xconn",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/sima.ai-thumbnail.png",
+        "alt": "SiMA.ai",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/neuchips-thumbnail.png",
+        "alt": "Neuchips",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/st-thumbnail.png",
+        "alt": "STMicroelectronics",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/advantest-thumbnail.png",
+        "alt": "Advantest",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/nxp-thumbnail.png",
+        "alt": "NXP",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/st-thumbnail.png",
+        "alt": "STMicroelectronics",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/guc-thumbnail.png",
+        "alt": "Global Unichip Corp. (GUC)",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/novatek-thumbnail.png",
+        "alt": "Novatek",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/cerebras-thumbnail.png",
+        "alt": "Cerebras",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/parade-thumbnail.png",
+        "alt": "Parade Technologies",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/aaroh-labs-thumbnail.png",
+        "alt": "Aaroh Labs",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/achronix-thumbnail.png",
+        "alt": "Achronix",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/kyocera-thumbnail.png",
+        "alt": "Kyocera",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/nsi-texe-thumbnail.png",
+        "alt": "NSITEXE",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/intelliprop-thumbnail.png",
+        "alt": "Orbbec",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/success-stories/thumbnails/orbbec-thumbnail.png",
+        "alt": "Orbbec",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 80,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 58,
+    "mainTextLen": 303833,
+    "realImageCount": 75,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/success-stories-view-all-html.png",
+  "renderedHtml": "pages/success-stories-view-all-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "index-headline": "View All \u2013 Customer Success Stories",
+    "filter-controls": false,
+    "card-grid": {
+      "cardTitles": [
+        "2025",
+        "Ferrari",
+        "IBM",
+        "Cisco",
+        "Sophic Silicon",
+        "DreamBig Semiconductor",
+        "ABR",
+        "M31",
+        "Rain AI",
+        "2024",
+        "Intel",
+        "Iontra"
+      ],
+      "cardCount": 58,
+      "subSlots": [
+        "image",
+        "label",
+        "title",
+        "meta",
+        "link"
+      ]
+    }
+  },
+  "pageType": "listing"
+}

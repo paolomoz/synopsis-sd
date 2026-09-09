@@ -11,3 +11,12 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+
+.env
+.env.*
+qa/
+stardust/current/pages/*.html
+stardust/current/assets/screenshots/
+stardust/replica/gates/
+stardust/replica/capture/
+stardust/current/_style-samples.json

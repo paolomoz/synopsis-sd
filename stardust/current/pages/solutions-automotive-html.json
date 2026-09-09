@@ -1,0 +1,1249 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:57.597Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "solutions-automotive-html",
+  "url": "https://www.synopsys.com/solutions/automotive.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:57.597Z",
+  "finalUrl": "https://www.synopsys.com/solutions/automotive.html",
+  "title": "Automotive Solutions for Software-Defined Vehicles | Synopsys",
+  "description": "Synopsys empowers OEMs and Tier 1s with silicon-to-systems solutions for software-defined vehicles, validation, and lifecycle management.",
+  "og": {
+    "title": "Automotive Solutions for Software-Defined Vehicles | Synopsys",
+    "description": "Synopsys empowers OEMs and Tier 1s with silicon-to-systems solutions for software-defined vehicles, validation, and lifecycle management.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Drive Success for Software-Defined Vehicles"
+    },
+    {
+      "tag": "h2",
+      "text": "What's New"
+    },
+    {
+      "tag": "h4",
+      "text": "Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars"
+    },
+    {
+      "tag": "h4",
+      "text": "Accelerating Development of Software Defined Vehicles with Virtual ECUs"
+    },
+    {
+      "tag": "h4",
+      "text": "Navigating Software-Defined Vehicle Development"
+    },
+    {
+      "tag": "h2",
+      "text": "Key Benefits"
+    },
+    {
+      "tag": "h2",
+      "text": "Co-design HW/SW to Meet SoC, ECU, and E/E Architecture Requirements"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "tag": "h4",
+      "text": "How can Synopsys help me define and optimize your modern SoC and E/E architecture?"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys support the development of ISO 26262 functional safety and ISO/SAE 21434 cybersecurity compliant systems?"
+    },
+    {
+      "tag": "h4",
+      "text": "What is the role of Synopsys' electronics digital twins (eDT) in the automotive development process?"
+    },
+    {
+      "tag": "h4",
+      "text": "What technologies does Synopsys offer to accelerate automotive system development?"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys ensure the success of automotive projects from early architecture to final delivery?"
+    },
+    {
+      "tag": "h2",
+      "text": "Accelerate Software Development, Automate Software & System Testing"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys help in accelerating software development and testing?"
+    },
+    {
+      "tag": "h4",
+      "text": "What methodologies does Synopsys support for testing ECU software and embedded control systems?"
+    },
+    {
+      "tag": "h4",
+      "text": "What benefits does the Synopsys hardware-assisted verification solution provide?"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys ensure high software quality during the development process?"
+    },
+    {
+      "tag": "h2",
+      "text": "Monitor and Predict Silicon Lifecycle In-Field"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys' Silicon Lifecycle Management (SLM) product family enhance the reliability and performance of silicon components?"
+    },
+    {
+      "tag": "h4",
+      "text": "What metrics are monitored by Synopsys Silicon Lifecycle Management (SLM) products to ensure silicon reliability?"
+    },
+    {
+      "tag": "h4",
+      "text": "How do Synopsys Silicon Lifecycle Management (SLM) products utilize real-time edge and cloud analytics?"
+    },
+    {
+      "tag": "h4",
+      "text": "What insights do Synopsys Silicon Lifecycle Management (SLM) products offer regarding silicon aging and reliability?"
+    },
+    {
+      "tag": "h4",
+      "text": "How do Synopsys Silicon Lifecycle Management (SLM) products contribute to predictive maintenance and extending silicon lifecycle?"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Webinars"
+    },
+    {
+      "tag": "h4",
+      "text": "Scaling SDV Development with Virtualization"
+    },
+    {
+      "tag": "h4",
+      "text": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive"
+    },
+    {
+      "tag": "h4",
+      "text": "Automotive Margin Survival: Virtual Integration & Continuous Verification as Strategic Moves"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys AI-Enabled Automotive Solution"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Resource Library"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Our Insights"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Solutions Solutions A-Z Aerospace & Government Automotive Electronics Digital Twin Energy-Efficient SoCs HPC & Data Center IoT Medical Memory Multi-Die Multiphysics Fusion RF Design RISC-V Silicon Lifecycle Management",
+    "Automotive Contact Sales Functional Safety & Security Industry ISO 26262 Compliance for Automotive SoC Design Safety-Aware Solution Safety Specification Format",
+    "Accelerate Your Automotive Innovation",
+    "Key Benefits",
+    "What's New",
+    "Resources",
+    "Tesla Partner Video",
+    "Related Products",
+    "Synopsys accelerates innovation at automotive OEMs and Tier 1s with silicon to systems design solutions. Synopsys\u2019 automotive solution enables hardware/software co-design to meet E/E, ECU, and SoC architecture requirements and expedites software development to reduce time to market while improving software quality with test automation. In addition, the solution ensures reliability by monitoring and analyzing critical silicon failures in-field throughout silicon lifecycle. Our comprehensive automotive-grade IP, virtual prototyping, design and verification, and silicon lifecycle management technologies help you create safe, secure, reliable, and high-quality software-defined vehicles.",
+    "Bosch + Synopsys",
+    "Driving Innovation in Automotive Software",
+    "Synopsys provides your team with hardware/software co-design capabilities to optimize SoC and E/E architecture for PPA, safety, reliability, quality, and security. With Synopsys' electronics digital twins (eDT) you can develop and validate each step before production from SoC to ECU to system. Synopsys\u2019 AI-enabled EDA suit, multi-die solution, automotive-grade IP, prototyping technologies, and services will accelerate your team\u2019s development of ISO 26262 functional safety and ISO/SAE 21434 cybersecurity compliant systems. Synopsys experts will guide you to automotive success from early architecture to final delivery of your software-defined vehicles.",
+    "Platform Architect",
+    "Automotive IP",
+    "Multi-Die System",
+    "FuSa & Security",
+    "Start your software development and testing early, while ensuring high software quality through continuous integration and continuous development (CI/CD) with Synopsys' electronics digital twin solutions. Implement MIL, SIL, PIL, and HIL methodologies to test ECU software and embedded control systems with Synopsys test automation solution. Additionally, Synopsys\u2019 hardware-assisted verification solution helps your teams accelerate software bring-up and testing at every stage of your product lifecycle, from initial exploration to in-field operation.",
+    "Silver",
+    "Virtualizer",
+    "Saber",
+    "VDK for Automotive",
+    "TPT - Test Automation",
+    "FuSa & Security",
+    "The Synopsys SLM product family allows OEMs to continuously monitor critical metrics such as silicon voltage, temperature, margins, and health, enhancing the reliability and performance of ECUs, CPUs, GPUs, and architectures. Synopsys SLM products utilize real-time edge and cloud analytics to assess silicon aging and reliability, offering valuable insights into both systemic and random defects within your vehicles and across fleet. It ensures silicon reliability and provides predictive maintenance capabilities, extending silicon lifecycle in field and lowering cost.",
+    "Silicon Lifecycle Management",
+    "FuSa & Security",
+    "Silicon.da",
+    "Synopsys AI-enabled automotive solutions are transforming how OEMs and Tier 1 suppliers innovate, design, and validate next-generation vehicles from Chip to Code to Cloud with comprehensive silicon-to-system engineering solutions.",
+    "Our industry-leading AI Accelerator IP, AI-driven EDA tools, and SLM product family enables faster development of safer and reliable automotive AI systems.",
+    "These solutions provide actionable insights into silicon health and performance, helping automotive innovators confidently address the challenges of intelligent, connected mobility.",
+    "Tesla + Synopsys",
+    "Partnering in Software-Defined Vehicle Development",
+    "Virtual Prototyping and Emulation Solutions Silver VDK Zebu HAPS",
+    "Automotive Testing and Validation Solutions TPT FuSa & Security Silicon Lifecycle Management Silicon.da",
+    "Design and Implementation Solutions Platform Architect Multi-Die System Automotive IP",
+    "AI and Cloud Solutions Synopsys.ai Synopsys Cloud",
+    "Explore success stories, videos, webinars, and whitepapers to enhance your understanding of Synopsys automotive solutions.",
+    "Discover",
+    "Stay updated with Synopsys news articles and blogs featuring the newest trends and innovations in automotive solutions.",
+    "Read our news and blogs",
+    "Connect With Us",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "Automotive",
+      "href": "/solutions/automotive.html"
+    },
+    {
+      "label": "Download eBook",
+      "href": "/resources/navigating-software-defined-vehicle-development.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/solutions/automotive/contact-us.html"
+    },
+    {
+      "label": "Learn more",
+      "href": "/success-stories/electronics-digital-twins-volvo-cars.html"
+    },
+    {
+      "label": "Download",
+      "href": "/verification/resources/whitepapers/virtual-ecu-wp.html"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/navigating-software-defined-vehicle-development.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "#"
+    },
+    {
+      "label": "Co-design HW/SW to Meet SoC, ECU, and E/E Architecture Requirements",
+      "href": "#a"
+    },
+    {
+      "label": "Accelerate Software Development, Automate Software & System Testing",
+      "href": "#b"
+    },
+    {
+      "label": "Monitor and Predict Silicon Lifecycle In-Field",
+      "href": "#c"
+    },
+    {
+      "label": "AI-enabled EDA",
+      "href": "/ai/ai-powered-eda.html"
+    },
+    {
+      "label": "Platform Architect",
+      "href": "/verification/virtual-prototyping/platform-architect.html"
+    },
+    {
+      "label": "Automotive IP",
+      "href": "/designware-ip/ip-market-segments/automotive.html"
+    },
+    {
+      "label": "Multi-Die System",
+      "href": "/solutions/multi-die-design.html"
+    },
+    {
+      "label": "FuSa & Security",
+      "href": "/solutions/automotive/functional-safety-and-security.html"
+    },
+    {
+      "label": "Whitepaper: Requirements and Best Practices for Trustworthy Automotive Semiconductors",
+      "href": "/resources/trustworthy-automotive-semiconductors-wp.html"
+    },
+    {
+      "label": "How can Synopsys help me define and optimize your modern SoC and E/E architecture?",
+      "href": null
+    },
+    {
+      "label": "How does Synopsys support the development of ISO 26262 functional safety and ISO/SAE 21434 cybersecurity compliant systems?",
+      "href": null
+    },
+    {
+      "label": "What is the role of Synopsys' electronics digital twins (eDT) in the automotive development process?",
+      "href": null
+    },
+    {
+      "label": "What technologies does Synopsys offer to accelerate automotive system development?",
+      "href": null
+    },
+    {
+      "label": "How does Synopsys ensure the success of automotive projects from early architecture to final delivery?",
+      "href": null
+    },
+    {
+      "label": "Silver",
+      "href": "/verification/virtual-prototyping/silver.html"
+    },
+    {
+      "label": "Virtualizer",
+      "href": "/verification/virtual-prototyping/virtualizer.html"
+    },
+    {
+      "label": "Saber",
+      "href": "https://ansys.synopsys.com/products/digital-twin/ansys-saber"
+    },
+    {
+      "label": "VDK for Automotive",
+      "href": "/verification/virtual-prototyping/auto-vdk.html"
+    },
+    {
+      "label": "TPT - Test Automation",
+      "href": "https://ansys.synopsys.com/products/embedded-software/ansys-tpt"
+    },
+    {
+      "label": "FuSa & Security",
+      "href": "/solutions/automotive/functional-safety-and-security.html"
+    },
+    {
+      "label": "Whitepaper: Accelerating Development of Software Defined Vehicles with Virtual ECUs",
+      "href": "/verification/resources/whitepapers/virtual-ecu-wp.html"
+    },
+    {
+      "label": "How does Synopsys help in accelerating software development and testing?",
+      "href": null
+    },
+    {
+      "label": "What methodologies does Synopsys support for testing ECU software and embedded control systems?",
+      "href": null
+    },
+    {
+      "label": "What benefits does the Synopsys hardware-assisted verification solution provide?",
+      "href": null
+    },
+    {
+      "label": "How does Synopsys ensure high software quality during the development process?",
+      "href": null
+    },
+    {
+      "label": "Silicon Lifecycle Management",
+      "href": "/solutions/silicon-lifecycle-management.html"
+    },
+    {
+      "label": "FuSa & Security",
+      "href": "/solutions/automotive/functional-safety-and-security.html"
+    },
+    {
+      "label": "Silicon.da",
+      "href": "/ai/ai-powered-eda/silicon-da.html"
+    },
+    {
+      "label": "Webinar: Leveraging Silicon Lifecycle Management (SLM) for Automotive Applications",
+      "href": "/webinars/silicon-lifecycle-management-automotive.html"
+    },
+    {
+      "label": "How does Synopsys' Silicon Lifecycle Management (SLM) product family enhance the reliability and performance of silicon components?",
+      "href": null
+    },
+    {
+      "label": "What metrics are monitored by Synopsys Silicon Lifecycle Management (SLM) products to ensure silicon reliability?",
+      "href": null
+    },
+    {
+      "label": "How do Synopsys Silicon Lifecycle Management (SLM) products utilize real-time edge and cloud analytics?",
+      "href": null
+    },
+    {
+      "label": "What insights do Synopsys Silicon Lifecycle Management (SLM) products offer regarding silicon aging and reliability?",
+      "href": null
+    },
+    {
+      "label": "How do Synopsys Silicon Lifecycle Management (SLM) products contribute to predictive maintenance and extending silicon lifecycle?",
+      "href": null
+    },
+    {
+      "label": "Scaling SDV Development with Virtualization",
+      "href": "/webinars/scaling-sdv-development-virtualization.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/scaling-sdv-development-virtualization.html"
+    },
+    {
+      "label": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive",
+      "href": "/webinars/auto-tech-day.html"
+    },
+    {
+      "label": "Sassine Ghazi",
+      "href": "/authors/sassine-ghazi.html"
+    },
+    {
+      "label": "Tom De Schutter",
+      "href": "/authors/tom-de-schutter.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/auto-tech-day.html"
+    },
+    {
+      "label": "Automotive Margin Survival: Virtual Integration & Continuous Verification as Strategic Moves",
+      "href": "/webinars/automotive-margin.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "/webinars/automotive-margin.html"
+    },
+    {
+      "label": "Learn More @ Synopsys.ai",
+      "href": "/ai/ai-powered-eda.html"
+    },
+    {
+      "label": "Watch Now",
+      "href": "#"
+    },
+    {
+      "label": "Virtual Prototyping and Emulation Solutions",
+      "href": "/verification/virtual-prototyping.html"
+    },
+    {
+      "label": "Automotive Testing and Validation Solutions",
+      "href": "/verification.html"
+    },
+    {
+      "label": "Design and Implementation Solutions",
+      "href": "/implementation-and-signoff.html"
+    },
+    {
+      "label": "AI and Cloud Solutions",
+      "href": "/ai.html"
+    },
+    {
+      "label": "Discover",
+      "href": "https://www.synopsys.com/search.html#tab=All&f-solution-facet=Automotive&f-contenttype-facet=eBook,Infographic,Success%20Story,Video,Webinar,White%20Paper"
+    },
+    {
+      "label": "Read our news and blogs",
+      "href": "https://www.synopsys.com/search.html#tab=All&f-solution-facet=Automotive&f-contenttype-facet=Article,Blog,News%20Release"
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/solutions/automotive/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/solutions/automotive.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/solutions/a-z.html",
+    "https://www.synopsys.com/solutions/iot.html",
+    "https://www.synopsys.com/solutions/medical.html",
+    "https://www.synopsys.com/solutions/memory.html",
+    "https://www.synopsys.com/solutions/rf-design.html",
+    "https://www.synopsys.com/solutions/risc-v.html",
+    "https://www.synopsys.com/solutions/automotive/contact-us.html",
+    "https://www.synopsys.com/solutions/automotive/functional-safety-and-security.html",
+    "https://www.synopsys.com/solutions/automotive/industry.html",
+    "https://www.synopsys.com/solutions/automotive/iso-26262-soc-verification.html",
+    "https://www.synopsys.com/solutions/automotive/safety-aware-solution.html",
+    "https://www.synopsys.com/solutions/automotive/safety-specification-format.html",
+    "https://www.synopsys.com/resources/navigating-software-defined-vehicle-development.html",
+    "https://www.synopsys.com/success-stories/electronics-digital-twins-volvo-cars.html",
+    "https://www.synopsys.com/verification/resources/whitepapers/virtual-ecu-wp.html",
+    "https://www.synopsys.com/solutions/automotive.html#a",
+    "https://www.synopsys.com/solutions/automotive.html#b",
+    "https://www.synopsys.com/solutions/automotive.html#c",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/automotive.html",
+    "https://www.synopsys.com/resources/trustworthy-automotive-semiconductors-wp.html",
+    "https://www.synopsys.com/success-stories/sima-ai-enables-edge-machine-learning-applications.html",
+    "https://www.synopsys.com/content/synopsys/en-us/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip",
+    "https://www.synopsys.com/blogs/chip-design/digital-twins-drive-innovation-in-auto-industry.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/silver.html",
+    "https://ansys.synopsys.com/products/digital-twin/ansys-saber",
+    "https://www.synopsys.com/verification/virtual-prototyping/auto-vdk.html",
+    "https://ansys.synopsys.com/products/embedded-software/ansys-tpt",
+    "https://www.synopsys.com/verification/resources/whitepapers/virtual-prototyping-regression-wp.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/tpt/test-methodology.html#mil_testing",
+    "https://www.synopsys.com/verification/virtual-prototyping/tpt/test-methodology.html#sil_testing",
+    "https://www.synopsys.com/verification/virtual-prototyping/tpt/test-methodology.html#pil_testing",
+    "https://www.synopsys.com/verification/virtual-prototyping/tpt/test-methodology.html#hil_testing",
+    "https://www.synopsys.com/verification/virtual-prototyping/tpt/test-methodology.html",
+    "https://www.synopsys.com/ai/ai-powered-eda/silicon-da.html",
+    "https://www.synopsys.com/webinars/silicon-lifecycle-management-automotive.html",
+    "https://www.synopsys.com/blogs/chip-design/automotive-soc-slm.html",
+    "https://www.synopsys.com/cgi-bin/imp/pdfdla/pdfr1.cgi?file=slm-whitepaper.pdf",
+    "https://www.synopsys.com/webinars/automotive-margin.html",
+    "https://www.synopsys.com/webinars/shaping-the-future.html",
+    "https://www.synopsys.com/webinars/vecu-based-integration.html",
+    "https://www.synopsys.com/webinars/scaling-sdv-development-virtualization.html",
+    "https://www.synopsys.com/webinars/auto-tech-day.html",
+    "https://www.synopsys.com/authors/sassine-ghazi.html",
+    "https://www.synopsys.com/authors/tom-de-schutter.html",
+    "https://www.synopsys.com/search.html#tab=All&f-solution-facet=Automotive&f-contenttype-facet=eBook,Infographic,Success%20Story,Video,Webinar,White%20Paper",
+    "https://www.synopsys.com/search.html#tab=All&f-solution-facet=Automotive&f-contenttype-facet=Article,Blog,News%20Release",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/volvo-thumbnail?qlt=82&wid=1200&ts=1781038692679&$responsive$&fit=constrain&dpr=off",
+        "alt": "Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/virtual-ecu-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1781038787804&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating Development of Software Defined Vehicles with Virtual ECUs",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/navigating-sw-defined-vehicle-dev-ebook-social?qlt=82&wid=1200&ts=1781038936958&$responsive$&fit=constrain&dpr=off",
+        "alt": "Navigating Software-Defined Vehicle Development",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/bosch-trusted-partner-1?qlt=82&wid=1900&ts=1760999560029&$responsive$&fit=constrain&dpr=off",
+        "alt": "Bosch - Trusted Partner",
+        "w": 1440,
+        "h": 379
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/bosch-trusted-partner-1?qlt=82&wid=1900&ts=1760999560029&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 379
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hanno-wolff-synopsys-thumbnail?ts=1773250904807&$responsive$",
+        "alt": "Automotive Margin Survival: Virtual Integration & Continuous Verification as Strategic Moves",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sreeram-s-bosch-thumbnail?ts=1773250729797&$responsive$",
+        "alt": "Shaping the Future of Software-Driven Mobility Platforms",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/martin-herrmann-ipg-markus-stix-synopsys-thumbnail?ts=1773250821729&$responsive$",
+        "alt": "Enhancing Automotive Software Efficiency with vECU-based Integration and Testing Workflows",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1784169952831&$responsive$",
+        "alt": "Scaling SDV Development with Virtualization",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sassine-ghazi-tom-de-schutter-synopsys-thumbnail?ts=1779382987197&$responsive$",
+        "alt": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sassine-ghazi-grey-500x500?ts=1746576365642&$responsive$",
+        "alt": "Sassine Ghazi",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/tom-de-schutter-headshot-1?ts=1767640979420&$responsive$",
+        "alt": "Tom De Schutter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hanno-wolff-synopsys-thumbnail?ts=1773250904807&$responsive$",
+        "alt": "Automotive Margin Survival: Virtual Integration & Continuous Verification as Strategic Moves",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sreeram-s-bosch-thumbnail?ts=1773250729797&$responsive$",
+        "alt": "Shaping the Future of Software-Driven Mobility Platforms",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/martin-herrmann-ipg-markus-stix-synopsys-thumbnail?ts=1773250821729&$responsive$",
+        "alt": "Enhancing Automotive Software Efficiency with vECU-based Integration and Testing Workflows",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1784169952831&$responsive$",
+        "alt": "Scaling SDV Development with Virtualization",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sassine-ghazi-tom-de-schutter-synopsys-thumbnail?ts=1779382987197&$responsive$",
+        "alt": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sassine-ghazi-grey-500x500?ts=1746576365642&$responsive$",
+        "alt": "Sassine Ghazi",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/tom-de-schutter-headshot-1?ts=1767640979420&$responsive$",
+        "alt": "Tom De Schutter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hanno-wolff-synopsys-thumbnail?ts=1773250904807&$responsive$",
+        "alt": "Automotive Margin Survival: Virtual Integration & Continuous Verification as Strategic Moves",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sreeram-s-bosch-thumbnail?ts=1773250729797&$responsive$",
+        "alt": "Shaping the Future of Software-Driven Mobility Platforms",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/martin-herrmann-ipg-markus-stix-synopsys-thumbnail?ts=1773250821729&$responsive$",
+        "alt": "Enhancing Automotive Software Efficiency with vECU-based Integration and Testing Workflows",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/tesla-trusted-partner?qlt=82&wid=1900&ts=1760999545891&$responsive$&fit=constrain&dpr=off",
+        "alt": "Tesla - Trusted Partner",
+        "w": 1440,
+        "h": 379
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/tesla-trusted-partner?qlt=82&wid=1900&ts=1760999545891&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 379
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 53,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/automotive/video-hero/synopsys-automotive-solution.mp4",
+        "poster": "https://images.synopsys.com/is/image/synopsys/synopsys-automotive-solution-video-1st-frame?ts=1778074961740&$responsive$",
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 37,
+    "mainTextLen": 154621,
+    "realImageCount": 47,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/solutions-automotive-html.png",
+  "renderedHtml": "pages/solutions-automotive-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Automotive Solutions for Software-Defined Vehicles",
+    "summary": "Synopsys empowers OEMs and Tier 1s with silicon-to-systems solutions for software-defined vehicles, validation, and lifecycle management.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": true,
+      "items": [
+        "Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars",
+        "Accelerating Development of Software Defined Vehicles with Virtual ECUs",
+        "Navigating Software-Defined Vehicle Development",
+        "How can Synopsys help me define and optimize your modern SoC and E/E architecture?",
+        "How does Synopsys support the development of ISO 26262 functional safety and ISO/SAE 21434 cybersecurity compliant systems?",
+        "What is the role of Synopsys' electronics digital twins (eDT) in the automotive development process?"
+      ]
+    },
+    "sections": [
+      "Drive Success for Software-Defined Vehicles",
+      "What's New",
+      "Key Benefits",
+      "Co-design HW/SW to Meet SoC, ECU, and E/E Architecture Requirements",
+      "Related Products",
+      "Featured Resources",
+      "Frequently Asked Questions",
+      "Accelerate Software Development, Automate Software & System Testing",
+      "Related Products",
+      "Featured Resources",
+      "Frequently Asked Questions",
+      "Monitor and Predict Silicon Lifecycle In-Field",
+      "Related Products",
+      "Featured Resources",
+      "Frequently Asked Questions",
+      "Our Webinars",
+      "Synopsys AI-Enabled Automotive Solution",
+      "Related Products",
+      "Resource Library",
+      "Explore Our Insights"
+    ],
+    "cta-band": true
+  },
+  "pageType": "program"
+}

@@ -1,0 +1,1316 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:58.620Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "solutions-multi-die-design-html",
+  "url": "https://www.synopsys.com/solutions/multi-die-design.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:58.620Z",
+  "finalUrl": "https://www.synopsys.com/solutions/multi-die-design.html",
+  "title": "Multi-Die Solution | Synopsys",
+  "description": "Synopsys multi-die solutions combine EDA tools and IP to accelerate architecture exploration, die-to-die connectivity, co-design, and system validation.",
+  "og": {
+    "title": "Multi-Die Solution | Synopsys",
+    "description": "Synopsys multi-die solutions combine EDA tools and IP to accelerate architecture exploration, die-to-die connectivity, co-design, and system validation.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Driving the Next Wave of Semiconductor Innovation"
+    },
+    {
+      "tag": "h2",
+      "text": "What's New"
+    },
+    {
+      "tag": "h4",
+      "text": "Co-Packaged Optics for Multi-Die Designs"
+    },
+    {
+      "tag": "h4",
+      "text": "Synopsys Enables AMD Instinct\u2122 MI455X GPU Design with Comprehensive Multi-Die Solution"
+    },
+    {
+      "tag": "h4",
+      "text": "Multiphysics Fusion Technology for Multi-Die Designs Explained"
+    },
+    {
+      "tag": "h4",
+      "text": "Multi-Die Start Guide"
+    },
+    {
+      "tag": "h2",
+      "text": "Key Benefits"
+    },
+    {
+      "tag": "h2",
+      "text": "Early Architecture Exploration"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Software Development, Verification and Validation"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Design Implementation"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Silicon IP"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Manufacturing & Reliability"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h2",
+      "text": "Ecosystem Partners"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Accelerate Multi-Die Fanout Routing with 3DIC Compiler"
+    },
+    {
+      "tag": "h4",
+      "text": "Full Flow HBM Channel Prototyping, Implementation and Analysis wtih 3DIC Compiler"
+    },
+    {
+      "tag": "h4",
+      "text": "Multi-Die PG Bump Optimization with Synopsys 3DIC Compiler"
+    },
+    {
+      "tag": "h4",
+      "text": "Designing the Future We Can Verify: A Vision for Multi-Die Design, STCO, and Trustworthy AI"
+    },
+    {
+      "tag": "h2",
+      "text": "Resource Library"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Our Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "tag": "h4",
+      "text": "What is multi-die technology?"
+    },
+    {
+      "tag": "h4",
+      "text": "How does multi-die technology differ from traditional monolithic chip design?"
+    },
+    {
+      "tag": "h4",
+      "text": "What are the benefits of using multi-die technology?"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys address the challenges of multi-die design?"
+    },
+    {
+      "tag": "h4",
+      "text": "What products does Synopsys provide within its multi-die solution?"
+    },
+    {
+      "tag": "h4",
+      "text": "Is the Synopsys Multi-Die Solution compatible with industry-standard design methodologies and EDA tools?"
+    },
+    {
+      "tag": "h4",
+      "text": "What support and resources does Synopsys provide for users adopting multi-die technology?"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Solutions Solutions A-Z Aerospace & Government Automotive Electronics Digital Twin Energy-Efficient SoCs HPC & Data Center IoT Medical Memory Multi-Die Multiphysics Fusion RF Design RISC-V Silicon Lifecycle Management",
+    "Multi-Die Contact Us Customer Success Report: MIT Technology Review Insights Resources",
+    "Move to Multi-Die Design,",
+    "Because Innovation Can\u2019t Wait",
+    "Overview",
+    "What's New",
+    "Key Benefits",
+    "Partners",
+    "Resources",
+    "As a trusted partner, Synopsys is driving the industry transformation to multi-die designs with a comprehensive and scalable solution for fast heterogeneous integration. The solution, including EDA and IP products, enables early architecture exploration, rapid software development and system validation, efficient multi-die/advanced package co-design and optimization with multiphysics analysis, robust die-to-die and chip-to-chip connectivity, and improved manufacturing and reliability.",
+    "Discover the latest resources for multi-die design success",
+    "To realize best system performance for the target workloads, designers must efficiently explore the appropriate partitions and system-level interconnect fabric. Reusing IP effectively to meet time-to-market and ensuring testability are among some of the challenges that require fast and early analysis-driven exploration. With early architecture exploration and analysis, system designers can optimize partitioning for the best performance, minimize interconnect traffic, and perform efficient power and thermal planning.",
+    "Platform Architect",
+    "RedHawk-SC Electrothermal",
+    "3DIC Compiler",
+    "Software teams can quickly develop, integrate, and test the software by having access to proven virtual die models. Assembling virtual models in a virtual platform allows for early multi-die software bring-up, debug, and analysis. As dies become available they can be executed on hardware-assisted verification platforms that are enabled with large capacity and modularity features to efficiently handle the complexity of multi-die designs within the required turnaround time. Software can run large amounts of software and AI workloads in lockstep with the hardware using a unified, hybrid emulation and prototype environment, and assess power and performance metrices for the target application.",
+    "Virtualizer",
+    "HAPS",
+    "ZeBu",
+    "Interface Protocol Solutions",
+    "For seamless 2.5D and 3D heterogeneous integration, designers need a unified multi-die/advanced package co-design platform with multiphysics analysis capabilities. This platform supports feasibility exploration, partitioning, prototyping, and floorplanning, and enables automation for 3D construction and advanced packaging including analysis-driven routing for high-speed interfaces. Designers can optimize for power and signal integrity, thermal and mechanical stress, as well as signoff verification.",
+    "3DIC Compiler",
+    "RedHawk-SC",
+    "RedHawk-SC Electrothermal",
+    "HFSS-IC",
+    "Die-to-die connectivity IP, allows high-bandwidth, low power, and robust links between heterogeneous and homogeneous dies in a single 2.5D or 3D multi-die design. 3D-enabled interface IP can help minimize power and latency of chip-to-chip connectivity supporting various die topologies in a 3D stacked design. High-quality, complete controller, PHY, and verification IP solutions that are silicon proven, have achieved interoperability with ecosystem products, and are compliant with the most widely used standards, can minimize integration risk and accelerate time to market. IP integrated in configurable, pre-verified IP subsystems deliver complete, complex functions that are ready to integrate into SoCs or chiplets.",
+    "UCIe IP",
+    "3DIO IP",
+    "HBM IP",
+    "3D-enabled IP",
+    "Designers can help improve long-term health and reliability by testing, diagnosing, repairing, and improving operational metrics at every phase of the multi-die lifecycle. In addition, access to traceability and analytics across the dies for in-design, in-ramp, in-production and in-field optimization can help designers improve cost, quality, and reliability. Ensuring that top-quality, high-performance dies are properly binned during package assembly is critical.",
+    "Silicon Lifecycle Management Family",
+    "PathFinder-SC",
+    "TestMAX",
+    "Learn about our collaboration with our ecosystem partners in multi-die designs",
+    "Looking for more resources to help with your multi-die designs? Explore our resources.",
+    "Explore videos, whitepapers, podcasts, and webinars to enhance your understanding and utilization of multi-die designs.",
+    "Stay updated with Synopsys blogs featuring the newest trends and innovations in multi-die designs.",
+    "Connect With Us",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "Multi-Die",
+      "href": "/solutions/multi-die-design.html"
+    },
+    {
+      "label": "Download eBook",
+      "href": "/resources/innovate-faster.html"
+    },
+    {
+      "label": "Start Guide",
+      "href": "/resources/multi-die-systems-start-guide.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/solutions/multi-die-design/contact-us.html"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/co-packaged-optics-for-multi-die-designs.html"
+    },
+    {
+      "label": "Read",
+      "href": "https://news.synopsys.com/2026-07-23-Synopsys-Enables-AMD-Instinct-TM-MI455X-GPU-Design-with-Comprehensive-Multi-Die-Solution"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/multiphysics-fusion-technology-for-multi-die.html"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/multi-die-systems-start-guide.html"
+    },
+    {
+      "label": "Early Architecture Exploration",
+      "href": "#ae"
+    },
+    {
+      "label": "Software Development, Verification and Validation",
+      "href": "#sdv"
+    },
+    {
+      "label": "Design Implementation",
+      "href": "#di"
+    },
+    {
+      "label": "Silicon IP",
+      "href": "#sip"
+    },
+    {
+      "label": "Manufacturing & Reliability",
+      "href": "#mr"
+    },
+    {
+      "label": "Platform Architect",
+      "href": "/verification/virtual-prototyping/platform-architect-multi-die.html"
+    },
+    {
+      "label": "RedHawk-SC Electrothermal",
+      "href": "/implementation-and-signoff/signoff/redhawk-sc-electrothermal.html"
+    },
+    {
+      "label": "3DIC Compiler",
+      "href": "/implementation-and-signoff/3dic-design.html"
+    },
+    {
+      "label": "Early Architecture Performance and Power Analysis of Multi-Die Design",
+      "href": "/verification/resources/whitepapers/multi-die-early-architecture-wp.html"
+    },
+    {
+      "label": "Faster, More Collaborative SoC and Chiplet Architecture Exploration",
+      "href": "/blogs/chip-design/cloud-based-soc-virtual-prototyping.html"
+    },
+    {
+      "label": "Avoiding Multi-Die System Re-spins with New Early Architecture Exploration Technology",
+      "href": "/blogs/chip-design/system-architecture-design-tools.html"
+    },
+    {
+      "label": "The A-Z of Multi-Die Design",
+      "href": "/webinars/a-z-multi-die-design.html"
+    },
+    {
+      "label": "Virtualizer",
+      "href": "/verification/virtual-prototyping/virtualizer.html"
+    },
+    {
+      "label": "HAPS",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html"
+    },
+    {
+      "label": "ZeBu",
+      "href": "https://www.synopsys.com/verification/emulation-prototyping/emulation.html"
+    },
+    {
+      "label": "Interface Protocol Solutions",
+      "href": "https://www.synopsys.com/blogs/chip-design/interface-protocol-validation-zebu-solutions.html"
+    },
+    {
+      "label": "Five Key Techniques to Accelerate Software Bring-Up for Multi-Die Systems",
+      "href": "/blogs/chip-design/software-bring-up-multi-die-systems.html"
+    },
+    {
+      "label": "Overcoming the Challenges of Verifying Multi-Die Systems",
+      "href": "/resources/overcoming-challenges-verifying-multi-die-systems.html"
+    },
+    {
+      "label": "3DIC Compiler",
+      "href": "/implementation-and-signoff/3dic-design.html"
+    },
+    {
+      "label": "RedHawk-SC",
+      "href": "/implementation-and-signoff/signoff/redhawk-sc.html"
+    },
+    {
+      "label": "RedHawk-SC Electrothermal",
+      "href": "/implementation-and-signoff/signoff/redhawk-sc-electrothermal.html"
+    },
+    {
+      "label": "HFSS-IC",
+      "href": "https://ansys.synopsys.com/products/electronics/ansys-hfss-ic"
+    },
+    {
+      "label": "How to Create Efficient Bump and TSV Plans for Multi-Die Designs",
+      "href": "/multi-die-system/bump-tsv-planning.html"
+    },
+    {
+      "label": "What Designers Need to Know About Advanced Packaging for Multi-Die Designs",
+      "href": "/multi-die-system/advanced-packaging.html"
+    },
+    {
+      "label": "Enabling Efficient Multi-Die Design Implementation and IP Integration",
+      "href": "/resources/efficient-multi-die-implementation-ip-integration.html"
+    },
+    {
+      "label": "UCIe IP",
+      "href": "/designware-ip/interface-ip/die-to-die/ucie.html"
+    },
+    {
+      "label": "3DIO IP",
+      "href": "/designware-ip/memories-logic-libraries/3dio.html"
+    },
+    {
+      "label": "HBM IP",
+      "href": "/designware-ip/interface-ip/hbm.html"
+    },
+    {
+      "label": "3D-enabled IP",
+      "href": "/articles/multi-die-design-3d-ip.html"
+    },
+    {
+      "label": "A Beginner\u2019s Guide to Chiplets: 8 Best Practices for Multi-die Designs",
+      "href": "/blogs/chip-design/chiplet-design-best-practices-multi-die.html"
+    },
+    {
+      "label": "Arm and Synopsys Execs Discuss Chiplet, Subsystem, and IP Integration",
+      "href": "https://www.synopsys.com/blogs/chip-design/cloud-based-soc-virtual-prototyping.html"
+    },
+    {
+      "label": "Enabling Efficient Multi-Die Design Implementation and IP Integration",
+      "href": "/resources/efficient-multi-die-implementation-ip-integration.html"
+    },
+    {
+      "label": "HBM at the AI Crossroads: Customization or Standardization?",
+      "href": "/blogs/chip-design/high-bandwidth-memory-hbm-ai-future.html"
+    },
+    {
+      "label": "Silicon Lifecycle Management Family",
+      "href": "/solutions/silicon-lifecycle-management.html"
+    },
+    {
+      "label": "PathFinder-SC",
+      "href": "/implementation-and-signoff/signoff/pathfinder-sc.html"
+    },
+    {
+      "label": "TestMAX",
+      "href": "/implementation-and-signoff/test-automation.html"
+    },
+    {
+      "label": "Multi-Die Health and Reliability: Synopsys and TSMC Showcase UCIe Advances",
+      "href": "/blogs/chip-design/multi-die-health-reliability-advances.html"
+    },
+    {
+      "label": "Efficient Monitoring, Test, and Repair of Multi-Die Designs",
+      "href": "/resources/monitoring-test-repair-strategies-multi-die.html"
+    },
+    {
+      "label": "The State of Multi-Die Testing: Essential Insights for Designers",
+      "href": "https://www.eetimes.com/podcasts/the-state-of-multi-die-testing-essential-insights-for-designers/"
+    },
+    {
+      "label": "Watch Now",
+      "href": "https://players.brightcove.net/5748441669001/rka4xWwYG_default/index.html?videoId=6400537239112"
+    },
+    {
+      "label": "Watch Now",
+      "href": "https://players.brightcove.net/5748441669001/rka4xWwYG_default/index.html?videoId=6397882171112"
+    },
+    {
+      "label": "Watch Now",
+      "href": "https://players.brightcove.net/5748441669001/rka4xWwYG_default/index.html?videoId=6395255271112"
+    },
+    {
+      "label": "Read More",
+      "href": "/blogs/chip-design/multi-die-design-stco-ai.html"
+    },
+    {
+      "label": "Discover",
+      "href": "/multi-die-system/resources.html"
+    },
+    {
+      "label": "Explore Our Multi-Die Blog Articles",
+      "href": "https://www.synopsys.com/blogs/chip-design/category.multi-die-system.html"
+    },
+    {
+      "label": "What is multi-die technology?",
+      "href": null
+    },
+    {
+      "label": "How does multi-die technology differ from traditional monolithic chip design?",
+      "href": null
+    },
+    {
+      "label": "What are the benefits of using multi-die technology?",
+      "href": null
+    },
+    {
+      "label": "How does Synopsys address the challenges of multi-die design?",
+      "href": null
+    },
+    {
+      "label": "What products does Synopsys provide within its multi-die solution?",
+      "href": null
+    },
+    {
+      "label": "Is the Synopsys Multi-Die Solution compatible with industry-standard design methodologies and EDA tools?",
+      "href": null
+    },
+    {
+      "label": "What support and resources does Synopsys provide for users adopting multi-die technology?",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/solutions/multi-die-design/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/solutions/multi-die-design.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/solutions/a-z.html",
+    "https://www.synopsys.com/solutions/iot.html",
+    "https://www.synopsys.com/solutions/medical.html",
+    "https://www.synopsys.com/solutions/memory.html",
+    "https://www.synopsys.com/solutions/rf-design.html",
+    "https://www.synopsys.com/solutions/risc-v.html",
+    "https://www.synopsys.com/solutions/multi-die-design/contact-us.html",
+    "https://www.synopsys.com/solutions/multi-die-design/customer-success.html",
+    "https://www.synopsys.com/solutions/multi-die-design/mit-technology-review-future-semiconductors.html",
+    "https://www.synopsys.com/solutions/multi-die-design/resources.html",
+    "https://www.synopsys.com/resources/innovate-faster.html",
+    "https://www.synopsys.com/resources/multi-die-systems-start-guide.html",
+    "https://www.synopsys.com/resources/co-packaged-optics-for-multi-die-designs.html",
+    "https://news.synopsys.com/2026-07-23-Synopsys-Enables-AMD-Instinct-TM-MI455X-GPU-Design-with-Comprehensive-Multi-Die-Solution",
+    "https://www.synopsys.com/solutions/multi-die-design.html#ae",
+    "https://www.synopsys.com/solutions/multi-die-design.html#sdv",
+    "https://www.synopsys.com/solutions/multi-die-design.html#di",
+    "https://www.synopsys.com/solutions/multi-die-design.html#sip",
+    "https://www.synopsys.com/solutions/multi-die-design.html#mr",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect-multi-die.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc-electrothermal.html",
+    "https://www.synopsys.com/verification/resources/whitepapers/multi-die-early-architecture-wp.html",
+    "https://www.synopsys.com/blogs/chip-design/cloud-based-soc-virtual-prototyping.html",
+    "https://www.synopsys.com/blogs/chip-design/system-architecture-design-tools.html",
+    "https://www.synopsys.com/webinars/a-z-multi-die-design.html",
+    "https://www.synopsys.com/blogs/chip-design/interface-protocol-validation-zebu-solutions.html",
+    "https://www.synopsys.com/blogs/chip-design/software-bring-up-multi-die-systems.html",
+    "https://www.synopsys.com/resources/overcoming-challenges-verifying-multi-die-systems.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss-ic",
+    "https://www.synopsys.com/multi-die-system/bump-tsv-planning.html",
+    "https://www.synopsys.com/multi-die-system/advanced-packaging.html",
+    "https://www.synopsys.com/resources/efficient-multi-die-implementation-ip-integration.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die/ucie.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/3dio.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm.html",
+    "https://www.synopsys.com/articles/multi-die-design-3d-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/chiplet-design-best-practices-multi-die.html",
+    "https://www.synopsys.com/blogs/chip-design/high-bandwidth-memory-hbm-ai-future.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/pathfinder-sc.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-die-health-reliability-advances.html",
+    "https://www.synopsys.com/resources/monitoring-test-repair-strategies-multi-die.html",
+    "https://www.eetimes.com/podcasts/the-state-of-multi-die-testing-essential-insights-for-designers/",
+    "https://www.synopsys.com/partners/tsmc.html",
+    "https://www.synopsys.com/partners/samsung.html",
+    "https://www.synopsys.com/partners/arm.html",
+    "https://www.synopsys.com/partners/intel-foundry-services.html",
+    "https://www.synopsys.com/partners/globalfoundries.html",
+    "https://players.brightcove.net/5748441669001/rka4xWwYG_default/index.html?videoId=6400537239112",
+    "https://players.brightcove.net/5748441669001/rka4xWwYG_default/index.html?videoId=6397882171112",
+    "https://players.brightcove.net/5748441669001/rka4xWwYG_default/index.html?videoId=6395255271112",
+    "https://www.synopsys.com/blogs/chip-design/multi-die-design-stco-ai.html",
+    "https://www.synopsys.com/multi-die-system/resources.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multi-die-system.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/co-packaged-optics-multi-die-designs-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1785221429546&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multi die",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/amd?qlt=82&wid=1200&ts=1785221449757&$responsive$&fit=constrain&dpr=off",
+        "alt": "AMD",
+        "w": 1020,
+        "h": 612
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-social?qlt=82&wid=1200&ts=1783699716428&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-start-guide-social-share?qlt=82&wid=1200&ts=1783666276127&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multi Die Start Guide",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/tsmc.svg",
+        "alt": "TSMC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/globalfoundries.svg",
+        "alt": "GlobalFoundries",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/tsmc.svg",
+        "alt": "TSMC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/globalfoundries.svg",
+        "alt": "GlobalFoundries",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/tsmc.svg",
+        "alt": "TSMC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/globalfoundries.svg",
+        "alt": "GlobalFoundries",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/tsmc.svg",
+        "alt": "TSMC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/globalfoundries.svg",
+        "alt": "GlobalFoundries",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/tsmc.svg",
+        "alt": "TSMC",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/samsung.svg",
+        "alt": "Samsung",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/logos/arm-logo-blk.svg",
+        "alt": "Arm",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/intel-foundry.svg",
+        "alt": "Intel Foundry",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/partners/globalfoundries.svg",
+        "alt": "GlobalFoundries",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-3d-chip-08-2?qlt=82&wid=1200&ts=1781567587693&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 59,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/095ffa10-53bc-400e-956f-b2b964cd9c18/53a61c23-b4a3-4501-a5d9-a74dfb6ad639/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/c27764fe-ec21-4a5b-b66c-8585a1aa7f4b/f336c7ab-f530-46da-b160-58ca323b169a/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/beab91bc-15b0-4388-80fa-3974b4236873/3a435c35-d7bb-4bd3-8536-de1bb9669edb/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window."
+    ],
+    "videos": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/events/video-hero/multidie05_anim_DeMain(compressed).mp4",
+        "poster": "https://images.synopsys.com/is/image/synopsys/multi-die-hero-dark?ts=1785945446160&$responsive$",
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      },
+      {
+        "src": "blob:https://www.synopsys.com/a87c9169-6144-4677-997b-3c7eed822ce6",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/095ffa10-53bc-400e-956f-b2b964cd9c18/53a61c23-b4a3-4501-a5d9-a74dfb6ad639/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      },
+      {
+        "src": "blob:https://www.synopsys.com/62ce3397-90c7-41c2-b601-aa0b2b036062",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/c27764fe-ec21-4a5b-b66c-8585a1aa7f4b/f336c7ab-f530-46da-b160-58ca323b169a/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      },
+      {
+        "src": "blob:https://www.synopsys.com/27d56aeb-c65d-415d-9dae-881caf83b255",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/beab91bc-15b0-4388-80fa-3974b4236873/3a435c35-d7bb-4bd3-8536-de1bb9669edb/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 33,
+    "mainTextLen": 159235,
+    "realImageCount": 53,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/solutions-multi-die-design-html.png",
+  "renderedHtml": "pages/solutions-multi-die-design-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Multi-Die Solution",
+    "summary": "Synopsys multi-die solutions combine EDA tools and IP to accelerate architecture exploration, die-to-die connectivity, co-design, and system validation.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": true,
+      "items": [
+        "Co-Packaged Optics for Multi-Die Designs",
+        "Synopsys Enables AMD Instinct\u2122 MI455X GPU Design with Comprehensive Multi-Die Solution",
+        "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "Multi-Die Start Guide",
+        "Accelerate Multi-Die Fanout Routing with 3DIC Compiler",
+        "Full Flow HBM Channel Prototyping, Implementation and Analysis wtih 3DIC Compiler"
+      ]
+    },
+    "sections": [
+      "Driving the Next Wave of Semiconductor Innovation",
+      "What's New",
+      "Key Benefits",
+      "Early Architecture Exploration",
+      "Related Products",
+      "Featured Resources",
+      "Software Development, Verification and Validation",
+      "Related Products",
+      "Featured Resources",
+      "Design Implementation",
+      "Related Products",
+      "Featured Resources",
+      "Silicon IP",
+      "Related Products",
+      "Featured Resources",
+      "Manufacturing & Reliability",
+      "Related Products",
+      "Featured Resources",
+      "Ecosystem Partners",
+      "Featured Resources",
+      "Resource Library",
+      "Explore Our Insights",
+      "Frequently Asked Questions"
+    ],
+    "cta-band": true
+  },
+  "pageType": "program"
+}

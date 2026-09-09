@@ -1,0 +1,1269 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:54.096Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "glossary-html",
+  "url": "https://www.synopsys.com/glossary.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:54.096Z",
+  "finalUrl": "https://www.synopsys.com/glossary.html",
+  "title": "EDA & Semiconductor IP Terms Explained | Synopsys Glossary",
+  "description": "Discover a glossary of Electronic Design Automation (EDA) and Semiconductor IP terms. Enhance your knowledge with clear definitions and expert explanations from Synopsys.",
+  "og": {
+    "title": "EDA & Semiconductor IP Terms Explained | Synopsys Glossary",
+    "description": "Discover a glossary of Electronic Design Automation (EDA) and Semiconductor IP terms. Enhance your knowledge with clear definitions and expert explanations from Synopsys.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "A"
+    },
+    {
+      "tag": "h2",
+      "text": "B"
+    },
+    {
+      "tag": "h2",
+      "text": "C"
+    },
+    {
+      "tag": "h2",
+      "text": "D"
+    },
+    {
+      "tag": "h2",
+      "text": "E"
+    },
+    {
+      "tag": "h2",
+      "text": "F"
+    },
+    {
+      "tag": "h2",
+      "text": "G"
+    },
+    {
+      "tag": "h2",
+      "text": "H"
+    },
+    {
+      "tag": "h2",
+      "text": "I"
+    },
+    {
+      "tag": "h2",
+      "text": "J"
+    },
+    {
+      "tag": "h2",
+      "text": "K"
+    },
+    {
+      "tag": "h2",
+      "text": "L"
+    },
+    {
+      "tag": "h2",
+      "text": "M"
+    },
+    {
+      "tag": "h2",
+      "text": "N"
+    },
+    {
+      "tag": "h2",
+      "text": "O"
+    },
+    {
+      "tag": "h2",
+      "text": "P"
+    },
+    {
+      "tag": "h2",
+      "text": "Q"
+    },
+    {
+      "tag": "h2",
+      "text": "R"
+    },
+    {
+      "tag": "h2",
+      "text": "S"
+    },
+    {
+      "tag": "h2",
+      "text": "T"
+    },
+    {
+      "tag": "h2",
+      "text": "U"
+    },
+    {
+      "tag": "h2",
+      "text": "V"
+    },
+    {
+      "tag": "h2",
+      "text": "W"
+    },
+    {
+      "tag": "h2",
+      "text": "X"
+    },
+    {
+      "tag": "h2",
+      "text": "Y"
+    },
+    {
+      "tag": "h2",
+      "text": "Z"
+    },
+    {
+      "tag": "h2",
+      "text": "#"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Glossary",
+    "Glossary of Key Terms: EDA, Semiconductor IP & More",
+    "ADAS (Advanced Driver Assistance Systems)",
+    "Advanced Semiconductor Packaging",
+    "AI Accelerator",
+    "AI Chip",
+    "AI Chip Design",
+    "AI-Driven Chip Design",
+    "AMS Verification",
+    "Analog Design",
+    "ASIC Design",
+    "Atomistic Simulations",
+    "Automatic Test Equipment",
+    "Automotive Hardware Functional Safety",
+    "Automotive Safety Integrity Level (ASIL)",
+    "Automotive Virtualization",
+    "Autonomous Car",
+    "Autonomous Driving Levels",
+    "Battery Management System",
+    "Big Data Analytics",
+    "Bring Your Own Cloud (BYOC)",
+    "Butterfly PUF (Physical Unclonable Function)",
+    "Circuit Simulation",
+    "Chiplets",
+    "Clock Domain Crossing",
+    "Cloud Access Security Broker (CASB)",
+    "Cloud Computing Infrastructure",
+    "Cloud Data Center",
+    "Cloud Migration",
+    "Cloud-Native",
+    "Cloud-Native Architecture",
+    "Cloud Security Frameworks",
+    "Cloud Storage Security",
+    "Cloud Workload Protection (CWP)",
+    "Code Linting",
+    "Common Data Model",
+    "Compute Express Link (CXL) 3.0",
+    "Counterfeit Chips",
+    "Co-Packaged Optics",
+    "Cryo-CMOS IP (Cryogenic semiconductor IP)",
+    "Custom IC",
+    "Data Center",
+    "Democratized Design",
+    "Density Functional Theory",
+    "Design for Test (DFT)",
+    "Design Rule Checking",
+    "Design Space Optimization",
+    "Design Planning",
+    "Die-to-Die Interface",
+    "Digital Twin",
+    "Distributed Cloud Computing",
+    "EDA Agentic AI",
+    "Edge AI",
+    "Edge Computing",
+    "Edge Computing Architecture",
+    "Elasticity in Cloud Computing",
+    "Electromigration",
+    "Electromagnetic Coupling",
+    "Electronic Design Automation",
+    "Electronics Digital Twin",
+    "Embedded Magneto-Resistive Random Access Memory (eMRAM)",
+    "Equivalence Checking",
+    "Fault Detection",
+    "FinFET",
+    "FlexEDA",
+    "FPGA (Field-Programmable Gate Array)",
+    "Functional ECO",
+    "Functional Verification",
+    "Glitch Power",
+    "HAV Emulation (Hardware-Assisted Verification Emulation)",
+    "HAV Prototyping (Hardware-Assisted Verification Prototyping)",
+    "High Bandwidth Memory 3 (HBM3)",
+    "High-Performance Computing Architecture",
+    "Hybrid Cloud Integration",
+    "Hyper Convergent Design Flow",
+    "Integrated Circuit (IC)",
+    "Integrated Circuit (IC) Design",
+    "Integrated Development Environment (IDE)",
+    "ISO 26262",
+    "Layout Versus Schematic",
+    "Library Characterization",
+    "Lithography",
+    "Local Layout Effect (LLE)",
+    "Logic Design",
+    "Low Power Design",
+    "Machine-Learned Force Fields",
+    "MACsec Protocol",
+    "Microchip",
+    "MISRA (Motor Industry Software Reliability Association)",
+    "Mixed-Signal Integrated Circuit",
+    "Mobile Industry Processor Interface (MIPI) Protocol",
+    "Model-Based Design",
+    "Moore's Law",
+    "Multi-Cloud Architecture",
+    "Multi-Cloud Infrastructure",
+    "Multi-Cloud Storage",
+    "Multi-Cloud Strategy",
+    "Multi-Die Chip Design",
+    "Multi-Die Systems",
+    "Multiphysics",
+    "Network Attached Storage (NAS)",
+    "NFS Shared Storage",
+    "Nodal Analysis",
+    "Object Storage",
+    "Parasitic Extraction",
+    "PCI Express (PCIe)",
+    "PCIe 6.0 Specification",
+    "Persistent Storage",
+    "Physical Unclonable Function (PUF)",
+    "Photonic Integrated Circuit",
+    "Physical AI",
+    "Physical Design",
+    "Physical Synthesis",
+    "Place and Route",
+    "Post-Quantum Cryptography",
+    "Power Electronics",
+    "Power Optimization",
+    "PPA (Power, Performance, and Area)",
+    "Process Design Kit",
+    "Programmable Electrical Rules Checking",
+    "PVT Sensors",
+    "Quantum Computing",
+    "Reinforcement Learning",
+    "Register-Transfer-Level (RTL) Design",
+    "Reset Domain Crossing",
+    "RISC-V",
+    "RLC Circuit",
+    "RF Circuit Design",
+    "Robustness Analysis",
+    "Root of Trust (RoT)",
+    "SerDes",
+    "Shared Cloud Storage",
+    "Silicon Die",
+    "Silicon Lifecycle Management",
+    "Simulation",
+    "SmartNIC",
+    "SmartScaling",
+    "S-Parameters",
+    "SRAM PUF (Static Random-Access Memory Physical Unclonable Function)",
+    "Static Timing Analysis",
+    "Synthesis",
+    "System-On-Chip (SoC)",
+    "Three-Dimensional Integrated Circuit (IC)",
+    "Triple Shift Left",
+    "Universal Chiplet Interconnect Express (UCIe)",
+    "Universal Flash Storage (UFS)",
+    "USB4",
+    "Vehicle Electrification",
+    "Verification",
+    "Virtual Prototyping",
+    "Voltage Drop",
+    "Wiring Harness",
+    "3D-IC Technology",
+    "Connect with Us",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Glossary",
+      "href": "/glossary.html"
+    },
+    {
+      "label": "A",
+      "href": "#a"
+    },
+    {
+      "label": "B",
+      "href": "#b"
+    },
+    {
+      "label": "C",
+      "href": "#c"
+    },
+    {
+      "label": "D",
+      "href": "#d"
+    },
+    {
+      "label": "E",
+      "href": "#e"
+    },
+    {
+      "label": "F",
+      "href": "#f"
+    },
+    {
+      "label": "G",
+      "href": "#g"
+    },
+    {
+      "label": "H",
+      "href": "#h"
+    },
+    {
+      "label": "I",
+      "href": "#i"
+    },
+    {
+      "label": "J",
+      "href": "#j"
+    },
+    {
+      "label": "K",
+      "href": "#k"
+    },
+    {
+      "label": "L",
+      "href": "#l"
+    },
+    {
+      "label": "M",
+      "href": "#m"
+    },
+    {
+      "label": "N",
+      "href": "#n"
+    },
+    {
+      "label": "O",
+      "href": "#o"
+    },
+    {
+      "label": "P",
+      "href": "#p"
+    },
+    {
+      "label": "Q",
+      "href": "#q"
+    },
+    {
+      "label": "R",
+      "href": "#r"
+    },
+    {
+      "label": "S",
+      "href": "#s"
+    },
+    {
+      "label": "T",
+      "href": "#t"
+    },
+    {
+      "label": "U",
+      "href": "#u"
+    },
+    {
+      "label": "V",
+      "href": "#v"
+    },
+    {
+      "label": "W",
+      "href": "#w"
+    },
+    {
+      "label": "X",
+      "href": "#x"
+    },
+    {
+      "label": "Y",
+      "href": "#y"
+    },
+    {
+      "label": "Z",
+      "href": "#z"
+    },
+    {
+      "label": "#",
+      "href": "#other"
+    },
+    {
+      "label": "ADAS (Advanced Driver Assistance Systems)",
+      "href": "/glossary/what-is-adas.html"
+    },
+    {
+      "label": "Advanced Semiconductor Packaging",
+      "href": "/glossary/what-is-advanced-semiconductor-packaging.html"
+    },
+    {
+      "label": "AI Accelerator",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "AI Chip",
+      "href": "/blogs/chip-design/ai-accelerators-chip-design-eda-tools.html"
+    },
+    {
+      "label": "AI Chip Design",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "AI-Driven Chip Design",
+      "href": "/glossary/what-is-ai-driven-chip-design.html"
+    },
+    {
+      "label": "AMS Verification",
+      "href": "/blogs/chip-design/what-is-ams-verification.html"
+    },
+    {
+      "label": "Analog Design",
+      "href": "/glossary/what-is-analog-design.html"
+    },
+    {
+      "label": "ASIC Design",
+      "href": "/glossary/what-is-asic-design.html"
+    },
+    {
+      "label": "Atomistic Simulations",
+      "href": "/glossary/what-are-atomistic-simulations.html"
+    },
+    {
+      "label": "Automatic Test Equipment",
+      "href": "/glossary/what-is-automatic-test-equipment.html"
+    },
+    {
+      "label": "Automotive Hardware Functional Safety",
+      "href": "/glossary/what-is-automotive-hardware-functional-safety.html"
+    },
+    {
+      "label": "Automotive Safety Integrity Level (ASIL)",
+      "href": "/glossary/what-is-asil.html"
+    },
+    {
+      "label": "Automotive Virtualization",
+      "href": "/glossary/what-is-automotive-virtualization.html"
+    },
+    {
+      "label": "Autonomous Car",
+      "href": "/glossary/what-is-autonomous-car.html"
+    },
+    {
+      "label": "Autonomous Driving Levels",
+      "href": "/blogs/chip-design/autonomous-driving-levels.html"
+    },
+    {
+      "label": "Battery Management System",
+      "href": "https://ansys.synopsys.com/simulation-topics/what-is-a-battery-management-system"
+    },
+    {
+      "label": "Big Data Analytics",
+      "href": "/glossary/what-is-big-data-analytics.html"
+    },
+    {
+      "label": "Bring Your Own Cloud (BYOC)",
+      "href": "/blogs/chip-design/what-is-bring-your-own-cloud.html"
+    },
+    {
+      "label": "Butterfly PUF (Physical Unclonable Function)",
+      "href": "/glossary/what-is-butterfly-puf.html"
+    },
+    {
+      "label": "Circuit Simulation",
+      "href": "/glossary/what-is-circuit-simulation.html"
+    },
+    {
+      "label": "Chiplets",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "Clock Domain Crossing",
+      "href": "/blogs/chip-design/what-is-clock-domain-crossing.html"
+    },
+    {
+      "label": "Cloud Access Security Broker (CASB)",
+      "href": "/blogs/chip-design/cloud-access-security-broker.html"
+    },
+    {
+      "label": "Cloud Computing Infrastructure",
+      "href": "/blogs/chip-design/cloud-computing-infrastructure.html"
+    },
+    {
+      "label": "Cloud Data Center",
+      "href": "/blogs/chip-design/what-is-a-cloud-data-center.html"
+    },
+    {
+      "label": "Cloud Migration",
+      "href": "/blogs/chip-design/what-is-cloud-migration.html"
+    },
+    {
+      "label": "Cloud-Native",
+      "href": "/blogs/chip-design/what-does-cloud-native-mean.html"
+    },
+    {
+      "label": "Cloud-Native Architecture",
+      "href": "/blogs/chip-design/what-is-cloud-native-architecture.html"
+    },
+    {
+      "label": "Cloud Security Frameworks",
+      "href": "/blogs/chip-design/what-is-cloud-security-framework.html"
+    },
+    {
+      "label": "Cloud Storage Security",
+      "href": "/blogs/chip-design/cloud-storage-security.html"
+    },
+    {
+      "label": "Cloud Workload Protection (CWP)",
+      "href": "/blogs/chip-design/cloud-workload-protection.html"
+    },
+    {
+      "label": "Code Linting",
+      "href": "/blogs/chip-design/what-is-code-linting.html"
+    },
+    {
+      "label": "Common Data Model",
+      "href": "/glossary/what-is-common-data-model.html"
+    },
+    {
+      "label": "Compute Express Link (CXL) 3.0",
+      "href": "/blogs/chip-design/what-is-compute-express-link-3.html"
+    },
+    {
+      "label": "Counterfeit Chips",
+      "href": "/blogs/chip-design/what-are-counterfeit-chips.html"
+    },
+    {
+      "label": "Co-Packaged Optics",
+      "href": "/blogs/chip-design/what-are-co-packaged-optics.html"
+    },
+    {
+      "label": "Cryo-CMOS IP (Cryogenic semiconductor IP)",
+      "href": "/blogs/chip-design/what-is-cryo-cmos-ip.html"
+    },
+    {
+      "label": "Custom IC",
+      "href": "/glossary/what-is-custom-ic.html"
+    },
+    {
+      "label": "Data Center",
+      "href": "/glossary/what-is-a-data-center.html"
+    },
+    {
+      "label": "Democratized Design",
+      "href": "/blogs/chip-design/what-is-democratized-design.html"
+    },
+    {
+      "label": "Density Functional Theory",
+      "href": "/glossary/what-is-density-functional-theory.html"
+    },
+    {
+      "label": "Design for Test (DFT)",
+      "href": "/glossary/what-is-design-for-test.html"
+    },
+    {
+      "label": "Design Rule Checking",
+      "href": "/glossary/what-is-design-rule-checking.html"
+    },
+    {
+      "label": "Design Space Optimization",
+      "href": "/glossary/what-is-design-space-optimization.html"
+    },
+    {
+      "label": "Design Planning",
+      "href": "/glossary/what-is-design-planning.html"
+    },
+    {
+      "label": "Die-to-Die Interface",
+      "href": "/glossary/what-is-die-to-die-interface.html"
+    },
+    {
+      "label": "Digital Twin",
+      "href": "/glossary/what-is-a-digital-twin.html"
+    },
+    {
+      "label": "Distributed Cloud Computing",
+      "href": "/blogs/chip-design/what-is-distributed-cloud-computing.html"
+    },
+    {
+      "label": "EDA Agentic AI",
+      "href": "/glossary/what-is-eda-agentic-ai.html"
+    },
+    {
+      "label": "Edge AI",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "Edge Computing",
+      "href": "/blogs/chip-design/what-is-edge-computing.html"
+    },
+    {
+      "label": "Edge Computing Architecture",
+      "href": "/blogs/chip-design/edge-computing-architecture.html"
+    },
+    {
+      "label": "Elasticity in Cloud Computing",
+      "href": "/blogs/chip-design/what-is-elasticity-in-cloud-computing.html"
+    },
+    {
+      "label": "Electromigration",
+      "href": "/glossary/what-is-electromigration.html"
+    },
+    {
+      "label": "Electromagnetic Coupling",
+      "href": "/glossary/what-is-electromagnetic-coupling.html"
+    },
+    {
+      "label": "Electronic Design Automation",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "Electronics Digital Twin",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "Embedded Magneto-Resistive Random Access Memory (eMRAM)",
+      "href": "/blogs/chip-design/what-is-emram.html"
+    },
+    {
+      "label": "Equivalence Checking",
+      "href": "/glossary/what-is-equivalence-checking.html"
+    },
+    {
+      "label": "Fault Detection",
+      "href": "/glossary/what-is-fault-detection.html"
+    },
+    {
+      "label": "FinFET",
+      "href": "/glossary/what-is-a-finfet.html"
+    },
+    {
+      "label": "FlexEDA",
+      "href": "/blogs/chip-design/what-is-flexeda.html"
+    },
+    {
+      "label": "FPGA (Field-Programmable Gate Array)",
+      "href": "/glossary/what-is-field-programmable-gate-array.html"
+    },
+    {
+      "label": "Functional ECO",
+      "href": "/glossary/what-is-functional-eco.html"
+    },
+    {
+      "label": "Functional Verification",
+      "href": "/glossary/what-is-functional-verification.html"
+    },
+    {
+      "label": "Glitch Power",
+      "href": "/glossary/what-is-glitch-power.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/glossary.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/glossary.html#a",
+    "https://www.synopsys.com/glossary.html#b",
+    "https://www.synopsys.com/glossary.html#c",
+    "https://www.synopsys.com/glossary.html#d",
+    "https://www.synopsys.com/glossary.html#e",
+    "https://www.synopsys.com/glossary.html#f",
+    "https://www.synopsys.com/glossary.html#g",
+    "https://www.synopsys.com/glossary.html#h",
+    "https://www.synopsys.com/glossary.html#i",
+    "https://www.synopsys.com/glossary.html#j",
+    "https://www.synopsys.com/glossary.html#k",
+    "https://www.synopsys.com/glossary.html#l",
+    "https://www.synopsys.com/glossary.html#m",
+    "https://www.synopsys.com/glossary.html#n",
+    "https://www.synopsys.com/glossary.html#o",
+    "https://www.synopsys.com/glossary.html#p",
+    "https://www.synopsys.com/glossary.html#q",
+    "https://www.synopsys.com/glossary.html#r",
+    "https://www.synopsys.com/glossary.html#s",
+    "https://www.synopsys.com/glossary.html#t",
+    "https://www.synopsys.com/glossary.html#u",
+    "https://www.synopsys.com/glossary.html#v",
+    "https://www.synopsys.com/glossary.html#w",
+    "https://www.synopsys.com/glossary.html#x",
+    "https://www.synopsys.com/glossary.html#y",
+    "https://www.synopsys.com/glossary.html#z",
+    "https://www.synopsys.com/glossary.html#other",
+    "https://www.synopsys.com/glossary/what-is-adas.html",
+    "https://www.synopsys.com/glossary/what-is-advanced-semiconductor-packaging.html",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/blogs/chip-design/ai-accelerators-chip-design-eda-tools.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-is-ai-driven-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-ams-verification.html",
+    "https://www.synopsys.com/glossary/what-is-analog-design.html",
+    "https://www.synopsys.com/glossary/what-is-asic-design.html",
+    "https://www.synopsys.com/glossary/what-are-atomistic-simulations.html",
+    "https://www.synopsys.com/glossary/what-is-automatic-test-equipment.html",
+    "https://www.synopsys.com/glossary/what-is-automotive-hardware-functional-safety.html",
+    "https://www.synopsys.com/glossary/what-is-asil.html",
+    "https://www.synopsys.com/glossary/what-is-automotive-virtualization.html",
+    "https://www.synopsys.com/glossary/what-is-autonomous-car.html",
+    "https://www.synopsys.com/blogs/chip-design/autonomous-driving-levels.html",
+    "https://ansys.synopsys.com/simulation-topics/what-is-a-battery-management-system",
+    "https://www.synopsys.com/glossary/what-is-big-data-analytics.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-bring-your-own-cloud.html",
+    "https://www.synopsys.com/glossary/what-is-butterfly-puf.html",
+    "https://www.synopsys.com/glossary/what-is-circuit-simulation.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-clock-domain-crossing.html",
+    "https://www.synopsys.com/blogs/chip-design/cloud-access-security-broker.html",
+    "https://www.synopsys.com/blogs/chip-design/cloud-computing-infrastructure.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-a-cloud-data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-cloud-migration.html",
+    "https://www.synopsys.com/blogs/chip-design/what-does-cloud-native-mean.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-cloud-native-architecture.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-cloud-security-framework.html",
+    "https://www.synopsys.com/blogs/chip-design/cloud-storage-security.html",
+    "https://www.synopsys.com/blogs/chip-design/cloud-workload-protection.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-code-linting.html",
+    "https://www.synopsys.com/glossary/what-is-common-data-model.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-compute-express-link-3.html",
+    "https://www.synopsys.com/blogs/chip-design/what-are-counterfeit-chips.html",
+    "https://www.synopsys.com/blogs/chip-design/what-are-co-packaged-optics.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-cryo-cmos-ip.html",
+    "https://www.synopsys.com/glossary/what-is-custom-ic.html",
+    "https://www.synopsys.com/glossary/what-is-a-data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-democratized-design.html",
+    "https://www.synopsys.com/glossary/what-is-density-functional-theory.html",
+    "https://www.synopsys.com/glossary/what-is-design-for-test.html",
+    "https://www.synopsys.com/glossary/what-is-design-rule-checking.html",
+    "https://www.synopsys.com/glossary/what-is-design-space-optimization.html",
+    "https://www.synopsys.com/glossary/what-is-design-planning.html",
+    "https://www.synopsys.com/glossary/what-is-die-to-die-interface.html",
+    "https://www.synopsys.com/glossary/what-is-a-digital-twin.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-distributed-cloud-computing.html",
+    "https://www.synopsys.com/glossary/what-is-eda-agentic-ai.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-edge-computing.html",
+    "https://www.synopsys.com/blogs/chip-design/edge-computing-architecture.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-elasticity-in-cloud-computing.html",
+    "https://www.synopsys.com/glossary/what-is-electromigration.html",
+    "https://www.synopsys.com/glossary/what-is-electromagnetic-coupling.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-emram.html",
+    "https://www.synopsys.com/glossary/what-is-equivalence-checking.html",
+    "https://www.synopsys.com/glossary/what-is-fault-detection.html",
+    "https://www.synopsys.com/glossary/what-is-a-finfet.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-flexeda.html",
+    "https://www.synopsys.com/glossary/what-is-field-programmable-gate-array.html",
+    "https://www.synopsys.com/glossary/what-is-functional-eco.html",
+    "https://www.synopsys.com/glossary/what-is-functional-verification.html",
+    "https://www.synopsys.com/glossary/what-is-glitch-power.html",
+    "https://www.synopsys.com/glossary/what-is-hav-emulation.html",
+    "https://www.synopsys.com/glossary/what-is-hav-prototyping.html",
+    "https://www.synopsys.com/glossary/what-is-high-bandwitdth-memory-3.html",
+    "https://www.synopsys.com/blogs/chip-design/high-performance-computing-architecture.html",
+    "https://www.synopsys.com/blogs/chip-design/hybrid-cloud-integration.html",
+    "https://www.synopsys.com/glossary/what-is-hyper-convergent-design-flow.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-ic-design.html",
+    "https://www.synopsys.com/glossary/what-is-ide.html",
+    "https://www.synopsys.com/glossary/what-is-iso-26262.html",
+    "https://www.synopsys.com/glossary/what-is-layout-versus-schematic-checking.html",
+    "https://www.synopsys.com/glossary/what-is-library-characterization.html",
+    "https://www.synopsys.com/glossary/what-is-lithography.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-local-layout-effect-chip-design.html",
+    "https://www.synopsys.com/glossary/what-is-logic-design.html",
+    "https://www.synopsys.com/glossary/what-is-low-power-design.html",
+    "https://www.synopsys.com/glossary/what-are-machine-learned-force-fields.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-macsec-protocol.html",
+    "https://www.synopsys.com/glossary/what-is-a-microchip.html",
+    "https://www.synopsys.com/glossary/what-is-misra.html",
+    "https://www.synopsys.com/glossary/what-is-mixed-signal-integrated-circuit.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-mobile-industry-processor-interface-protocol.html",
+    "https://www.synopsys.com/glossary/what-is-model-based-design.html",
+    "https://www.synopsys.com/glossary/what-is-moores-law.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-multi-cloud-architecture.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-cloud-infrastructure.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-cloud-storage.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-cloud-strategy.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-multi-die-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/what-are-multi-die-systems.html",
+    "https://ansys.synopsys.com/simulation-topics/what-is-multiphysics",
+    "https://www.synopsys.com/blogs/chip-design/nas-vs-san.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-nfs-shared-storage.html",
+    "https://www.synopsys.com/glossary/what-is-nodal-analysis.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-object-storage.html",
+    "https://www.synopsys.com/glossary/what-is-parasitic-extraction.html",
+    "https://www.synopsys.com/glossary/what-is-pci-express.html",
+    "https://www.synopsys.com/blogs/chip-design/whats-new-in-pcie-6.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-persistent-storage.html",
+    "https://www.synopsys.com/glossary/what-is-a-physical-unclonable-function.html",
+    "https://www.synopsys.com/glossary/what-is-a-photonic-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://www.synopsys.com/glossary/what-is-physical-design.html",
+    "https://www.synopsys.com/glossary/what-is-physical-synthesis.html",
+    "https://www.synopsys.com/glossary/what-is-place-and-route.html",
+    "https://www.synopsys.com/glossary/what-is-post-quantum-cryptography.html",
+    "https://www.synopsys.com/glossary/what-are-power-electronics.html",
+    "https://www.synopsys.com/glossary/what-is-power-optimization.html",
+    "https://www.synopsys.com/glossary/what-is-power-performance-area-ppa.html",
+    "https://www.synopsys.com/glossary/what-is-a-process-design-kit.html",
+    "https://www.synopsys.com/glossary/what-is-programmable-electrical-rules-checking.html",
+    "https://www.synopsys.com/glossary/what-are-pvt-sensors.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-quantum-computing.html",
+    "https://www.synopsys.com/glossary/what-is-reinforcement-learning.html",
+    "https://www.synopsys.com/glossary/what-is-register-transfer-level-design.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-reset-domain-crossing.html",
+    "https://www.synopsys.com/glossary/what-is-risc-v.html",
+    "https://www.synopsys.com/glossary/what-is-an-rlc-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-rf-circuit-design.html",
+    "https://www.synopsys.com/glossary/what-is-robustness-analysis.html",
+    "https://www.synopsys.com/glossary/what-is-root-of-trust.html",
+    "https://www.synopsys.com/glossary/what-is-serdes.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-shared-cloud-storage.html",
+    "https://www.synopsys.com/glossary/what-is-silicon-die.html",
+    "https://www.synopsys.com/glossary/what-is-silicon-lifecycle-management.html",
+    "https://www.synopsys.com/glossary/what-is-simulation.html",
+    "https://www.synopsys.com/blogs/chip-design/what-is-a-smartnic.html",
+    "https://www.synopsys.com/glossary/what-is-smartscaling.html",
+    "https://www.synopsys.com/glossary/what-are-s-parameters.html",
+    "https://www.synopsys.com/glossary/what-is-sram-puf.html",
+    "https://www.synopsys.com/glossary/what-is-static-timing-analysis.html",
+    "https://www.synopsys.com/glossary/what-is-synthesis.html",
+    "https://www.synopsys.com/glossary/what-is-system-on-a-chip.html",
+    "https://www.synopsys.com/glossary/what-is-3dic.html",
+    "https://www.synopsys.com/glossary/what-is-triple-shift-left.html",
+    "https://www.synopsys.com/glossary/what-is-ucie.html",
+    "https://www.synopsys.com/glossary/what-is-universal-flash-storage.html",
+    "https://www.synopsys.com/glossary/what-is-usb4.html",
+    "https://www.synopsys.com/glossary/what-is-vehicle-electrification.html",
+    "https://www.synopsys.com/glossary/what-is-verification.html",
+    "https://www.synopsys.com/glossary/what-is-virtual-prototyping.html",
+    "https://www.synopsys.com/glossary/what-is-voltage-drop.html",
+    "https://www.synopsys.com/glossary/what-is-wiring-harness.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 31,
+    "mainTextLen": 144784,
+    "realImageCount": 23,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/glossary-html.png",
+  "renderedHtml": "pages/glossary-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "index-headline": "EDA & Semiconductor IP Terms Explained",
+    "filter-controls": false,
+    "card-grid": {
+      "cardTitles": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "cardCount": 27,
+      "subSlots": [
+        "image",
+        "label",
+        "title",
+        "meta",
+        "link"
+      ]
+    }
+  },
+  "pageType": "listing"
+}

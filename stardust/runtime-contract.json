@@ -1,0 +1,12 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionDom": "div.section.<name>-container > div.default-content-wrapper | div.<name>-wrapper > div.<name>.block",
+  "wrapTextNodes": true,
+  "probedFrom": ["scripts/scripts.js decorateButtons", "scripts/aem.js decorateBlock/wrapTextNodes"],
+  "probedAt": "2026-09-09"
+}

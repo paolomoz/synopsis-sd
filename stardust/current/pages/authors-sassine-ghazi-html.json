@@ -1,0 +1,715 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:23.672Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "authors-sassine-ghazi-html",
+  "url": "https://www.synopsys.com/authors/sassine-ghazi.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:23.672Z",
+  "finalUrl": "https://www.synopsys.com/authors/sassine-ghazi.html?pagesize=10&pageno=1",
+  "title": "Sassine Ghazi - Author | Synopsys",
+  "description": "Explore insights from Sassine Ghazi, President and CEO of Synopsys, who joined the company in 1998 and was named CEO in January 2024.",
+  "og": {
+    "title": "Sassine Ghazi - Author | Synopsys",
+    "description": "Explore insights from Sassine Ghazi, President and CEO of Synopsys, who joined the company in 1998 and was named CEO in January 2024.",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "From this Author"
+    },
+    {
+      "tag": "h2",
+      "text": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys and Ansys Are Now United: Together, We Will Ignite Innovation from Silicon to Systems"
+    },
+    {
+      "tag": "h2",
+      "text": "How AgentEngineer\u2122 Technology Will Transform Engineering Workflows"
+    },
+    {
+      "tag": "h2",
+      "text": "Keynote: Re-Engineering the Future"
+    },
+    {
+      "tag": "h2",
+      "text": "Sassine Ghazi"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Authors",
+    "Sassine Ghazi is President and Chief Executive Officer of Synopsys and serves on the company\u2019s board of directors. Known for his deep customer relationships and passion for innovation, Ghazi has steered Synopsys to record revenue growth and profitability by driving ambitious business strategies and fostering a culture of agility, courage, excellence, and trust. He joined Synopsys in 1998 and was named CEO in January 2024.",
+    "Follow on:",
+    "About Us",
+    "Careers",
+    "Responsible Business",
+    "Investor Relations",
+    "Office Locations",
+    "Ecosystem Partners",
+    "Leadership",
+    "Corporate Governance & Ethics",
+    "Strategic Acquisitions",
+    "Services",
+    "Academic & Research Alliances (SARA)",
+    "Interoperability",
+    "Contact Us",
+    "News Releases",
+    "Executive Briefing Center",
+    "University Program",
+    "Manage Subscriptions",
+    "Sitemap",
+    "Synopsys and Ansys Are Now United",
+    "Mastering AI Chip Complexity",
+    "The A to Z of Multi-Die Design",
+    "Multi-Die Design Start Guide",
+    "Building an AI Chip: Pre Silicon Planning",
+    "Securing Silicon From the Start",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is an Integrated Circuit?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive",
+      "href": "/webinars/auto-tech-day.html"
+    },
+    {
+      "label": "Sassine Ghazi",
+      "href": "/authors/sassine-ghazi.html"
+    },
+    {
+      "label": "Tom De Schutter",
+      "href": "/authors/tom-de-schutter.html"
+    },
+    {
+      "label": "Synopsys and Ansys Are Now United: Together, We Will Ignite Innovation from Silicon to Systems",
+      "href": "/blogs/chip-design/synopsys-ansys-engineering-innovation.html"
+    },
+    {
+      "label": "Sassine Ghazi",
+      "href": "/authors/sassine-ghazi.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "How AgentEngineer\u2122 Technology Will Transform Engineering Workflows",
+      "href": "/blogs/chip-design/agentengineer-technology-transforming-engineering-workflows.html"
+    },
+    {
+      "label": "Sassine Ghazi",
+      "href": "/authors/sassine-ghazi.html"
+    },
+    {
+      "label": "Executive Voices",
+      "href": "/blogs/chip-design/category.executive-voices.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Keynote: Re-Engineering the Future",
+      "href": "/webinars/re-engineering-the-future.html"
+    },
+    {
+      "label": "Sassine Ghazi",
+      "href": "/authors/sassine-ghazi.html"
+    },
+    {
+      "label": "About Us",
+      "href": "https://www.synopsys.com/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "https://www.synopsys.com/company/responsible-business.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Office Locations",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "https://www.synopsys.com/partners.html"
+    },
+    {
+      "label": "Leadership",
+      "href": "https://www.synopsys.com/company/management-team.html"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "https://www.synopsys.com/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "https://www.synopsys.com/company/acquisitions.html"
+    },
+    {
+      "label": "Services",
+      "href": "https://www.synopsys.com/services/design-services.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "https://www.synopsys.com/academic-research.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "https://www.synopsys.com/community/interoperability-programs.html"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://www.synopsys.com/company/contact-synopsys.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "https://www.synopsys.com/newsroom.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "https://www.synopsys.com/company/executive-briefing-center.html"
+    },
+    {
+      "label": "University Program",
+      "href": "https://www.synopsys.com/academic-research/university.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/contact-form-subscription-center.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://www.synopsys.com/sitemap.html"
+    },
+    {
+      "label": "Synopsys and Ansys Are Now United",
+      "href": "https://www.synopsys.com/synopsys-ansys-united.html"
+    },
+    {
+      "label": "Mastering AI Chip Complexity",
+      "href": "https://www.synopsys.com/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html"
+    },
+    {
+      "label": "The A to Z of Multi-Die Design",
+      "href": "https://www.synopsys.com/webinars/a-z-multi-die-design.html"
+    },
+    {
+      "label": "Multi-Die Design Start Guide",
+      "href": "https://www.synopsys.com/multi-die-system/start-guide.html"
+    },
+    {
+      "label": "Building an AI Chip: Pre Silicon Planning",
+      "href": "https://www.synopsys.com/ai/ai-chip-development/building-an-ai-chip-pre-silicon-planning.html"
+    },
+    {
+      "label": "Securing Silicon From the Start",
+      "href": "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "https://www.synopsys.com/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "https://www.synopsys.com/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "https://www.synopsys.com/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "https://www.synopsys.com/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "Authors",
+      "href": "https://www.synopsys.com/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://www.synopsys.com/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/authors/sassine-ghazi.html?pagesize=10&pageno=1#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/authors/sassine-ghazi.html?pagesize=10&pageno=1",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/webinars/auto-tech-day.html",
+    "https://www.synopsys.com/authors/sassine-ghazi.html",
+    "https://www.synopsys.com/authors/tom-de-schutter.html",
+    "https://www.synopsys.com/blogs/chip-design/synopsys-ansys-engineering-innovation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.about-synopsys.html",
+    "https://www.synopsys.com/blogs/chip-design/agentengineer-technology-transforming-engineering-workflows.html",
+    "https://www.synopsys.com/blogs/chip-design/category.executive-voices.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ai-and-machine-learning.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design.html",
+    "https://www.synopsys.com/webinars/re-engineering-the-future.html",
+    "https://www.linkedin.com/in/sassine-ghazi/",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://www.synopsys.com/company/contact-synopsys.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://online.synopsys.com/contact-form-subscription-center.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/synopsys-ansys-united.html",
+    "https://www.synopsys.com/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html",
+    "https://www.synopsys.com/webinars/a-z-multi-die-design.html",
+    "https://www.synopsys.com/multi-die-system/start-guide.html",
+    "https://www.synopsys.com/ai/ai-chip-development/building-an-ai-chip-pre-silicon-planning.html",
+    "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/snps/blogs/chip-design.en-us.xml",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sassine-ghazi-tom-de-schutter-synopsys-thumbnail?ts=1779382987197&$responsive$",
+        "alt": "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ansys-part-of-synopsys-thumbail-dark?ts=1770156605951&$responsive$",
+        "alt": "Synopsys and Ansys Are Now United: Together, We Will Ignite Innovation from Silicon to Systems",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/5-levels-ai-autonomy-engineering-workflows-thumbnail-infographic-1?ts=1778499023057&$responsive$",
+        "alt": "How AgentEngineer\u2122 Technology Will Transform Engineering Workflows",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1783346827762&$responsive$",
+        "alt": "Keynote: Re-Engineering the Future",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sassine-ghazi-grey-500x500?qlt=82&wid=1200&ts=1779295577066&$responsive$&fit=constrain&dpr=off",
+        "alt": "Sassine Ghazi",
+        "w": 600,
+        "h": 600
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1762521871153&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1762521871153&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 33,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 10,
+    "mainTextLen": 132266,
+    "realImageCount": 28,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/authors-sassine-ghazi-html.png",
+  "renderedHtml": "pages/authors-sassine-ghazi-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "Sassine Ghazi - Author",
+    "summary": "Explore insights from Sassine Ghazi, President and CEO of Synopsys, who joined the company in 1998 and was named CEO in January 2024.",
+    "sections": [
+      "From this Author",
+      "Re-engineering Engineering: Electronics Digital Twin Capabilities for Automotive",
+      "Synopsys and Ansys Are Now United: Together, We Will Ignite Innovation from Silicon to Systems",
+      "How AgentEngineer\u2122 Technology Will Transform Engineering Workflows",
+      "Keynote: Re-Engineering the Future",
+      "Sassine Ghazi"
+    ],
+    "items": []
+  },
+  "pageType": "unique"
+}

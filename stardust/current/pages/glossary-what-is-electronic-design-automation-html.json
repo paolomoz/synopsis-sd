@@ -1,0 +1,1286 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:10.837Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "glossary-what-is-electronic-design-automation-html",
+  "url": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:10.837Z",
+  "finalUrl": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+  "title": "What is Electronic Design Automation (EDA)? \u2013 How it Works | Synopsys",
+  "description": "Electronic Design Automation (EDA) includes software, hardware, and services that support semiconductor design, verification, and manufacturing.",
+  "og": {
+    "title": "What is Electronic Design Automation (EDA)? \u2013 How it Works | Synopsys",
+    "description": "Electronic Design Automation (EDA) includes software, hardware, and services that support semiconductor design, verification, and manufacturing.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Definition"
+    },
+    {
+      "tag": "h2",
+      "text": "How EDA Works"
+    },
+    {
+      "tag": "h2",
+      "text": "Types of EDA Tools"
+    },
+    {
+      "tag": "h2",
+      "text": "EDA and AI"
+    },
+    {
+      "tag": "h2",
+      "text": "History of EDA"
+    },
+    {
+      "tag": "h2",
+      "text": "Importance of EDA to Technology and Chip Designers"
+    },
+    {
+      "tag": "h2",
+      "text": "EDA and Synopsys"
+    },
+    {
+      "tag": "h2",
+      "text": "Continue Reading"
+    },
+    {
+      "tag": "h4",
+      "text": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP"
+    },
+    {
+      "tag": "h4",
+      "text": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt"
+    },
+    {
+      "tag": "h4",
+      "text": "Managing 1,000+ Thermal States in a Mobile Device"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Glossary",
+    "What is EDA (Electronic Design Automation)?",
+    "How EDA Works",
+    "Types of EDA Tools",
+    "EDA and AI",
+    "History of EDA",
+    "Importance of EDA to Technology and Chip Designers",
+    "EDA and Synopsys",
+    "Electronic design automation (EDA) is a set of software and hardware tools that help engineers design and build electronic systems, especially computer chips (also called integrated circuits). EDA tools automate complex design tasks like planning, simulation, testing, and preparation for manufacturing. By using electronic design automation, engineers can create more advanced chips faster, reduce errors, improve power, performance, and area (PPA), and bring new products to market more quickly.",
+    "EDA is a critical domain within the electronics and semiconductor industries. It encompasses a broad suite of software tools and methodologies used to design, analyze, verify, and manufacture electronic systems and integrated circuits (ICs). EDA has become the backbone of modern technology development, enabling engineers to create complex chips and systems efficiently and reliably.",
+    "Key Aspects of EDA:",
+    "Automation: EDA tools automate repetitive and computationally intensive tasks.",
+    "Automation: EDA tools automate repetitive and computationally intensive tasks.",
+    "Design Flow: EDA supports a structured design flow from concept to fabrication.",
+    "Design Flow: EDA supports a structured design flow from concept to fabrication.",
+    "Verification: EDA tools provide simulation and verification to detect errors early.",
+    "Verification: EDA tools provide simulation and verification to detect errors early.",
+    "Optimization: EDA helps optimize designs for performance, power, area, thermal management, and cost.",
+    "Optimization: EDA helps optimize designs for performance, power, area, thermal management, and cost.",
+    "EDA tools support the full process of electronic system and chip design through a series of interconnected steps known as the design and verification flow. Below are the key stages of a typical EDA-assisted design process:",
+    "Technology Computer-Aided Design",
+    "Technology computer-aided design, or TCAD resides in the early stages of the chip design process, during process development and device modeling to ensure a design delivers the required yield, performance and density. TCAD is used before the actual chip design begins and its output informs later stages such as circuit design and layout. An atomistic modeling platform, a part of TCAD, is used to design new materials with the best properties for existing or new products and systems.",
+    "Architectural Exploration",
+    "System-on-a-chip (SoC) architects can explore architectural options and trade-offs, providing only high-level structures such as memories, processors, I/O, etc. via virtual prototyping. Through transaction-level simulation, architectural exploration tools reduce design time by predicting and optimizing architecture key performance indicators and constraints before any design is created.",
+    "Specification and Design Entry",
+    "Designers begin by specifying the functional requirements of the design. This stage typically involves high-level descriptions using hardware description languages (HDLs) such as VHDL or Verilog. EDA tools input and manage the HDL source files, perform checking, etc.",
+    "Design Simulation",
+    "Simulation EDA tools allow engineers to test and verify the desired behavior (functionality) of their designs before logical and physical implementation. Simulators model/predict the design's response to various inputs and conditions, helping identify functional errors and performance bottlenecks before the actual hardware is created.",
+    "Logic Synthesis",
+    "Logic synthesis EDA tools transform (or \u201csynthesize\u201d) high-level design descriptions from HDL into lower-level representations, such as gate-level netlists. This step ensures the design can be implemented using actual electronic building-block components (logic gates). In addition, design-for-test (DFT) synthesis implements circuits in the design that support manufacturing and field test environments based on constraints supplied by the user or defined by the design.",
+    "Digital Place and Route",
+    "Place and route EDA tools determine the optimal physical location (placement) of billions of logic gate components created by logic synthesis and the routing of millions/billions of metal connections on a chip. This step is crucial for meeting design constraints like timing, power, and area.",
+    "Analog Place and Route",
+    "Analog place and route refers to the physical implementation of custom analog and mixed\u2011signal circuits, where device placement, routing topology, and parasitic behavior directly determine circuit performance. Unlike digital P&R, analog placement and routing must preserve electrical intent - including matching, symmetry, common\u2011centroid structures, shielding, and routing order to achieve the required gain, noise, linearity, and stability.",
+    "Verification and Validation",
+    "Verification ensures that a design functions correctly and meets its intended specifications across all operating conditions. Verification focuses on proving that the implemented design functions as intended, while validation confirms that it satisfies the original functional, performance, and system-level requirements. In digital design, EDA verification techniques include logic simulation, static and formal verification, formal equivalence checking, timing and power analysis, and layout versus schematic (LVS) checks to ensure correctness from synthesis through full physical implementation. Analog and mixed-signal verification extends these goals to continuous time behavior, device-level physics, noise, parasitics, and nonlinear effects, relying heavily on SPICE-based simulation, mixed-signal co-simulation, extraction, and statistical analysis across process, voltage, temperature, and real-world variations. As designs scale in size, density, and speed, verification and validation increasingly incorporate multiphysics analysis\u2014such as power integrity, thermal behavior, and electromagnetic effects\u2014to ensure robust operation in advanced nanometer technologies and gigahertz class systems.",
+    "Hardware-Assisted Verification (HAV)",
+    "HAV verifies the functionality, performance, and reliability of designs by leveraging dedicated hardware platforms (prototyping and emulation) to accelerate the verification process. By modeling the design in specialized, configurable hardware, verifications run orders of magnitude faster than through software simulation alone.",
+    "Design for Manufacturing (DFM)",
+    "DFM tools analyze the design for manufacturability, checking for issues that could impact yield or reliability during fabrication, even if the design is functionally correct. This step includes checks for process variations, electrical rule compliance, and design rule adherence. Mask synthesis and mask data prep tools ensure quality mask sets are delivered to foundries. As process/fabrication technologies become more advanced, DFM rules become more challenging during design implementation, mask synthesis, and DFM analysis.",
+    "Fabrication and Testing",
+    "Once the design is finalized, it is sent to a fabrication facility (foundry) for production. Post-fabrication, the chips or boards undergo thorough testing to ensure they meet quality and performance standards.",
+    "Intellectual Property (IP)",
+    "Chip designs often use common functions and standardized interfaces such as USB, Ethernet, and PCIe. Instead of recreating those functional blocks for each new chip, EDA vendors often provide pre-designed and pre-verified block designs (IP) that engineers can insert into their chip designs, saving significant design and verification time.",
+    "EDA covers a wide range of specialized tools, each targeting different key aspects of the design process. Here are the main categories:",
+    "Architectural Exploration Tools",
+    "Architectural exploration tools model the architecture of proposed chip designs. Architects specify key constraints and performance requirements along with the basic architecture and components such as CPUs, input-output interfaces, and memories. Transactional simulation predicts results without requiring an actual chip design to be created. Schematic Capture Tools",
+    "Schematic capture tools allow engineers to create graphical representations of electronic circuits, defining how components connect and interact. These tools are largely obsolete, replaced by modern EDA tools that automatically create the electronic circuitry based on higher-level specifications from design engineers.",
+    "Design Capture Tools (Custom/Analog & Mixed\u2011Signal)",
+    "Design capture tools for custom, analog, and mixed\u2011signal design provide the graphical and constraint\u2011driven environment used to create transistor\u2011level schematics, device\u2011level hierarchies, and circuit intent. These tools form the starting point of the custom design flow, enabling engineers to express detailed circuit behavior, device relationships, and analog performance requirements before simulation, layout, and verification. Unlike digital flows\u2014where RTL entry has fully replaced schematic capture\u2014custom analog design continues to rely on schematic\u2011based capture due to its tight coupling with device physics, parasitics, biasing, and layout-dependent effects.",
+    "Simulation Tools",
+    "Analog Simulators: Model analog circuit behavior (e.g., SPICE).",
+    "Analog Simulators: Model analog circuit behavior (e.g., SPICE).",
+    "Digital Simulators: Model digital logic and timing.",
+    "Digital Simulators: Model digital logic and timing.",
+    "Mixed-Signal Simulators: Combine analog and digital simulation.",
+    "Mixed-Signal Simulators: Combine analog and digital simulation.",
+    "Multiphysics Simulators: Model power delivery network, thermal distribution, and electromagnetic and signal integrity effects.",
+    "Multiphysics Simulators: Model power delivery network, thermal distribution, and electromagnetic and signal integrity effects.",
+    "Characterization Tools",
+    "Characterization tools generate high\u2011fidelity timing, power, noise, and reliability models for standard cells, memory instances, custom circuits, and analog/mixed\u2011signal blocks. These tools operate at SPICE or near\u2011SPICE accuracy and produce the models required for synthesis, place\u2011and\u2011route, static timing analysis, signoff verification, and silicon correlation. Characterization is foundational for both digital and analog design because the quality of libraries and device models directly determines the accuracy of timing closure, power estimates, and circuit performance predictions.",
+    "Synthesis Tools",
+    "Synthesis tools transform high-level descriptions (HDL) into gate-level netlists suitable for physical implementation. Synthesis tools also perform optimization of the resulting netlists to reduce the area and improve the timing while retaining the correct functionality.",
+    "Place & Route (layout) Tools",
+    "Place & route tools automate the physical placement of components and routing of connections on silicon or PCB. These tools also perform optimization of the physical layout design.",
+    "Verification Tools",
+    "Functional Verification: Ensures the design behaves as intended.",
+    "Functional Verification: Ensures the design behaves as intended.",
+    "Formal Methods: Formal verification uses mathematical methods to prove correctness while formal equivalence proves a design is functionally identical after synthesis or optimization.",
+    "Formal Methods: Formal verification uses mathematical methods to prove correctness while formal equivalence proves a design is functionally identical after synthesis or optimization.",
+    "Static Timing Analysis: Checks that all timing constraints are met and identifies timing bottlenecks that optimization tools can correct.",
+    "Static Timing Analysis: Checks that all timing constraints are met and identifies timing bottlenecks that optimization tools can correct.",
+    "Gate-level Power Analysis: Analyzes power consumption in design to provide accurate, full-chip and block-level power metrics.",
+    "Gate-level Power Analysis: Analyzes power consumption in design to provide accurate, full-chip and block-level power metrics.",
+    "Hardware Assisted Verification: Emulation and prototyping speed verification through a combination of fast hardware and software.",
+    "Hardware Assisted Verification: Emulation and prototyping speed verification through a combination of fast hardware and software.",
+    "Silicon Lifecycle Management (SLM) Tools",
+    "Data Collection and Detailed Analytics: A data-driven approach to monitoring, analyzing, and optimizing semiconductor devices across their entire lifecycle\u2014from design and manufacturing to deployment and in-field operation. SLM enables continuous improvement of silicon health, performance, quality, reliability, and longevity.",
+    "Test and Validation Tools",
+    "Design for Test (DFT): Enables thorough testing of internal circuits without excessive external probing or intervention to improve fault coverage and ease manufacturing testing by integrating structural test features like scan chains, boundary scan, and built-in self-test (BIST) modules. These features enable automatic test pattern generation (ATPG) and in-field test methodologies.",
+    "Design for Test (DFT): Enables thorough testing of internal circuits without excessive external probing or intervention to improve fault coverage and ease manufacturing testing by integrating structural test features like scan chains, boundary scan, and built-in self-test (BIST) modules. These features enable automatic test pattern generation (ATPG) and in-field test methodologies.",
+    "Manufacturing-Related Tools",
+    "Design Rule Check (DRC) and Electrical Rule Check (ERC) Tools: Ensure that the design adheres to manufacturing and electrical constraints. These constraints are typically defined by foundries that manufacture the actual silicon.",
+    "Design Rule Check (DRC) and Electrical Rule Check (ERC) Tools: Ensure that the design adheres to manufacturing and electrical constraints. These constraints are typically defined by foundries that manufacture the actual silicon.",
+    "Mask Synthesis/Data Preparation Tools: Prepare and optimize layout data for photomask creation, which is critical in semiconductor fabrication.",
+    "Mask Synthesis/Data Preparation Tools: Prepare and optimize layout data for photomask creation, which is critical in semiconductor fabrication.",
+    "Technology Computer Aided Design (TCAD): Simulate and emulate semiconductor process step to create a virtual semiconductor device such as a transistor. The virtual semiconductor device can further be evaluated for electrical signal, stress or temperature related changes.",
+    "Technology Computer Aided Design (TCAD): Simulate and emulate semiconductor process step to create a virtual semiconductor device such as a transistor. The virtual semiconductor device can further be evaluated for electrical signal, stress or temperature related changes.",
+    "Atomic Scale Modeling : Design novel materials with best properties for new or current products and systems.",
+    "Atomic Scale Modeling : Design novel materials with best properties for new or current products and systems.",
+    "AI offers significant benefits to EDA by enhancing efficiency, accuracy, and innovation of EDA tools and solutions through:",
+    "AI-enabled EDA: Automation and insights across the EDA flow",
+    "AI-enabled EDA: Automation and insights across the EDA flow",
+    "AI-powered optimization: Design space optimization for design, verification, and test, including digital and analog domains",
+    "AI-powered optimization: Design space optimization for design, verification, and test, including digital and analog domains",
+    "AI-powered analog layout synthesis: automates custom device placement and routing using learned patterns and topology aware constraint synthesis",
+    "AI-powered analog layout synthesis: automates custom device placement and routing using learned patterns and topology aware constraint synthesis",
+    "AI-powered analytics: Design, manufacturing process control, production",
+    "AI-powered analytics: Design, manufacturing process control, production",
+    "Generative AI: Knowledge assistants, Workflow assistants, Run assistants",
+    "Generative AI: Knowledge assistants, Workflow assistants, Run assistants",
+    "Agentic AI: Multi-agent design/verification workflows",
+    "Agentic AI: Multi-agent design/verification workflows",
+    "The evolution of EDA is closely tied to the advancement of semiconductor technology and the increasing complexity of electronic designs.",
+    "Early Days (1960s\u20131970s)",
+    "Initially, electronic designs were implemented manually using paper, pencil, and basic drafting tools. Logic gates were manually selected and connected to create logic circuits. As integrated circuits became more complex and the number of devices on a chip grew exponentially, manual methods proved too time-consuming and ultimately inadequate.",
+    "Emergence of Computer-Aided Design (CAD) (1970s\u20131980s)",
+    "The first computer-aided design tools emerged to assist with schematic capture (entering logic gates by computer instead of on paper) and basic physical layout. These early CAD tools laid the foundation for more advanced automation.",
+    "Birth of EDA (1980s\u20131990s)",
+    "As chip complexity grew, the need for automation increased. The term \"electronic design automation\" was coined, and specialized tools for simulation, synthesis, and verification were developed. The introduction of hardware description languages (HDLs) like VHDL and Verilog revolutionized digital design by allowing designers to specify their designs using a higher-level language.",
+    "Growth and Integration (1990s\u20132000s)",
+    "EDA tools became more sophisticated, integrating various stages of the design flow instead of through completely discrete, disconnected tools. Vendors began offering comprehensive suites covering everything from design entry to verification and layout. The rise of application-specific integrated circuits (ASICs) and field-programmable gate arrays (FPGAs) further expanded EDA's role. The optimization of power consumption became as important as speed and area.",
+    "Modern Era (2010s\u2013Present)",
+    "Today's EDA tools leverage multi-die (or 3D) design, multi-threading/multi-processing, artificial intelligence, machine learning, and cloud computing to support massive designs containing billions of transistors. The use of AI in chip design is transforming the industry by enabling faster development, higher quality, and more efficient use of resources. Collaboration, version control, and security have become critical features, including cloud-based EDA tools, which are increasingly important for startup companies to innovate faster. EDA continues to evolve with new methodologies for early architectural exploration, low-power design, 3D-ICs, multiphysics simulation, and advanced packaging.",
+    "EDA is essential for the continued progress and innovation of technology and the semiconductor industry. Its importance can be summarized in several key areas:",
+    "Managing Complexity",
+    "Modern chips contain billions of transistors and intricate interconnections. Manual design is impossible at this scale. EDA automates complex tasks, enabling designers to focus on innovation and working at higher levels of abstraction.",
+    "Improving Productivity and Efficiency",
+    "EDA tools dramatically reduce the time required to design, verify, and manufacture electronic systems. Automation allows engineers to iterate quickly, explore different architectures, design alternatives, and optimize performance, power, area, and other constraints. The use of AI within EDA tools dramatically improves the quality of results and further speeds design and verification time.",
+    "Enhancing Reliability and Quality",
+    "Simulation, verification, and error checking ensure that designs are robust and function as intended. Early detection of issues reduces costly errors and rework during manufacturing, and even before the logic is synthesized.",
+    "Enabling Innovation",
+    "EDA empowers designers to create cutting-edge technologies, from smartphones to high-performance CPUs to artificial intelligence processors. Advanced tools enable exploration of new architectures, materials, and manufacturing techniques.",
+    "Reducing Costs",
+    "By automating labor-intensive steps and improving design accuracy, EDA lowers development costs and increases the likelihood of first-pass silicon success (i.e., chips that function correctly on the first manufacturing attempt).",
+    "Supporting Industry Standards and Collaboration",
+    "EDA tools facilitate compliance with industry standards, making it easier for teams to collaborate across organizations and geographies.",
+    "Accelerating Time-to-Market",
+    "In fast-moving industries, speed is crucial. EDA enables rapid prototyping, design iteration, and verification, helping companies bring products to market quickly and stay competitive. Hardware IP for common interfaces, security, and other functionality avoids \u201creinventing the wheel\u201d by supplying users with pre-designed modules for mainstream and interoperable applications.",
+    "Synopsys is the largest provider of EDA technology in the industry. Our solutions address the design and verification of advanced chips. Address your simulation, design, and verification requirements with our fully integrated platforms that include:",
+    "Digital Design",
+    "Digital Design",
+    "Analog Design",
+    "Analog Design",
+    "Verification",
+    "Verification",
+    "Test",
+    "Test",
+    "Signoff and Multiphysics Analysis",
+    "Signoff and Multiphysics Analysis",
+    "Manufacturing Solutions",
+    "Manufacturing Solutions",
+    "IP solutions",
+    "IP solutions",
+    "Silicon Lifecycle Management",
+    "Silicon Lifecycle Management",
+    "Semiconductor IP is also part of the EDA market segment and Synopsys offers the industry\u2019s broadest IP portfolio.",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Glossary",
+      "href": "/glossary.html"
+    },
+    {
+      "label": "integrated circuits",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "power, performance, and area (PPA)",
+      "href": "/glossary/what-is-power-performance-area-ppa.html"
+    },
+    {
+      "label": "chip design",
+      "href": "/glossary/what-is-asic-design.html"
+    },
+    {
+      "label": "Technology computer-aided design, or TCAD",
+      "href": "/manufacturing/tcad.html"
+    },
+    {
+      "label": "System-on-a-chip (SoC)",
+      "href": "/glossary/what-is-system-on-a-chip.html"
+    },
+    {
+      "label": "VHDL",
+      "href": "http://alumni.cs.ucr.edu/~snematbakhsh/vhdl.html"
+    },
+    {
+      "label": "Verilog",
+      "href": "https://people.ece.cornell.edu/land/courses/ece5760/Verilog/Verilog_index.html"
+    },
+    {
+      "label": "Simulation",
+      "href": "/glossary/what-is-simulation.html"
+    },
+    {
+      "label": "Logic synthesis",
+      "href": "/glossary/what-is-synthesis.html"
+    },
+    {
+      "label": "implemented",
+      "href": "/glossary/what-is-logic-design.html"
+    },
+    {
+      "label": "Place and route",
+      "href": "/glossary/what-is-place-and-route.html"
+    },
+    {
+      "label": "step",
+      "href": "/glossary/what-is-physical-design.html"
+    },
+    {
+      "label": "timing, power, and area",
+      "href": "/glossary/what-is-power-performance-area-ppa.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/glossary/what-is-verification.html"
+    },
+    {
+      "label": "functions as intended",
+      "href": "/glossary/what-is-functional-verification.html"
+    },
+    {
+      "label": "static",
+      "href": "/verification/static-and-formal-verification/vc-spyglass.html"
+    },
+    {
+      "label": "formal verification",
+      "href": "/glossary/what-is-equivalence-checking.html"
+    },
+    {
+      "label": "formal equivalence checking",
+      "href": "/implementation-and-signoff/signoff/formality-equivalence-checking.html"
+    },
+    {
+      "label": "timing",
+      "href": "/glossary/what-is-static-timing-analysis.html"
+    },
+    {
+      "label": "layout versus schematic (LVS)",
+      "href": "/glossary/what-is-layout-versus-schematic-checking.html"
+    },
+    {
+      "label": "mixed-signal",
+      "href": "/glossary/what-is-mixed-signal-integrated-circuit.html"
+    },
+    {
+      "label": "multiphysics analysis",
+      "href": "https://ansys.synopsys.com/simulation-topics/what-is-multiphysics"
+    },
+    {
+      "label": "HAV",
+      "href": "/blogs/chip-design/what-is-hardware-assisted-verification-hav.html"
+    },
+    {
+      "label": "DFM tools",
+      "href": "/implementation-and-signoff/physical-verification.html"
+    },
+    {
+      "label": "checks",
+      "href": "/glossary/what-is-design-rule-checking.html"
+    },
+    {
+      "label": "Mask synthesis",
+      "href": "/manufacturing/mask-solutions.html.html"
+    },
+    {
+      "label": "mask data prep",
+      "href": "/manufacturing/mask-solutions.html.html#mdp"
+    },
+    {
+      "label": "production",
+      "href": "/glossary/what-is-lithography.html"
+    },
+    {
+      "label": "USB",
+      "href": "/glossary/what-is-usb4.html"
+    },
+    {
+      "label": "PCIe",
+      "href": "/blogs/chip-design/whats-new-in-pcie-6.html"
+    },
+    {
+      "label": "Digital Design",
+      "href": "/implementation-and-signoff/fusion-design-platform.html"
+    },
+    {
+      "label": "Analog Design",
+      "href": "/implementation-and-signoff/custom-design-platform/custom-compiler.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/verification.html"
+    },
+    {
+      "label": "Test",
+      "href": "/implementation-and-signoff/test-automation.html"
+    },
+    {
+      "label": "Signoff and Multiphysics Analysis",
+      "href": "/implementation-and-signoff/signoff.html"
+    },
+    {
+      "label": "Manufacturing Solutions",
+      "href": "/manufacturing.html"
+    },
+    {
+      "label": "IP solutions",
+      "href": "/designware-ip.html"
+    },
+    {
+      "label": "Silicon Lifecycle Management",
+      "href": "/solutions/silicon-lifecycle-management.html"
+    },
+    {
+      "label": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+      "href": "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html"
+    },
+    {
+      "label": "Anmol Gupta",
+      "href": "/authors/anmol-gupta.html"
+    },
+    {
+      "label": "Anil Kumar Gurugubelli",
+      "href": "/authors/anil-kumar-gurugubelli.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Verification IP",
+      "href": "/blogs/chip-design/category.verificationip.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html"
+    },
+    {
+      "label": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Greg Sorber",
+      "href": "/authors/greg-sorber.html"
+    },
+    {
+      "label": "Executive Voices",
+      "href": "/blogs/chip-design/category.executive-voices.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Physical Implementation",
+      "href": "/blogs/chip-design/category.physical-implementation.html"
+    },
+    {
+      "label": "Energy-Efficient SoCs",
+      "href": "/blogs/chip-design/category.energy-efficient-socs.html"
+    },
+    {
+      "label": "Design Technology Co-Optimization",
+      "href": "/blogs/chip-design/category.design-technology-co-optimization.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/blogs/chip-design/category.hpc-data-center.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Managing 1,000+ Thermal States in a Mobile Device",
+      "href": "/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html"
+    },
+    {
+      "label": "Johannes Stahl",
+      "href": "/authors/dr-johannes-stahl.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Emulation",
+      "href": "/blogs/chip-design/category.emulation.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-power-performance-area-ppa.html",
+    "https://www.synopsys.com/glossary/what-is-asic-design.html",
+    "https://www.synopsys.com/manufacturing/tcad.html",
+    "https://www.synopsys.com/glossary/what-is-system-on-a-chip.html",
+    "http://alumni.cs.ucr.edu/~snematbakhsh/vhdl.html",
+    "https://people.ece.cornell.edu/land/courses/ece5760/Verilog/Verilog_index.html",
+    "https://www.synopsys.com/glossary/what-is-simulation.html",
+    "https://www.synopsys.com/glossary/what-is-synthesis.html",
+    "https://www.synopsys.com/glossary/what-is-logic-design.html",
+    "https://www.synopsys.com/glossary/what-is-place-and-route.html",
+    "https://www.synopsys.com/glossary/what-is-physical-design.html",
+    "https://www.synopsys.com/glossary/what-is-verification.html",
+    "https://www.synopsys.com/glossary/what-is-functional-verification.html",
+    "https://www.synopsys.com/verification/static-and-formal-verification/vc-spyglass.html",
+    "https://www.synopsys.com/glossary/what-is-equivalence-checking.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/formality-equivalence-checking.html",
+    "https://www.synopsys.com/glossary/what-is-static-timing-analysis.html",
+    "https://www.synopsys.com/glossary/what-is-layout-versus-schematic-checking.html",
+    "https://www.synopsys.com/glossary/what-is-mixed-signal-integrated-circuit.html",
+    "https://ansys.synopsys.com/simulation-topics/what-is-multiphysics",
+    "https://www.synopsys.com/blogs/chip-design/what-is-hardware-assisted-verification-hav.html",
+    "https://www.synopsys.com/glossary/what-is-design-rule-checking.html",
+    "https://www.synopsys.com/manufacturing/mask-solutions.html.html",
+    "https://www.synopsys.com/manufacturing/mask-solutions.html.html#mdp",
+    "https://www.synopsys.com/glossary/what-is-lithography.html",
+    "https://www.synopsys.com/glossary/what-is-usb4.html",
+    "https://www.synopsys.com/blogs/chip-design/whats-new-in-pcie-6.html",
+    "https://www.synopsys.com/blogs/chip-design/bumblebee-moment-ai-silicon.html",
+    "https://www.synopsys.com/authors/dr-johannes-stahl.html",
+    "https://www.synopsys.com/blogs/chip-design/category.engineering-central.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ai-and-machine-learning.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verification.html",
+    "https://www.synopsys.com/blogs/chip-design/how-certify-supercomputer.html",
+    "https://www.synopsys.com/blogs/chip-design/category.emulation.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-die-multiphysics-co-design.html",
+    "https://www.synopsys.com/authors/greg-sorber.html",
+    "https://www.synopsys.com/blogs/chip-design/category.executive-voices.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multi-die-system.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.about-synopsys.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html",
+    "https://www.synopsys.com/authors/anmol-gupta.html",
+    "https://www.synopsys.com/authors/anil-kumar-gurugubelli.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verificationip.html",
+    "https://www.synopsys.com/blogs/chip-design/energy-efficient-ai-per-watt.html",
+    "https://www.synopsys.com/blogs/chip-design/category.physical-implementation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.energy-efficient-socs.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design-technology-co-optimization.html",
+    "https://www.synopsys.com/blogs/chip-design/category.hpc-data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html",
+    "https://www.onetrust.com/solutions/consent-and-preferences/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/electronic-design-automation-90-seconds-thumb?qlt=82&wid=1200&ts=1632504563902&dpr=off",
+        "alt": "~ai-63ddc410-a32d-4670-99bb-84739232deb1_",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-eda-solutions?qlt=82&wid=1200&ts=1775161707489&$responsive$&fit=constrain&dpr=off",
+        "alt": "EDA (Electronic Design Automation) Diagram | Synopsys",
+        "w": 1304,
+        "h": 670
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/etched-success-story-2026-thumbnail?ts=1788385676259&$responsive$",
+        "alt": "A Bumblebee Moment for AI Silicon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fujitsu-success-story-2026-thumbnail?ts=1787935365939&$responsive$",
+        "alt": "How to Certify a Supercomputer",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-panel-synopsys-executive-forum-400x225?ts=1787683192975&$responsive$",
+        "alt": "Multi-Die, Multiphysics, and the New Rules of Chip Design",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1788475547020&$responsive$",
+        "alt": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fpo-headshot-520x520?ts=1788281894717&$responsive$",
+        "alt": "Anmol Gupta",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/anil-kumar-gurugubelli-headshot?ts=1784170439423&$responsive$",
+        "alt": "Anil Kumar Gurugubelli",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-data-center-energy-efficiency-electricity-meter-image-400x225?ts=1788296260596&$responsive$",
+        "alt": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/google-success-story-2026-thumbnail?ts=1788388364756&$responsive$",
+        "alt": "Managing 1,000+ Thermal States in a Mobile Device ",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/etched-success-story-2026-thumbnail?ts=1788385676259&$responsive$",
+        "alt": "A Bumblebee Moment for AI Silicon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fujitsu-success-story-2026-thumbnail?ts=1787935365939&$responsive$",
+        "alt": "How to Certify a Supercomputer",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-panel-synopsys-executive-forum-400x225?ts=1787683192975&$responsive$",
+        "alt": "Multi-Die, Multiphysics, and the New Rules of Chip Design",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1788475547020&$responsive$",
+        "alt": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fpo-headshot-520x520?ts=1788281894717&$responsive$",
+        "alt": "Anmol Gupta",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/anil-kumar-gurugubelli-headshot?ts=1784170439423&$responsive$",
+        "alt": "Anil Kumar Gurugubelli",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-data-center-energy-efficiency-electricity-meter-image-400x225?ts=1788296260596&$responsive$",
+        "alt": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/google-success-story-2026-thumbnail?ts=1788388364756&$responsive$",
+        "alt": "Managing 1,000+ Thermal States in a Mobile Device ",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/etched-success-story-2026-thumbnail?ts=1788385676259&$responsive$",
+        "alt": "A Bumblebee Moment for AI Silicon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fujitsu-success-story-2026-thumbnail?ts=1787935365939&$responsive$",
+        "alt": "How to Certify a Supercomputer",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-panel-synopsys-executive-forum-400x225?ts=1787683192975&$responsive$",
+        "alt": "Multi-Die, Multiphysics, and the New Rules of Chip Design",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 62,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Cookie Preference CenterYour PrivacyStrictly Necessary CookiesFunctional CookiesPerformance CookiesTargeting CookiesYour PrivacyWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer. More informationStrictly Necessary CookiesAlways ActiveThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.Cookies Details\u200eFunctional Cookies Functional Cookies These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.Cookies Details\u200ePerformance Cookies Performance Cookies These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.Cookies Details\u200eTargeting Cookies Targeting Cookies These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.Cookies Details\u200eBack ButtonBackVendor Search Filter ButtonConsent Leg.Interest checkbox label label checkbox label label checkbox label labelView Third Party CookiesNamecookie nameClear checkbox label labelApply CancelSave Settings Allow All"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.youtube.com/embed/iDhpKq09XIo?autoplay=0&modestbranding=1&controls=1&showinfo=0&autohide=1&color=white&enablejsapi=1&origin=https%3A%2F%2Fwww.synopsys.com&widgetid=1&forigin=https%3A%2F%2Fwww.synopsys.com%2Fglossary%2Fwhat-is-electronic-design-automation.html&aoriginsup=1&vf=1",
+        "title": "EDA (Electronic Design Automation) Explained in 90 Seconds  | Synopsys"
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 1,
+    "distinctHeadings": 16,
+    "mainTextLen": 166153,
+    "realImageCount": 57,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/glossary-what-is-electronic-design-automation-html.png",
+  "renderedHtml": "pages/glossary-what-is-electronic-design-automation-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "What is Electronic Design Automation (EDA)? \u2013 How it Works | Synopsys",
+    "deck": "Electronic Design Automation (EDA) includes software, hardware, and services that support semiconductor design, verification, and manufacturing.",
+    "byline": null,
+    "meta": null,
+    "lead-image": "https://images.synopsys.com/is/image/synopsys/electronic-design-automation-90-seconds-thumb?qlt=82&wid=1200&ts=1632504563902&dpr=off",
+    "body": {
+      "sections": [
+        "Definition",
+        "How EDA Works",
+        "Types of EDA Tools",
+        "EDA and AI",
+        "History of EDA",
+        "Importance of EDA to Technology and Chip Designers",
+        "EDA and Synopsys"
+      ]
+    },
+    "pullquotes": [],
+    "related": [
+      "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+      "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "Managing 1,000+ Thermal States in a Mobile Device"
+    ]
+  },
+  "pageType": "article"
+}

@@ -1,0 +1,1114 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:04:02.308Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "company-contact-synopsys-office-locations-html",
+  "url": "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:04:02.308Z",
+  "finalUrl": "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+  "title": "Office Locations | Synopsys",
+  "description": "Find Synopsys office locations worldwide across Americas, Europe, Middle East, Asia Pacific, and Japan. Connect with our global teams today to discuss your needs.",
+  "og": {
+    "title": "Office Locations | Synopsys",
+    "description": "Find Synopsys office locations worldwide across Americas, Europe, Middle East, Asia Pacific, and Japan. Connect with our global teams today to discuss your needs.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Countries/Regions"
+    },
+    {
+      "tag": "h3",
+      "text": "Worldwide Headquarters"
+    },
+    {
+      "tag": "h3",
+      "text": "Americas"
+    },
+    {
+      "tag": "h4",
+      "text": "Canada"
+    },
+    {
+      "tag": "h4",
+      "text": "Latin America"
+    },
+    {
+      "tag": "h4",
+      "text": "United States"
+    },
+    {
+      "tag": "h3",
+      "text": "Europe and Middle East"
+    },
+    {
+      "tag": "h4",
+      "text": "Armenia"
+    },
+    {
+      "tag": "h4",
+      "text": "Belgium"
+    },
+    {
+      "tag": "h4",
+      "text": "Denmark"
+    },
+    {
+      "tag": "h4",
+      "text": "Finland"
+    },
+    {
+      "tag": "h4",
+      "text": "France"
+    },
+    {
+      "tag": "h4",
+      "text": "Germany"
+    },
+    {
+      "tag": "h4",
+      "text": "Ireland"
+    },
+    {
+      "tag": "h4",
+      "text": "Israel"
+    },
+    {
+      "tag": "h4",
+      "text": "Italy"
+    },
+    {
+      "tag": "h4",
+      "text": "Netherlands"
+    },
+    {
+      "tag": "h4",
+      "text": "Poland"
+    },
+    {
+      "tag": "h4",
+      "text": "Portugal"
+    },
+    {
+      "tag": "h4",
+      "text": "Romania"
+    },
+    {
+      "tag": "h4",
+      "text": "Sweden"
+    },
+    {
+      "tag": "h4",
+      "text": "Switzerland"
+    },
+    {
+      "tag": "h4",
+      "text": "United Kingdom"
+    },
+    {
+      "tag": "h3",
+      "text": "Asia Pacific"
+    },
+    {
+      "tag": "h4",
+      "text": "China"
+    },
+    {
+      "tag": "h4",
+      "text": "India"
+    },
+    {
+      "tag": "h4",
+      "text": "Malaysia"
+    },
+    {
+      "tag": "h4",
+      "text": "Singapore"
+    },
+    {
+      "tag": "h4",
+      "text": "Sri Lanka"
+    },
+    {
+      "tag": "h4",
+      "text": "South Korea"
+    },
+    {
+      "tag": "h4",
+      "text": "Taiwan"
+    },
+    {
+      "tag": "h4",
+      "text": "Vietnam"
+    },
+    {
+      "tag": "h3",
+      "text": "Japan"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Company Contact Corporate Governance & Ethics Executive Briefing Center Legal Management Team Responsible Business Strategic Acquisitions Resources",
+    "Contact Countries/Regions",
+    "Countries/Regions Europe and Middle East India Korea South Asia Taiwan Armenia",
+    "Americas | Europe and Middle East | Asia Pacific | Japan",
+    "Synopsys Corporate Headquarters",
+    "675 Almanor Ave Sunnyvale, CA 94085",
+    "650-584-5000 800-541-7737",
+    "Markham Synopsys Canada 11 Allstate Parkway, Suite 408 Markham, Ontario L3R 9T8 Tel: 905-415-7000",
+    "Mississauga Synopsys Canada 1 City Centre Drive, Suite 900 Mississauga, Ontario L5B 1M2 Tel: 905-273-8400",
+    "Nepean Synopsys Canada One Antares Drive, Suite 300 Nepean, Ontario K2E 8C4 Tel: 613-221-8600",
+    "Ottawa Synopsys Canada 84 Hines Road, Suite 260, Ottawa, Ontario, K2K 3G3 Tel: 613-383-2000",
+    "Ottawa Synopsys Canada 450 March Road, Suite 401 Ottawa, Ontario, K2K 3K2 Tel: 613-595-9800",
+    "Vancouver 1095 W Pender Street Suite 1800 Vancouver, BC V6E 2M6",
+    "Zapopan Avenida Vallarta #6503 local F65, Esquina Periferico Colonia Ciudad Granja 45010 Zapopan, Jalisco MEXICO",
+    "Santiago Synopsys Chile Limitada Avenida Vitacura 5250 Oficina 708 Santiago 7630229, Chile Tel: +56-2-3321-2860",
+    "Arizona",
+    "2325 W. Guadalupe Rd, Suite 115 Gilbert, AZ 85233",
+    "25 S. Arizona Pl 5th Floor Chandler, AZ 85225",
+    "California",
+    "7469 Draper Ave La Jolla, CA 92037 Tel: 858-454-3419",
+    "675 Almanor Ave Sunnyvale, CA 94085 Tel: 650-584-5000 Fax: 650-965-8637",
+    "20 Pacifica, Suite 820 Irvine, CA 92618 Tel: 949-585-2700",
+    "10180 Telesis Court, Suite 200 San Diego, California 92121",
+    "Colorado",
+    "3100 Arapahoe Ave, Suite 303 Boulder, CO 80303",
+    "15435 Gleneagle Drive Suite 110 Colorado Springs, CO 80921",
+    "Massachusetts",
+    "90 Central Street Suite 305 Boxborough, MA 01719 Tel: 978-266-2200",
+    "11 Apex Drive, Suite 302B Marlborough, MA 01752 Tel: 508-263-8000",
+    "North Carolina",
+    "710 Slater Road Suite 300 Morrisville, NC, 27560 Tel: 919-425-7300",
+    "Oregon",
+    "2025 NE Cornelius Pass Road Suite 400 Hillsboro, OR 97124 Tel: 503-547-6000",
+    "Texas",
+    "1301 South Mopac Expressway Suite 200 Austin, TX 78746 Tel: 512-372-7500",
+    "7160 N. Dallas Parkway Suite 500 Plano, TX 75024 Tel: 972-398-5600",
+    "Vermont",
+    "400 Cornerstone Dr. Suite 325 Williston, VT 05495",
+    "Washington",
+    "1341 N. Northlake Way Suite 200 Seattle, WA 98103",
+    "Americas | Europe and Middle East | Asia Pacific | Japan",
+    "Yerevan Synopsys Armenia CJSC 41 Arshakunyats Avenue ViaSphere Technopark, Bldg 1 0026 Yerevan, Armenia Tel: +3741-049-2100",
+    "Synopsys Armenia CJSC 16 Halabyan Street, TUMO Center Yerevan 0038 Armenia Tel: + (374) 10492100",
+    "Gyumri Synopsys Armenia CJSC 1 Gayi Street, GTC (Gyumri Technology Center) Gyumri 3105 Armenia Tel: + (374) 10492100",
+    "Leuven SNPS Belgium BV Haasrode Research Park Building 1026 Technologielaan 11-0002 3001 Leuven, Belgium Tel: +32-16-79-72-51",
+    "Copenhagen Synopsys Denmark ApS Fruebjergvej 3 2100 Copenhagen, Denmark Tel: +45-70-71-69-80",
+    "Espoo Synopsys Technology Finland OY Stella Luna Lars Sonckin Kaari 14 02600 Espoo, Finland Tel: +358-9-424-52280",
+    "Oulu Synopsys Technology Finland OY Kiviharjunlenkki 1 C 90220 Oulu, Finland",
+    "Montbonnot Synopsys Emulation & Verification SAS Z.I.R.S.T. II 12 rue Lavoisier 38330 Montbonnot-Saint-Martin, France Tel: +33-4-12-34-05-55",
+    "Montpellier Synopsys Emulation & Verification SAS 187 rue de Freyr 34000 Montpellier France",
+    "Rungis Synopsys Emulation & Verification SAS 7 rue des Solets Rungis 94150 France Tel: +33-1-64-53-27-30",
+    "Sophia Synopsys Emulation & Verification SAS 400 Avenue de Roumanille Bat. 3 06410 Sophia Antipolis, France Tel: +33-4-97-23-97-23",
+    "Aachen Synopsys GmbH Ritterstrasse 23 52072 Aachen, Germany Tel: + 49-241-93688126",
+    "Berlin Synopsys GmbH Berlin Waldenserstra\u00dfe 2-4 10551 Berlin",
+    "Erfurt Synopsys GmbH Th\u00fcringen B\u00fcro Park Europaplatz 5 99091 Erfurt, Germany Tel: +49-8954196414",
+    "Munich",
+    "Synopsys GmbH August-Everding-Strasse 24 81671 Munich, Germany",
+    "Stuttgart Synopsys GmbH Kreuznacherstr 62 . Unit C5 3.07 70372 Stuttgart Germany",
+    "Dublin Synopsys International Floor 4, No. 2 Stemple Exchange Blanchardstown Corporate Park Dublin 15, D15E4FN, Ireland Tel: +353-1-575-8330",
+    "Ra\u2019anana Synopsys Israel c/o Mindspace Infinity Park, Floor 3 HaPinina Street 6 Ra\u2019anana 4321544 Israel",
+    "Haifa Synopsys Israel Andrei Sakharov 9 street Haifa 3508409, Israel",
+    "Agrate Brianza Synopsys Italia SRL Viale Colleoni, 11, Palazzo Sirio Ing. 3, Agrate Brianza MB 20864 Tel: +39-039-8889397",
+    "Pavia Synopsys Italia SRL Viale Indipendenza 11 Pavia 27100 ITALY",
+    "Eindhoven Synopsys Netherlands BV High Tech Campus 41 5656 AE Eindhoven, Netherlands Tel: +31-40-798-8001",
+    "Enschede Synopsys Software Netherlands BV Capitool 50 7521 PL Enschede, the Netherlands Tel: +31-53-790-1622",
+    "Gdansk Synopsys Poland sp. z o.o. Arkonska Business Park ul. Arkonska 6/A4 80-387 Gdansk, Poland Tel: +48-587-614-000",
+    "Lisbon Synopsys Portugal Lda Lagoas Park Edif\u00edcio 4, Piso 2 2740-267 Porto Salvo, Portugal Tel: +351-21-125-1025",
+    "Porto Synopsys Portugal Lda Rua Eng. Frederico Ulrich 2650 Edif\u00edcio das Tecnologias 4470-605 Moreira da Maia, Portugal Tel: +351-22-121-6046",
+    "Cluj-Napoca Synopsys SRL Str. Dr. Victor Deleu, nr. 1 Cluj-Napoca 400112 ROMANIA",
+    "Bucharest Synopsys Romania SRL 32, Calea Dorobantilor, District 1 Bucharest 10553 Romania",
+    "Bucharest Synopsys Romania SRL Boulevard Iuliu Maniu, 6L, District 6 Building Campus 6.1 Bucharest 061072 Romania",
+    "Lund Synopsys Sweden AB Kalkstensv\u00e4gen 3 224 78 Lund, Sweden Tel: +46-46-590-22-11",
+    "Zurich Synopsys Switzerland LLC Thurgauerstrasse 40 Airgate Building 8050 Zurich, Switzerland Tel: +41-44-562-41-10",
+    "Exeter",
+    "Synopsys Northern Europe Ltd. Bradninch Hall, Castle Street Exeter EX4 3PL United Kingdom",
+    "Glasgow Synopsys Northern Europe Ltd. Suite 2B, 133 Finnieston Street Glasgow G3 8HB United Kingdom",
+    "Hatfield Synopsys Northern Europe Ltd. 2nd Floor, Titan Court 3 Bishop Square Hatfield AL10 9NA United Kingdom Tel: +44-1189-313822",
+    "Edinburgh Synopsys (Northern Europe) Ltd. c/o WeWork 80 George Street Edinburgh, Scotland EH2 3BU United Kingdom",
+    "Plymouth Synopsys (Northern Europe) Ltd. 7 Research Way, Devon Plymouth PL6 8 BT Plymouth United Kingdom",
+    "Reading Synopsys Northern Europe Ltd. Arlington Business Park Building 1430 Reading RG7 4SA United Kingdom Tel: +44-118-234-9555",
+    "Americas | Europe and Middle East | Asia Pacific | Japan",
+    "Beijing Synopsys (Beijing) Company Limited Unit 711-718 Raycom InfoTech Park, Tower A No. 2 South Ke Xue Yuan Road Haidian District Beijing 100190, PRC Tel: +86-10-5986-0600",
+    "Hong Kong Synopsys International Limited Room 1741-1743, 700 Nathan Road, Kowloon, Hong Kong Tel: 852-2865-1266",
+    "Nanjing",
+    "20F, Tengfei Building A, No. 88 Yanchuang Park, Jiangmiao Road Jiangbei New Area Nanjing, 211800, PRC",
+    "Shenzhen Unit 01A, 06, 13F Tower A, Uphills No.5001, Huanggang Road Futian District Shenzhen, Canton Province (518036)",
+    "Shanghai Synopsys Semiconductor Technology (Shanghai) Co., Ltd Synopsys Software Science and Technology (Shanghai) Co., Ltd1-5F, Tower 1, EBA Center, 387 Huimin Road, Lot 10 Yangpu District, Shanghai, 200433 Tel: +86-21-3587-4500",
+    "Wuhan Building 2, No. 6 Long Shan South Street Wuhan Future City East Lake High-Tech Development Zone Wuhan, Hubei 430206, PRC Tel: +86-027-5986-4666",
+    "Xiamen Room 306 No. 30 Guanri Road Fujian Xiamen, Fujian 361008, PRC Tel: +86-592-3285588",
+    "Xi\u2019An Room 1403-1405, 14F, No.G3 Tian Gu Ba Road Huan Pu Science and Technology Industrial Park, Hi-tech Zone Xi\u2019An, 710003, PRC",
+    "Bengaluru Synopsys India EDA Software Pvt Ltd. 10th Floor, Troy, Bagmane Capital Business Park, Outer Ring Road, Mahadevapura Village, KR Puram Hobli, Bengaluru, Karnataka-560048-India",
+    "Bengaluru Synopsys India Pvt. Ltd. 9th Floor, Troy, Bagmane Capital Business Park, Outer Ring Road, Mahadevapura Village, KR Puram Hobli, Bengaluru, Karnataka-560048-India",
+    "Pune Synopsys India Pvt. Ltd. Smartworks, Malpani Agile Baner Road Pune, MH 411045",
+    "Bhubaneswar Synopsys India Pvt. Ltd. iHub, E/43, Infocity Avenue Sailashree Vihar, Patia Bhubaneswar, OR 751024",
+    "Hyderabad",
+    "Synopsys India Pvt. Ltd. & Synopsys India EDA Software Pvt Ltd. Ground and 7th Floors, Block B Ground, 6th, and 7th Floors, Block C DivyaSree Omega, Survey No 13 EE, 13/U Kondapur Village, TS 500032 Tel: +91-404-0331000",
+    "Mumbai Synopsys India Pvt. Ltd. WeWork NESCO IT Park Building 4, North Wing Western Express Highway, Goregaon (East) Mumbai, MH 400063 Tel: +91-022-61649500",
+    "New Delhi Synopsys India Pvt. Ltd. 601-608, KLJ Tower North Netaji Subhash Place Wazirpur District Center Pitam Pura - 110034 Delhi, India Tel: +91-114-9222903",
+    "Noida Synopsys India Pvt. Ltd. 2nd, 3rd and 4th Floor, Tower A DLF Techpark, Sector-143-A District Gautam Budh Nagar Noida - 201307 Uttar Pradesh, India Tel: +91-120-6758800",
+    "Noida Synopsys India EDA Software Pvt Ltd. 2nd Floor, Tower A DLF Techpark, Sector-143-A District Gautam Budh Nagar Noida - 201307 Uttar Pradesh, India Tel: +91-120-6758800",
+    "Penang Synopsys Singapore Pvt. Ltd. 1-21-01 Suntech @ Penang Cybercity Lintang Mayang Pasir 3 11950 Bayan Baru Penang, Malaysia Tel: +60-4-619-2578",
+    "Singapore Synopsys Singapore Pvt. Ltd. 300 Beach Road, #31-02 The Concourse Singapore 199555 Tel: +65-6296-7433 sgp_feedback@synopsys.com",
+    "Colombo No. 03, 2/1, Lukshmi Gardens Colombo 08, Sri Lanka Tel: +94-11-203-8600",
+    "Colombo Synopsys (Lanka) Private Limited Level 1, Rigel Building No: 752, Dr. Danister De Silva Mawatha, Colombo Western 00900, Sri Lanka",
+    "Seongnam-si Synopsys Korea, Inc. 5F, H-Square N-dong, 235 Pangyoyeok-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, 13494, South Korea Tel: +82-2-3404-2700 kor_feedback@synopsys.com",
+    "Seongnam-si Synopsys Korea, Inc. 5F, B-dong, U-Space 1, 660, Daewangpangyo-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, 13494, South Korea",
+    "Yongin-si Synopsys Korea, Inc. Units 805-814, 8F, Tera Tower, 11, Seocheon-ro 201 beon-gil Giheung-gu, Yongin-si, Gyeonggi-do, 17111, South Korea Tel: +82-31-776-1100",
+    "Hsinchu Synopsys Taiwan CO., Ltd., Hsinchu Science Park Branch 12F, No. 8, Keyan RD., East District Hsinchu City 300192 , Taiwan Tel: +886-3-623-0288 Fax: +886-3-623-0401 tw_feedback@synopsys.com",
+    "Hsinchu Synopsys Taiwan Co., Ltd., Hsinchu Science Park Branch No. 25, Industry East Road IV Science-Based Industrial Park 300093 Hsinchu City, Taiwan Tel: +886-3-579-4567 Fax: +886-3-579-9000 tw_feedback@synopsys.com",
+    "Hsinchu Synopsys Taiwan Co., Ltd 5 F., No. 8, Taiyuan 2nd St., Zhubei City, Hsinchu County 302082, Taiwan Tel : +886-3-623-0268 Fax : +886-3-623-0666 tw_feedback@synopsys.com",
+    "Taipei Rm. 3108, 31 F., No. 333, Sec. 1, Keelung Rd., Xinyi Dist., Taipei City 110208, Taiwan Tel : +886-2-2345-3020 Fax : +886-2-2757-6009 tw_feedback@synopsys.com",
+    "Ho Chi Minh City Synopsys Vietnam, LLC 19F & 22F, UOA Tower 6 Tan Trao St. Tan My Ward Ho Chi Minh, Viet Nam",
+    "Ho Chi Minh City Synopsys Vietnam, LLC 9F Etown 2 Building 364 Cong Hoa St. Tan Binh Ward Ho Chi Minh, Viet Nam",
+    "Da Nang Synopsys Vietnam, LLC 2F & 3F, Fhome Building 16LY Thuong Kiet St. Hai Chau Ward Da Nang, Viet Nam",
+    "Hanoi Synopsys Vietnam, LLC 8F & 9F Taisei Office Tower 289 Khuat Duy Tien St. Dai Mo Ward Hanoi, Viet Nam",
+    "Americas | Europe and Middle East | Asia Pacific | Japan",
+    "Tokyo Nihon Synopsys G.K. Futako Tamagawa Rise Office 2-21-1 Tamagawa, Setagaya-ku Tokyo 158-0094, Japan Tel: +81-3-6746-3500",
+    "Osaka Nihon Synopsys G.K. Pias Tower 13F 3-19-3 Toyosaki, Kita-ku Osaka-shi, Osaka 531-0072, Japan Tel: +81-6-6359-8139",
+    "Americas | Europe and Middle East | Asia Pacific | Japan",
+    "Press releases, media contacts, and the latest press kit",
+    "Information for shareholders, analysts, and investors",
+    "Job opportunities and internships around the world",
+    "Our commitment to philanthropy, education, and the environment",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Company",
+      "href": "/company.html"
+    },
+    {
+      "label": "Contact",
+      "href": "/company/contact-synopsys.html"
+    },
+    {
+      "label": "Countries/Regions",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Americas",
+      "href": "/company/contact-synopsys/office-locations.html#americas"
+    },
+    {
+      "label": "Europe and Middle East",
+      "href": "/company/contact-synopsys/office-locations.html#europe"
+    },
+    {
+      "label": "Asia Pacific",
+      "href": "/company/contact-synopsys/office-locations.html#asia"
+    },
+    {
+      "label": "Japan",
+      "href": "/company/contact-synopsys/office-locations.html#japan"
+    },
+    {
+      "label": "Americas",
+      "href": "/company/contact-synopsys/office-locations.html#americas"
+    },
+    {
+      "label": "Europe and Middle East",
+      "href": "/company/contact-synopsys/office-locations.html#europe"
+    },
+    {
+      "label": "Asia Pacific",
+      "href": "/company/contact-synopsys/office-locations.html#asia"
+    },
+    {
+      "label": "Japan",
+      "href": "/company/contact-synopsys/office-locations.html#japan"
+    },
+    {
+      "label": "Synopsys Armenia CJSC",
+      "href": "/company/contact-synopsys/office-locations/armenia.html"
+    },
+    {
+      "label": "Synopsys Portugal Lda",
+      "href": "/careers/global/europe-and-middle-east/portugal.html"
+    },
+    {
+      "label": "Synopsys Portugal Lda",
+      "href": "/careers/global/europe-and-middle-east/portugal.html"
+    },
+    {
+      "label": "Americas",
+      "href": "/company/contact-synopsys/office-locations.html#americas"
+    },
+    {
+      "label": "Europe and Middle East",
+      "href": "/company/contact-synopsys/office-locations.html#europe"
+    },
+    {
+      "label": "Asia Pacific",
+      "href": "/company/contact-synopsys/office-locations.html#asia"
+    },
+    {
+      "label": "Japan",
+      "href": "/company/contact-synopsys/office-locations.html#japan"
+    },
+    {
+      "label": "Synopsys India EDA Software Pvt Ltd.",
+      "href": "/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd.",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd.",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd.",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd. &",
+      "href": "/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India EDA Software Pvt Ltd.",
+      "href": "/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd.",
+      "href": "/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd.",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India Pvt. Ltd.",
+      "href": "/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys India EDA Software Pvt Ltd.",
+      "href": "/company/contact-synopsys/office-locations/india.html"
+    },
+    {
+      "label": "Synopsys Singapore Pvt. Ltd.",
+      "href": "/company/contact-synopsys/office-locations/south-asia.html"
+    },
+    {
+      "label": "sgp_feedback@synopsys.com",
+      "href": "mailto:sgp_feedback@synopsys.com"
+    },
+    {
+      "label": "kor_feedback@synopsys.com",
+      "href": "mailto:kor_feedback@synopsys.com"
+    },
+    {
+      "label": "Synopsys Taiwan CO., Ltd.,",
+      "href": "/company/contact-synopsys/office-locations/Taiwan.html"
+    },
+    {
+      "label": "tw_feedback@synopsys.com",
+      "href": "mailto:tw_feedback@synopsys.com"
+    },
+    {
+      "label": "Synopsys Taiwan Co., Ltd.",
+      "href": "/company/contact-synopsys/office-locations/Taiwan.html"
+    },
+    {
+      "label": "tw_feedback@synopsys.com",
+      "href": "mailto:tw_feedback@synopsys.com"
+    },
+    {
+      "label": "Synopsys Taiwan Co., Ltd",
+      "href": "/company/contact-synopsys/office-locations/Taiwan.html"
+    },
+    {
+      "label": "tw_feedback@synopsys.com",
+      "href": "mailto:tw_feedback@synopsys.com"
+    },
+    {
+      "label": "tw_feedback@synopsys.com",
+      "href": "mailto:tw_feedback@synopsys.com"
+    },
+    {
+      "label": "Americas",
+      "href": "/company/contact-synopsys/office-locations.html#americas"
+    },
+    {
+      "label": "Europe and Middle East",
+      "href": "/company/contact-synopsys/office-locations.html#europe"
+    },
+    {
+      "label": "Asia Pacific",
+      "href": "/company/contact-synopsys/office-locations.html#asia"
+    },
+    {
+      "label": "Japan",
+      "href": "/company/contact-synopsys/office-locations.html#japan"
+    },
+    {
+      "label": "Americas",
+      "href": "#americas"
+    },
+    {
+      "label": "Europe and Middle East",
+      "href": "#europe"
+    },
+    {
+      "label": "Asia Pacific",
+      "href": "#asia"
+    },
+    {
+      "label": "Japan",
+      "href": "#japan"
+    },
+    {
+      "label": "Newsroom",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Press releases, media contacts, and the latest press kit",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Information for shareholders, analysts, and investors",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "CAREERS",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Job opportunities and internships around the world",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "EVENTS",
+      "href": "/events.html"
+    },
+    {
+      "label": "COMMUNITY INVOLVEMENT",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Our commitment to philanthropy, education, and the environment",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/company/contact-synopsys.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/company/legal.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/resources.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations/europe-middle-east.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations/india.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations/Korea.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations/south-asia.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations/Taiwan.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations/armenia.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html#americas",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html#europe",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html#asia",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html#japan",
+    "https://www.synopsys.com/careers/global/europe-and-middle-east/portugal.html",
+    "mailto:sgp_feedback@synopsys.com",
+    "mailto:kor_feedback@synopsys.com",
+    "mailto:tw_feedback@synopsys.com",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.6544310673216!2d-122.0349104243687!3d37.39800387208276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7aeb237e7db%3A0x2b56b57d6cb7c3b8!2s675%20Almanor%20Ave%2C%20Sunnyvale%2C%20CA%2094085!5e0!3m2!1sen!2sus!4v1685472805897!5m2!1sen!2sus",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 37,
+    "mainTextLen": 171479,
+    "realImageCount": 23,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/company-contact-synopsys-office-locations-html.png",
+  "renderedHtml": "pages/company-contact-synopsys-office-locations-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "Countries/Regions",
+    "summary": "Find Synopsys office locations worldwide across Americas, Europe, Middle East, Asia Pacific, and Japan. Connect with our global teams today to discuss your needs.",
+    "sections": [],
+    "items": [
+      "Canada",
+      "Latin America",
+      "United States",
+      "Armenia",
+      "Belgium",
+      "Denmark",
+      "Finland",
+      "France",
+      "Germany",
+      "Ireland",
+      "Israel",
+      "Italy",
+      "Netherlands",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Sweden",
+      "Switzerland",
+      "United Kingdom",
+      "China"
+    ]
+  },
+  "pageType": "unique"
+}

@@ -1,0 +1,940 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:04:08.144Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "company-management-team-html",
+  "url": "https://www.synopsys.com/company/management-team.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:04:08.144Z",
+  "finalUrl": "https://www.synopsys.com/company/management-team.html",
+  "title": "Management Team | Synopsys",
+  "description": "Meet the leaders driving Synopsys innovation in AI, silicon, and systems as they empower customers to shape the future of pervasive intelligence.",
+  "og": {
+    "title": "Management Team | Synopsys",
+    "description": "Meet the leaders driving Synopsys innovation in AI, silicon, and systems as they empower customers to shape the future of pervasive intelligence.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Management Team"
+    },
+    {
+      "tag": "h2",
+      "text": "Sassine Ghazi"
+    },
+    {
+      "tag": "h2",
+      "text": "Shelagh Glaser"
+    },
+    {
+      "tag": "h2",
+      "text": "Ravi Subramanian"
+    },
+    {
+      "tag": "h2",
+      "text": "Shankar Krishnamoorthy"
+    },
+    {
+      "tag": "h2",
+      "text": "Charlie Matar"
+    },
+    {
+      "tag": "h2",
+      "text": "Mike Ellow"
+    },
+    {
+      "tag": "h2",
+      "text": "Ann Minooka"
+    },
+    {
+      "tag": "h2",
+      "text": "Antonio Varas"
+    },
+    {
+      "tag": "h2",
+      "text": "Jill Larsen"
+    },
+    {
+      "tag": "h2",
+      "text": "Janet Lee"
+    },
+    {
+      "tag": "h2",
+      "text": "Raja Tabet"
+    },
+    {
+      "tag": "h2",
+      "text": "Buvna Ayyagari"
+    },
+    {
+      "tag": "h2",
+      "text": "Alessandra Costa"
+    },
+    {
+      "tag": "h2",
+      "text": "Prith Banerjee"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Company Contact Corporate Governance & Ethics Executive Briefing Center Legal Management Team Responsible Business Strategic Acquisitions Resources",
+    "Management Team",
+    "President and Chief Executive Officer",
+    "View Bio | PDF",
+    "Chief Financial Officer",
+    "View Bio | PDF",
+    "Chief Product Management Officer",
+    "View Bio | PDF",
+    "Chief Product Development Officer",
+    "View Bio | PDF",
+    "Chief IP Development Officer",
+    "View Bio | PDF",
+    "Chief Revenue Officer",
+    "View Bio | PDF",
+    "Chief Marketing Officer",
+    "View Bio | PDF",
+    "Chief Strategy Officer",
+    "View Bio | PDF",
+    "Chief People Officer",
+    "View Bio | PDF",
+    "General Counsel",
+    "View Bio | PDF",
+    "SVP, Strategic Missions & Technologies",
+    "View Bio | PDF",
+    "SVP, New Ventures",
+    "View Bio | PDF",
+    "SVP, Operations",
+    "View Bio | PDF",
+    "SVP, Synopsys Innovation Group",
+    "View Bio | PDF",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Company",
+      "href": "/company.html"
+    },
+    {
+      "label": "Management Team",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/sassine-ghazi-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/sassine-ghazi-bio-2026.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/shelagh-glaser-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/shelagh-glaser-bio-2023.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/ravi-subramanian-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/ravi-subramanian-bio-2025.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/shankar-krishnamoorthy-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/shankar-krishnamoorthy-bio-2025.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/charlie-matar-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/charlie-matar-bio-2026.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/mike-ellow-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/mike-ellow-bio-2025.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/ann-minooka-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/ann-minooka-bio-2026.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/antonio-varas-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/antonio-varas-bio-2023.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/jill-larsen-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/jill-larsen-bio-2023.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/janet-lee-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/janet-lee-bio-2025.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/raja-tabet-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/raja-tabet-bio-2026.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/buvna-ayyagari-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/buvna-ayyagari-bio-2025.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/alessandra-costa-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/alessandra-costa-bio-2025.pdf"
+    },
+    {
+      "label": "View Bio",
+      "href": "https://www.synopsys.com/company/management-team/prith-banerjee-bio.html"
+    },
+    {
+      "label": "PDF",
+      "href": "/content/dam/synopsys/company/about/bio-pdfs/prith-banerjee-bio-2026.pdf"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/company/management-team.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/company/contact-synopsys.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/company/legal.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/resources.html",
+    "https://www.synopsys.com/company/management-team/sassine-ghazi-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/sassine-ghazi-bio-2026.pdf",
+    "https://www.synopsys.com/company/management-team/shelagh-glaser-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/shelagh-glaser-bio-2023.pdf",
+    "https://www.synopsys.com/company/management-team/ravi-subramanian-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/ravi-subramanian-bio-2025.pdf",
+    "https://www.synopsys.com/company/management-team/shankar-krishnamoorthy-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/shankar-krishnamoorthy-bio-2025.pdf",
+    "https://www.synopsys.com/company/management-team/charlie-matar-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/charlie-matar-bio-2026.pdf",
+    "https://www.synopsys.com/company/management-team/mike-ellow-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/mike-ellow-bio-2025.pdf",
+    "https://www.synopsys.com/company/management-team/ann-minooka-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/ann-minooka-bio-2026.pdf",
+    "https://www.synopsys.com/company/management-team/antonio-varas-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/antonio-varas-bio-2023.pdf",
+    "https://www.synopsys.com/company/management-team/jill-larsen-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/jill-larsen-bio-2023.pdf",
+    "https://www.synopsys.com/company/management-team/janet-lee-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/janet-lee-bio-2025.pdf",
+    "https://www.synopsys.com/company/management-team/raja-tabet-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/raja-tabet-bio-2026.pdf",
+    "https://www.synopsys.com/company/management-team/buvna-ayyagari-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/buvna-ayyagari-bio-2025.pdf",
+    "https://www.synopsys.com/company/management-team/alessandra-costa-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/alessandra-costa-bio-2025.pdf",
+    "https://www.synopsys.com/company/management-team/prith-banerjee-bio.html",
+    "https://www.synopsys.com/content/dam/synopsys/company/about/bio-pdfs/prith-banerjee-bio-2026.pdf",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/sassine-ghazi-grey-500x500.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/shelagh-glaser.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/ravi-subramanian.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/shankar-krishnamoorthy.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/charlie-matar.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/mike-ellow.jpg",
+        "alt": "",
+        "w": 512,
+        "h": 512
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/ann-minooka2026.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/antonio-varas.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/headshots/jill-larsen-grey-bg-500x500.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/janet-lee.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/raja-tabet.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/buvna-ayyagari2025.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/alessandra-costa.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/company/about/bio-images/leaders/prith-banerjee-2026.jpg",
+        "alt": "",
+        "w": 500,
+        "h": 500
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 42,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 19,
+    "mainTextLen": 161974,
+    "realImageCount": 37,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/company-management-team-html.png",
+  "renderedHtml": "pages/company-management-team-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "Management Team",
+    "summary": "Meet the leaders driving Synopsys innovation in AI, silicon, and systems as they empower customers to shape the future of pervasive intelligence.",
+    "sections": [
+      "Sassine Ghazi",
+      "Shelagh Glaser",
+      "Ravi Subramanian",
+      "Shankar Krishnamoorthy",
+      "Charlie Matar",
+      "Mike Ellow",
+      "Ann Minooka",
+      "Antonio Varas",
+      "Jill Larsen",
+      "Janet Lee",
+      "Raja Tabet",
+      "Buvna Ayyagari",
+      "Alessandra Costa",
+      "Prith Banerjee"
+    ],
+    "items": []
+  },
+  "pageType": "static"
+}

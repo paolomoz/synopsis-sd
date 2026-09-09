@@ -1,0 +1,33 @@
+/* vcs.css — program-archetype page layer (product detail: VCS). Shared chrome lives in canon.css. */
+
+/* anchor nav (table of contents) */
+.tableOfContents{position:relative;min-height:42px}
+.toc{display:flex;justify-content:center;width:100%;background:var(--mist);border-bottom:1px solid var(--rule);text-align:center;position:static;z-index:20}
+.toc.is-fixed{position:fixed;left:0;right:0;top:80px}
+.toc .container{display:flex;align-items:center;height:53px}
+.toc ul{display:flex;list-style:none;margin:0 auto 0 0;padding:0;font-size:0}
+.toc li{margin-right:9px;position:relative;text-align:left}
+.toc li a{display:flex;align-items:center;height:53px;padding:0 24px 0 0;color:var(--ink);font-size:16px;font-weight:300;line-height:25.6px;white-space:nowrap}
+.toc li.init{display:none}
+.toc .toc-btn{display:flex;align-items:center;height:53px;margin-left:15px}
+.toc .btn-dark{display:flex;align-items:center;justify-content:center;height:40px;padding:0 24px;border-radius:var(--radius);background:var(--ink);color:#fff;font-size:16px;font-weight:400;line-height:16px}
+@media (max-width:729px){
+  .toc{display:block;text-align:left;height:42px;overflow:hidden}
+  .toc.is-fixed{height:42px}
+  .toc .container{display:block;height:auto;padding:0 24px}
+  .toc ul{display:block;margin:0}
+  .toc li{margin:0 9px 0 0}
+  .toc li a{display:block;height:42px;padding:8px 0;font-weight:400;line-height:25.6px}
+  .toc{border-bottom:0}
+  .toc li.init{height:auto;overflow:visible}
+  .toc li.init a{display:flex;align-items:center;justify-content:space-between;height:42px;padding:8px 12px 8px 0;color:var(--ink)}
+  .toc li.init .ico{width:10px;height:16px}
+  .toc .toc-btn{display:block;height:auto;margin:0 0 20px;padding:0 15px}
+  .toc .btn-dark{width:129px}
+}
+
+/* two-column feature block */
+.two-col .component-image img{display:block;max-width:100%;width:100%;height:auto}
+@media (max-width:729px){
+  .two-col .band{padding-top:40px}
+}

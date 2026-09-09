@@ -1,0 +1,1063 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:04.927Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "blogs-chip-design-software-defined-hardware-assisted-verification-html",
+  "url": "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:04.927Z",
+  "finalUrl": "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+  "title": "Software-Defined HAV for AI Chip Design Verification | Synopsys",
+  "description": "Discover how software-defined hardware-assisted verification accelerates AI-era chip design with greater performance, scalability, and lifetime value.",
+  "og": {
+    "title": "Software-Defined HAV for AI Chip Design Verification | Synopsys",
+    "description": "Discover how software-defined hardware-assisted verification accelerates AI-era chip design with greater performance, scalability, and lifetime value.",
+    "image": "https://images.synopsys.com/is/image/synopsys/hav-family-blog?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design"
+    },
+    {
+      "tag": "h2",
+      "text": "Navigate AI Chip Development"
+    },
+    {
+      "tag": "h2",
+      "text": "Three big steps forward"
+    },
+    {
+      "tag": "h2",
+      "text": "The pre-silicon imperative"
+    },
+    {
+      "tag": "h2",
+      "text": "Software-defined innovation"
+    },
+    {
+      "tag": "h2",
+      "text": "Leveling up HAV"
+    },
+    {
+      "tag": "h2",
+      "text": "New engines for mainstream designs"
+    },
+    {
+      "tag": "h2",
+      "text": "Scaling with Modular HAV"
+    },
+    {
+      "tag": "h2",
+      "text": "Re-engineering the strategic value of verification"
+    },
+    {
+      "tag": "h2",
+      "text": "Continue Reading"
+    },
+    {
+      "tag": "h4",
+      "text": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP"
+    },
+    {
+      "tag": "h4",
+      "text": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt"
+    },
+    {
+      "tag": "h4",
+      "text": "Managing 1,000+ Thermal States in a Mobile Device"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Blogs",
+    "Silicon to Systems",
+    "Frank Schirrmeister, Tom De Schutter",
+    "Mar 11, 2026 / 7 min read",
+    "Three big steps forward",
+    "The pre-silicon imperative",
+    "Software-defined innovation",
+    "Leveling up HAV",
+    "New engines for mainstream designs",
+    "Scaling with Modular HAV",
+    "Re-engineering the strategic value of verification",
+    "AI has fundamentally altered the business dynamics of chip design.",
+    "From hyperscale data centers to edge applications like autonomous vehicles and industrial robots, products and systems are now defined by the software and silicon at their core. Developing custom chips that hit aggressive, workload-specific KPIs \u2014 and getting them to market faster than competitors \u2014 has become the key to winning.",
+    "To do so, companies can\u2019t wait for silicon to validate their chip designs. Not with the quadrillions of cycles required to optimize performance and power for specific AI workloads and full software stacks.",
+    "Hardware-assisted verification (HAV) has emerged as the keystone to pre-silicon validation.",
+    "By running emulation and FPGA-based prototyping prior to silicon availability, design teams can dramatically scale and accelerate validation cycles, reduce manufacturing risk, improve software bring-up, enhance power and performance, and speed time to market.",
+    "Synopsys HAV platforms are uniquely capable of enabling these outcomes, and they are continuously evolving to meet the escalating demands of AI.",
+    "Your essential guide to overcoming AI chip complexity and achieving successful silicon outcomes from design to deployment.",
+    "At Synopsys Converge 2026, we announced the next evolution of hardware-assisted verification: software-defined HAV.",
+    "This includes three upgrades to our HAV portfolio:",
+    "Software-defined innovation \u2014 This new paradigm continually increases the performance, capability, and lifetime value of Synopsys ZeBu and HAPS systems without changing the underlying hardware. Verification speeds and debug productivity have been improved, capacity has been expanded for larger chip designs, new use case capabilities like Processor Subsystem Test Automation have been added, and more enhancements will be delivered over time \u2014 all through software updates.",
+    "Expansion of our platform family \u2014 Two new 12 FPGA platforms (HAPS-200 12F and ZeBu-200 12F) supplant their 6 FPGA predecessors as the sweet spot for mainstream mobile, client, server, consumer, and edge AI chip designs as well as data center subsystems. Featuring EP-Ready hardware, the platforms can be configured to support all emulation and prototyping use cases.",
+    "Capacity improvements for the AI era \u2014 With Modular HAV, the market-leading ZeBu Server 5 now scales to roughly 2X capacity to support mega chips (often 2.5D and 3D multi-die designs) purpose-built for data center, AI training and inference, GPU, custom accelerators, and network use cases.",
+    "Taken together, the announcements reflect an evolution in how verification infrastructure delivers value. Multiple layers are coalescing: hardware platform specialization with EP-Ready architecture; software stack flexibility with the capability to upgrade and improve key emulation and prototyping KPIs; and more use case capabilities.",
+    "These are transformative advances in how semiconductor players can use hardware-assisted verification to establish or protect their competitive position.",
+    "It is hard to overstate the complexity of verification today. Mainstream designs scale well beyond 15 billion gates and mega designs for data canter compute and AI training now reach 50 billion gates or more, requiring long-running scenarios to validate performance and power under realistic conditions. Multi-die architectures and chiplets exponentially compound the number of building blocks, while interface standards \u2014 PCIe, HBM, LPDDR, Ethernet, and UCIe \u2014 evolve faster than hardware refresh cycles but demand at-speed validation.",
+    "At the same time, use cases for verification have broadened into new areas such as power/performance analysis, compliance/certification, software development for analog components, and fault emulation for safety aspects. All of them have distinct requirements for MHz, visibility, I/O realism, and analytics.",
+    "Most critically, semiconductor products are now defined by the specialized workloads they run \u2014 AI training versus inference, for instance, or vision versus text \u2014 with different sets of KPIs. Verification teams must prove a silicon design delivers the required performance, power, and functionality when running actual software \u2014 and do it pre-silicon, at scale, across billions of gates and trillions of cycles.",
+    "Engineering teams can\u2019t risk vaporizing six to 12 months of work and millions of dollars by waiting until silicon is back from the fab only to discover an AI accelerator can\u2019t efficiently run transformer models. Developers need to run full operating systems, drivers, middleware, and application workloads on verification platforms before manufacturing.",
+    "Synopsys HAV platforms deliver this capability, supporting emulation and FPGA-based prototyping for a \u201cshift left\u201d strategy in which software validation occurs during pre-silicon phases.",
+    "As the demands of software-defined use cases and AI workloads grow, verification infrastructure must be able to change with it.",
+    "Software-defined HAV makes it possible. In the same way that software updates can now dramatically improve the performance of everything from cars to high-end GPUs already in use, our verification platforms can be further optimized without changing a single component.",
+    "Since 2023, software-defined innovations for our HAV products have delivered:",
+    "Up to 2X performance improvements",
+    "Up to 3X faster time-to-model",
+    "4X to 8X improvements in debug performance throughput via software-defined readback and coverage advances",
+    "Software-defined HAV also introduces new use case capabilities: alongside power and performance, platforms can now run HAV Test Solutions for cache coherency and subsystem verification. Through automation, teams reduce manual test writing and systematically stress complex subsystems to find more corner-case bugs that typically only emerge under long, highly concurrent workloads.",
+    "Our announcement at Converge establishes this model across our portfolio to increase performance on existing hardware, enhance software capabilities, and improve the lifetime value of ZeBu and HAPS systems.",
+    "Software-defined HAV combines three important layers:",
+    "Specialized hardware platforms with EP-Ready architecture",
+    "At the foundation are dedicated HAV platforms \u2014 ZeBu Server 5, ZeBu-200, and HAPS-200 \u2014 engineered for scale and modularity. They provide the raw resources to handle everything from IP blocks to multi-die mega designs, while EP-Ready hardware lets teams reconfigure the same base modules for either emulation or prototyping to right-size capacity and topology per use case and reuse assets as needs change. In addition, the platforms are tightly aligned with a rich portfolio of Synopsys Interface IP solutions for maximum flexibility and performance with real world connectivity.",
+    "Flexible, upgradable software stacks",
+    "On top of hardware, software powers continuous improvement, increasing the lifetime value of the HAV platforms. Ongoing investments in compile, runtime, debug throughput, and hybridization unlock more capability and enable more use cases without swapping out hardware.",
+    "Use case-centric capabilities",
+    "The top layer turns platforms and software into business outcomes through repeatable flows across verification scenarios. Modular and hybrid methodologies support everything from IP and subsystem validation to long-running AI workloads, compliance testing, and multi-die integration, allowing teams to reuse the same HAV infrastructure across projects and phases.",
+    "As powerful as software improvements can be, they don\u2019t eliminate the need for capacity scaling. Verification infrastructure must keep pace with growing chip complexity.",
+    "The two new systems we announced at Converge are made for the broad base of mainstream designs spanning mobile, client, server, consumer, and edge AI:",
+    "HAPS-200 12F \u2014 A high-frequency prototyping platform with 12 AMD Versal Premium FPGAs, optimized for software bring-up, performance validation, and compliance testing.",
+    "ZeBu-200 12F \u2014 An emulation platform with the same 12 FPGA EP-Ready architecture, delivering deep visibility for debug while supporting configurations up to approximately 23 billion gates.",
+    "The \u201c12F\u201d designation is a meaningful step up from the prior 6F generation, which are now best used for subsystems, mobile/client/server cores, microcontroller units (MCUs), and consumer designs. The new 12F systems are ideal for mainstream designs and edge AI that don\u2019t require the massive multi-unit scaling needed for data center-class accelerators.",
+    "At the highest end of the market, hyperscalers need pre-silicon validation on very large setups for AI training accelerators, custom GPUs, and networking processors.",
+    "With growing demand for these mega designs, we also upgraded our flagship ZeBu Server 5. Through Modular HAV scaling and software, its market-leading design capacity has increased 2X to meet the challenges posed by complex multi-die architectures. Customers can mimic the modularity of multi-die designs, connect HAV engines at the edges of multi-die designs, verify the largest chip designs, and reliably run the longest pre-silicon AI workloads.",
+    "Across our portfolio, our approach to hardware-assisted verification aims to deliver lasting strategic value on several fronts. First, software-defined HAV drives faster iteration cycles, with more compile-turns per day and shorter time-to-model. Teams move more quickly from RTL edits to running workloads, converging earlier on both functional correctness and software performance targets across the project lifecycle, translating into meaningful time-to-market advantages.",
+    "But software-defined HAV also delivers better asset efficiency. EP-Ready architecture lets organizations repurpose the same HAV racks for different phases of the flow \u2014 emulation-centric debug early on, then high-speed prototyping for software and interface validation as the design matures. Instead of maintaining separate platforms, customers keep utilization high.",
+    "Finally, software-defined HAV helps companies keep up with complexity. New protocols, analytics, and use case capabilities as well as performance, capacity, and debug improvements arrive as software updates on installed hardware platforms. Engineering leaders can continuously extend what their existing HAV footprint can do, even as designs, workloads, and standards keep changing.",
+    "In an era with rising semiconductor complexity and shrinking windows of opportunity, pre-silicon validation becomes a competitive advantage. As designs scale into tens of billions of gates and software workloads define product differentiation, the teams that can verify faster, reuse infrastructure more intelligently, and evolve capabilities without disruption are better positioned to win.",
+    "About Synopsys",
+    "Engineering Central",
+    "AI & Machine Learning",
+    "HPC, Data Center",
+    "Design",
+    "Verification",
+    "Prototyping",
+    "Emulation",
+    "About Us",
+    "Careers",
+    "Responsible Business",
+    "Investor Relations",
+    "Office Locations",
+    "Ecosystem Partners",
+    "Leadership",
+    "Corporate Governance & Ethics",
+    "Strategic Acquisitions",
+    "Services",
+    "Academic & Research Alliances (SARA)",
+    "Interoperability",
+    "Contact Us",
+    "News Releases",
+    "Executive Briefing Center",
+    "University Program",
+    "Manage Subscriptions",
+    "Sitemap",
+    "Synopsys and Ansys Are Now United",
+    "Mastering AI Chip Complexity",
+    "The A to Z of Multi-Die Design",
+    "Multi-Die Design Start Guide",
+    "Building an AI Chip: Pre Silicon Planning",
+    "Securing Silicon From the Start",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is an Integrated Circuit?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Silicon to Systems Blog",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Topics",
+      "href": null
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs.html"
+    },
+    {
+      "label": "Silicon to Systems",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Frank Schirrmeister",
+      "href": "/authors/frank-schirrmeister.html"
+    },
+    {
+      "label": "Tom De Schutter",
+      "href": "/authors/tom-de-schutter.html"
+    },
+    {
+      "label": "Subscribe",
+      "href": null
+    },
+    {
+      "label": "Download Now",
+      "href": "/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html"
+    },
+    {
+      "label": "Synopsys Converge 2026",
+      "href": "/converge.html"
+    },
+    {
+      "label": "Synopsys ZeBu and HAPS systems",
+      "href": "/verification/emulation-prototyping.html"
+    },
+    {
+      "label": "Click to see the detail",
+      "href": null
+    },
+    {
+      "label": "ZeBu Server 5",
+      "href": "/verification/emulation-prototyping/emulation/zebu-server.html"
+    },
+    {
+      "label": "ZeBu-200",
+      "href": "/verification/emulation-prototyping/emulation/zebu-200.html"
+    },
+    {
+      "label": "HAPS-200",
+      "href": "/verification/emulation-prototyping/prototyping/haps-200.html"
+    },
+    {
+      "label": "Synopsys Interface IP",
+      "href": "/designware-ip/interface-ip.html"
+    },
+    {
+      "label": "White paper: Software-Defined Hardware-Assisted Verification",
+      "href": "/resources/software-defined-hardware-assisted-verification-ai-era.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/blogs/chip-design/category.hpc-data-center.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Prototyping",
+      "href": "/blogs/chip-design/category.prototyping.html"
+    },
+    {
+      "label": "Emulation",
+      "href": "/blogs/chip-design/category.emulation.html"
+    },
+    {
+      "label": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+      "href": "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html"
+    },
+    {
+      "label": "Anmol Gupta",
+      "href": "/authors/anmol-gupta.html"
+    },
+    {
+      "label": "Anil Kumar Gurugubelli",
+      "href": "/authors/anil-kumar-gurugubelli.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Verification IP",
+      "href": "/blogs/chip-design/category.verificationip.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html"
+    },
+    {
+      "label": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Greg Sorber",
+      "href": "/authors/greg-sorber.html"
+    },
+    {
+      "label": "Executive Voices",
+      "href": "/blogs/chip-design/category.executive-voices.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Physical Implementation",
+      "href": "/blogs/chip-design/category.physical-implementation.html"
+    },
+    {
+      "label": "Energy-Efficient SoCs",
+      "href": "/blogs/chip-design/category.energy-efficient-socs.html"
+    },
+    {
+      "label": "Design Technology Co-Optimization",
+      "href": "/blogs/chip-design/category.design-technology-co-optimization.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/blogs/chip-design/category.hpc-data-center.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Managing 1,000+ Thermal States in a Mobile Device",
+      "href": "/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html"
+    },
+    {
+      "label": "Johannes Stahl",
+      "href": "/authors/dr-johannes-stahl.html"
+    },
+    {
+      "label": "Engineering Central",
+      "href": "/blogs/chip-design/category.engineering-central.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Emulation",
+      "href": "/blogs/chip-design/category.emulation.html"
+    },
+    {
+      "label": "Verification",
+      "href": "/blogs/chip-design/category.verification.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html"
+    },
+    {
+      "label": "About Us",
+      "href": "https://www.synopsys.com/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "https://www.synopsys.com/company/responsible-business.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Office Locations",
+      "href": "https://www.synopsys.com/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "https://www.synopsys.com/partners.html"
+    },
+    {
+      "label": "Leadership",
+      "href": "https://www.synopsys.com/company/management-team.html"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "https://www.synopsys.com/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "https://www.synopsys.com/company/acquisitions.html"
+    },
+    {
+      "label": "Services",
+      "href": "https://www.synopsys.com/services/design-services.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "https://www.synopsys.com/academic-research.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "https://www.synopsys.com/community/interoperability-programs.html"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://www.synopsys.com/company/contact-synopsys.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "https://www.synopsys.com/newsroom.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "https://www.synopsys.com/company/executive-briefing-center.html"
+    },
+    {
+      "label": "University Program",
+      "href": "https://www.synopsys.com/academic-research/university.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/contact-form-subscription-center.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "https://www.synopsys.com/sitemap.html"
+    },
+    {
+      "label": "Synopsys and Ansys Are Now United",
+      "href": "https://www.synopsys.com/synopsys-ansys-united.html"
+    },
+    {
+      "label": "Mastering AI Chip Complexity",
+      "href": "https://www.synopsys.com/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html"
+    },
+    {
+      "label": "The A to Z of Multi-Die Design",
+      "href": "https://www.synopsys.com/webinars/a-z-multi-die-design.html"
+    },
+    {
+      "label": "Multi-Die Design Start Guide",
+      "href": "https://www.synopsys.com/multi-die-system/start-guide.html"
+    },
+    {
+      "label": "Building an AI Chip: Pre Silicon Planning",
+      "href": "https://www.synopsys.com/ai/ai-chip-development/building-an-ai-chip-pre-silicon-planning.html"
+    },
+    {
+      "label": "Securing Silicon From the Start",
+      "href": "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "https://www.synopsys.com/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "https://www.synopsys.com/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "https://www.synopsys.com/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "https://www.synopsys.com/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "Authors",
+      "href": "https://www.synopsys.com/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "https://www.synopsys.com/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/blogs/chip-design/category.3d-image-processing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.3dic-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.5g-wireless.html",
+    "https://www.synopsys.com/blogs/chip-design/category.5nm-and-below.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ai-and-machine-learning.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ams-simulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.amsverification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ar-vr.html",
+    "https://www.synopsys.com/blogs/chip-design/category.about-synopsys.html",
+    "https://www.synopsys.com/blogs/chip-design/category.aerospace-and-government.html",
+    "https://www.synopsys.com/blogs/chip-design/category.analog-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.atomic-scale-modeling.html",
+    "https://www.synopsys.com/blogs/chip-design/category.atomistic-simulation-software.html",
+    "https://www.synopsys.com/blogs/chip-design/category.automotive.html",
+    "https://www.synopsys.com/blogs/chip-design/category.cloud.html",
+    "https://www.synopsys.com/blogs/chip-design/category.consumer.html",
+    "https://www.synopsys.com/blogs/chip-design/category.custom-implementation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.customer-spotlight.html",
+    "https://www.synopsys.com/blogs/chip-design/category.data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/category.debug.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design-technology-co-optimization.html",
+    "https://www.synopsys.com/blogs/chip-design/category.emulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.energy-efficient-socs.html",
+    "https://www.synopsys.com/blogs/chip-design/category.engineering-central.html",
+    "https://www.synopsys.com/blogs/chip-design/category.executive-voices.html",
+    "https://www.synopsys.com/blogs/chip-design/category.fpga-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.formal-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.foundation-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.fusion-design-platform.html",
+    "https://www.synopsys.com/blogs/chip-design/category.fusion-technology.html",
+    "https://www.synopsys.com/blogs/chip-design/category.hpc-data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ide.html",
+    "https://www.synopsys.com/blogs/chip-design/category.insights.html",
+    "https://www.synopsys.com/blogs/chip-design/category.interface-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.interface-ip-subsystems.html",
+    "https://www.synopsys.com/blogs/chip-design/category.internet-of-things.html",
+    "https://www.synopsys.com/blogs/chip-design/category.lowpower.html",
+    "https://www.synopsys.com/blogs/chip-design/category.manufacturing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.mask-solutions.html",
+    "https://www.synopsys.com/blogs/chip-design/category.medical.html",
+    "https://www.synopsys.com/blogs/chip-design/category.memory.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multi-die-system.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multiphysics-fusion.html",
+    "https://www.synopsys.com/blogs/chip-design/category.photonic.html",
+    "https://www.synopsys.com/blogs/chip-design/category.physical-implementation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.physical-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.platform.html",
+    "https://www.synopsys.com/blogs/chip-design/category.prototyping.html",
+    "https://www.synopsys.com/blogs/chip-design/category.quantum-computing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.rf-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.risc-v.html",
+    "https://www.synopsys.com/blogs/chip-design/category.rtl-synthesis.html",
+    "https://www.synopsys.com/blogs/chip-design/category.security-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.signal-&-power-integrity.html",
+    "https://www.synopsys.com/blogs/chip-design/category.signoff.html",
+    "https://www.synopsys.com/blogs/chip-design/category.silicon-ip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.silicon-lifecycle-management.html",
+    "https://www.synopsys.com/blogs/chip-design/category.simpleware.html",
+    "https://www.synopsys.com/blogs/chip-design/category.simulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.smart-manufacturing.html",
+    "https://www.synopsys.com/blogs/chip-design/category.soc-verification-automation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.static-and-formal-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.static-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.storage.html",
+    "https://www.synopsys.com/blogs/chip-design/category.tcad.html",
+    "https://www.synopsys.com/blogs/chip-design/category.test.html",
+    "https://www.synopsys.com/blogs/chip-design/category.test-automation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verification.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verificationip.html",
+    "https://www.synopsys.com/blogs/chip-design/category.virtualprototyping.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/authors/frank-schirrmeister.html",
+    "https://www.synopsys.com/authors/tom-de-schutter.html",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/ai/ai-chip-development/mastering-ai-chip-complexity-ebook.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-server.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-200.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping/haps-200.html",
+    "https://www.synopsys.com/resources/software-defined-hardware-assisted-verification-ai-era.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip.html",
+    "https://www.synopsys.com/authors/anmol-gupta.html",
+    "https://www.synopsys.com/authors/anil-kumar-gurugubelli.html",
+    "https://www.synopsys.com/blogs/chip-design/energy-efficient-ai-per-watt.html",
+    "https://www.synopsys.com/authors/greg-sorber.html",
+    "https://www.synopsys.com/blogs/chip-design/managing-1000-thermal-states-mobile-soc.html",
+    "https://www.synopsys.com/authors/dr-johannes-stahl.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://www.synopsys.com/company/contact-synopsys.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://online.synopsys.com/contact-form-subscription-center.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/synopsys-ansys-united.html",
+    "https://www.synopsys.com/webinars/a-z-multi-die-design.html",
+    "https://www.synopsys.com/multi-die-system/start-guide.html",
+    "https://www.synopsys.com/ai/ai-chip-development/building-an-ai-chip-pre-silicon-planning.html",
+    "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/authors.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/snps/blogs/chip-design.en-us.xml",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-chips-ebook-thumbnail?qlt=82&wid=1200&ts=1760627148458&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hav-family-blog?qlt=82&wid=1200&ts=1772850030324&$responsive$&fit=constrain&dpr=off",
+        "alt": "synopsys-hav-verification-zebu-haps-portfolio-image",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hav-family-blog?qlt=82&wid=1200&ts=1772850030324&$responsive$&fit=constrain&dpr=off",
+        "alt": "synopsys-hav-verification-zebu-haps-portfolio-image",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-chip-rays?qlt=82&wid=1200&ts=1772851925641&$responsive$&fit=constrain&dpr=off",
+        "alt": "ai-chip-synopsys-hav-verification-abstract-image",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-thumbnail-400x225?ts=1788475547020&$responsive$",
+        "alt": "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/fpo-headshot-520x520?ts=1788281894717&$responsive$",
+        "alt": "Anmol Gupta",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/anil-kumar-gurugubelli-headshot?ts=1784170439423&$responsive$",
+        "alt": "Anil Kumar Gurugubelli",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-data-center-energy-efficiency-electricity-meter-image-400x225?ts=1788296260596&$responsive$",
+        "alt": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/google-success-story-2026-thumbnail?ts=1788388364756&$responsive$",
+        "alt": "Managing 1,000+ Thermal States in a Mobile Device ",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/johannes-stahl-headshot-1?ts=1720649210992&$responsive$",
+        "alt": "Johannes Stahl",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1762521871153&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1762521871153&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 39,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/81218db6-6d7d-429d-8431-46f7ce3b058f/64698c02-997f-4d81-9c71-4ef64a5c4a74/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [
+      {
+        "src": "blob:https://www.synopsys.com/c93f091a-bcc7-4ace-8fd9-8985daab7817",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/81218db6-6d7d-429d-8431-46f7ce3b058f/64698c02-997f-4d81-9c71-4ef64a5c4a74/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 17,
+    "mainTextLen": 131240,
+    "realImageCount": 34,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/blogs-chip-design-software-defined-hardware-assisted-verification-html.png",
+  "renderedHtml": "pages/blogs-chip-design-software-defined-hardware-assisted-verification-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "deck": "Discover how software-defined hardware-assisted verification accelerates AI-era chip design with greater performance, scalability, and lifetime value.",
+    "byline": null,
+    "meta": "Mar 11, 2026 / 7 min read",
+    "lead-image": "https://images.synopsys.com/is/image/synopsys/ai-chips-ebook-thumbnail?qlt=82&wid=1200&ts=1760627148458&$responsive$&fit=constrain&dpr=off",
+    "body": {
+      "sections": [
+        "Navigate AI Chip Development",
+        "Three big steps forward",
+        "The pre-silicon imperative",
+        "Software-defined innovation",
+        "Leveling up HAV",
+        "New engines for mainstream designs",
+        "Scaling with Modular HAV",
+        "Re-engineering the strategic value of verification"
+      ]
+    },
+    "pullquotes": [],
+    "related": [
+      "Simplifying Multi-Domain Voltage-Control Verification with Synopsys AVSBus 2.0 VIP",
+      "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "Managing 1,000+ Thermal States in a Mobile Device"
+    ]
+  },
+  "pageType": "article"
+}

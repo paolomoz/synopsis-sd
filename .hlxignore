@@ -5,3 +5,13 @@ LICENSE
 package.json
 package-lock.json
 test/*
+
+stardust/*
+scripts/replica/*
+scripts/diff/*
+scripts/deploy/*
+qa/*
+content/*
+PRODUCT.md
+DESIGN.md
+DESIGN.json

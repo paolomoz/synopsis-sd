@@ -1,0 +1,1453 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-09T15:15:12Z",
+    "stardustVersion": "0.19.8"
+  },
+  "site": {
+    "originUrl": "https://www.synopsys.com",
+    "deployUrl": "https://main--synopsis-sd--paolomoz.aem.live",
+    "extractedAt": "2026-09-09T15:15:12Z",
+    "pageCap": 64,
+    "totalDiscovered": 6679,
+    "crawled": 64,
+    "discoveryNote": "sitemap lists 6679 www.synopsys.com URLs (4598 en-US after locale exclusion); prep run scoped to a 64-page representative roster per hands-off volume policy (header/footer-linked pages, section landings, template spread)"
+  },
+  "direction": {
+    "resolvedAt": "2026-09-09T15:18:06Z",
+    "phrase": "migrate https://www.synopsys.com/ to EDS (replica / preserve mode)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "preserve"
+  },
+  "handsOff": true,
+  "pages": [
+    {
+      "slug": "academic-research-html",
+      "url": "https://www.synopsys.com/academic-research.html",
+      "title": "Synopsys Academic & Research Alliances (SARA)",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:54.835Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/academic-research-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ai-agentic-ai-html",
+      "url": "https://www.synopsys.com/ai/agentic-ai.html",
+      "title": "Agentic AI: Automating Engineering Workflows with AI Agents | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:58.318Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-agentic-ai-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ai-html",
+      "url": "https://www.synopsys.com/ai.html",
+      "title": "AI Solutions for Chip Design & Physical AI | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:31.843Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ai-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "articles-ai-powered-analog-design-html",
+      "url": "https://www.synopsys.com/articles/ai-powered-analog-design.html",
+      "title": "Synopsys Leads AI-Powered Analog Design Innovation",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:11.962Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/articles-ai-powered-analog-design-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "articles-html",
+      "url": "https://www.synopsys.com/articles.html",
+      "title": "Technical Articles | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:40.413Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/articles-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "articles-multi-die-design-3d-ip-html",
+      "url": "https://www.synopsys.com/articles/multi-die-design-3d-ip.html",
+      "title": "IP for 3D Multi-Die Designs | Synopsys",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:12.467Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/articles-multi-die-design-3d-ip-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "authors-html",
+      "url": "https://www.synopsys.com/authors.html",
+      "title": "Meet Our Authors | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:02.614Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/authors-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "authors-sassine-ghazi-html",
+      "url": "https://www.synopsys.com/authors/sassine-ghazi.html",
+      "title": "Sassine Ghazi - Author | Synopsys",
+      "type": "unique",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:23.672Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/authors-sassine-ghazi-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-chip-design-electronics-digital-twin-platform-html",
+      "url": "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+      "title": "Electronics Digital Twin Platform for OEMs & Suppliers | Synopsys",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:05.695Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-chip-design-electronics-digital-twin-platform-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-chip-design-html",
+      "url": "https://www.synopsys.com/blogs/chip-design.html",
+      "title": "Silicon to Systems Blog | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:30.729Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-chip-design-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-chip-design-multiphysics-chip-design-challenges-html",
+      "url": "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+      "title": "Multiphysics Challenges in Advanced Chip Design | Synopsys",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:05.689Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-chip-design-multiphysics-chip-design-challenges-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-chip-design-software-defined-hardware-assisted-verification-html",
+      "url": "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+      "title": "Software-Defined HAV for AI Chip Design Verification | Synopsys",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:04.927Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-chip-design-software-defined-hardware-assisted-verification-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "careers-benefits-html",
+      "url": "https://www.synopsys.com/careers/benefits.html",
+      "title": "Synopsys Benefits",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:29.487Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/careers-benefits-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "careers-html",
+      "url": "https://www.synopsys.com/careers.html",
+      "title": "Working at Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:27.777Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/careers-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "cloud-html",
+      "url": "https://www.synopsys.com/cloud.html",
+      "title": "Cloud EDA: Unlimited Access to EDA Software Licenses | Synopsys Cloud",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:31.157Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/cloud-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "community-html",
+      "url": "https://www.synopsys.com/community.html",
+      "title": "Synopsys Community",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:13.878Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/community-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "community-snug-html",
+      "url": "https://www.synopsys.com/community/snug.html",
+      "title": "SNUG (Synopsys Users Group) Conference | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:44.738Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/community-snug-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-acquisitions-html",
+      "url": "https://www.synopsys.com/company/acquisitions.html",
+      "title": "Strategic Acquisitions | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:46.824Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-acquisitions-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-contact-synopsys-html",
+      "url": "https://www.synopsys.com/company/contact-synopsys.html",
+      "title": "Contact Us | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:01.407Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-contact-synopsys-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-contact-synopsys-office-locations-html",
+      "url": "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+      "title": "Office Locations | Synopsys",
+      "type": "unique",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:02.308Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-contact-synopsys-office-locations-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-corporate-governance-ethics-html",
+      "url": "https://www.synopsys.com/company/corporate-governance-ethics.html",
+      "title": "Corporate Governance & Ethics | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:43.470Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-corporate-governance-ethics-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-executive-briefing-center-html",
+      "url": "https://www.synopsys.com/company/executive-briefing-center.html",
+      "title": "Executive Briefing Center | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:19.914Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-executive-briefing-center-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-html",
+      "url": "https://www.synopsys.com/company.html",
+      "title": "About Us | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:36.279Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-legal-privacy-policy-html",
+      "url": "https://www.synopsys.com/company/legal/privacy-policy.html",
+      "title": "Website Privacy Policy | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:55.549Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-legal-privacy-policy-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-management-team-html",
+      "url": "https://www.synopsys.com/company/management-team.html",
+      "title": "Management Team | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:08.144Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-management-team-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company-responsible-business-html",
+      "url": "https://www.synopsys.com/company/responsible-business.html",
+      "title": "Responsible Business | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:46.828Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company-responsible-business-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "designware-ip-html",
+      "url": "https://www.synopsys.com/designware-ip.html",
+      "title": "Semiconductor IP \u2013 Silicon IP | Synopsys IP",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:37.870Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/designware-ip-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "designware-ip-interface-ip-html",
+      "url": "https://www.synopsys.com/designware-ip/interface-ip.html",
+      "title": "Interface IP | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:51.913Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/designware-ip-interface-ip-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "events-html",
+      "url": "https://www.synopsys.com/events.html",
+      "title": "Synopsys Events | Information & Access to Global Events",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:01.819Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/events-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "events-virtual-prototyping-day-html",
+      "url": "https://www.synopsys.com/events/virtual-prototyping-day.html",
+      "title": "Virtual Prototyping Day | Synopsys",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:24.904Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/events-virtual-prototyping-day-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "glossary-html",
+      "url": "https://www.synopsys.com/glossary.html",
+      "title": "EDA & Semiconductor IP Terms Explained | Synopsys Glossary",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:54.096Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/glossary-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "glossary-what-are-chiplets-html",
+      "url": "https://www.synopsys.com/glossary/what-are-chiplets.html",
+      "title": "What are Chiplets? \u2013 How Do Chiplets Work? | Synopsys",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:11.457Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/glossary-what-are-chiplets-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "glossary-what-is-electronic-design-automation-html",
+      "url": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+      "title": "What is Electronic Design Automation (EDA)? \u2013 How it Works | Synopsys",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:10.837Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/glossary-what-is-electronic-design-automation-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "implementation-and-signoff-fusion-design-platform-html",
+      "url": "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+      "title": "Digital Design Family: Integrated Digital-Design Solutions | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:38.709Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/implementation-and-signoff-fusion-design-platform-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+      "url": "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+      "title": "Fusion Compiler: RTL-to-GDSII Design Solution | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:50.910Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/implementation-and-signoff-physical-implementation-fusion-compiler-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "implementation-and-signoff-signoff-html",
+      "url": "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+      "title": "Design Signoff: Trusted Golden Solution for Chip Designs | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:44.357Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/implementation-and-signoff-signoff-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "implementation-and-signoff-signoff-primetime-html",
+      "url": "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+      "title": "PrimeTime: Static Timing Analysis | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:51.275Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/implementation-and-signoff-signoff-primetime-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "index",
+      "url": "https://www.synopsys.com/",
+      "title": "Synopsys | EDA Tools, Semiconductor IP & Systems Verification",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:30.908Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "manufacturing-html",
+      "url": "https://www.synopsys.com/manufacturing.html",
+      "title": "Manufacturing Solutions | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:38.711Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/manufacturing-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "newsroom-html",
+      "url": "https://www.synopsys.com/newsroom.html",
+      "title": "Synopsys Newsroom: Latest News, Expert Views, and Upcoming Events",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:39.523Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/newsroom-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "partners-html",
+      "url": "https://www.synopsys.com/partners.html",
+      "title": "Ecosystem Partners | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:49.557Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "resources-html",
+      "url": "https://www.synopsys.com/resources.html",
+      "title": "Resources | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:29.124Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/resources-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "resources-mastering-ai-chip-complexity-ebook-html",
+      "url": "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+      "title": "Mastering AI Chip Complexity: Guide to Smarter Design | Synopsys",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:49.735Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/resources-mastering-ai-chip-complexity-ebook-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "services-design-services-html",
+      "url": "https://www.synopsys.com/services/design-services.html",
+      "title": "System Solutions Design Services | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:14.768Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/services-design-services-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "sitemap-html",
+      "url": "https://www.synopsys.com/sitemap.html",
+      "title": "Sitemap | Synopsys US",
+      "type": "unique",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:31.365Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/sitemap-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "solutions-automotive-html",
+      "url": "https://www.synopsys.com/solutions/automotive.html",
+      "title": "Automotive Solutions for Software-Defined Vehicles | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:57.597Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/solutions-automotive-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "solutions-hpc-data-center-html",
+      "url": "https://www.synopsys.com/solutions/hpc-data-center.html",
+      "title": "High-Performance Computing (HPC) & Data Center Solution | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:58.043Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/solutions-hpc-data-center-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "solutions-html",
+      "url": "https://www.synopsys.com/solutions.html",
+      "title": "Synopsys Solutions | Explore Our Portfolio | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:31.843Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/solutions-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "solutions-multi-die-design-html",
+      "url": "https://www.synopsys.com/solutions/multi-die-design.html",
+      "title": "Multi-Die Solution | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:58.620Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/solutions-multi-die-design-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "solutions-multiphysics-fusion-html",
+      "url": "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+      "title": "Multiphysics Fusion\u2122 Solutions | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:03.920Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/solutions-multiphysics-fusion-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "solutions-silicon-lifecycle-management-html",
+      "url": "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+      "title": "Silicon Lifecycle Management (SLM): Optimize Silicon Health & Performance | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:45.381Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/solutions-silicon-lifecycle-management-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "startup-innovation-html",
+      "url": "https://www.synopsys.com/startup-innovation.html",
+      "title": "Empowering Innovation for Startups | Synopsys",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:54.940Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/startup-innovation-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "success-stories-electronics-digital-twins-volvo-cars-html",
+      "url": "https://www.synopsys.com/success-stories/electronics-digital-twins-volvo-cars.html",
+      "title": "Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars | Synopsys Success Storie",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:17.480Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/success-stories-electronics-digital-twins-volvo-cars-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "success-stories-html",
+      "url": "https://www.synopsys.com/success-stories.html",
+      "title": "Success Stories | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:36.975Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/success-stories-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "success-stories-intel-self-timed-sram-timing-verification-nanotime-html",
+      "url": "https://www.synopsys.com/success-stories/intel-self-timed-sram-timing-verification-nanotime.html",
+      "title": "Intel Boosts Self-Timed SRAM Timing with NanoTime | Synopsys",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:17.799Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/success-stories-intel-self-timed-sram-timing-verification-nanotime-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "success-stories-view-all-html",
+      "url": "https://www.synopsys.com/success-stories/view-all.html",
+      "title": "View All \u2013 Customer Success Stories | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:43.872Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/success-stories-view-all-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "support-global-support-centers-html",
+      "url": "https://www.synopsys.com/support/global-support-centers.html",
+      "title": "Synopsys Global Support Centers",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:08.303Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/support-global-support-centers-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "support-html",
+      "url": "https://www.synopsys.com/support.html",
+      "title": "Synopsys Support Services",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:04:07.937Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/support-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "verification-emulation-prototyping-emulation-html",
+      "url": "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+      "title": "Emulation Systems | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:51.914Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/verification-emulation-prototyping-emulation-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "verification-emulation-prototyping-html",
+      "url": "https://www.synopsys.com/verification/emulation-prototyping.html",
+      "title": "Emulation & Prototyping | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:44.643Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/verification-emulation-prototyping-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "verification-html",
+      "url": "https://www.synopsys.com/verification.html",
+      "title": "Verification Family | Synopsys",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:37.870Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/verification-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "verification-simulation-vcs-html",
+      "url": "https://www.synopsys.com/verification/simulation/vcs.html",
+      "title": "VCS: Functional Verification Solution | Synopsys",
+      "type": "program",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:01:45.373Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-09T16:24:05Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-09T16:24:05Z",
+          "approvedBy": "hands-off",
+          "gate": {
+            "1440": {
+              "pixelDiffPercent": 0.32,
+              "heightDelta": 0
+            },
+            "360": {
+              "pixelDiffPercent": 1.68,
+              "heightDelta": 0
+            }
+          }
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/verification-simulation-vcs-html.json",
+      "prototypePath": "stardust/prototypes/vcs-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "webinars-deep-dive-synopsys-ai-html",
+      "url": "https://www.synopsys.com/webinars/deep-dive-synopsys-ai.html",
+      "title": "Deep Dive into Synopsys.ai: Revolutionizing Chip Design with AI | Synopsys",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:02:49.727Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/webinars-deep-dive-synopsys-ai-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "webinars-html",
+      "url": "https://www.synopsys.com/webinars.html",
+      "title": "Webinars | Synopsys",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-09T15:03:29.125Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-09T15:18:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/webinars-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ]
+}

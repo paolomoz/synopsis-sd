@@ -1,0 +1,1636 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-09T15:17:30Z",
+    "stardustVersion": "0.19.8",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_module-candidates.json",
+      "stardust/current/DESIGN.md"
+    ]
+  },
+  "name": "Synopsys \u2014 current state",
+  "description": "Descriptive design system of www.synopsys.com as captured 2026-09-09 (stardust extract --prep; nothing prescriptive)",
+  "colors": {
+    "white": "#ffffff",
+    "ink": "#111c24",
+    "slate": "#555555",
+    "purple": "#7e45af",
+    "purple-deep": "#5a2a82",
+    "link-blue": "#316aca",
+    "surface-mist": "#f7f7fa",
+    "utility-black": "#000000",
+    "border-silver": "#c4c4c4",
+    "required-red": "#cc0000",
+    "divider-fog": "#efefef"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "'Roboto', Arial, sans-serif",
+      "fontSize": "60px",
+      "fontWeight": 300,
+      "lineHeight": 1.1,
+      "letterSpacing": "normal"
+    },
+    "headline": {
+      "fontFamily": "'Roboto', Arial, sans-serif",
+      "fontSize": "44px",
+      "fontWeight": 300,
+      "lineHeight": 1.1
+    },
+    "title": {
+      "fontFamily": "'Roboto', Arial, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": 300,
+      "lineHeight": 1.1
+    },
+    "card-title": {
+      "fontFamily": "'Roboto', Arial, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": 400,
+      "lineHeight": 1.15
+    },
+    "body": {
+      "fontFamily": "'Roboto', Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 300,
+      "lineHeight": 1.6
+    },
+    "label": {
+      "fontFamily": "'Roboto', Arial, sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 600,
+      "lineHeight": 1
+    }
+  },
+  "rounded": {
+    "chip": "3px",
+    "sm": "5px",
+    "md": "10px",
+    "xl": "16px",
+    "pill": "9999px"
+  },
+  "spacing": {
+    "xs": "8px",
+    "sm": "16px",
+    "md": "24px",
+    "lg": "48px",
+    "xl": "80px"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.purple}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.sm}",
+      "padding": "0 24px",
+      "height": "40px",
+      "typography": "{typography.body}"
+    },
+    "button-primary-dark": {
+      "backgroundColor": "{colors.ink}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.sm}",
+      "padding": "0 24px",
+      "height": "40px"
+    },
+    "button-outline-on-purple": {
+      "backgroundColor": "{colors.white}",
+      "textColor": "{colors.ink}",
+      "rounded": "{rounded.sm}",
+      "padding": "0 24px",
+      "height": "40px"
+    },
+    "utility-pill": {
+      "backgroundColor": "{colors.utility-black}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.pill}",
+      "padding": "0 14px",
+      "height": "36px",
+      "typography": "{typography.label}"
+    },
+    "card": {
+      "backgroundColor": "{colors.white}",
+      "rounded": "{rounded.sm}"
+    },
+    "type-chip": {
+      "backgroundColor": "{colors.purple}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.chip}",
+      "padding": "2px 8px"
+    }
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttons": [
+        {
+          "backgroundColor": "#7e45af",
+          "textColor": "#ffffff",
+          "radius": "5px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "padding": "0px 24px",
+          "height": 40,
+          "border": "0px none rgb(255, 255, 255)",
+          "example": "Contact Sales",
+          "count": 29
+        },
+        {
+          "backgroundColor": null,
+          "textColor": "#ffffff",
+          "radius": "9999px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "padding": "0px 14px",
+          "height": 36,
+          "border": "2px solid rgba(0, 0, 0, 0)",
+          "example": "English",
+          "count": 24
+        },
+        {
+          "backgroundColor": null,
+          "textColor": "#111c24",
+          "radius": "5px",
+          "fontSize": "20px",
+          "fontWeight": "300",
+          "padding": "8px 24px 8px 8px",
+          "height": 38,
+          "border": "0px none rgb(17, 28, 36)",
+          "example": "How can Synopsys help me define and opti",
+          "count": 14
+        },
+        {
+          "backgroundColor": "#efefef",
+          "textColor": "#ffffff",
+          "radius": "9999px",
+          "fontSize": "10px",
+          "fontWeight": "400",
+          "padding": "0px",
+          "height": 54,
+          "border": "4px solid rgba(0, 0, 0, 0)",
+          "example": "Ask a Question",
+          "count": 11
+        },
+        {
+          "backgroundColor": null,
+          "textColor": "#ffffff",
+          "radius": "0px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "padding": "14px 0px 0px",
+          "height": 59,
+          "border": "0px none rgb(255, 255, 255)",
+          "example": "Introducing Synopsys Physical AI Solutio",
+          "count": 5
+        },
+        {
+          "backgroundColor": "#111c24",
+          "textColor": "#ffffff",
+          "radius": "5px",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "padding": "0px 24px",
+          "height": 40,
+          "border": "0px none rgb(255, 255, 255)",
+          "example": "Get Started",
+          "count": 4
+        }
+      ]
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "5px",
+        "secondary": "3px",
+        "pill": "9999px",
+        "occurrences": [
+          {
+            "value": "5px",
+            "count": 119,
+            "selectors": [
+              "a.component-button.m-0",
+              "select.global-nav-link-select",
+              "div.component-button.primary"
+            ]
+          },
+          {
+            "value": "3px",
+            "count": 69,
+            "selectors": [
+              "div.label-wrapper",
+              "input.mktoField.mktoTextField",
+              "input.mktoField.mktoEmailField"
+            ]
+          },
+          {
+            "value": "9999px",
+            "count": 24,
+            "selectors": [
+              "button.btn.btn-default",
+              "button.d-flex.align-items-center"
+            ]
+          },
+          {
+            "value": "50px",
+            "count": 23,
+            "selectors": [
+              "div.profile-circle.two",
+              "div.profile-circle.one"
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 10,
+            "selectors": [
+              "button.slick-prev.slick-arrow",
+              "button.slick-next.slick-arrow"
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 4,
+            "selectors": [
+              "section.snps-aem-mktoForm",
+              "button.mktoButton"
+            ]
+          },
+          {
+            "value": "7px",
+            "count": 2,
+            "selectors": [
+              "a.cmp-tableofcontents__scroll-to-top.visible"
+            ]
+          },
+          {
+            "value": "60px",
+            "count": 1,
+            "selectors": [
+              "button.pause-btn"
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.15) 0px 1px 7px 0px",
+          "count": 91,
+          "selectors": [
+            "section.component-assetcard.no-link",
+            "div.component-card-b.no-link"
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+          "count": 17,
+          "selectors": [
+            "div.component-nav-top",
+            "div.blog-sub-nav-container",
+            "section.component-solutioncard.component-textcomp"
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.22) 0px 0px 10px 0px",
+          "count": 2,
+          "selectors": [
+            "section.snps-aem-mktoForm"
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(107.7deg, rgb(45, 21, 65) 0px, rgb(90, 42, 130) 50%, rgb(126, 69, 175) 100%)",
+          "count": 13
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 28%, rgb(0, 0, 0) 100%)",
+          "count": 4
+        },
+        {
+          "value": "linear-gradient(to right, rgb(126, 69, 175) 0%, rgb(255, 255, 255) 0%)",
+          "count": 2
+        },
+        {
+          "value": "linear-gradient(to right, rgb(90, 42, 130), rgb(113, 71, 148), rgb(149, 110, 182))",
+          "count": 2
+        }
+      ],
+      "patterns": [
+        "full-bleed purple gradient hero band (page-title hero)",
+        "breadcrumb row over hero",
+        "icon + title + copy feature tiles (3-up)",
+        "resource card carousel with type label chip",
+        "purple \"Connect with Us\" CTA band above footer",
+        "four-column dark footer with social row",
+        "utility bar (Synopsys | Ansys) above main nav"
+      ]
+    },
+    "voice": {
+      "heroHeadline": "Introducing Synopsys Physical AI Solutions",
+      "tagline": "Powering the Era of Pervasive Intelligence from Silicon to Systems",
+      "primaryCTALabel": "Contact Sales",
+      "ctaSamples": [
+        "Contact Sales",
+        "Services",
+        "English",
+        "Ask",
+        "Search Synopsys.com",
+        "Careers",
+        "Corporate Governance & Ethics",
+        "Investor Relations",
+        "Strategic Acquisitions",
+        "Responsible Business",
+        "Executive Briefing Center",
+        "Solutions"
+      ],
+      "navItems": [
+        "Why Synopsys",
+        "Solutions",
+        "Products",
+        "Support & Training",
+        "Resources"
+      ],
+      "footerHeadings": [
+        "Company",
+        "Resources",
+        "Trending",
+        "Learn"
+      ],
+      "tone": {
+        "guess": "technical-precise",
+        "evidence": "noun-heavy product names with \u2122/\u00ae, benefit triads (\"Supercharge Productivity \u00b7 Conquer Complexity \u00b7 Accelerate Time-to-Market\"), third-person corporate voice, few contractions"
+      },
+      "examples": {
+        "do": [
+          "Powering the Era of Pervasive Intelligence from Silicon to Systems",
+          "Supercharge Productivity \u00b7 Conquer Complexity \u00b7 Accelerate Time-to-Market",
+          "Contact Sales"
+        ],
+        "dont": []
+      }
+    },
+    "heroMedium": {
+      "kind": "video",
+      "mechanism": "brightcove (video.js) background video, autoplay/loop, blob: src",
+      "src": null,
+      "poster": null,
+      "domPath": "section.cmp-carousel.carousel-holder video",
+      "loader": "video.js / Brightcove",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 700
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "utility-bar",
+        "kind": "header",
+        "occurrences": 64,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Synopsys",
+          "Ansys",
+          "English",
+          "Ask"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "div.pre-header",
+        "examplePages": [
+          "academic-research-html",
+          "ai-agentic-ai-html",
+          "ai-html"
+        ],
+        "notes": "black bar; Synopsys | Ansys co-brand, language switch, \"Ask\" AI concierge"
+      },
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 64,
+        "headingSequence": [
+          "Why Synopsys",
+          "Solutions",
+          "Products",
+          "Support & Training",
+          "Resources"
+        ],
+        "ctaLabels": [
+          "Contact Sales"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "div.component-nav-top",
+        "examplePages": [
+          "academic-research-html",
+          "ai-agentic-ai-html",
+          "ai-html"
+        ],
+        "notes": "white bar, inline-SVG purple logo (166px), 5 mega-menu items, search icon, purple Contact Sales button"
+      },
+      {
+        "name": "breadcrumb",
+        "kind": "breadcrumb",
+        "occurrences": 46,
+        "headingSequence": [
+          "Home",
+          "\u2026"
+        ],
+        "ctaLabels": [],
+        "exampleSlug": "verification-html",
+        "exampleSelector": ".breadcrumb",
+        "examplePages": [
+          "verification-html",
+          "verification-simulation-vcs-html",
+          "company-management-team-html"
+        ]
+      },
+      {
+        "name": "connect-with-us-band",
+        "kind": "cta-band",
+        "occurrences": 28,
+        "headingSequence": [
+          "Connect with Us"
+        ],
+        "ctaLabels": [
+          "Contact Sales"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "section.component-banner",
+        "examplePages": [
+          "academic-research-html",
+          "authors-html",
+          "community-html",
+          "community-snug-html",
+          "company-contact-synopsys-html"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 12,
+        "headingSequence": [
+          "Company",
+          "Resources",
+          "Trending",
+          "Learn"
+        ],
+        "ctaLabels": [
+          "About Us",
+          "Careers",
+          "Privacy",
+          "Cookie Settings"
+        ],
+        "exampleSlug": "index",
+        "exampleSelector": "footer.site-footer",
+        "examplePages": [
+          "academic-research-html",
+          "ai-agentic-ai-html",
+          "ai-html"
+        ],
+        "notes": "dark (#111c24) 4-column footer: Company / Resources / Trending / Learn, language dropdown, social row, white wordmark, legal line"
+      },
+      {
+        "name": "background-motif-ee5bfe",
+        "kind": "background-motif",
+        "occurrences": 63,
+        "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+        "examplePages": [
+          "academic-research-html",
+          "ai-agentic-ai-html",
+          "ai-html",
+          "articles-ai-powered-analog-design-html",
+          "articles-html",
+          "articles-multi-die-design-3d-ip-html"
+        ]
+      },
+      {
+        "name": "background-motif-9888dd",
+        "kind": "background-motif",
+        "occurrences": 3,
+        "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/81218db6-6d7d-429d-8431-46f7ce3b058f/64698c02-997f-4d81-9c71-4ef64a5c4a74/1920x1080/match/image.jpg",
+        "examplePages": [
+          "blogs-chip-design-software-defined-hardware-assisted-verification-html",
+          "verification-emulation-prototyping-emulation-html",
+          "verification-emulation-prototyping-html"
+        ]
+      },
+      {
+        "name": "background-motif-ccc280",
+        "kind": "background-motif",
+        "occurrences": 2,
+        "url": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/9ac0c745-7b57-4011-b0e1-dd4b359b1011/cc58b9cc-90b0-4f5b-a802-9f678acea901/1920x1080/match/image.jpg",
+        "examplePages": [
+          "verification-emulation-prototyping-emulation-html",
+          "verification-emulation-prototyping-html"
+        ]
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        2.5,
+        1.333,
+        0.9
+      ],
+      "matchedScale": null,
+      "basis": "mode font-size of h1\u2192h4 across 12 sampled pages"
+    },
+    "fonts": [
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Regular.ttf",
+        "family": "Roboto",
+        "weight": 400,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Regular.ttf",
+        "bytes": 162876,
+        "format": "truetype",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Light.ttf",
+        "family": "Roboto",
+        "weight": 300,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Light.ttf",
+        "bytes": 162420,
+        "format": "truetype",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Bold.ttf",
+        "family": "Roboto",
+        "weight": 700,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Bold.ttf",
+        "bytes": 162464,
+        "format": "truetype",
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/fonts/Roboto/Roboto-Medium.ttf",
+        "family": "Roboto",
+        "weight": 500,
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/Roboto-Medium.ttf",
+        "bytes": 162588,
+        "format": "truetype",
+        "licensingFlag": "open"
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.15) 0px 1px 7px 0px",
+        "count": 91,
+        "selectors": [
+          "section.component-assetcard.no-link",
+          "div.component-card-b.no-link"
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.25) 0px 4px 4px 0px",
+        "count": 17,
+        "selectors": [
+          "div.component-nav-top",
+          "div.blog-sub-nav-container",
+          "section.component-solutioncard.component-textcomp"
+        ]
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.22) 0px 0px 10px 0px",
+        "count": 2,
+        "selectors": [
+          "section.snps-aem-mktoForm"
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(107.7deg, rgb(45, 21, 65) 0px, rgb(90, 42, 130) 50%, rgb(126, 69, 175) 100%)",
+        "count": 13
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 28%, rgb(0, 0, 0) 100%)",
+        "count": 4
+      },
+      {
+        "value": "linear-gradient(to right, rgb(126, 69, 175) 0%, rgb(255, 255, 255) 0%)",
+        "count": 2
+      },
+      {
+        "value": "linear-gradient(to right, rgb(90, 42, 130), rgb(113, 71, 148), rgb(149, 110, 182))",
+        "count": 2
+      }
+    ],
+    "containers": [
+      {
+        "maxWidth": "1900px",
+        "count": 52,
+        "selectors": [
+          "div.site-wrapper",
+          "div.component-nav-top",
+          "footer.site-footer"
+        ]
+      },
+      {
+        "maxWidth": "1170px",
+        "count": 26,
+        "selectors": [
+          "div.nav-top-wrapper.d-flex",
+          "div.cmp-carousel__content.carousel-list-holder",
+          "div.breadcrumb"
+        ]
+      },
+      {
+        "maxWidth": "1660px",
+        "count": 12,
+        "selectors": [
+          "div.container"
+        ]
+      },
+      {
+        "maxWidth": "1168px",
+        "count": 3,
+        "selectors": [
+          "atomic-search-box.atomicSearchbox.hydrated",
+          "atomic-search-layout.hydrated"
+        ]
+      },
+      {
+        "maxWidth": "750px",
+        "count": 1,
+        "selectors": [
+          "section.component-column.row"
+        ]
+      }
+    ],
+    "sourceTokens": {
+      "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+      "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+      "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+      "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+      "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+      "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+      "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+      "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+      "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+      "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+      "--atomic-border-radius-xl": "1rem",
+      "--atomic-font-family": "'Roboto',Arial,sans-serif",
+      "--atomic-text-base": "1.4rem",
+      "--atomic-text-sm": "1.2rem",
+      "--atomic-text-lg": "1.6rem",
+      "--atomic-text-xl": "1.8rem",
+      "--atomic-text-2xl": "2.4rem",
+      "--atomic-line-height-ratio": "1.5",
+      "--atomic-primary": "#316aca",
+      "--purple": "#7E45AF",
+      "--purple-dark": "#5A2A82",
+      "--text": "#111c24",
+      "--grey": "#555",
+      "--grey-light": "#B3B4B3",
+      "--bg-light": "#E3E3E3",
+      "--white": "#FFF",
+      "--radius": "10px"
+    },
+    "modules": [
+      {
+        "id": "candidate-b2dc92",
+        "name": "page-title-hero",
+        "description": "Purple-gradient page title band with breadcrumb (h1 60/300 white, optional background photo, optional secondary CTA)",
+        "signal": "headings[h1] + cssBackgrounds",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "eyebrow-breadcrumb",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "subtitle",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "background",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "academic-research-html",
+            "selector": null
+          },
+          {
+            "slug": "ai-agentic-ai-html",
+            "selector": null
+          },
+          {
+            "slug": "ai-html",
+            "selector": null
+          },
+          {
+            "slug": "careers-benefits-html",
+            "selector": null
+          },
+          {
+            "slug": "careers-html",
+            "selector": null
+          },
+          {
+            "slug": "cloud-html",
+            "selector": null
+          },
+          {
+            "slug": "community-html",
+            "selector": null
+          },
+          {
+            "slug": "community-snug-html",
+            "selector": null
+          },
+          {
+            "slug": "company-acquisitions-html",
+            "selector": null
+          },
+          {
+            "slug": "company-contact-synopsys-html",
+            "selector": null
+          },
+          {
+            "slug": "company-corporate-governance-ethics-html",
+            "selector": null
+          },
+          {
+            "slug": "company-executive-briefing-center-html",
+            "selector": null
+          },
+          {
+            "slug": "company-html",
+            "selector": null
+          },
+          {
+            "slug": "company-legal-privacy-policy-html",
+            "selector": null
+          },
+          {
+            "slug": "company-responsible-business-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-interface-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "events-virtual-prototyping-day-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-fusion-design-platform-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "manufacturing-html",
+            "selector": null
+          },
+          {
+            "slug": "partners-html",
+            "selector": null
+          },
+          {
+            "slug": "resources-mastering-ai-chip-complexity-ebook-html",
+            "selector": null
+          },
+          {
+            "slug": "services-design-services-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-automotive-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-hpc-data-center-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multi-die-design-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multiphysics-fusion-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-silicon-lifecycle-management-html",
+            "selector": null
+          },
+          {
+            "slug": "startup-innovation-html",
+            "selector": null
+          },
+          {
+            "slug": "success-stories-electronics-digital-twins-volvo-cars-html",
+            "selector": null
+          },
+          {
+            "slug": "success-stories-intel-self-timed-sram-timing-verification-nanotime-html",
+            "selector": null
+          },
+          {
+            "slug": "support-global-support-centers-html",
+            "selector": null
+          },
+          {
+            "slug": "support-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-emulation-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-simulation-vcs-html",
+            "selector": null
+          },
+          {
+            "slug": "webinars-deep-dive-synopsys-ai-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 42,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-e5adff",
+        "name": "anchor-nav",
+        "description": "In-page anchor navigation strip (Overview \u00b7 Key Benefits \u00b7 \u2026 ) with dark \"Get Started\" button",
+        "signal": "ctas[Get Started]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "items",
+            "type": "link[]",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "ai-agentic-ai-html",
+            "selector": null
+          },
+          {
+            "slug": "ai-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-interface-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "glossary-what-are-chiplets-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-fusion-design-platform-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "manufacturing-html",
+            "selector": null
+          },
+          {
+            "slug": "services-design-services-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-automotive-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-hpc-data-center-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multi-die-design-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multiphysics-fusion-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-silicon-lifecycle-management-html",
+            "selector": null
+          },
+          {
+            "slug": "startup-innovation-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-emulation-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-simulation-vcs-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 21,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-a7c50d",
+        "name": "key-benefits",
+        "description": "3-up icon + title + copy feature tiles under an h2 \"Key Benefits\"",
+        "signal": "headings[h2=Key Benefits]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items[].icon",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "items[].title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items[].copy",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "ai-agentic-ai-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-fusion-design-platform-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "manufacturing-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-automotive-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-hpc-data-center-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multi-die-design-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-simulation-vcs-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 12,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-8f2691",
+        "name": "whats-new-carousel",
+        "description": "Resource card carousel (image, type chip, title, date, link) under \"What's New\"",
+        "signal": "headings[h2 startswith What's New]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "cards[].label",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].date",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "ai-html",
+            "selector": null
+          },
+          {
+            "slug": "cloud-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-interface-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-fusion-design-platform-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "index",
+            "selector": null
+          },
+          {
+            "slug": "solutions-automotive-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multi-die-design-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-emulation-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 14,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-51463c",
+        "name": "resources-carousel",
+        "description": "Resource card carousel under h2 \"Resources\" inside main (white paper / blog chips, Download / Learn More links)",
+        "signal": "headings[h2=Resources]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].label",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "academic-research-html",
+            "selector": null
+          },
+          {
+            "slug": "ai-agentic-ai-html",
+            "selector": null
+          },
+          {
+            "slug": "ai-html",
+            "selector": null
+          },
+          {
+            "slug": "company-contact-synopsys-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-interface-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "manufacturing-html",
+            "selector": null
+          },
+          {
+            "slug": "services-design-services-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-hpc-data-center-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multiphysics-fusion-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-silicon-lifecycle-management-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-emulation-prototyping-emulation-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-simulation-vcs-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 15,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-9a0764",
+        "name": "continue-reading",
+        "description": "Three related-article cards under h2 \"Continue Reading\" (image, read time, title, author, tags, Read Article link)",
+        "signal": "headings[h2=Continue Reading]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "cards[].image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "cards[].meta",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].author",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[].tags",
+            "type": "text[]",
+            "required": false
+          },
+          {
+            "name": "cards[].link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "articles-multi-die-design-3d-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "blogs-chip-design-electronics-digital-twin-platform-html",
+            "selector": null
+          },
+          {
+            "slug": "blogs-chip-design-multiphysics-chip-design-challenges-html",
+            "selector": null
+          },
+          {
+            "slug": "blogs-chip-design-software-defined-hardware-assisted-verification-html",
+            "selector": null
+          },
+          {
+            "slug": "company-acquisitions-html",
+            "selector": null
+          },
+          {
+            "slug": "company-corporate-governance-ethics-html",
+            "selector": null
+          },
+          {
+            "slug": "glossary-what-is-electronic-design-automation-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 7,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-b57e22",
+        "name": "connect-with-us-band",
+        "description": "Full-bleed purple gradient CTA band \"Connect with Us\" with white outlined Contact Sales button",
+        "signal": "body[Connect with Us] + ctas[Contact Sales]",
+        "confidence": "medium",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "academic-research-html",
+            "selector": null
+          },
+          {
+            "slug": "authors-html",
+            "selector": null
+          },
+          {
+            "slug": "community-html",
+            "selector": null
+          },
+          {
+            "slug": "community-snug-html",
+            "selector": null
+          },
+          {
+            "slug": "company-contact-synopsys-html",
+            "selector": null
+          },
+          {
+            "slug": "company-corporate-governance-ethics-html",
+            "selector": null
+          },
+          {
+            "slug": "company-html",
+            "selector": null
+          },
+          {
+            "slug": "company-responsible-business-html",
+            "selector": null
+          },
+          {
+            "slug": "glossary-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-fusion-design-platform-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-physical-implementation-fusion-compiler-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "index",
+            "selector": null
+          },
+          {
+            "slug": "manufacturing-html",
+            "selector": null
+          },
+          {
+            "slug": "partners-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-automotive-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-hpc-data-center-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multi-die-design-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multiphysics-fusion-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-silicon-lifecycle-management-html",
+            "selector": null
+          },
+          {
+            "slug": "success-stories-html",
+            "selector": null
+          },
+          {
+            "slug": "success-stories-view-all-html",
+            "selector": null
+          },
+          {
+            "slug": "support-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-html",
+            "selector": null
+          },
+          {
+            "slug": "verification-simulation-vcs-html",
+            "selector": null
+          },
+          {
+            "slug": "webinars-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 28,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-e7a477",
+        "name": "icon-tile-grid",
+        "description": "Grid of purple line-icon tiles: icon, title, copy, purple button (3-col)",
+        "signal": "ctas[Learn More] x>=3 + headings h2/h3 tiles",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "items[].icon",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "items[].title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items[].copy",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items[].cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "community-html",
+            "selector": null
+          },
+          {
+            "slug": "company-contact-synopsys-html",
+            "selector": null
+          },
+          {
+            "slug": "company-corporate-governance-ethics-html",
+            "selector": null
+          },
+          {
+            "slug": "company-html",
+            "selector": null
+          },
+          {
+            "slug": "company-responsible-business-html",
+            "selector": null
+          },
+          {
+            "slug": "designware-ip-interface-ip-html",
+            "selector": null
+          },
+          {
+            "slug": "implementation-and-signoff-signoff-primetime-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-silicon-lifecycle-management-html",
+            "selector": null
+          },
+          {
+            "slug": "support-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 9,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-25fd2c",
+        "name": "partner-logo-row",
+        "description": "Row of grey partner logos under h2 \"Ecosystem Partners\"",
+        "signal": "headings[h2=Ecosystem Partners] + imgs[partner-logo]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "logos[]",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": null
+          },
+          {
+            "slug": "services-design-services-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-hpc-data-center-html",
+            "selector": null
+          },
+          {
+            "slug": "solutions-multi-die-design-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 4,
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-525de5",
+        "name": "glossary-definition",
+        "description": "Glossary article: h1 question, \"Definition\" h2, h6 term list, related start-guide promo",
+        "signal": "headings[h2=Definition]",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "question",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "definition",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "terms[]",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "promo",
+            "type": "card",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "glossary-what-are-chiplets-html",
+            "selector": null
+          },
+          {
+            "slug": "glossary-what-is-electronic-design-automation-html",
+            "selector": null
+          }
+        ],
+        "instanceCount": 2,
+        "status": "candidate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1019 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:02:12.467Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "articles-multi-die-design-3d-ip-html",
+  "url": "https://www.synopsys.com/articles/multi-die-design-3d-ip.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:02:12.467Z",
+  "finalUrl": "https://www.synopsys.com/articles/multi-die-design-3d-ip.html",
+  "title": "IP for 3D Multi-Die Designs | Synopsys",
+  "description": "Discover some of the drivers for 3D multi-die designs and key requirements for die-to-die and interface IP for 3D packaging.",
+  "og": {
+    "title": "IP for 3D Multi-Die Designs | Synopsys",
+    "description": "Discover some of the drivers for 3D multi-die designs and key requirements for die-to-die and interface IP for 3D packaging.",
+    "image": "https://images.synopsys.com/is/image/synopsys/sitb-q125-multi-die-design-3d-ip?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "IP for 3D Multi-Die Designs"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys IP Technical Bulletin"
+    },
+    {
+      "tag": "h2",
+      "text": "2.5D Multi-Die Design Drivers"
+    },
+    {
+      "tag": "h2",
+      "text": "Innovate Faster with Synopsys Multi-Die Solution"
+    },
+    {
+      "tag": "h2",
+      "text": "3D Multi-Die Design Drivers"
+    },
+    {
+      "tag": "h2",
+      "text": "IP Considerations for 3D Packaging"
+    },
+    {
+      "tag": "h2",
+      "text": "AI Doesn\u2019t Scale by Accident"
+    },
+    {
+      "tag": "h2",
+      "text": "Interface IP 3D Integration"
+    },
+    {
+      "tag": "h2",
+      "text": "Summary"
+    },
+    {
+      "tag": "h2",
+      "text": "Subscribe to the Synopsys IP Technical Bulletin"
+    },
+    {
+      "tag": "h2",
+      "text": "Related Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Multiphysics Fusion Technology for Multi-Die Designs Explained"
+    },
+    {
+      "tag": "h4",
+      "text": "Multi-Die Start Guide"
+    },
+    {
+      "tag": "h4",
+      "text": "Google: Scaling HBM Signal Integrity Signoff for Large\u2011Scale 2.5D Packages"
+    },
+    {
+      "tag": "h2",
+      "text": "Continue Reading"
+    },
+    {
+      "tag": "h4",
+      "text": "Why Chip-to-Chip Is Becoming the New Unit of AI Scale"
+    },
+    {
+      "tag": "h4",
+      "text": "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects"
+    },
+    {
+      "tag": "h4",
+      "text": "Designing Edge AI SoCs at Near-Threshold: Why Foundation IP Can Help You Break Down the Power Wall"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Articles",
+    "Rob Kruger",
+    "Jan 15, 2025 / 8 min read",
+    "2.5D Multi-Die Design Drivers",
+    "3D Multi-Die Design Drivers",
+    "IP Considerations for 3D Packaging",
+    "Interface IP 3D Integration",
+    "Summary",
+    "In-depth technical articles, white papers, videos, webinars, product announcements and more.",
+    "The market projections for 3D multi-die designs show an unprecedented change in how silicon will be designed and delivered. IDTechEx projects the Chiplet marketplace to reach $411B by 2028. The Market.us report projects the growth of advanced packaging from $35B in 2023 to $158B in 2033 and in the same report, Market.us predicts over $60B of the $155B to be 3D SoC and 3D stacked memory. Such numbers and reports validate the trend to rapid adoption of multi-die designs and 3D packaging. This article highlights the drivers behind 3D multi-die designs and the key die-to-die and interface IP requirements for 3D packaging.",
+    "To overcome the limitations of Moore\u2019s Law and take full advantage of multi-die design, designers can integrate heterogeneous and homogeneous dies in a single package in many ways, as illustrated in Figure 1.",
+    "Figure 1: Example of multiple die integration in a single package",
+    "The first example shows the integration of 2 or more dies in a package, connected using an organic substrate with either single-ended or differential IO or short-reach serial transceivers. The 2D integration approach, is relatively low-cost but has limitations on bandwidth between the dies. In a 2.5D integration, as shown in Figure 2, a higher performance interposer is used to enable high-density signal routing between the multiple dies. The signals are then routed to the package substrate and out to the package pins. The dies are connected through a die-to-die interface such as UCIe at 40G or higher per lane data rates that aims to deliver higher bandwidth while managing latency and thermal constraint trade-offs.",
+    "Figure 2: 2.5D integration with Interposer + Substrate Package",
+    "A 3D integration can reduce form factor but more importantly increase interconnect density, lower latency, and lower interconnect power for better scalability. In a 3.5D integration, die-to-die connectivity from a 3D die stack to another 2D chip or 3D die stack is included.",
+    "Advanced process nodes are driving more transistors but with the slowing of Moore\u2019s law and the demand to increase compute performance for complex AI workloads, designs need more processing capacity than is included in a single 800mm2 reticle. As a first step, designers could place two or more dies in a package connected via parallel or serial IOs to scale up to more processing capacity. A better approach is to break up the functionality into multiple smaller dies also called chiplets. The smaller dies increase yield and can offer a lower cost solution even with the added silicon area of die-to-die interfaces and cost of advanced packaging. This multi-die design approach includes the option to optimize the process node for each die, which can result in more cost savings.",
+    "With careful planning, product managers and architects can draw from a collection of reusable chiplet dies that can be integrated in an advanced package. For example, a low-end system may have a single AI accelerator chiplet and a high-performance product may include multiple AI accelerator chiplets to scale performance. Each product could be created with the same set of base chiplets in a different combinations or topologies to optimize processing, thermal management, and cost needs. In addition, by re-using dies and creating a new package to produce a new product, the new systems can be implemented much faster and at lower total cost of ownership than taping out a monolithic chip using traditional methods.",
+    "2.5D integration has been in mass production for over a decade in applications such as FPGAs. Some of the challenges with 2.5D integration are that silicon interposers used to interconnect multiple dies are limited on how large they can be (3-5 reticles near term). This puts a limit on how many dies can be included in a single package. Larger silicon interposers bring reliability issues such as brittleness and warpage which could affect bump connection reliability. To address some of these size and reliability concerns and extend the utility of 2.5D integration, the industry is developing new redistribution layer (RDL) interposers with or without silicon bridges. Silicon bridges can add higher signal density routing than offered by RDL interposers alone.",
+    "Unlock the secrets to overcoming multi-die design challenges with our comprehensive eBook.",
+    "2.5D integration has enabled a wave of multi-die products but 2.5D interconnect does become a limiting factor for bandwidth, processing, and low latency needs that are accelerating in scale faster than serial 2.5D die-to-die link capabilities. One improvement is to use 3D die stacking. 3D packaging has the potential to dramatically increase interconnect density while lowering latency and interconnect power consumption with almost wire-to-wire links in some topologies. The UCIe specification shows that target bandwidth specification for UCIe Advanced (or UCI-A) interconnect is from 188-1350 GB/s per millimeter squared (mm2) while the target value for UCIe-3D is 4TB/s per mm2 assuming 9um bump pitch, as shown in Table 1. At the same time power efficiency improves from 0.25 pJ/b target to <0.05 pJ/b target. The low latency advantage of 3D packaging is critical for systems with the compute die as the top die and cache memory die as the bottom die as an example use case.",
+    "Table 1: UCIe Consortium KPI Targets for 2.5D and 3D Packaging",
+    "Source: A Deep Dive into UCIe-3D UCIe Consortium Webinar Dec 4, 2024",
+    "Implementing a 3D package provides many benefits in scalability and performance but brings new challenges. To address these challenges a new approach and new tools are required for architecture definition and planning, feasibility assessment, prototyping, and advanced package design. Designers need to consider new multi-physics aspects such as crosstalk between elements on different dies and thermal management of multiple dies where one die may heat up a nearby die.",
+    "With 3D packaging, IO no longer needs to be placed at the edge of the chip. Also, by using hybrid bond technology the vertical die-to-die connection between is even tighter. Hybrid bonding connects dies in packages using tiny copper-to-copper connections (<10um). Synopsys offers specially tuned 3DIO IP for multi-die designs and 3D packaging, enabling the optimal balance of power, performance, and area to address the 3D packaging demands. This IP solution includes a synthesis friendly Tx/Rx cell compatible with Synopsys standard cell libraries, source synchronous 3DIO to aid in lowering bit error rates and easing timing closure, and a 64-bit hardened PHY solution with clock forwarding and built in redundancy. For more information read the Synopsys 3DIO Solution for Multi-Die Integration (2.5D/3D) article.",
+    "Explore the IP that enables high-performance, scalable AI systems",
+    "When considering interface IP integration with off chip IO PHYs, it is not as simple as taking existing 2D implementations and running them through 3D-enabled tools. Careful consideration must be taken by IP providers to deliver IPs that work in context of a particular 3D IC topology. This will require a closer partnership between IP providers and designers than may have been required in the past.",
+    "A common 3D topology is Chip-on-Wafer or CoW. This topology has tested dies stacked on top of a tested wafer and then diced into individual known good die stacks that are assembled and tested to create a final product. The bonding of the dies to wafer could be using metal-to-metal hybrid bonding techniques or solder bump connections. In this topology the bottom die is flipped compared to a standard face down flipchip assembly, so the metals face up and directly face the metals from the top die, which is in the standard orientation, as shown in Figure 3. This offers the highest density and lowest resistance connection between the 2 dies but is limited to stacks of 2 dies. The face-to-back topology keeps dies in the standard flipchip face down orientation but allows stacking more than 2 dies in applications such as HBM memories.",
+    "Figure 3: Face-to-Back vs. Face-to-Face",
+    "In the face-to-face topology, the typical stack has the leading-edge compute node as the top die and the lower die will be on an older less expensive process node and include analog and IO functions which do not benefit as much from scaling to the latest nodes.",
+    "Examples of bottom die interface IP that may be included are 2.5D UCIe interfaces to connect to other 3D stacks or 2D die in the same package or PCIe 6.0/7.0 or 224G Ethernet interfaces to connect to outside world through the package. In these cases, the PHY IP must be reoriented so signals from the bumps pass through the silicon bulk using through silicon vias (TSVs) to connect to the metal layers and route to the diffusion layer silicon devices. IOs also may need to account for adding in TSVs and routing to connect signals and power to the top die. In this case, the bottom die (PHY IP) may increase in size to account for these additional signals and designers must perform additional analysis to address effects from multi-physics on TSV signals and embedded inductors.",
+    "The adoption of multi-die designs is increasing as seen by products from AMD, Intel, Nvidia, and others, and as reported by various industry analysts. Synopsys predicts the use of 3D packaging to go from R&D to production in the next 12 months, which will put the focus on 3D-enabled IP availability beyond just die-to-die. Depending on the die topology, the interface IP must be optimized to support the required 3D packaging features for scalability and performance. Synopsys offers a complete and scalable multi-die solution, which includes a broad portfolio of die-to-die and chip-to-chip IPs that address the latency, power, performance, and multi-physics requirements of 2.5D and 3D packaging. We are working with our ecosystem partners to deliver the best and most differentiated solutions that our customers can leverage to move their innovations forward.",
+    "Includes in-depth technical articles, white papers, videos, upcoming webinars, product announcements and more.",
+    "Silicon IP Technical Bulletin",
+    "Multi-Die",
+    "Silicon IP",
+    "Interface IP",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Articles",
+      "href": "/articles.html"
+    },
+    {
+      "label": "Rob Kruger",
+      "href": "/authors/rob-kruger.html"
+    },
+    {
+      "label": "Subscribe",
+      "href": "https://www.synopsys.com/cgi-bin/dwtb/req1.cgi"
+    },
+    {
+      "label": "Chiplet marketplace to reach $411B by 2028",
+      "href": "https://www.idtechex.com/en/research-article/chiplet-market-growth-forecast-to-us-411-billion-by-2035/31905"
+    },
+    {
+      "label": "from $35B in 2023 to $158B in 2033",
+      "href": "https://market.us/report/high-end-semiconductor-packaging-market/"
+    },
+    {
+      "label": "Click to see the detail",
+      "href": null
+    },
+    {
+      "label": "Click to see the detail",
+      "href": null
+    },
+    {
+      "label": "Download eBook",
+      "href": "/resources/innovate-faster.html"
+    },
+    {
+      "label": "Click to see the detail",
+      "href": null
+    },
+    {
+      "label": "A Deep Dive into UCIe-3D UCIe Consortium Webinar Dec 4, 2024",
+      "href": "https://www.bing.com/videos/riverview/relatedvideo?q=A+Deep+Dive+into+UCIe-3D+UCIe+Consortium+Webinar+Dec+4%2c+2024&cvid=e141d031675f4c61b3fb4461de1a33fb&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRhAMggIAhDpBxj8VdIBCDEzMjRqMGo0qAIAsAIB&PC=U531&ru=%2fsearch%3fq%3dA%2bDeep%2bDive%2binto%2bUCIe-3D%2bUCIe%2bConsortium%2bWebinar%2bDec%2b4%252C%2b2024%26cvid%3de141d031675f4c61b3fb4461de1a33fb%26gs_lcrp%3dEgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRhAMggIAhDpBxj8VdIBCDEzMjRqMGo0qAIAsAIB%26FORM%3dANAB01%26PC%3dU531&mmscn=vwrc&mid=A9987855E041B178271EA9987855E041B178271E&FORM=WRVORC"
+    },
+    {
+      "label": "Synopsys 3DIO Solution for Multi-Die Integration (2.5D/3D) article",
+      "href": "/articles/3dio-multi-die-integration.html"
+    },
+    {
+      "label": "Download eBook",
+      "href": "/resources/inside-ai-accelerator.html"
+    },
+    {
+      "label": "Click to see the detail",
+      "href": null
+    },
+    {
+      "label": "multi-die solution",
+      "href": "/content/synopsys/en-us/solutions/multi-die-design"
+    },
+    {
+      "label": "Subscribe",
+      "href": "https://www.synopsys.com/cgi-bin/dwtb/req1.cgi"
+    },
+    {
+      "label": "Silicon IP Technical Bulletin",
+      "href": "/articles/category.silicon-ip-technical-bulletin.html"
+    },
+    {
+      "label": "Multi-Die",
+      "href": "/articles/category.multi-die-system.html"
+    },
+    {
+      "label": "Silicon IP",
+      "href": "/articles/category.silicon-ip.html"
+    },
+    {
+      "label": "Interface IP",
+      "href": "/articles/category.interface-ip.html"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/multiphysics-fusion-technology-for-multi-die.html"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/multi-die-systems-start-guide.html"
+    },
+    {
+      "label": "Watch",
+      "href": "/webinars/scaling-hbm-signal-integrity-signoff.html"
+    },
+    {
+      "label": "Why Chip-to-Chip Is Becoming the New Unit of AI Scale",
+      "href": "/articles/pcie-cxl-chip-to-chip-ai-scaling.html"
+    },
+    {
+      "label": "Ron Lowman",
+      "href": "/authors/ron-lowman.html"
+    },
+    {
+      "label": "Richard Solomon",
+      "href": "/authors/richard-solomon.html"
+    },
+    {
+      "label": "Interface IP",
+      "href": "/articles/category.interface-ip.html"
+    },
+    {
+      "label": "Silicon IP",
+      "href": "/articles/category.silicon-ip.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/articles/pcie-cxl-chip-to-chip-ai-scaling.html"
+    },
+    {
+      "label": "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects",
+      "href": "/articles/112g-linear-optics-phy.html"
+    },
+    {
+      "label": "Kant Deshpande",
+      "href": "/authors/kant-deshpande.html"
+    },
+    {
+      "label": "Silicon IP Technical Bulletin",
+      "href": "/articles/category.silicon-ip-technical-bulletin.html"
+    },
+    {
+      "label": "Interface IP",
+      "href": "/articles/category.interface-ip.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/articles/category.hpc-data-center.html"
+    },
+    {
+      "label": "Silicon IP",
+      "href": "/articles/category.silicon-ip.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/articles/112g-linear-optics-phy.html"
+    },
+    {
+      "label": "Designing Edge AI SoCs at Near-Threshold: Why Foundation IP Can Help You Break Down the Power Wall",
+      "href": "/articles/edge-ai-near-threshold-foundation-ip.html"
+    },
+    {
+      "label": "Andrew Appleby",
+      "href": "/authors/andrew-appleby.html"
+    },
+    {
+      "label": "Silicon IP Technical Bulletin",
+      "href": "/articles/category.silicon-ip-technical-bulletin.html"
+    },
+    {
+      "label": "Foundation IP",
+      "href": "/articles/category.foundation-ip.html"
+    },
+    {
+      "label": "Silicon IP",
+      "href": "/articles/category.silicon-ip.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/articles/edge-ai-near-threshold-foundation-ip.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/articles/multi-die-design-3d-ip.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/articles/multi-die-design-3d-ip.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/authors/rob-kruger.html",
+    "https://www.synopsys.com/cgi-bin/dwtb/req1.cgi",
+    "https://www.idtechex.com/en/research-article/chiplet-market-growth-forecast-to-us-411-billion-by-2035/31905",
+    "https://market.us/report/high-end-semiconductor-packaging-market/",
+    "https://www.synopsys.com/resources/innovate-faster.html",
+    "https://www.bing.com/videos/riverview/relatedvideo?q=A+Deep+Dive+into+UCIe-3D+UCIe+Consortium+Webinar+Dec+4%2c+2024&cvid=e141d031675f4c61b3fb4461de1a33fb&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRhAMggIAhDpBxj8VdIBCDEzMjRqMGo0qAIAsAIB&PC=U531&ru=%2fsearch%3fq%3dA%2bDeep%2bDive%2binto%2bUCIe-3D%2bUCIe%2bConsortium%2bWebinar%2bDec%2b4%252C%2b2024%26cvid%3de141d031675f4c61b3fb4461de1a33fb%26gs_lcrp%3dEgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRhAMggIAhDpBxj8VdIBCDEzMjRqMGo0qAIAsAIB%26FORM%3dANAB01%26PC%3dU531&mmscn=vwrc&mid=A9987855E041B178271EA9987855E041B178271E&FORM=WRVORC",
+    "https://www.synopsys.com/articles/3dio-multi-die-integration.html",
+    "https://www.synopsys.com/designware-ip/resources/looking-into-linear-pluggable-optics.html",
+    "https://www.synopsys.com/resources/inside-ai-accelerator.html",
+    "https://www.synopsys.com/content/synopsys/en-us/solutions/multi-die-design",
+    "https://www.synopsys.com/articles/category.silicon-ip-technical-bulletin.html",
+    "https://www.synopsys.com/articles/category.multi-die-system.html",
+    "https://www.synopsys.com/articles/category.silicon-ip.html",
+    "https://www.synopsys.com/articles/category.interface-ip.html",
+    "https://www.synopsys.com/resources/multi-die-systems-start-guide.html",
+    "https://www.synopsys.com/webinars/scaling-hbm-signal-integrity-signoff.html",
+    "https://www.synopsys.com/articles/pcie-cxl-chip-to-chip-ai-scaling.html",
+    "https://www.synopsys.com/authors/ron-lowman.html",
+    "https://www.synopsys.com/authors/richard-solomon.html",
+    "https://www.synopsys.com/articles/112g-linear-optics-phy.html",
+    "https://www.synopsys.com/authors/kant-deshpande.html",
+    "https://www.synopsys.com/articles/category.hpc-data-center.html",
+    "https://www.synopsys.com/articles/edge-ai-near-threshold-foundation-ip.html",
+    "https://www.synopsys.com/authors/andrew-appleby.html",
+    "https://www.synopsys.com/articles/category.foundation-ip.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://www.synopsys.com/authors.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig1?qlt=82&wid=1200&ts=1741108081365&$responsive$&fit=constrain&dpr=off",
+        "alt": "Figure 1: Example of multiple die integration in a single package",
+        "w": 1440,
+        "h": 394
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig1?qlt=82&wid=1200&ts=1741108081365&$responsive$&fit=constrain&dpr=off",
+        "alt": "Figure 1: Example of multiple die integration in a single package",
+        "w": 1440,
+        "h": 394
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig2?qlt=82&wid=1200&ts=1741109243978&$responsive$&fit=constrain&dpr=off",
+        "alt": "Figure 2: 2.5D integration with Interposer + Substrate Package",
+        "w": 1440,
+        "h": 609
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig2?qlt=82&wid=1200&ts=1741109243978&$responsive$&fit=constrain&dpr=off",
+        "alt": "Figure 2: 2.5D integration with Interposer + Substrate Package",
+        "w": 1440,
+        "h": 609
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1728491760912&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig4?qlt=82&wid=1200&ts=1741109326807&$responsive$&fit=constrain&dpr=off",
+        "alt": "Table 1: UCIe Consortium KPI Targets for 2.5D and 3D Packaging",
+        "w": 1440,
+        "h": 237
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig4?qlt=82&wid=1200&ts=1741109326807&$responsive$&fit=constrain&dpr=off",
+        "alt": "Table 1: UCIe Consortium KPI Targets for 2.5D and 3D Packaging",
+        "w": 1440,
+        "h": 237
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&wid=1200&ts=1771948409845&$responsive$&fit=constrain&dpr=off",
+        "alt": "Why HPC Chip Designers are Looking into Linear Pluggable Optics",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig3?qlt=82&wid=1200&ts=1741109373096&$responsive$&fit=constrain&dpr=off",
+        "alt": "Figure 3: Face-to-Back vs. Face-to-Face",
+        "w": 1440,
+        "h": 573
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig3?qlt=82&wid=1200&ts=1741109373096&$responsive$&fit=constrain&dpr=off",
+        "alt": "Figure 3: Face-to-Back vs. Face-to-Face",
+        "w": 1440,
+        "h": 573
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-social?qlt=82&wid=1200&ts=1783699716428&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-start-guide-social-share?qlt=82&wid=1200&ts=1783666276127&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multi Die Start Guide",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/anna-gao-headshot-google-social?qlt=82&wid=1200&ts=1783666480009&$responsive$&fit=constrain&dpr=off",
+        "alt": "Anna Gao Google",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q326-article-graphic-fig1-thumbnail?ts=1786950969963&$responsive$",
+        "alt": "Why Chip-to-Chip Is Becoming the New Unit of AI Scale",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ron-lowman-headshot-1?ts=1684166497519&$responsive$",
+        "alt": "Ron Lowman",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/richard-solomon-2025-headshot?ts=1782750025133&$responsive$",
+        "alt": "Richard Solomon",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/q3-26-sitb-112g-fig3-thumbnail?ts=1784146791288&$responsive$",
+        "alt": "World's First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sitb-q326-foundation-ip-fig2-thumbnail?ts=1784150640316&$responsive$",
+        "alt": "Designing Edge AI SoCs at Near-Threshold: Why Foundation IP Can Help You Break Down the Power Wall",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/andrew-appleby-headshot?ts=1721846021755&$responsive$",
+        "alt": "Andrew Appleby",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 48,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 22,
+    "mainTextLen": 172543,
+    "realImageCount": 42,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/articles-multi-die-design-3d-ip-html.png",
+  "renderedHtml": "pages/articles-multi-die-design-3d-ip-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "headline": "IP for 3D Multi-Die Designs",
+    "deck": "Discover some of the drivers for 3D multi-die designs and key requirements for die-to-die and interface IP for 3D packaging.",
+    "byline": null,
+    "meta": "Jan 15, 2025 / 8 min read",
+    "lead-image": "https://images.synopsys.com/is/image/synopsys/q125-3d-fig1?qlt=82&wid=1200&ts=1741108081365&$responsive$&fit=constrain&dpr=off",
+    "body": {
+      "sections": [
+        "Synopsys IP Technical Bulletin",
+        "2.5D Multi-Die Design Drivers",
+        "Innovate Faster with Synopsys Multi-Die Solution",
+        "3D Multi-Die Design Drivers",
+        "IP Considerations for 3D Packaging",
+        "AI Doesn\u2019t Scale by Accident",
+        "Interface IP 3D Integration",
+        "Summary",
+        "Subscribe to the Synopsys IP Technical Bulletin",
+        "Related Resources"
+      ]
+    },
+    "pullquotes": [],
+    "related": [
+      "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+      "Multi-Die Start Guide",
+      "Google: Scaling HBM Signal Integrity Signoff for Large\u2011Scale 2.5D Packages"
+    ]
+  },
+  "pageType": "article"
+}

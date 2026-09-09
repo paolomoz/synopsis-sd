@@ -1,0 +1,1086 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:03:39.523Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "newsroom-html",
+  "url": "https://www.synopsys.com/newsroom.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:03:39.523Z",
+  "finalUrl": "https://www.synopsys.com/newsroom.html#sortCriteria=%40coveopressreleasepublishdate%20descending",
+  "title": "Synopsys Newsroom: Latest News, Expert Views, and Upcoming Events",
+  "description": "Explore the Synopsys Newsroom for the latest company news, press releases, media coverage, and resources for journalists and analysts.",
+  "og": {
+    "title": "Synopsys Newsroom: Latest News, Expert Views, and Upcoming Events",
+    "description": "Explore the Synopsys Newsroom for the latest company news, press releases, media coverage, and resources for journalists and analysts.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Featured Story"
+    },
+    {
+      "tag": "h2",
+      "text": "Upcoming Events"
+    },
+    {
+      "tag": "h2",
+      "text": "Media & Industry Analysts"
+    },
+    {
+      "tag": "h2",
+      "text": "Latest News"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys Converge 2026 Newsroom"
+    },
+    {
+      "tag": "h2",
+      "text": "Follow Us"
+    },
+    {
+      "tag": "h2",
+      "text": "Recent Synopsys Stories"
+    },
+    {
+      "tag": "h4",
+      "text": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt"
+    },
+    {
+      "tag": "h4",
+      "text": "India\u2019s Semiconductor Ecosystem is Moving from Participation to Influence"
+    },
+    {
+      "tag": "h4",
+      "text": "HPE: Accelerating High-Performance Computing Through Smarter Tools and Collaboration"
+    },
+    {
+      "tag": "h3",
+      "text": "Search News Release"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys News Archive"
+    },
+    {
+      "tag": "h2",
+      "text": "Ansys News Archive"
+    },
+    {
+      "tag": "h2",
+      "text": "Glossary"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Newsroom",
+    "Newsroom",
+    "Please contact corp-pr@synopsys.com",
+    "To get updates from the Synopsys Newsroom:",
+    "Get the latest from Synopsys Converge Newsroom.",
+    "Explore past news, updates, and announcements from Synopsys.",
+    "Simulation & analysis news releases issued prior to July 17, 2025.",
+    "Discover EDA and IP terms with clear, expert definitions from Synopsys.",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Newsroom",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Aug 26, 2026 Aug 26, 2026 News Synopsys Posts Financial Results for Third quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "Jul 27, 2026 Jul 27, 2026 News Synopsys and Intel Foundry Fast-Track Customer Readiness from Silicon to Systems on Intel 14A",
+      "href": "https://news.synopsys.com/2026-07-27-Synopsys-and-Intel-Foundry-Fast-Track-Customer-Readiness-from-Silicon-to-Systems-on-Intel-14A"
+    },
+    {
+      "label": "Jul 27, 2026 Jul 27, 2026 News Synopsys Advances Agentic AI Chip Design with AMD and Microsoft",
+      "href": "https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft"
+    },
+    {
+      "label": "Jul 26, 2026 Jul 26, 2026 News Synopsys Showcases Comprehensive Autonomous Engineering Workflows from Silicon to Systems, Developed with NVIDIA Technology",
+      "href": "https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems,-Developed-with-NVIDIA-Technology"
+    },
+    {
+      "label": "Aug 27, 2026 Austin Tech Symposium Hyatt Regency Austin, TX",
+      "href": "https://events.synopsys.com/event/austintechsymposium/summary?RefId=Events+AEM"
+    },
+    {
+      "label": "Sep 15-17, 2026 AI Infra Summit Santa Clara Convention Center",
+      "href": "https://www.ai-infra-summit.com/"
+    },
+    {
+      "label": "Sep 30, 2026 Synopsys Investor Day New York City, NY",
+      "href": "https://events.synopsys.com/event/SynopsysInvestorDay2026/summary"
+    },
+    {
+      "label": "Explore All Events",
+      "href": "/events.html"
+    },
+    {
+      "label": "corp-pr@synopsys.com",
+      "href": "mailto:corp-pr@synopsys.com"
+    },
+    {
+      "label": "Subscribe",
+      "href": "https://news.synopsys.com/index.php?s=20300"
+    },
+    {
+      "label": "Explore",
+      "href": "/converge/newsroom.html"
+    },
+    {
+      "label": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "Greg Sorber",
+      "href": "/authors/greg-sorber.html"
+    },
+    {
+      "label": "Executive Voices",
+      "href": "/blogs/chip-design/category.executive-voices.html"
+    },
+    {
+      "label": "AI & Machine Learning",
+      "href": "/blogs/chip-design/category.ai-and-machine-learning.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Physical Implementation",
+      "href": "/blogs/chip-design/category.physical-implementation.html"
+    },
+    {
+      "label": "Energy-Efficient SoCs",
+      "href": "/blogs/chip-design/category.energy-efficient-socs.html"
+    },
+    {
+      "label": "Design Technology Co-Optimization",
+      "href": "/blogs/chip-design/category.design-technology-co-optimization.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/blogs/chip-design/category.hpc-data-center.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/energy-efficient-ai-per-watt.html"
+    },
+    {
+      "label": "India\u2019s Semiconductor Ecosystem is Moving from Participation to Influence",
+      "href": "/blogs/chip-design/india-semiconductor-industry-influence.html"
+    },
+    {
+      "label": "Sudeep Shivalli",
+      "href": "/authors/sudeep-shivalli.html"
+    },
+    {
+      "label": "Executive Voices",
+      "href": "/blogs/chip-design/category.executive-voices.html"
+    },
+    {
+      "label": "Aerospace & Government",
+      "href": "/blogs/chip-design/category.aerospace-and-government.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/india-semiconductor-industry-influence.html"
+    },
+    {
+      "label": "HPE: Accelerating High-Performance Computing Through Smarter Tools and Collaboration",
+      "href": "/blogs/chip-design/hpe-hpc-chip-design-tools.html"
+    },
+    {
+      "label": "Wim Slagter",
+      "href": "/authors/wim-slagter.html"
+    },
+    {
+      "label": "Cloud",
+      "href": "/blogs/chip-design/category.cloud.html"
+    },
+    {
+      "label": "Design",
+      "href": "/blogs/chip-design/category.design.html"
+    },
+    {
+      "label": "About Synopsys",
+      "href": "/blogs/chip-design/category.about-synopsys.html"
+    },
+    {
+      "label": "HPC, Data Center",
+      "href": "/blogs/chip-design/category.hpc-data-center.html"
+    },
+    {
+      "label": "Read Article",
+      "href": "/blogs/chip-design/hpe-hpc-chip-design-tools.html"
+    },
+    {
+      "label": "Read More Stories",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Visit Synopsys News Archive",
+      "href": "https://news.synopsys.com/"
+    },
+    {
+      "label": "Visit Ansys News Archive",
+      "href": "https://ansys.synopsys.com/news-center/press-releases"
+    },
+    {
+      "label": "Visit Glossary",
+      "href": "https://www.synopsys.com/glossary.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/newsroom.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://news.synopsys.com/2026-07-27-Synopsys-and-Intel-Foundry-Fast-Track-Customer-Readiness-from-Silicon-to-Systems-on-Intel-14A",
+    "https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft",
+    "https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems,-Developed-with-NVIDIA-Technology",
+    "https://events.synopsys.com/event/austintechsymposium/summary?RefId=Events+AEM",
+    "https://www.ai-infra-summit.com/",
+    "https://events.synopsys.com/event/SynopsysInvestorDay2026/summary",
+    "mailto:corp-pr@synopsys.com",
+    "https://news.synopsys.com/index.php?s=20300",
+    "https://www.synopsys.com/converge/newsroom.html",
+    "https://www.linkedin.com/company/synopsys",
+    "https://x.com/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/blogs/chip-design/rf-digital-twin-of-the-moon.html",
+    "https://www.synopsys.com/authors/shawn-carpenter.html",
+    "https://www.synopsys.com/blogs/chip-design/category.aerospace-and-government.html",
+    "https://www.synopsys.com/blogs/chip-design/category.rf-design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.simulation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design.html",
+    "https://www.synopsys.com/blogs/chip-design/category.about-synopsys.html",
+    "https://www.synopsys.com/blogs/chip-design/category.verification.html",
+    "https://www.synopsys.com/blogs/chip-design/multi-die-multiphysics-co-design.html",
+    "https://www.synopsys.com/authors/greg-sorber.html",
+    "https://www.synopsys.com/blogs/chip-design/category.executive-voices.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multi-die-system.html",
+    "https://www.synopsys.com/blogs/chip-design/category.ai-and-machine-learning.html",
+    "https://www.synopsys.com/blogs/chip-design/physics-chip-design-constraint.html",
+    "https://www.synopsys.com/authors/larry-williams.html",
+    "https://www.synopsys.com/blogs/chip-design/category.engineering-central.html",
+    "https://www.synopsys.com/blogs/chip-design/category.multiphysics-fusion.html",
+    "https://www.synopsys.com/blogs/chip-design/energy-efficient-ai-per-watt.html",
+    "https://www.synopsys.com/blogs/chip-design/category.physical-implementation.html",
+    "https://www.synopsys.com/blogs/chip-design/category.energy-efficient-socs.html",
+    "https://www.synopsys.com/blogs/chip-design/category.design-technology-co-optimization.html",
+    "https://www.synopsys.com/blogs/chip-design/category.hpc-data-center.html",
+    "https://www.synopsys.com/blogs/chip-design/india-semiconductor-industry-influence.html",
+    "https://www.synopsys.com/authors/sudeep-shivalli.html",
+    "https://www.synopsys.com/blogs/chip-design/hpe-hpc-chip-design-tools.html",
+    "https://www.synopsys.com/authors/wim-slagter.html",
+    "https://www.synopsys.com/blogs/chip-design/category.cloud.html",
+    "https://news.synopsys.com/",
+    "https://ansys.synopsys.com/news-center/press-releases",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/newsroom-hero-1287065372-1900x300?qlt=82&wid=1900&ts=1786486642022&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys News & Views Hero Banner",
+        "w": 1440,
+        "h": 227
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-sunnyvale-HQ?qlt=82&wid=1200&ts=1787773318231&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 960,
+        "h": 540
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/dac2026-intel-snps-14a-news-16-9?qlt=82&wid=1200&ts=1785155625504&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/dac-2026-snps-msft-amd-news?qlt=82&wid=1200&ts=1785162430301&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/dac2026-hero-image-snps-nvd-16-9?qlt=82&wid=1200&ts=1785110066236&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/digital-twin-moon-synopsys-ansys-image-400x225?ts=1785859360499&$responsive$",
+        "alt": "Creating a Digital Twin of the Moon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/shawn-carpenter-headshot?ts=1783359520315&$responsive$",
+        "alt": "Shawn Carpenter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-panel-synopsys-executive-forum-400x225?ts=1787683192975&$responsive$",
+        "alt": "Multi-Die, Multiphysics, and the New Rules of Chip Design",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-chip-design-image-400x225?ts=1784734346946&$responsive$",
+        "alt": "Silicon Meets Reality: Why Physics Is Now a First-Order Design Constraint for Chips",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/larry-williams-headshot?ts=1778263219482&$responsive$",
+        "alt": "Larry Williams",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-data-center-energy-efficiency-electricity-meter-image-400x225?ts=1788296260596&$responsive$",
+        "alt": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/india-semiconductor-ecosystem-bangalore-skyline-400x225?ts=1787769695465&$responsive$",
+        "alt": "India\u2019s Semiconductor Ecosystem is Moving from Participation to Influence",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sudeep-shivalli-headshot?ts=1784734173885&$responsive$",
+        "alt": "Sudeep Shivalli",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hpe-hpc-board-heatsink-image-400x225?ts=1786635886239&$responsive$",
+        "alt": "HPE: Accelerating High-Performance Computing Through Smarter Tools and Collaboration",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/wim-slagter-headshot?ts=1781121634021&$responsive$",
+        "alt": "Wim Slagter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/digital-twin-moon-synopsys-ansys-image-400x225?ts=1785859360499&$responsive$",
+        "alt": "Creating a Digital Twin of the Moon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/shawn-carpenter-headshot?ts=1783359520315&$responsive$",
+        "alt": "Shawn Carpenter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-panel-synopsys-executive-forum-400x225?ts=1787683192975&$responsive$",
+        "alt": "Multi-Die, Multiphysics, and the New Rules of Chip Design",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-chip-design-image-400x225?ts=1784734346946&$responsive$",
+        "alt": "Silicon Meets Reality: Why Physics Is Now a First-Order Design Constraint for Chips",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/larry-williams-headshot?ts=1778263219482&$responsive$",
+        "alt": "Larry Williams",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ai-data-center-energy-efficiency-electricity-meter-image-400x225?ts=1788296260596&$responsive$",
+        "alt": "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/india-semiconductor-ecosystem-bangalore-skyline-400x225?ts=1787769695465&$responsive$",
+        "alt": "India\u2019s Semiconductor Ecosystem is Moving from Participation to Influence",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/sudeep-shivalli-headshot?ts=1784734173885&$responsive$",
+        "alt": "Sudeep Shivalli",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hpe-hpc-board-heatsink-image-400x225?ts=1786635886239&$responsive$",
+        "alt": "HPE: Accelerating High-Performance Computing Through Smarter Tools and Collaboration",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/wim-slagter-headshot?ts=1781121634021&$responsive$",
+        "alt": "Wim Slagter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/digital-twin-moon-synopsys-ansys-image-400x225?ts=1785859360499&$responsive$",
+        "alt": "Creating a Digital Twin of the Moon",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/shawn-carpenter-headshot?ts=1783359520315&$responsive$",
+        "alt": "Shawn Carpenter",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multi-die-panel-synopsys-executive-forum-400x225?ts=1787683192975&$responsive$",
+        "alt": "Multi-Die, Multiphysics, and the New Rules of Chip Design",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/greg-sorber-headshot?ts=1740768473049&$responsive$",
+        "alt": "Greg Sorber",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-chip-design-image-400x225?ts=1784734346946&$responsive$",
+        "alt": "Silicon Meets Reality: Why Physics Is Now a First-Order Design Constraint for Chips",
+        "w": 400,
+        "h": 225
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/larry-williams-headshot?ts=1778263219482&$responsive$",
+        "alt": "Larry Williams",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 63,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 18,
+    "mainTextLen": 139113,
+    "realImageCount": 58,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/newsroom-html.png",
+  "renderedHtml": "pages/newsroom-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "index-headline": "Synopsys Newsroom: Latest News, Expert Views, and Upcoming Events",
+    "filter-controls": false,
+    "card-grid": {
+      "cardTitles": [
+        "Energy-Efficient AI: How the Silicon Industry Is Engineering More Intelligence Out of Every Watt",
+        "India\u2019s Semiconductor Ecosystem is Moving from Participation to Influence",
+        "HPE: Accelerating High-Performance Computing Through Smarter Tools and Collaboration"
+      ],
+      "cardCount": 3,
+      "subSlots": [
+        "image",
+        "label",
+        "title",
+        "meta",
+        "link"
+      ]
+    }
+  },
+  "pageType": "listing"
+}

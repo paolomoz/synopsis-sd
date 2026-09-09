@@ -1,0 +1,1064 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:37.870Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "designware-ip-html",
+  "url": "https://www.synopsys.com/designware-ip.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:37.870Z",
+  "finalUrl": "https://www.synopsys.com/designware-ip.html",
+  "title": "Semiconductor IP \u2013 Silicon IP | Synopsys IP",
+  "description": "Synopsys silicon-proven Semiconductor IP - logic libraries, embedded memories, analog IP, interface IP, security IP and subsystems - speed time-to-market.",
+  "og": {
+    "title": " Semiconductor IP \u2013 Silicon IP | Synopsys IP",
+    "description": "Synopsys silicon-proven Semiconductor IP - logic libraries, embedded memories, analog IP, interface IP, security IP and subsystems - speed time-to-market.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Accelerate Your Silicon Success with High-Quality IP"
+    },
+    {
+      "tag": "h2",
+      "text": "What's New"
+    },
+    {
+      "tag": "h4",
+      "text": "From Gate\u2011All\u2011Around to Complementary FETs: What\u2019s Next in Transistor Scaling"
+    },
+    {
+      "tag": "h4",
+      "text": "Enabling the Next Generation of AI Infrastructure with Ethernet for Scale-Up Networking (ESUN)"
+    },
+    {
+      "tag": "h4",
+      "text": "Inside the AI Accelerator: Essential IP Design Solutions"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore By Market"
+    },
+    {
+      "tag": "h4",
+      "text": "High-Performance Computing"
+    },
+    {
+      "tag": "h4",
+      "text": "Edge AI"
+    },
+    {
+      "tag": "h4",
+      "text": "Automotive"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore Synopsys IP Products"
+    },
+    {
+      "tag": "h2",
+      "text": "Find Your IP"
+    },
+    {
+      "tag": "h2",
+      "text": "Search for IP"
+    },
+    {
+      "tag": "h2",
+      "text": "Foundation IP Selector"
+    },
+    {
+      "tag": "h2",
+      "text": "Non-Volatile Memory IP Selector"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Synopsys IP OEM Partners"
+    },
+    {
+      "tag": "h4",
+      "text": "IP Reuse Tools"
+    },
+    {
+      "tag": "h2",
+      "text": "FAQ"
+    },
+    {
+      "tag": "h4",
+      "text": "What is Synopsys Silicon IP and how can it benefit my SoC design?"
+    },
+    {
+      "tag": "h4",
+      "text": "What types of interface standards does Synopsys Interface IP support?"
+    },
+    {
+      "tag": "h4",
+      "text": "Why is Security IP critical in modern semiconductor design?"
+    },
+    {
+      "tag": "h4",
+      "text": "What is Synopsys Foundation IP, and why is it essential for SoC design?\u200b"
+    },
+    {
+      "tag": "h4",
+      "text": "How does Synopsys Foundation IP help reduce development time, design risk, and TCO?\u200b"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Synopsys IP Foundation IP Interface IP Interface IP Subsystems IP Accelerated Solutions by Market Security IP SoC Infrastructure STAR Hierarchical System Technical Bulletin",
+    "Synopsys IP",
+    "Overview",
+    "What's New",
+    "Explore by Market",
+    "Explore by IP",
+    "Resources",
+    "FAQ",
+    "Synopsys is a leading provider of high-quality, silicon-proven semiconductor IP solutions for SoC designs. The broad Synopsys IP portfolio includes logic libraries, embedded memories, I/O libraries, non-volatile-memories, interface IP, security IP and subsystems. To accelerate IP integration and silicon bring-up, Synopsys\u2019 IP Accelerated initiative provides architecture design expertise, hardening, and signal/power integrity analysis. Synopsys' extensive investment in IP quality, comprehensive technical support and robust IP development methodology enables designers to reduce integration risk and accelerate time-to-market.",
+    "High-performance, low-power IP for scaling up and out AI networks, communication, and enhancing storage.",
+    "Industry-leading IP solutions tailored for Edge AI applications, enabling seamless integration and exceptional performance in low-power environments.",
+    "Broad automotive IP portfolio for ADAS, connected vehicle & infotainment and gateways.",
+    "Interface IP CCIX CXL DDR Die-to-Die DisplayPort Ethernet ESUN IP HBM HDMI High-Speed SerDes MIPI Mobile Storage Multi-Protocol PHYs PCI Express Secure Interfaces UALink USB VESA DSC Interface IP Subsystems",
+    "SoC Infrastructure DesignWare Library Foundation Cores Verification IP AMBA SLM IP",
+    "Foundation IP Logic Libraries Memory Compilers MRAM and RRAM Compilers TCAM Compilers IO Libraries Non-Volatile Memory",
+    "IP Accelerated Interface IP Subsystems Signal/Power Integrity & Hardening Embedded Test and Repair Silicon Bring-Up",
+    "Security IP Root of Trust Interface Security Modules Cryptography IP Protocol Accelerators Security IP Brochure",
+    "IP Subsystems",
+    "Quickly identify and access the right IP solutions for your project needs.",
+    "Find embedded memory and logic IP for your SoC design.",
+    "Find silicon-proven NVM IP for your SoC design needs.",
+    "Accelerate SoC design with trusted, high-quality connectivity IP from Synopsys and partners.",
+    "Quickly configure, implement, and verify reusable IP blocks with Synopsys IP reuse tools.",
+    "Talk with an IP Expert",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Synopsys IP",
+      "href": "/designware-ip.html"
+    },
+    {
+      "label": "IP Overview Brochure",
+      "href": "/resources/synopsys-ip-portfolio-brochure.html"
+    },
+    {
+      "label": "IP eBook",
+      "href": "/resources/proven-ip-for-silicon-design.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/designware-ip/contact-us.html"
+    },
+    {
+      "label": "logic libraries",
+      "href": "https://www.synopsys.com/designware-ip/memories-logic-libraries.html"
+    },
+    {
+      "label": "embedded memories",
+      "href": "/designware-ip/memories-logic-libraries/sram-memory-compilers.html"
+    },
+    {
+      "label": "I/O libraries",
+      "href": "/designware-ip/memories-logic-libraries/io-library-ip.html"
+    },
+    {
+      "label": "non-volatile-memories",
+      "href": "/designware-ip/memories-logic-libraries/non-volatile-memory.html"
+    },
+    {
+      "label": "interface IP",
+      "href": "https://www.synopsys.com/designware-ip/interface-ip.html"
+    },
+    {
+      "label": "security IP",
+      "href": "https://www.synopsys.com/designware-ip/security-ip.html"
+    },
+    {
+      "label": "subsystems",
+      "href": "https://www.synopsys.com/designware-ip/ip-subsystems.html"
+    },
+    {
+      "label": "Synopsys\u2019 IP Accelerated",
+      "href": "https://www.synopsys.com/designware-ip/ip-accelerated.html"
+    },
+    {
+      "label": "Read",
+      "href": "/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling.html"
+    },
+    {
+      "label": "Read",
+      "href": "/blogs/chip-design/esun-ethernet-ai-scale-up-networking.html"
+    },
+    {
+      "label": "Download",
+      "href": "/resources/inside-ai-accelerator.html"
+    },
+    {
+      "label": "Explore HPC Solutions",
+      "href": "/designware-ip/ip-market-segments/hpc.html"
+    },
+    {
+      "label": "Explore Edge AI Solutions",
+      "href": "/designware-ip/ip-market-segments/edge-ai.html"
+    },
+    {
+      "label": "Explore Automotive Solutions",
+      "href": "/designware-ip/ip-market-segments/automotive.html"
+    },
+    {
+      "label": "Interface IP",
+      "href": "/designware-ip/interface-ip.html"
+    },
+    {
+      "label": "SoC Infrastructure",
+      "href": "/designware-ip/soc-infrastructure-ip.html"
+    },
+    {
+      "label": "Foundation IP",
+      "href": "/designware-ip/memories-logic-libraries.html"
+    },
+    {
+      "label": "IP Accelerated",
+      "href": "/designware-ip/ip-accelerated.html"
+    },
+    {
+      "label": "Security IP",
+      "href": "/designware-ip/security-ip.html"
+    },
+    {
+      "label": "IP Subsystems",
+      "href": "/designware-ip/ip-subsystems.html"
+    },
+    {
+      "label": "Explore",
+      "href": "https://www.synopsys.com/dw/emllselector.php"
+    },
+    {
+      "label": "Explore",
+      "href": "https://www.synopsys.com/dw/nvmipselector.php"
+    },
+    {
+      "label": "Read the Latest Edition",
+      "href": "/designware-ip/technical-bulletin.html"
+    },
+    {
+      "label": "Discover IP Partners",
+      "href": "/designware-ip/ip-oem-partners.html"
+    },
+    {
+      "label": "Streamline Your Design",
+      "href": "/designware-ip/ip-reuse-tool.html"
+    },
+    {
+      "label": "What is Synopsys Silicon IP and how can it benefit my SoC design?",
+      "href": null
+    },
+    {
+      "label": "What types of interface standards does Synopsys Interface IP support?",
+      "href": null
+    },
+    {
+      "label": "Why is Security IP critical in modern semiconductor design?",
+      "href": null
+    },
+    {
+      "label": "What is Synopsys Foundation IP, and why is it essential for SoC design?\u200b",
+      "href": null
+    },
+    {
+      "label": "How does Synopsys Foundation IP help reduce development time, design risk, and TCO?\u200b",
+      "href": null
+    },
+    {
+      "label": "Contact Us",
+      "href": "/designware-ip/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/designware-ip.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/designware-ip/ip-subsystems.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated.html",
+    "https://www.synopsys.com/designware-ip/star-hierarchical-test.html",
+    "https://www.synopsys.com/designware-ip/technical-bulletin.html",
+    "https://www.synopsys.com/resources/synopsys-ip-portfolio-brochure.html",
+    "https://www.synopsys.com/resources/proven-ip-for-silicon-design.html",
+    "https://www.synopsys.com/designware-ip/contact-us.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/sram-memory-compilers.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/io-library-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/non-volatile-memory.html",
+    "https://www.synopsys.com/resources/securing-silicon-modular-ip-solutions.html",
+    "https://www.synopsys.com/resources/sram-compiler-breakthroughs-5nm-3nm-socs.html",
+    "https://www.synopsys.com/blogs/chip-design/copper-ai-interconnect.html",
+    "https://www.synopsys.com/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling.html",
+    "https://www.synopsys.com/blogs/chip-design/esun-ethernet-ai-scale-up-networking.html",
+    "https://www.synopsys.com/resources/inside-ai-accelerator.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/hpc.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/automotive.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ccix.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/cxl.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ddr.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/displayport.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ethernet/ethernet-scale-up-networking-esun.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hbm.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/hdmi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/serdes-phy-ip.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mipi.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/mobile-storage.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/pci-express.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/secure-interfaces.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/ualink.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/usb.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/vesa-dsc.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/designware-library.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/foundation-cores.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip/amba.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/standard-cell.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/emram-rram-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries/tcam-memory-compilers.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated/ip-hardening.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation/synopsys-ip-sms.html",
+    "https://www.synopsys.com/designware-ip/ip-accelerated/silicon-bring-up.html",
+    "https://www.synopsys.com/designware-ip/security-ip/root-of-trust.html",
+    "https://www.synopsys.com/designware-ip/security-ip/interface-security-modules.html",
+    "https://www.synopsys.com/designware-ip/security-ip/cryptography-ip.html",
+    "https://www.synopsys.com/designware-ip/security-ip/security-protocol-accelerators.html",
+    "https://www.synopsys.com/designware-ip/security-ip/security-ip-brochure.html",
+    "https://www.synopsys.com/dw/emllselector.php",
+    "https://www.synopsys.com/dw/nvmipselector.php",
+    "https://www.synopsys.com/designware-ip/ip-oem-partners.html",
+    "https://www.synopsys.com/designware-ip/ip-reuse-tool.html",
+    "https://www.synopsys.com/designware-ip/interface-ip/die-to-die/ucie.html",
+    "https://www.synopsys.com/designware-ip/security-ip/cryptography-ip/puf.html",
+    "https://www.synopsys.com/designware-ip/security-ip/cryptography-ip/random-number-generators.html",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/security-ebook-social-center?qlt=82&wid=1200&ts=1776813680868&$responsive$&fit=constrain&dpr=off",
+        "alt": "Securing Silicon From the Start: Modular IP Solutions for Long-Term Resilience",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/embedded-memory-q226-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1776813730291&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating Automotive Innovation: SRAM Compiler Breakthroughs for 5nm and 3nm SoCs",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hyperscale-dc-infrastructure-cabling-thumbnail?qlt=82&wid=1200&ts=1782402019187&$responsive$&fit=constrain&dpr=off",
+        "alt": "Copper Comeback: How Kandou AI Plans to Break Through AI Infrastructure Bottlenecks",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cfet-fig4-social?qlt=82&wid=1200&ts=1787239726791&$responsive$&fit=constrain&dpr=off",
+        "alt": "Gate all around",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/esun-ethernet-ai-infrastructure-social-1?qlt=82&wid=1200&ts=1782401544501&$responsive$&fit=constrain&dpr=off",
+        "alt": "ESUN Ethernet",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-social?qlt=82&wid=1200&ts=1776813592267&$responsive$&fit=constrain&dpr=off",
+        "alt": "Inside the AI Accelerator: Essential IP Design Solutions",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/silicon-ip-ebook-social-1?qlt=82&wid=1200&ts=1782148958870&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/security-ebook-social-center?qlt=82&wid=1200&ts=1776813680868&$responsive$&fit=constrain&dpr=off",
+        "alt": "Securing Silicon From the Start: Modular IP Solutions for Long-Term Resilience",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/embedded-memory-q226-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1776813730291&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating Automotive Innovation: SRAM Compiler Breakthroughs for 5nm and 3nm SoCs",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hyperscale-dc-infrastructure-cabling-thumbnail?qlt=82&wid=1200&ts=1782402019187&$responsive$&fit=constrain&dpr=off",
+        "alt": "Copper Comeback: How Kandou AI Plans to Break Through AI Infrastructure Bottlenecks",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cfet-fig4-social?qlt=82&wid=1200&ts=1787239726791&$responsive$&fit=constrain&dpr=off",
+        "alt": "Gate all around",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/esun-ethernet-ai-infrastructure-social-1?qlt=82&wid=1200&ts=1782401544501&$responsive$&fit=constrain&dpr=off",
+        "alt": "ESUN Ethernet",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-social?qlt=82&wid=1200&ts=1776813592267&$responsive$&fit=constrain&dpr=off",
+        "alt": "Inside the AI Accelerator: Essential IP Design Solutions",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/silicon-ip-ebook-social-1?qlt=82&wid=1200&ts=1782148958870&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/security-ebook-social-center?qlt=82&wid=1200&ts=1776813680868&$responsive$&fit=constrain&dpr=off",
+        "alt": "Securing Silicon From the Start: Modular IP Solutions for Long-Term Resilience",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/embedded-memory-q226-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1776813730291&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating Automotive Innovation: SRAM Compiler Breakthroughs for 5nm and 3nm SoCs",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hyperscale-dc-infrastructure-cabling-thumbnail?qlt=82&wid=1200&ts=1782402019187&$responsive$&fit=constrain&dpr=off",
+        "alt": "Copper Comeback: How Kandou AI Plans to Break Through AI Infrastructure Bottlenecks",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/cloud-computing-hero-banner-1900x500?qlt=82&wid=1200&ts=1777394807193&$responsive$&fit=constrain&dpr=off",
+        "alt": "Server room",
+        "w": 1440,
+        "h": 379
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/mobile-social?qlt=82&wid=1200&ts=1777394823295&$responsive$&fit=constrain&dpr=off",
+        "alt": "SNPS1736284077",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/IP_MarketSegments_Automotive_B-roll_DSC8349_Spotlight?qlt=82&wid=1200&ts=1777394838134&$responsive$&fit=constrain&dpr=off",
+        "alt": "Man driving car",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 49,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    ],
+    "videos": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/designware-ip/ip-hero-banner-v2-compressed.mp4",
+        "poster": "https://images.synopsys.com/is/image/synopsys/ip-hero-banner-loader?ts=1786723600284&$responsive$",
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 26,
+    "mainTextLen": 140548,
+    "realImageCount": 43,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/designware-ip-html.png",
+  "renderedHtml": "pages/designware-ip-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Semiconductor IP \u2013 Silicon IP",
+    "summary": "Synopsys silicon-proven Semiconductor IP - logic libraries, embedded memories, analog IP, interface IP, security IP and subsystems - speed time-to-market.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": false,
+      "items": [
+        "From Gate\u2011All\u2011Around to Complementary FETs: What\u2019s Next in Transistor Scaling",
+        "Enabling the Next Generation of AI Infrastructure with Ethernet for Scale-Up Networking (ESUN)",
+        "Inside the AI Accelerator: Essential IP Design Solutions",
+        "High-Performance Computing",
+        "Edge AI",
+        "Automotive"
+      ]
+    },
+    "sections": [
+      "Accelerate Your Silicon Success with High-Quality IP",
+      "What's New",
+      "Explore By Market",
+      "Explore Synopsys IP Products",
+      "Find Your IP",
+      "Search for IP",
+      "Foundation IP Selector",
+      "Non-Volatile Memory IP Selector",
+      "Resources",
+      "FAQ"
+    ],
+    "cta-band": false
+  },
+  "pageType": "program"
+}

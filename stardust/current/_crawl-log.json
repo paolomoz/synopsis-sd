@@ -1,0 +1,318 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-09T15:12:44Z",
+    "stardustVersion": "0.19.8"
+  },
+  "discovery": {
+    "source": "sitemap.xml (index) \u2192 hosted leaf sitemap",
+    "sourceUrl": "https://a245066.sitemaphosting5.com/4214691/synopsys-sitemap.xml",
+    "fetchedAt": "2026-09-09T15:12:44Z",
+    "discoveredCount": 7276,
+    "wwwCount": 6679,
+    "localeCopies": {
+      "ja-jp": 962,
+      "zh-cn": 729,
+      "zh-tw": 344,
+      "ko-kr": 46
+    },
+    "filteredCount": 4598,
+    "filteredAsJunk": [],
+    "waitMode": "medium",
+    "cap": 64,
+    "capSource": "prompt-intent",
+    "userChoice": "hands-off volume policy: 64-page representative roster (header/footer-linked pages, section landings, template spread); full 4598-page en-US inventory exceeds the 100-page --all confirmation threshold",
+    "kept": [
+      {
+        "url": "https://www.synopsys.com/"
+      },
+      {
+        "url": "https://www.synopsys.com/solutions.html"
+      },
+      {
+        "url": "https://www.synopsys.com/ai.html"
+      },
+      {
+        "url": "https://www.synopsys.com/cloud.html"
+      },
+      {
+        "url": "https://www.synopsys.com/verification.html"
+      },
+      {
+        "url": "https://www.synopsys.com/designware-ip.html"
+      },
+      {
+        "url": "https://www.synopsys.com/manufacturing.html"
+      },
+      {
+        "url": "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html"
+      },
+      {
+        "url": "https://www.synopsys.com/implementation-and-signoff/signoff.html"
+      },
+      {
+        "url": "https://www.synopsys.com/verification/emulation-prototyping.html"
+      },
+      {
+        "url": "https://www.synopsys.com/solutions/silicon-lifecycle-management.html"
+      },
+      {
+        "url": "https://www.synopsys.com/verification/simulation/vcs.html"
+      },
+      {
+        "url": "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html"
+      },
+      {
+        "url": "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html"
+      },
+      {
+        "url": "https://www.synopsys.com/designware-ip/interface-ip.html"
+      },
+      {
+        "url": "https://www.synopsys.com/verification/emulation-prototyping/emulation.html"
+      },
+      {
+        "url": "https://www.synopsys.com/solutions/automotive.html"
+      },
+      {
+        "url": "https://www.synopsys.com/solutions/hpc-data-center.html"
+      },
+      {
+        "url": "https://www.synopsys.com/ai/agentic-ai.html"
+      },
+      {
+        "url": "https://www.synopsys.com/solutions/multi-die-design.html"
+      },
+      {
+        "url": "https://www.synopsys.com/solutions/multiphysics-fusion.html"
+      },
+      {
+        "url": "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html"
+      },
+      {
+        "url": "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html"
+      },
+      {
+        "url": "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+      },
+      {
+        "url": "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html"
+      },
+      {
+        "url": "https://www.synopsys.com/glossary/what-are-chiplets.html"
+      },
+      {
+        "url": "https://www.synopsys.com/articles/ai-powered-analog-design.html"
+      },
+      {
+        "url": "https://www.synopsys.com/articles/multi-die-design-3d-ip.html"
+      },
+      {
+        "url": "https://www.synopsys.com/success-stories/electronics-digital-twins-volvo-cars.html"
+      },
+      {
+        "url": "https://www.synopsys.com/success-stories/intel-self-timed-sram-timing-verification-nanotime.html"
+      },
+      {
+        "url": "https://www.synopsys.com/webinars/deep-dive-synopsys-ai.html"
+      },
+      {
+        "url": "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html"
+      },
+      {
+        "url": "https://www.synopsys.com/authors/sassine-ghazi.html"
+      },
+      {
+        "url": "https://www.synopsys.com/events/virtual-prototyping-day.html"
+      },
+      {
+        "url": "https://www.synopsys.com/blogs/chip-design.html"
+      },
+      {
+        "url": "https://www.synopsys.com/authors.html"
+      },
+      {
+        "url": "https://www.synopsys.com/success-stories.html"
+      },
+      {
+        "url": "https://www.synopsys.com/success-stories/view-all.html"
+      },
+      {
+        "url": "https://www.synopsys.com/glossary.html"
+      },
+      {
+        "url": "https://www.synopsys.com/webinars.html"
+      },
+      {
+        "url": "https://www.synopsys.com/resources.html"
+      },
+      {
+        "url": "https://www.synopsys.com/events.html"
+      },
+      {
+        "url": "https://www.synopsys.com/newsroom.html"
+      },
+      {
+        "url": "https://www.synopsys.com/articles.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/management-team.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/corporate-governance-ethics.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/responsible-business.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/acquisitions.html"
+      },
+      {
+        "url": "https://www.synopsys.com/partners.html"
+      },
+      {
+        "url": "https://www.synopsys.com/academic-research.html"
+      },
+      {
+        "url": "https://www.synopsys.com/startup-innovation.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/legal/privacy-policy.html"
+      },
+      {
+        "url": "https://www.synopsys.com/sitemap.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/contact-synopsys.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/contact-synopsys/office-locations.html"
+      },
+      {
+        "url": "https://www.synopsys.com/support.html"
+      },
+      {
+        "url": "https://www.synopsys.com/support/global-support-centers.html"
+      },
+      {
+        "url": "https://www.synopsys.com/community.html"
+      },
+      {
+        "url": "https://www.synopsys.com/community/snug.html"
+      },
+      {
+        "url": "https://www.synopsys.com/services/design-services.html"
+      },
+      {
+        "url": "https://www.synopsys.com/company/executive-briefing-center.html"
+      },
+      {
+        "url": "https://www.synopsys.com/careers.html"
+      },
+      {
+        "url": "https://www.synopsys.com/careers/benefits.html"
+      }
+    ],
+    "cut": "4534 remaining en-US pages (blogs 1084, authors 443, content 415, resources 358, designware-ip 326, dw 306, articles 301, verification 209, webinars 208, \u2026) \u2014 see stardust/current/_sitemap-locs.txt",
+    "notes": [
+      "Cloudflare present but no challenge on browser UA; headless chromium sufficed",
+      "locale subtrees excluded per ia-extraction.md \u00a7 Multi-locale (default locale only)"
+    ],
+    "fetchTechnique": "headless",
+    "count": 64,
+    "concurrency": 4
+  },
+  "consent": {
+    "method": "auto (crawl.mjs selector pass) \u2014 OneTrust banner loads after the dismissal pass on home; home screenshot re-shot via scripts/reshoot.mjs with #onetrust-accept-btn-handler click; 7 records had the OneTrust h2 \"Before you continue to Synopsys.com\" scrubbed post-capture"
+  },
+  "favicon": {
+    "url": "https://www.synopsys.com/etc.clientlibs/synopsys/clientlibs/synopsys-pagelibs/resources/images/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "startedAt": "2026-09-09T14:58:00Z",
+    "finishedAt": "2026-09-09T15:08:00Z",
+    "successes": 64,
+    "failures": [],
+    "technique": "headless",
+    "concurrency": 4
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "recaptured",
+      "notes": "OneTrust banner over hero in first capture; re-shot with consent accepted \u2014 hero video poster, tagline band, 4 pillar cards, partner logos, What's New carousel, Connect band, footer all present"
+    },
+    {
+      "slug": "verification-html",
+      "verdict": "ok",
+      "notes": "purple photo hero + anchor nav + Key Benefits + carousel + CTA band match record"
+    },
+    {
+      "slug": "verification-simulation-vcs-html",
+      "verdict": "ok",
+      "notes": "gradient title hero, Datasheet CTA, benefits, VCS diagram, resources carousel"
+    },
+    {
+      "slug": "blogs-chip-design-multiphysics-chip-design-challenges-html",
+      "verdict": "ok",
+      "notes": "purple title band, TOC + subscribe sidebar, inline images, Continue Reading"
+    },
+    {
+      "slug": "blogs-chip-design-html",
+      "verdict": "ok",
+      "notes": "spotlight, 8-card grid, faceted list with pagination"
+    },
+    {
+      "slug": "company-management-team-html",
+      "verdict": "ok",
+      "notes": "portrait grid, no hero band"
+    },
+    {
+      "slug": "success-stories-electronics-digital-twins-volvo-cars-html",
+      "verdict": "ok",
+      "notes": "two-column gated form template, Volvo logo"
+    },
+    {
+      "slug": "company-contact-synopsys-html",
+      "verdict": "ok",
+      "notes": "gradient title hero, icon tile grid"
+    }
+  ],
+  "visionCheckPolicy": "8 of 64 screenshots inspected visually (one per template family + home); remaining 56 pass the heuristic gate (live provenance, no spaShellSuspect, no duplicateOf, bg>0 or big imgs>0) and share the templates inspected",
+  "siblingCandidates": [
+    {
+      "origin": "https://news.synopsys.com",
+      "confidence": "high",
+      "evidence": "255 sitemap URLs; footer Trending links",
+      "decision": "excluded (out of scope for pilot)"
+    },
+    {
+      "origin": "https://careers.synopsys.com",
+      "confidence": "high",
+      "evidence": "footer Company > Careers; 90 sitemap URLs",
+      "decision": "excluded"
+    },
+    {
+      "origin": "https://investor.synopsys.com",
+      "confidence": "high",
+      "evidence": "footer Investor Relations",
+      "decision": "excluded"
+    },
+    {
+      "origin": "https://training.synopsys.com",
+      "confidence": "medium",
+      "evidence": "35 sitemap URLs",
+      "decision": "excluded"
+    },
+    {
+      "origin": "https://ansys.synopsys.com",
+      "confidence": "medium",
+      "evidence": "utility-bar Ansys co-brand link",
+      "decision": "excluded"
+    }
+  ]
+}

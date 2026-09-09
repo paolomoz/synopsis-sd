@@ -1,0 +1,1114 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-09T15:01:51.914Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "verification-emulation-prototyping-emulation-html",
+  "url": "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-09T15:01:51.914Z",
+  "finalUrl": "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+  "title": "Emulation Systems | Synopsys",
+  "description": "Synopsys ZeBu Server delivers the industry's lowest total cost of ownership with lower power consumption and half the datacenter footprint.",
+  "og": {
+    "title": "Emulation Systems | Synopsys",
+    "description": "Synopsys ZeBu Server delivers the industry's lowest total cost of ownership with lower power consumption and half the datacenter footprint.",
+    "image": "https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "What's New"
+    },
+    {
+      "tag": "h4",
+      "text": "Introducing Software-Defined Hardware-Assisted Verification"
+    },
+    {
+      "tag": "h4",
+      "text": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design"
+    },
+    {
+      "tag": "h4",
+      "text": "Software-Defined Hardware-Assisted Verification for the AI Era"
+    },
+    {
+      "tag": "h4",
+      "text": "ZeBu-200 Spec Sheet"
+    },
+    {
+      "tag": "h2",
+      "text": "Synopsys ZeBu Emulation"
+    },
+    {
+      "tag": "h2",
+      "text": "ZeBu Server 5"
+    },
+    {
+      "tag": "h2",
+      "text": "ZeBu-200"
+    },
+    {
+      "tag": "h2",
+      "text": "ZeBu EP"
+    },
+    {
+      "tag": "h2",
+      "text": "ZeBu Technologies Drive Emulation Efficiency"
+    },
+    {
+      "tag": "h2",
+      "text": "Configurability for all Emulation and Prototyping Use Cases"
+    },
+    {
+      "tag": "h2",
+      "text": "What Our Customers Are Saying"
+    },
+    {
+      "tag": "h2",
+      "text": "Resources"
+    },
+    {
+      "tag": "h4",
+      "text": "Verifying AI Designs - Solving the Challenge of Quadrillions of Verification Cycles"
+    },
+    {
+      "tag": "h4",
+      "text": "Networking SoC Pre-Silicon Verification with Ixia IxVerify Test Solution and ZeBu"
+    },
+    {
+      "tag": "h4",
+      "text": "Rebellions Discusses AI Chip Emulation Using ZeBu"
+    },
+    {
+      "tag": "h4",
+      "text": "Software-Defined Hardware-Assisted Verification for the AI Era"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Trending"
+    },
+    {
+      "tag": "h3",
+      "text": "Learn"
+    }
+  ],
+  "body": [
+    "Why Synopsys",
+    "Solutions",
+    "Products",
+    "Support & Training",
+    "Resources",
+    "Home Contact Sales Products Design EDA Manufacturing Optical Silicon Photonics Systems Synopsys IP Verification Family Solutions Synopsys.ai Cloud Articles Authors Blogs Careers Community Company Demos Events Glossary Newsroom Partners Academic & Research Alliances Services Support Success Stories Webinars Startup Innovation Synopsys Converge",
+    "Verification Family Debug & Verification Management Emulation & Prototyping FPGA Design, Synthesis, and Verification Hardware-assisted Test Solutions ImperasDV Simulation SoC Verification Automation Static & Formal Verification STING Verification IP Virtual Prototyping VC Functional Safety Manager CoStart Services",
+    "Emulation & Prototyping Emulation HAV Interface Solutions Prototyping",
+    "Emulation ZeBu-200 ZeBu Cloud ZeBu Empower ZeBu EP ZeBu Server 5",
+    "Emulation",
+    "The industry's fastest emulation systems",
+    "Overview",
+    "What's New",
+    "Products",
+    "ZeBu Technologies",
+    "Use Cases",
+    "Testimonials",
+    "Resources",
+    "Synopsys software-defined ZeBu\u00ae emulation systems deliver the performance needed to make verification teams and software developers working on the most advanced chips successful. ZeBu emulation systems are modular, allowing users to deploy the capacity needed in a scalable and easily extensible fashion.",
+    "The Synopsys ZeBu\u00ae Server 5 emulation system delivers 2X the emulation performance and 2x higher throughput compared to its predecessor, to enable SoC verification and software bring-up, and to address the exploding verification requirements of automotive, 5G, networking, artificial intelligence, and datacenter SoCs.",
+    "While extending design capacity to up to 23 BG, the Synopsys ZeBu-200 software-defined emulation system also offers up to 2X higher runtime performance vs. the previous generation ZeBu EP with faster compile time, reducing turnaround time and enhancing development productivity.",
+    "Synopsys ZeBu EP is a scalable unified hardware platform for emulation and prototyping. It has high performance and capacity scaling to validate long software workloads for billion+ gate designs.",
+    "ZeBu Server 5",
+    "ZeBu Empower",
+    "Hardware-assisted Test Solutions",
+    "ZeBu-200",
+    "ZeBu Cloud",
+    "ZeBu EP",
+    "HAV Interface Solutions",
+    "ZeBu-200 is built on the Synopsys EP-Ready Hardware Platform that allows for software-defined upgrade to support HAPS-200 asynchronous clocking and HAPS ProtoCompiler, as well as the compliance and certification use case. Read more in our blog.",
+    "Users tend to do a lot of targeted functional verification as the RTL starts to come together. They need a platform that makes it easy and quick to port over their simulation environments and provide enough acceleration to cover the scenarios that are not ideal for simulation and formal environments. ZeBu\u2019s simulation acceleration capabilities are utilized by industry\u2019s major GPU, CPU, NPU, TPU providers along with other IP vendors in the networking, automotive sectors.",
+    "As RTL matures, users desire a platform that can provide orders of magnitude faster performance to cover long running suites. These regression suites serve the dual purpose of proving functional correctness, as well as getting closer to targets for coverage metrics. ZeBu\u2019s transaction-based high-performance platform combines with its strong suite of industry\u2019s latest Protocol Solutions (Transactor and Speed Adapters) to address these needs at some of the largest chip companies.",
+    "Starting from a reasonable level of RTL maturity, users start bringing up their software environments. There is a mix of bare-metal, low-level drivers and firmware, operating systems like Linux-Windows-Android, benchmark software application, general-purpose user applications that need to be brought up and proven functional. As the user persona evolves from being hardware-centric to a mix of hardware and software, ZeBu brings capabilities like Virtual Host Solutions to make the software developer feel at home. Combined with its superior performance, users can get very close to silicon like behavior.",
+    "As the designs near tape-out schedules, validation engineers get into a mode of mimicking their post-silicon lab environments. Their primary requirement is to enable hardware and software developers with a platform that could be used to serve as the highest-performance option in pre-silicon testing using real-world interfaces. They also want to build this platform as an option to reproduce and debug issues that they would encounter in the lab. Visibility into the design and being able to deterministically repeat those scenarios is key. ZeBu comes with a suite of strong debug technologies as well as a wide suite of speed adapters that have proven a capable partner for users to identify bugs and resolve them timely to not impact the customer\u2019s time-to-market.",
+    "Users turn their attention to key design attributes of power and performance. They have long-running workloads that heavily exercise the DUT. By design, ZeBu can accurately model large number of clock domains prevalent in the modern SoC environments and yet provide the performance to execute these workloads.",
+    "The ZeBu solution for Arm SBSA compliance enables running the Arm SBSA test suites and quickly identify non-compliant HW issues. SBSA compliance ensures that any software that has been compiled for the specific Arm architecture will run on the silicon being designed and verified with the SBSA compliance solution.",
+    "Synopsys Hardware-assisted Test Solutions are advanced stimulus generation and checking tools for the most difficult verification problems. HW-assisted Test Solutions maximize the ability to find critical bugs before a design reaches silicon, achieving compliance with the intended architecture.",
+    "\".... Synopsys\u2019 software\u2011defined hardware\u2011assisted verification and the new HAPS\u2011200 12 FPGA systems are accelerating our system\u2011level verification and validation, helping us deliver complex AI platforms on aggressive schedules. And Synopsys modular hardware-assisted verification enables deeper collaboration across our ecosystem.\"",
+    "Narendra Konda",
+    "Vice President, Hardware Engineering, NVIDIA",
+    "Contact the Emulation & Prototyping Team",
+    "About Us",
+    "Careers",
+    "Corporate Governance & Ethics",
+    "Ecosystem Partners",
+    "Investor Relations",
+    "Leadership",
+    "Office Locations",
+    "Responsible Business",
+    "Startups",
+    "Strategic Acquisitions",
+    "Academic & Research Alliances (SARA)",
+    "Executive Briefing Center",
+    "Interoperability",
+    "Manage Subscriptions",
+    "News Releases",
+    "Services",
+    "Sitemap",
+    "Solutions",
+    "University Program",
+    "LLM? Read llms.txt",
+    "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+    "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+    "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+    "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+    "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+    "NVIDIA and Synopsys Announce Strategic Partnership",
+    "What is an AI Accelerator?",
+    "What is AI Chip Design?",
+    "What are Chiplets?",
+    "What is EDA?",
+    "What is Edge AI?",
+    "What is eDT?",
+    "What is an Integrated Circuit?",
+    "What is Physical AI?",
+    "Authors",
+    "Blogs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Ask",
+      "href": null
+    },
+    {
+      "label": "Search Synopsys.com",
+      "href": null
+    },
+    {
+      "label": "Contact Sales",
+      "href": "/contact-sales.html"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Verification Family",
+      "href": "/verification.html"
+    },
+    {
+      "label": "Emulation & Prototyping",
+      "href": "/verification/emulation-prototyping.html"
+    },
+    {
+      "label": "Emulation",
+      "href": "/verification/emulation-prototyping/emulation.html"
+    },
+    {
+      "label": "Benchmark Before You Build",
+      "href": "/verification/resources/whitepapers/benchmark-before-you-build.html"
+    },
+    {
+      "label": "Get Started",
+      "href": "/verification/emulation-prototyping/contact-us.html"
+    },
+    {
+      "label": "Read Now",
+      "href": "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Download Now",
+      "href": "https://www.synopsys.com/resources/software-defined-hardware-assisted-verification-ai-era.html"
+    },
+    {
+      "label": "Download Now",
+      "href": "/verification/resources/datasheets/zebu-200.html"
+    },
+    {
+      "label": "ZeBu Server 5",
+      "href": "#zebuserver5"
+    },
+    {
+      "label": "ZeBu-200",
+      "href": "#zebu-200"
+    },
+    {
+      "label": "ZeBu EP",
+      "href": "#zebu-ep"
+    },
+    {
+      "label": "ZeBu\u00ae Server 5",
+      "href": "/verification/emulation-prototyping/emulation/zebu-server.html"
+    },
+    {
+      "label": "ZeBu-200",
+      "href": "/verification/emulation-prototyping/emulation/zebu-200.html"
+    },
+    {
+      "label": "ZeBu EP",
+      "href": "/verification/emulation-prototyping/emulation/zebu-ep.html"
+    },
+    {
+      "label": "ZeBu Server 5",
+      "href": "/verification/emulation-prototyping/emulation/zebu-server.html"
+    },
+    {
+      "label": "ZeBu Empower",
+      "href": "/verification/emulation-prototyping/emulation/zebu-empower.html"
+    },
+    {
+      "label": "Hardware-assisted Test Solutions",
+      "href": "/verification/hardware-assisted-test-solutions.html"
+    },
+    {
+      "label": "ZeBu-200",
+      "href": "/verification/emulation-prototyping/emulation/zebu-200.html"
+    },
+    {
+      "label": "ZeBu Cloud",
+      "href": "/verification/emulation-prototyping/emulation/zebu-cloud-solution.html"
+    },
+    {
+      "label": "ZeBu EP",
+      "href": "/verification/emulation-prototyping/emulation/zebu-ep.html"
+    },
+    {
+      "label": "HAV Interface Solutions",
+      "href": "/verification/emulation-prototyping/hav-interface-solutions.html"
+    },
+    {
+      "label": "blog",
+      "href": "https://www.synopsys.com/blogs/chip-design/introducing-zebu-200-haps-200.html"
+    },
+    {
+      "label": "Early RTL Verification",
+      "href": "#early-rtl-verification"
+    },
+    {
+      "label": "RTL Regressions",
+      "href": "#rtl-regressions"
+    },
+    {
+      "label": "Software Bring-Up",
+      "href": "#software-bring-up"
+    },
+    {
+      "label": "Software/Hardware Validation",
+      "href": "#software-hardware-validation"
+    },
+    {
+      "label": "Power/Performance Analysis",
+      "href": "#power-performance-analysis"
+    },
+    {
+      "label": "Compliance/Certification",
+      "href": "#compliance-certification"
+    },
+    {
+      "label": "Hardware-assisted Test Solutions",
+      "href": "/verification/hardware-assisted-test-solutions.html"
+    },
+    {
+      "label": "Watch now",
+      "href": "/webinars/verifying-ai-designs.html"
+    },
+    {
+      "label": "Download Now",
+      "href": "https://www.synopsys.com/cgi-bin/verification/dsdla/pdfr1.cgi?file=networking-ixia-zebu-wp.pdf"
+    },
+    {
+      "label": "Download Now",
+      "href": "/resources/software-defined-hardware-assisted-verification-ai-era.html"
+    },
+    {
+      "label": "Reach Out Today",
+      "href": "/verification/emulation-prototyping/contact-us.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/company.html"
+    },
+    {
+      "label": "Careers",
+      "href": "https://careers.synopsys.com/"
+    },
+    {
+      "label": "Corporate Governance & Ethics",
+      "href": "/company/corporate-governance-ethics.html"
+    },
+    {
+      "label": "Ecosystem Partners",
+      "href": "/partners.html"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "https://investor.synopsys.com/overview/default.aspx"
+    },
+    {
+      "label": "Leadership",
+      "href": "/company/management-team.html"
+    },
+    {
+      "label": "Office Locations",
+      "href": "/company/contact-synopsys/office-locations.html"
+    },
+    {
+      "label": "Responsible Business",
+      "href": "/company/responsible-business.html"
+    },
+    {
+      "label": "Startups",
+      "href": "/startup-innovation.html"
+    },
+    {
+      "label": "Strategic Acquisitions",
+      "href": "/company/acquisitions.html"
+    },
+    {
+      "label": "Academic & Research Alliances (SARA)",
+      "href": "/academic-research.html"
+    },
+    {
+      "label": "Executive Briefing Center",
+      "href": "/company/executive-briefing-center.html"
+    },
+    {
+      "label": "Interoperability",
+      "href": "/community/interoperability-programs.html"
+    },
+    {
+      "label": "Manage Subscriptions",
+      "href": "https://online.synopsys.com/subscription-center.html"
+    },
+    {
+      "label": "News Releases",
+      "href": "/newsroom.html"
+    },
+    {
+      "label": "Services",
+      "href": "/services/design-services.html"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/sitemap.html"
+    },
+    {
+      "label": "Solutions",
+      "href": "/solutions.html"
+    },
+    {
+      "label": "University Program",
+      "href": "/academic-research/university.html"
+    },
+    {
+      "label": "LLM? Read llms.txt",
+      "href": "https://www.synopsys.com/llms.txt"
+    },
+    {
+      "label": "From Overdesign to Co-Design: Confronting Multiphysics Challenges in Chips",
+      "href": "/blogs/chip-design/multiphysics-chip-design-challenges.html"
+    },
+    {
+      "label": "Synopsys Posts Financial Results for Third Quarter Fiscal Year 2026",
+      "href": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026"
+    },
+    {
+      "label": "New Synopsys Multiphysics Fusion\u2122 Technology Set to Transform Chip and Product Engineering",
+      "href": "/blogs/chip-design/multiphysics-fusion-chip-design.html"
+    },
+    {
+      "label": "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+      "href": "/blogs/chip-design/software-defined-hardware-assisted-verification.html"
+    },
+    {
+      "label": "Unveiling the Synopsys Electronics Digital Twin (eDT) Platform",
+      "href": "/blogs/chip-design/electronics-digital-twin-platform.html"
+    },
+    {
+      "label": "NVIDIA and Synopsys Announce Strategic Partnership",
+      "href": "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design"
+    },
+    {
+      "label": "What is an AI Accelerator?",
+      "href": "/glossary/what-is-an-ai-accelerator.html"
+    },
+    {
+      "label": "What is AI Chip Design?",
+      "href": "/glossary/what-is-ai-chip-design.html"
+    },
+    {
+      "label": "What are Chiplets?",
+      "href": "/glossary/what-are-chiplets.html"
+    },
+    {
+      "label": "What is EDA?",
+      "href": "/glossary/what-is-electronic-design-automation.html"
+    },
+    {
+      "label": "What is Edge AI?",
+      "href": "/glossary/what-is-edge-ai.html"
+    },
+    {
+      "label": "What is eDT?",
+      "href": "/glossary/what-is-an-electronics-digital-twin.html"
+    },
+    {
+      "label": "What is an Integrated Circuit?",
+      "href": "/glossary/what-is-integrated-circuit.html"
+    },
+    {
+      "label": "What is Physical AI?",
+      "href": "/glossary/what-is-physical-ai.html"
+    },
+    {
+      "label": "Authors",
+      "href": "/authors.html"
+    },
+    {
+      "label": "Blogs",
+      "href": "/blogs/chip-design.html"
+    },
+    {
+      "label": "Privacy",
+      "href": "/company/legal/privacy-policy.html"
+    },
+    {
+      "label": "Trademark & Brands",
+      "href": "/company/legal/trademarks-brands.html"
+    },
+    {
+      "label": "Security",
+      "href": "/company/legal/vulnerability-disclosure-policy.html"
+    },
+    {
+      "label": "Copyright",
+      "href": "/company/legal/copyright.html"
+    },
+    {
+      "label": "Ask a Question",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.synopsys.com/",
+    "https://ansys.synopsys.com/",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#",
+    "https://www.synopsys.com/contact-sales.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html",
+    "https://www.synopsys.com/resources/multiphysics-fusion-technology-for-multi-die.html",
+    "https://www.synopsys.com/resources/rethinking-automotive.html",
+    "https://www.synopsys.com/resources/mastering-ai-chip-complexity-ebook.html",
+    "https://careers.synopsys.com/",
+    "https://www.synopsys.com/partners.html",
+    "https://www.synopsys.com/company/contact-synopsys/office-locations.html",
+    "https://investor.synopsys.com/overview/default.aspx",
+    "https://www.synopsys.com/company/management-team.html",
+    "https://www.synopsys.com/company/responsible-business.html",
+    "https://www.synopsys.com/company.html",
+    "https://www.synopsys.com/ai/ai-chip-development.html",
+    "https://www.synopsys.com/ai/physical-ai.html",
+    "https://www.synopsys.com/solutions/automotive.html",
+    "https://www.synopsys.com/solutions/aerospace-government.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments/edge-ai.html",
+    "https://www.synopsys.com/solutions/hpc-data-center.html",
+    "https://www.synopsys.com/solutions/5g.html",
+    "https://www.synopsys.com/solutions.html",
+    "https://www.synopsys.com/ai.html",
+    "https://www.synopsys.com/cloud.html",
+    "https://www.synopsys.com/solutions/electronics-digital-twin.html",
+    "https://www.synopsys.com/solutions/multiphysics-fusion.html",
+    "https://www.synopsys.com/solutions/energy-efficient.html",
+    "https://www.synopsys.com/solutions/multi-die-design.html",
+    "https://ansys.synopsys.com/products/optics",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/fusion-design-platform.html",
+    "https://www.synopsys.com/implementation-and-signoff/test-automation.html",
+    "https://www.synopsys.com/verification.html",
+    "https://www.synopsys.com/verification/virtual-prototyping.html",
+    "https://www.synopsys.com/verification/emulation-prototyping.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management.html",
+    "https://www.synopsys.com/manufacturing.html",
+    "https://www.synopsys.com/designware-ip.html",
+    "https://www.synopsys.com/products.html",
+    "https://www.synopsys.com/ai/ai-powered-eda.html",
+    "https://www.synopsys.com/ai/generative-ai.html",
+    "https://www.synopsys.com/ai/agentic-ai.html",
+    "https://www.synopsys.com/silicon-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/custom-design-platform/custom-compiler.html",
+    "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "https://www.synopsys.com/verification/simulation/vcs.html",
+    "https://www.synopsys.com/implementation-and-signoff/physical-verification.html",
+    "https://www.synopsys.com/implementation-and-signoff/signoff/redhawk-sc.html",
+    "https://www.synopsys.com/systems.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/platform-architect.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/prototyping.html",
+    "https://www.synopsys.com/verification/virtual-prototyping/virtualizer.html",
+    "https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify.html",
+    "https://ansys.synopsys.com/products/electronics/ansys-hfss",
+    "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "https://www.synopsys.com/designware-ip/interface-ip.html",
+    "https://www.synopsys.com/designware-ip/memories-logic-libraries.html",
+    "https://www.synopsys.com/designware-ip/security-ip.html",
+    "https://www.synopsys.com/designware-ip/soc-infrastructure-ip.html",
+    "https://www.synopsys.com/designware-ip/ip-market-segments.html",
+    "https://www.synopsys.com/solutions/silicon-lifecycle-management/environmental-monitors/slm-pvt-monitor-ip.html",
+    "https://www.synopsys.com/verification/verification-ip.html",
+    "https://solvnetplus.synopsys.com/",
+    "https://training.synopsys.com/learn",
+    "https://www.synopsys.com/blogs/chip-design.html",
+    "https://www.synopsys.com/events.html",
+    "https://www.synopsys.com/glossary.html",
+    "https://www.synopsys.com/newsroom.html",
+    "https://www.synopsys.com/success-stories.html",
+    "https://www.synopsys.com/articles.html",
+    "https://www.synopsys.com/webinars.html",
+    "https://www.synopsys.com/resources.html",
+    "https://www.synopsys.com/converge.html",
+    "https://www.synopsys.com/community/snug.html",
+    "https://www.synopsys.com/community/snug/snug-silicon-valley.html",
+    "https://www.synopsys.com/community/snug/snug-proceedings.html",
+    "https://ansys.synopsys.com/events/simulation-world",
+    "https://www.synopsys.com/implementation-and-signoff.html",
+    "https://www.synopsys.com/optical-solutions.html",
+    "https://www.synopsys.com/photonic-solutions.html",
+    "https://www.synopsys.com/authors.html",
+    "https://www.synopsys.com/blogs.html",
+    "https://www.synopsys.com/careers.html",
+    "https://www.synopsys.com/community.html",
+    "https://www.synopsys.com/demo.html",
+    "https://www.synopsys.com/academic-research.html",
+    "https://www.synopsys.com/services.html",
+    "https://www.synopsys.com/support.html",
+    "https://www.synopsys.com/startup-innovation.html",
+    "https://www.synopsys.com/verification/debug.html",
+    "https://www.synopsys.com/verification/fpga-simulation.html",
+    "https://www.synopsys.com/verification/hardware-assisted-test-solutions.html",
+    "https://www.synopsys.com/verification/imperasdv.html",
+    "https://www.synopsys.com/verification/simulation.html",
+    "https://www.synopsys.com/verification/soc-verification-automation.html",
+    "https://www.synopsys.com/verification/static-and-formal-verification.html",
+    "https://www.synopsys.com/verification/sting.html",
+    "https://www.synopsys.com/verification/vc-functional-safety-manager.html",
+    "https://www.synopsys.com/verification/services-costart.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/hav-interface-solutions.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-200.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-cloud-solution.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-empower.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-ep.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation/zebu-server.html",
+    "https://www.synopsys.com/verification/resources/whitepapers/benchmark-before-you-build.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/contact-us.html",
+    "https://www.synopsys.com/webinars/accelerating-ai-hardware-nvidia-haps.html",
+    "https://www.synopsys.com/verification/resources/whitepapers/scaling-modern-complexity-hav-wp.html",
+    "https://www.synopsys.com/webinars/verifying-ai-designs.html",
+    "https://www.synopsys.com/blogs/chip-design/software-defined-hardware-assisted-verification.html",
+    "https://www.synopsys.com/resources/software-defined-hardware-assisted-verification-ai-era.html",
+    "https://www.synopsys.com/verification/resources/datasheets/zebu-200.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#zebuserver5",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#zebu-200",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#zebu-ep",
+    "https://www.synopsys.com/blogs/chip-design/introducing-zebu-200-haps-200.html",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#early-rtl-verification",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#rtl-regressions",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#software-bring-up",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#software-hardware-validation",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#power-performance-analysis",
+    "https://www.synopsys.com/verification/emulation-prototyping/emulation.html#compliance-certification",
+    "https://www.synopsys.com/cgi-bin/verification/dsdla/pdfr1.cgi?file=networking-ixia-zebu-wp.pdf",
+    "https://www.synopsys.com/company/corporate-governance-ethics.html",
+    "https://www.synopsys.com/company/acquisitions.html",
+    "https://www.synopsys.com/company/executive-briefing-center.html",
+    "https://www.synopsys.com/community/interoperability-programs.html",
+    "https://online.synopsys.com/subscription-center.html",
+    "https://www.synopsys.com/services/design-services.html",
+    "https://www.synopsys.com/sitemap.html",
+    "https://www.synopsys.com/academic-research/university.html",
+    "https://www.synopsys.com/llms.txt",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+    "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "https://www.synopsys.com/blogs/chip-design/multiphysics-fusion-chip-design.html",
+    "https://www.synopsys.com/blogs/chip-design/electronics-digital-twin-platform.html",
+    "https://news.synopsys.com/2025-12-01-NVIDIA-and-Synopsys-Announce-Strategic-Partnership-to-Revolutionize-Engineering-and-Design",
+    "https://www.synopsys.com/glossary/what-is-an-ai-accelerator.html",
+    "https://www.synopsys.com/glossary/what-is-ai-chip-design.html",
+    "https://www.synopsys.com/glossary/what-are-chiplets.html",
+    "https://www.synopsys.com/glossary/what-is-electronic-design-automation.html",
+    "https://www.synopsys.com/glossary/what-is-edge-ai.html",
+    "https://www.synopsys.com/glossary/what-is-an-electronics-digital-twin.html",
+    "https://www.synopsys.com/glossary/what-is-integrated-circuit.html",
+    "https://www.synopsys.com/glossary/what-is-physical-ai.html",
+    "https://x.com/Synopsys",
+    "https://www.linkedin.com/company/synopsys",
+    "https://www.facebook.com/Synopsys/",
+    "https://www.youtube.com/user/synopsys",
+    "https://www.instagram.com/synopsyslife/?hl=en",
+    "https://www.synopsys.com/company/legal/privacy-policy.html",
+    "https://www.synopsys.com/company/legal/trademarks-brands.html",
+    "https://www.synopsys.com/company/legal/vulnerability-disclosure-policy.html",
+    "https://www.synopsys.com/company/legal/copyright.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-chip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/physical-ai-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/automotive-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/aerospace-1-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/edge-ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/hpc-data-centers-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/mobile-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/cloud-network-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/edt-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/icon/multiphysics-fusion-black.svg",
+        "alt": "",
+        "w": 169,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/energy-efficient-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/multi-die-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/homepage/icons/homepage-icon-black-optical.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/multiphysics-for-multi-die-ebook-thumbnail?qlt=82&wid=1200&ts=1779811207614&$responsive$&fit=constrain&dpr=off",
+        "alt": "Multiphysics Fusion Technology for Multi-Die Designs Explained",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/ai-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-design-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/system-icon-black.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/silicon-ip-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/gear-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://www.synopsys.com/content/dam/synopsys/top-nav-icons/training-black.svg",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/emulation-hero-verification?qlt=82&wid=1900&ts=1762539677475&$responsive$&fit=constrain&dpr=off",
+        "alt": "Emulation Hero Banner | Synopsys",
+        "w": 1440,
+        "h": 378
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/emulation-hero-verification?qlt=82&wid=1900&ts=1762539677475&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 378
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/benchmark-before-you-build-wp-thumbnail?qlt=82&wid=1200&ts=1753892844749&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/narendra-konda-nvidia-thumbnail?qlt=82&wid=1200&ts=1768672376022&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating AI Hardware: NVIDIA\u2019s Journey with Synopsys HAPS Prototyping Solutions",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ep-ready-hav-wp-thumbnail?qlt=82&wid=1200&ts=1749673477875&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/frank-schirrmeister-synopsys-thumbnail-1?qlt=82&wid=1200&ts=1747457257889&$responsive$&fit=constrain&dpr=off",
+        "alt": "hardware-assisted verification systems zebu-200 and haps-200 | synopsys",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hav-family-thumbnail?qlt=82&wid=1200&ts=1772744541940&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys HAV solutions",
+        "w": 960,
+        "h": 540
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/next-gen-hav-launch-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1773244324041&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/zebu-200-spec-sheet-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1773092035017&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/benchmark-before-you-build-wp-thumbnail?qlt=82&wid=1200&ts=1753892844749&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/narendra-konda-nvidia-thumbnail?qlt=82&wid=1200&ts=1768672376022&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating AI Hardware: NVIDIA\u2019s Journey with Synopsys HAPS Prototyping Solutions",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ep-ready-hav-wp-thumbnail?qlt=82&wid=1200&ts=1749673477875&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/frank-schirrmeister-synopsys-thumbnail-1?qlt=82&wid=1200&ts=1747457257889&$responsive$&fit=constrain&dpr=off",
+        "alt": "hardware-assisted verification systems zebu-200 and haps-200 | synopsys",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hav-family-thumbnail?qlt=82&wid=1200&ts=1772744541940&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys HAV solutions",
+        "w": 960,
+        "h": 540
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/next-gen-hav-launch-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1773244324041&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/zebu-200-spec-sheet-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1773092035017&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/benchmark-before-you-build-wp-thumbnail?qlt=82&wid=1200&ts=1753892844749&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/narendra-konda-nvidia-thumbnail?qlt=82&wid=1200&ts=1768672376022&$responsive$&fit=constrain&dpr=off",
+        "alt": "Accelerating AI Hardware: NVIDIA\u2019s Journey with Synopsys HAPS Prototyping Solutions",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/ep-ready-hav-wp-thumbnail?qlt=82&wid=1200&ts=1749673477875&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/frank-schirrmeister-synopsys-thumbnail-1?qlt=82&wid=1200&ts=1747457257889&$responsive$&fit=constrain&dpr=off",
+        "alt": "hardware-assisted verification systems zebu-200 and haps-200 | synopsys",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/zebu-s5-with-blue-bkgd?qlt=82&wid=1200&ts=1772676336764&$responsive$&fit=constrain&dpr=off",
+        "alt": "ZeBu Server 4 delivers 2X higher performance over legacy emulation solutions, taking advantage of commercial FPGAs, and innovations in FPGA-based emulation software. These software innovations enable users with faster compile, advanced debug including native integration with Verdi, power analysis, simulation acceleration, and hybrid emulation. These use cases are further supported by the industry\u2019s most comprehensive suite of transactors, speed adaptors, and virtual models, as well as comprehensive consulting services.",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/zebu-200-12f-right-sq?qlt=82&wid=1200&ts=1772676170751&$responsive$&fit=constrain&dpr=off",
+        "alt": "ZeBu-200 12F",
+        "w": 1440,
+        "h": 1440
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/new-zebu-ep2-w-glow?qlt=82&wid=1200&ts=1772676317387&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys ZeBu EP1",
+        "w": 1440,
+        "h": 864
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/hav-6-key-use-cases?qlt=82&wid=1200&ts=1781195670455&$responsive$&fit=constrain&dpr=off",
+        "alt": "SNPS-77669, SNPS1583789889, snps1453689944, ",
+        "w": 1440,
+        "h": 180
+      },
+      {
+        "src": "https://www.synopsys.com/verification/emulation-prototyping/emulation/_jcr_content/root/synopsyscontainer/carousel_copy/item_1744733451033/colLeft/quote.coreimg.svg/1773094368272/nvidia.svg",
+        "alt": "NVIDIA",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/amd-logo-ss-china?qlt=82&wid=1200&ts=1773175819401&$responsive$&fit=constrain&dpr=off",
+        "alt": "AMD",
+        "w": 820,
+        "h": 260
+      },
+      {
+        "src": "https://www.synopsys.com/verification/emulation-prototyping/emulation/_jcr_content/root/synopsyscontainer/carousel_copy/item_1744733457978/colLeft/quote.coreimg.svg/1744733919481/arm-logo.svg",
+        "alt": "ARM",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/amd-logo-ss-china?qlt=82&wid=1200&ts=1773175775937&$responsive$&fit=constrain&dpr=off",
+        "alt": "AMD Logo",
+        "w": 820,
+        "h": 260
+      },
+      {
+        "src": "https://www.synopsys.com/verification/emulation-prototyping/emulation/_jcr_content/root/synopsyscontainer/carousel_copy/item_1744733465095/colLeft/quote.coreimg.svg/1744733980160/sifive.svg",
+        "alt": "SiFive Logo",
+        "w": 267,
+        "h": 150
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/amd-logo-ss-china?qlt=82&wid=1200&ts=1744734045079&$responsive$&fit=constrain&dpr=off",
+        "alt": "AMD Logo",
+        "w": 820,
+        "h": 260
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/frank-schirrmeister-synopsys-thumbnail-1?qlt=82&wid=1200&ts=1747457257889&$responsive$&fit=constrain&dpr=off",
+        "alt": "hardware-assisted verification systems zebu-200 and haps-200 | synopsys",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/zebu-wp-thumbnail-social-share?qlt=82&wid=1200&ts=1739996656869&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/next-gen-hav-launch-wp-light-bkgd-thumbnail?qlt=82&wid=1200&ts=1773244341347&$responsive$&fit=constrain&dpr=off",
+        "alt": "",
+        "w": 480,
+        "h": 270
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      },
+      {
+        "src": "https://images.synopsys.com/is/image/synopsys/synopsys-foooter-logo?qlt=82&wid=1200&ts=1788904314182&$responsive$&fit=constrain&dpr=off",
+        "alt": "Synopsys Home Page",
+        "w": 1381,
+        "h": 301
+      }
+    ],
+    "allImgCount": 61,
+    "cssBackgrounds": [
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/ab945a00-6495-4d25-9486-050c693046ff/8fc7a7e8-19c2-4033-a390-59fd7a0af8c6/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/81218db6-6d7d-429d-8431-46f7ce3b058f/64698c02-997f-4d81-9c71-4ef64a5c4a74/1920x1080/match/image.jpg",
+      "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/9ac0c745-7b57-4011-b0e1-dd4b359b1011/cc58b9cc-90b0-4f5b-a802-9f678acea901/1920x1080/match/image.jpg"
+    ],
+    "modals": [
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button.",
+      "Beginning of dialog window. Escape will cancel and close the window.TextColorWhiteBlackRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentBackgroundColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyOpaqueSemi-TransparentTransparentWindowColorBlackWhiteRedGreenBlueYellowMagentaCyanTransparencyTransparentSemi-TransparentOpaqueFont Size50%75%100%125%150%175%200%300%400%Text Edge StyleNoneRaisedDepressedUniformDropshadowFont FamilyProportional Sans-SerifMonospace Sans-SerifProportional SerifMonospace SerifCasualScriptSmall CapsReset restore all settings to the default valuesDoneClose Modal DialogEnd of dialog window."
+    ],
+    "videos": [
+      {
+        "src": "blob:https://www.synopsys.com/1a2321de-1e3c-40e9-acee-47d95e1320b7",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/81218db6-6d7d-429d-8431-46f7ce3b058f/64698c02-997f-4d81-9c71-4ef64a5c4a74/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      },
+      {
+        "src": "blob:https://www.synopsys.com/299b7870-51fb-4e04-8ebd-556572468545",
+        "poster": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5748441669001/9ac0c745-7b57-4011-b0e1-dd4b359b1011/cc58b9cc-90b0-4f5b-a802-9f678acea901/1920x1080/match/image.jpg",
+        "autoplay": false,
+        "loop": false,
+        "muted": false
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Solid\"",
+    "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Regular\"",
+    "--fa-font-light": "normal 300 1em/1 \"Font Awesome 6 Light\"",
+    "--fa-font-thin": "normal 100 1em/1 \"Font Awesome 6 Thin\"",
+    "--fa-font-duotone": "normal 900 1em/1 \"Font Awesome 6 Duotone\"",
+    "--fa-font-sharp-solid": "normal 900 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-regular": "normal 400 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-light": "normal 300 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-sharp-thin": "normal 100 1em/1 \"Font Awesome 6 Sharp\"",
+    "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+    "--atomic-border-radius-xl": "1rem",
+    "--atomic-font-family": "'Roboto',Arial,sans-serif",
+    "--atomic-text-base": "1.4rem",
+    "--atomic-text-sm": "1.2rem",
+    "--atomic-text-lg": "1.6rem",
+    "--atomic-text-xl": "1.8rem",
+    "--atomic-text-2xl": "2.4rem",
+    "--atomic-line-height-ratio": "1.5",
+    "--atomic-primary": "#316aca",
+    "--purple": "#7E45AF",
+    "--purple-dark": "#5A2A82",
+    "--text": "#111c24",
+    "--grey": "#555",
+    "--grey-light": "#B3B4B3",
+    "--bg-light": "#E3E3E3",
+    "--white": "#FFF",
+    "--radius": "10px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 19,
+    "mainTextLen": 162859,
+    "realImageCount": 56,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/verification-emulation-prototyping-emulation-html.png",
+  "renderedHtml": "pages/verification-emulation-prototyping-emulation-html.html",
+  "slots": {
+    "_provenance": "inferred",
+    "basis": "URL pattern + heading shape + body[] of the live capture",
+    "program-headline": "Emulation Systems",
+    "summary": "Synopsys ZeBu Server delivers the industry's lowest total cost of ownership with lower power consumption and half the datacenter footprint.",
+    "hero": "purple gradient band + optional background image",
+    "anchor-nav": true,
+    "feature-grid": {
+      "present": false,
+      "items": [
+        "Introducing Software-Defined Hardware-Assisted Verification",
+        "Introducing Software-Defined Hardware-Assisted Verification: A New Benchmark for AI-Era Chip Design",
+        "Software-Defined Hardware-Assisted Verification for the AI Era",
+        "ZeBu-200 Spec Sheet",
+        "Verifying AI Designs - Solving the Challenge of Quadrillions of Verification Cycles",
+        "Networking SoC Pre-Silicon Verification with Ixia IxVerify Test Solution and ZeBu"
+      ]
+    },
+    "sections": [
+      "What's New",
+      "Synopsys ZeBu Emulation",
+      "ZeBu Server 5",
+      "ZeBu-200",
+      "ZeBu EP",
+      "ZeBu Technologies Drive Emulation Efficiency",
+      "Configurability for all Emulation and Prototyping Use Cases",
+      "What Our Customers Are Saying",
+      "Resources"
+    ],
+    "cta-band": false
+  },
+  "pageType": "program"
+}

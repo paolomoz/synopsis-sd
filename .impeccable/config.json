@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "roboto-fallback",
+        "createdAt": "2026-09-09T16:32:58.010Z",
+        "reason": "agent: metric-matched local-Arial fallback face required by the EDS deploy skill (Step 4) to avoid font-swap CLS; not a brand face"
+      }
+    ]
+  }
+}

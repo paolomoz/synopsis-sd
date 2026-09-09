@@ -1,0 +1,1722 @@
+{
+ "source": "http://localhost:8811/vcs-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "component-search",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "component-mediaLinkTile",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-xs-12",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "component-mediaLinkTile",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-xs-12",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "component-mediaLinkTile",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-xs-12",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "component-topNavAd",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The Era of Pervasive Intelligence Powered by Synopsys"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Discover why companies turn to Synopsys for its leading engineering software and solutions – from silicon to systems -- to power their AI-driven advancements and software defined intelligent systems that are revolutionizing industries."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Share"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Video Player is loading."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Play"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Mute"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Current Time"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "0:00"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Duration"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "1:11"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": ":"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Loaded"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "13.95%"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "0:00"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "LIVE"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Stream Type"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Seek to live, currently behind live"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "LIVE"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Remaining Time"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "1:11"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "1x"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Playback Rate"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Chapters"
+    },
+    {
+     "role": "eyebrow",
+     "order": 26,
+     "text": "Chapters"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Descriptions"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "descriptions off"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": ", selected"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Captions"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "captions settings"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": ", opens captions settings dialog"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "captions off"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": ", selected"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Audio Track"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "en (Main)"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": ", selected"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Quality Levels"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "1080p"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "1080p"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "HD"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "720p"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "720p"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "HD"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "540p"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "540p"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "360p"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "360p"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "270p"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "270p"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Auto"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "A, selected"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Picture-in-Picture"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Fullscreen"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "This is a modal window."
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Beginning of dialog window. Escape will cancel and close the window."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Text"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Color"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "White"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Black"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Red"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Green"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Blue"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Yellow"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Magenta"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Cyan"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Transparency"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Opaque"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Semi-Transparent"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Background"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Color"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Black"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "White"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Red"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Green"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Blue"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Yellow"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Magenta"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Cyan"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Transparency"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Opaque"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Semi-Transparent"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Transparent"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Window"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Color"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Black"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "White"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Red"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Green"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Blue"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Yellow"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Magenta"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Cyan"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Transparency"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Transparent"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Semi-Transparent"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Opaque"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Font Size"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "50%"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "75%"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "100%"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "125%"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "150%"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "175%"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "200%"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "300%"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "400%"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Text Edge Style"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "None"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Raised"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Depressed"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Uniform"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Dropshadow"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Font Family"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Proportional Sans-Serif"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Monospace Sans-Serif"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Proportional Serif"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "Monospace Serif"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Casual"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "Script"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Small Caps"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Reset"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "restore all settings to the default values"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "Done"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Close Modal Dialog"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "End of dialog window."
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "Close Modal Dialog"
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "This is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Close Modal Dialog"
+    },
+    {
+     "role": "body",
+     "order": 130,
+     "text": "This is a modal window. This modal can be closed by pressing the Escape key or activating the close button."
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "×"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Why Synopsys? Our Technology, Your Innovation™. Trusted industry leader. Learn more",
+     "href": "/company.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "LI.vjs-menu-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.vjs-menu-item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "component-textcomp",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "View all Solutions",
+     "href": "/solutions.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "component-topNavAd",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Multiphysics Fusion Technology for Multi-Die Designs Explained Unified multiphysics fusion helps multi-die teams validate earlier and sign off faster. Download eBook",
+     "href": "/resources/multiphysics-fusion-technology-for-multi-die.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "component-breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home",
+     "href": "/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Contact Sales",
+     "href": "/contact-sales.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "...",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Products",
+     "href": "/products.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Design",
+     "href": "/implementation-and-signoff.html"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "EDA",
+     "href": "/silicon-design.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Manufacturing",
+     "href": "/manufacturing.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Optical",
+     "href": "/optical-solutions.html"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Silicon Photonics",
+     "href": "/photonic-solutions.html"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Systems",
+     "href": "/systems.html"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Synopsys IP",
+     "href": "/designware-ip.html"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Verification Family",
+     "href": "/verification.html"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Solutions",
+     "href": "/solutions.html"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Synopsys.ai",
+     "href": "/ai.html"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Cloud",
+     "href": "/cloud.html"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Articles",
+     "href": "/articles.html"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Authors",
+     "href": "/authors.html"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Blogs",
+     "href": "/blogs.html"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Careers",
+     "href": "/careers.html"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Community",
+     "href": "/community.html"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Company",
+     "href": "/company.html"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Demos",
+     "href": "/demo.html"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Events",
+     "href": "/events.html"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Glossary",
+     "href": "/glossary.html"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Newsroom",
+     "href": "/newsroom.html"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Partners",
+     "href": "/partners.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Academic & Research Alliances",
+     "href": "/academic-research.html"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Services",
+     "href": "/services.html"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Support",
+     "href": "/support.html"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Success Stories",
+     "href": "/success-stories.html"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Webinars",
+     "href": "/webinars.html"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Startup Innovation",
+     "href": "/startup-innovation.html"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Synopsys Converge",
+     "href": "/converge.html"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Verification Family",
+     "href": "/verification.html"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Debug & Verification Management",
+     "href": "/verification/debug.html"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Emulation & Prototyping",
+     "href": "/verification/emulation-prototyping.html"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "FPGA Design, Synthesis, and Verification",
+     "href": "/verification/fpga-simulation.html"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Hardware-assisted Test Solutions",
+     "href": "/verification/hardware-assisted-test-solutions.html"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "ImperasDV",
+     "href": "/verification/imperasdv.html"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Simulation",
+     "href": "/verification/simulation.html"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "SoC Verification Automation",
+     "href": "/verification/soc-verification-automation.html"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Static & Formal Verification",
+     "href": "/verification/static-and-formal-verification.html"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "STING",
+     "href": "/verification/sting.html"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Verification IP",
+     "href": "/verification/verification-ip.html"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Virtual Prototyping",
+     "href": "/verification/virtual-prototyping.html"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "VC Functional Safety Manager",
+     "href": "/verification/vc-functional-safety-manager.html"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "CoStart Services",
+     "href": "/verification/services-costart.html"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Simulation",
+     "href": "/verification/simulation.html"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Testbench Quality Assurance",
+     "href": "/verification/simulation/testbench-quality-assurance.html"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "VCS",
+     "href": "/verification/simulation/vcs.html"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "VC Replay",
+     "href": "/verification/simulation/vcreplay.html"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "VC Z01X Fault Simulation",
+     "href": "/verification/simulation/vc-z01x.html"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "VCS",
+     "href": "/verification/simulation/vcs.html"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "VCS-MATLAB Flow",
+     "href": "/verification/simulation/vcs/vcs-matlab.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 33,
+      "imgs": 0,
+      "textRuns": 33
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VCS: Functional Verification Solution"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "VCS: Functional Verification Solution"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Datasheet",
+     "href": "/verification/resources/datasheets/vcs-industrysngqs-highest-performance-simulation-solution.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "toc",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Overview",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Overview",
+     "href": "#overview"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Key Benefits",
+     "href": "#benefits"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Features",
+     "href": "#features"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Resources",
+     "href": "#resources"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Get Started",
+     "href": "/contact-sales.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "textcomp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The Industry’s Highest Performance Simulation Solution"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "textcomp",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The Synopsys VCS® functional verification solution is the primary verification solution used by a majority of the world’s top semiconductor companies. VCS provides the industry’s highest performance simulation and constraint solver engines. VCS’ simulation engine natively takes full advantage of multicore processors with state-of-the-art Fine-Grained Parallelism (FGP) technology, enabling users to easily speed up high-activity, long-cycle tests by allocating more cores at runtime."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "VCS has innovative features to achieve higher performance and enable shift left verification flows early in the design cycle to catch additional bugs. Synopsys Design Constraints (SDC) Verification, Intelligent Coverage Optimization (ICO), Dynamic Performance Optimization (DPO), and Dynamic Test Loading (DTL) are innovations that significantly expand the application of the solution."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Combining Synopsys VCS with leads to faster, higher-quality verification cycles, reduces project risk, and streamlines the path from RTL to tapeout. In addition, the comprehensive VCS solution offers Native Testbench (NTB) support, broad SystemVerilog support, verification planning, coverage analysis and closure, and native integration with Synopsys Verdi® debug, the industry’s de-facto debug standard. VCS is uniquely positioned to meet designers and verification engineers needs to address the challenges and complexity of today’s SoCs."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "VC SpyGlass Lint",
+     "href": "/verification/static-and-formal-verification/vc-spyglass/vc-spyglass-lint.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "textcomp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Key Benefits"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "row",
+   "items": [],
+   "imgCount": 3,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "textcomp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Industry’s Highest Performance Simulation Solution"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Industry-leading performance and capacity"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Compile time: Partition compile, Precompiled IP, Dynamic Reconfiguration"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Runtime: Dynamic Test Loading, Save/Restore, Constraint Solver optimization, Fine-Grained Parallelism"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Advanced simulation technologies"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Native Low Power, Xpropagation, Direct Interfaces (DKI, DPI) to High-Level Modeling (SystemC, ®) and AMS simulation"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "MATLAB",
+     "href": "https://www.synopsys.com/verification/simulation/vcs/vcs-matlab.html"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Functional Verification Quality Analysis with Testbench Quality Assurance functional qualification system"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Dynamic SDC-aware verification with Multi Cycle Path and False Path verification"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Dynamic Metastability Injection verification"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Intelligent Coverage Optimization"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Dynamic Performance Optimization"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Testbench coverage - line coverage on testbench classes helps assess testbench quality"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Simulation acceleration with ZeBu® emulation system to provide higher performance"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Comprehensive planning, coverage and execution management native integration"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "VCS provides key turnaround time and ease-of-use benefits via native integration with Synopsys Verdi, VC Formal™, Verdi VMS and Verification IP."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 15
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "textcomp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Resources"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "carousel",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Webinar"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Verify Your SoC Design Efficiently from Planning to Coverage Closure"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Register Now",
+     "href": "/webinars/soc-design-verification-family.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Success Story"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Intel: Taint Propagation in VCS Replicates Real-world Vulnerability"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Learn More",
+     "href": "/success-stories/intel-replicates-real-world-vulnerability.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Reducing Simulation Regression Turnaround Time with Dynamic Performance Optimization"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Download",
+     "href": "/verification/resources/whitepapers/reduce-sim-reg-dpo.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 9,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Shift Left Verification with Comprehensive Lint Signoff"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Download",
+     "href": "/resources/shift-left-verification-lint-signoff.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 12,
+     "text": "Blog"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Verifying Hardware Security With RTL Simulation"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Learn More",
+     "href": "https://semiengineering.com/verifying-hardware-security-with-rtl-simulation/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 15,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Simulation with Taint Propagation for Security Verification"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Download",
+     "href": "/verification/resources/whitepapers/vcs-t-prop-wp.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 18,
+     "text": "Webinar"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Verify Your SoC Design Efficiently from Planning to Coverage Closure"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Register Now",
+     "href": "/webinars/soc-design-verification-family.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 21,
+     "text": "Success Story"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Intel: Taint Propagation in VCS Replicates Real-world Vulnerability"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Learn More",
+     "href": "/success-stories/intel-replicates-real-world-vulnerability.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 24,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Reducing Simulation Regression Turnaround Time with Dynamic Performance Optimization"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Download",
+     "href": "/verification/resources/whitepapers/reduce-sim-reg-dpo.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 27,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Shift Left Verification with Comprehensive Lint Signoff"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Download",
+     "href": "/resources/shift-left-verification-lint-signoff.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 30,
+     "text": "Blog"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Verifying Hardware Security With RTL Simulation"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Learn More",
+     "href": "https://semiengineering.com/verifying-hardware-security-with-rtl-simulation/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 33,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Simulation with Taint Propagation for Security Verification"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Download",
+     "href": "/verification/resources/whitepapers/vcs-t-prop-wp.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 36,
+     "text": "Webinar"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Verify Your SoC Design Efficiently from Planning to Coverage Closure"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Register Now",
+     "href": "/webinars/soc-design-verification-family.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 39,
+     "text": "Success Story"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Intel: Taint Propagation in VCS Replicates Real-world Vulnerability"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Learn More",
+     "href": "/success-stories/intel-replicates-real-world-vulnerability.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 42,
+     "text": "White Paper"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Reducing Simulation Regression Turnaround Time with Dynamic Performance Optimization"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Download",
+     "href": "/verification/resources/whitepapers/reduce-sim-reg-dpo.html"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "2"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 16,
+   "repeats": [
+    {
+     "unitSelector": "SECTION.card",
+     "count": 15,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Connect with Us"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Connect with Us"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Contact Sales",
+     "href": "/contact-sales.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}
