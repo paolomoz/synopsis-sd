@@ -5,3 +5,5 @@
 { "ts": "2026-09-09T15:18:06Z", "skill": "stardust:replica", "phase": "2-preserve-direction", "event": "start" }
 { "ts": "2026-09-09T15:18:06Z", "skill": "stardust:replica", "phase": "2-preserve-direction", "event": "end", "detail": "verbatim promotion; empty register", "artifact": "stardust/direction.md" }
 {"ts": "2026-09-09T16:24:05Z", "skill": "stardust:replica", "phase": "3-4-recreate-gate", "event": "end", "detail": "program archetype (vcs) gated: 1440 0.32% \u03940 \u00b7 360 1.68% \u03940 \u00b7 0 structural red \u00b7 approvedBy hands-off", "artifact": "stardust/prototypes/vcs-proposed.html"}
+{ "ts": "2026-09-09T16:45:46Z", "skill": "stardust:deploy", "phase": "convert", "event": "end", "detail": "VCS archetype converted: 6 blocks + header/footer + 3 content docs; lint 0 red; EW 41/41; code pushed to main", "artifact": "blocks/" }
+{ "ts": "2026-09-09T16:45:46Z", "skill": "stardust:deploy", "phase": "deliver", "event": "blocked", "detail": "DA_TOKEN expired (401 on admin.da.live) — content + media writes pending; resume with stardust/scripts/deploy-vcs.sh after refreshing DA_TOKEN in ~/.claude/.env" }
