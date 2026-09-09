@@ -8,6 +8,21 @@
         "value": "roboto-fallback",
         "createdAt": "2026-09-09T16:32:58.010Z",
         "reason": "agent: metric-matched local-Arial fallback face required by the EDS deploy skill (Step 4) to avoid font-swap CLS; not a brand face"
+      },
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-09-09T18:15:57.654Z",
+        "reason": "agent: same as Roboto — the @font-face family name in styles/fonts.css for the self-hosted brand face"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/canon.css"
+        ],
+        "createdAt": "2026-09-09T18:15:57.733Z",
+        "reason": "agent: canon.css L42 is a CSS border-triangle caret (.caret-down) inside a pill button, not an accent border on a rounded card"
       }
     ]
   }
