@@ -186,7 +186,47 @@
       },
       "inconsistencyRegister": "empty (pure replica)",
       "approvedBy": "hands-off",
-      "approvedAt": "2026-09-09T16:24:05Z"
+      "approvedAt": "2026-09-09T16:24:05Z",
+      "publishedOriginGate": {
+        "url": "https://main--synopsis-sd--paolomoz.aem.page/verification/simulation/vcs",
+        "regime": "published-origin",
+        "1440": {
+          "pixelDiffPercent": 1.93,
+          "heightDelta": 0,
+          "chromeCrop": {
+            "header": "99.60%",
+            "toc": "98.43%",
+            "footer": "99.89%"
+          },
+          "rounds": [
+            "pub1 3.63% \u039412",
+            "pub2 1.93% \u03940"
+          ]
+        },
+        "360": {
+          "pixelDiffPercent": 3.87,
+          "heightDelta": 0,
+          "chromeCrop": {
+            "header": "98.34%",
+            "footer": "98.01%"
+          },
+          "rounds": [
+            "pub1 12.87% \u0394-1 (columns order, header ground, early anchor pin)",
+            "pub2 8.64% \u039427 (mobile head rhythm)",
+            "pub3 3.87% \u03940"
+          ]
+        },
+        "deliveredAsserts": {
+          "h1": 1,
+          "aboutError": 0,
+          "imgs": 4,
+          "blocksLoaded": 9,
+          "gridsCompute": "flex",
+          "pageerrors": 0
+        },
+        "contentDiffAdvisory": "194 \ud83d\udd34 = hidden mega-menu/breadcrumb-dropdown links carried by the replica prototype (never authored in EDS) + h4\u2192h3 card titles; no real DA-transport reshape found by eye",
+        "deployedAt": "2026-09-09T21:37:14Z"
+      }
     }
   },
   "pending": {

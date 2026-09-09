@@ -70,3 +70,10 @@ Code pushed to `main` (AEM Code Sync). Content (`content/nav.html`, `content/foo
 - Next archetypes (state.json `pending`): landing (index), static (company), listing (blogs), article,
   form (gated success story), unique (author). Each needs its own gated prototype first (replica Phase 3),
   then siblings via `migrate` at sibling tier + `rollout`.
+
+## Published-origin gate (2026-09-09)
+Delivered: https://main--synopsis-sd--paolomoz.aem.live/verification/simulation/vcs (+ /nav, /footer).
+Fixes found only on the published origin: header reservation ground (black → white), anchor-nav pinned
+before its section had geometry (offsetParent guard + re-run on load), `columns` mobile order (image-first
+boilerplate default), breadcrumb caret glyph, utility globe glyph, tile-title 56px clamp, mobile head-to-block
+rhythm (55/55/31px). Final: 1440 1.93% Δ0 (header 99.60 / toc 98.43 / footer 99.89); 360 3.87% Δ0 (header 98.34 / footer 98.01).

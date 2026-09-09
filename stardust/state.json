@@ -1369,7 +1369,7 @@
       "url": "https://www.synopsys.com/verification/simulation/vcs.html",
       "title": "VCS: Functional Verification Solution | Synopsys",
       "type": "program",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1397,13 +1397,19 @@
               "heightDelta": 0
             }
           }
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-09T21:37:14Z",
+          "via": "stardust:deploy (DA Source API)"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/verification-simulation-vcs-html.json",
       "prototypePath": "stardust/prototypes/vcs-proposed.html",
-      "migratedPath": null
+      "migratedPath": "content/verification/simulation/vcs.html",
+      "deployedUrl": "https://main--synopsis-sd--paolomoz.aem.live/verification/simulation/vcs"
     },
     {
       "slug": "webinars-deep-dive-synopsys-ai-html",
