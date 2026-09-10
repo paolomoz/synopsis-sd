@@ -6,7 +6,7 @@
 export default async function decorate(block) {
   const label = block.textContent.trim() || 'Table of Contents';
   const main = block.closest('main');
-  const heads = main ? [...main.querySelectorAll('.default-content-wrapper h2, .default-content-wrapper h3')].filter((h) => !h.closest('.hero') && !h.closest('.cards') && !h.closest('.section.tinted')) : [];
+  const heads = main ? [...main.querySelectorAll('.default-content-wrapper h2, .default-content-wrapper h3')].filter((h) => !h.closest('.hero') && !h.closest('.cards') && !h.closest('.section.tinted') && !h.closest('.section.rail') && !h.closest('.section.rail-right')) : [];
   const box = document.createElement('div');
   box.className = 'toc-box';
   const t = document.createElement('div'); t.className = 'toc-title'; t.textContent = label;

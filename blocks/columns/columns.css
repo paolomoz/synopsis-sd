@@ -82,6 +82,34 @@
   .columns.media > div > .columns-img-col { flex: 0 0 41.6667%; }
   .columns.media > div > div:not(.columns-img-col) { flex: 0 0 58.3333%; }
   .columns.media.image-right > div > .columns-img-col { order: 1; }
+  .columns.media.third > div > .columns-img-col { flex: 0 0 33.3333%; }
+  .columns.media.third > div > div:not(.columns-img-col) { flex: 0 0 66.6667%; }
+  .columns.media.narrow > div > .columns-img-col { flex: 0 0 25%; }
+  .columns.media.narrow > div > div:not(.columns-img-col) { flex: 0 0 75%; }
+}
+
+/* source images render at their intrinsic size inside narrow columns (col-sm-3 icons ≈ 120px) */
+.columns.media.narrow > div > .columns-img-col img,
+.columns.media.third > div > .columns-img-col img {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* article inline CTA rows (source: imageTextCta between hairline rules, purple 24px title, button) */
+body:is(.article, .glossary) .columns.media {
+  margin: 30px 0;
+  padding: 30px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+body:is(.article, .glossary) .columns.media > div > div h2,
+body:is(.article, .glossary) .columns.media > div > div h3 {
+  color: var(--purple-dark);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .columns.media > div > .columns-img-col img {

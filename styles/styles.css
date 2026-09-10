@@ -98,7 +98,7 @@
 
 html {
   font-size: 10px;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -425,6 +425,7 @@ main .section.tinted {
 }
 
 /* ---- page templates (metadata Template → body class) ---- */
+
 /* page title (pageTitle component) */
 main .section .default-content-wrapper h1 {
   color: var(--purple-dark);
@@ -432,6 +433,33 @@ main .section .default-content-wrapper h1 {
   font-weight: 300;
   line-height: 49.5px;
   text-align: left;
+}
+
+/* text components authored text-align-center (source .text-align-center) */
+main .section.centered .default-content-wrapper :is(h1, h2, h3, h4, p) {
+  text-align: center;
+}
+
+body:is(.article, .glossary) main .section.centered .default-content-wrapper h2 {
+  color: var(--purple-dark);
+  font-size: 32px;
+  font-weight: 300;
+}
+
+/* glossary: article layout with purple 24px section titles (source glossary-template) */
+body.glossary main .section .default-content-wrapper h2 {
+  color: var(--purple-dark);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+}
+
+body.glossary main .section .default-content-wrapper h3 {
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 /* article / static / form / listing: section titles left-aligned in ink (program & landing keep centered purple) */
@@ -459,21 +487,22 @@ body.article main .section .default-content-wrapper img {
   margin: 24px auto;
 }
 
-/* article layout: left rail (toc, subscribe form) floats beside the 75% reading column */
-body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) {
+/* article layout: left rail (toc, subscribe form, rail sections) floats beside the 75% reading column */
+body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail) {
   padding: 0 0 24px;
 }
 
 /* wrappers are BFCs (flow-root) so they sit beside the floated rail; the left margin reserves the rail
    width even after the floats end, keeping the reading column at container-left + 292px on every section */
-body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div {
+body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail) > div {
   max-width: none;
   margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 292px));
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
-body.article main > .section.toc-container,
-body.article main > .section.form-container {
+body:is(.article, .glossary) main > .section.toc-container,
+body:is(.article, .glossary) main > .section.form-container,
+body:is(.article, .glossary) main > .section.rail {
   float: left;
   clear: left;
   width: 25%;
@@ -482,14 +511,40 @@ body.article main > .section.form-container {
   padding: 0;
 }
 
-body.article main > .section.toc-container > div,
-body.article main > .section.form-container > div {
+body:is(.article, .glossary) main > .section.toc-container > div,
+body:is(.article, .glossary) main > .section.form-container > div,
+body:is(.article, .glossary) main > .section.rail > div {
   padding: 0 30px 0 0;
 }
 
-body.article main > .section.hero-container { padding: 30px 0 40px; }
-body.article main > .section.cards-container,
-body.article main > .section.carousel-container { clear: both; padding-top: 60px; }
+body:is(.article, .glossary) main > .section.rail .default-content-wrapper h2,
+body:is(.article, .glossary) main > .section.rail .default-content-wrapper h3 {
+  margin: 24px 0 12px;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  text-align: left;
+}
+
+body:is(.article, .glossary) main > .section.rail .default-content-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body:is(.article, .glossary) main > .section.rail .default-content-wrapper p a:any-link {
+  color: var(--ink);
+  font-weight: 400;
+}
+
+body:is(.article, .glossary) main > .section.hero-container { padding: 0 0 40px; }
+
+body:is(.article, .glossary) main > .section.cards-container,
+body:is(.article, .glossary) main > .section.centered,
+body:is(.article, .glossary) main > .section.carousel-container { clear: both; padding-top: 60px; }
+
+body:is(.article, .glossary) main > .section.centered + .section.carousel-container,
+body:is(.article, .glossary) main > .section.centered + .section.cards-container { padding-top: 0; }
 body.article main > .section.form-container .form .form-panel { padding: 0; background: transparent; border: 0; box-shadow: none; }
 body.article main > .section.form-container .form .form-title { margin: 0 0 16px; color: var(--ink); font-size: 24px; font-weight: 300; text-align: left; }
 body.article main > .section.form-container .form .form-panel .form-note { font-size: 12px; }
@@ -527,6 +582,81 @@ body.form main > .section.form-container .default-content-wrapper img {
   margin: 32px auto;
 }
 
+/* right rail (source: col-sm-9 + col-sm-3 with rail cards / downloads / CTAs; author profile column) */
+main > .section.rail-right {
+  float: right;
+  clear: right;
+  width: 25%;
+  max-width: 292px;
+  margin-right: max(15px, calc((100% - var(--container)) / 2 + 15px));
+  padding: 60px 0 24px;
+}
+
+main > .section.rail-right > div {
+  padding: 0 0 0 30px;
+}
+
+main > .section.rail-right .default-content-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main > .section.rail-right .default-content-wrapper p.button-wrapper,
+main > .section.rail-right .default-content-wrapper p.button-container {
+  margin: 0 0 10px;
+}
+
+main > .section.rail-right .default-content-wrapper a.button {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+main > .section.rail-right .default-content-wrapper a.button.secondary {
+  border-color: var(--purple);
+  background: var(--purple);
+  color: #fff;
+}
+
+main > .section.main > div {
+  max-width: none;
+  margin: 0 max(15px, calc((100% - var(--container)) / 2 + 292px)) 0 max(15px, calc((100% - var(--container)) / 2));
+  padding: 0 15px;
+}
+
+main > .section.main + .section:not(.main, .rail-right) {
+  clear: both;
+}
+
+body.author main > .section.rail-right { width: 33.3333%; max-width: 390px; padding-top: 60px; }
+body.author main > .section.main > div { margin-right: max(15px, calc((100% - var(--container)) / 2 + 390px)); }
+body.author main .section .default-content-wrapper h1 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+body.author main .section .default-content-wrapper h2 { color: var(--ink); font-size: 32px; font-weight: 300; text-align: left; }
+
+/* gated form pages with a gradient canvas (source: .component-marketo-form-container.purpleGradientBackground / .darkGreyGradientBackground) */
+main > .section.purple,
+main > .section.dark {
+  color: #fff;
+}
+
+main > .section.purple { background: linear-gradient(107.7deg, #5a2a82 0, #7e45af 100%); }
+main > .section.dark { background: linear-gradient(107.7deg, #171917 0, #2d3038 60%, #4a4f5a 100%); }
+
+main > .section:is(.purple, .dark) .default-content-wrapper :is(h1, h2, h3, h4, p, li),
+main > .section:is(.purple, .dark) .default-content-wrapper a:any-link {
+  color: #fff;
+}
+
+main > .section:is(.purple, .dark) .form .form-panel {
+  background: #fff;
+  color: var(--ink);
+}
+
+body.form main > .section.form-container:is(.purple, .dark) {
+  max-width: none;
+  padding: 60px max(15px, calc((100% - var(--container)) / 2));
+}
+
 /* listing pages: large left-aligned index headline */
 body.listing main .section .default-content-wrapper h2 {
   font-size: 40px;
@@ -534,11 +664,16 @@ body.listing main .section .default-content-wrapper h2 {
 }
 
 @media (width <= 992px) {
-  body.article main > .section.toc-container,
-  body.article main > .section.form-container { float: none; width: auto; max-width: none; margin: 0; }
-  body.article main > .section.toc-container > div,
-  body.article main > .section.form-container > div { padding: 0 15px; }
-  body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div { margin: 0; padding: 0 15px; }
+  body:is(.article, .glossary) main > .section.toc-container,
+  body:is(.article, .glossary) main > .section.form-container,
+  body:is(.article, .glossary) main > .section.rail { float: none; width: auto; max-width: none; margin: 0; }
+
+  body:is(.article, .glossary) main > .section.toc-container > div,
+  body:is(.article, .glossary) main > .section.form-container > div,
+  body:is(.article, .glossary) main > .section.rail > div { padding: 0 15px; }
+  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail) > div { margin: 0; padding: 0 15px; }
+  main > .section.rail-right, main > .section.main > div { float: none; width: auto; max-width: none; margin: 0 auto; }
+
   /* live mobile order: form panel first, then the gated copy */
   body.form main > .section.form-container { display: flex; flex-direction: column; padding: 30px 15px; }
   body.form main > .section.form-container > .form-wrapper { order: -1; margin-bottom: 32px; }

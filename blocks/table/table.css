@@ -1,0 +1,42 @@
+/* table — lifted from the source rich-text tables (td 14/300, 18px 24px cells, grey header row, hairline rules) */
+.table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.table th,
+.table td {
+  padding: 18px 24px;
+  border: 1px solid #e5e5e5;
+  color: var(--ink);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table th {
+  background: var(--mist);
+  font-weight: 700;
+}
+
+.table td:first-child {
+  font-weight: 700;
+}
+
+.table tbody tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+.table td strong { font-weight: 700; }
+
+@media (width <= 729px) {
+  .table th, .table td { padding: 12px 14px; }
+}

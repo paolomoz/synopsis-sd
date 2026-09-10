@@ -313,21 +313,32 @@
 .hero.blog {
   height: auto;
   min-height: 344px;
-  max-width: var(--container);
-  margin: 0 auto;
-  padding: 0 var(--gutter);
-  background: transparent;
+  background: linear-gradient(107.7deg, #5a2a82 0, #7e45af 60%, #6c4fc4 100%); /* full-bleed (source: .cmp-blogbanner 1440×344) */
   text-align: center;
+}
+
+.hero.blog.slate {
+  background: linear-gradient(107.7deg, #5a2a82 0, #5f4d8c 45%, #3f6a8c 100%); /* technical-bulletin article family */
 }
 
 .hero.blog .hero-slide {
   min-height: 344px;
-  background: linear-gradient(107.7deg, #5a2a82 0, #7e45af 60%, #6c4fc4 100%);
+}
+
+.hero.blog .hero-container-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
 }
 
 .hero.blog .hero-text {
   align-items: center;
-  padding: 40px 30px 40px;
+  padding: 40px 15px;
+}
+
+.hero.blog .hero-sep {
+  display: inline-block;
+  padding: 0 20px; /* source: .slash */
 }
 
 .hero.blog .hero-eyebrow {
@@ -383,5 +394,4 @@
   .hero.image .hero-title :is(h1, h2), .hero.video .hero-title :is(h1, h2), .hero.carousel .hero-title :is(h1, h2) { font-size: 32px; line-height: 40px; }
   .hero.image .hero-actions, .hero.video .hero-actions, .hero.carousel .hero-actions { width: auto; margin: 0; }
   .hero.blog .hero-title :is(h1, h2) { font-size: 28px; }
-  .hero.blog { padding: 0; }
 }

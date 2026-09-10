@@ -1,0 +1,27 @@
+/* video — 16:9 embed; Brightcove playlist player adds its thumbnail strip (source: .video-js with playlist) */
+.video .video-figure {
+  position: relative;
+  margin: 0;
+}
+
+.video .video-poster { display: none; }
+
+.video iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #000;
+}
+
+.video.playlist iframe {
+  aspect-ratio: 16 / 11; /* player + playlist strip */
+}
+
+.video .video-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}

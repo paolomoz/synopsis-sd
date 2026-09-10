@@ -42,7 +42,14 @@ function buildSlide(rowCells, block, isFirst) {
     const others = ps.filter((p) => !ctas.includes(p) && p !== cat);
     if (cat) wrap.append(wrapNode(cat, 'hero-eyebrow'));
     if (heading) wrap.append(wrapNode(heading, 'hero-title'));
-    others.forEach((p) => wrap.append(wrapNode(p, 'hero-sub')));
+    others.forEach((p) => {
+      if (block.classList.contains('blog') && p.childNodes.length === 1 && / \/ /.test(p.textContent)) {
+        const [a, b] = p.textContent.split(' / ');
+        const sep = document.createElement('span'); sep.className = 'hero-sep'; sep.textContent = '/';
+        p.replaceChildren(document.createTextNode(a.trim()), sep, document.createTextNode(b.trim()));
+      }
+      wrap.append(wrapNode(p, 'hero-sub'));
+    });
     const sub = document.createElement('div');
     sub.className = 'hero-subtitle';
     wrap.append(sub);

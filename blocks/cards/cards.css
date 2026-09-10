@@ -323,18 +323,86 @@ main > .section.cards-container:has(.cards.people) {
   padding: 0;
 }
 
+/* rail: purple flag ribbon (source: .component-railCard .flag + .triangle) over a link list */
 .cards.rail > ul {
   grid-template-columns: 1fr;
-  gap: 16px;
+  gap: 24px;
 }
 
 .cards.rail > ul > li {
-  border-left: 4px solid var(--purple);
+  box-shadow: none;
 }
 
 .cards.rail .cards-card-body {
-  padding: 16px;
+  padding: 0;
 }
+
+.cards.rail .cards-card-label {
+  position: relative;
+  display: block;
+  width: calc(100% - 8px);
+  margin: 0 0 12px;
+  background: var(--purple-dark);
+}
+
+.cards.rail .cards-card-label::after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: 0;
+  border-left: 8px solid var(--purple-dark);
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.cards.rail .cards-card-label p {
+  display: block;
+  padding: 4px 12px;
+  border-radius: 0;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: .5px;
+}
+
+.cards.rail .cards-card-label a:any-link { color: #fff; }
+
+.cards.rail ul ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards.rail ul ul li {
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.cards.rail ul ul li a:any-link { color: var(--ink); }
+
+/* author archive rows (source: .component-card-b in the author's "From this Author" list) */
+.cards.author > ul {
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.cards.author > ul > li {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 24px;
+  box-shadow: none;
+}
+
+.cards.author > ul > li img { aspect-ratio: 3 / 2; }
+.cards.author .cards-card-body { padding: 0; }
+.cards.author .cards-card-body > p:first-child { margin: 0 0 8px; font-size: 12px; }
+.cards.author .cards-card-body :is(h2, h3, h4) { margin: 0 0 12px; font-size: 18px; line-height: 24px; }
+.cards.author .cards-card-body :is(h2, h3, h4) a:any-link { color: var(--ink); }
+.cards.author .cards-card-body p { font-size: 14px; line-height: 20px; }
+.cards.author .cards-card-body p a:any-link { color: var(--grey); }
 
 @media (width <= 992px) {
   .cards.pillars > ul { grid-template-columns: repeat(2, 1fr); }
