@@ -1,0 +1,677 @@
+{
+ "pages": 106,
+ "coverage": [
+  [
+   "listing",
+   105
+  ],
+  [
+   "h1-from-title",
+   105
+  ],
+  [
+   "experiencefragment",
+   75
+  ],
+  [
+   "breadcrumbs",
+   31
+  ],
+  [
+   "text",
+   3
+  ],
+  [
+   "columns",
+   2
+  ],
+  [
+   "hero blog",
+   1
+  ]
+ ],
+ "unmapped": [
+  [
+   "htmlTextOnly-skipped",
+   1
+  ]
+ ],
+ "results": {
+  "articles__category-5g-wireless": {
+   "title": "5G Wireless | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-5g-wireless.html"
+  },
+  "articles__category-ai-and-machine-learning": {
+   "title": "AI & Machine Learning | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-ai-and-machine-learning.html"
+  },
+  "articles__category-analog-ip": {
+   "title": "Analog IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-analog-ip.html"
+  },
+  "articles__category-automotive": {
+   "title": "Automotive | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-automotive.html"
+  },
+  "articles__category-cloud": {
+   "title": "Cloud | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-cloud.html"
+  },
+  "articles__category-consideration": {
+   "title": "| Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-consideration.html"
+  },
+  "articles__category-consumer": {
+   "title": "Consumer | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-consumer.html"
+  },
+  "articles__category-custom-design-platform": {
+   "title": "Custom Design Platform | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-custom-design-platform.html"
+  },
+  "articles__category-data-center": {
+   "title": "Data Center | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-data-center.html"
+  },
+  "articles__category-design": {
+   "title": "Design | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-design.html"
+  },
+  "articles__category-emulation": {
+   "title": "Emulation | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-emulation.html"
+  },
+  "articles__category-energy-efficient-socs": {
+   "title": "Energy-Efficient SoCs | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-energy-efficient-socs.html"
+  },
+  "articles__category-foundation-ip": {
+   "title": "Foundation IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-foundation-ip.html"
+  },
+  "articles__category-fpga-design": {
+   "title": "FPGA Design | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-fpga-design.html"
+  },
+  "articles__category-general-ip": {
+   "title": "General IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-general-ip.html"
+  },
+  "articles__category-hpc-data-center": {
+   "title": "HPC, Data Center | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-hpc-data-center.html"
+  },
+  "articles__category-interface-ip": {
+   "title": "Interface IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-interface-ip.html"
+  },
+  "articles__category-internet-of-things": {
+   "title": "Internet of Things | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-internet-of-things.html"
+  },
+  "articles__category-ip-accelerated": {
+   "title": "IP Accelerated | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-ip-accelerated.html"
+  },
+  "articles__category-multi-die-system": {
+   "title": "Multi-Die | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-multi-die-system.html"
+  },
+  "articles__category-prototyping": {
+   "title": "Prototyping | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-prototyping.html"
+  },
+  "articles__category-security-ip": {
+   "title": "Security IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-security-ip.html"
+  },
+  "articles__category-signoff": {
+   "title": "Signoff | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-signoff.html"
+  },
+  "articles__category-silicon-ip-technical-bulletin": {
+   "title": "Silicon IP Technical Bulletin | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-silicon-ip-technical-bulletin.html"
+  },
+  "articles__category-silicon-ip": {
+   "title": "Silicon IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-silicon-ip.html"
+  },
+  "articles__category-silicon-lifecycle-management": {
+   "title": "Silicon Lifecycle Management | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-silicon-lifecycle-management.html"
+  },
+  "articles__category-soc-infrastructure-ip": {
+   "title": "SoC Infrastructure IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-soc-infrastructure-ip.html"
+  },
+  "articles__category-test": {
+   "title": "Test | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-test.html"
+  },
+  "articles__category-verification": {
+   "title": "Verification | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-verification.html"
+  },
+  "articles__category-verificationip": {
+   "title": "Verification IP | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-verificationip.html"
+  },
+  "articles__category-virtualprototyping": {
+   "title": "Virtual Prototyping | Synopsys Articles",
+   "sections": 2,
+   "h1": true,
+   "out": "/tmp/content-art/articles/category-virtualprototyping.html"
+  },
+  "blogs__chip-design": {
+   "title": "Silicon to Systems Blog | Synopsys",
+   "sections": 4,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design.html"
+  },
+  "blogs__chip-design__category-3d-image-processing": {
+   "title": "3D Image Processing | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-3d-image-processing.html"
+  },
+  "blogs__chip-design__category-3dic-design": {
+   "title": "3DIC Design | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-3dic-design.html"
+  },
+  "blogs__chip-design__category-5g-wireless": {
+   "title": "5G Wireless | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-5g-wireless.html"
+  },
+  "blogs__chip-design__category-5nm-and-below": {
+   "title": "5nm and Below | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-5nm-and-below.html"
+  },
+  "blogs__chip-design__category-about-synopsys": {
+   "title": "About Synopsys | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-about-synopsys.html"
+  },
+  "blogs__chip-design__category-aerospace-and-government": {
+   "title": "Aerospace & Government | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-aerospace-and-government.html"
+  },
+  "blogs__chip-design__category-ai-and-machine-learning": {
+   "title": "AI & Machine Learning | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-ai-and-machine-learning.html"
+  },
+  "blogs__chip-design__category-ams-simulation": {
+   "title": "AMS Simulation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-ams-simulation.html"
+  },
+  "blogs__chip-design__category-amsverification": {
+   "title": "AMS Verification | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-amsverification.html"
+  },
+  "blogs__chip-design__category-analog-design": {
+   "title": "Analog Design | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-analog-design.html"
+  },
+  "blogs__chip-design__category-ar-vr": {
+   "title": "AR/VR | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-ar-vr.html"
+  },
+  "blogs__chip-design__category-atomic-scale-modeling": {
+   "title": "Atomic Scale Modeling | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-atomic-scale-modeling.html"
+  },
+  "blogs__chip-design__category-atomistic-simulation-software": {
+   "title": "Atomistic Simulation Software | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-atomistic-simulation-software.html"
+  },
+  "blogs__chip-design__category-automotive": {
+   "title": "Automotive | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-automotive.html"
+  },
+  "blogs__chip-design__category-blog": {
+   "title": "| Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-blog.html"
+  },
+  "blogs__chip-design__category-cloud": {
+   "title": "Cloud | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-cloud.html"
+  },
+  "blogs__chip-design__category-consumer": {
+   "title": "Consumer | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-consumer.html"
+  },
+  "blogs__chip-design__category-custom-implementation": {
+   "title": "Custom Implementation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-custom-implementation.html"
+  },
+  "blogs__chip-design__category-customer-spotlight": {
+   "title": "Customer Spotlight | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-customer-spotlight.html"
+  },
+  "blogs__chip-design__category-data-center": {
+   "title": "Data Center | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-data-center.html"
+  },
+  "blogs__chip-design__category-debug": {
+   "title": "Debug | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-debug.html"
+  },
+  "blogs__chip-design__category-design-technology-co-optimization": {
+   "title": "Design Technology Co-Optimization | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-design-technology-co-optimization.html"
+  },
+  "blogs__chip-design__category-design": {
+   "title": "Design | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-design.html"
+  },
+  "blogs__chip-design__category-emulation": {
+   "title": "Emulation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-emulation.html"
+  },
+  "blogs__chip-design__category-energy-efficient-socs": {
+   "title": "Energy-Efficient SoCs | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-energy-efficient-socs.html"
+  },
+  "blogs__chip-design__category-engineering-central": {
+   "title": "Engineering Central | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-engineering-central.html"
+  },
+  "blogs__chip-design__category-executive-voices": {
+   "title": "Executive Voices | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-executive-voices.html"
+  },
+  "blogs__chip-design__category-formal-verification": {
+   "title": "Formal Verification | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-formal-verification.html"
+  },
+  "blogs__chip-design__category-foundation-ip": {
+   "title": "Foundation IP | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-foundation-ip.html"
+  },
+  "blogs__chip-design__category-fpga-design": {
+   "title": "FPGA Design | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-fpga-design.html"
+  },
+  "blogs__chip-design__category-fusion-design-platform": {
+   "title": "Fusion Design Platform | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-fusion-design-platform.html"
+  },
+  "blogs__chip-design__category-fusion-technology": {
+   "title": "Fusion Technology | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-fusion-technology.html"
+  },
+  "blogs__chip-design__category-hpc-data-center": {
+   "title": "HPC, Data Center | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-hpc-data-center.html"
+  },
+  "blogs__chip-design__category-ide": {
+   "title": "IDE | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-ide.html"
+  },
+  "blogs__chip-design__category-insights": {
+   "title": "Insights | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-insights.html"
+  },
+  "blogs__chip-design__category-interface-ip-subsystems": {
+   "title": "Interface IP Subsystems | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-interface-ip-subsystems.html"
+  },
+  "blogs__chip-design__category-interface-ip": {
+   "title": "Interface IP | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-interface-ip.html"
+  },
+  "blogs__chip-design__category-internet-of-things": {
+   "title": "Internet of Things | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-internet-of-things.html"
+  },
+  "blogs__chip-design__category-lowpower": {
+   "title": "Low Power | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-lowpower.html"
+  },
+  "blogs__chip-design__category-manufacturing": {
+   "title": "Manufacturing | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-manufacturing.html"
+  },
+  "blogs__chip-design__category-mask-solutions": {
+   "title": "Mask Solutions | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-mask-solutions.html"
+  },
+  "blogs__chip-design__category-medical": {
+   "title": "Medical | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-medical.html"
+  },
+  "blogs__chip-design__category-memory": {
+   "title": "Memory | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-memory.html"
+  },
+  "blogs__chip-design__category-multi-die-system": {
+   "title": "Multi-Die | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-multi-die-system.html"
+  },
+  "blogs__chip-design__category-multiphysics-fusion": {
+   "title": "Multiphysics Fusion | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-multiphysics-fusion.html"
+  },
+  "blogs__chip-design__category-photonic": {
+   "title": "Photonic | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-photonic.html"
+  },
+  "blogs__chip-design__category-physical-implementation": {
+   "title": "Physical Implementation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-physical-implementation.html"
+  },
+  "blogs__chip-design__category-physical-verification": {
+   "title": "Physical Verification | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-physical-verification.html"
+  },
+  "blogs__chip-design__category-platform": {
+   "title": "Platform | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-platform.html"
+  },
+  "blogs__chip-design__category-prototyping": {
+   "title": "Prototyping | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-prototyping.html"
+  },
+  "blogs__chip-design__category-quantum-computing": {
+   "title": "Quantum Computing | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-quantum-computing.html"
+  },
+  "blogs__chip-design__category-rf-design": {
+   "title": "RF Design | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-rf-design.html"
+  },
+  "blogs__chip-design__category-risc-v": {
+   "title": "RISC-V | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-risc-v.html"
+  },
+  "blogs__chip-design__category-rtl-synthesis": {
+   "title": "RTL Synthesis | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-rtl-synthesis.html"
+  },
+  "blogs__chip-design__category-security-ip": {
+   "title": "Security IP | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-security-ip.html"
+  },
+  "blogs__chip-design__category-signal--amp--power-integrity": {
+   "title": "| Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-signal-amp-power-integrity.html"
+  },
+  "blogs__chip-design__category-signoff": {
+   "title": "Signoff | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-signoff.html"
+  },
+  "blogs__chip-design__category-silicon-ip": {
+   "title": "Silicon IP | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-silicon-ip.html"
+  },
+  "blogs__chip-design__category-silicon-lifecycle-management": {
+   "title": "Silicon Lifecycle Management | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-silicon-lifecycle-management.html"
+  },
+  "blogs__chip-design__category-simpleware": {
+   "title": "Simpleware | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-simpleware.html"
+  },
+  "blogs__chip-design__category-simulation": {
+   "title": "Simulation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-simulation.html"
+  },
+  "blogs__chip-design__category-smart-manufacturing": {
+   "title": "Smart Manufacturing | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-smart-manufacturing.html"
+  },
+  "blogs__chip-design__category-soc-verification-automation": {
+   "title": "SoC Verification Automation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-soc-verification-automation.html"
+  },
+  "blogs__chip-design__category-software-integrity": {
+   "title": "| Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-software-integrity.html"
+  },
+  "blogs__chip-design__category-static-and-formal-verification": {
+   "title": "Static & Formal Verification | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-static-and-formal-verification.html"
+  },
+  "blogs__chip-design__category-static-verification": {
+   "title": "Static Verification | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-static-verification.html"
+  },
+  "blogs__chip-design__category-storage": {
+   "title": "Storage | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-storage.html"
+  },
+  "blogs__chip-design__category-synopsys-ip-technical-bulletin": {
+   "title": "| Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-synopsys-ip-technical-bulletin.html"
+  },
+  "blogs__chip-design__category-tcad": {
+   "title": "TCAD | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-tcad.html"
+  },
+  "blogs__chip-design__category-test-automation": {
+   "title": "Test Automation | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-test-automation.html"
+  },
+  "blogs__chip-design__category-test": {
+   "title": "Test | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-test.html"
+  },
+  "blogs__chip-design__category-verification": {
+   "title": "Verification | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-verification.html"
+  },
+  "blogs__chip-design__category-verificationip": {
+   "title": "Verification IP | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-verificationip.html"
+  },
+  "blogs__chip-design__category-virtualprototyping": {
+   "title": "Virtual Prototyping | Synopsys Blogs",
+   "sections": 1,
+   "h1": true,
+   "out": "/tmp/content-art/blogs/chip-design/category-virtualprototyping.html"
+  }
+ }
+}

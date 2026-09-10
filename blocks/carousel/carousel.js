@@ -11,7 +11,23 @@
  * All authored elements are MOVED (EW1/EW3). Controls are generated; no authored text
  * lives inside a <button> (EW7).
  */
+async function relatedRows() {
+  // source "Continue Reading" is a tag-driven feed: rebuild the rows from the index when the page carries tags
+  const tags = (document.querySelector('meta[name="tags"]')?.content || '').split(/,\s*/).filter(Boolean);
+  if (!tags.length) return null;
+  try {
+    const { getIndex, related, cardMarkup } = await import('../../scripts/index.js');
+    const rows = related(await getIndex(), tags, window.location.pathname, 6);
+    if (rows.length < 3) return null;
+    return rows.map((r) => { const div = document.createElement('div'); div.innerHTML = cardMarkup(r); return div; });
+  } catch (e) { return null; }
+}
+
 export default async function decorate(block) {
+  if (block.classList.contains('blog')) {
+    const fresh = await relatedRows();
+    if (fresh) { block.replaceChildren(...fresh); block.dataset.indexed = String(fresh.length); }
+  }
   const rows = [...block.children];
   const list = document.createElement('div');
   list.className = 'carousel-list';

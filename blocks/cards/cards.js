@@ -11,7 +11,24 @@
  * Every authored element is MOVED (EW1); the card is a link when its body carries exactly one link
  * and the variant is tile-like (pillars/news) — the inner anchor is unwrapped (EW6).
  */
+async function enrichAuthor(block) {
+  // the author archive is a paged feed on the source; list every indexed post by this author
+  const name = (document.querySelector('.author .author-name h2, .author .author-name h1, .author h2')?.textContent || '').trim();
+  if (!name) return;
+  try {
+    const { getIndex, byDateDesc, cardMarkup } = await import('../../scripts/index.js');
+    const rows = (await getIndex()).filter((r) => (r.author || '').split(/,\s*/).includes(name)).sort(byDateDesc);
+    const authored = block.querySelectorAll(':scope > ul > li').length;
+    if (rows.length <= authored) return;
+    const ul = document.createElement('ul');
+    rows.forEach((r) => { const li = document.createElement('li'); li.innerHTML = cardMarkup(r); [...li.children].forEach((d) => { d.className = d.querySelector('picture') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); if (last) last.classList.add('cards-card-cta'); ul.append(li); });
+    block.replaceChildren(ul);
+    block.dataset.indexed = String(rows.length);
+  } catch (e) { /* index unavailable: keep authored rows */ }
+}
+
 export default async function decorate(block) {
+  if (block.classList.contains('author')) enrichAuthor(block);
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
     const li = document.createElement('li');

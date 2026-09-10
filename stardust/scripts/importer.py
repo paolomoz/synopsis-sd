@@ -835,6 +835,13 @@ def convert_column(col, page, inherited_style=''):
         rows += [[f'<p>{esc(l)}</p>'] for l in labels] or [['<p>Business Email</p>'], ['<p>First Name</p>'], ['<p>Last Name</p>'], ['<p>Company</p>'], ['<p>Country/Region</p>']]
         rows.append([f'<p><strong>{esc(clean_text(submit.get_text()) if submit else "Submit")}</strong></p>'])
         page.add_block(block_table('form', rows), form_style); COVERAGE['form'] += 1; return
+    if t == 'blogsDev' and col.select_one('.cmp-blogsdev[data-blogsdev-type="categoryPage"]'):
+        # category listing (source: JS-paged feed; the server-rendered items are the fallback rows)
+        items = col.select('.cmp-blogsdev__mra-item-container')
+        rows = [mra_card_row(x) for x in items[:60]]
+        page.add_block(block_table('listing', rows or [['<p>Loading…</p>']])); COVERAGE['listing'] += 1; return
+    if t == 'blogsDev' and col.select_one('.cmp-blogsdev[data-blogsdev-type="mostRecentArticles"][data-page-type="category"]'):
+        return  # duplicate of the category listing on category pages
     if t == 'blogsDev':
         hd = col.find(['h2', 'h3'])
         if 'browseByTagsHolder' in cls or (hd is not None and clean_text(hd.get_text()).lower().startswith('browse by tags')) or len(col.select('.cmp-blogsdev__pagetags-container a')) > 25: return
@@ -923,12 +930,28 @@ def import_page(raw_html, url, page_type=None):
     top = root.find(class_='aem-Grid') if root else None
     cols = [c for c in (top.find_all(recursive=False) if top else []) if isinstance(c, Tag)]
     for col in cols: convert_column(col, page)
+    if page_type == 'listing' and re.match(r'^/(blogs/[^/]+|articles|glossary)\.html$', url.replace(LIVE, '')) and not any('class="listing"' in x for sct in page.sections for x in sct['items']):
+        page.new_section(); page.add_block(block_table('listing', [['<p>Most recent</p>']])); COVERAGE['listing'] += 1
     # metadata
     meta_rows = [['<div>Title</div>', f'<div>{esc(title)}</div>'], ['<div>Description</div>', f'<div>{esc(desc)}</div>']]
     # source: the nav row sits transparent over the home banner carousel (nav absolute, white brand/links)
     if soup.select_one('[carousel-type="banner-carousel"]') is not None: meta_rows.append(['<div>Header-Theme</div>', '<div>dark</div>'])
     if page_type: meta_rows.append(['<div>Template</div>', f'<div>{esc(page_type)}</div>'])
     page.template = page_type
+    # index metadata for the article family (source: .cmp-blogbanner authors/date/read-time, eyebrow, page tags)
+    bb = root.select_one('.cmp-blogbanner') if root is not None else None
+    if bb is not None:
+        authors = [clean_text(a.get_text()) for a in bb.select('.authors a') if clean_text(a.get_text())]
+        if not authors: authors = [clean_text(x.get_text()) for x in bb.select('.authors .author, .author') if clean_text(x.get_text())]
+        d = bb.select_one('.date'); rt = bb.select_one('.read-time')
+        crumbs = [clean_text(a.get_text()) for a in bb.select('a') if a.find_parent(class_='authors') is None and a.find_parent(class_='author') is None and clean_text(a.get_text())]
+        if authors: meta_rows.append(['<div>Author</div>', f'<div>{esc(", ".join(authors))}</div>'])
+        if d is not None and clean_text(d.get_text()): meta_rows.append(['<div>Published</div>', f'<div>{esc(clean_text(d.get_text()))}</div>'])
+        if rt is not None and clean_text(rt.get_text()): meta_rows.append(['<div>Readtime</div>', f'<div>{esc(clean_text(rt.get_text()))}</div>'])
+        if crumbs: meta_rows.append(['<div>Category</div>', f'<div>{esc(" / ".join(crumbs[:2]))}</div>'])
+        for cont in root.select('.blogsDev .cmp-blogsdev__pagetags-container'):
+            pt = [clean_text(a.get_text()) for a in cont.select('a') if clean_text(a.get_text())]
+            if 0 < len(pt) <= 25: meta_rows.append(['<div>Tags</div>', f'<div>{esc(", ".join(dict.fromkeys(pt)))}</div>']); break
     if og_image: meta_rows.append(['<div>Image</div>', f'<div><img src="{esc(absurl(og_image))}" alt=""></div>'])
     meta = '<div class="metadata">' + ''.join('<div>' + ''.join(r) + '</div>' for r in meta_rows) + '</div>'
     out = ['<body>', '  <header></header>', '  <main>', f'    <div>{meta}</div>']
