@@ -133,7 +133,7 @@ stardust plugin's `replica/scripts/chrome-states.mjs`):
   item `<li><a><img?>Title</a><em>Subtitle</em></li>`, promo `<li><img><a>Title</a><em>Desc</em><a>CTA</a></li>`,
   footer `<li><strong><a>View all</a></strong></li>`. header.js unwraps the pipeline's loose-list paragraphs and
   decorateButtons' button classes before classifying; hover/focus opens (120ms), caret, panel
-  `left = min(trigger.left, centered)`, `top = row.bottom − 7`; Products = grey card + column-major By Function strip.
+  `left = min(trigger.left, centered)`, `top = row.bottom − 7`; Products = grey card + row-major By Function strip.
 - **Search**: right-hand "Search Synopsys" panel with Cancel + input (posts to the live search); page dimmed.
 - **Mobile**: full-height trigger list → drill-down panel with Back bar; promo hidden; Contact Sales + utility at bottom.
 Gates (1440, `stardust/replica/gates/chrome-states/`): resting header 99.48%; panels open at the live rects

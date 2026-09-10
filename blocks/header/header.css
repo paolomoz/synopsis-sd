@@ -340,6 +340,11 @@ header nav#nav .menu-item-icon + .menu-item-title + .menu-item-subtitle {
   padding-left: 38px;
 }
 
+/* source: subtitled rows sit on a 65px pitch (title 22 + subtitle 17 + 8/8 padding + 10 gap) */
+header nav#nav .menu-item:has(.menu-item-subtitle) {
+  margin-bottom: 10px;
+}
+
 header nav#nav .menu-footer {
   padding: 24px 16px 0;
 }
@@ -456,9 +461,7 @@ header nav#nav .menu-strip .menu-group {
 header nav#nav .menu-strip .menu-list {
   display: grid;
   grid-template-columns: repeat(3, 247px);
-  grid-template-rows: repeat(4, auto);
-  grid-auto-flow: column; /* source lists column-major (Analog, Digital, DFT, Verification down the first column) */
-  gap: 0 30px;
+  gap: 0 30px; /* source reads row-major: Analog | Digital | DFT, then Verification | Virtual Prototyping | HAV … */
 }
 
 header nav#nav .menu-strip .menu-footer {
