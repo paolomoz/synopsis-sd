@@ -1,0 +1,5172 @@
+{
+ "munchkinId": "367-MRV-360",
+ "baseUrl": "//online.synopsys.com",
+ "endpoint": "",
+ "note": "endpoint empty \u2192 the form block keeps its confirmation-only behaviour; set to a Marketo/proxy URL to POST field payloads",
+ "forms": {
+  "/academic-research/contactus/educators": [
+   "7209",
+   "7792"
+  ],
+  "/academic-research/contactus/entrepreneurs": [
+   "7209",
+   "7792"
+  ],
+  "/academic-research/contactus/researchers": [
+   "7209",
+   "7792"
+  ],
+  "/academic-research/contactus/students": [
+   "7209",
+   "7792"
+  ],
+  "/academic-research/subscription": [
+   "6090",
+   "7792"
+  ],
+  "/ai/ai-chip-development": [
+   "6484",
+   "7792"
+  ],
+  "/ai/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/blogs/chip-design/1-6t-ethernet-specification-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/112g-serdes-ethernet-ip-hpc-soc": [
+   "8479"
+  ],
+  "/blogs/chip-design/2021-eri-summit-and-mto-symposium": [
+   "8479"
+  ],
+  "/blogs/chip-design/2022-eda-and-chip-design-advances": [
+   "8479"
+  ],
+  "/blogs/chip-design/2022-esg-report": [
+   "8479"
+  ],
+  "/blogs/chip-design/2023-big-for-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/2023-community-service-hours": [
+   "8479"
+  ],
+  "/blogs/chip-design/2023-electronic-design-predictions": [
+   "8479"
+  ],
+  "/blogs/chip-design/2023-esg-report": [
+   "8479"
+  ],
+  "/blogs/chip-design/2023-hpc-predictions": [
+   "8479"
+  ],
+  "/blogs/chip-design/2024-season-of-service": [
+   "8479"
+  ],
+  "/blogs/chip-design/2nm-power-efficiency-hyperscale-socs": [
+   "8479"
+  ],
+  "/blogs/chip-design/2nm-technology-process-design-kit-imec": [
+   "8479"
+  ],
+  "/blogs/chip-design/346-chip-simulation-technology-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/3d-chip-tape-out-socionext-success": [
+   "8479"
+  ],
+  "/blogs/chip-design/3d-ic-design-tools-enhance-productivity": [
+   "8479"
+  ],
+  "/blogs/chip-design/3d-pcie-6-0-phy-8-lane-test-chip": [
+   "8479"
+  ],
+  "/blogs/chip-design/3dhi-chip-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/3dic-design-optimize-power-performance-area": [
+   "8479"
+  ],
+  "/blogs/chip-design/3dic-packaging-design-tools-guc": [
+   "8479"
+  ],
+  "/blogs/chip-design/3dics-sparks-innovation-snug-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/3x-verification-performance-hpe-greenlake-flex-synopsys-flexeda": [
+   "8479"
+  ],
+  "/blogs/chip-design/4-criteria-for-picking-best-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/40g-ucie-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/5-automotive-functional-safety-insights": [
+   "8479"
+  ],
+  "/blogs/chip-design/5-challenges-to-achieve-high-level-automated-driving": [
+   "8479"
+  ],
+  "/blogs/chip-design/5-key-smart-tech-innovations": [
+   "8479"
+  ],
+  "/blogs/chip-design/5-ways-flexeda-saas-model-transforms-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/5g-networks-accelerate-development-smart-cities": [
+   "8479"
+  ],
+  "/blogs/chip-design/5g-rollout-and-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/5g-rollout-with-soc-emulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/5g-soc-design-virtual-verification-with-keysight": [
+   "8479"
+  ],
+  "/blogs/chip-design/5g-vs-4g": [
+   "8479"
+  ],
+  "/blogs/chip-design/600-million-lines-code-cars-2027": [
+   "8479"
+  ],
+  "/blogs/chip-design/7nm-european-ai-chip-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/800g-ethernet-bandwidth-for-hyperscale-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/800g-ethernet-demo-ecoc-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/800g-ethernet-industry-standards": [
+   "8479"
+  ],
+  "/blogs/chip-design/aaroh-labs-advanced-node-semiconductor-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerate-ai-silicon-systems-physical-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerate-development-for-soc": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerate-soc-design-flow-with-ai-enabled-kits": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerate-soc-design-flow-with-functional-eco": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerating-accuracy-primesim-spice-gpu": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerating-auto-software-and-processor-design-with-nxp": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerating-product-design-silicon-to-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerating-rf-designs-keysight-pathwave-ads-custom-design-platform": [
+   "8479"
+  ],
+  "/blogs/chip-design/accelerating-system-debug-in-soc-verification-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/achieving-best-arm-ppa-discussion-sudhakar-jilla": [
+   "8479"
+  ],
+  "/blogs/chip-design/achieving-functional-safety-high-reliability-design-synplify-tool": [
+   "8479"
+  ],
+  "/blogs/chip-design/advanced-node-challenges-primetime-interview-feroze-taraporevala": [
+   "8479"
+  ],
+  "/blogs/chip-design/advanced-node-physical-verification-ic-validator": [
+   "8479"
+  ],
+  "/blogs/chip-design/advanced-node-physical-verification-nvidia": [
+   "8479"
+  ],
+  "/blogs/chip-design/advanced-semiconductor-manufacturing-fab-da": [
+   "8479"
+  ],
+  "/blogs/chip-design/advanced-soc-verification-enables-new-era-ai-chips": [
+   "8479"
+  ],
+  "/blogs/chip-design/advancing-automotive-with-software-defined-vehicles": [
+   "8479"
+  ],
+  "/blogs/chip-design/advancing-quantum-computing-rd": [
+   "8479"
+  ],
+  "/blogs/chip-design/aerospace-semiconductor-reliability": [
+   "8479"
+  ],
+  "/blogs/chip-design/ag-chip-design-silicon-lifecycle-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/agentengineer-technology-transforming-engineering-workflows": [
+   "8479"
+  ],
+  "/blogs/chip-design/agentic-ai-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-accelerator-data-center-intelligent-edge": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-accelerator-ip-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-accelerators-chip-design-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-accelerators-hbm5-verification-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-agents-in-2025": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-analog-design-migration-samsung-safe-forum-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-adaptive-flows": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-breakthroughs-snug": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-cloud-eda-tools-neureality": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-dac-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-emulation-prototyping-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-hot-chips-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-opens-new-doors-for-chip-makers": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-retargeting": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-stmicroelectronics-microsoft": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-synopsys-microsoft": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-tools-autonomous-insights": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-verification-qualcomm": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-with-ibm-hybrid-cloud-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-with-specialized-soc-ip-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-design-workflow-automation": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-pre-silicon-planning-guide": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-silicon-success-tips": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chip-startups-cloud-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-chiplet-integration-arm-synopsys": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-compute-architecture-evolution": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-driven-analog-digital-node-migration": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-driven-debug-automation-speeds-root-cause-analysis": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-eda-tools-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-edge-devices-tsmc-n2-silicon-success": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-factories-data-center-infrastructure": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-hardware-boosts-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-hardware-design-power-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-hardware-summit-2020-recap": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-impact-chip-design-synopsys-insights": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-impact-on-low-power-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-in-engineering-role-transformation": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-infrastructure-hardware-failures-data-corruption": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-iot-impact-power-consumption": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-multi-die-pg-bump-ir-drop-optimization": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-predictions-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-predictions-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-security-silicon-level": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-server-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-soc-design-for-better-chips": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-soc-design-verification-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-soc-memory-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-sovereignty-strategic-interdependence": [
+   "8479"
+  ],
+  "/blogs/chip-design/ai-tool-adoption-semiconductor-engineering": [
+   "8479"
+  ],
+  "/blogs/chip-design/aiot-edge-ai-chip-design-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/aiot-technology-applications": [
+   "8479"
+  ],
+  "/blogs/chip-design/aip-vip-technology-benefits": [
+   "8479"
+  ],
+  "/blogs/chip-design/ais-impact-on-chip-design-from-ceo-aart-de-geus": [
+   "8479"
+  ],
+  "/blogs/chip-design/alessandra-costa-qa": [
+   "8479"
+  ],
+  "/blogs/chip-design/alternative-semiconductor-materials": [
+   "8479"
+  ],
+  "/blogs/chip-design/ams-emulation-dale-donchin-johanness-stahl": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-circuit-design-migration": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-design-ai-aimc-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-design-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-ic-design-contest": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-ic-design-migration-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-ic-design-tools-snug-panel": [
+   "8479"
+  ],
+  "/blogs/chip-design/analog-layout-synthesis-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/angstrom-scale-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/arm-automotive-semiconductor-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/arm-hardware-software-compliance": [
+   "8479"
+  ],
+  "/blogs/chip-design/arm-synopsys-collaboration-interview-deirdre-hanford": [
+   "8479"
+  ],
+  "/blogs/chip-design/arm-synopsys-integrated-chip-design-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/asic-hardware-verification-bugs": [
+   "8479"
+  ],
+  "/blogs/chip-design/asil-d-certification-automation": [
+   "8479"
+  ],
+  "/blogs/chip-design/auto-cybersecurity-ota-vehicle-software-updates": [
+   "8479"
+  ],
+  "/blogs/chip-design/auto-cybersecurity-vs-aftermarket-car-accessories": [
+   "8479"
+  ],
+  "/blogs/chip-design/auto-functional-safety-iso-26262-key-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/auto-industry-predictions-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/auto-industry-trends-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/auto-soc-design-tools-safe-smart-vehicles": [
+   "8479"
+  ],
+  "/blogs/chip-design/automating-synchronous-signal-distribution": [
+   "8479"
+  ],
+  "/blogs/chip-design/automating-the-chip-design-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-ai-vision-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-cybersecurity-best-practices": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-cybersecurity-data-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-cybersecurity-engineering-standard-iso-sae-21434": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-cybersecurity-for-ecus-in-vehicle-networks": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-electronics-design-efficiency": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-finfet-foundation-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-industry-trends-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-innovation-trends-challenges-interview-dr-burkhard-huhnke": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-mcu-performance-infineon": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-soc-design-4-requirements": [
+   "8479"
+  ],
+  "/blogs/chip-design/automotive-soc-slm": [
+   "8479"
+  ],
+  "/blogs/chip-design/autonomous-driving-levels": [
+   "8479"
+  ],
+  "/blogs/chip-design/avina-verma-custom-routing-technology-interview": [
+   "8479"
+  ],
+  "/blogs/chip-design/avoid-bad-asic-design-with-virtual-prototyping": [
+   "8479"
+  ],
+  "/blogs/chip-design/bandwidth-latency-die-to-die-interfaces-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/benefits-of-adopting-cloud-technology": [
+   "8479"
+  ],
+  "/blogs/chip-design/benefits-of-redundancy-in-cloud-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/benefits-of-virtualization-in-a-cloud-environment": [
+   "8479"
+  ],
+  "/blogs/chip-design/bit-error-rates-usb32": [
+   "8479"
+  ],
+  "/blogs/chip-design/block-storage-vs-object-storage-vs-file-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/boost-networking-soc-design-cloud-emulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/boosting-eco-optimization-overcoming-ppa-challenges-with-machine-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/bumblebee-moment-ai-silicon": [
+   "8479"
+  ],
+  "/blogs/chip-design/celebrating-40-years-of-hspice": [
+   "8479"
+  ],
+  "/blogs/chip-design/celebrating-the-76th-anniversary-of-the-transistor": [
+   "8479"
+  ],
+  "/blogs/chip-design/ceos-synopsys-arm-ai-opportunities-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/ces-2024-software-defined-vehicles": [
+   "8479"
+  ],
+  "/blogs/chip-design/chip-design-data-analytics": [
+   "8479"
+  ],
+  "/blogs/chip-design/chip-design-debug-verification-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/chip-design-latest-technology": [
+   "8479"
+  ],
+  "/blogs/chip-design/chip-design-tools-github-hardware-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/chip-floorplan-design-automation": [
+   "8479"
+  ],
+  "/blogs/chip-design/chiplet-design-best-practices-multi-die": [
+   "8479"
+  ],
+  "/blogs/chip-design/chiplets-multi-die-alchip": [
+   "8479"
+  ],
+  "/blogs/chip-design/chips-act-research-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/chips-and-science-act-semiconductor-industry": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-access-security-broker": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-adoption-framework-eda-software": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-ai-chip-emulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-architecture-patterns": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-chip-design-and-verification-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-chip-design-innovation-snug": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-chip-design-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-eda-software-ai-accelerator-mentium": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-eda-tools-explained": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-ic-hardware-design-tools-enhance-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-based-soc-virtual-prototyping": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-capacity-planning": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-deployment-models": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-facts": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-features": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-flexibility": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-infrastructure": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-overview": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-security-concerns": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-computing-vs-traditional-it-structures": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-configuration-management-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-consumption": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-data-center-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-eda-license-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-eda-tools-enable-preconfigured-chip-design-flows": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-eda-tools-fuel-semiconductor-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-eda-tools-scale-soc-design-and-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-eda-tools-to-saas-model": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-enabled-chip-design-education-concept-to-tapeout": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-hpc-for-ai-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-interoperability-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-native-benefits": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-native-technologies": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-native-vs-cloud-agnostic": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-predictions-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-security-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-security-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-security-strategy": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-soc-prototyping-fpga-prototyping-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-storage-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-to-cloud-integration": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-virtual-prototypes-sdvs": [
+   "8479"
+  ],
+  "/blogs/chip-design/cloud-workload-protection": [
+   "8479"
+  ],
+  "/blogs/chip-design/community-service-synopsys-for-good": [
+   "8479"
+  ],
+  "/blogs/chip-design/comparing-cloud-on-premises-security-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/computational-lithography-chip-design-with-nvidia": [
+   "8479"
+  ],
+  "/blogs/chip-design/compute-capacity": [
+   "8479"
+  ],
+  "/blogs/chip-design/connected-vehicle-cybersecurity-wireless-comm": [
+   "8479"
+  ],
+  "/blogs/chip-design/continuous-integration-practices": [
+   "8479"
+  ],
+  "/blogs/chip-design/copilot-generative-ai-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/copper-ai-interconnect": [
+   "8479"
+  ],
+  "/blogs/chip-design/corporate-social-responsibility-report-2021": [
+   "8479"
+  ],
+  "/blogs/chip-design/cpo-multi-die-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/create-ai-accelerator-chip-18-months-neuchips": [
+   "8479"
+  ],
+  "/blogs/chip-design/cryogenic-cmos-computing-semiwise": [
+   "8479"
+  ],
+  "/blogs/chip-design/custom-compiler-design-assistants": [
+   "8479"
+  ],
+  "/blogs/chip-design/custom-compiler-design-assistants-part-2": [
+   "8479"
+  ],
+  "/blogs/chip-design/custom-compiler-design-insights": [
+   "8479"
+  ],
+  "/blogs/chip-design/custom-compiler-layout": [
+   "8479"
+  ],
+  "/blogs/chip-design/custom-design-family-customer-testimonials": [
+   "8479"
+  ],
+  "/blogs/chip-design/custom-routing-cmos-image-sensors-co-design-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/customizing-foundation-ip-low-voltage-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/cxl-2-data-center-interconnects": [
+   "8479"
+  ],
+  "/blogs/chip-design/cxl-3-1-standard": [
+   "8479"
+  ],
+  "/blogs/chip-design/cxl-3-protocol-standard-demo-sc24": [
+   "8479"
+  ],
+  "/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity": [
+   "8479"
+  ],
+  "/blogs/chip-design/cxl-protocol-memory-pooling": [
+   "8479"
+  ],
+  "/blogs/chip-design/cybersecurity-qa-cso-deirdre-hanford": [
+   "8479"
+  ],
+  "/blogs/chip-design/darpa-aiss-security-deirdre-hanford": [
+   "8479"
+  ],
+  "/blogs/chip-design/data-volume-growth-and-moores-law": [
+   "8479"
+  ],
+  "/blogs/chip-design/demanding-chip-complexity-manufacturing-requirements-call-for-data-analytics": [
+   "8479"
+  ],
+  "/blogs/chip-design/design-automation-conference-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/designing-ai-chips-interview-thomas-andersen": [
+   "8479"
+  ],
+  "/blogs/chip-design/designing-chips-with-ai-enabled-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/designing-electrostatic-discharge-protection-for-monolithic-socs-and-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/designing-hbm3-high-bandwidth-memory-interfaces": [
+   "8479"
+  ],
+  "/blogs/chip-design/die-to-die-connectivity-for-hpc": [
+   "8479"
+  ],
+  "/blogs/chip-design/digital-design-tech-symposium-2021": [
+   "8479"
+  ],
+  "/blogs/chip-design/digital-engineering-transforms-chips-future": [
+   "8479"
+  ],
+  "/blogs/chip-design/digital-media-internship-program": [
+   "8479"
+  ],
+  "/blogs/chip-design/digital-twins-drive-innovation-in-auto-industry": [
+   "8479"
+  ],
+  "/blogs/chip-design/digital-twins-semiconductor-industry": [
+   "8479"
+  ],
+  "/blogs/chip-design/digital-twins-transform-aerospace-defense": [
+   "8479"
+  ],
+  "/blogs/chip-design/distributed-object-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/dma-enhances-computer-performance": [
+   "8479"
+  ],
+  "/blogs/chip-design/dod-microelectronics-commons-hub-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-cloud-predictions-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-in-the-cloud-snug-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-license-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-tools-dso-ai-100-tapeouts": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-tools-for-aerospace-chip-designers": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-tools-help-students-build-ic-design-skills": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-tools-ip-solutions-and-auto-compliance": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-workloads": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-workloads-amd-epyc-processors": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-workloads-amd-processors": [
+   "8479"
+  ],
+  "/blogs/chip-design/eda-workloads-hybrid-cloud-solution": [
+   "8479"
+  ],
+  "/blogs/chip-design/edge-ai-in-memory-compute": [
+   "8479"
+  ],
+  "/blogs/chip-design/edge-computing-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/edge-computing-benefits-and-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/edge-machine-learning-apps-sima-ai-synopsys": [
+   "8479"
+  ],
+  "/blogs/chip-design/efficient-interconnect-planning-synopsys-ic-compiler-ii": [
+   "8479"
+  ],
+  "/blogs/chip-design/electron-beam-lithography-multibeam": [
+   "8479"
+  ],
+  "/blogs/chip-design/electronic-design-snug-israel-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/electronics-digital-twin-automotive-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/electronics-digital-twin-edt": [
+   "8479"
+  ],
+  "/blogs/chip-design/electronics-digital-twin-platform": [
+   "8479"
+  ],
+  "/blogs/chip-design/electronics-industry-sustainable-world": [
+   "8479"
+  ],
+  "/blogs/chip-design/emulation-helps-find-power-bugs-soc-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/emulation-technology-soc-power-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/enabling-superior-rtl-with-synopsys-rtl-architect-discussion-with-vineet-rashingkar": [
+   "8479"
+  ],
+  "/blogs/chip-design/energy-efficient-ai-accelerator-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/energy-efficient-ai-per-watt": [
+   "8479"
+  ],
+  "/blogs/chip-design/engineering-intelligent-systems-multiphysics-world": [
+   "8479"
+  ],
+  "/blogs/chip-design/enhance-chip-verification-with-ai-and-machine-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/enhancing-chip-design-simulation-with-artificial-intelligence": [
+   "8479"
+  ],
+  "/blogs/chip-design/enhancing-chip-design-with-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/ensuring-reliability-haps-physical-prototyping-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/enterprise-generative-ai-tools-roi": [
+   "8479"
+  ],
+  "/blogs/chip-design/equivalence-checking-and-functional-eco": [
+   "8479"
+  ],
+  "/blogs/chip-design/esd-electrostatic-discharge-analysis-prevention": [
+   "8479"
+  ],
+  "/blogs/chip-design/esp-bridging-the-gap-video-series": [
+   "8479"
+  ],
+  "/blogs/chip-design/esp-equivalence-checking-custom-design-interview-almitra-pradhan": [
+   "8479"
+  ],
+  "/blogs/chip-design/esp-technology-high-coverage-symbolic-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/essential-cloud-computing-characteristics": [
+   "8479"
+  ],
+  "/blogs/chip-design/esun-ethernet-ai-scale-up-networking": [
+   "8479"
+  ],
+  "/blogs/chip-design/ethernet-connectivity-for-hyperscale-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/ethernet-evolution-trends-challenges-future": [
+   "8479"
+  ],
+  "/blogs/chip-design/ethernet-interoperability-simulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/europe-semiconductor-workforce-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/evolution-of-synthesis-navigating-complex-rules-in-finfet-era": [
+   "8479"
+  ],
+  "/blogs/chip-design/exploring-resistance-extraction-techniques-starrc": [
+   "8479"
+  ],
+  "/blogs/chip-design/exploring-technical-features-of-starrc-merge-corners": [
+   "8479"
+  ],
+  "/blogs/chip-design/exploring-transistor-architecture-for-the-5-nm-node-and-beyond": [
+   "8479"
+  ],
+  "/blogs/chip-design/extending-mobile-soc-battery-life": [
+   "8479"
+  ],
+  "/blogs/chip-design/extraction-custom-design-advanced-nodes-interview-mo-movahed-ezazi": [
+   "8479"
+  ],
+  "/blogs/chip-design/fanout-rdl-routing-design-automation": [
+   "8479"
+  ],
+  "/blogs/chip-design/fast-accurate-virtual-prototyping": [
+   "8479"
+  ],
+  "/blogs/chip-design/fast-soc-emulation-boost-chip-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/faster-chiplet-soc-design-with-arm-collaboration": [
+   "8479"
+  ],
+  "/blogs/chip-design/faster-prototyping-haps": [
+   "8479"
+  ],
+  "/blogs/chip-design/fault-simulation-techniques": [
+   "8479"
+  ],
+  "/blogs/chip-design/fault-simulation-techniques-for-safety-critical-chip-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/finding-hardware-bugs-faster": [
+   "8479"
+  ],
+  "/blogs/chip-design/first-mobile-phone-usb-type-c": [
+   "8479"
+  ],
+  "/blogs/chip-design/formal-chip-design-verification-in-the-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/formal-verification-increases-soc-design-productivity": [
+   "8479"
+  ],
+  "/blogs/chip-design/fpga-prototyping-for-high-rtl-debug-productivity": [
+   "8479"
+  ],
+  "/blogs/chip-design/fpga-prototyping-powers-soc-process": [
+   "8479"
+  ],
+  "/blogs/chip-design/fpga-prototyping-scaled-out-chip-design-validation": [
+   "8479"
+  ],
+  "/blogs/chip-design/fujitsu-monaka-green-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/functional-safety-implementation-goes-mainstream": [
+   "8479"
+  ],
+  "/blogs/chip-design/fundamentals-of-cloud-computing-and-its-role-in-eda": [
+   "8479"
+  ],
+  "/blogs/chip-design/future-of-ai-in-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/future-of-auto-sensor-fusion-data-handling": [
+   "8479"
+  ],
+  "/blogs/chip-design/future-of-electronic-design-automation": [
+   "8479"
+  ],
+  "/blogs/chip-design/future-semiconductor-industry-multi-die": [
+   "8479"
+  ],
+  "/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling": [
+   "8479"
+  ],
+  "/blogs/chip-design/generative-agentic-ai-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/generative-ai-chip-design-panel": [
+   "8479"
+  ],
+  "/blogs/chip-design/generative-ai-computex-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/generative-ai-in-chip-design-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/generative-ai-semiconductor-industry-eda-panel": [
+   "8479"
+  ],
+  "/blogs/chip-design/ghg-emission-reduction-goals": [
+   "8479"
+  ],
+  "/blogs/chip-design/golden-signoff-backbone-fusion-compiler-neeraj-kaul": [
+   "8479"
+  ],
+  "/blogs/chip-design/good-activity-data-improve-your-dynamic-voltage-drop-analysis": [
+   "8479"
+  ],
+  "/blogs/chip-design/good-enough-government-work": [
+   "8479"
+  ],
+  "/blogs/chip-design/gpu-acceleration-chip-design-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/haps-prototyping-systems-use-cases-benefits": [
+   "8479"
+  ],
+  "/blogs/chip-design/hardware-root-of-trust-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/hardware-security-vs-software-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/hbm-signal-integrity-after-routing": [
+   "8479"
+  ],
+  "/blogs/chip-design/heterogeneous-clusters-and-dynamic-scaling": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-bandwidth-memory-hbm-ai-future": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-na-euv-computational-lithography": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-compute-eda-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-computing-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-computing-applications": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-computing-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-computing-cluster": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-simulation-predictable-capacity-uplift-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/high-performance-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-ai-changed-chip-design-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-ai-changes-chip-design-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-asu-researcher-became-chip-designer": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-cameras-use-ai-neural-network-image-processing": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-certify-supercomputer": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-dtco-advances-chip-design-process": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-eda-forms-basis-for-designing-secure-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-prototyping-increases-interoperability-success": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-secure-ddr-interfaces-protect-dram-from-memory-attacks": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-socs-are-designed-for-ai-applications": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-to-build-chips-functional-safety-applications": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-to-design-socs-for-the-sysmoore-era": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-to-integrate-usb4-in-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-to-maximize-pcie-6-with-end-to-end-design-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/how-to-secure-auto-ota-updates": [
+   "8479"
+  ],
+  "/blogs/chip-design/hpc-and-cloud-predictions-2021": [
+   "8479"
+  ],
+  "/blogs/chip-design/hpc-applications-drive-chiplet-demand": [
+   "8479"
+  ],
+  "/blogs/chip-design/hpc-data-center-power-consumption": [
+   "8479"
+  ],
+  "/blogs/chip-design/hpc-multi-die-chip-design-2025": [
+   "8479"
+  ],
+  "/blogs/chip-design/hpe-hpc-chip-design-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/hybrid-cloud-architecture-benefits-and-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/hybrid-cloud-chip-design-agility-efficiency": [
+   "8479"
+  ],
+  "/blogs/chip-design/hybrid-cloud-integration": [
+   "8479"
+  ],
+  "/blogs/chip-design/hybrid-prototyping-solution": [
+   "8479"
+  ],
+  "/blogs/chip-design/hyper-convergent-chip-design-tools-power-soc": [
+   "8479"
+  ],
+  "/blogs/chip-design/hyper-convergent-chip-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/hyper-convergent-chip-designs-news-and-trends": [
+   "8479"
+  ],
+  "/blogs/chip-design/hyperscale-data-center-security-cloud-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/hyperscale-data-centers-224g-serdes-ethernet": [
+   "8479"
+  ],
+  "/blogs/chip-design/i3c-vip-hdr-multi-lane-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/ibm-research-ai-hardware-center": [
+   "8479"
+  ],
+  "/blogs/chip-design/ic-design-engineer-training-vietnam": [
+   "8479"
+  ],
+  "/blogs/chip-design/ic-design-reliability-analysis-primesim-continuum": [
+   "8479"
+  ],
+  "/blogs/chip-design/ic-design-tools-enable-ic-hyperconvergence": [
+   "8479"
+  ],
+  "/blogs/chip-design/ieee-standards-functional-safety": [
+   "8479"
+  ],
+  "/blogs/chip-design/impare-chip-design-verification-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/improve-ai-chip-power-efficiency": [
+   "8479"
+  ],
+  "/blogs/chip-design/improved-power-system-optimization-soc-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/improving-analog-layout-efficiency-with-reusable-user-defined-device": [
+   "8479"
+  ],
+  "/blogs/chip-design/improving-design-robustness-primeshield-discussion-li-ding": [
+   "8479"
+  ],
+  "/blogs/chip-design/improving-quality-of-results-with-design-compiler-nxt": [
+   "8479"
+  ],
+  "/blogs/chip-design/improving-results-quickly-with-singular-rtl-to-gdsii-product": [
+   "8479"
+  ],
+  "/blogs/chip-design/improving-robustness-design-variability": [
+   "8479"
+  ],
+  "/blogs/chip-design/improving-semiconductor-yield-with-test-data-analytics": [
+   "8479"
+  ],
+  "/blogs/chip-design/india-semiconductor-industry-influence": [
+   "8479"
+  ],
+  "/blogs/chip-design/industry-1stcxl-verification-ip-transforming-aihpc-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/industry-first-verification-ip-arm-amb-dtih": [
+   "8479"
+  ],
+  "/blogs/chip-design/innovation-enablers-synopsys-story": [
+   "8479"
+  ],
+  "/blogs/chip-design/innovations-formality-equivalence-checking-interview-todd-buzan": [
+   "8479"
+  ],
+  "/blogs/chip-design/innovations-in-ic-validator-physical-signoff": [
+   "8479"
+  ],
+  "/blogs/chip-design/integrated-design-ai-chip-software": [
+   "8479"
+  ],
+  "/blogs/chip-design/intel-ucie-chiplet-test": [
+   "8479"
+  ],
+  "/blogs/chip-design/interconnect-ip-scalable-compute-clusters": [
+   "8479"
+  ],
+  "/blogs/chip-design/interface-ip-3d-multi-die": [
+   "8479"
+  ],
+  "/blogs/chip-design/interface-protocol-validation-zebu-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/international-day-of-women-in-science-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/introducing-fusion-compiler-synthesis-place-and-route-solution": [
+   "8479"
+  ],
+  "/blogs/chip-design/introducing-zebu-200-haps-200": [
+   "8479"
+  ],
+  "/blogs/chip-design/introduction-to-analog-fault-simulation-using-synopsys-custom-design-platform": [
+   "8479"
+  ],
+  "/blogs/chip-design/iot-applications-with-low-power-design-techniques": [
+   "8479"
+  ],
+  "/blogs/chip-design/iot-design-the-future-is-smart-and-connected": [
+   "8479"
+  ],
+  "/blogs/chip-design/iot-device-security-isim": [
+   "8479"
+  ],
+  "/blogs/chip-design/iot-security-challenges-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/jedec-lpddr4-standard-publication": [
+   "8479"
+  ],
+  "/blogs/chip-design/latin-america-semiconductor-workforce-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/leverage-the-pcie-6-0-1-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/leveraging-static-linting-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/library-characterization-eda-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/library-characterization-for-advanced-process-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/library-characterization-tool-advanced-node-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/linting-techniques-automotive-aerospace-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/linting-tools-machine-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/low-power-chip-design-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/low-power-chip-design-verification-tool": [
+   "8479"
+  ],
+  "/blogs/chip-design/low-power-design-and-smart-iot-edge": [
+   "8479"
+  ],
+  "/blogs/chip-design/low-power-qa-with-dr-renu-mehra": [
+   "8479"
+  ],
+  "/blogs/chip-design/low-power-soc-design-hpc-data-center": [
+   "8479"
+  ],
+  "/blogs/chip-design/low-power-soc-design-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/lpddr3-vs-ddr3l-differences": [
+   "8479"
+  ],
+  "/blogs/chip-design/lpddr5x-specification-memory-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/lpddr6-vs-lpddr5x-lpddr5-differences": [
+   "8479"
+  ],
+  "/blogs/chip-design/lvs-checking-process": [
+   "8479"
+  ],
+  "/blogs/chip-design/machine-learned-force-fields-atomistic-simulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/machine-learning-chip-design-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/macsec-ip-iso-pas-8800-automotive": [
+   "8479"
+  ],
+  "/blogs/chip-design/managing-1000-thermal-states-mobile-soc": [
+   "8479"
+  ],
+  "/blogs/chip-design/managing-initial-state-formal-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/meeting-ethernet-bandwidth-demand-1-6t-ethernet": [
+   "8479"
+  ],
+  "/blogs/chip-design/memory-chip-design-tools-and-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/memory-design-techniques-silicon-reliability": [
+   "8479"
+  ],
+  "/blogs/chip-design/memory-design-with-machine-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/minimizing-late-stage-functional-ecos-interview-todd-buzan": [
+   "8479"
+  ],
+  "/blogs/chip-design/mipi-m-phy-protocol-sergio-silva-qa": [
+   "8479"
+  ],
+  "/blogs/chip-design/misra-autosar-future-connected-car": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-chip-module-packaging-types": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-cloud-infrastructure": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-cloud-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-cloud-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-cloud-strategy": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-automotive-chip-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-chip-design-samsung-foundry": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-chip-design-synopsys-samsung": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-chip-design-tsmc": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-design-challenges-industry-insights-chiplet-summit": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-design-comparison-monolithic-pcb": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-design-stco-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-health-reliability-advances": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-multiphysics-co-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-systems-changing-semiconductor-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-systems-chip-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-systems-panel": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-systems-report-mit-technology-review": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-systems-semiconductor-companies": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-die-systems-silicon-lifecycle-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip": [
+   "8479"
+  ],
+  "/blogs/chip-design/multi-physics-effects-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/multiphysics-chip-design-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/multiphysics-fusion-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/mutli-die-systems-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/nas-vs-san": [
+   "8479"
+  ],
+  "/blogs/chip-design/navigating-transition-mil-to-vhil-virtualizer-studio": [
+   "8479"
+  ],
+  "/blogs/chip-design/neuromorphic-computing-physical-ai-edge": [
+   "8479"
+  ],
+  "/blogs/chip-design/new-synopsys-hq": [
+   "8479"
+  ],
+  "/blogs/chip-design/new-world-of-tech-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/next-decade-chip-startups-insights-opportunities": [
+   "8479"
+  ],
+  "/blogs/chip-design/next-era-chip-design-and-machine-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/next-evolution-synopsys-digital-toolset-fusion-compiler-design-compiler-nxt": [
+   "8479"
+  ],
+  "/blogs/chip-design/nhtsa-auto-cybersecurity-best-practices": [
+   "8479"
+  ],
+  "/blogs/chip-design/nvidia-gpu-circuit-simulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/official-pcie-5-speed-chart": [
+   "8479"
+  ],
+  "/blogs/chip-design/on-premise-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/on-premise-vs-cloud-pros-and-cons": [
+   "8479"
+  ],
+  "/blogs/chip-design/on-the-fly-code-review-chip-design-process": [
+   "8479"
+  ],
+  "/blogs/chip-design/one-on-one-with-aveek-sarkar": [
+   "8479"
+  ],
+  "/blogs/chip-design/optical-interconnects-enable-data-center-disaggregation": [
+   "8479"
+  ],
+  "/blogs/chip-design/optical-soc-design-tool-lightelligence": [
+   "8479"
+  ],
+  "/blogs/chip-design/optimizing-rtl-design-flow-real-time-ppa-analysis": [
+   "8479"
+  ],
+  "/blogs/chip-design/optimizing-your-hardware-ip-verification-in-the-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/ota-updates-automotive-apps": [
+   "8479"
+  ],
+  "/blogs/chip-design/overview-haps-prototyping-software": [
+   "8479"
+  ],
+  "/blogs/chip-design/overview-synopsys-virtual-prototyping-services": [
+   "8479"
+  ],
+  "/blogs/chip-design/pci-express-sriov-virtualization": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-5-applications-and-importance-of-silicon-proven-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-5-ip-solutions-pass-compliance-testing": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-6-high-performance-computing-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-6-specification-speed-keysight": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-6x-112gbps-ethernet-linear-optics": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-6x-compliance-testing-gold-system": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-7-bandwidth-ai-chips": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-ai-accelerator-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-bifurcation-basic-guide": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-gen1-speed-basics": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-over-fiber-optics-pcie-7": [
+   "8479"
+  ],
+  "/blogs/chip-design/pcie-ptm-spring-ahead": [
+   "8479"
+  ],
+  "/blogs/chip-design/pervasive-intelligence-snug-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/phalanx-greek-warfare-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/photonic-integrated-circuits-ai-chatbot": [
+   "8479"
+  ],
+  "/blogs/chip-design/photonic-integrated-circuits-augmented-reality": [
+   "8479"
+  ],
+  "/blogs/chip-design/photonic-integrated-circuits-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/photonic-saas-ic-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/photonics-rf-fiber-jigesh-patel": [
+   "8479"
+  ],
+  "/blogs/chip-design/physical-ai-physics-simulation": [
+   "8479"
+  ],
+  "/blogs/chip-design/physical-ai-silicon-software-robots": [
+   "8479"
+  ],
+  "/blogs/chip-design/physical-ai-system-level-engineering": [
+   "8479"
+  ],
+  "/blogs/chip-design/physical-chip-design-verification-aws-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/physics-chip-design-constraint": [
+   "8479"
+  ],
+  "/blogs/chip-design/piketec-acquisition-digital-twins": [
+   "8479"
+  ],
+  "/blogs/chip-design/pitch-fest-semiconductor-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/point-of-care-3d-printing-software": [
+   "8479"
+  ],
+  "/blogs/chip-design/post-quantum-cryptography-algorithms-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/post-quantum-cryptography-in-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/power-aware-cdc-with-stmicroelectronics": [
+   "8479"
+  ],
+  "/blogs/chip-design/power-integrity-challenges-semiconductor-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/power-semiconductor-device-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/power-semiconductor-devices": [
+   "8479"
+  ],
+  "/blogs/chip-design/powering-ai-chip-design-process-with-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/practical-power-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/pre-silicon-design-robustness-analysis-discussion-li-ding": [
+   "8479"
+  ],
+  "/blogs/chip-design/predicting-silicon-behavior-test-wafers": [
+   "8479"
+  ],
+  "/blogs/chip-design/predictions-2021-auto-industry": [
+   "8479"
+  ],
+  "/blogs/chip-design/predictive-rtl-design-closure-rtl-architect": [
+   "8479"
+  ],
+  "/blogs/chip-design/preeti-sharma-automotive-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/primelib-nextgen-library-characterization-discussion-moninder-bansal": [
+   "8479"
+  ],
+  "/blogs/chip-design/primeshield-design-robustness-analysis-eco-overview": [
+   "8479"
+  ],
+  "/blogs/chip-design/primesim-continuum-advancing-hyperconvergent-ic-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/primesim-continuum-ic-hyperconvergence": [
+   "8479"
+  ],
+  "/blogs/chip-design/primesim-continuum-transforming-soc-design-insights-hany-elhak": [
+   "8479"
+  ],
+  "/blogs/chip-design/primetime-technologies-digital-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/private-cloud-vs-public-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/process-design-kits-intel-foundry": [
+   "8479"
+  ],
+  "/blogs/chip-design/protect-advanced-chip-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/protocol-verification-for-soc-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/prototyping-building-blocks-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/prototyping-for-chip-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/prototyping-for-electric-car-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/prototyping-tools-accelerate-software-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/python-gui-builder-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/qa-with-barbara-donaldson": [
+   "8479"
+  ],
+  "/blogs/chip-design/qa-with-erika-varga-mcenroe": [
+   "8479"
+  ],
+  "/blogs/chip-design/qa-with-latha-venkatachari": [
+   "8479"
+  ],
+  "/blogs/chip-design/qa-with-luca-amaru": [
+   "8479"
+  ],
+  "/blogs/chip-design/qa-with-mariya-braylovska": [
+   "8479"
+  ],
+  "/blogs/chip-design/quantum-computing-transforming-technology-science": [
+   "8479"
+  ],
+  "/blogs/chip-design/quantum-cryptography-vs-post-quantum-cryptography": [
+   "8479"
+  ],
+  "/blogs/chip-design/radhika-shankar-qa": [
+   "8479"
+  ],
+  "/blogs/chip-design/radiation-tolerant-ken-oneill": [
+   "8479"
+  ],
+  "/blogs/chip-design/rapid-elasticity-in-cloud-computing-on-demand-scaling-for-business": [
+   "8479"
+  ],
+  "/blogs/chip-design/re-engineering-engineering-with-ai-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/recap-2022-design-automation-conference": [
+   "8479"
+  ],
+  "/blogs/chip-design/redefining-test-expectations-with-synopsys-testmax-an-interview-with-amit-sanghani": [
+   "8479"
+  ],
+  "/blogs/chip-design/reduce-integration-risks-high-speed-pcie-5-0-compliant-synopsys-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/reduce-risk-and-time-to-market-for-ddr6-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/reducing-energy-consumption-sustainable-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/reflecting-stem-career-pathways": [
+   "8479"
+  ],
+  "/blogs/chip-design/reinforcement-learning-dac-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/resiliency-in-cloud-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/restart-career-after-break-riya-returnship": [
+   "8479"
+  ],
+  "/blogs/chip-design/returnships-create-new-opportunities": [
+   "8479"
+  ],
+  "/blogs/chip-design/revolutionizing-asic-flows-with-early-stage-in-design-rail-analysis": [
+   "8479"
+  ],
+  "/blogs/chip-design/rf-digital-twin-of-the-moon": [
+   "8479"
+  ],
+  "/blogs/chip-design/rfic-design-flow-corehw": [
+   "8479"
+  ],
+  "/blogs/chip-design/risc-v-accelerator-cloud-eda-tetramem": [
+   "8479"
+  ],
+  "/blogs/chip-design/risc-v-core-ip-sifive": [
+   "8479"
+  ],
+  "/blogs/chip-design/risc-v-processor-posit-arithmetic-calligo": [
+   "8479"
+  ],
+  "/blogs/chip-design/rise-automotive-cybersecurity": [
+   "8479"
+  ],
+  "/blogs/chip-design/ron-duncan-qa-stem-education-roadtrip-nation": [
+   "8479"
+  ],
+  "/blogs/chip-design/rram-mram-non-volatile-memory": [
+   "8479"
+  ],
+  "/blogs/chip-design/rsoft-device-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/rtl-architect-breakthrough-technology": [
+   "8479"
+  ],
+  "/blogs/chip-design/rtl-architect-verdi-integration": [
+   "8479"
+  ],
+  "/blogs/chip-design/rtl-architect-vineet-rashingkar": [
+   "8479"
+  ],
+  "/blogs/chip-design/rtl-debug-fpga-prototyping-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/rtl-vs-functional-signoff-differences": [
+   "8479"
+  ],
+  "/blogs/chip-design/saas-cloud-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/saber-for-robust-design-reliable-performance": [
+   "8479"
+  ],
+  "/blogs/chip-design/safeguarding-automotive-sensors-for-safety": [
+   "8479"
+  ],
+  "/blogs/chip-design/samsung-ddr4-3ds-tsv-memory": [
+   "8479"
+  ],
+  "/blogs/chip-design/sassine-ghazi-named-new-synopsys-ceo": [
+   "8479"
+  ],
+  "/blogs/chip-design/scalability-in-cloud-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/scalable-performance-for-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/secure-chipset-design-in-darpa": [
+   "8479"
+  ],
+  "/blogs/chip-design/securing-chip-supply-chain-for-aerospace-defense": [
+   "8479"
+  ],
+  "/blogs/chip-design/securing-physical-ai-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-design-goes-saas-snug": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-engineering-certification-synopsys-purple": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-engineering-degree-programs-purdue": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-engineering-talent-shortage-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-industry-trends-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-ip-companies-offer-asic-like-services": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-ip-development-qa-jumana-muwafi": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-ip-tsmc-n3e": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-talent-shortage-qa": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-training-workforce-development-program": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-workforce-development-programs": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductor-yield-analysis-machine-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/semiconductors-chip-design-global-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/shelagh-glaser-cfo-qa-women-in-tech": [
+   "8479"
+  ],
+  "/blogs/chip-design/shifting-left-with-ansys-john-lee-jacob-avidan-interview": [
+   "8479"
+  ],
+  "/blogs/chip-design/shifting-security-left-for-defense-applications": [
+   "8479"
+  ],
+  "/blogs/chip-design/silent-data-corruption-sdc-challenges": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-design-and-chip-performance-with-concertio": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-frontline-technology-acquisition": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-lifecycle-management": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-lifecycle-management-smarter-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-photonics-data-center-interconnect-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-photonics-multi-die-systems-aerospace-government": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-proven-ip-for-soc-design-in-hpc": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-remastering-addressing-chip-supply-shortage": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-software-automotive-value-chain": [
+   "8479"
+  ],
+  "/blogs/chip-design/silicon-testing-with-high-speed-functional-interfaces": [
+   "8479"
+  ],
+  "/blogs/chip-design/sima-ai-bug-free-physical-ai-silicon": [
+   "8479"
+  ],
+  "/blogs/chip-design/simulation-quantum-computing-research-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/simulation-solutions-structural-integrity-chip-packages": [
+   "8479"
+  ],
+  "/blogs/chip-design/slm-data-center-reliability": [
+   "8479"
+  ],
+  "/blogs/chip-design/smart-semiconductor-manufacturing-technology": [
+   "8479"
+  ],
+  "/blogs/chip-design/smarter-sensors-for-self-driving": [
+   "8479"
+  ],
+  "/blogs/chip-design/snug-gets-of-wisdom-synopsys-memory-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/snug-silicon-valley-2022": [
+   "8479"
+  ],
+  "/blogs/chip-design/snug-silicon-valley-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/snug-silicon-valley-2023-keynote": [
+   "8479"
+  ],
+  "/blogs/chip-design/snug-silicon-valley-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/snug-silicon-valley-2025": [
+   "8479"
+  ],
+  "/blogs/chip-design/soafee-enables-next-gen-connected-vehicles": [
+   "8479"
+  ],
+  "/blogs/chip-design/soc-design-services-hpc-data-center": [
+   "8479"
+  ],
+  "/blogs/chip-design/soc-design-verification-renesas": [
+   "8479"
+  ],
+  "/blogs/chip-design/soc-interfaces-security-enhance-data-protection": [
+   "8479"
+  ],
+  "/blogs/chip-design/soc-ip-powers-hpc-applications": [
+   "8479"
+  ],
+  "/blogs/chip-design/soc-physical-verification-tool-achronix": [
+   "8479"
+  ],
+  "/blogs/chip-design/socs-take-us-smart-to-smarter": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-bring-up-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-automotive-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-data-centers-sc24": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-hardware-assisted-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-vehicle-ecu-architectures": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-vehicles-aws": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-vehicles-blackberry-aws": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-vehicles-changes-auto-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-defined-vehicles-synopsys-arm": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-drives-product-design-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-enabled-full-chip-power-signoff-soc-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-modeling-kpi-prototyping": [
+   "8479"
+  ],
+  "/blogs/chip-design/software-security-quality-joe-jarzombek": [
+   "8479"
+  ],
+  "/blogs/chip-design/southeast-asia-semiconductor-workforce-development": [
+   "8479"
+  ],
+  "/blogs/chip-design/space-exploration-engineering-silicon-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/speed-up-simulation-coverage-closure": [
+   "8479"
+  ],
+  "/blogs/chip-design/sram-margin-analysis-workflow": [
+   "8479"
+  ],
+  "/blogs/chip-design/sram-puf-chip-security": [
+   "8479"
+  ],
+  "/blogs/chip-design/starrc-advanced-features-custom-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/starrc-density-corner-value-proposition": [
+   "8479"
+  ],
+  "/blogs/chip-design/starrc-standalone-netlist-reducer": [
+   "8479"
+  ],
+  "/blogs/chip-design/starrc-vmf-ic-validator-amf-positioning": [
+   "8479"
+  ],
+  "/blogs/chip-design/startup-vc-connect-ai-silicon": [
+   "8479"
+  ],
+  "/blogs/chip-design/stem-education-with-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/strategic-role-of-glitch-detection-ip-in-modern-socs": [
+   "8479"
+  ],
+  "/blogs/chip-design/streamline-photonic-icd-with-pdks": [
+   "8479"
+  ],
+  "/blogs/chip-design/summer-2021-internship-interdisciplinary-learning": [
+   "8479"
+  ],
+  "/blogs/chip-design/summer-tech-internship-program": [
+   "8479"
+  ],
+  "/blogs/chip-design/superconducting-iarpa-jamil-kawa": [
+   "8479"
+  ],
+  "/blogs/chip-design/sustainability-efforts-grow-azure-sky-wind-farm": [
+   "8479"
+  ],
+  "/blogs/chip-design/swap-marc-swinnen-kenneth-larsen": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-ai-copilots-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-ai-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-and-fishtail-design-automation": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-ansys-engineering-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-arm-aim-to-reduce-silicon-design-cycles": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-ceo-sassine-ghazi-future": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-cloud-ic-verification-drc": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-converge-2026-silicon-systems-conference": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-joins-ifs-usmag-alliance": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-learning-center": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-learning-center-training-accessible-easier": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-li-auto-case-study": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-pcie-leadership-recognized": [
+   "8479"
+  ],
+  "/blogs/chip-design/synopsys-tapes-out-slm-pvt-monitor-ip-on-tsmc-n5-n3e1": [
+   "8479"
+  ],
+  "/blogs/chip-design/system-architecture-design-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/system-interoperability-in-hyperscale-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/tachyum-prodigy-hpc-processor-hyperscale-data-centers": [
+   "8479"
+  ],
+  "/blogs/chip-design/tackling-tech-talent-shortage-with-stem": [
+   "8479"
+  ],
+  "/blogs/chip-design/tcad-semiconductor-industry-iit-bombay": [
+   "8479"
+  ],
+  "/blogs/chip-design/tcad-simulations-design-reliable-space-based-chips": [
+   "8479"
+  ],
+  "/blogs/chip-design/tech-internships-summer-2023": [
+   "8479"
+  ],
+  "/blogs/chip-design/technology-beyond-3nm-interview-jacob-avidan-shankar-krishnamoorthy": [
+   "8479"
+  ],
+  "/blogs/chip-design/testmax-test-all-the-limits": [
+   "8479"
+  ],
+  "/blogs/chip-design/thermal-management-solutions-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/three-ai-chip-startups-cloud-eda-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/timing-aware-multiphysics-eco-design-closure": [
+   "8479"
+  ],
+  "/blogs/chip-design/timing-constraints-signoff-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/tools-accelerate-memory-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/top-cloud-architecture-design-principles-important-for-eda": [
+   "8479"
+  ],
+  "/blogs/chip-design/top-medical-device-design-priorities-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/tsmc-awards-semiconductor-design-innovation": [
+   "8479"
+  ],
+  "/blogs/chip-design/tsmc-multi-die-systems-ucie-phy-ip-n3e": [
+   "8479"
+  ],
+  "/blogs/chip-design/tsmc-partner-of-the-year-2024": [
+   "8479"
+  ],
+  "/blogs/chip-design/types-of-cloud-security-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/uasp-faster-usb-mass-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/ucie-3-0-chiplet-ip-solutions": [
+   "8479"
+  ],
+  "/blogs/chip-design/ucie-changes-soc-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/ucie-performance-40g-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/ucie-protocol-multi-die-chip": [
+   "8479"
+  ],
+  "/blogs/chip-design/ucie-standard-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/ufs-4-0-specification-flash-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/ultra-ethernet-consortium": [
+   "8479"
+  ],
+  "/blogs/chip-design/ultra-ethernet-ualink-ai-infrastructure": [
+   "8479"
+  ],
+  "/blogs/chip-design/understanding-cloud-computing-for-eda-workloads": [
+   "8479"
+  ],
+  "/blogs/chip-design/understanding-haps-prototyping-systems-accessories": [
+   "8479"
+  ],
+  "/blogs/chip-design/understanding-iso-26262-semiconductors": [
+   "8479"
+  ],
+  "/blogs/chip-design/understanding-row-hammer-attacks": [
+   "8479"
+  ],
+  "/blogs/chip-design/unified-power-format-low-power-ic-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/upgrading-3d-ic-packaging-for-faster-ai-inference-with-psm": [
+   "8479"
+  ],
+  "/blogs/chip-design/upstream-downstream-ports-guide": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb-80gbps-specification-and-protocol": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb-audio-device-class3": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb-dual-role-advantages": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb-role-in-iot": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb-type-c-trends-worldwide": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb3-2-cable-length-water-delivery": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb3-2-power-delivery-charging": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb3-2-primer": [
+   "8479"
+  ],
+  "/blogs/chip-design/usb4-device-ip-edge-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/use-cases-benefits-synopsys-virtual-prototyping": [
+   "8479"
+  ],
+  "/blogs/chip-design/uvc-device-video-streaming": [
+   "8479"
+  ],
+  "/blogs/chip-design/verification-challenges-in-the-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/verification-validation-differences": [
+   "8479"
+  ],
+  "/blogs/chip-design/verifying-complex-datapath-designs-with-hector": [
+   "8479"
+  ],
+  "/blogs/chip-design/verifying-systems-with-primesim-continuum": [
+   "8479"
+  ],
+  "/blogs/chip-design/virtual-electronic-control-unit-prototyping-tools": [
+   "8479"
+  ],
+  "/blogs/chip-design/virtual-prototyping-pre-silicon-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/virtual-prototyping-shifts-software-soc-design-left": [
+   "8479"
+  ],
+  "/blogs/chip-design/virtual-prototyping-tools-multi-die-system-architecture-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/virtual-sensors-system-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/virtualizer-native-execution-arm": [
+   "8479"
+  ],
+  "/blogs/chip-design/visualizing-cross-die-paths-multi-die-designs": [
+   "8479"
+  ],
+  "/blogs/chip-design/volvo-cars-automotive-digital-twin": [
+   "8479"
+  ],
+  "/blogs/chip-design/vso-ai-nvidia": [
+   "8479"
+  ],
+  "/blogs/chip-design/weikai-sun-interview-synopsys-custom-design-platform": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-are-co-packaged-optics": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-are-counterfeit-chips": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-are-gate-all-around-gaa-transistors": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-are-multi-die-systems": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-does-cloud-native-mean": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-a-cloud-data-center": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-a-smartnic": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-ams-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-bring-your-own-cloud": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-clock-domain-crossing": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-cloud-migration": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-cloud-native-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-cloud-security-framework": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-code-linting": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-compute-express-link-3": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-cryo-cmos-ip": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-democratized-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-distributed-cloud-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-edge-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-elasticity-in-cloud-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-emram": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-flexeda": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-hardware-assisted-verification-hav": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-local-layout-effect-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-macsec-protocol": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-mobile-industry-processor-interface-protocol": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-multi-cloud-architecture": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-multi-die-chip-design": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-nfs-shared-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-object-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-persistent-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-photonics": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-power-optimization": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-quantum-computing": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-reset-domain-crossing": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-shared-cloud-storage": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-silent-data-corruption-sdc": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-silicon-lifecycle-management-slm": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-tdisp-pcie-io-virtualization": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-usb4-v2-specification": [
+   "8479"
+  ],
+  "/blogs/chip-design/what-is-very-short-reach-vsr-connectivity": [
+   "8479"
+  ],
+  "/blogs/chip-design/whats-new-in-pcie-6": [
+   "8479"
+  ],
+  "/blogs/chip-design/when-ai-gets-a-body-physical-ai": [
+   "8479"
+  ],
+  "/blogs/chip-design/when-functional-chip-design-verification-truly-finished": [
+   "8479"
+  ],
+  "/blogs/chip-design/where-does-innovation-come-from": [
+   "8479"
+  ],
+  "/blogs/chip-design/why-adaptability-is-key-to-faster-prototyping": [
+   "8479"
+  ],
+  "/blogs/chip-design/why-ai-hardware-demands-the-highest-verifiable-qor": [
+   "8479"
+  ],
+  "/blogs/chip-design/why-dtco-is-key-to-memory-design-techniques": [
+   "8479"
+  ],
+  "/blogs/chip-design/why-ras-matters-in-hpc": [
+   "8479"
+  ],
+  "/blogs/chip-design/will-ai-chip-design-tools-take-your-job": [
+   "8479"
+  ],
+  "/blogs/chip-design/wish-conference-2021-qa-priyanka-joshi": [
+   "8479"
+  ],
+  "/blogs/chip-design/women-in-stem-qa-lisa-mcilwain": [
+   "8479"
+  ],
+  "/blogs/chip-design/women-in-tech-engineering-scholarship": [
+   "8479"
+  ],
+  "/blogs/chip-design/ywca-tribute-to-women-awards-honors-synopsys": [
+   "8479"
+  ],
+  "/blogs/chip-design/zebu-cloud-saas-flow": [
+   "8479"
+  ],
+  "/blogs/chip-design/zebu-innovation-advancing-emulation-technology-complex-soc-verification": [
+   "8479"
+  ],
+  "/blogs/chip-design/zebu-use-cases-tackling-soc-verification-tasks": [
+   "8479"
+  ],
+  "/blogs/chip-design/zephyr-rtos-silicon-lifecycle-management": [
+   "8479"
+  ],
+  "/cloud/analog-saas/cloud-based-analog-design-flow": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/cisco-success": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/contact-us": [
+   "6087",
+   "7792"
+  ],
+  "/cloud/digital-saas/cloud-based-digital-design-flow": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/free-trial": [
+   "6484",
+   "7792"
+  ],
+  "/cloud/hcltech-success": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/made-in-the-cloud": [
+   "6087",
+   "7792"
+  ],
+  "/cloud/mentium-success": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/openlink/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/cloud/risc-v": [
+   "6087",
+   "7792"
+  ],
+  "/cloud/startup-program": [
+   "6484",
+   "7792"
+  ],
+  "/cloud/technical-session": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/tetramem-success": [
+   "6090",
+   "7792",
+   "6087"
+  ],
+  "/cloud/user-survey": [
+   "6090",
+   "7792"
+  ],
+  "/cloud/verification-saas/cloud-based-verification-design-flow": [
+   "6090",
+   "7792"
+  ],
+  "/community/snug/snug-india/2025-keynote": [
+   "6090",
+   "7792"
+  ],
+  "/community/snug/snug-india/2026-keynote": [
+   "6090",
+   "7792"
+  ],
+  "/community/snug/snug-india/reg-test-cvent": [
+   "8206",
+   "7792"
+  ],
+  "/community/snug/snug-news/2025-keynote": [
+   "6090",
+   "7792"
+  ],
+  "/community/snug/snug-news/keynote-day-1": [
+   "7699",
+   "7792"
+  ],
+  "/community/snug/snug-news/keynote-day-2": [
+   "7699",
+   "7792"
+  ],
+  "/company/contact-us": [
+   "7134",
+   "7792"
+  ],
+  "/contact-sales": [
+   "7687",
+   "7792"
+  ],
+  "/converge/executive-forum-2025": [
+   "6090",
+   "7792"
+  ],
+  "/converge/livestream-2026": [
+   "7699",
+   "7792"
+  ],
+  "/demo/ldw-sms": [
+   "6087",
+   "7792"
+  ],
+  "/demo/ldw-vc-spyglass-lint": [
+   "6087",
+   "7792"
+  ],
+  "/designware-ip/contact-us": [
+   "7209",
+   "7792"
+  ],
+  "/designware-ip/interface-ip/usb/usb-university-series": [
+   "6087",
+   "7792"
+  ],
+  "/designware-ip/security-ip/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/designware-ip/security-ip/security-truphone-report": [
+   "2842"
+  ],
+  "/dw/doc/ds/c/dwc-hdmi13-tx-phy-225gbps-tsmc-65gp25-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/c/dwc-sata-phy-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/c/sensor-subsystem-ds-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/c/uart-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/cc/arc-hs-enhanced-security-package-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/cc/arc-hs4x-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/cc/asip-designer-ds-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/es/embed-test-repair-ecc-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/o/ip-prototyping-kit-usb2-hs-otg-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/o/ip-prototyping-kit-usb3-1-host-device-pdf": [
+   "7270"
+  ],
+  "/dw/doc/ds/o/ip-prototyping-kits-ds-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/amba-hybrid-wp-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/arc-low-power-machine-learning-for-iot-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/arc-software-test-library-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/calibrate-and-configure-your-power-management-ic-with-nvm-ip-wp-sch-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/dataconverters-ip-for-automotive-socs-white-paper-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/designing-computational-imaging-systems-wp-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/how-new-storage-technologies-enhance-hpc-systems-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/neuromorphic-computing-emerging-memories-artificial-intelligence-socs-pdf": [
+   "7270"
+  ],
+  "/dw/doc/wp/tortuga-build-secure-processor-systems-faster-pdf": [
+   "7270"
+  ],
+  "/events/ams-sig/proceedings-2026": [
+   "6087",
+   "7792"
+  ],
+  "/events/ces/register": [
+   "8429",
+   "7792"
+  ],
+  "/events/embedded-world": [
+   "7687",
+   "7792"
+  ],
+  "/events/tcad-virtual-asia-seminar": [
+   "6087",
+   "7792"
+  ],
+  "/events/virtual-mask-solutions-seminar-2025": [
+   "6087",
+   "7792"
+  ],
+  "/events/virtual-prototyping-day": [
+   "6087",
+   "7792"
+  ],
+  "/events/virtual-prototyping-day-2025/virtual-prototyping-day-form": [
+   "6087",
+   "7792"
+  ],
+  "/implementation-and-signoff/resources/videos/rtla-verdi-demo-full": [
+   "6090",
+   "7792"
+  ],
+  "/implementation-and-signoff/resources/videos/srts2022": [
+   "6087",
+   "7792"
+  ],
+  "/manufacturing/augmented-reality-wp": [
+   "6087",
+   "7792"
+  ],
+  "/manufacturing/quantumatk/contact-us/contact-sales": [
+   "1205"
+  ],
+  "/resources/1-6t-ethernet-mac-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/1-6t-ethernet-pcs-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/1-8v-1-5v-1-2v-gpio-ip-for-gf-12lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/100g-200g-400g-800g-ethernet-mac-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/100g-ethernet-pcs-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/10g-ethernet-xgmac-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/112g-ethernet-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/112g-ethernet-phy-ip-for-very-short-reach-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/200g-400g-800g-ethernet-mac-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/200g-400g-and-800g-ethernet-mac-and-pcs-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/200g-and-400g-ethernet-pcs-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/224g-ethernet-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/224g-phy-ai-networks": [
+   "6087",
+   "7792"
+  ],
+  "/resources/25g-ethernet-mac-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/3-3v-1-8v-gpio-ip-for-gf-12lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/3-3v-1-8v-i2c-io-ip-with-5v-fail-safe-for-gf-12lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/3-3v-1-8v-lvds-rx-io-ip-for-gf-12lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/3dicc-brochure": [
+   "6087",
+   "7792"
+  ],
+  "/resources/3dio-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/56g-ethernet-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/800g-ethernet-pcs-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/accelerate-cloud-based-automotive-design-evaluation-early-software-development-electronics-digital-twin": [
+   "6087",
+   "7792"
+  ],
+  "/resources/accelerate-sdv-development-electronics-digital-twin-platform": [
+   "6087",
+   "7792"
+  ],
+  "/resources/accelerating-adoption-multi-die-systems": [
+   "6087",
+   "7792"
+  ],
+  "/resources/achieving-consistent-rtl-power-accuracy": [
+   "6087",
+   "7792"
+  ],
+  "/resources/achieving-your-low-power-goals-with-synopsys-ultra-low-leakage-io-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/advanced-packaging-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/advancing-android-soc-virtual-prototypes-virtualizer-native-execution": [
+   "6087",
+   "7792"
+  ],
+  "/resources/agile-pqc-public-key-accelerators-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ai-chip-security-sdev-slm": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ai-chip-silicon-design-advanced-packaging": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ai-powered-eda-chip-design-solutions": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ai-powered-eda-tsoai-ds": [
+   "6087",
+   "7792"
+  ],
+  "/resources/amba-advanced-i2c-smbus-controller-and-target-device-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/automated-method-soc-designs": [
+   "6087",
+   "7792"
+  ],
+  "/resources/automotive-fact-sheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/avsbus-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/bluesplec-riscv-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/building-an-ai-chip-pre-silicon-planning-guide": [
+   "6087",
+   "7792"
+  ],
+  "/resources/bump-tsv-planning-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/calibrate-and-configure-your-power-management-ic-with-nvm-ip-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ccix-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ccix-ip-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/chip-design-space-applications": [
+   "6087",
+   "7792"
+  ],
+  "/resources/co-packaged-optics-and-the-evolution-of-switch-optical-interconnects-in-data-centers-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/co-packaged-optics-for-multi-die-designs": [
+   "6087",
+   "7792"
+  ],
+  "/resources/complete-1-6t-ethernet-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/complete-1-6t-ultra-ethernet-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/complete-ualink-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/compute-express-link-cxl-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/confirmation-measures-iso26262-functional-safety": [
+   "6087",
+   "7792"
+  ],
+  "/resources/consumer-8g-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/controller-ip-for-pci-express-6-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/controller-ip-for-pci-express-7-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/cryptographic-security-evolution": [
+   "6087",
+   "7792"
+  ],
+  "/resources/cryptography-software-library-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/cybersecurity-soc-21434-best-practices": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr3-2-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr4-3-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr4-multiphy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr5-4-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr5-4-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr5-mrdimm-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ddr5-mrdimm-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/deep-low-voltage-transistor-foundation-ip": [
+   "6087",
+   "7792"
+  ],
+  "/resources/design-da": [
+   "6087",
+   "7792"
+  ],
+  "/resources/designing-for-448g": [
+   "6087",
+   "7792"
+  ],
+  "/resources/designing-ras-slm": [
+   "6087",
+   "7792"
+  ],
+  "/resources/developing-high-reliability-reprogrammable-nvm-ip-for-automotive-applications-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/die-to-die-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/displayport-tx-ip-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/dual-mode-controller-ip-for-pci-express-1-1-5-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/edge-ai-low-voltage-ip": [
+   "6087",
+   "7792"
+  ],
+  "/resources/efficient-data-transfer-with-high-speed-serial-flash-interface-ip-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/efficient-multi-die-implementation-ip-integration": [
+   "6087",
+   "7792"
+  ],
+  "/resources/embedded-endpoint-controller-ip-for-pci-express-1-1-5-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/enabling-the-448g-era": [
+   "6087",
+   "7792"
+  ],
+  "/resources/endpoint-controller-ip-for-pci-express-1-1-5-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/enhanced-serial-peripheral-interface-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/enhanced-universal-ddr-memory-and-protocol-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/enhanced-universal-ddr-memory-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/enterprise-ethernet-mac-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/enterprise-ethernet-pcs-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/esd-co-design-for-224g-and-112g-serdes-in-finfet-technologies-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/esun-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ethernet-mac-10-100-1000-universal-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ethernet-mac-10-100-universal-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ethernet-pcs-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ethernet-quality-of-service-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/eusb2-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/exalto": [
+   "6087",
+   "7792"
+  ],
+  "/resources/faster-bug-discovery-coverage-closure-vso-ai": [
+   "6087",
+   "7792"
+  ],
+  "/resources/flexible-key-sram-puf": [
+   "6087",
+   "7792"
+  ],
+  "/resources/flexible-usb4-based-interface-ip-solution-for-ai-at-the-edge-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-cores-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-energy-efficient-soc": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-db-hitek-180nm-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-gf-22fdx-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-gf-22fdx-plus-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-gf-40lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-gf-55lpe-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-huali-40lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-huali-55lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-intel-16-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-intel-18a-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-samsung-8lpu-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-smic-40ll-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-smic-65ll-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-16ff-plus-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-16ffc-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-22ull-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-28hp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-28hpc-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-28hpc-plus-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-28hpm-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-40lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-65lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-n3p-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-n4p-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-n5-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-n5a-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-n6-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-tsmc-n7-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-umc-28hlp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-umc-28hpc-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-umc-40lp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-for-umc-40ulp-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-gf55bcd-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/foundation-ip-tsmc-n6aio-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ftp-trim-nvm-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/gen-2-ddr-multiphy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/gf-rf-design-migration-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/gpu-support-nvidia": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hardware-root-trust-security-ip": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hav-for-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hav-interface-solutions-spec-sheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hbm2-hbm2e-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hbm3-controller-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hbm3-phy-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hbm4-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hbm4-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hdcp-2-3-on-hdmi-displayport-embedded-security-modules-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hdmi-1-3-receiver-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hdmi-1-3-tx-phy-ip-for-2-25gbps-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hdmi-rx-phy-ip-for-2-25gbps-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/high-performance-aes-gcm-ctr-ip-core-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/high-speed-test-io-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hpc-applications": [
+   "6087",
+   "7792"
+  ],
+  "/resources/hpc-macsec-security-modules-for-ethernet-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/i2s-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/i2s-tdm-audio-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/iccii-design-planning-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ide-secure-module-for-cxl-2-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ide-secure-module-for-cxl-3-x-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ide-secure-module-for-cxl-4-0": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ide-security-ip-module-for-pci-express-5-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ide-security-ip-module-for-pci-express-6-x-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ide-security-ip-module-for-pci-express-7-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ime-security-ip-module-for-ddr-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/improving-scan-test-coverage": [
+   "6087",
+   "7792"
+  ],
+  "/resources/innovate-faster": [
+   "6087",
+   "7792"
+  ],
+  "/resources/inside-ai-accelerator": [
+   "6087",
+   "7792"
+  ],
+  "/resources/integrating-security-soc-designs": [
+   "6087",
+   "7792"
+  ],
+  "/resources/interface-ip-subsystems-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ip-3d-multi-die-design": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ip-for-hdmi-2-1-tx-ip-solutions-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ip-for-pci-express-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ip-phy-ip-for-pci-express-5-0-and-cxl-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ip-solutions-edge-ai": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ip-solutions-for-the-amba-interconnect-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lle-aware-design-methodology": [
+   "6087",
+   "7792"
+  ],
+  "/resources/looking-into-linear-pluggable-optics": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lower-process-nodes-timing-signoff-evolution": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr4-multiphy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr5-4-4x-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr5-4-4x-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr5x-5-4x-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr5x-5-4x-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr6-5x-5-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/lpddr6-5x-5-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/macsec-security-modules-for-ethernet-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mastering-ai-chip-complexity-ebook": [
+   "6087",
+   "7792"
+  ],
+  "/resources/medium-density-nvm-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-c-phy-d-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-cse2-security-module-ds": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-csi-2-device-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-csi-2-host-controller-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-d-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-dsi-device-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-dsi-host-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-dsi-host-controller-ip-with-vesa-dsc-encoder-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-i3c-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-m-phy-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mipi-unipro-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/model-based-design-and-virtual-ecus": [
+   "6087",
+   "7792"
+  ],
+  "/resources/monitoring-test-repair-strategies-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mram-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mtp-eeprom-nvm-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/mtp-ulp-nvm-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-die-auto-routing-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-die-automotive-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-die-design-signoff": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-die-feasibility-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-die-physical-verification-fanout-rdl": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-die-systems-start-guide": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-port-switch-ip-for-pci-express-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-protocol-10g-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-protocol-112g-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-protocol-25g-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-protocol-32g-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multi-protocol-6g-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/multiphysics-fusion-technology-for-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/navigating-software-defined-vehicle-development": [
+   "6087",
+   "7792"
+  ],
+  "/resources/non-volatile-memory-ip-solutions-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/optimized-system-power": [
+   "6087",
+   "7792"
+  ],
+  "/resources/optimizing-analog-design-multiphysics": [
+   "5231",
+   "7792"
+  ],
+  "/resources/otp-nvm-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/overcoming-challenges-verifying-multi-die-systems": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pathfinder-sc": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pci-express-7-in-practice": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pci-express-to-arm-amba-ahb-bridge-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pcie-multistream-ai-bandwidth": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pcie5-edge-ai-soc": [
+   "6087",
+   "7792"
+  ],
+  "/resources/phy-ip-for-pci-express-2-1-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/phy-ip-for-pci-express-6-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/phy-ip-for-pci-express-7-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/physical-verification-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/power-optimization-ai-chip-development": [
+   "6087",
+   "7792"
+  ],
+  "/resources/power-supply-noise-effects-on-jitter-in-clock-synchronous-systems-with-emphasis-on-memory-interfaces-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/powerx": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ppa-benefits-backside-routing": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pre-silicon-verification-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/resources/primeclock": [
+   "6087",
+   "7792"
+  ],
+  "/resources/proven-ip-for-silicon-design": [
+   "6087",
+   "7792"
+  ],
+  "/resources/public-key-accelerator-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/puf-base-premium-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/puf-base-premium-software-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/puf-based-hardware-ip-defense-applications": [
+   "6087",
+   "7792"
+  ],
+  "/resources/puf-fpga-x-base-premium-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/pufs-post-quantum-world": [
+   "6087",
+   "7792"
+  ],
+  "/resources/quantumatk": [
+   "6087",
+   "7792"
+  ],
+  "/resources/quantumatk-superconducting": [
+   "6087",
+   "7792"
+  ],
+  "/resources/re-engineering-engineering-electronics-digital-twin-sdv-era": [
+   "6087",
+   "7792"
+  ],
+  "/resources/redhawk-sc-ds": [
+   "6087",
+   "7792"
+  ],
+  "/resources/redhawk-sc-electrothermal": [
+   "6087",
+   "7792"
+  ],
+  "/resources/redhawk-sc-security": [
+   "6087",
+   "7792"
+  ],
+  "/resources/reducing-power-consumption-in-mobile-applications-with-high-speed-gear3-mipi-m-phy-ip-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/reliability-sram-puf": [
+   "6087",
+   "7792"
+  ],
+  "/resources/rethinking-automotive": [
+   "6087",
+   "7792"
+  ],
+  "/resources/root-port-controller-ip-for-pci-express-1-1-5-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sd-emmc-host-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sd-emmc-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/secure-boot-software-development-kit-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/secure-interfaces-critical-semiconductor-applications": [
+   "6087",
+   "7792"
+  ],
+  "/resources/secure-roots-of-trust-iot": [
+   "6087",
+   "7792"
+  ],
+  "/resources/secure-storage-solution-otp-ip": [
+   "6087",
+   "7792"
+  ],
+  "/resources/secure-storage-solution-otp-ip-video": [
+   "6087",
+   "7792"
+  ],
+  "/resources/securing-fpgas-beyond-the-bitstream": [
+   "6087",
+   "7792"
+  ],
+  "/resources/securing-silicon-modular-ip-solutions": [
+   "6087",
+   "7792"
+  ],
+  "/resources/security-ai-whitepaper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/security-ip-brochure": [
+   "6087",
+   "7792"
+  ],
+  "/resources/security-protocol-accelerator-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/security-protocol-accelerator-for-sm3-and-sm4-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/security-puf-fpga-a-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/shf-otp-nvm-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/shift-left-verification-lint-signoff": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sil-kit-vector-synopsys-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/silicon-da": [
+   "6087",
+   "7792"
+  ],
+  "/resources/simulating-atomic-layer-processing-2d-materials": [
+   "6087",
+   "7792"
+  ],
+  "/resources/slm-actionable-silicon-insights": [
+   "6087",
+   "7792"
+  ],
+  "/resources/slm-end-to-end-yield-learning": [
+   "6087",
+   "7792"
+  ],
+  "/resources/slm-process-detector-sf4x-product-brief": [
+   "6087",
+   "7792"
+  ],
+  "/resources/slm-pvt-for-n3p-product-briefs": [
+   "6087",
+   "7792"
+  ],
+  "/resources/slm-pvt-monitor-ip-tsmc-n2p-reliability": [
+   "6087",
+   "7792"
+  ],
+  "/resources/slm-pvtc5-product-brief": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sms-ip": [
+   "6087",
+   "7792"
+  ],
+  "/resources/software-defined-hardware-assisted-verification-ai-era": [
+   "6087",
+   "7792"
+  ],
+  "/resources/software-development-system-validation-collaboration-electronics-digital-twin": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sram-compiler-breakthroughs-5nm-3nm-socs": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sram-puf-cryptographic-key-protection": [
+   "6087",
+   "7792"
+  ],
+  "/resources/sram-puf-secure-fingerprint": [
+   "6087",
+   "7792"
+  ],
+  "/resources/standards-compliant-112g-phy-for-linear-optics": [
+   "6087",
+   "7792"
+  ],
+  "/resources/superspeed-usb-3-0-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/superspeed-usb-3-1-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/superspeed-usb-3-2-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/switch-port-controller-ip-for-pci-express-1-1-5-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synchronous-serial-interface-ssi-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ai-copilot-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ip-for-hdmi-2-0-and-1-4-rx-ip-solutions-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ip-for-hdmi-2-0-and-1-4-tx-ip-solutions-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ip-for-hdmi-2-1-rx-ip-solutions-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ip-for-pci-express-single-root-io-virtualization-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ip-for-pci-express-to-amba-3-axi-4-bridge-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-ip-portfolio-brochure": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-phy-ip-for-pci-express-3-1-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-phy-ip-for-pci-express-4-0-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/synopsys-testmax-advisor-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ternary-cam-compilers-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-advisor": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-atpg": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-dft": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-diagnosis": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-manager": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-vtran": [
+   "6087",
+   "7792"
+  ],
+  "/resources/testmax-xlbist": [
+   "6087",
+   "7792"
+  ],
+  "/resources/totem": [
+   "6087",
+   "7792"
+  ],
+  "/resources/trng-truly-secure-systems": [
+   "6087",
+   "7792"
+  ],
+  "/resources/troot-fx-hardware-secure-modules-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/troot-hardware-secure-module-for-automotive-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/troot-vx-hardware-secure-modules-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/true-random-number-generator-core-for-nist-800-90c-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/true-random-number-generator-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/trustworthy-automotive-semiconductors-wp": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ualinksec-200-security-module": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ucie-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ucie-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ufs-host-controller-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ultra-high-performance-aes-gcm-ctr-ip-core-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/ultra-high-performance-aes-xts-ecb-ip-core-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/unifying-storage-diversity-leveraging-pcie-ip-for-multi-device-multi-form-factor-designs-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/universal-ddr-memory-and-protocol-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/unleashing-analog-design": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-2-0-controller-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-2-0-femtophy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-2-0-nanophy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-2-0-nanophy-ip-for-common-platform-processes-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-2-0-picophy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-2-0-type-c-ip-for-iot-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-3-0-femtophy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-3-1-evolution-and-revolution-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-3-2-a-usb-type-c-challenge-for-soc-designers-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-c-3-1-displayport-1-4-tx-ip-complete-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb-lpm-digital-controller-and-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb4-ip-solution-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/usb4-user-expectations-drive-design-complexity-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/vc-spyglass-lint-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/vc-spyglass-lint-early-detection": [
+   "6087",
+   "7792"
+  ],
+  "/resources/velocerf": [
+   "6087",
+   "7792"
+  ],
+  "/resources/verification-and-validation-of-automotive-safety-element-out-of-context-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/vesa-dsc-decoder-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/vesa-dsc-encoder-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/vrm-cookbook-bluespec-riscv": [
+   "6087",
+   "7792"
+  ],
+  "/resources/what-designers-need-to-know-about-usb-low-power-states-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/which-ddr-sdram-memory-to-use-and-when-white-paper": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xaui-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xaui-phy-ip-for-common-platform-processes-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xbc-otp-nvm-ip-siprom-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xbc-otp-nvm-ip-slpmx-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xbc-xhc-otp-nvm-ip-slp-a-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xbc-xhc-otp-nvm-ip-slp-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xbc-xhc-otp-nvm-ip-slp-b-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xhc-otp-nvm-ip-slp-c-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xsc-otp-nvm-ip-secretcode-architecture-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/resources/xsr-phy-ip-datasheet": [
+   "6087",
+   "7792"
+  ],
+  "/services/design-services/contact-system-design-solutions": [
+   "6484",
+   "7792"
+  ],
+  "/solutions/aerospace-government/contact-us": [
+   "6087",
+   "7792"
+  ],
+  "/solutions/automotive/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/solutions/multi-die-design/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/solutions/silicon-lifecycle-management/contact-us": [
+   "5094"
+  ],
+  "/success-stories/abr-tapes-out-processor-synopsys-cloud": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/dreambig-semiconductors-tapeout-synopsys-3dic-compiler-cloud": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/electronics-digital-twins-volvo-cars": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/etched-ai-silicon-validation": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/fujitsu-next-gen-processor-fugakunext-supercomputer": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/google-tensor-soc-validation": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/m31-faster-characterization-synopsys-cloud-primelib": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/marvell-gen-ai-formal-verification": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/metanoia-launches-5g-platform-flexeda-cloud-saas": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/rain-ai-low-power-ai-accelerator-chip-synopsys-cloud": [
+   "6087",
+   "7792"
+  ],
+  "/success-stories/weeteq-tapes-out-ai": [
+   "6087",
+   "7792"
+  ],
+  "/verification/emulation-prototyping/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/verification/fpga-simulation/fpga-simulator": [
+   "6090",
+   "7792"
+  ],
+  "/verification/resources/datasheets/haps-200": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/platform-architect-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/timing-constraints-manager": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/vc-formal": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/vc-spyglass-idc": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/vcs-industrysngqs-highest-performance-simulation-solution": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/zebu-200": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/zebu-ep": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/datasheets/zebu-server-5": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/events/formal-sig-2024": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/10x-cdc-debug-ml": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/accelerate-test-regressions-vip": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/benchmark-before-you-build": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/better-faster-more-efficient-verification-with-ai": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/coverage-metrics-formal-unr-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/enabling-high-quality-risc-v-processor-models": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/fmeda-powered-safety-verification": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/formal-signoff-methodology": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/functional-safety-fault-simulation-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/machine-learning-to-automate-debug": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/multi-die-early-architecture-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/reduce-sim-reg-dpo": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/scaling-modern-complexity-hav-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/tcm-sdc-mgmt-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/timing-constraints-manager": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/vc-spyglass-connectivity-linting": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/vc-spyglass-integrated-solution": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/vcs-t-prop-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/verification-low-power": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/virtual-ecu-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/virtual-prototyping-regression-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/virtualizer-native-execution-accelerates-sw-defined-product-development-for-arm-solutions-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/resources/whitepapers/vso-ai-wp": [
+   "6087",
+   "7792"
+  ],
+  "/verification/services-costart": [
+   "3575"
+  ],
+  "/verification/vc-formal-services": [
+   "6484",
+   "7792"
+  ],
+  "/verification/virtual-prototyping/atef/book-a-meeting": [
+   "7209",
+   "7792"
+  ],
+  "/verification/virtual-prototyping/atef/contact-us": [
+   "6087",
+   "7792"
+  ],
+  "/verification/virtual-prototyping/contact-us": [
+   "6484",
+   "7792"
+  ],
+  "/webinars/448g-ready-or-not": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/a-z-multi-die-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerate-coverage-closure-ai-ml-vcs-ico-technology": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerate-coverage-closure-vso-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerated-sdv-development": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerating-ai-hardware-nvidia-haps": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerating-innovation-semiconductor-startups": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerating-sdv-development-virtualization-tools-and-technology": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/accelerating-windows-driver-development-using-synopsys-virtualizer": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/achieving-1-6tbps-ethernet-interoperability-hpc-ai-ml-socs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/advanced-usage-synopsys-virtualizer-pre-silicon-sw-development": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/advancing-gan-power-transistors": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/advancing-sic-power-transistors": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/age-of-agentic-engineering": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/agentengineer-your-ai-coworker": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/agentic-ai-impact-engineering-workflows": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/agentic-ai-nuts-bolts-agentengineer": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/agentic-ai-synopsys-nvidia-chip-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/agentic-spec2rtl-workflow": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/agile-cicd-github-eda-flows": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-advanced-security-solutions": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-apps-rl-llms-agents": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-chip-design-onboarding-strategies": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-chip-design-synopsys-microsoft": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-driven-debug-verdi": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-driven-verification": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ai-in-eda-chip-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/amd-3dic-feasibility-analysis": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/analog-design-in-cloud": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/application-level-hybrid-emulation-software-defined-systems": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/application-specific-processors-asip-physical-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/architecting-physical-ai-socs-standards-ip": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/arm-multi-die-architecture-designs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/arm-slm-implementation-arm-cores": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/atomistic-simulations": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/atpg-power-timing-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/auto-tech-day": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/automated-constraints-promotion-methodology": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/automotive-margin": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/automotive-socs-security": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/benefits-early-architecture-design-multi-die-systems": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/cdc-debug-ml-rca": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/chip-design-forefront-ai-innovation": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/chip-design-with-generative-agentic-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/cisco-advancing-hsat-structural-test-pcie-gen4": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/clock-gating-vc-formal-part-2": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/cloud-scale-emulation-for-startups": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/compute-connectivity-pcie-cxl-architectures": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/constraints-driven-cdc-and-rdc-verification": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/copilot-smarter-chip-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/correct-by-construction-coding-euclide": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/cross-architecture-compatibility-with-virtual-prototypes-lixiang": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/custom-hbm-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/data-driven-approach-to-multi-die-design-architecture": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/de-risking-socs-with-interface-ip": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/deep-dive-synopsys-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/design-analysis-multi-die-3d-ic-systems": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/designing-risc-v-triple-threat-assp-dev": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/designing-the-future-of-ai-infrastructure-with-ualink": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/deterministic-motor-control-with-mips-m8500-globalfoundries": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/digital-cloud-instance": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/dso-ai-demo": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/efficient-and-robust-memory-verification-in-modern-socs-using-formal-equivalence-checker": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/efficient-secure-ai-systems-ualink": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/electronics-digital-twins-from-concept-scalable-platform": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/enabling-informed-processor-core-selection-early-architecture-analysis": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/enflame-virtual-prototyping-ai-chip-early-development": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/engineering-intelligence-10-watts": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/equivalence-checking-with-formality": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/extending-android-soc-virtual-prototypes-virtio-virtualizer-native-execution": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/fab-da-ai-process-analytics": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/fast-accurate-functional-ecos-with-formality-eco": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/formal-datapath-validation-ai-processors": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/full-stack-vision-automotive-silicon-innovation": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/functional-correctness-security-risc-v-cores": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/functional-eco-using-formality-eco": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/functional-ecos-formality": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/functional-verification-to-fault-simulation": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/high-reliability-functional-safety-fpga": [
+   "6484",
+   "7792"
+  ],
+  "/webinars/holistic-approach-risc-v-processor": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/hybrid-prototyping-early-collaboration-automotive-supply-chain": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/hyperscale-data-centers-1-6t-ethernet": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/improve-vcs-simulation": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/infineon-standardization-semiconductor-environment-siliconda": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/innovating-ai-hardware-with-cloud-solutions": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/intel-3d-multi-die-design-signoff": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/intel-emib-design-advanced-ai-datacenter-solutions": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/interconnect-memory-performance-exploration-many-core-socs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/invisible-keys-from-pufs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ip-design-edge-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/key-ip-3d-integration-ucie-ai-chips": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/left-shift-verification-multi-die-soc-using-architectural-models-renesas": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/leveraging-synopsys-vdk-to-shift-soc-development-left-mediatek": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/leveraging-virtual-platforms-shift-left-hwsw-verification": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/manufacturing-test-flows-vc-z01x": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/marvell-accelerating-design-signal-integrity-analysis": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/mastering-layout-parasitics-with-paragonx-cest": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/mastering-layout-parasitics-with-paragonx-pst": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/maximize-productivity-ppa": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/meta-shift-left-connectivity-checks-soc-quality": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/migrate-analog-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/migrate-architecture-ip-edge-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/mission-critical-defense-security": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/mitigating-ai-data-bottlenecks-pcie-7": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ml-driven-equivalence-checking-formality": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ml-tcad-calibration": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multi-die-3dic-partitioning-floorplanning": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multi-die-designs-co-packaged-optics": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multi-die-designs-security": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multi-die-multi-physics-silicon-design-panel": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multi-die-test-monitoring-flows": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multi-noc-soc-performance-analysis-tsn-applications": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multiphysics-fusion-technology-multi-die-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/multiphysics-hbm-3d-integration": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/navigating-complexities-sdv": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/new-faster-standards-data-center-shift": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/next-generation-3dic-interposer-info-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/noc-centric-system-chiplet-era-platform-architect": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/noc-design-platform-integration-early-benchmarking-automotive-processor-socs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/nvm-otp-tsmc-n5": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/opportunities-innovation-ai-powered-chip-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/opportunity-new-engineering-paradigms": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/optimal-ppa-targets-dso-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/optimize-atpg-tso-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/optimizing-memory-multi-die-architectures": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/optimizing-soc-performance": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/panel-cloud-access-synopsys-startups": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/paragonx-ic-layout-parasitics-analysis": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/path-to-1-6tbe-224g-ethernet-phy-ip": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/pcie-5-edge-benefits": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/pcie-and-ethernet-over-optics": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/pcie-cxl-latency-power-considerations-hpc-socs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/pcie-multistream-ai-connectivity": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/performance-analysis-network-chip-development": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/physical-ai-future-systems-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/power-integrity-signoff-to-design-optimization": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/power-of-ai-chip-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/powering-3dic-systems-redhawk-sc-electrothermal": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/pre-design-verification-optimization-on-chip": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/pre-silicon-sw-enablement-for-tda5-soc-ti": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ras-challenges-chiplets-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/re-engineering-automotive-physical-ai-development": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/re-engineering-the-future": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/real-time-processing-automotive-safety": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/redhawk-sc-emir-signoff-ir-aware-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/reducing-risk-chiplet-design": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/renesas-r-car-virtual-platform": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/rethinking-ai-connectivity": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/rethinking-compute-age-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/rf-mmwave-reference-flow": [
+   "6090",
+   "7792"
+  ],
+  "/webinars/rtl-dft-connectivity-webinar": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/rtl-power-analysis": [
+   "6090",
+   "7792"
+  ],
+  "/webinars/scalable-heterogeneous-systems": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/scalable-on-demand-verification": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/scaling-ai-agents-formal-workflow": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/scaling-ai-infrastructures-with-next-gen-standardized-interconnects": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/scaling-hbm-signal-integrity-signoff": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/scaling-sdv-development-virtualization": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/seamless-license-management": [
+   "6484",
+   "7792"
+  ],
+  "/webinars/shaping-the-future": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/shift-left-performance-analysis-risc-v-soc-openchip": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/shift-left-soc-ip-verification": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/silicon-da-slm-analytics": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/silicon-lifecycle-management-automotive": [
+   "6090",
+   "7792"
+  ],
+  "/webinars/silicon-systems-innovation-ai": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/silicon-to-system": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/slm-pvt-monitoring-gaa": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/soc-connectivity-verification-vc-formal": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/soc-design-verification-family": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/soc-performance-with-collaboration-framework-padk": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/software-approach-avoid-respins": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/speed-barriers-virtual-prototypes-advanced-use-cases": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/startups-panel-navigating-the-last-mile": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/static-esd-simulation-multi-die": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/stronger-performance-validation-altera": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/synopsys-ai-copilot-design-assistant": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/synopsys-ai-copilot-productivity": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/synopsys-autonomous-verification-closure-agent": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/synopsys-guc-coupe": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/synopsys-icepak-agent-autonomous-thermal-engineering": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/system-level-benchmarking-ai-workloads-tda5-ti": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/system-level-performance-insights-early-soc-de-risking-nxp": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/testmax-advisor": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/the-system-is-the-bottleneck-baya": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/transition-to-pcie-7-now": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/trustworthy-automotive-semiconductors": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ucie-interface-update": [
+   "6090",
+   "7792"
+  ],
+  "/webinars/ucie-standard-vs-ucie-advanced": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/ucie-system-level-verification-challenges": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/understanding-ualink-architecture-protocol-deep-dive": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/using-platform-architect-for-optimizing-aurix-microcontrollers": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/vc-execution-manager-verification-efficiency": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/vc-panel-what-does-it-take": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/vecu-based-integration": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/verdi-euclide-ide-integration": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/verify-clock-gating-vc-formal-part-1": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/verifying-ai-designs": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/verilator-processor-benchmarking-automotive-soc-platforms": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/virtual-ecu-deployment": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/virtual-prototypes-risc-v-software-development-optimization-test": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/virtual-prototyping-software-defined-vehicles": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/virtualization-for-shift-left-sw-development-tata-elxsi": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/wireline-transmitters-part-1": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/wireline-transmitters-part-2": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/wireline-transmitters-part-3": [
+   "6087",
+   "7792"
+  ],
+  "/webinars/writing-c-cpp-models-efficient-datapath-validation": [
+   "6087",
+   "7792"
+  ]
+ }
+}

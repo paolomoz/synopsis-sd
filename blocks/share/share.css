@@ -1,0 +1,26 @@
+/* share — source: .cmp-socialshare: 40px round grey buttons in a row, left rail, under the TOC */
+.share .share-links {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 16px 0 24px;
+  list-style: none;
+}
+
+.share .share-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: var(--ink);
+}
+
+.share .share-link:hover { background: var(--purple); color: #fff; }
+
+.share .share-link svg {
+  width: 18px;
+  height: 18px;
+}

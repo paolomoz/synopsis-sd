@@ -1,0 +1,6 @@
+{
+  "note": "Third-party tags from the source (www.synopsys.com). They load only when window.location.hostname is listed in production.hosts; on aem.live/aem.page/localhost nothing is requested.",
+  "production": { "hosts": [] },
+  "adobeLaunch": { "src": "https://assets.adobedtm.com/79b3942b8dfa/604ce2434de1/launch-2396cdda8e60.min.js", "note": "Adobe Launch bundle (Adobe Data Layer / Analytics / Target); OneTrust (optanon) is initialised through this bundle on the source" },
+  "oneTrust": { "src": "", "domainScript": "", "note": "no standalone OneTrust stub in the source markup; managed via the Launch bundle" }
+}

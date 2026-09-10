@@ -1,9 +1,4 @@
 /* search — source: /search.html: dark band (#0f1a24) with centred title + full-width box, then facets 280px | results */
-.search-wrapper {
-  max-width: none;
-  padding: 0;
-}
-
 .search .search-band {
   padding: 40px 0 56px;
   background: #101a24;

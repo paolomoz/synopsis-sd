@@ -329,14 +329,15 @@ main > .section:empty {
 }
 
 /* full-bleed blocks paint their own container */
-main > .section > div:where(.hero-wrapper, .breadcrumbs-wrapper, .anchor-nav-wrapper, .carousel-wrapper) {
+main > .section > div:where(.hero-wrapper, .breadcrumbs-wrapper, .anchor-nav-wrapper, .carousel-wrapper, .search-wrapper) {
   max-width: none;
   padding: 0;
 }
 
 main .section.breadcrumbs-container,
 main .section.hero-container,
-main .section.anchor-nav-container {
+main .section.anchor-nav-container,
+main .section.search-container {
   padding: 0;
 }
 

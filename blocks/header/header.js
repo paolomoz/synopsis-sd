@@ -246,7 +246,26 @@ function buildUtilityBar(section) {
     btn.className = 'utility-lang';
     btn.append(svg(SVG.globe), document.createTextNode(langs.querySelector('li')?.textContent.trim() || 'English'));
     btn.setAttribute('aria-haspopup', 'listbox');
-    tools.append(btn);
+    btn.setAttribute('aria-expanded', 'false');
+    // locales authored in /nav (source: language dropdown → /ja-jp, /zh-cn, /zh-tw, /ko-kr; English = /)
+    const LOCALE_PATH = { English: '/', 日本語: '/ja-jp', 简体中文: '/zh-cn', 繁體中文: '/zh-tw', 한국어: '/ko-kr' };
+    const menu = document.createElement('ul');
+    menu.className = 'utility-lang-menu'; menu.setAttribute('role', 'listbox'); menu.hidden = true;
+    [...langs.querySelectorAll('li')].forEach((li) => {
+      const name = li.textContent.trim(); const authored = li.querySelector('a');
+      const href = authored?.getAttribute('href') || LOCALE_PATH[name];
+      if (!href) return;
+      const item = document.createElement('li'); item.setAttribute('role', 'option');
+      const a = document.createElement('a'); a.href = href; a.textContent = name; a.lang = { 日本語: 'ja', 简体中文: 'zh-Hans', 繁體中文: 'zh-Hant', 한국어: 'ko' }[name] || 'en';
+      if (href === window.location.pathname) item.classList.add('is-current');
+      item.append(a); menu.append(item);
+    });
+    const wrap = document.createElement('div'); wrap.className = 'utility-lang-wrap'; wrap.append(btn, menu);
+    const setOpen = (open) => { menu.hidden = !open; btn.setAttribute('aria-expanded', open ? 'true' : 'false'); };
+    btn.addEventListener('click', () => setOpen(menu.hidden));
+    document.addEventListener('click', (e) => { if (!wrap.contains(e.target)) setOpen(false); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
+    tools.append(wrap);
   }
   if (ask && ask !== ansys && ask !== synopsys) {
     const btn = document.createElement('button');

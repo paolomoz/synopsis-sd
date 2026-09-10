@@ -77,7 +77,26 @@ function buildWidgetAutoBlocks(main) {
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
+/**
+ * Share row on article pages (source: .cmp-socialshare sits in the left rail of every blog/article page).
+ * Appended as a `rail` section after the last rail/toc section (or after the hero) so it floats with the rail.
+ */
+function buildShareBlock(main) {
+  if (!document.body.classList.contains('article') || main.querySelector('.share')) return;
+  const sections = [...main.children];
+  const isRail = (div) => [...div.querySelectorAll(':scope > .section-metadata div')].some((d) => /^(rail|toc)$/i.test(d.textContent.trim())) || div.querySelector(':scope > .toc, :scope > .form');
+  const anchor = sections.filter(isRail).pop() || sections.find((d) => d.querySelector(':scope > .hero'));
+  if (!anchor) return;
+  const section = document.createElement('div');
+  const block = document.createElement('div'); block.className = 'share'; block.append(document.createElement('div'));
+  const meta = document.createElement('div'); meta.className = 'section-metadata';
+  meta.innerHTML = '<div><div>Style</div><div>rail</div></div>';
+  section.append(block, meta);
+  anchor.after(section);
+}
+
 function buildAutoBlocks(main) {
+  buildShareBlock(main);
   try {
     // auto load `*/fragments/*` references
     const fragments = [...main.querySelectorAll('a[href*="/fragments/"]')].filter((f) => !f.closest('.fragment'));
@@ -205,6 +224,7 @@ async function loadLazy(doc) {
  */
 function loadDelayed() {
   import('./consent-check.js');
+  import('./delayed.js');
   // load anything that can be postponed to the latest here
 }
 

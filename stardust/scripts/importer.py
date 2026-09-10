@@ -498,6 +498,9 @@ def handle_column(col, page):
         for c in cols:
             for sub in grid_children(c) or [c]:
                 st = col_type(sub)
+                if c is left and st == 'socialShare':
+                    # source .cmp-socialshare (X / LinkedIn / Facebook / email) → `share` block in the rail; links are built at runtime
+                    page.new_section('rail'); page.add_block(block_table('share', [['<p>Share</p>']])); page.sections[-1]['style'] = 'rail'; page.new_section(); COVERAGE['share'] += 1; continue
                 if c is left and st not in ('tableOfContents', 'subscriptionForm', 'marketoFormsContainer', 'marketoForm', 'socialShare', 'search'):
                     before = len(page.sections)
                     page.new_section('rail'); convert_column(sub, page)

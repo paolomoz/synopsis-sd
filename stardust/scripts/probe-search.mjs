@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+const base = 'https://main--synopsis-sd--paolomoz.aem.live';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1280, height: 1000 } });
+p.on('pageerror', (e) => console.log('PAGEERROR', e.message));
+const out = {};
+await p.goto(`${base}/search?q=PCIe`, { waitUntil: 'networkidle' }); await p.waitForTimeout(3000);
+out.pcie = await p.evaluate(() => ({ results: document.querySelector('.search')?.dataset.results, shown: document.querySelectorAll('.search-result').length, summary: document.querySelector('.search-summary')?.textContent, facets: [...document.querectorAll?.('x') || document.querySelectorAll('.search-facet button')].map((b) => b.textContent).slice(0, 6), firstTitle: document.querySelector('.search-result h3')?.textContent }));
+await p.screenshot({ path: '/tmp/search-eds.png', clip: { x: 0, y: 0, width: 1280, height: 1000 } });
+await p.goto(`${base}/search`, { waitUntil: 'networkidle' }); await p.waitForTimeout(2000);
+out.empty = await p.evaluate(() => ({ results: document.querySelector('.search')?.dataset.results, summary: document.querySelector('.search-summary')?.textContent }));
+await p.goto(`${base}/`, { waitUntil: 'networkidle' }); await p.waitForTimeout(1500);
+out.header = await p.evaluate(() => ({ action: document.querySelector('.nav-search-form')?.getAttribute('action') || document.querySelector('.nav-search-form')?.action, navLink: document.querySelector('.nav-search a')?.href }));
+await p.click('.nav-search-button'); await p.fill('.nav-search-form input', 'DesignWare'); await p.press('.nav-search-form input', 'Enter'); await p.waitForURL(/\/search\?q=/); await p.waitForTimeout(2500);
+out.headerNav = { url: p.url(), results: await p.evaluate(() => document.querySelector('.search')?.dataset.results) };
+console.log(JSON.stringify(out, null, 1)); await b.close();

@@ -874,3 +874,38 @@ header.is-dark .nav-row:not(.is-pinned) nav#nav .nav-hamburger button {
     width: 1240px;
   }
 }
+
+/* language menu (source: utility "English" dropdown listing the locale sites) */
+header .utility-lang-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header .utility-lang-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 30;
+  min-width: 160px;
+  margin: 0;
+  padding: 6px 0;
+  border: 1px solid var(--utility-border, #333);
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: var(--shadow-nav, 0 4px 12px rgb(0 0 0 / 15%));
+  list-style: none;
+}
+
+header .utility-lang-menu li a:any-link {
+  display: block;
+  padding: 8px 16px;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+header .utility-lang-menu li a:hover,
+header .utility-lang-menu li.is-current a { color: var(--purple); }

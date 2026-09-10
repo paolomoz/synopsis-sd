@@ -7,7 +7,7 @@
 import { getIndex, splitList, byDateDesc, categoryPath, familyOf } from '../../scripts/index.js';
 
 const PAGE = 10;
-const TYPE_LABEL = { article: 'Article', glossary: 'Glossary', program: 'Product Page', static: 'Page', listing: 'Listing', form: 'Form', author: 'Author', landing: 'Home' };
+const TYPE_LABEL = { article: 'Article', glossary: 'Glossary', program: 'Product Page', static: 'Page', listing: 'Listing', form: 'Resource', author: 'Author', landing: 'Home' };
 const label = (t) => TYPE_LABEL[t] || 'Page';
 const norm = (s) => String(s || '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '');
 const tokens = (q) => norm(q).split(/[^a-z0-9+.-]+/).filter((t) => t.length > 1);

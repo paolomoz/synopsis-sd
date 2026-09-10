@@ -5,6 +5,29 @@
  * last row [p strong submit-label].
  * @ew-exempt <p> field labels + submit — text-as-control (rendered as <label>/<button>)
  */
+/**
+ * Backend hook: /config/marketo-forms.json carries the source's Marketo munchkin id and the form id(s) per page
+ * (from MktoForms2.loadForm in the source). With `endpoint` set, the field payload is POSTed there as JSON;
+ * without it (default) no request is made and the block keeps its confirmation-only behaviour.
+ */
+let configPromise;
+const loadConfig = () => {
+  configPromise ||= fetch(`${window.hlx?.codeBasePath || ''}/config/marketo-forms.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  return configPromise;
+};
+async function postToBackend(form, block) {
+  const cfg = await loadConfig();
+  if (!cfg.endpoint) return null;
+  const path = window.location.pathname;
+  const ids = cfg.forms?.[path] || [];
+  const nth = [...document.querySelectorAll('.form.block')].indexOf(block);
+  const payload = { munchkinId: cfg.munchkinId, formId: ids[nth] || ids[0] || null, page: window.location.href, fields: Object.fromEntries(new FormData(form).entries()) };
+  try {
+    const res = await fetch(cfg.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+    return res.ok;
+  } catch (err) { return false; }
+}
+
 const REQUIRED = new Set(['business email', 'email', 'first name', 'last name', 'company', 'country/region', 'state']);
 export default async function decorate(block) {
   const rows = [...block.children].map((r) => r.textContent.trim()).filter(Boolean);
@@ -49,10 +72,13 @@ export default async function decorate(block) {
   const btn = document.createElement('button');
   btn.type = 'submit'; btn.className = 'form-submit'; btn.textContent = submit;
   form.append(btn);
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     if (!form.checkValidity()) { form.reportValidity(); return; }
-    const ok = document.createElement('p'); ok.className = 'form-thanks'; ok.textContent = 'Thank you. Your request has been received.';
+    btn.disabled = true;
+    const sent = await postToBackend(form, block);
+    const ok = document.createElement('p'); ok.className = 'form-thanks';
+    ok.textContent = sent === false ? 'Sorry, your request could not be sent. Please try again later.' : 'Thank you. Your request has been received.';
     form.replaceChildren(h, ok);
   });
   block.replaceChildren(form);
