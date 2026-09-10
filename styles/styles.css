@@ -128,6 +128,22 @@ header {
   background: #fff;
 }
 
+/* header-theme: dark (home banner carousel) — the nav row overlays the hero; the header keeps only the
+   utility bar's height in flow (source: .component-nav-top absolute under the 53px utility bar) */
+body.header-dark header {
+  background: transparent;
+}
+
+body.header-dark main {
+  margin-top: calc(-1 * var(--nav-row-height));
+}
+
+body.nav-search-open main,
+body.nav-search-open footer {
+  filter: brightness(.5);
+  pointer-events: none;
+}
+
 header .header,
 footer .footer {
   visibility: hidden;

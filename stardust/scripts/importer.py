@@ -781,6 +781,8 @@ def import_page(raw_html, url, page_type=None):
     for col in cols: convert_column(col, page)
     # metadata
     meta_rows = [['<div>Title</div>', f'<div>{esc(title)}</div>'], ['<div>Description</div>', f'<div>{esc(desc)}</div>']]
+    # source: the nav row sits transparent over the home banner carousel (nav absolute, white brand/links)
+    if soup.select_one('[carousel-type="banner-carousel"]') is not None: meta_rows.append(['<div>Header-Theme</div>', '<div>dark</div>'])
     if page_type: meta_rows.append(['<div>Template</div>', f'<div>{esc(page_type)}</div>'])
     if og_image: meta_rows.append(['<div>Image</div>', f'<div><img src="{esc(absurl(og_image))}" alt=""></div>'])
     meta = '<div class="metadata">' + ''.join('<div>' + ''.join(r) + '</div>' for r in meta_rows) + '</div>'
