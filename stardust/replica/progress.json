@@ -552,14 +552,14 @@
      100,
      126,
      1240,
-     782
+     862
     ]
    }
   },
   "cropGates1440": {
    "rest": "99.48% PASS",
    "pinned": "96.86% (moving carousel background behind translucent bar)",
-   "products-panel": "97.25% (row pitch 38 vs 46 on icon rows)",
+   "products-panel": "97.41% (opaque card 97.17%; live panel 872 vs 862 tall)",
    "solutions": "91.46% full-width band incl. rotating hero",
    "why": "88.47% (Brightcove poster is JS-loaded; band incl. hero)",
    "search": "89.19% (band incl. hero; no Popular Content feed)",
