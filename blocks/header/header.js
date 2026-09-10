@@ -283,7 +283,7 @@ function buildSearch(link) {
   const form = document.createElement('form');
   form.className = 'nav-search-form';
   form.setAttribute('role', 'search');
-  form.action = new URL(link.getAttribute('href') || '/search', window.location.href).href.replace(/\/search$/, 'https://www.synopsys.com/search.html');
+  form.action = '/search'; // site search page over the query index (source posted to the Coveo-backed /search.html)
   form.method = 'get';
   const input = document.createElement('input');
   input.type = 'search'; input.name = 'q'; input.placeholder = 'Search'; input.setAttribute('aria-label', 'Search Synopsys.com');
