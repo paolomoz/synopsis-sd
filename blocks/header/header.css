@@ -685,7 +685,16 @@ header.is-dark .nav-row:not(.is-pinned) nav#nav .nav-hamburger button {
   header nav#nav[aria-expanded="true"] .nav-trigger {
     display: block;
     border-bottom: 1px solid var(--mist);
+    color: var(--ink);
     white-space: normal;
+  }
+
+  header.is-dark .nav-row:not(.is-pinned) nav#nav[aria-expanded="true"] .nav-trigger {
+    color: var(--ink);
+  }
+
+  header.is-dark .nav-row:not(.is-pinned) nav#nav[aria-expanded="true"] .nav-drop .nav-trigger-label::after {
+    filter: none;
   }
 
   header nav#nav[aria-expanded="true"] .nav-trigger-label {
@@ -856,7 +865,7 @@ header.is-dark .nav-row:not(.is-pinned) nav#nav .nav-hamburger button {
     transform: translateX(-50%) rotate(45deg);
   }
 
-  header nav#nav .menu-panel.is-product {
+  header nav#nav .nav-drop[aria-expanded="true"] > .menu-panel.is-product {
     width: 1240px;
   }
 }

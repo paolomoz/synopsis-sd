@@ -55,6 +55,17 @@ function isExternal(a) {
 
 /* ---------- mega-menu panel builder (moves authored nodes) ---------- */
 
+/* the pipeline renders mixed <li> content as paragraphs (loose list) and turns <strong><a> into a button:
+   restore the authored model before classifying */
+function unwrapParagraphs(li) {
+  li.querySelectorAll(':scope > p, :scope > div.button-container, :scope > p.button-container').forEach((p) => {
+    while (p.firstChild) li.insertBefore(p.firstChild, p);
+    p.remove();
+  });
+  li.querySelectorAll('a.button').forEach((a) => a.classList.remove('button', 'primary', 'secondary'));
+  return li;
+}
+
 function classifyGroup(li) {
   if (li.querySelector(':scope > ul')) return 'group';
   if (li.querySelector(':scope > strong > a')) return 'footer';
@@ -135,6 +146,8 @@ function buildPanel(trigger) {
   inner.className = 'menu-panel-inner';
   const groups = []; let promo = null; let footer = null; const textGroups = [];
   [...list.children].forEach((li) => {
+    unwrapParagraphs(li);
+    li.querySelectorAll(':scope > ul > li').forEach(unwrapParagraphs);
     const kind = classifyGroup(li);
     if (kind === 'promo') promo = buildPromo(li);
     else if (kind === 'footer') footer = buildFooter(li);
