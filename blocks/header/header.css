@@ -118,7 +118,6 @@ header .nav-row {
   background: rgb(255 255 255 / 80%);
   box-shadow: var(--shadow-nav);
   backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
   z-index: 1030;
 }
 
@@ -621,7 +620,6 @@ header nav#nav .nav-mobile-foot {
 header.is-dark .nav-row:not(.is-pinned) {
   background: transparent;
   box-shadow: none;
-  backdrop-filter: none;
   backdrop-filter: none;
 }
 
