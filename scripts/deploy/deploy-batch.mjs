@@ -31,7 +31,7 @@
  * --paths     optional newline-delimited file of web paths (no extension) to
  *             restrict the run to a subset (re-drive only these).
  * --no-publish  preview only; do not POST /live/ (query-index won't build — see #2).
- * --force     ignore the ledger; re-drive every page.
+ * --force     re-drive the selected pages even if the ledger says live (other records are kept).
  * --concurrency  parallel pages in flight (default 4; DA admin tolerates ~4-6).
  *
  * No external deps — uses Node's global fetch/FormData/Blob (Node 18+).
@@ -188,8 +188,10 @@ async function main() {
       .map((p) => (p.startsWith('/') ? p : `/${p}`)));
     pages = pages.filter((p) => want.has(p.webPath));
   }
-  const ledger = (!args.force && existsSync(args.ledger))
-    ? JSON.parse(await readFile(args.ledger, 'utf8')) : {};
+  // Always load the ledger: --force re-drives the selected pages but must never drop the records of the
+  // pages outside this run (with --paths, an empty ledger would be persisted over the whole site's history).
+  const ledger = existsSync(args.ledger) ? JSON.parse(await readFile(args.ledger, 'utf8')) : {};
+  if (args.force) pages.forEach((p) => { if (ledger[p.webPath]) ledger[p.webPath] = { ...ledger[p.webPath], status: 'pending' }; });
 
   // Skip pages already live AND still delivering 200 (verify, don't trust the ledger blindly).
   const todo = [];

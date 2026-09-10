@@ -24,5 +24,38 @@
   "socialShare": 1276,
   "rss": 1571,
   "languageSwitcher": 3876
+ },
+ "queryIndexAfter": {
+  "at": "2026-09-10T16:30:00Z",
+  "total": 4185,
+  "tagged": 1266,
+  "authored": 1311,
+  "published": 1367
+ },
+ "blocked": {
+  "contentTypeListing": {
+   "pages": 11,
+   "endpoint": "/content/synopsys/en-us/<page>/jcr:content/root/synopsyscontainer/contenttypelisting",
+   "status": "404 from outside AEM (also .json/.model.json)"
+  },
+  "formsBackend": {
+   "missing": "Marketo forms proxy endpoint (config/marketo-forms.json \u2192 endpoint)",
+   "known": {
+    "munchkinId": "367-MRV-360",
+    "formIds": 17,
+    "pages": 1500
+   }
+  }
+ },
+ "images": {
+  "dynamicMediaRefs": 18814,
+  "pagesWithDynamicMedia": 3866,
+  "wwwDamRefs": 3947,
+  "decision": "deferred \u2014 media-bus migration"
+ },
+ "dwPages": {
+  "total": 305,
+  "ipdir": 248,
+  "serverRendered": true
  }
 }

@@ -169,3 +169,19 @@ redeployed with `--force`):
 - 53 images that 404/403 on www.synopsys.com were stripped from 22 pages; one 30MB source JPEG was resized to 2000px
   and served from DA media (html2md rejects it otherwise).
 Result: 4,186 of 4,186 documents live (`/verification/resources` recovered on a later re-drive). Learnings recorded in the stardust plugin branch (`notes/chrome-states-learnings-synopsys.md`, addendum).
+
+## Dynamic layer (2026-09-10)
+The static replica got its dynamic layer, one gated step at a time (`stardust/dynamic-plan.md`, evidence in
+`stardust/dynamic-gates.md`):
+- Query index (`stardust/query.yaml` via the config service): title, description, image, template, author, published(+Ts),
+  readtime, category, tags, lastModified. The importer now emits Author / Published / Readtime / Category / Tags from
+  `.cmp-blogbanner` and the page-tag strip; 1,478 article-family pages re-imported and republished; 4,185 rows indexed.
+  Pipeline facts learned: `Tags` renders as `article:tag` properties; multi-valued index properties need `values:`.
+- Index-fed blocks: `listing` (105 category pages, page h1 → tag filter on compact keys, pages of 12), `cards author`
+  (union of indexed + authored rows), `carousel blog` (related by shared tags).
+- RSS feeds per family from the index (code bus), `/search` page + `search` block (header panel posts to it), `share`
+  block auto-blocked on article pages, language menu over the five locales, form backend hook via
+  `config/marketo-forms.json` (1,500 pages, 17 Marketo form ids, endpoint pending), third-party loader gated by
+  `config/third-party.json` (Launch bundle id recorded, hosts empty).
+- Blocked / deferred: AEM `contenttypelisting` endpoint (11 pages), Marketo endpoint, Dynamic Media re-hosting (18,814 refs).
+- Deploy driver fix: `--force` no longer discards the ledger records outside the run.

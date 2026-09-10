@@ -9,10 +9,49 @@
  <atom:link href="https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/feed.xml" rel="self" type="application/rss+xml" />
  <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design</link>
  <description>Discover the design automation tools, silicon IP, and systems verification solutions enabling the era of pervasive intelligence</description>
- <lastBuildDate>Thu, 10 Sep 2026 16:01:51 GMT</lastBuildDate>
+ <lastBuildDate>Thu, 10 Sep 2026 16:42:14 GMT</lastBuildDate>
  <language>en-US</language>
  <sy:updatePeriod>hourly</sy:updatePeriod>
  <sy:updateFrequency>1</sy:updateFrequency>
+<item>
+<title>Synopsys &amp; Li Auto Case Study</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/synopsys-li-auto-case-study</link>
+
+<pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Customer Spotlight]]></category>
+<category><![CDATA[Automotive]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/synopsys-li-auto-case-study</guid>
+<description><![CDATA[Discover how Synopsys’ silicon-to-systems solutions helped Li Auto’s Mach M100 SoC reach vehicle production—read the case study to learn more.]]></description>
+</item>
+<item>
+<title>Multi-Domain Voltage-Control Verification with AVSBus 2.0</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip</link>
+<dc:creator><![CDATA[Anil Kumar Gurugubelli, Anmol Gupta]]></dc:creator>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Verification IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multi-domain-voltage-control-verification-avsbus-2-vip</guid>
+<description><![CDATA[Learn how AVSBus 2.0 VIP validates power delivery in AI and data center SoCs.]]></description>
+</item>
+<item>
+<title>Energy-Efficient AI: More Intelligence Per Watt</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/energy-efficient-ai-per-watt</link>
+<dc:creator><![CDATA[Greg Sorber]]></dc:creator>
+<pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Design Technology Co-Optimization]]></category>
+<category><![CDATA[Energy-Efficient SoCs]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Physical Implementation]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/energy-efficient-ai-per-watt</guid>
+<description><![CDATA[Learn how industry leaders are improving AI energy efficiency through full-stack co-design, advanced packaging, and AI-driven chip design.]]></description>
+</item>
 <item>
 <title>A Bumblebee Moment for AI Silicon</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/bumblebee-moment-ai-silicon</link>
@@ -25,6 +64,54 @@
 <description><![CDATA[See how full-workload emulation validates transformer AI silicon—run Llama 8B pre-silicon, prove correctness, and measure real performance.]]></description>
 </item>
 <item>
+<title>How to Certify a Supercomputer</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/how-certify-supercomputer</link>
+<dc:creator><![CDATA[Johannes Stahl]]></dc:creator>
+<pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Emulation]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/how-certify-supercomputer</guid>
+<description><![CDATA[Pre-silicon Arm SystemReady testing with ZeBu Server 5 and ACS to catch BSA/SBSA issues early.]]></description>
+</item>
+<item>
+<title>Managing 1,000+ Thermal States in Mobile SoCs</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/managing-1000-thermal-states-mobile-soc</link>
+<dc:creator><![CDATA[Johannes Stahl]]></dc:creator>
+<pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Emulation]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/managing-1000-thermal-states-mobile-soc</guid>
+<description><![CDATA[Pre-silicon thermal validation beats post-silicon fixes—cut bring-up time by 3 weeks and de-risk DVFS across 1,100+ states.]]></description>
+</item>
+<item>
+<title>India's Semiconductor Industry Shifts Toward Influence</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/india-semiconductor-industry-influence</link>
+<dc:creator><![CDATA[Sudeep Shivalli]]></dc:creator>
+<pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[Aerospace & Government]]></category>
+<category><![CDATA[Design]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/india-semiconductor-industry-influence</guid>
+<description><![CDATA[India’s semiconductor ecosystem is evolving through innovation, investment, and collaboration, positioning the country for greater global influence.]]></description>
+</item>
+<item>
+<title>Fanout RDL Routing Design Constraints and Automation</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/fanout-rdl-routing-design-automation</link>
+<dc:creator><![CDATA[Soheil Modirzadeh]]></dc:creator>
+<pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[3DIC Design]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/fanout-rdl-routing-design-automation</guid>
+<description><![CDATA[Fanout RDL routing requires tighter design margins than substrate routing. Learn how automated constraint-driven flows manage dense interconnects.]]></description>
+</item>
+<item>
 <title>World’s First 3D PCIe 6.0 PHY 8-Lane Test Chip</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/3d-pcie-6-0-phy-8-lane-test-chip</link>
 <dc:creator><![CDATA[Madhumita Sanyal, Manmeet Walia]]></dc:creator>
@@ -35,6 +122,39 @@
 <category><![CDATA[Interface IP]]></category>
 <guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/3d-pcie-6-0-phy-8-lane-test-chip</guid>
 <description><![CDATA[Synopsys validates the world’s first 3D PCIe 6.0 PHY test chip at 64 GT/s, delivering up to 128 GB/s for multi-die AI and HPC designs.]]></description>
+</item>
+<item>
+<title>Compute-in-Memory Tech for Faster, Efficient Edge AI</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/edge-ai-in-memory-compute</link>
+<dc:creator><![CDATA[Anuj Pant]]></dc:creator>
+<pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Cloud]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/edge-ai-in-memory-compute</guid>
+<description><![CDATA[Learn how analog in-memory compute and RRAM enable faster, lower-power edge AI in this conversation with TetraMem CEO Glenn Ge.]]></description>
+</item>
+<item>
+<title>Gate-All-Around (GAA) to CFET (complementary FET) Transistor Scaling for Advanced Nodes</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling</link>
+<dc:creator><![CDATA[Ravi Todi, Urmimala Roy, Xi-Wei Lin]]></dc:creator>
+<pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling</guid>
+<description><![CDATA[GAA transistors power 2nm designs today. CFET technology promises angstrom-scale scaling. Learn how IP and EDA co-optimization enable the transition.]]></description>
+</item>
+<item>
+<title>Stop Finding HBM Signal-Integrity Problems After Routing</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/hbm-signal-integrity-after-routing</link>
+<dc:creator><![CDATA[Soheil Modirzadeh]]></dc:creator>
+<pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[3DIC Design]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/hbm-signal-integrity-after-routing</guid>
+<description><![CDATA[Prototype, route, extract, and AI-optimize HBM channels in one flow with 3DIC Compiler and HFSS-IC—reduce crosstalk, loss, and rework.]]></description>
 </item>
 <item>
 <title>AI Accelerators Design Verification with HBM5 VIP</title>
@@ -60,6 +180,17 @@
 <description><![CDATA[See how AI in Synopsys 3DIC Compiler optimizes multi-die PG bumps to reduce IR-drop while balancing congestion, area, and QoR.]]></description>
 </item>
 <item>
+<title>Reduce Risk and Time-to-Market for DDR6 Designs</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/reduce-risk-and-time-to-market-for-ddr6-designs</link>
+<dc:creator><![CDATA[Gaurav Kumar]]></dc:creator>
+<pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Verification IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/reduce-risk-and-time-to-market-for-ddr6-designs</guid>
+<description><![CDATA[DDR6 designs demand sophisticated verification. Learn how Synopsys DDR6 VIP validates next-gen memory controllers, PHYs, and DIMM subsystems.]]></description>
+</item>
+<item>
 <title>Enabling Chip Design Education: Utilizing Synopsys Cloud for the GlobalFoundries and Synopsys ‘Chip Design to Tapeout’ Pilot Program</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/cloud-enabled-chip-design-education-concept-to-tapeout</link>
 <dc:creator><![CDATA[Archana Varanasi, Pamela McDaniel, Ron Duncan]]></dc:creator>
@@ -68,6 +199,30 @@
 <category><![CDATA[Cloud]]></category>
 <guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/cloud-enabled-chip-design-education-concept-to-tapeout</guid>
 <description><![CDATA[Synopsys Cloud FlexEDA and GlobalFoundries enabled students at 40 universities to take chip designs from concept to tapeout with a scalable SaaS EDA flow.]]></description>
+</item>
+<item>
+<title>HPE Accelerates HPC Chip Design with Smarter Tools</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/hpe-hpc-chip-design-tools</link>
+<dc:creator><![CDATA[Wim Slagter]]></dc:creator>
+<pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Cloud]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Design]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/hpe-hpc-chip-design-tools</guid>
+<description><![CDATA[Learn how HPE boosts HPC chip development with Synopsys tools, elastic compute resources, streamlined verification, and AI-driven workflows.]]></description>
+</item>
+<item>
+<title>Power Integrity Challenges in Semiconductor Design</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/power-integrity-challenges-semiconductor-design</link>
+<dc:creator><![CDATA[Frank Malloy, Jerome Toublanc]]></dc:creator>
+<pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Signal & Power Integrity]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/power-integrity-challenges-semiconductor-design</guid>
+<description><![CDATA[Explore why power integrity signoff—IR drop and electromigration—is critical for modern AI/HPC chips, and how RedHawk-SC helps ensure performance and reliability.]]></description>
 </item>
 <item>
 <title>CXL 4.0 IP Solution for AI Memory Connectivity</title>
@@ -79,6 +234,34 @@
 <category><![CDATA[Interface IP]]></category>
 <guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity</guid>
 <description><![CDATA[CXL 4.0 doubles bandwidth to 128 GT/s, enabling rack-scale memory pooling and low-latency AI inference. Learn how Synopsys IP delivers silicon.]]></description>
+</item>
+<item>
+<title>RF Digital Twin of the Moon for Lunar Communications</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/rf-digital-twin-of-the-moon</link>
+<dc:creator><![CDATA[Shawn Carpenter]]></dc:creator>
+<pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Aerospace & Government]]></category>
+<category><![CDATA[RF Design]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Simulation]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/rf-digital-twin-of-the-moon</guid>
+<description><![CDATA[Discover how a lunar RF digital twin helps model wireless coverage, validate antennas, and reduce communications risks for Artemis missions.]]></description>
+</item>
+<item>
+<title>Multi-Die Chips Demand Multiphysics Co-Design</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multi-die-multiphysics-co-design</link>
+<dc:creator><![CDATA[Greg Sorber]]></dc:creator>
+<pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multi-die-multiphysics-co-design</guid>
+<description><![CDATA[Learn how multi-die architectures are driving multiphysics analysis, co-design workflows, AI-driven exploration, and next-generation chip innovation.]]></description>
 </item>
 <item>
 <title>Co-Packaged Optics for AI &amp; HPC Multi-Die Designs</title>
@@ -114,6 +297,31 @@
 <description><![CDATA[Build edge and physical AI systems faster with silicon-to-systems design: proven IP, compact nodes, and safety-ready, low-power SoCs.]]></description>
 </item>
 <item>
+<title>Physics Is Now a First-Order Constraint in Chip Design</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/physics-chip-design-constraint</link>
+<dc:creator><![CDATA[Larry Williams]]></dc:creator>
+<pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Multiphysics Fusion]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/physics-chip-design-constraint</guid>
+<description><![CDATA[As chip density and advanced packaging increase, physics has become a first-order chip design constraint, shaping performance, yield, and reliability.]]></description>
+</item>
+<item>
+<title>I3C VIP for HDR and Multi-lane Verification</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/i3c-vip-hdr-multi-lane-verification</link>
+<dc:creator><![CDATA[Anil Kumar Gurugubelli, Asutosh Mishra]]></dc:creator>
+<pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/i3c-vip-hdr-multi-lane-verification</guid>
+<description><![CDATA[I3C VIP delivers comprehensive verification for HDR modes and multilane I3C designs. Learn how to validate timing, lane skew, and mode transitions.]]></description>
+</item>
+<item>
 <title>Rethinking AI Compute Architecture</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-compute-architecture-evolution</link>
 <dc:creator><![CDATA[Greg Sorber]]></dc:creator>
@@ -129,6 +337,31 @@
 <description><![CDATA[AI is redefining compute architecture through parallelism and system-level design — driving smarter, more efficient, co-optimized systems.]]></description>
 </item>
 <item>
+<title>Securing Physical AI Systems for Safe Deployment</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/securing-physical-ai-systems</link>
+<dc:creator><![CDATA[Dana Neustadter, Ilya Tolchinsky]]></dc:creator>
+<pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/securing-physical-ai-systems</guid>
+<description><![CDATA[Learn how to secure physical AI systems across data, hardware, and runtime to ensure safe, reliable operation in real-world environments.]]></description>
+</item>
+<item>
+<title>When AI Gets a Body: Edge Physical AI &amp; Memory Wall</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/when-ai-gets-a-body-physical-ai</link>
+<dc:creator><![CDATA[Hezi Saar]]></dc:creator>
+<pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/when-ai-gets-a-body-physical-ai</guid>
+<description><![CDATA[Explore Physical AI at the edge: hybrid cloud inference, the memory wall, and why UFS 5.0 and LPDDR6 boost performance and power.]]></description>
+</item>
+<item>
 <title>Taming Advanced Node Physical Verification with IC Validator</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/advanced-node-physical-verification-ic-validator</link>
 <dc:creator><![CDATA[Gnana Kanagaratnam]]></dc:creator>
@@ -139,6 +372,90 @@
 <category><![CDATA[Physical Verification]]></category>
 <guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/advanced-node-physical-verification-ic-validator</guid>
 <description><![CDATA[See how IC Validator speeds advanced-node signoff with faster debug, early-stop runs, antenna/PERC fixes, and elastic compute scaling.]]></description>
+</item>
+<item>
+<title>Ethernet for AI Scale-Up Networking: ESUN Explained</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/esun-ethernet-ai-scale-up-networking</link>
+<dc:creator><![CDATA[Abhinav Kothiala]]></dc:creator>
+<pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/esun-ethernet-ai-scale-up-networking</guid>
+<description><![CDATA[Learn how ESUN enhances Ethernet for lossless, predictable AI scale-up networking—cutting overhead, reducing tail latency, and improving efficiency.]]></description>
+</item>
+<item>
+<title>Physical AI: Bridging Silicon and Real-World Systems</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/physical-ai-silicon-software-robots</link>
+<dc:creator><![CDATA[Greg Sorber]]></dc:creator>
+<pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Multiphysics Fusion]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/physical-ai-silicon-software-robots</guid>
+<description><![CDATA[Physical AI connects silicon, software, and robotics to transform industries with simulation, digital twins, and intelligent real-world systems.]]></description>
+</item>
+<item>
+<title>UCIe Performance at 40G for Multi-Die Designs | Synopsy</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ucie-performance-40g-multi-die-systems</link>
+<dc:creator><![CDATA[Manuel Mota]]></dc:creator>
+<pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ucie-performance-40g-multi-die-systems</guid>
+<description><![CDATA[UCIe at 40G per lane enables higher bandwidth for AI and HPC chiplet designs. See how silicon-proven IP advances die-to-die connectivity.]]></description>
+</item>
+<item>
+<title>Engineering Intelligent Systems in a Multiphysics World</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/engineering-intelligent-systems-multiphysics-world</link>
+<dc:creator><![CDATA[Greg Sorber]]></dc:creator>
+<pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/engineering-intelligent-systems-multiphysics-world</guid>
+<description><![CDATA[Engineering intelligent systems means managing physics, scale, and time horizons. Learn how AI and digital twins address multiphysics complexity.]]></description>
+</item>
+<item>
+<title>Multiphysics Challenges in Advanced Chip Design</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multiphysics-chip-design-challenges</link>
+<dc:creator><![CDATA[Sumit Vishwakarma]]></dc:creator>
+<pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Multiphysics Fusion]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multiphysics-chip-design-challenges</guid>
+<description><![CDATA[Learn how multiphysics challenges in advanced chip design impact performance, power, and efficiency — and why early analysis is critical.]]></description>
+</item>
+<item>
+<title>Timing-Aware Multiphysics ECO for Design Closure</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/timing-aware-multiphysics-eco-design-closure</link>
+<dc:creator><![CDATA[Manoj Chacko]]></dc:creator>
+<pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Multiphysics Fusion]]></category>
+<category><![CDATA[Design]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/timing-aware-multiphysics-eco-design-closure</guid>
+<description><![CDATA[Multiphysics ECO integration resolves IR drop and timing issues faster. See how automated signoff closure reduces violations and accelerates tape-out.]]></description>
+</item>
+<item>
+<title>Startup &amp; VC Connect: Building the Future of AI Silicon</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/startup-vc-connect-ai-silicon</link>
+<dc:creator><![CDATA[Emily Gerken]]></dc:creator>
+<pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Cloud]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/startup-vc-connect-ai-silicon</guid>
+<description><![CDATA[Recap of Synopsys Startup & VC Connect: proven IP, cloud emulation, AI-driven EDA, and investor insights to accelerate AI silicon from idea to tape-out.]]></description>
 </item>
 <item>
 <title>Advanced Node Physical Verification: NVIDIA’s Approach</title>
@@ -163,6 +480,18 @@
 <description><![CDATA[See how GPU-powered PrimeSim SPICE boosts PLL simulation speed up to 28x and improves ENOB/SNR accuracy with fast, low-risk migration.]]></description>
 </item>
 <item>
+<title>Process Design Kits Accelerate Intel Foundry Adoption</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/process-design-kits-intel-foundry</link>
+<dc:creator><![CDATA[Arun Bhattacharya]]></dc:creator>
+<pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Design Technology Co-Optimization]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Manufacturing]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/process-design-kits-intel-foundry</guid>
+<description><![CDATA[Learn how Synopsys and Intel Foundry use process design kits to reduce design risk, simplify adoption, and speed advanced-node chip development.]]></description>
+</item>
+<item>
 <title>3X Verification Performance with FlexEDA and HPE</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/3x-verification-performance-hpe-greenlake-flex-synopsys-flexeda</link>
 <dc:creator><![CDATA[Anuj Pant]]></dc:creator>
@@ -173,6 +502,32 @@
 <description><![CDATA[FlexEDA Pay-Per-Use licensing and HPE GreenLake Flex Solutions accelerate regressions, improve design quality, and reduce time-to-market. Learn how.]]></description>
 </item>
 <item>
+<title>Neuromorphic Computing Powers Physical AI at the Edge</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/neuromorphic-computing-physical-ai-edge</link>
+<dc:creator><![CDATA[Prith Banerjee]]></dc:creator>
+<pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Energy-Efficient SoCs]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Analog Design]]></category>
+<category><![CDATA[Signal & Power Integrity]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/neuromorphic-computing-physical-ai-edge</guid>
+<description><![CDATA[Explore how neuromorphic computing enables physical AI with low-power, real-time intelligence at the edge, bridging digital models and the physical world.]]></description>
+</item>
+<item>
+<title>Synopsys PCIe Leadership Recognized by PCI-SIG</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/synopsys-pcie-leadership-recognized</link>
+<dc:creator><![CDATA[Magaly Sandoval-Pichardo]]></dc:creator>
+<pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/synopsys-pcie-leadership-recognized</guid>
+<description><![CDATA[Synopsys PCIe architect Paul Cassidy receives PCI-SIG Chairperson's Award, continuing a pattern of recognition. Learn how Synopsys shapes PCIe.]]></description>
+</item>
+<item>
 <title>Chip Design Tools in GitHub Hardware Development</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/chip-design-tools-github-hardware-development</link>
 <dc:creator><![CDATA[Achim Nohl, Buvanesh Balasubramanian, Daniel Castelló, Varun Shah]]></dc:creator>
@@ -180,6 +535,32 @@
 <category><![CDATA[Cloud]]></category>
 <guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/chip-design-tools-github-hardware-development</guid>
 <description><![CDATA[Chip design tools now run directly in GitHub workflows. Learn how Synopsys Cloud GitHub Apps enable CI/CD for hardware development.]]></description>
+</item>
+<item>
+<title>Multi-Die Design, STCO, and Verifiable AI</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multi-die-design-stco-ai</link>
+<dc:creator><![CDATA[Sutirtha Kabir]]></dc:creator>
+<pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Design Technology Co-Optimization]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multi-die-design-stco-ai</guid>
+<description><![CDATA[Explore how multi-die design, executable STCO, and verifiable AI are reshaping chip design, continuous verification, and system-level collaboration.]]></description>
+</item>
+<item>
+<title>Predicting Silicon Behavior Years before Test Wafers</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/predicting-silicon-behavior-test-wafers</link>
+<dc:creator><![CDATA[Dr. Larry Melvin]]></dc:creator>
+<pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Engineering Central]]></category>
+<category><![CDATA[Manufacturing]]></category>
+<category><![CDATA[Mask Solutions]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/predicting-silicon-behavior-test-wafers</guid>
+<description><![CDATA[Learn how S-Litho accurately predicted high-NA EUV lithography behavior four years before test wafers, reducing risk and guiding process decisions.]]></description>
 </item>
 <item>
 <title>Cloud HPC for AI: Solving Latency, Cost, and Scale</title>
@@ -200,6 +581,20 @@
 <description><![CDATA[Learn how cloud HPC architectures optimize AI training by reducing latency, controlling costs, and scaling efficiently across distributed environments.]]></description>
 </item>
 <item>
+<title>Electronics Digital Twins for Software-Defined Products</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/electronics-digital-twin-edt</link>
+<dc:creator><![CDATA[Greg Sorber]]></dc:creator>
+<pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[About Synopsys]]></category>
+<category><![CDATA[Executive Voices]]></category>
+<category><![CDATA[Automotive]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Verification]]></category>
+<category><![CDATA[Virtual Prototyping]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/electronics-digital-twin-edt</guid>
+<description><![CDATA[Explore how electronics digital twins (eDTs) transform design, validation, and lifecycle management for software-defined, AI-enabled products.]]></description>
+</item>
+<item>
 <title>Transforming Server Architecture for AI Workloads</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-server-architecture</link>
 <dc:creator><![CDATA[Sumit Vishwakarma]]></dc:creator>
@@ -217,485 +612,17 @@
 <description><![CDATA[Learn how AI workloads are reshaping server architecture with accelerators, CXL memory pooling, high-speed interconnects, and advanced cooling.]]></description>
 </item>
 <item>
-<title>Custom Routing for CMOS Image Sensors with Co-Design Flow</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/custom-routing-cmos-image-sensors-co-design-flow</link>
-<dc:creator><![CDATA[Hiromitsu Fujii]]></dc:creator>
-<pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[AMS Simulation]]></category>
-<category><![CDATA[Custom Implementation]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/custom-routing-cmos-image-sensors-co-design-flow</guid>
-<description><![CDATA[Discover how Sony improved custom routing efficiency for CMOS image sensors using Synopsys Co-Design flow and advanced automation solutions.]]></description>
-</item>
-<item>
-<title>AI Factories: Powering the Era of Pervasive Intelligence</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-factories-data-center-infrastructure</link>
+<title>Space Exploration Engineering: From Silicon to Systems</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/space-exploration-engineering-silicon-systems</link>
 <dc:creator><![CDATA[Prith Banerjee]]></dc:creator>
-<pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+<pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
 <category><![CDATA[About Synopsys]]></category>
 <category><![CDATA[Executive Voices]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-factories-data-center-infrastructure</guid>
-<description><![CDATA[AI factories are redefining data centers with specialized chips, power, networking, and cooling to deliver efficient, secure intelligence at scale.]]></description>
-</item>
-<item>
-<title>Automotive-Grade FinFET Foundation IP Customization</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/automotive-finfet-foundation-ip</link>
-<dc:creator><![CDATA[Andrew Appleby, Daryl Seitzer, Nafiz Ahmed]]></dc:creator>
-<pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Customer Spotlight]]></category>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Automotive]]></category>
-<category><![CDATA[Energy-Efficient SoCs]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/automotive-finfet-foundation-ip</guid>
-<description><![CDATA[Learn how customized FinFET Foundation IP from Synopsys delivers automotive-grade quality, reliability, and performance for next-gen vehicle compute needs.]]></description>
-</item>
-<item>
-<title>4 Ways UALink 2.0 Advances AI Scale Up</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/4-ways-ualink-2-0-advances-ai-scale-up</link>
-<dc:creator><![CDATA[Priyank Shukla]]></dc:creator>
-<pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/4-ways-ualink-2-0-advances-ai-scale-up</guid>
-<description><![CDATA[Discover 4 ways UALink 2.0 advances AI scale up with improved collectives, security, resiliency, and manageability.]]></description>
-</item>
-<item>
-<title>How 64G UCIe IP Tape-Out Enables High-Speed Die-to-Die Connectivity</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/64g-ucie-ip-high-speed-die-to-die-connectivity</link>
-<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
-<pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Multi-Die]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/64g-ucie-ip-high-speed-die-to-die-connectivity</guid>
-<description><![CDATA[Discover Synopsys 64G UCIe IP for energy-efficient, high-bandwidth die-to-die connectivity in advanced multi-die AI and HPC designs.]]></description>
-</item>
-<item>
-<title>Celebrating Women &amp; Innovation at NVIDIA GTC 2026</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/celebrating-women-innovation-nvidia-gtc-2026</link>
-<dc:creator><![CDATA[Debbie Chiu]]></dc:creator>
-<pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/celebrating-women-innovation-nvidia-gtc-2026</guid>
-<description><![CDATA[Discover how Synopsys honored women and innovation at NVIDIA GTC 2026, celebrating diversity and breakthrough engineering partnerships.]]></description>
-</item>
-<item>
-<title>Accelerating EMIB-T Packaging Innovation with Intel Foundry</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/accelerating-emib-t-packaging-synopsys-intel-foundry</link>
-<dc:creator><![CDATA[Arun Bhattacharya]]></dc:creator>
-<pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Multi-Die]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[3DIC Design]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/accelerating-emib-t-packaging-synopsys-intel-foundry</guid>
-<description><![CDATA[Discover how Synopsys and Intel Foundry advance EMIB-T packaging for high-bandwidth, power-efficient multi-die chip designs and AI applications.]]></description>
-</item>
-<item>
-<title>Unlocking Copper’s Potential for AI Interconnects</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/copper-ai-interconnect</link>
-<dc:creator><![CDATA[Greg Sorber]]></dc:creator>
-<pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<category><![CDATA[Interface IP Subsystems]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/copper-ai-interconnect</guid>
-<description><![CDATA[Discover how Kandou AI unlocks untapped copper interconnect capacity to overcome AI infrastructure bottlenecks with advanced signaling innovations.]]></description>
-</item>
-<item>
-<title>AI-Powered Analog Layout Synthesis: A Design Revolution</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/analog-layout-synthesis-ai</link>
-<dc:creator><![CDATA[Sumit Vishwakarma, Yuval Shay]]></dc:creator>
-<pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Aerospace & Government]]></category>
 <category><![CDATA[Design]]></category>
 <category><![CDATA[Verification]]></category>
-<category><![CDATA[Analog Design]]></category>
-<category><![CDATA[Custom Implementation]]></category>
-<category><![CDATA[Physical Implementation]]></category>
-<category><![CDATA[Signoff]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/analog-layout-synthesis-ai</guid>
-<description><![CDATA[Discover the world’s first AI-powered analog layout synthesis, transforming chip design with faster workflows and scalable expertise.]]></description>
-</item>
-<item>
-<title>AI-Driven Bug Discovery &amp; Faster Coverage Closure in Chip Design</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-driven-bug-discovery-coverage-closure-chip-design</link>
-<dc:creator><![CDATA[Taruna Reddy]]></dc:creator>
-<pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Simulation]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-driven-bug-discovery-coverage-closure-chip-design</guid>
-<description><![CDATA[Discover how AI accelerates bug discovery and coverage closure in chip verification, improving quality and reducing time-to-market for semiconductor teams.]]></description>
-</item>
-<item>
-<title>Complete UFS 5.0 &amp; M‑PHY v6.0 IP Solution for Storage</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/complete-ufs-5-0-m-phy-v6-0-ip-solution-storage</link>
-<dc:creator><![CDATA[LJ Chen]]></dc:creator>
-<pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/complete-ufs-5-0-m-phy-v6-0-ip-solution-storage</guid>
-<description><![CDATA[Discover Synopsys’ first complete UFS 5.0 and M‑PHY v6.0 IP solution for high-speed, efficient storage in mobile, automotive, and AI-enabled systems.]]></description>
-</item>
-<item>
-<title>AI Sovereignty and Strategic Interdependence</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-sovereignty-strategic-interdependence</link>
-<dc:creator><![CDATA[Dustin Todd]]></dc:creator>
-<pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Executive Voices]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-sovereignty-strategic-interdependence</guid>
-<description><![CDATA[Discover why AI sovereignty depends on strategic interdependence, helping nations balance priorities, build resilience, and thrive in a global AI ecosystem.]]></description>
-</item>
-<item>
-<title>European Universities Drive 7 nm AI Chip Innovation</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/7nm-european-ai-chip-innovation</link>
-<dc:creator><![CDATA[Catherine Le Lan]]></dc:creator>
-<pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Customer Spotlight]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Energy-Efficient SoCs]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[RISC-V]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Physical Implementation]]></category>
-<category><![CDATA[Interface IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/7nm-european-ai-chip-innovation</guid>
-<description><![CDATA[ETH Zurich and TUM advance Europe’s semiconductor leadership with new 7 nm AI chips powered by Synopsys tools, boosting innovation, skills, and HPC progress.]]></description>
-</item>
-<item>
-<title>Analyze Semiconductor Power Devices More Accurately With Synopsys PowerX</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/analyze-semiconductor-power-devices-more-accurately-with-synopsys-powerx</link>
-<dc:creator><![CDATA[Emily Gerken, Rob Dohanyos]]></dc:creator>
-<pubDate>Thu, 22 Jan 2026 00:00:00 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/analyze-semiconductor-power-devices-more-accurately-with-synopsys-powerx</guid>
-<description><![CDATA[PowerX simplifies power device simulation with clear inputs, detailed results, and intuitive visuals for modern semiconductor designs.]]></description>
-</item>
-<item>
-<title>Delivering LPDDR6 Read/Write Eyes at 10.67 Gb/s</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/delivering-lpddr6-read-write-eyes-10-6-gbps</link>
-<dc:creator><![CDATA[Brett Murdock]]></dc:creator>
-<pubDate>Tue, 20 Jan 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/delivering-lpddr6-read-write-eyes-10-6-gbps</guid>
-<description><![CDATA[Discover how Synopsys LPDDR6 IP delivers reliable 10.6 Gb/s memory speed for mobile, AI, and edge devices, enabling next-gen performance and efficiency.]]></description>
-</item>
-<item>
-<title>Securing AI at the Silicon Level for Comprehensive Protection</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-security-silicon-level</link>
-<dc:creator><![CDATA[Dana Neustadter, Vincent van der Leest]]></dc:creator>
-<pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Security IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-security-silicon-level</guid>
-<description><![CDATA[Discover why AI security must start at the silicon level to protect sensitive data, ensure model integrity, and meet global compliance standards.]]></description>
-</item>
-<item>
-<title>Accelerating AI-Enabled Vehicles with NXP S32N7 and Synopsys Virtual Development Kits</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/accelerating-ai-enabled-vehicles-npx-ces</link>
-<dc:creator><![CDATA[Marc Serughetti]]></dc:creator>
-<pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Automotive]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Virtual Prototyping]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/accelerating-ai-enabled-vehicles-npx-ces</guid>
-<description><![CDATA[Accelerate AI-powered automotive innovation with NXP S32N7 and Synopsys VDKs for faster, safer, and cost-effective vehicle software development.]]></description>
-</item>
-<item>
-<title>Cars Will Have 600 Million Lines of Code by 2027</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/600-million-lines-code-cars-2027</link>
-<dc:creator><![CDATA[Tom De Schutter, Marc Serughetti]]></dc:creator>
-<pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Executive Voices]]></category>
-<category><![CDATA[Automotive]]></category>
-<category><![CDATA[Design]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/600-million-lines-code-cars-2027</guid>
-<description><![CDATA[Discover how software complexity in vehicles is doubling, reshaping automotive design and business models for the next generation of smart cars.]]></description>
-</item>
-<item>
-<title>Teaching Agentic AI to Engineer Smarter Chip Design</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/agentic-ai-chip-design</link>
-<dc:creator><![CDATA[Thomas Andersen]]></dc:creator>
-<pubDate>Tue, 16 Dec 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Executive Voices]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Design]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/agentic-ai-chip-design</guid>
-<description><![CDATA[Learn how agentic AI captures engineering judgment to improve semiconductor design quality, accelerate workflows, and scale expertise.]]></description>
-</item>
-<item>
-<title>Socionext Achieves Fast 3DIC Tape-Outs for AI &amp; HPC Chips</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/3d-chip-tape-out-socionext-success</link>
-<dc:creator><![CDATA[Shekhar Kapoor]]></dc:creator>
-<pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Customer Spotlight]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Cloud]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Multi-Die]]></category>
-<category><![CDATA[Silicon Lifecycle Management]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[5nm and Below]]></category>
-<category><![CDATA[Fusion Design Platform]]></category>
-<category><![CDATA[Physical Implementation]]></category>
-<category><![CDATA[RTL Synthesis]]></category>
-<category><![CDATA[Signal & Power Integrity]]></category>
-<category><![CDATA[Signoff]]></category>
-<category><![CDATA[Test]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<category><![CDATA[3DIC Design]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/3d-chip-tape-out-socionext-success</guid>
-<description><![CDATA[Discover how Socionext achieved two rapid 3DIC tape-outs in seven months using Synopsys IP, EDA, and cloud solutions for AI and HPC innovation.]]></description>
-</item>
-<item>
-<title>Exceeding 2 nm Power Efficiency in Hyperscale SoCs</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/2nm-power-efficiency-hyperscale-socs</link>
-<dc:creator><![CDATA[Andrew Appleby, Daryl Seitzer]]></dc:creator>
-<pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Energy-Efficient SoCs]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[5nm and Below]]></category>
-<category><![CDATA[Fusion Design Platform]]></category>
-<category><![CDATA[Fusion Technology]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/2nm-power-efficiency-hyperscale-socs</guid>
-<description><![CDATA[Discover how Synopsys Foundation IP helps achieve breakthrough power efficiency in next-gen 2 nm hyperscale compute engines.]]></description>
-</item>
-<item>
-<title>CXL 4.0, Bandwidth First: What Designers Are Solving for Next</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/cxl-4-bandwidth-first-what-designers-are-solving-next</link>
-<dc:creator><![CDATA[Ron Lowman]]></dc:creator>
-<pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/cxl-4-bandwidth-first-what-designers-are-solving-next</guid>
-<description><![CDATA[Explore how CXL 4.0 boosts bandwidth and efficiency for AI, HPC, and data centers. Learn what system designers should prepare for next.]]></description>
-</item>
-<item>
-<title>Top 10 Tips for AI Chip Silicon Success</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-chip-silicon-success-tips</link>
-<dc:creator><![CDATA[Frank Schirrmeister, Rita Horner, Todd Koelling]]></dc:creator>
-<pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Multi-Die]]></category>
-<category><![CDATA[Silicon Lifecycle Management]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Physical Implementation]]></category>
-<category><![CDATA[Signoff]]></category>
-<category><![CDATA[Test]]></category>
-<category><![CDATA[Emulation]]></category>
-<category><![CDATA[Virtual Prototyping]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-chip-silicon-success-tips</guid>
-<description><![CDATA[Discover 10 proven strategies for achieving first-pass silicon success in AI chip design, from architecture to verification to packaging.]]></description>
-</item>
-<item>
-<title>AI Tool Adoption in Semiconductor Engineering</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-tool-adoption-semiconductor-engineering</link>
-<dc:creator><![CDATA[John Koeter]]></dc:creator>
-<pubDate>Wed, 29 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Executive Voices]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Design]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-tool-adoption-semiconductor-engineering</guid>
-<description><![CDATA[Learn why adopting AI tools is essential for engineers to boost productivity, accelerate chip design, and stay competitive in semiconductor innovation.]]></description>
-</item>
-<item>
-<title>Adaptive Scenario Compression for Faster Chip Design Closure</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/adaptive-scenario-compression-chip-design-closure</link>
-<dc:creator><![CDATA[James Chuang, Nahmsuk Oh]]></dc:creator>
-<pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Physical Implementation]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/adaptive-scenario-compression-chip-design-closure</guid>
-<description><![CDATA[Boost semiconductor design predictability and efficiency with Adaptive Scenario Compression, reducing ECO cycles and improving timing closure.]]></description>
-</item>
-<item>
-<title>How AI Is Revolutionizing Chip Design Workflows</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-chip-design-workflow-automation</link>
-<dc:creator><![CDATA[Shankar Krishnamoorthy]]></dc:creator>
-<pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Executive Voices]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Design]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-chip-design-workflow-automation</guid>
-<description><![CDATA[Discover how AI-powered EDA tools are transforming chip design workflows, increasing efficiency and driving innovation across the semiconductor industry.]]></description>
-</item>
-<item>
-<title>Pre-Silicon Planning for AI Chips</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-chip-pre-silicon-planning-guide</link>
-<dc:creator><![CDATA[Kamal Desai, Scott Knowlton, Sumit Vishwakarma]]></dc:creator>
-<pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Energy-Efficient SoCs]]></category>
-<category><![CDATA[Multi-Die]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Signal & Power Integrity]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<category><![CDATA[Simulation]]></category>
-<category><![CDATA[Virtual Prototyping]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-chip-pre-silicon-planning-guide</guid>
-<description><![CDATA[Discover why pre-silicon planning is essential for designing high-performance, energy-efficient AI chips, reducing risk, and meeting market demands.]]></description>
-</item>
-<item>
-<title>AI &amp; HPC Chip Test Solutions: SEQ Compression &amp; Streaming Fabric</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-hpc-chip-test-solutions-seq-compression-streaming-fabric</link>
-<dc:creator><![CDATA[Jon Colburn, Sri Ganta]]></dc:creator>
-<pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Test Automation]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-hpc-chip-test-solutions-seq-compression-streaming-fabric</guid>
-<description><![CDATA[Discover how Synopsys TestMAX SEQ Compression and Streaming Fabric tackle AI and HPC chip test challenges for efficient, scalable, and reliable solutions.]]></description>
-</item>
-<item>
-<title>Integrated Arm-Synopsys Chip Design Flow for AI Workloads</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/arm-synopsys-integrated-chip-design-flow</link>
-<dc:creator><![CDATA[Frank Schirrmeister]]></dc:creator>
-<pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Energy-Efficient SoCs]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Silicon Lifecycle Management]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Prototyping]]></category>
-<category><![CDATA[Signal & Power Integrity]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<category><![CDATA[Interface IP Subsystems]]></category>
-<category><![CDATA[Emulation]]></category>
-<category><![CDATA[Simulation]]></category>
-<category><![CDATA[Virtual Prototyping]]></category>
-<category><![CDATA[Security IP]]></category>
-<category><![CDATA[Debug]]></category>
-<category><![CDATA[Verification IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/arm-synopsys-integrated-chip-design-flow</guid>
-<description><![CDATA[Discover how Arm and Synopsys deliver a nine-stage, silicon-to-system chip design flow for efficient, scalable AI hardware innovation.]]></description>
-</item>
-<item>
-<title>AI Chip Design Startup Forum 2025</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-startup-panel-2025</link>
-<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
-<pubDate>Wed, 01 Oct 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[Cloud]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/ai-startup-panel-2025</guid>
-<description><![CDATA[Gain expert insights at the AI Chip Design Startup Forum 2025. Discover strategies for funding, scaling, and hiring from industry leaders.]]></description>
-</item>
-<item>
-<title>Customizing Foundation IP for Low-Voltage Chip Design</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/customizing-foundation-ip-low-voltage-design</link>
-<dc:creator><![CDATA[Andrew Appleby, Daryl Seitzer, Mohammad Tanveer]]></dc:creator>
-<pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[Customer Spotlight]]></category>
-<category><![CDATA[Energy-Efficient SoCs]]></category>
-<category><![CDATA[Memory]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Signal & Power Integrity]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<category><![CDATA[Low Power]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/customizing-foundation-ip-low-voltage-design</guid>
-<description><![CDATA[Discover how Synopsys customizes Foundation IP to meet low-voltage, power-efficient chip design requirements for advanced SoCs and optical networking.]]></description>
-</item>
-<item>
-<title>Chiplet Design Best Practices for Multi-Die Systems</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/chiplet-design-best-practices-multi-die</link>
-<dc:creator><![CDATA[Rob Kruger]]></dc:creator>
-<pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[About Synopsys]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Multi-Die]]></category>
-<category><![CDATA[Design]]></category>
-<category><![CDATA[Silicon IP]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Foundation IP]]></category>
-<category><![CDATA[Interface IP]]></category>
-<category><![CDATA[Interface IP Subsystems]]></category>
-<category><![CDATA[Simulation]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/chiplet-design-best-practices-multi-die</guid>
-<description><![CDATA[Discover 8 essential chiplet design best practices for scalable, high-performance multi-die systems. Unlock innovation in AI, HPC, and automotive.]]></description>
-</item>
-<item>
-<title>Accelerating PCIe Gen6 L0p Verification for AI &amp; HPC Designs using Synopsys VIP</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/accelerating-l0p-verification-in-pcie-6-designs</link>
-<dc:creator><![CDATA[Deepak Kumar Lnu, Will Felten]]></dc:creator>
-<pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate>
-<category><![CDATA[Engineering Central]]></category>
-<category><![CDATA[AI & Machine Learning]]></category>
-<category><![CDATA[Automotive]]></category>
-<category><![CDATA[HPC]]></category>
-<category><![CDATA[Data Center]]></category>
-<category><![CDATA[Verification]]></category>
-<category><![CDATA[Verification IP]]></category>
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/accelerating-l0p-verification-in-pcie-6-designs</guid>
-<description><![CDATA[Accelerate PCIe Gen6 L0p verification for AI & HPC designs with Synopsys VIP. Overcome challenges in power management and compliance for robust SoC solutions.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/space-exploration-engineering-silicon-systems</guid>
+<description><![CDATA[Discover how advanced design, simulation, and silicon-to-systems engineering drive the new era of space exploration, from Artemis missions to Mars.]]></description>
 </item>
 </channel>
 </rss>

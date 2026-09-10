@@ -9,99 +9,459 @@
  <atom:link href="https://main--synopsis-sd--paolomoz.aem.live/glossary/feed.xml" rel="self" type="application/rss+xml" />
  <link>https://main--synopsis-sd--paolomoz.aem.live/glossary</link>
  <description>Definitions of chip design, verification and silicon IP terms</description>
- <lastBuildDate>Thu, 10 Sep 2026 16:01:51 GMT</lastBuildDate>
+ <lastBuildDate>Thu, 10 Sep 2026 16:42:14 GMT</lastBuildDate>
  <language>en-US</language>
  <sy:updatePeriod>hourly</sy:updatePeriod>
  <sy:updateFrequency>1</sy:updateFrequency>
 <item>
+<title>What is Fault Detection?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-fault-detection</link>
+<dc:creator><![CDATA[Adam Cron]]></dc:creator>
+<pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-fault-detection</guid>
+<description><![CDATA[]]></description>
+</item>
+<item>
+<title>What Is Automotive Virtualization?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automotive-virtualization</link>
+<dc:creator><![CDATA[Mohit Bhardwaj]]></dc:creator>
+<pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automotive-virtualization</guid>
+<description><![CDATA[]]></description>
+</item>
+<item>
+<title>What is a Data Center? Architecture, Types &amp; AI Evolution</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-data-center</link>
+<dc:creator><![CDATA[Larry Williams]]></dc:creator>
+<pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-data-center</guid>
+<description><![CDATA[Learn how modern data centers are designed for performance and efficiency, from core infrastructure and cooling to AI-driven innovation.]]></description>
+</item>
+<item>
+<title>What is an Electronics Digital Twin?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-an-electronics-digital-twin</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-an-electronics-digital-twin</guid>
+<description><![CDATA[An Electronics Digital Twin (eDT) is a virtual representation of an electronic system and its environment.]]></description>
+</item>
+<item>
+<title>What is a Digital Twin? Definition, Types, and Examples</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-digital-twin</link>
+<dc:creator><![CDATA[Raja Badrinarayanan]]></dc:creator>
+<pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-digital-twin</guid>
+<description><![CDATA[Learn how digital twins use real-time data to model physical systems, improving performance, decision-making, and operational efficiency.]]></description>
+</item>
+<item>
+<title>What is ADAS? Advanced Driver Assistance Systems Explained</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-adas</link>
+<dc:creator><![CDATA[Emmanuel Follin, Sr]]></dc:creator>
+<pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-adas</guid>
+<description><![CDATA[Learn the types and components of advanced driver assistance systems, how ADAS technology is developed and validated, and its role in vehicle safety.]]></description>
+</item>
+<item>
+<title>What is Voltage Drop?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-voltage-drop</link>
+<dc:creator><![CDATA[Marc Swinnen]]></dc:creator>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-voltage-drop</guid>
+<description><![CDATA[What is voltage drop? Learn the voltage drop formula, how to calculate voltage drop in DC and AC circuits, and how engineers reduce IR drop.]]></description>
+</item>
+<item>
+<title>What is Automatic Test Equipment?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automatic-test-equipment</link>
+<dc:creator><![CDATA[Adam Cron]]></dc:creator>
+<pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automatic-test-equipment</guid>
+<description><![CDATA[Learn what Automatic Test Equipment (ATE) is, related system components, benefits, and how it is used across industries and with simulation.]]></description>
+</item>
+<item>
+<title>What is Physical AI?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-physical-ai</link>
+<dc:creator><![CDATA[Sumit Vishwakarma, Todd Koelling, Rich Goldman]]></dc:creator>
+<pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-physical-ai</guid>
+<description><![CDATA[Learn what physical AI is and how autonomous systems employ it, how it is applied across industries, and physical AI’s various challenges.]]></description>
+</item>
+<item>
+<title>What is Electromagnetic Coupling?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-electromagnetic-coupling</link>
+<dc:creator><![CDATA[Akanksha Soni]]></dc:creator>
+<pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-electromagnetic-coupling</guid>
+<description><![CDATA[Learn how to determine the cause of electromagnetic coupling by understanding how it is coupled from source to receiver.]]></description>
+</item>
+<item>
+<title>What Are S-parameters?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-s-parameters</link>
+<dc:creator><![CDATA[Akanksha Soni]]></dc:creator>
+<pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-s-parameters</guid>
+<description><![CDATA[Discover S-parameters and their role in characterizing RF, microwave, and high-speed electronic designs for accurate performance analysis.]]></description>
+</item>
+<item>
+<title>What is Nodal Analysis?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-nodal-analysis</link>
+<dc:creator><![CDATA[Akanksha Soni]]></dc:creator>
+<pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-nodal-analysis</guid>
+<description><![CDATA[Learn what nodal analysis is with helpful examples, why it's important, and the six steps used to perform a nodal analysis.]]></description>
+</item>
+<item>
+<title>What is an RLC Circuit?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-an-rlc-circuit</link>
+<dc:creator><![CDATA[Akanksha Soni]]></dc:creator>
+<pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-an-rlc-circuit</guid>
+<description><![CDATA[Understanding RLC circuits is critical to the design and analysis of circuits that are used in a wide range of electronics and communications systems.]]></description>
+</item>
+<item>
+<title>What is a Microchip?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-microchip</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-microchip</guid>
+<description><![CDATA[Learn about microchips, integrated circuits, and semiconductor technology powering the devices, systems, and innovations we use every day.]]></description>
+</item>
+<item>
+<title>What is Advanced Semiconductor Packaging?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-advanced-semiconductor-packaging</link>
+
+<pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-advanced-semiconductor-packaging</guid>
+<description><![CDATA[Learn more about advanced semiconductor packaging and different types of advanced packaging technologies to gain a competitive advantage in the market.]]></description>
+</item>
+<item>
+<title>What is a Mixed-Signal Integrated Circuit?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-mixed-signal-integrated-circuit</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-mixed-signal-integrated-circuit</guid>
+<description><![CDATA[Explore mixed-signal IC design and how it enables efficient integration of analog and digital functions in modern electronic devices.]]></description>
+</item>
+<item>
+<title>What is Register-Transfer-Level (RTL) Design?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-register-transfer-level-design</link>
+
+<pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-register-transfer-level-design</guid>
+<description><![CDATA[Find out about RTL design, its role in integrated circuit design, the steps involved in RTL design flow, and how it applies to semiconductor chips.]]></description>
+</item>
+<item>
+<title>What is a System on a Chip (SoC)?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-system-on-a-chip</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-system-on-a-chip</guid>
+<description><![CDATA[A system on a chip is an integrated circuit that compresses all of a system’s required components onto one piece of silicon.]]></description>
+</item>
+<item>
+<title>What is AI Chip Design? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ai-chip-design</link>
+<dc:creator><![CDATA[Todd Koelling]]></dc:creator>
+<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ai-chip-design</guid>
+<description><![CDATA[An AI chip is built for efficient AI workloads, delivering high performance and energy savings for data centers, edge devices, and AI factories.]]></description>
+</item>
+<item>
+<title>What is AI-Driven Chip Design?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ai-driven-chip-design</link>
+<dc:creator><![CDATA[Todd Koelling]]></dc:creator>
+<pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ai-driven-chip-design</guid>
+<description><![CDATA[AI-driven chip design uses AI to optimize semiconductor performance, power, and area, exploring more options than possible manually.]]></description>
+</item>
+<item>
+<title>What is EDA Agentic AI? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-eda-agentic-ai</link>
+<dc:creator><![CDATA[Rob van Blommestein]]></dc:creator>
+<pubDate>Thu, 06 Nov 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-eda-agentic-ai</guid>
+<description><![CDATA[EDA Agentic AI uses autonomous multi-agent systems to optimize chip design workflows, boost engineering productivity, and accelerate innovation.]]></description>
+</item>
+<item>
+<title>What is Lithography? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-lithography</link>
+<dc:creator><![CDATA[Claris Leung]]></dc:creator>
+<pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-lithography</guid>
+<description><![CDATA[Learn how lithography drives semiconductor manufacturing by patterning intricate features on silicon wafers for modern electronic devices.]]></description>
+</item>
+<item>
+<title>What is Logic Design? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-logic-design</link>
+<dc:creator><![CDATA[Frank Malloy]]></dc:creator>
+<pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-logic-design</guid>
+<description><![CDATA[Digital logic design creates circuits using binary signals and logic gates, enabling reliable computing, AI, and control applications.]]></description>
+</item>
+<item>
+<title>What is Physical Design? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-physical-design</link>
+<dc:creator><![CDATA[Frank Malloy]]></dc:creator>
+<pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-physical-design</guid>
+<description><![CDATA[Physical design is the process of converting logic design into a chip layout, including placement, routing, and verification for manufacturable silicon chips.]]></description>
+</item>
+<item>
+<title>What is Place and Route? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-place-and-route</link>
+<dc:creator><![CDATA[Frank Malloy]]></dc:creator>
+<pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-place-and-route</guid>
+<description><![CDATA[Explore Place and Route in silicon chip design and see how electronic design automation tools optimize placement, routing, and performance.]]></description>
+</item>
+<item>
+<title>What is PPA (Power, Performance, and Area)?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-power-performance-area-ppa</link>
+<dc:creator><![CDATA[Frank Malloy]]></dc:creator>
+<pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-power-performance-area-ppa</guid>
+<description><![CDATA[In silicon chip design, PPA represents Power, Performance, and Area. These are key metrics used to evaluate the quality and efficiency of a silicon chip design.]]></description>
+</item>
+<item>
+<title>What is Simulation in Chip Design and Verification?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-simulation</link>
+<dc:creator><![CDATA[Khalid Khan]]></dc:creator>
+<pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-simulation</guid>
+<description><![CDATA[Explore simulation techniques in EDA, from logic verification to power and fault analysis, for accurate IC and SoC development.]]></description>
+</item>
+<item>
+<title>What is Verification? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-verification</link>
+<dc:creator><![CDATA[Khalid Khan]]></dc:creator>
+<pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-verification</guid>
+<description><![CDATA[Verification ensures hardware and software designs meet specifications and operate as intended, reducing risk and improving product quality.]]></description>
+</item>
+<item>
+<title>What is Synthesis? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-synthesis</link>
+<dc:creator><![CDATA[Khalid Khan]]></dc:creator>
+<pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-synthesis</guid>
+<description><![CDATA[Learn how synthesis converts hardware descriptions into optimized gate-level designs for efficient chip implementation and production.]]></description>
+</item>
+<item>
+<title>What is HAV Prototyping? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-hav-prototyping</link>
+<dc:creator><![CDATA[Khalid Khan]]></dc:creator>
+<pubDate>Fri, 05 Sep 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-hav-prototyping</guid>
+<description><![CDATA[Learn how HAV prototyping accelerates system validation and verification with scalable hardware-assisted solutions for faster development.]]></description>
+</item>
+<item>
+<title>What is HAV Emulation? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-hav-emulation</link>
+<dc:creator><![CDATA[Khalid Khan]]></dc:creator>
+<pubDate>Thu, 04 Sep 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-hav-emulation</guid>
+<description><![CDATA[Learn how HAV emulation accelerates validation of complex designs with hardware-assisted verification, enabling faster, more reliable silicon development.]]></description>
+</item>
+<item>
+<title>What is Design for Test (DFT)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-design-for-test</link>
+<dc:creator><![CDATA[Claris Leung]]></dc:creator>
+<pubDate>Thu, 28 Aug 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-design-for-test</guid>
+<description><![CDATA[Design for Test (DFT) refers to a set of design techniques that make integrated circuits easier to test for manufacturing defects and operational faults.]]></description>
+</item>
+<item>
+<title>What is Edge AI? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-edge-ai</link>
+<dc:creator><![CDATA[Scott Knowlton]]></dc:creator>
+<pubDate>Wed, 27 Aug 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-edge-ai</guid>
+<description><![CDATA[Edge AI enables real-time AI processing and decision-making directly on devices, reducing latency, improving privacy, and minimizing cloud dependence.]]></description>
+</item>
+<item>
+<title>What is a Silicon Die? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-silicon-die</link>
+<dc:creator><![CDATA[Frank Malloy]]></dc:creator>
+<pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-silicon-die</guid>
+<description><![CDATA[A silicon die is the semiconductor foundation of integrated circuits, powering everything from smartphones and automotive systems to data centers.]]></description>
+</item>
+<item>
+<title>What is Root of Trust? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-root-of-trust</link>
+<dc:creator><![CDATA[Vincent van der Leest]]></dc:creator>
+<pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-root-of-trust</guid>
+<description><![CDATA[Root of Trust combines hardware and software security foundations to protect data, verify authenticity, and defend against cyber threats.]]></description>
+</item>
+<item>
+<title>What is an Integrated Circuit (IC)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-integrated-circuit</link>
+<dc:creator><![CDATA[Rob van Blommestein, Sumit Vishwakarma]]></dc:creator>
+<pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-integrated-circuit</guid>
+<description><![CDATA[Learn how integrated circuits (ICs) combine electronic components on a single chip to power modern devices with high performance and efficiency.]]></description>
+</item>
+<item>
+<title>What is ASIC Design? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-asic-design</link>
+<dc:creator><![CDATA[Rob van Blommestein, Sumit Vishwakarma]]></dc:creator>
+<pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-asic-design</guid>
+<description><![CDATA[Learn how ASIC design enables custom semiconductor solutions built for specific applications, delivering optimized efficiency and performance.]]></description>
+</item>
+<item>
+<title>What is an FPGA (Field-Programmable Gate Array)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-field-programmable-gate-array</link>
+<dc:creator><![CDATA[Ian Land, Khalid Khan]]></dc:creator>
+<pubDate>Thu, 31 Jul 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-field-programmable-gate-array</guid>
+<description><![CDATA[Learn how FPGAs provide reconfigurable hardware that enables rapid development, flexibility, and performance across a wide range of applications.]]></description>
+</item>
+<item>
+<title>What is Functional Verification? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-functional-verification</link>
+<dc:creator><![CDATA[Taruna Reddy]]></dc:creator>
+<pubDate>Wed, 07 May 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-functional-verification</guid>
+<description><![CDATA[Functional verification ensures your chip behaves as intended. Explore key tools, techniques, and tips to improve reliability and reduce rework.]]></description>
+</item>
+<item>
+<title>What is Post-Quantum Cryptography (PQC)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-post-quantum-cryptography</link>
+<dc:creator><![CDATA[Vincent van der Leest]]></dc:creator>
+<pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-post-quantum-cryptography</guid>
+<description><![CDATA[Learn how Post-Quantum Cryptography safeguards sensitive information with quantum-resistant algorithms designed for the next era of security.]]></description>
+</item>
+<item>
 <title>What are Chiplets? – How Do Chiplets Work?</title>
 <link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-chiplets</link>
-
-<pubDate>Thu, 10 Sep 2026 13:47:59 GMT</pubDate>
+<dc:creator><![CDATA[Soheil Modirzadeh]]></dc:creator>
+<pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
 
 <guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-chiplets</guid>
 <description><![CDATA[Learn how chiplets enable modular semiconductor design, delivering greater flexibility, performance, and efficiency for advanced multi-die design.]]></description>
 </item>
 <item>
-<title>What is ASIL (Automotive Safety Integrity Level)? – Overview</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-asil</link>
+<title>What is a Physical Unclonable Function (PUF)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-physical-unclonable-function</link>
+<dc:creator><![CDATA[Vincent van der Leest]]></dc:creator>
+<pubDate>Tue, 10 Sep 2024 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:48:31 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-asil</guid>
-<description><![CDATA[Explore ASIL levels & how AI-machine learning in vehicles impact safety validation. Discover how Synopsys supports AI-compliant design and verification.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-physical-unclonable-function</guid>
+<description><![CDATA[Discover how silicon PUF technology uses intrinsic hardware variations to create secure, unclonable identities for microprocessors and ICs.]]></description>
 </item>
 <item>
-<title>What is Automotive Hardware Functional Safety?</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automotive-hardware-functional-safety</link>
+<title>What is SRAM PUF (Static Random-Access Memory Physical Unclonable Function)?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-sram-puf</link>
+<dc:creator><![CDATA[Vincent van der Leest]]></dc:creator>
+<pubDate>Thu, 29 Aug 2024 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:48:33 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automotive-hardware-functional-safety</guid>
-<description><![CDATA[Learn about automotive hardware functional safety, its importance in preventing design failures and controlling random faults as defined by ISO 26262 standards.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-sram-puf</guid>
+<description><![CDATA[Learn how SRAM PUF technology creates hardware-based cryptographic keys using intrinsic silicon variations for enhanced security.]]></description>
 </item>
 <item>
-<title>What is an Autonomous Car? – How Self-Driving Cars Work</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-autonomous-car</link>
+<title>What is a Process Design Kit and How Does it Work?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-process-design-kit</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:48:39 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-autonomous-car</guid>
-<description><![CDATA[Discover how autonomous cars sense their environment and operate without human intervention, offering a glimpse into the future of self-driving technology.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-a-process-design-kit</guid>
+<description><![CDATA[A Process Design Kit (PDK) is a library of basic photonic components generated by the foundry to give open access to their generic process for fabrication.]]></description>
 </item>
 <item>
-<title>What is Design Planning?</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-design-planning</link>
+<title>What is Power Optimization?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-power-optimization</link>
+<dc:creator><![CDATA[Rob van Blommestein]]></dc:creator>
+<pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:48:50 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-design-planning</guid>
-<description><![CDATA[Design planning is the process by which you manage and minimize engineering tradeoffs related to implementation and design closure.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-power-optimization</guid>
+<description><![CDATA[Learn how power optimization improves energy efficiency in digital designs while maintaining performance, functionality, safety, and security.]]></description>
 </item>
 <item>
-<title>What is Integrated Development Environment (IDE)? – How it Works</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ide</link>
+<title>What is High Bandwidth Memory 3 (HBM3)?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-high-bandwitdth-memory-3</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:49:17 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ide</guid>
-<description><![CDATA[An IDE is an Integrated Development Environment that combines tools and features to streamline and improve software development productivity for programmers.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-high-bandwitdth-memory-3</guid>
+<description><![CDATA[HBM3 is a high-bandwidth memory standard that delivers significant performance and efficiency improvements through advanced 3D-stacked DRAM technology.]]></description>
 </item>
 <item>
-<title>What is ISO 26262 Functional Safety Standard?</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-iso-26262</link>
+<title>What is Universal Flash Storage (UFS)? – How Does it Work?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-universal-flash-storage</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:49:19 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-iso-26262</guid>
-<description><![CDATA[ISO 26262 ensures automotive safety by mandating a functional development process to minimize risks from E/E system malfunctions in commercial vehicles.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-universal-flash-storage</guid>
+<description><![CDATA[Learn how UFS delivers fast, efficient storage for mobile devices, enabling improved performance, responsiveness, and power efficiency.]]></description>
 </item>
 <item>
-<title>What is Electronic Design Automation (EDA)? – How it Works</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-electronic-design-automation</link>
+<title>What are Atomistic Simulations? – Methods &amp; Advantages</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-atomistic-simulations</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:49:00 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-electronic-design-automation</guid>
-<description><![CDATA[Electronic Design Automation (EDA) includes software, hardware, and services that support semiconductor design, verification, and manufacturing.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-atomistic-simulations</guid>
+<description><![CDATA[Learn how atomistic simulations predict material properties and interactions at the atomic level for chemistry, electronics, and materials science.]]></description>
 </item>
 <item>
-<title>What is Reinforcement Learning &amp; How Does AI Use It?</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-reinforcement-learning</link>
+<title>What are Machine-Learned Force Fields and How Does It Work?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-machine-learned-force-fields</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:51:05 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-reinforcement-learning</guid>
-<description><![CDATA[Reinforcement Learning enables systems to learn optimal decisions through interaction, maximizing outcomes with AI-driven exploration and adaptation.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-machine-learned-force-fields</guid>
+<description><![CDATA[Discover machine-learned force fields, a data-driven approach that accelerates accurate atomic-scale simulations for materials research and device design.]]></description>
 </item>
 <item>
-<title>What is PCI Express (PCIe)? – How it Works?</title>
-<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-pci-express</link>
+<title>What is RISC-V? – How Does it Work?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-risc-v</link>
+<dc:creator><![CDATA[Synopsys Editorial Staff]]></dc:creator>
+<pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
 
-<pubDate>Thu, 10 Sep 2026 13:51:29 GMT</pubDate>
-
-<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-pci-express</guid>
-<description><![CDATA[Discover PCI Express (PCIe), a standard for connecting peripherals to motherboards, offering high bandwidth and low latency for various applications.]]></description>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-risc-v</guid>
+<description><![CDATA[RISC-V is an open-source instruction set architecture used to develop custom processors for a variety of applications, from embedded designs to supercomputers.]]></description>
 </item>
 </channel>
 </rss>
