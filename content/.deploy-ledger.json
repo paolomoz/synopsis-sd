@@ -1,0 +1,164 @@
+{
+  "/articles/ai-powered-analog-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:01.194Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/authors/sassine-ghazi": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:01.198Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/multiphysics-chip-design-challenges": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:01.198Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:01.198Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/community/snug": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:07.326Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/company/management-team": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:07.431Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/company": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:07.545Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/designware-ip/interface-ip": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:07.706Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/glossary/what-are-chiplets": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:12.572Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/implementation-and-signoff/signoff": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:12.924Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/newsroom": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:13.103Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/resources": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:13.118Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/solutions/automotive": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:18.261Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/success-stories/electronics-digital-twins-volvo-cars": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:18.368Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/support": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:18.410Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/verification/simulation/vcs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:18.998Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/verification": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:23.120Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/webinars": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T05:02:23.424Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

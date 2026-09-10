@@ -1,0 +1,29 @@
+<body>
+  <header></header>
+  <main>
+    <div><div class="metadata"><div><div>Title</div><div>TestMAX ALE: Adaptive High-Bandwidth Test | Synopsys</div></div><div><div>Description</div><div>TestMAX ALE leverages high-speed interfaces like USB and PCIe for high-bandwidth manufacturing tests, reducing test pins and ensuring device quality.</div></div><div><div>Template</div><div>program</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$" alt=""></div></div></div></div>
+    <div>
+<div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/implementation-and-signoff">Design</a></li><li><a href="/implementation-and-signoff/test-automation">Test Automation</a></li><li><a href="/implementation-and-signoff/test-automation/testmax-ale">TestMAX ALE</a></li></ul></div></div></div>
+    </div>
+    <div>
+<div class="hero"><div><div><h1>TestMAX ALE</h1></div></div></div>
+    </div>
+    <div>
+<div class="anchor-nav"><div><div><ul><li><a href="#overview">Overview</a></li><li><a href="#bf">Benefits &amp; Features</a></li><li><a href="#sh">Software &amp; Hardware</a></li></ul><p><strong><a href="/contact-sales">Get Started</a></strong></p></div></div></div>
+    </div>
+    <div>
+<h2>Adaptive High-Bandwidth Test</h2>
+<p>Synopsys TestMAX<strong>&trade;</strong> ALE and <a href="/solutions/silicon-lifecycle-management/high-speed-access-and-test">High-Speed Access &amp; Test (HSAT) IP</a> form the solution that leverages high-speed interfaces such as a Universal Serial Bus (USB) and PCI Express&reg; (PCIe&reg;) that exist on many semiconductor devices. The combined solution provides the ability to apply manufacturing tests through these functional interfaces, enabling an extremely high test bandwidth compared to traditional test interfaces, often reducing the number of dedicated test pins. Additionally, all tests are portable to the device, from die testing to in-system test and at all stages of the product life-cycle.</p><div class="section-metadata"><div><div>anchor</div><div>overview</div></div></div>
+    </div>
+    <div>
+<div class="columns"><div><div><p><strong>Benefits</strong></p><ul><li>High-bandwidth test data for low test cost</li><li>Minimal pin count interface that accommodates most designs</li><li>Easily adapts to support different high-speed input-output interfaces (HSIO)</li><li>Simpler automated tester equipment (ATE) pin electronics for reduced tester costs</li><li>Ensures high quality of the device in-system with application of manufacturing tests</li></ul></div><div></div><div><p><strong>Features</strong></p><ul><li>Leverages flexible Synopsys HSAT IP to accommodate a variety of HSIOs</li><li>Automatically packetizes and depacketizes scan data</li><li>Reads in STIL from TestMAX ATPG and generates failure log files</li></ul></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div><div><div>anchor</div><div>bf</div></div></div>
+    </div>
+    <div>
+<h2>Software and Hardware for HSIO</h2>
+<p>HSAT IP generates an on-chip interface between the existing high-speed interface IO (i.e., USB, PCIe, etc.) and the DFT logic, which is typically composed of scan and compression logic. To accommodate this and remain independent of the HSIO, the HSAT IP logic interface utilizes the Arm&reg; AMBA&reg; AXI interconnect serving as a subordinate to the HSIO. The data feeds from the AXI through a FIFO that accommodates the packet length suitable for the design&rsquo;s DFT. The HSAT IP interface also contains logic to transform the data packet to/from DFT signals, including scan in data, scan out data, scan enable, and test clock.</p><p>TestMAX ALE provides the software interface to the HSIO similar to a software device driver. TestMAX ALE enables communication between the operating system file I/O and the software layer driving the host HSIO. TestMAX ALE processes standard scan data in the IEEE 1450 (STIL) format and then packetizes the data for communication to the HSIO. Several output formats (ex. STDF-v2007) are supported to avoid further processing by external programs utilizing data.</p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/hs-access-fig1?qlt=82&amp;wid=1200&amp;ts=1744388330793&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Software and Hardware for HSIO"></p>
+<div class="hero connect"><div><div><h2>Connect with Us</h2><p><em><a href="/contact-sales">Contact Sales</a></em></p></div></div></div><div class="section-metadata"><div><div>anchor</div><div>sh</div></div></div>
+    </div>
+  </main>
+  <footer></footer>
+</body>

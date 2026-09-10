@@ -1,0 +1,32 @@
+<body>
+  <header></header>
+  <main>
+    <div><div class="metadata"><div><div>Title</div><div>Ring Resonator: Thermal Tuning</div></div><div><div>Description</div><div>This application note is intended to demonstrate spectral tunability of a single-stage ring resonator that can be used as an integrated photonic add-drop multiplexer in multi-channel fiber-optic systems [1]. Ring resonator is an important component in silicon photonics.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div>
+<div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/photonic-integrated-circuits">Photonic Integrated Circuits (PICs)</a></li><li><a href="/photonic-solutions/product-applications/photonic-integrated-circuits/thermal-tuning">Ring Resonator: Thermal Tuning</a></li></ul></div></div></div>
+    </div>
+    <div>
+<h1>Ring Resonator: Thermal Tuning</h1>
+<h2>Tools Used:</h2><p><a href="/photonic-solutions/rsoft-photonic-device-tools">RSoft Photonic Device Tools,</a> <a href="/photonic-solutions/pic-design-suite/optsim-circuit">OptSim Circuit</a>, <a href="/photonic-solutions/rsoft-photonic-device-tools/multiphysics-utility">Multi-Physis Utility</a></p>
+<h2>Introduction</h2><p>This application note is intended to demonstrate spectral tunability of a single-stage ring resonator that can be used as an integrated photonic add-drop multiplexer in multi-channel fiber-optic systems [1]. Ring resonator is an important component in silicon photonics. It is made up of an optical waveguide in a loop fashion with coupling mechanism as shown in the schematic of Figure 1.</p><p>As per the theory of ring resonators [2], the ring is in resonance when wavelength of the light fits integer number of times in the optical length of the ring. The resonance wavelength is given by:</p>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/thermal-tuning1?qlt=82&amp;wid=1200&amp;ts=1614720400400&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Resonance Wavelength | Synopsys"></p></div><div></div></div></div>
+    </div>
+    <div>
+<p>Where <em>m</em> is a non-zero positive integer, <em>L</em> is the optical roundtrip length of the ring, and <em>neff</em> is the effective index of the waveguide.</p><p>Free spectral range (FSR) is an important specification of a ring resonator. It is the spacing between resonances and is given by:</p>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/thermal-tuning2?qlt=82&amp;wid=1200&amp;ts=1614720454399&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Resonance Spacing | Synopsys"></p></div><div></div></div></div>
+    </div>
+    <div>
+<p>The group refractive index can be used in above expression instead of the effective index for more accurate values.</p><p>Another parameter often specified is finesse of a ring resonator filter which is a ratio of FSR to full-width-half-maximum (FWHM) of a resonance for a specific wavelength.</p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/thermal-tuning3?qlt=82&amp;wid=1200&amp;ts=1614720761661&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Thermally Tuned Single-Stage Ring Resonator Circuit Layout | Synopsys"></p>
+<p><em>Figure 1. Layout of a single-stage ring resonator circuit with thermal tuning.</em></p>
+<p>The effective index for the ring resonator is 3.7579 and its half-arc length is 3.14159 microns. The voltage applied to the phase-shifters determines heater power and is scanned for 3 values.</p><p>A user could also use RSoft Multi-Physics Utility [3] that allows for the simulation of the complex refractive index perturbation arising from:</p><ul><li>Electro-Optic Effect</li><li>Thermo-Optic Effect</li><li>Stress-Optic Effect, and</li><li>Free-Carrier Absorption (and in some cases Electro-Absorption) Effects.</li></ul><p>These index perturbations can then be used in any of the RSoft device modeling tools (BPM, FEM, RCWA, EME, PWE, or CMT) to produce the dispersion properties of these index perturbations or the index variation with respect to any design or material parameter, such as temperature [3].</p><p>To carry out the simulation and observe thermal tuning as heather power varies, click on the &ldquo;Scan&rdquo; button to run the project file. The pass-through and drop spectra are shown below in Figures 2 and 3 respectively. </p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/thermal-tuning4?qlt=82&amp;wid=1200&amp;ts=1614720737951&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Pass-through spectrum | Synopsys"></p>
+<p><em>Figure 2. Thermally-tuned pass-through spectrum.</em></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/thermal-tuning5?qlt=82&amp;wid=1200&amp;ts=1614720725203&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Drop Spectrum | Synopsys"></p>
+<p><em>Figure 3. Thermally-tuned drop spectrum.</em></p>
+<p>This application note demonstrated spectral tunability of a single-stage ring resonator that can be used as an integrated photonic, tunable add-drop multiplexer in multi-channel fiber-optic systems. Please contact us in case of questions or for more information on your modeling needs.</p>
+<h2>References</h2><ol><li>John E. Cunningham, et al., &ldquo;Highly-efficient thermally-tuned resonant optical filters,&rdquo; <em>Optics Express</em>, vol. 18, no. 18, pp. 19055-19063, 2010.</li><li>W. Bogaerts, et al., &ldquo;Silicon microring resonators,&rdquo; <em>Laser Photonics Review</em>, vol. 6, no. 1, pp. 47-53, 2012.</li><li><a href="/photonic-solutions/rsoft-photonic-device-tools/multiphysics-utility">https://www.synopsys.com/optical-solutions/rsoft/multiphysics-utility.html</a></li><li><a href="/photonic-solutions/product-applications/custom-pdks-ring-resonator">https://www.synopsys.com/photonic-solutions/product-applications/custom-pdks-ring-resonator.html</a></li></ol>
+    </div>
+  </main>
+  <footer></footer>
+</body>

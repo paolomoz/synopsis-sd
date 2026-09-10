@@ -1,0 +1,36 @@
+<body>
+  <header></header>
+  <main>
+    <div><div class="metadata"><div><div>Title</div><div>ECC/RSA Public Key Accelerators | Synopsys</div></div><div><div>Description</div><div>Synopsys Public Key Accelerator (PKA) speeds up RSA operations and ECC algorithms for prime and binary fields, handling complex cryptographic math.</div></div><div><div>Template</div><div>program</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/synopsys-purple-bkgd-logo-social-1200x675?$social-post$" alt=""></div></div></div></div>
+    <div>
+<div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/designware-ip">Synopsys IP</a></li><li><a href="/designware-ip/security-ip">Security IP</a></li><li><a href="/designware-ip/security-ip/cryptography-ip">Cryptography IP</a></li><li><a href="/designware-ip/security-ip/cryptography-ip/public-key-accelerators">Public Key Accelerators</a></li><li><a href="/designware-ip/security-ip/cryptography-ip/public-key-accelerators/security-public-key-accelerator">ECC/RSA Public Key Accelerators</a></li></ul></div></div></div>
+    </div>
+    <div>
+<div class="hero"><div><div><h1>Synopsys ECC/RSA Public Key Accelerators</h1><p><em><a href="/dw/doc.php/ds/s/public-key-accelerator.pdf">Datasheet</a></em></p></div></div></div>
+    </div>
+    <div>
+<div class="anchor-nav"><div><div><ul><li><a href="#overview">Overview</a></li><li><a href="#hf">Highlights &amp; Features</a></li><li><a href="#details">Product Details</a></li><li><a href="#resources">Resources</a></li><li><a href="#ipselector">IP Selector</a></li></ul><p><strong><a href="/designware-ip/contact-us">Talk to an Expert</a></strong></p></div></div></div>
+    </div>
+    <div>
+<p>Common public key algorithms include RSA, Digital Signature Algorithm (DSA), and Diffie-Hellman (DH), which require the calculation of complex modular exponentiation operations to encrypt, decrypt, sign, and verify data used in data encryption, digital signatures, and key exchanges. Similarly, the Elliptic Curve Cryptography (ECC) based algorithms require complex mathematical operations, such as point multiplications, and are designed to support devices with limited computing power or memory to encrypt internet traffic. These operations refer to huge numbers -- from 160- to 521 bits for ECC operations and from 1,024 to 4,096 bits or more for RSA operations. However, most CPUs are limited to operations on 32- and 64-bit values and require significant computational resources when implementing public key infrastructure-related algorithms.</p><p>Synopsys ECC/RSA Public Key Accelerator (PKA) is designed to significantly accelerate these cumbersome operations, executing the computationally intensive elements of the mathematics required for RSA operations and the algorithms used in prime field ECC.</p><p>Synopsys ECC/RSA PKA IP integrates seamlessly with the <a href="/designware-ip/security-ip/cryptography-ip/security-crypto-software-library">Synopsys Cryptography Software Library</a>, enabling designers to accelerate the asymmetric cryptography required in public key algorithms to reach performance and energy efficiency levels that are not achievable in software-only solutions.</p><p>Synopsys ECC/RSA PKAs are configurable IP cores, supporting a broad range of mathematical operations, size, and performance options. These configuration options enable designers to select a wide range of capabilities suitable for applications ranging from edge devices to the most advanced cloud infrastructure, targeting markets such as cloud computing, consumer, IoT, mobile, automotive, industrial, aerospace, and defense.</p><div class="section-metadata"><div><div>anchor</div><div>overview</div></div></div>
+    </div>
+    <div>
+<h2>Highlights &amp; Key Features</h2>
+<div class="tabs"><div><div><p><strong>Highlights</strong></p></div><div><ul><li>Offloads the computationally intensive parts of public key cryptography</li><li>Support for ARM&reg; AMBA&reg; AHB&trade;/AXI&trade; and synchronous RAM interfaces</li><li>Integer operations (512-, 768-, 1024-, 1536-, 2048-, 3072-, and 4096-bit)<ul></ul></li><li>Modular exponentiation, division, multiplication, inversion, addition, and subtraction</li></ul><p>ECC-GF(p) operations (160, 192, 224, 256, 384, 512 and 521-bit)</p><p>Point multiplication, addition, doubling, and verification</p><p>Support for elliptic curves Curve25519 and Ed25519 (also referred to as Twisted Edwards curves)</p><p>Support for Chinese elliptic curve SM2</p><p>Highly configurable at build time</p><p>Configurable firmware memory type</p><p>RAM only</p><p>ROM only</p><p>RAM/ROM mix</p><p>Optional: Differential Power Analysis (DPA)/Timing Analysis (TA) side-channel countermeasures</p><p>Optional: Synopsys Cryptography Software Library for RSA, Diffie-Hellman, DSA, and prime field ECC operations such as ECDSA and ECDH</p><p>Optional: Synopsys True Random Number Generator for DPA/TA support</p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div><div><div>anchor</div><div>hf</div></div></div>
+    </div>
+    <div>
+<h2>Product Details</h2><div class="section-metadata"><div><div>anchor</div><div>details</div></div></div>
+    </div>
+    <div>
+<div class="cards asset"><div><div><p><strong>Brochure</strong></p><h3>Synopsys IP Brochure</h3><p>A comprehensive portfolio of leading-edge Synopsys IP.</p><p><a href="/dw/doc.php/ds/o/product_overview.pdf">Download</a></p></div></div><div><div><p><strong>Article</strong></p><h3>Synopsys IP Technical Bulletin</h3><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/designware-ip/technical-bulletin">Read now</a></p></div></div><div><div><p><strong>Brochure</strong></p><h3>IP Solutions for Edge AI</h3><p>A collection of articles on innovations and best practices.</p><p><a href="/resources/ip-solutions-edge-ai">Download</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div><div><div>anchor</div><div>resources</div></div></div>
+    </div>
+    <div>
+<h2>Find Your IP</h2>
+<div class="columns"><div><div><p><strong>Search for IP</strong></p><p>Quickly identify and access the right IP solutions for your project needs.</p></div><div></div><div><p><strong>Foundation IP Selector</strong></p><p>Find embedded memory and logic IP for your SoC design.</p></div><div></div><div><p><strong>Non-Volatile Memory IP Selector</strong></p><p>Find silicon-proven NVM IP for your SoC design needs.</p></div></div></div><div class="section-metadata"><div><div>anchor</div><div>ipselector</div></div></div>
+    </div>
+    <div>
+<div class="hero"><div><div><h2>Talk with an IP Expert</h2><p><em><a href="/designware-ip/contact-us">Contact Us</a></em></p></div></div></div>
+    </div>
+  </main>
+  <footer></footer>
+</body>

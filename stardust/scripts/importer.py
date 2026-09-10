@@ -442,8 +442,9 @@ def handle_column(col, page):
     sols = sec.select('.component-solutioncard')
     if sols and len(sols) >= max(2, len(cols) - 1):
         page.add_block(block_table('cards pillars', [solution_card_row(c) for c in sols]), style); COVERAGE['cards pillars'] += 1; return True
-    if len(cols) >= 2 and all(c.find('img') is not None and c.find(['h2', 'h3']) is not None for c in cols) and any('leadership' in ' '.join(c.get('class') or []) or 'headshot' in str(c.find('img').get('class')) for c in cols):
-        page.add_block(block_table('cards people', people_rows(cols)), style); COVERAGE['cards people'] += 1; return True
+    ppl = [c for c in cols if c.find('img') is not None and c.find(['h2', 'h3']) is not None]
+    if ppl and len(ppl) >= len([c for c in cols if clean_text(c.get_text())]) and any('leadership' in ' '.join(c.get('class') or []) or 'headshot' in str(c.find('img').get('class')) for c in ppl):
+        page.add_block(block_table('cards people', people_rows(ppl)), style); COVERAGE['cards people'] += 1; return True
     kbs = sec.select('.cmp-key-benefits')
     if kbs and len(kbs) >= len(cols):
         page.add_block(block_table('cards benefits', kb_rows(kbs)), style); COVERAGE['cards benefits'] += 1; return True

@@ -1,0 +1,53 @@
+<body>
+  <header></header>
+  <main>
+    <div><div class="metadata"><div><div>Title</div><div>Create a Phase Shifter from Device to Circuit and Layout Generation</div></div><div><div>Description</div><div>A tutorial covering the full PIC Design Flow with Synopsys Photonic Solutions. Topics include: How to open a depletion phase shifter model from the example library; How to simulate carrier effect with the RSoft Multi-Physics Utility; How to export this phase shifter model with the PDK Generation Utility; How to Load phase shifter models in OptSim Circuit; How to use phase shifter models with DemoFAB PDKs in OptSim Circuit; How to export a schematic model to OptoDesigner for layout generation</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div>
+<div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/photonic-integrated-circuits">Photonic Integrated Circuits (PICs)</a></li><li><a href="/photonic-solutions/product-applications/photonic-integrated-circuits/phase-shifter-device-circuit">Create a Phase Shifter from Device to Circuit and Layout Generation</a></li></ul></div></div></div>
+    </div>
+    <div>
+<h1>Create a Phase Shifter from Device to Circuit and Layout Generation</h1>
+<h2>Tools Used:</h2><p><a href="/photonic-solutions/rsoft-photonic-device-tools/multiphysics-utility">RSoft Multi-Physics Utility</a>, <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a>, <a href="/photonic-solutions/pic-design-suite/optsim-circuit">OptSim Circuit</a>, <a href="/photonic-solutions/pic-design-suite">OptoDesigner</a></p>
+<h2>Overview</h2><p>A tutorial covering the full PIC Design Flow with Synopsys Photonic Solutions, this application note will explain the following steps in the device to circuit design flow:</p><ol><li><a href="#1">Open a Depletion Phase Shifter Model from Example Library</a></li><li><a href="#2">Simulate Carrier Effect with the RSoft Multi-Physics Utility</a></li><li><a href="#3">Calculate Neff Data, Create Custom PDK Model, and Export with the Custom PDK Generation Utility</a></li><li><a href="#4">Load Phase Shifter Models in OptSim Circuit</a></li><li><a href="#5">Use Phase Shifter Models with DemoFAB PDKs in OptSim Circuit</a></li><li><a href="#6">Export a Schematic Model to OptoDesigner for Layout Generation</a></li></ol>
+    </div>
+    <div>
+<h2>1. Open a Depletion Phase Shifter Model from Example Library</h2><p><code>This tutorial creates a phase shifter custom PDK model. The associated files for this tutorial can be found here: &lt;rsoft_dir&gt;\examples\Utilities\CustomPDK\PhaseShifter\SiPhaseShifter.ind</code></p>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/phaseshifter-depletion?qlt=82&amp;wid=1200&amp;ts=1619201850787&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div><div></div></div></div><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p>Open the file SiPhaseShifter.ind and note the following:</p><ul><li>Structure Cross-Section <ul><li>The phase shifter will be modeled via mode solving of the waveguide cross-section. The waveguide is a P-N junction composed of several sections, each with different doping concentrations set in the Material Editor.</li></ul></li><li>Electrodes <ul><li>There are two electrodes (light blue) on each end side of the waveguide. They are configured as electrodes via options in the Additional Component Properties dialog as described in the Multi-Physics manual. The left electrode has an E/H Control Parameter of V, the right electrode has an E/H Control Parameter of 0 (ground).</li></ul></li><li>Simulation Domain <ul><li>Note that the electrical domain (set in the Multi-Physics Utility) and the optical domain (set in the Simulation Parameters dialog) are different.</li></ul></li><li>Simulation Tool <ul><li>The Multi-Physics Utility has been set up to use the Carrier Effects option to compute the index perturbation due to the carriers which will then be used to calculate the effective index of the optical mode.</li></ul></li></ul>
+    </div>
+    <div>
+<h2>2. Simulate Carrier Effect by RSoft Multi-Physics Utility</h2><p>Open the Multi-Physics Utility, check the bias voltage (-2 volt), and click OK to run simulations.</p>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/phaseshifter-2a?qlt=82&amp;wid=1200&amp;ts=1618958419889&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/phaseshifter-2b?qlt=82&amp;wid=1200&amp;ts=1618958435180&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div></div></div><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+    </div>
+    <div>
+<p>After running simulations, the following plots are generated:</p><ul><li>Index Change</li><li>Holes/Electrons Distribution</li><li>CV, IV and RV Curves</li><li>Frequency Response</li></ul>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/phaseshifter-data-files?qlt=82&amp;wid=1200&amp;ts=1618958713238&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><p><img src="https://images.synopsys.com/is/image/synopsys/ps-electron-plot?qlt=82&amp;wid=1200&amp;ts=1618958683806&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/ps-realindex-plot?qlt=82&amp;wid=1200&amp;ts=1618958735319&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><p><img src="https://images.synopsys.com/is/image/synopsys/ps-image-plot?qlt=82&amp;wid=1200&amp;ts=1618958744286&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div></div></div>
+    </div>
+    <div>
+<h2>3. Calculate Neff Data, Create Custom PDK Model, and Export with the Custom PDK Generation Utility</h2><p>Open the Utility by choosing Custom PDK Utility, located under Utility in the top CAD menu. Select the following settings:</p><ul><li>Output: <ul><li>The Output Mode is set to Full PDK which will save both the raw data as well as the custom PDK model for use in OptSim Circuit and other tools.</li></ul></li><li>Data Range: <ul><li>The data range is set to cover the wavelength range of 1.5 to 1.6&#956;m with a 25nm step.</li></ul></li><li>Parameters: <ul><li>For this example, we will not use a Parametric Scan.</li></ul></li><li>Model Type: <ul><li>The Model Type, under Advanced, is set to Phase Shifter (Active).</li></ul></li></ul>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/ps-pdk-utility?qlt=82&amp;wid=1200&amp;ts=1618959764955&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div><div></div></div></div><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
+    </div>
+    <div>
+<h2>4. Load Phase Shifter Models in OptSim Circuit</h2><p>Perform the following steps to load an AWG model in OptSim Circuit into the user libraries:</p><ul><li>Launch User Libraries Organizer</li><li>Select DTA file and add to Workgroup Directory</li><li>View CustomPS models under Workgroup Directory</li></ul>
+<p><img src="https://images.synopsys.com/is/image/synopsys/load-ps-optsimc?qlt=82&amp;wid=1200&amp;ts=1618959015091&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>anchor</div><div>4</div></div></div>
+    </div>
+    <div>
+<h2>5. Use Phase Shifter Models with DemoFAB PDKs in OptSim Circuit</h2><p>Create a blank Compound Component in OptSim Circuit, select CustomPS model and grating couplers, Y-splitters, S-bend waveguides, and straight waveguide from DemoFAB PDK to design an asymmetric Mach-Zehnder Modulator. Use the hard connection (dotted line) to connect each component. </p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/ps-demofab-pdk?qlt=82&amp;wid=1200&amp;ts=1618960364126&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p>Create a blank project in OptSim Circuit, add PRBS, electrical signal generator, CW laser, nonlinear fiber, and optical power monitor from Block mode models. Add an &quot;incline CC&quot; and load the CC of the asymmetric MZM.</p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/ps-demofab-pdk2?qlt=82&amp;wid=1200&amp;ts=1618960356938&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p>Scan W_nm and V to find an optimal wavelength for efficiently modulating this MZM.</p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/ps-mzm?qlt=82&amp;wid=1200&amp;ts=1618960450860&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>anchor</div><div>5</div></div></div>
+    </div>
+    <div>
+<h2>6. Export Schematic Models to OptoDesigner for Layout Generation</h2><p>Once the simulations are complete, users can go back to the CC of MZM, and select Open OptoDesigner to export this schematic model to layout generation. Users can then select Update in OptoDesigner to generate the layout, which they can then modify or add a mask for the doped region.</p>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/ps-export1?qlt=82&amp;wid=1200&amp;ts=1618960778354&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/ps-export2?qlt=82&amp;wid=1200&amp;ts=1618960796279&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div></div></div><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
+    </div>
+    <div>
+<h2>Summary</h2><p>In this tutorial, a customized phase shifter was demonstrated from device level, to circuit level, to layout generation. The RSoft Multi-Physics Utility was used to simulate Carrier Effects in the depletion P-N junction and export it as a custom PDK in OptSim Circuit. By combining OptSim and OptSim Circuit, optical signals after propagating a 100m nonlinear fiber can be analyzed. The layout of the Mach-Zehnder Modulator can then be directly generated from OptSim Circuit to OptoDesigner. </p>
+    </div>
+  </main>
+  <footer></footer>
+</body>
