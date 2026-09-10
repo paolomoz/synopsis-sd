@@ -23,3 +23,10 @@ stardust/current/_style-samples.json
 stardust/raw/
 stardust/import.log
 stardust/lint-all.log
+stardust/import*.log
+stardust/lint-new3.log
+stardust/deploy-*.out
+stardust/deploy-eds.log
+stardust/deploy-ppl.log
+stardust/deploy-vf.log
+stardust/deploy-wave1b.log

@@ -2,27 +2,7 @@
  "pages": 1,
  "coverage": [
   [
-   "text",
-   6
-  ],
-  [
-   "hero carousel",
-   1
-  ],
-  [
-   "cards pillars",
-   1
-  ],
-  [
-   "columns benefits",
-   1
-  ],
-  [
-   "logos",
-   1
-  ],
-  [
-   "carousel resources",
+   "breadcrumbs",
    1
   ],
   [
@@ -30,22 +10,17 @@
    1
   ],
   [
-   "hero",
+   "h1-from-title",
    1
   ]
  ],
- "unmapped": [
-  [
-   "htmlTextOnly-skipped",
-   3
-  ]
- ],
+ "unmapped": [],
  "results": {
-  "index": {
-   "title": "Synopsys | EDA Tools, Semiconductor IP & Systems Verification",
-   "sections": 8,
+  "authors__synopsys-editorial-staff": {
+   "title": "Synopsys Editorial Staff's Articles - Author | Synopsys",
+   "sections": 2,
    "h1": true,
-   "out": "/tmp/idx/index.html"
+   "out": "/tmp/eds1/authors/synopsys-editorial-staff.html"
   }
  }
 }
