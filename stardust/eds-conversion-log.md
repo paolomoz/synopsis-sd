@@ -77,3 +77,26 @@ Fixes found only on the published origin: header reservation ground (black → w
 before its section had geometry (offsetParent guard + re-run on load), `columns` mobile order (image-first
 boilerplate default), breadcrumb caret glyph, utility globe glyph, tile-title 56px clamp, mobile head-to-block
 rhythm (55/55/31px). Final: 1440 1.93% Δ0 (header 99.60 / toc 98.43 / footer 99.89); 360 3.87% Δ0 (header 98.34 / footer 98.01).
+
+
+## Full-site migration (2026-09-10)
+Inventory 4,187 en-US URLs → 4,184 fetched (`stardust/scripts/fetch-all.py`) → imported by
+`stardust/scripts/importer.py` (AEM grid walk → default content + blocks; coverage in `stardust/import-coverage.json`)
+→ sanitised → `localize-links` (CHECK PASS) → `deploy-batch` (ledger-resumable). Content tree committed under `content/`.
+
+Template gates on the published origin (1440): form PASS 6.51%; article, people and photo-hero program pages
+were brought to structural parity in ≤5 rounds each (see `stardust/replica/progress.json#pageTypes`). Fixes:
+- importer: blog "Browse by Tags" panel skipped by heading/tag-count (its `browseByTagsHolder` class is added by live JS);
+  leadership rows with a single portrait column map to `cards people`.
+- hero: `image`/`video` variants are 500px, centered, 48/700 title, 24/300 subtitle (carousel keeps 700px left copy).
+- article: default-content wrappers are BFCs beside the floated rail, so the reading column is placed by a
+  292px left margin, not padding; rail toc 24/300 title + 2px rule; form unboxed in the rail; mobile toc = collapsible bar.
+- people: lone leader = 250px portrait in the first third; stacked people sections share rhythm; mobile 1-up 70%.
+- gated form pages: form panel first on mobile (live order).
+
+Documented residuals (not reproducible from static HTML): live sticky article rail (`two2575PinnedLeft`) duplicated in
+stitched screenshots; `implementation-and-signoff/signoff` served with a JS-injected product-solutions theme (floating nav
+card, grey benefit tiles, bold h2) while identical markup on VCS renders the classic theme; Marketo progressive-profiling
+field sets and form titles; Coveo blog sub-nav/search facets; dwProductsDownloads (159 pages) and contentTypeListing (11)
+are JS-driven and left as empty gaps. Lint: 12 🔴, all D15 code-sample pages (API/training docs), accepted.
+Note: aem.live serves code assets gzip-encoded — decode before grepping when verifying propagation.

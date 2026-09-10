@@ -1,267 +1,402 @@
 {
-  "_provenance": {
-    "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-09T16:24:05Z",
-    "stardustVersion": "0.19.8"
-  },
-  "site": "https://www.synopsys.com",
-  "breakpoints": [
-    1440,
-    360
-  ],
-  "regime": "prototype",
-  "pageTypes": {
-    "program": {
-      "archetypeSlug": "verification-simulation-vcs-html",
-      "liveUrl": "https://www.synopsys.com/verification/simulation/vcs.html",
-      "prototype": "stardust/prototypes/vcs-proposed.html",
-      "sharedLayers": [
-        "stardust/prototypes/canon.css",
-        "stardust/prototypes/canon.js"
-      ],
-      "pageLayer": "stardust/prototypes/vcs.css",
-      "builder": "stardust/scripts/build-vcs.py",
-      "iterations": {
-        "1440": [
-          {
-            "iter": 1,
-            "pixel": 6.33,
-            "heightDelta": 23,
-            "note": "map: sticky chrome seams, breadcrumb line box +5, empty kb-desc margin collapse -16, footer logo row -12"
-          },
-          {
-            "iter": 2,
-            "pixel": 33.69,
-            "heightDelta": -1802,
-            "note": "build defect: verbatim nav panels overflowed header box (fixed with overflow:clip) \u2014 counts against cap"
-          },
-          {
-            "iter": 3,
-            "pixel": 5.3,
-            "heightDelta": 0,
-            "note": "sections aligned; residual = 12px scroll-state morph (TOC placeholder 54\u219242) in scrolled chunks"
-          },
-          {
-            "iter": 4,
-            "pixel": 5.2,
-            "heightDelta": 0,
-            "note": "content-parity milestone re-run (copyright pipes, chevrons) \u2014 0 structural red"
-          },
-          {
-            "iter": 5,
-            "pixel": 0.44,
-            "heightDelta": 0,
-            "note": "TOC fixed-morph mirrored via canon.js; visually-hidden search label"
-          },
-          {
-            "iter": 6,
-            "pixel": 0.44,
-            "heightDelta": 0,
-            "note": "regression check after mobile CSS"
-          },
-          {
-            "iter": 7,
-            "pixel": 0.44,
-            "heightDelta": 0,
-            "note": "regression check after hero flex wrapper"
-          },
-          {
-            "iter": 8,
-            "pixel": 0.32,
-            "heightDelta": 0,
-            "note": "logo fill #5a2a82 (was black), toggler"
-          },
-          {
-            "iter": "final",
-            "pixelDiffPercent": 0.32,
-            "heightDelta": 0
-          }
-        ],
-        "360": [
-          {
-            "iter": 1,
-            "pixel": 19.07,
-            "heightDelta": 189,
-            "note": "map: nav 80\u219270, text margins 16/24, image 140px error, carousel row, footer accordion"
-          },
-          {
-            "iter": 2,
-            "pixel": 5.54,
-            "heightDelta": 25,
-            "note": "carousel band pt 40 + hero sub-title negative margin (flex, no collapse)"
-          },
-          {
-            "iter": 3,
-            "pixel": 1.93,
-            "heightDelta": 0
-          },
-          {
-            "iter": 4,
-            "pixel": null,
-            "heightDelta": 0,
-            "note": "mobile header: logo fill, hamburger only, breadcrumb slashes + ellipsis anchor"
-          },
-          {
-            "iter": "final",
-            "pixelDiffPercent": 1.68,
-            "heightDelta": 0
-          }
-        ]
-      },
-      "capNote": "1440 used 8 gate runs vs the 3-iteration cap: iter2 measured a build defect (counted); iters 4,6,7 were the mandated milestone/regression re-runs after markup and chrome fixes (probe schedule), not pixel-tuning loops; documented rather than hidden.",
-      "gate": {
-        "1440": {
-          "contentDiffStructuralRed": 0,
-          "contentDiffYellow": 5,
-          "visualDiffFlags": "justified (see residuals)",
-          "chromeCrop": {
-            "header": "98.61%\u219299.61% match",
-            "toc": "99.74%",
-            "footer": "99.89%"
-          },
-          "chromeParity": {
-            "header": "quiet",
-            "footer": "quiet",
-            "toc": "1 delta (see residuals)"
-          },
-          "wideCheck1920": "doc 3489 both; containers 1170/1660 fluid-centered; footer 2920/569 both"
-        },
-        "360": {
-          "contentDiffStructuralRed": 0,
-          "contentDiffYellow": 15,
-          "chromeCrop": {
-            "header": "98.71%",
-            "footer": "98.95%"
-          }
-        }
-      },
-      "residuals": [
-        {
-          "id": "R1",
-          "cause": "inline-script-style-text",
-          "detail": "5 (1440) / 15 (360) \ud83d\udfe1 MISSING BODY: live <main> carries inline <script>/<style>/JSON-LD text nodes and the chatbot NOTICE; the inventory counts them as body. Not content; not reproduced.",
-          "status": "justified-permanent"
-        },
-        {
-          "id": "R2",
-          "cause": "text-pairing-order",
-          "detail": "visual-diff SURFACE/GROUND on heading \"Resources\": first-match pairs the build h2 (purple) with the live footer h3 (white); both sides carry both headings.",
-          "status": "justified"
-        },
-        {
-          "id": "R3",
-          "cause": "hidden-lazy-images",
-          "detail": "visual-diff IMAGE DID NOT LOAD \u00d79: mega-menu promo imgs/icons are visibility:hidden lazy images (natural 0x0 on live too).",
-          "status": "justified"
-        },
-        {
-          "id": "R4",
-          "cause": "hidden-label-pairing",
-          "detail": "chrome-parity toc: \"Overview\" white\u2192ink \u2014 live pairs the mobile-only li.init label (white, 0px); build keeps it 0-height too but the probe paired the visible link.",
-          "status": "justified"
-        },
-        {
-          "id": "R5",
-          "cause": "glyph-antialiasing",
-          "detail": "remaining 0.32% @1440 / ~2% @360 is thin-edge text antialiasing and the hero gradient dithering; chrome crops \u226598.6%.",
-          "status": "residual"
-        },
-        {
-          "id": "R6",
-          "cause": "scroll-spy-label",
-          "detail": "mobile anchor-nav collapsed label: live scroll-spies to the current section name (\"Features\"); EDS block shows the first item. Visible only in pinned state at \u2264729px (published 360 band 4000\u20134500).",
-          "status": "deferred"
-        }
-      ],
-      "motion": {
-        "observed": [
-          ".component-button.cta:hover \u2192 inset rgba(0,0,0,.2) darken"
-        ],
-        "implemented": [
-          "cta hover darken",
-          "carousel prev/next/dots (widget parity; live slick)",
-          "TOC fixed-on-scroll morph with 42px placeholder",
-          "site nav sticky at top after utility bar"
-        ],
-        "dead": [
-          "nav item hover (no style change observed)",
-          "asset-card hover (no change)",
-          "TOC link hover (no change)"
-        ],
-        "evidence": "stardust/replica/motion/vcs.json"
-      },
-      "inconsistencyRegister": "empty (pure replica)",
-      "approvedBy": "hands-off",
-      "approvedAt": "2026-09-09T16:24:05Z",
-      "publishedOriginGate": {
-        "url": "https://main--synopsis-sd--paolomoz.aem.page/verification/simulation/vcs",
-        "regime": "published-origin",
-        "1440": {
-          "pixelDiffPercent": 1.93,
-          "heightDelta": 0,
-          "chromeCrop": {
-            "header": "99.60%",
-            "toc": "98.43%",
-            "footer": "99.89%"
-          },
-          "rounds": [
-            "pub1 3.63% \u039412",
-            "pub2 1.93% \u03940"
-          ]
-        },
-        "360": {
-          "pixelDiffPercent": 3.87,
-          "heightDelta": 0,
-          "chromeCrop": {
-            "header": "98.34%",
-            "footer": "98.01%"
-          },
-          "rounds": [
-            "pub1 12.87% \u0394-1 (columns order, header ground, early anchor pin)",
-            "pub2 8.64% \u039427 (mobile head rhythm)",
-            "pub3 3.87% \u03940"
-          ]
-        },
-        "deliveredAsserts": {
-          "h1": 1,
-          "aboutError": 0,
-          "imgs": 4,
-          "blocksLoaded": 9,
-          "gridsCompute": "flex",
-          "pageerrors": 0
-        },
-        "contentDiffAdvisory": "194 \ud83d\udd34 = hidden mega-menu/breadcrumb-dropdown links carried by the replica prototype (never authored in EDS) + h4\u2192h3 card titles; no real DA-transport reshape found by eye",
-        "deployedAt": "2026-09-09T21:37:14Z"
-      }
-    }
-  },
-  "pending": {
-    "landing": "index",
-    "static": "company-html",
-    "listing": "blogs-chip-design-html",
-    "article": "blogs-chip-design-multiphysics-chip-design-challenges-html",
-    "form": "success-stories-electronics-digital-twins-volvo-cars-html",
-    "unique": "authors-sassine-ghazi-html"
-  },
-  "siblingAnalysis": {
-    "method": "AEM component sequence per program page (stardust/current/pages/*.html)",
-    "exactTemplateMatches": [
-      "verification-simulation-vcs-html"
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-09-09T16:24:05Z",
+  "stardustVersion": "0.19.8"
+ },
+ "site": "https://www.synopsys.com",
+ "breakpoints": [
+  1440,
+  360
+ ],
+ "regime": "published-origin",
+ "pageTypes": {
+  "program": {
+   "archetypeSlug": "verification-simulation-vcs-html",
+   "liveUrl": "https://www.synopsys.com/verification/simulation/vcs.html",
+   "prototype": "stardust/prototypes/vcs-proposed.html",
+   "sharedLayers": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/canon.js"
+   ],
+   "pageLayer": "stardust/prototypes/vcs.css",
+   "builder": "stardust/scripts/build-vcs.py",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 6.33,
+      "heightDelta": 23,
+      "note": "map: sticky chrome seams, breadcrumb line box +5, empty kb-desc margin collapse -16, footer logo row -12"
+     },
+     {
+      "iter": 2,
+      "pixel": 33.69,
+      "heightDelta": -1802,
+      "note": "build defect: verbatim nav panels overflowed header box (fixed with overflow:clip) \u2014 counts against cap"
+     },
+     {
+      "iter": 3,
+      "pixel": 5.3,
+      "heightDelta": 0,
+      "note": "sections aligned; residual = 12px scroll-state morph (TOC placeholder 54\u219242) in scrolled chunks"
+     },
+     {
+      "iter": 4,
+      "pixel": 5.2,
+      "heightDelta": 0,
+      "note": "content-parity milestone re-run (copyright pipes, chevrons) \u2014 0 structural red"
+     },
+     {
+      "iter": 5,
+      "pixel": 0.44,
+      "heightDelta": 0,
+      "note": "TOC fixed-morph mirrored via canon.js; visually-hidden search label"
+     },
+     {
+      "iter": 6,
+      "pixel": 0.44,
+      "heightDelta": 0,
+      "note": "regression check after mobile CSS"
+     },
+     {
+      "iter": 7,
+      "pixel": 0.44,
+      "heightDelta": 0,
+      "note": "regression check after hero flex wrapper"
+     },
+     {
+      "iter": 8,
+      "pixel": 0.32,
+      "heightDelta": 0,
+      "note": "logo fill #5a2a82 (was black), toggler"
+     },
+     {
+      "iter": "final",
+      "pixelDiffPercent": 0.32,
+      "heightDelta": 0
+     }
     ],
-    "nearest": {
-      "implementation-and-signoff-signoff-primetime-html": "adds second carousel + 3-up image card grid",
-      "designware-ip-interface-ip-html": "adds 3-up card grid + mid-page skinny banner"
-    },
-    "newBlocksNeededForOtherProgramPages": [
-      "photo/video hero banner",
-      "image card grid (cards default)",
-      "quote",
-      "accordion",
-      "tabs",
-      "logo row",
-      "icon list",
-      "stat band",
-      "nav-list (explore family)"
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 19.07,
+      "heightDelta": 189,
+      "note": "map: nav 80\u219270, text margins 16/24, image 140px error, carousel row, footer accordion"
+     },
+     {
+      "iter": 2,
+      "pixel": 5.54,
+      "heightDelta": 25,
+      "note": "carousel band pt 40 + hero sub-title negative margin (flex, no collapse)"
+     },
+     {
+      "iter": 3,
+      "pixel": 1.93,
+      "heightDelta": 0
+     },
+     {
+      "iter": 4,
+      "pixel": null,
+      "heightDelta": 0,
+      "note": "mobile header: logo fill, hamburger only, breadcrumb slashes + ellipsis anchor"
+     },
+     {
+      "iter": "final",
+      "pixelDiffPercent": 1.68,
+      "heightDelta": 0
+     }
     ]
+   },
+   "capNote": "1440 used 8 gate runs vs the 3-iteration cap: iter2 measured a build defect (counted); iters 4,6,7 were the mandated milestone/regression re-runs after markup and chrome fixes (probe schedule), not pixel-tuning loops; documented rather than hidden.",
+   "gate": {
+    "1440": {
+     "contentDiffStructuralRed": 0,
+     "contentDiffYellow": 5,
+     "visualDiffFlags": "justified (see residuals)",
+     "chromeCrop": {
+      "header": "98.61%\u219299.61% match",
+      "toc": "99.74%",
+      "footer": "99.89%"
+     },
+     "chromeParity": {
+      "header": "quiet",
+      "footer": "quiet",
+      "toc": "1 delta (see residuals)"
+     },
+     "wideCheck1920": "doc 3489 both; containers 1170/1660 fluid-centered; footer 2920/569 both"
+    },
+    "360": {
+     "contentDiffStructuralRed": 0,
+     "contentDiffYellow": 15,
+     "chromeCrop": {
+      "header": "98.71%",
+      "footer": "98.95%"
+     }
+    }
+   },
+   "residuals": [
+    {
+     "id": "R1",
+     "cause": "inline-script-style-text",
+     "detail": "5 (1440) / 15 (360) \ud83d\udfe1 MISSING BODY: live <main> carries inline <script>/<style>/JSON-LD text nodes and the chatbot NOTICE; the inventory counts them as body. Not content; not reproduced.",
+     "status": "justified-permanent"
+    },
+    {
+     "id": "R2",
+     "cause": "text-pairing-order",
+     "detail": "visual-diff SURFACE/GROUND on heading \"Resources\": first-match pairs the build h2 (purple) with the live footer h3 (white); both sides carry both headings.",
+     "status": "justified"
+    },
+    {
+     "id": "R3",
+     "cause": "hidden-lazy-images",
+     "detail": "visual-diff IMAGE DID NOT LOAD \u00d79: mega-menu promo imgs/icons are visibility:hidden lazy images (natural 0x0 on live too).",
+     "status": "justified"
+    },
+    {
+     "id": "R4",
+     "cause": "hidden-label-pairing",
+     "detail": "chrome-parity toc: \"Overview\" white\u2192ink \u2014 live pairs the mobile-only li.init label (white, 0px); build keeps it 0-height too but the probe paired the visible link.",
+     "status": "justified"
+    },
+    {
+     "id": "R5",
+     "cause": "glyph-antialiasing",
+     "detail": "remaining 0.32% @1440 / ~2% @360 is thin-edge text antialiasing and the hero gradient dithering; chrome crops \u226598.6%.",
+     "status": "residual"
+    },
+    {
+     "id": "R6",
+     "cause": "scroll-spy-label",
+     "detail": "mobile anchor-nav collapsed label: live scroll-spies to the current section name (\"Features\"); EDS block shows the first item. Visible only in pinned state at \u2264729px (published 360 band 4000\u20134500).",
+     "status": "deferred"
+    }
+   ],
+   "motion": {
+    "observed": [
+     ".component-button.cta:hover \u2192 inset rgba(0,0,0,.2) darken"
+    ],
+    "implemented": [
+     "cta hover darken",
+     "carousel prev/next/dots (widget parity; live slick)",
+     "TOC fixed-on-scroll morph with 42px placeholder",
+     "site nav sticky at top after utility bar"
+    ],
+    "dead": [
+     "nav item hover (no style change observed)",
+     "asset-card hover (no change)",
+     "TOC link hover (no change)"
+    ],
+    "evidence": "stardust/replica/motion/vcs.json"
+   },
+   "inconsistencyRegister": "empty (pure replica)",
+   "approvedBy": "hands-off",
+   "approvedAt": "2026-09-09T16:24:05Z",
+   "publishedOriginGate": {
+    "url": "https://main--synopsis-sd--paolomoz.aem.page/verification/simulation/vcs",
+    "regime": "published-origin",
+    "1440": {
+     "pixelDiffPercent": 1.93,
+     "heightDelta": 0,
+     "chromeCrop": {
+      "header": "99.60%",
+      "toc": "98.43%",
+      "footer": "99.89%"
+     },
+     "rounds": [
+      "pub1 3.63% \u039412",
+      "pub2 1.93% \u03940"
+     ]
+    },
+    "360": {
+     "pixelDiffPercent": 3.87,
+     "heightDelta": 0,
+     "chromeCrop": {
+      "header": "98.34%",
+      "footer": "98.01%"
+     },
+     "rounds": [
+      "pub1 12.87% \u0394-1 (columns order, header ground, early anchor pin)",
+      "pub2 8.64% \u039427 (mobile head rhythm)",
+      "pub3 3.87% \u03940"
+     ]
+    },
+    "deliveredAsserts": {
+     "h1": 1,
+     "aboutError": 0,
+     "imgs": 4,
+     "blocksLoaded": 9,
+     "gridsCompute": "flex",
+     "pageerrors": 0
+    },
+    "contentDiffAdvisory": "194 \ud83d\udd34 = hidden mega-menu/breadcrumb-dropdown links carried by the replica prototype (never authored in EDS) + h4\u2192h3 card titles; no real DA-transport reshape found by eye",
+    "deployedAt": "2026-09-09T21:37:14Z"
+   }
+  },
+  "form": {
+   "archetypeSlug": "success-stories-electronics-digital-twins-volvo-cars-html",
+   "liveUrl": "https://www.synopsys.com/success-stories/electronics-digital-twins-volvo-cars.html",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 6.51,
+      "heightDelta": 24,
+      "note": "PASS on published origin"
+     }
+    ],
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 16.69,
+      "heightDelta": -322,
+      "note": "content-first order"
+     },
+     {
+      "iter": 2,
+      "pixel": 16.74,
+      "heightDelta": -292,
+      "note": "form-first order like live; residual = live JS form title/field set (Marketo progressive profiling) + sticky-header seams"
+     }
+    ]
+   }
+  },
+  "article": {
+   "archetypeSlug": "blogs-chip-design-multiphysics-chip-design-challenges-html",
+   "liveUrl": "https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 28.88,
+      "heightDelta": 30,
+      "note": "Browse-by-Tags panel imported (class added by live JS only) \u2014 importer now skips by heading/tag-count"
+     },
+     {
+      "iter": 2,
+      "pixel": 25.66,
+      "heightDelta": 443,
+      "note": "reading column pushed to 50%: flow-root wrapper beside float + 25% padding"
+     },
+     {
+      "iter": 3,
+      "pixel": 25.66,
+      "heightDelta": 443,
+      "note": "wrapper margin reserves 292px rail; layout now matches; residual = live sticky rail (two2575PinnedLeft) repeated in stitched shot, tag chips, ebook CTA rules"
+     }
+    ],
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 27.99,
+      "heightDelta": 283,
+      "note": "toc expanded"
+     },
+     {
+      "iter": 2,
+      "pixel": 28.0,
+      "heightDelta": 469,
+      "note": "toc collapsed bar like live; residual = form field set + blog sub-nav (Coveo search) not imported"
+     }
+    ]
+   }
+  },
+  "people": {
+   "archetypeSlug": "company-management-team-html",
+   "liveUrl": "https://www.synopsys.com/company/management-team.html",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 36.17,
+      "heightDelta": -448,
+      "note": "lone leader column fell through to default content (full-width image)"
+     },
+     {
+      "iter": 4,
+      "pixel": 21.41,
+      "heightDelta": -101,
+      "note": "importer people detection accepts 1-col leadership rows; portrait centered"
+     },
+     {
+      "iter": 5,
+      "pixel": 15.19,
+      "heightDelta": 99,
+      "note": "portrait 250px in first third, tighter row rhythm; residual = ~30px vertical offset + footer padding"
+     }
+    ],
+    "360": [
+     {
+      "iter": 1,
+      "pixel": 50.14,
+      "heightDelta": 2950,
+      "note": "2-up grid vs live 1-up"
+     },
+     {
+      "iter": 2,
+      "pixel": 36.55,
+      "heightDelta": 93,
+      "note": "1-up 70% column; residual = live 60% portraits / larger gaps"
+     }
+    ]
+   }
+  },
+  "program-photo-hero": {
+   "archetypeSlug": "implementation-and-signoff-signoff-html",
+   "liveUrl": "https://www.synopsys.com/implementation-and-signoff/signoff.html",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 27.45,
+      "heightDelta": 356,
+      "note": "hero 700px left-aligned vs live 500px centered bold"
+     },
+     {
+      "iter": 3,
+      "pixel": 22.87,
+      "heightDelta": 556,
+      "note": "hero matches; residual = live serves a JS-injected product-solutions theme (floating nav card, grey benefit tiles, bold h2) absent from static HTML \u2014 same markup as VCS which passes at 1.93%"
+     }
+    ]
+   }
   }
+ },
+ "pending": {},
+ "siblingAnalysis": {
+  "method": "AEM component sequence per program page (stardust/current/pages/*.html)",
+  "exactTemplateMatches": [
+   "verification-simulation-vcs-html"
+  ],
+  "nearest": {
+   "implementation-and-signoff-signoff-primetime-html": "adds second carousel + 3-up image card grid",
+   "designware-ip-interface-ip-html": "adds 3-up card grid + mid-page skinny banner"
+  },
+  "newBlocksNeededForOtherProgramPages": [
+   "photo/video hero banner",
+   "image card grid (cards default)",
+   "quote",
+   "accordion",
+   "tabs",
+   "logo row",
+   "icon list",
+   "stat band",
+   "nav-list (explore family)"
+  ]
+ },
+ "fullSite": {
+  "inventory": 4187,
+  "fetched": 4184,
+  "imported": 4184,
+  "deployBatchStarted": "2026-09-10T06:18:53Z",
+  "ledger": "content/.deploy-ledger.json",
+  "log": "stardust/deploy-batch.log",
+  "notImportable": {
+   "dwProductsDownloads": 159,
+   "contentTypeListing": 11,
+   "coveoSearchFacets": "all listing pages",
+   "marketoBackend": "forms render, no submit endpoint"
+  }
+ }
 }
