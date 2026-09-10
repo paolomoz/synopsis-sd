@@ -140,6 +140,9 @@
 
 .hero.carousel {
   height: 700px;
+  max-width: none; /* guard against the carousel block's container rule (shared class name) */
+  margin: 0;
+  padding: 0;
   text-align: left;
 }
 

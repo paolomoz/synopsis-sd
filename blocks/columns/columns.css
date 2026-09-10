@@ -94,3 +94,52 @@
   .columns.features > div > .columns-img-col { padding: 40px 15px 30px; }
   .columns > div > div { padding: 0 15px; }
 }
+
+/* benefits variant (home "Industry | Technology"): headed icon lists side by side */
+.columns.benefits > div > div h3 {
+  margin: 0 0 24px;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.columns.benefits > div > div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns.benefits > div > div li {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 16px;
+  align-items: center;
+  margin: 0 0 40px;
+}
+
+.columns.benefits > div > div li picture,
+.columns.benefits > div > div li img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.columns.benefits > div > div li p {
+  margin: 0;
+}
+
+.columns.benefits > div > div li p strong {
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.columns.benefits > div > div li p:not(:has(strong)) {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+}

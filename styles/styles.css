@@ -419,7 +419,7 @@ main .section .default-content-wrapper h1 {
 }
 
 /* article / static / form / listing: section titles left-aligned in ink (program & landing keep centered purple) */
-body:is(.article, .static, .form, .listing, .unique) main .section .default-content-wrapper h2 {
+body:is(.article, .form, .listing, .unique) main .section .default-content-wrapper h2 {
   color: var(--ink);
   text-align: left;
 }

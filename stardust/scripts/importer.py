@@ -448,7 +448,25 @@ def handle_column(col, page):
     if ppl and len(ppl) >= len([c for c in cols if clean_text(c.get_text())]) and any('leadership' in ' '.join(c.get('class') or []) or 'headshot' in str(c.find('img').get('class')) for c in ppl):
         page.add_block(block_table('cards people', people_rows(ppl)), style); COVERAGE['cards people'] += 1; return True
     kbs = sec.select('.cmp-key-benefits')
+    if kbs and len(cols) == 1:
+        # single wrapper column around a nested multi-column layout: descend so the inner layout decides
+        inner = cols[0].select_one('.column.aem-GridColumn')
+        if inner is not None and inner.find(class_='component-column') is not None and len([c for c in inner.find(class_='component-column').find_all(recursive=False) if isinstance(c, Tag)]) > 1:
+            return handle_column(inner, page)
     if kbs and len(kbs) >= len(cols):
+        # headed benefit lists side by side (home "Industry | Technology"): columns benefits, one cell per column
+        heads = [c.select_one('.component-textcomp .title') for c in cols]
+        if len(cols) == 2 and all(h is not None for h in heads) and all(c.select('.cmp-key-benefits') for c in cols):
+            cells = []
+            for c, hd in zip(cols, heads):
+                lis = ''
+                for kb in c.select('.cmp-key-benefits'):
+                    img = kb.find('img'); t = kb.select_one('.cmp-key-benefits__title'); d = kb.select_one('.cmp-key-benefits__description')
+                    title = clean_text(t.get_text(' ')) if t else ''
+                    desc = rich(d, allow_headings=False) if d and clean_text(d.get_text()) else ''
+                    lis += f'<li>{img_html(img, title) if img else ""}<p><strong>{esc(title)}</strong></p>{desc}</li>'
+                cells.append(f'<h3>{esc(clean_text(hd.get_text(" ")))}</h3><ul>{lis}</ul>')
+            page.add_block(block_table('columns benefits', [cells]), style); COVERAGE['columns benefits'] += 1; return True
         page.add_block(block_table('cards benefits', kb_rows(kbs)), style); COVERAGE['cards benefits'] += 1; return True
     cards = [c for c in sec.select('.component-assetcard, .component-card-b') if c.find_parent(class_='cmp-carousel') is None]
     if cards and len(cards) >= max(2, len(cols) - 1):

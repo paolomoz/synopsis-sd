@@ -12,9 +12,9 @@
 
 .logos li img {
   display: block;
-  height: 60px;
+  height: 80px;
   width: auto;
-  max-width: 200px;
+  max-width: 220px;
   object-fit: contain;
 }
 
