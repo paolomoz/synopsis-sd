@@ -876,6 +876,7 @@ header.is-dark .nav-row:not(.is-pinned) nav#nav .nav-hamburger button {
 }
 
 /* language menu (source: utility "English" dropdown listing the locale sites) */
+/* stylelint-disable no-descending-specificity */
 header .utility-lang-wrap {
   position: relative;
   display: flex;
@@ -906,6 +907,6 @@ header .utility-lang-menu li a:any-link {
   text-decoration: none;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 header .utility-lang-menu li a:hover,
 header .utility-lang-menu li.is-current a { color: var(--purple); }
+/* stylelint-enable no-descending-specificity */

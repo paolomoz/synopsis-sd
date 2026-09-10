@@ -18,7 +18,10 @@
   color: var(--ink);
 }
 
-.share .share-link:hover { background: var(--purple); color: #fff; }
+.share .share-link:hover {
+  background: var(--purple);
+  color: #fff;
+}
 
 .share .share-link svg {
   width: 18px;
