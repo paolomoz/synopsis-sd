@@ -256,10 +256,19 @@
   display: none;
 }
 
-/* ---- people: portrait grid ---- */
+/* ---- people: portrait grid (a lone row renders as one centered 190px portrait) ---- */
 .cards.people > ul {
   grid-template-columns: repeat(5, 1fr);
   gap: 30px;
+}
+
+.cards.people > ul:has(> li:only-child) {
+  grid-template-columns: 1fr;
+}
+
+.cards.people > ul > li:only-child {
+  max-width: 190px;
+  margin: 0 auto;
 }
 
 .cards.people > ul > li {

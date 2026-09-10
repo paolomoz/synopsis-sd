@@ -17,7 +17,7 @@ Usage: python3 stardust/scripts/importer.py <raw.html> [<raw.html> …] [--out c
 import sys, os, re, json, html, collections
 from urllib.parse import urljoin
 PAGE_URL = LIVE_URL = 'https://www.synopsys.com/'
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, NavigableString, Tag, Comment, Doctype, CData, ProcessingInstruction
 
 LIVE = 'https://www.synopsys.com'
 esc = html.escape
@@ -35,6 +35,7 @@ def absurl(u):
 def localize(href):
     if not href: return '#'
     h = href.strip()
+    if h and not re.match(r'^([a-z]+:|/|#)', h): h = urljoin(PAGE_URL, h)
     if h.startswith(LIVE): h = h[len(LIVE):] or '/'
     if h.startswith('/') and not h.startswith('//') and not h.startswith('/content/dam'):
         h = re.sub(r'\.html(?=[#?]|$)', '', h)
@@ -74,9 +75,11 @@ def rich(node, allow_headings=True, h_shift=0):
     """Serialize a rich-text container into default-content HTML (block elements as siblings)."""
     out = []
     def inline(n):
+        if isinstance(n, (Comment, Doctype, CData, ProcessingInstruction)): return ''
         if isinstance(n, NavigableString):
-            t = str(n)
-            if re.search(r'<[a-zA-Z/][^>]*>', t): return f'<code>{esc(t)}</code>'
+            t = re.sub(r'\s+', ' ', str(n))
+            if re.search(r'(function\s*\(|window\.[a-zA-Z]|document\.[a-zA-Z]|try\s*\{|\$\(|=>\s*\{|\.push\(|var [a-zA-Z_]+\s*=)', t): return ''
+            if re.search(r'<[a-zA-Z/!]', t): return f'<code>{esc(t)}</code>'
             return esc(t)
         if not isinstance(n, Tag): return ''
         name = n.name
@@ -93,8 +96,9 @@ def rich(node, allow_headings=True, h_shift=0):
         if name in ('sup', 'sub'): return inner
         return inner
     def block(n):
+        if isinstance(n, (Comment, Doctype, CData, ProcessingInstruction)): return
         if isinstance(n, NavigableString):
-            t = esc(str(n)).strip()
+            t = esc(re.sub(r'\s+', ' ', str(n))).strip()
             if t: out.append(f'<p>{t}</p>')
             return
         if not isinstance(n, Tag): return
@@ -388,7 +392,16 @@ def handle_carousel(col, page):
         return handle_banner_carousel(sec, page)
     style = bg_of(col)
     cards = [c for c in sec.select('.component-assetcard, .component-card-b') if 'slick-cloned' not in ' '.join(c.get('class') or []) and (c.find_parent(class_='slick-cloned') is None)]
-    if not cards: return False
+    if not cards:
+        imgs = [i for i in sec.select('img') if i.find_parent(class_='slick-cloned') is None and img_html(i)]
+        seen = set(); rows = []
+        for i in imgs:
+            k = biggest_src(i)
+            if k in seen: continue
+            seen.add(k); a = i.find_parent('a'); cap = i.get('alt') or ''
+            rows.append([img_html(i), (f'<p><a href="{esc(localize(a.get("href")))}">{esc(cap or "View")}</a></p>' if a is not None and a.get('href') else '')])
+        if rows: page.add_block(block_table('carousel images', rows), style); COVERAGE['carousel images'] += 1; return True
+        return False
     if cards[0].name and 'component-card-b' in (cards[0].get('class') or []):
         rows = [blog_card_row(c) for c in cards]; name = 'carousel blog'
     else:
@@ -415,6 +428,16 @@ def handle_column(col, page):
         for c in cols:
             for sub in grid_children(c) or [c]: convert_column(sub, page)
         COVERAGE['article-layout'] += 1
+        return True
+    cards_b = sec.select('.component-card-b')
+    bio = next((c for c in cols if c.find('img') is not None and c.find(['h2', 'h3']) is not None and not c.select_one('.component-card-b')), None)
+    if cards_b and bio is not None:
+        h = bio.find(['h2', 'h3']); name = clean_text(h.get_text(' ')) if h else ''
+        img = bio.find('img'); paras = [p for p in bio.select('p') if clean_text(p.get_text()) and not p.find('img')]
+        tag = 'h1' if not page.h1_used else 'h2'; page.h1_used = page.h1_used or tag == 'h1'
+        bio_html = (f'<p>{img_html(img, name)}</p>' if img is not None and img_html(img) else '') + (f'<{tag}>{esc(name)}</{tag}>' if name else '') + ''.join(f'<p>{rich_inline_p(x)}</p>' for x in paras)
+        page.add_default(bio_html, style)
+        page.add_block(block_table('cards blog', [blog_card_row(c) for c in cards_b]), style); COVERAGE['author-layout'] += 1
         return True
     sols = sec.select('.component-solutioncard')
     if sols and len(sols) >= max(2, len(cols) - 1):
@@ -531,7 +554,7 @@ def convert_column(col, page, inherited_style=''):
     if t == 'column': handle_column(col, page); return
     if t == 'keyBenefits':
         page.add_block(block_table('cards benefits', kb_rows(col.select('.cmp-key-benefits'))), bg_of(col)); COVERAGE['cards benefits'] += 1; return
-    if t in ('carousel', 'dynamicCards'): handle_carousel(col, page) or handle_generic(col, page, t); return
+    if t in ('carousel', 'dynamicCards', 'contentCarousel'): handle_carousel(col, page) or handle_generic(col, page, t); return
     if t in ('cards',):
         sols = col.select('.component-solutioncard')
         if sols: page.add_block(block_table('cards pillars', [solution_card_row(c) for c in sols]), bg_of(col)); COVERAGE['cards pillars'] += 1; return
@@ -625,7 +648,8 @@ def convert_column(col, page, inherited_style=''):
         rows.append([f'<p><strong>{esc(clean_text(submit.get_text()) if submit else "Submit")}</strong></p>'])
         page.add_block(block_table('form', rows), bg_of(col)); COVERAGE['form'] += 1; return
     if t == 'blogsDev':
-        if 'browseByTagsHolder' in cls: return
+        hd = col.find(['h2', 'h3'])
+        if 'browseByTagsHolder' in cls or (hd is not None and clean_text(hd.get_text()).lower().startswith('browse by tags')) or len(col.select('.cmp-blogsdev__pagetags-container a')) > 25: return
         tags = col.select('.cmp-blogsdev__pagetags-container a')
         head = col.find(['h2', 'h3']); p = col.select_one('p')
         h = ''
@@ -717,6 +741,14 @@ def import_page(raw_html, url, page_type=None):
                 if '<h2>' in it and not it.startswith('<div class="'):
                     s['items'][i] = it.replace('<h2>', '<h1>', 1).replace('</h2>', '</h1>', 1); page.h1_used = True; break
             if page.h1_used: break
+    if not page.h1_used:
+        t = re.sub(r'\s*[|–-]\s*Synopsys.*$', '', title).strip() or title
+        target = next((s for s in page.sections if s['items'] and not any(x.startswith('<div class="breadcrumbs') or x.startswith('<div class="hero') for x in s['items'])), None)
+        h1 = f'<h1>{esc(t)}</h1>'
+        if target is None: page.new_section(); page.cur['items'].append(h1)
+        elif target['block']: target['items'].insert(0, h1)
+        else: target['items'].insert(0, h1)
+        page.h1_used = True; COVERAGE['h1-from-title'] += 1
     for s in page.sections:
         if not s['items']: continue
         body = '\n'.join(s['items'])

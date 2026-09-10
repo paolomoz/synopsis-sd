@@ -131,9 +131,13 @@
 .hero.connect .hero-text { padding-top: 75px; }
 .hero.connect .hero-title :is(h1, h2, h3) { font-size: 38.4px; line-height: 38.4px; }
 
-/* photo / video banner (700px, left-aligned copy over a darkened photo) */
+/* photo / video banner (500px, centered bold title over a darkened photo); carousel = 700px left-aligned */
 .hero.image,
-.hero.video,
+.hero.video {
+  height: 500px;
+  text-align: center;
+}
+
 .hero.carousel {
   height: 700px;
   text-align: left;
@@ -148,21 +152,44 @@
   background: linear-gradient(90deg, rgb(17 28 36 / 65%) 0%, rgb(17 28 36 / 25%) 60%, rgb(17 28 36 / 0%) 100%);
 }
 
-.hero.image .hero-text,
-.hero.video .hero-text,
 .hero.carousel .hero-text {
   align-items: flex-start;
   max-width: 660px;
   padding-top: 150px;
 }
 
-.hero.image .hero-title :is(h1, h2),
-.hero.video .hero-title :is(h1, h2),
+.hero.image .hero-text,
+.hero.video .hero-text {
+  align-items: center;
+  padding-top: 170px;
+}
+
+.hero.image .hero-media::after,
+.hero.video .hero-media::after {
+  background: linear-gradient(180deg, rgb(17 28 36 / 35%) 0%, rgb(17 28 36 / 35%) 100%);
+}
+
 .hero.carousel .hero-title :is(h1, h2) {
   margin: 0 0 24px;
   font-size: 48px;
   font-weight: 300;
   line-height: 67.2px;
+}
+
+.hero.image .hero-title :is(h1, h2),
+.hero.video .hero-title :is(h1, h2) {
+  margin: 0 0 32px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.hero.image .hero-sub p,
+.hero.video .hero-sub p {
+  margin: 0 0 28px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
 }
 
 .hero.image .hero-sub p,
@@ -312,7 +339,8 @@
   .hero .hero-subtitle { margin: -22px 0 16px; }
   .hero .hero-actions { width: 260px; margin: 0 auto; }
   .hero .hero-actions p.button-wrapper, .hero .hero-actions a.button { width: 100%; }
-  .hero.image, .hero.video, .hero.carousel { height: 560px; }
+  .hero.image, .hero.video { height: 420px; }
+  .hero.carousel { height: 560px; }
   .hero.image .hero-text, .hero.video .hero-text, .hero.carousel .hero-text { padding-top: 90px; }
   .hero.image .hero-title :is(h1, h2), .hero.video .hero-title :is(h1, h2), .hero.carousel .hero-title :is(h1, h2) { font-size: 32px; line-height: 40px; }
   .hero.image .hero-actions, .hero.video .hero-actions, .hero.carousel .hero-actions { width: auto; margin: 0; }
