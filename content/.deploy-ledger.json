@@ -14271,12 +14271,13 @@
     "verify": "ok"
   },
   "/blogs/chip-design/rtl-architect-vineet-rashingkar": {
-    "status": "pending",
+    "status": "live",
     "attempts": 1,
     "ts": "2026-09-10T06:46:13.110Z",
     "put": 201,
     "preview": 200,
-    "live": 200
+    "live": 200,
+    "verify": "ok"
   },
   "/blogs/chip-design/rtl-debug-fpga-prototyping-challenges": {
     "status": "live",
@@ -14288,16 +14289,1048 @@
     "verify": "ok"
   },
   "/blogs/chip-design/rtl-vs-functional-signoff-differences": {
-    "status": "pending",
+    "status": "live",
     "attempts": 1,
     "ts": "2026-09-10T06:46:14.393Z",
     "put": 201,
-    "preview": 200
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
   },
   "/blogs/chip-design/running-x-prop-with-low-power-simulation": {
-    "status": "pending",
+    "status": "live",
     "attempts": 1,
     "ts": "2026-09-10T06:46:15.791Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/saas-cloud-eda-tools": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:18.323Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/saber-for-robust-design-reliable-performance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:18.789Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/safeguarding-automotive-sensors-for-safety": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:19.564Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/safety-aware-multi-die-ml-architectures-ai-vehicles": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:20.624Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/samsung-ddr4-3ds-tsv-memory": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:23.683Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/sassine-ghazi-named-new-synopsys-ceo": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:24.442Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/saving-power-electronic-displays": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:25.327Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/scalability-in-cloud-computing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:25.479Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/scalable-performance-for-soc-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:28.525Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/secure-chipset-design-in-darpa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:30.799Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/securing-chip-supply-chain-for-aerospace-defense": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:31.261Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/securing-memory-paths-synopsys-scalable-ime": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:31.581Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/securing-network-traffic-macsec-ethernet": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:34.093Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/securing-physical-ai-systems": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:36.013Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-design-goes-saas-snug": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:37.027Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-engineering-certification-synopsys-purple": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:38.077Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-engineering-degree-programs-purdue": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:38.680Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-engineering-talent-shortage-solutions": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:40.978Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-industry-trends-2023": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:42.915Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-ip-companies-offer-asic-like-services": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:43.615Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-ip-development-qa-jumana-muwafi": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:44.310Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-ip-tsmc-n3e": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:46.005Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-talent-shortage-qa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:48.352Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-training-workforce-development-program": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:49.039Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-workforce-development-programs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:50.027Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductor-yield-analysis-machine-learning": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:51.580Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/semiconductors-chip-design-global-innovation": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:53.882Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/shelagh-glaser-cfo-qa-women-in-tech": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:55.148Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/shift-left-sdv-embedded-validation-virtual-ecus": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:55.855Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/shifting-left-with-ansys-john-lee-jacob-avidan-interview": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:56.368Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/shifting-security-left-for-defense-applications": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:46:59.882Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silent-data-corruption-sdc-challenges": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:00.515Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-design-and-chip-performance-with-concertio": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:01.185Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-frontline-technology-acquisition": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:01.682Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-lifecycle-management-smarter-chip-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:04.891Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-lifecycle-management": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:05.606Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-photonics-data-center-interconnect-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:06.862Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-photonics-multi-die-systems-aerospace-government": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:07.373Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-proven-ip-for-soc-design-in-hpc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:09.647Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-remastering-addressing-chip-supply-shortage": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:11.167Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-software-automotive-value-chain": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:12.301Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/silicon-testing-with-high-speed-functional-interfaces": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:12.696Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/sima-ai-bug-free-physical-ai-silicon": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:14.477Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/simplify-entertainment-hdmi-earc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:16.055Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/simulation-quantum-computing-research-development": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:17.231Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/simulation-solutions-structural-integrity-chip-packages": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:18.235Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/slm-data-center-reliability": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:20.362Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/smart-monitors-improve-arm-socs-performance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:21.192Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/smart-semiconductor-manufacturing-technology": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:22.926Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/smarter-sensors-for-self-driving": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:26.960Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/snug-gets-of-wisdom-synopsys-memory-solutions": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:28.457Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/snug-silicon-valley-2022": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:28.780Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/snug-silicon-valley-2023-keynote": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:29.261Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/snug-silicon-valley-2023": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:31.659Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/snug-silicon-valley-2024": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:33.273Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/snug-silicon-valley-2025": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:34.106Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soafee-enables-next-gen-connected-vehicles": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:35.240Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soc-design-services-hpc-data-center": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:36.860Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soc-design-verification-renesas": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:38.894Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soc-hbm2e-capacity-speed-benefits": {
+    "status": "verify-fail",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:39.967Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "about:error in delivered html",
+    "lastError": "about:error in delivered html"
+  },
+  "/blogs/chip-design/soc-interfaces-security-enhance-data-protection": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:41.500Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soc-ip-powers-hpc-applications": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:42.738Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soc-physical-verification-tool-achronix": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:43.848Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/soc-verification-kit-out-of-the-box-verification-solution": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:47.648Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/socs-take-us-smart-to-smarter": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:48.342Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-bring-up-multi-die-systems": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:48.443Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-automotive-development": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:48.652Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-data-centers-sc24": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:52.548Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-hardware-assisted-verification": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:53.334Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-vehicle-ecu-architectures": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:53.777Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-vehicles-aws": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:54.462Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-vehicles-blackberry-aws": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:57.229Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-vehicles-changes-auto-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:58.537Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-defined-vehicles-synopsys-arm": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:59.260Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-drives-product-design-innovation": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:47:59.401Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-enabled-full-chip-power-signoff-soc-verification": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:02.556Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-modeling-kpi-prototyping": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:04.124Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/software-security-quality-joe-jarzombek": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:04.919Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/south-korean-startup-rebellions-redefines-energy-efficient-ai-computing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:06.350Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/southeast-asia-semiconductor-workforce-development": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:07.408Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/space-exploration-engineering-silicon-systems": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:09.222Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/speed-up-simulation-coverage-closure": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:11.052Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/sram-margin-analysis-workflow": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:11.458Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/sram-puf-chip-security": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:12.964Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/starrc-advanced-features-custom-soc-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:14.151Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/starrc-density-corner-value-proposition": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:16.479Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/starrc-standalone-netlist-reducer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:17.232Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/starrc-vmf-ic-validator-amf-positioning": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:18.099Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/startup-vc-connect-ai-silicon": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:19.329Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/stem-education-with-eda-tools": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:21.298Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/strategic-role-of-glitch-detection-ip-in-modern-socs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:23.001Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/streamline-photonic-icd-with-pdks": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:23.920Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/streamlining-camera-security-validation-framework-using-synopsys-mipi-cse-v20-vip": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:25.728Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/summer-2021-internship-interdisciplinary-learning": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:27.088Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/summer-tech-internship-program": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:28.769Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/superconducting-iarpa-jamil-kawa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:30.909Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/sustainability-efforts-grow-azure-sky-wind-farm": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:31.609Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/swap-marc-swinnen-kenneth-larsen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:32.610Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/symmetric-layouts-showing-mismatches-spice-simulations": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:34.388Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-ai-copilots-chip-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:36.348Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-ai-eda-tools": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:37.396Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-and-fishtail-design-automation": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:38.628Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-ansys-engineering-innovation": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:40.232Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-arm-aim-to-reduce-silicon-design-cycles": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:41.271Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-asem-pcda-advance-malaysia-semiconductor-design": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:43.106Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-ceo-sassine-ghazi-future": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:43.495Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-cloud-ic-verification-drc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:44.947Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-converge-2026-silicon-systems-conference": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:46.449Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-joins-ifs-usmag-alliance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:48.318Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-learning-center-training-accessible-easier": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:49.572Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-learning-center": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:51.060Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-li-auto-case-study": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:51.768Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blogs/chip-design/synopsys-pcie-leadership-recognized": {
+    "status": "pending",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:53.238Z",
+    "put": 201,
+    "preview": 200
+  },
+  "/blogs/chip-design/synopsys-tapes-out-slm-pvt-monitor-ip-on-tsmc-n5-n3e1": {
+    "status": "pending",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:54.761Z",
     "put": 201
+  },
+  "/blogs/chip-design/synopsys-vc-formal-sig-event-2023": {
+    "status": "pending",
+    "attempts": 1,
+    "ts": "2026-09-10T06:48:56.679Z"
   }
 }

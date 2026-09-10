@@ -35,7 +35,7 @@
   margin: 0 0 16px;
 }
 
-.columns > div > div h2 { font-size: 32px; font-weight: 300; line-height: 1.1; color: var(--purple-dark); }
+.columns > div > div h2 { font-size: 32px; font-weight: 300; line-height: 1.1; color: var(--ink); }
 .columns > div > div h3 { font-size: 24px; font-weight: 300; line-height: 1.1; }
 .columns > div > div h4 { font-size: 20px; font-weight: 400; line-height: 1.15; }
 .columns > div > div strong { font-weight: 700; }
@@ -113,9 +113,10 @@
 .columns.benefits > div > div li {
   display: grid;
   grid-template-columns: 50px 1fr;
+  grid-template-rows: 50px auto;
   column-gap: 16px;
   align-items: center;
-  margin: 0 0 40px;
+  margin: 0 0 48px; /* live: .cmp-key-benefits 92px + 48px description margin */
 }
 
 .columns.benefits > div > div li picture,
@@ -151,7 +152,7 @@
 
 .columns.benefits > div > div li > p:not(:has(strong, picture, img)) {
   grid-column: 1 / -1;
-  margin-top: 8px;
-  font-size: 14px;
-  line-height: 20px;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 25.6px;
 }
