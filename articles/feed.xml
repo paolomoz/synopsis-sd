@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+<channel>
+ <title>Synopsys Articles</title>
+ <atom:link href="https://main--synopsis-sd--paolomoz.aem.live/articles/feed.xml" rel="self" type="application/rss+xml" />
+ <link>https://main--synopsis-sd--paolomoz.aem.live/articles</link>
+ <description>Technical articles from Synopsys</description>
+ <lastBuildDate>Thu, 10 Sep 2026 16:01:51 GMT</lastBuildDate>
+ <language>en-US</language>
+ <sy:updatePeriod>hourly</sy:updatePeriod>
+ <sy:updateFrequency>1</sy:updateFrequency>
+<item>
+<title>Catching Clock Integrity and Jitter Issues Before They Break Your Design</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/catching-clock-integrity-jitter-issues</link>
+<dc:creator><![CDATA[Manoz Palaparthi]]></dc:creator>
+<pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Signoff]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/catching-clock-integrity-jitter-issues</guid>
+<description><![CDATA[Learn how Arm used Synopsys PrimeClock for SPICE-accurate clock integrity and jitter signoff with 100% coverage, aging analysis, and fast runtime.]]></description>
+</item>
+<item>
+<title>Why Chip-to-Chip Is the New Unit of AI Scale</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/pcie-cxl-chip-to-chip-ai-scaling</link>
+<dc:creator><![CDATA[Richard Solomon, Ron Lowman]]></dc:creator>
+<pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/pcie-cxl-chip-to-chip-ai-scaling</guid>
+<description><![CDATA[Learn how PCIe and CXL enable chip-to-chip AI scaling — routing around reticle, memory, and I/O ceilings for next-gen HPC and data center SoCs.]]></description>
+</item>
+<item>
+<title>World’s First 112G Linear Optics PHY IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/112g-linear-optics-phy</link>
+<dc:creator><![CDATA[Kant Deshpande]]></dc:creator>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/112g-linear-optics-phy</guid>
+<description><![CDATA[Synopsys delivers standards-compliant 112G PHY IP for linear optics, helping reduce AI interconnect power, latency, and heat.]]></description>
+</item>
+<item>
+<title>Edge AI SoCs at Near-Threshold: Foundation IP Breaks Power Wall</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/edge-ai-near-threshold-foundation-ip</link>
+<dc:creator><![CDATA[Andrew Appleby]]></dc:creator>
+<pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/edge-ai-near-threshold-foundation-ip</guid>
+<description><![CDATA[Learn how Synopsys Foundation IP - logic, memory, and I/O - enables near-threshold Edge AI SoC design, cutting power ~20% with no schedule impact.]]></description>
+</item>
+<item>
+<title>Industry’s First Certified Automotive PUF IP for Safety &amp; Security</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-puf-unclonable-silicon-identity</link>
+<dc:creator><![CDATA[Dana Neustadter, Geert-Jan Schrijen, Peter Simons]]></dc:creator>
+<pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-puf-unclonable-silicon-identity</guid>
+<description><![CDATA[Discover industry’s first certified automotive PUF IP delivering unclonable silicon identity, functional safety, and cybersecurity.]]></description>
+</item>
+<item>
+<title>Addressing AI and Advanced Packaging Challenges with 3DIO PHY</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/addressing-ai-advanced-packaging-3dio-phy</link>
+<dc:creator><![CDATA[Lakshmi Jain, Wei-Yu Ma]]></dc:creator>
+<pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/addressing-ai-advanced-packaging-3dio-phy</guid>
+<description><![CDATA[Learn how Synopsys 3DIO PHY delivers predictable timing, low power, and scalable die to die connectivity for AI and hybrid bonding.]]></description>
+</item>
+<item>
+<title>Solving Clock Signal Integrity and Jitter Issues</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/solving-clock-signal-integrity-and-jitter-issues</link>
+<dc:creator><![CDATA[Manoz Palaparthi]]></dc:creator>
+<pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Signoff]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/solving-clock-signal-integrity-and-jitter-issues</guid>
+<description><![CDATA[Learn how Synopsys PrimeClock addresses clock signal integrity and jitter challenges with fast, accurate analysis for advanced semiconductor designs.]]></description>
+</item>
+<item>
+<title>UCIe Use Cases for Memory Applications in AI and HPC Systems</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/ucie-memory-ai-hpc-use-cases</link>
+<dc:creator><![CDATA[Aparna Tarde]]></dc:creator>
+<pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/ucie-memory-ai-hpc-use-cases</guid>
+<description><![CDATA[Explore UCIe use cases for memory applications, focusing on custom HBM and emerging memory extension architectures in AI and HPC systems.]]></description>
+</item>
+<item>
+<title>eUSB2V2: High Bandwidth Embedded USB with FPGA Based Prototyping</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/eusb2v2-interoperability-fpga-prototyping</link>
+<dc:creator><![CDATA[Morten Christiansen]]></dc:creator>
+<pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/eusb2v2-interoperability-fpga-prototyping</guid>
+<description><![CDATA[Explore how interface IP USB, and AI boost embedded camera performance. Learn about eUSB2V2 interoperability with FPGA-based prototyping]]></description>
+</item>
+<item>
+<title>Why Next‑Generation NPUs Are Essential for Physical AI</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/next-gen-npus-physical-ai</link>
+<dc:creator><![CDATA[Gordon Cooper]]></dc:creator>
+<pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/next-gen-npus-physical-ai</guid>
+<description><![CDATA[Discover how next-generation neural processing units (NPUs) empower physical artificial intelligence, advancing AI acceleration & efficient edge performance]]></description>
+</item>
+<item>
+<title>Securing Camera Data: Introducing MIPI CSE 2.0 Security</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/securing-camera-data-mipi-cse2</link>
+<dc:creator><![CDATA[Dana Neustadter, Mehak Kalra]]></dc:creator>
+<pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/securing-camera-data-mipi-cse2</guid>
+<description><![CDATA[Explore security IP and interface security modules in camera systems. Learn how MIPI CSE 2.0 Security Module enhances data protection.]]></description>
+</item>
+<item>
+<title>When Compute Outruns I/O: Why Interface IP Drives AI Scaling</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/when-compute-outruns-io-interface-ip-ai-scaling</link>
+<dc:creator><![CDATA[Magaly Sandoval-Pichardo, Ron Lowman]]></dc:creator>
+<pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/when-compute-outruns-io-interface-ip-ai-scaling</guid>
+<description><![CDATA[Learn how interface IP drives AI scalability, enabling advanced connectivity and balanced architectures for next-generation AI system performance.]]></description>
+</item>
+<item>
+<title>Ethernet Standards for Scale-Up AI: An Overview of ESUN, SUE, and UALink</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/ethernet-standards-scale-up-ai</link>
+<dc:creator><![CDATA[Jon Ames]]></dc:creator>
+<pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/ethernet-standards-scale-up-ai</guid>
+<description><![CDATA[Learn how Synopsys 224G IP enables Ethernet, ESUN, SUE, and UALink for scalable, lossless AI networking.]]></description>
+</item>
+<item>
+<title>Strengthening Silicon-Level Security with the Synopsys Secure Storage Solution for OTP IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/secure-storage-solution-otp-ip</link>
+<dc:creator><![CDATA[Krishna Balachandran]]></dc:creator>
+<pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/secure-storage-solution-otp-ip</guid>
+<description><![CDATA[Discover how Synopsys Secure Storage Solution for OTP IP delivers hardware-based security with OTP NVM, SRAM PUF, and crypto for next-gen SoCs.]]></description>
+</item>
+<item>
+<title>Securing UALink: Introducing Synopsys UALinkSec_200 Security Module</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/securing-ualink-security-module</link>
+<dc:creator><![CDATA[Dana Neustadter, Vincent van der Leest]]></dc:creator>
+<pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/securing-ualink-security-module</guid>
+<description><![CDATA[Secure high-speed data with Synopsys UALinkSec_200 - confidentiality, integrity, and performance for scalable AI data center infrastructures.]]></description>
+</item>
+<item>
+<title>Clock Integrity &amp; Jitter Challenges in Chip Design</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/design-challenges-of-clock-integrity-and-clock-jitter</link>
+<dc:creator><![CDATA[Manoz Palaparthi]]></dc:creator>
+<pubDate>Fri, 09 Jan 2026 00:00:00 GMT</pubDate>
+<category><![CDATA[Design]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/design-challenges-of-clock-integrity-and-clock-jitter</guid>
+<description><![CDATA[Explore key clock integrity and jitter issues in chip design and discover faster, scalable analysis solutions for advanced, high-frequency applications.]]></description>
+</item>
+<item>
+<title>Securing Terabit Ethernet Networks with 1.6T MACsec Security Modules</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/terabit-ethernet-macsec-security</link>
+<dc:creator><![CDATA[Dana Neustadter, Vincent van der Leest]]></dc:creator>
+<pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/terabit-ethernet-macsec-security</guid>
+<description><![CDATA[Learn How 1.6T MACsec Security Modules Protect Terabit Ethernet Networks in HPC and Data Centers. Explore Robust, Scalable, Standards-Based Solutions.]]></description>
+</item>
+<item>
+<title>Automotive SoC Design and Development Platform for Safety and Reliability</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-soc-design-platform</link>
+<dc:creator><![CDATA[Rita Horner]]></dc:creator>
+<pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Automotive]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-soc-design-platform</guid>
+<description><![CDATA[Learn How Automotive SoC Design Platforms Integrate Functional Safety, Reliability, and Quality for Next-Gen Vehicles.]]></description>
+</item>
+<item>
+<title>The Road to 64G UCIe IP: What Designers Need to Know</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/ucie-3-0-64gbps-challenges</link>
+<dc:creator><![CDATA[Aparna Tarde]]></dc:creator>
+<pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/ucie-3-0-64gbps-challenges</guid>
+<description><![CDATA[Learn about the evolution toward 64Gbps UCIe and explore key challenges and design considerations in die-to-die connectivity for HPC and AI applications.]]></description>
+</item>
+<item>
+<title>PCIe 5.0 at the Edge: High-Performance SoC Designs</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/pcie5-edge-soc-designs</link>
+<dc:creator><![CDATA[Gustavo Pimentel]]></dc:creator>
+<pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/pcie5-edge-soc-designs</guid>
+<description><![CDATA[Learn How PCIe 5.0 Enables High-Performance, Low-Power SoC Designs for Edge AI, Mobile, Automotive, and Consumer Applications.]]></description>
+</item>
+<item>
+<title>STA Strategies for Fast and Efficient Signoff in Multi-Billion Instance Designs</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/sta-strategies-multi-billion-instance-designs</link>
+<dc:creator><![CDATA[Manoz Palaparthi]]></dc:creator>
+<pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Signoff]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/sta-strategies-multi-billion-instance-designs</guid>
+<description><![CDATA[Explore scalable static timing analysis with Synopsys PrimeTime for fast, accurate signoff of massive AI, HPC, mobile, and automotive designs.]]></description>
+</item>
+<item>
+<title>Seamless 224G SerDes Interoperability for High-Performance AI &amp; HPC</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/224g-serdes-interoperability-ai-hpc</link>
+<dc:creator><![CDATA[Madhumita Sanyal, Diwakar Kumaraswamy]]></dc:creator>
+<pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/224g-serdes-interoperability-ai-hpc</guid>
+<description><![CDATA[Explore 224G SerDes solutions enabling 1.6Tbps interoperability for AI/ML and HPC SoCs, ensuring high bandwidth, low latency, and robust signal integrity.]]></description>
+</item>
+<item>
+<title>Key Considerations for Chiplet Designs: From Idea to Product</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/considerations-chiplet-designs</link>
+<dc:creator><![CDATA[Rob Kruger]]></dc:creator>
+<pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/considerations-chiplet-designs</guid>
+<description><![CDATA[Explore essential factors for chiplet design success, from concept to product, and accelerate innovation with Synopsys’ expertise and solutions.]]></description>
+</item>
+<item>
+<title>SerDes Design Trends in the Angstrom Era: Innovations &amp; Challenges</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/serdes-design-trends-angstrom-era</link>
+<dc:creator><![CDATA[Magaly Sandoval-Pichardo, Monica Olvera]]></dc:creator>
+<pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/serdes-design-trends-angstrom-era</guid>
+<description><![CDATA[Explore the latest SerDes design trends in the Angstrom era, covering innovations, challenges, and solutions driving next-gen AI and HPC chips.]]></description>
+</item>
+<item>
+<title>Sima and Synopsys Collaborate to Advance Multi-Die ADAS &amp; IVI AI Solutions</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/sima-synopsys-multi-die-adas-ivi-solutions</link>
+<dc:creator><![CDATA[Ron DiGiuseppe]]></dc:creator>
+<pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Automotive]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/sima-synopsys-multi-die-adas-ivi-solutions</guid>
+<description><![CDATA[Sima and Synopsys enable scalable AI for automotive ADAS and IVI with customizable multi-die solutions for next-gen vehicle platforms.]]></description>
+</item>
+<item>
+<title>SRAM PUF Technology: The Competitive Advantage in Secure Key Storage &amp; Data Protection</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/competitive-advantage-sram-puf</link>
+<dc:creator><![CDATA[Geert-Jan Schrijen, Vincent van der Leest]]></dc:creator>
+<pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/competitive-advantage-sram-puf</guid>
+<description><![CDATA[Discover SRAM PUF’s security benefits and how Synopsys combines it with OTP memory for advanced, secure key storage in embedded systems.]]></description>
+</item>
+<item>
+<title>Synopsys Leads AI-Powered Analog Design Innovation</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/ai-powered-analog-design</link>
+<dc:creator><![CDATA[Sumit Vishwakarma]]></dc:creator>
+<pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Design]]></category>
+<category><![CDATA[Custom Design Platform]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/ai-powered-analog-design</guid>
+<description><![CDATA[Award-Winning, AI-Powered Analog and Mixed Signal EDA Solutions]]></description>
+</item>
+<item>
+<title>High-Bandwidth Interconnects with 224G PHY IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/high-bandwidth-interconnects-224g-phy-ip</link>
+<dc:creator><![CDATA[Magaly Sandoval-Pichardo]]></dc:creator>
+<pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/high-bandwidth-interconnects-224g-phy-ip</guid>
+<description><![CDATA[Discover Synopsys' advancements in 224G PHY IP for AI & data center networking, driving high-bandwidth & low-latency solutions for LLMs & HPC environments.]]></description>
+</item>
+<item>
+<title>Enabling Industry NoC Interconnects with UCIe IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/noc-interconnects-ucie-ip</link>
+<dc:creator><![CDATA[Aparna Tarde]]></dc:creator>
+<pubDate>Tue, 22 Apr 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/noc-interconnects-ucie-ip</guid>
+<description><![CDATA[Find out about the different interfaces supported by Synopsys UCIe IP to enable network-on-chip (NoC) interconnects.]]></description>
+</item>
+<item>
+<title>Reimagining PVT Monitoring IP for Advanced Node GAA Process</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/pvt-monitoring-ip-gaa-process</link>
+<dc:creator><![CDATA[Rohan Bhatangar]]></dc:creator>
+<pubDate>Wed, 16 Apr 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon Lifecycle Management]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/pvt-monitoring-ip-gaa-process</guid>
+<description><![CDATA[The evolution of PVT monitors IP from FinFET to GAA transistors. Discover how Synopsys' innovations enhance chip performance, reliability and efficiency.]]></description>
+</item>
+<item>
+<title>Enhance Vehicle Safety with Automotive MACsec for Ethernet</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-macsec-ethernet</link>
+<dc:creator><![CDATA[Dana Neustadter, Vincent van der Leest]]></dc:creator>
+<pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Automotive]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-macsec-ethernet</guid>
+<description><![CDATA[Secure your vehicles with automotive certifications using Synopsys MACsec for Ethernet. Protect your systems: enhance safety and security.]]></description>
+</item>
+<item>
+<title>High-Speed Test IO for AI and HPC Applications</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/high-speed-test-io</link>
+<dc:creator><![CDATA[Lakshmi Jain, Wei-Yu Ma]]></dc:creator>
+<pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[AI & Machine Learning]]></category>
+<category><![CDATA[HPC]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/high-speed-test-io</guid>
+<description><![CDATA[Discover Synopsys High-Speed Test-IO, a solution designed to address high-speed efficient testing of complex semiconductors targeting HPC & AI.]]></description>
+</item>
+<item>
+<title>224G SerDes IP: Enabling Linear Drive Optics in Data Centers</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/224g-serdes-ip-linear-drive-optics</link>
+<dc:creator><![CDATA[Keivan Javadi Khasraghi]]></dc:creator>
+<pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/224g-serdes-ip-linear-drive-optics</guid>
+<description><![CDATA[Discover how 224G SerDes IP is revolutionizing data centers by enabling linear drive optics. Learn about performance metrics, latency, and power consumption]]></description>
+</item>
+<item>
+<title>Certified TRNG for Automotive Security IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-certified-trng-ip</link>
+<dc:creator><![CDATA[Dana Neustadter, Vincent van der Leest]]></dc:creator>
+<pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-certified-trng-ip</guid>
+<description><![CDATA[Discover Synopsys' certified TRNG IP for automotive, ensuring your vehicles' safety and security with robust cryptographic solutions.]]></description>
+</item>
+<item>
+<title>IP for 3D Multi-Die Designs</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/multi-die-design-3d-ip</link>
+<dc:creator><![CDATA[Rob Kruger]]></dc:creator>
+<pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/multi-die-design-3d-ip</guid>
+<description><![CDATA[Discover some of the drivers for 3D multi-die designs and key requirements for die-to-die and interface IP for 3D packaging.]]></description>
+</item>
+<item>
+<title>Achieving Reliable and Secure SoC Designs with OTP IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/reliable-secure-otp-ip</link>
+<dc:creator><![CDATA[Krishna Balachandran]]></dc:creator>
+<pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/reliable-secure-otp-ip</guid>
+<description><![CDATA[Discover how OTP IP ensures reliable and secure SoC designs for high-performance compute, IoT, and AI applications.]]></description>
+</item>
+<item>
+<title>Ultra Ethernet and UALink: Scalable AI Networks</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/ultra-ethernet-ualink-ai-networks</link>
+<dc:creator><![CDATA[Jon Ames, Ron Lowman]]></dc:creator>
+<pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/ultra-ethernet-ualink-ai-networks</guid>
+<description><![CDATA[Discover how Ultra Ethernet and UALink enable scalable AI networks with high performance and efficiency.]]></description>
+</item>
+<item>
+<title>Scaling Bandwidth for AI/HPC Multi-Die Designs</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/ai-hpc-multi-die-designs</link>
+<dc:creator><![CDATA[Aparna Tarde, Madhumita Sanyal]]></dc:creator>
+<pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/ai-hpc-multi-die-designs</guid>
+<description><![CDATA[Discover how multi-die designs with Ethernet, PCIe, and UCIe IP maximize bandwidth and performance for AI data centers.]]></description>
+</item>
+<item>
+<title>Foundation IP Enabling Low-Power AI Processors</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/foundation-ip-low-power-ai</link>
+<dc:creator><![CDATA[Shruti Bagaria]]></dc:creator>
+<pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/foundation-ip-low-power-ai</guid>
+<description><![CDATA[Discover how Synopsys Foundation IP enables low-power AI processors. Learn about optimized, silicon-proven logic libraries and memories.]]></description>
+</item>
+<item>
+<title>40G UCIe IP Advantages for AI Applications</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/40g-ucie-ip-ai-applications</link>
+<dc:creator><![CDATA[Aparna Tarde, Manuel Mota]]></dc:creator>
+<pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/40g-ucie-ip-ai-applications</guid>
+<description><![CDATA[Discover the advantages of 40G UCIe IP for AI applications and how it drives high-bandwidth die-to-die connectivity to boost performance.]]></description>
+</item>
+<item>
+<title>PCIe IDE IP: Secure Solutions for Automotive Industry</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-security-pcie-ip-solutions</link>
+<dc:creator><![CDATA[Dana Neustadter, Vincent van der Leest]]></dc:creator>
+<pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Automotive]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/automotive-security-pcie-ip-solutions</guid>
+<description><![CDATA[Unlock the potential of Synopsys' PCIe IDE IP solutions for automotive security. Secure connectivity and enhance safety in your designs.]]></description>
+</item>
+<item>
+<title>Innovating ADAS and IVI SoCs for Software-Defined Vehicles</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/adas-ivi-socs-sdv-automotive-ip</link>
+<dc:creator><![CDATA[Hezi Saar]]></dc:creator>
+<pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/adas-ivi-socs-sdv-automotive-ip</guid>
+<description><![CDATA[How interface IP for die-to-die connectivity, display, and storage can revolutionize automotive SoCs, enabling centralized zonal architecture, ADAS and IVI.]]></description>
+</item>
+<item>
+<title>PCIe 7.0: Addressing AI Bandwidth Challenges</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/pcie-7-design-ai-bandwidth</link>
+<dc:creator><![CDATA[Madhumita Sanyal, Monica Olvera]]></dc:creator>
+<pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/pcie-7-design-ai-bandwidth</guid>
+<description><![CDATA[Discover PCIe 7.0 design challenges and how it addresses AI’s bandwidth demands. Learn about increased bandwidth, low latency, and enhanced computing resources.]]></description>
+</item>
+<item>
+<title>SLM PVT Monitoring IP for Advanced Node GAA Evolution</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/slm-pvt-monitoring-advanced-node-gaa</link>
+<dc:creator><![CDATA[Rohan Bhatangar]]></dc:creator>
+<pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Foundation IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/slm-pvt-monitoring-advanced-node-gaa</guid>
+<description><![CDATA[Explore the evolution of SLM PVT monitoring IP for advanced GAA transistors and its impact on semiconductor technology.]]></description>
+</item>
+<item>
+<title>Understanding SRAM PUF: The Secure Silicon Fingerprint</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/sram-puf-secure-silicon-fingerprint</link>
+<dc:creator><![CDATA[Nathalie Bijnens, Vincent van der Leest]]></dc:creator>
+<pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Security IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/sram-puf-secure-silicon-fingerprint</guid>
+<description><![CDATA[Discover the innovation of SRAM-based PUFs and their adoption as a robust security feature across devices, from microcontrollers to secure elements.]]></description>
+</item>
+<item>
+<title>ADAS &amp; IVI SoC Integration with Auto-Grade IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/adas-ivi-automotive-grade</link>
+<dc:creator><![CDATA[Ron DiGiuseppe]]></dc:creator>
+<pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Automotive]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[General IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/adas-ivi-automotive-grade</guid>
+<description><![CDATA[Discover how automotive-grade IP supports the integration of ADAS and IVI SoCs to advance centralized zonal architecture.]]></description>
+</item>
+<item>
+<title>Monitor, Test &amp; Repair Chips with Synopsys SLM IP</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/monitor-test-repair-slm</link>
+<dc:creator><![CDATA[Ash Patel]]></dc:creator>
+<pubDate>Tue, 16 Apr 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[General IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/monitor-test-repair-slm</guid>
+<description><![CDATA[Discover how Synopsys SLM IP facilitates efficient silicon lifecycle management, enabling more reliable chip monitoring, testing, and in-field repairs.]]></description>
+</item>
+<item>
+<title>3DIO Solution for Multi-Die Integration (2.5D/3D)</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/3dio-multi-die-integration</link>
+<dc:creator><![CDATA[Lakshmi Jain, Wei-Yu Ma]]></dc:creator>
+<pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Multi-Die]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/3dio-multi-die-integration</guid>
+<description><![CDATA[Explore how the 3DIO solution enhances multi-die integration, boosting data speed and performance in advanced 2.5D/3D packaging technologies.]]></description>
+</item>
+<item>
+<title>PCIe Over Optics Explained</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/pcie-over-optics</link>
+<dc:creator><![CDATA[Keivan Javadi Khasraghi, Ruben Sousa]]></dc:creator>
+<pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Data Center]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/pcie-over-optics</guid>
+<description><![CDATA[Learn about the potential of PCI Express over Optics in addressing bandwidth demands and efficiency challenges in data centers.]]></description>
+</item>
+<item>
+<title>Enabling USB4 v2 80Gbps Ecosystem Advances</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/articles/usb4-80gbps-ecosystem</link>
+<dc:creator><![CDATA[Morten Christiansen]]></dc:creator>
+<pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+<category><![CDATA[Silicon IP Technical Bulletin]]></category>
+<category><![CDATA[Silicon IP]]></category>
+<category><![CDATA[Interface IP]]></category>
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/articles/usb4-80gbps-ecosystem</guid>
+<description><![CDATA[Explore the latest in USB4 v2 technology, offering 80Gbps speeds and insights into PAM-3 encoding challenges and features.]]></description>
+</item>
+</channel>
+</rss>

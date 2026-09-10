@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+<channel>
+ <title>Synopsys Glossary</title>
+ <atom:link href="https://main--synopsis-sd--paolomoz.aem.live/glossary/feed.xml" rel="self" type="application/rss+xml" />
+ <link>https://main--synopsis-sd--paolomoz.aem.live/glossary</link>
+ <description>Definitions of chip design, verification and silicon IP terms</description>
+ <lastBuildDate>Thu, 10 Sep 2026 16:01:51 GMT</lastBuildDate>
+ <language>en-US</language>
+ <sy:updatePeriod>hourly</sy:updatePeriod>
+ <sy:updateFrequency>1</sy:updateFrequency>
+<item>
+<title>What are Chiplets? – How Do Chiplets Work?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-chiplets</link>
+
+<pubDate>Thu, 10 Sep 2026 13:47:59 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-are-chiplets</guid>
+<description><![CDATA[Learn how chiplets enable modular semiconductor design, delivering greater flexibility, performance, and efficiency for advanced multi-die design.]]></description>
+</item>
+<item>
+<title>What is ASIL (Automotive Safety Integrity Level)? – Overview</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-asil</link>
+
+<pubDate>Thu, 10 Sep 2026 13:48:31 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-asil</guid>
+<description><![CDATA[Explore ASIL levels & how AI-machine learning in vehicles impact safety validation. Discover how Synopsys supports AI-compliant design and verification.]]></description>
+</item>
+<item>
+<title>What is Automotive Hardware Functional Safety?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automotive-hardware-functional-safety</link>
+
+<pubDate>Thu, 10 Sep 2026 13:48:33 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-automotive-hardware-functional-safety</guid>
+<description><![CDATA[Learn about automotive hardware functional safety, its importance in preventing design failures and controlling random faults as defined by ISO 26262 standards.]]></description>
+</item>
+<item>
+<title>What is an Autonomous Car? – How Self-Driving Cars Work</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-autonomous-car</link>
+
+<pubDate>Thu, 10 Sep 2026 13:48:39 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-autonomous-car</guid>
+<description><![CDATA[Discover how autonomous cars sense their environment and operate without human intervention, offering a glimpse into the future of self-driving technology.]]></description>
+</item>
+<item>
+<title>What is Design Planning?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-design-planning</link>
+
+<pubDate>Thu, 10 Sep 2026 13:48:50 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-design-planning</guid>
+<description><![CDATA[Design planning is the process by which you manage and minimize engineering tradeoffs related to implementation and design closure.]]></description>
+</item>
+<item>
+<title>What is Integrated Development Environment (IDE)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ide</link>
+
+<pubDate>Thu, 10 Sep 2026 13:49:17 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-ide</guid>
+<description><![CDATA[An IDE is an Integrated Development Environment that combines tools and features to streamline and improve software development productivity for programmers.]]></description>
+</item>
+<item>
+<title>What is ISO 26262 Functional Safety Standard?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-iso-26262</link>
+
+<pubDate>Thu, 10 Sep 2026 13:49:19 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-iso-26262</guid>
+<description><![CDATA[ISO 26262 ensures automotive safety by mandating a functional development process to minimize risks from E/E system malfunctions in commercial vehicles.]]></description>
+</item>
+<item>
+<title>What is Electronic Design Automation (EDA)? – How it Works</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-electronic-design-automation</link>
+
+<pubDate>Thu, 10 Sep 2026 13:49:00 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-electronic-design-automation</guid>
+<description><![CDATA[Electronic Design Automation (EDA) includes software, hardware, and services that support semiconductor design, verification, and manufacturing.]]></description>
+</item>
+<item>
+<title>What is Reinforcement Learning &amp; How Does AI Use It?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-reinforcement-learning</link>
+
+<pubDate>Thu, 10 Sep 2026 13:51:05 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-reinforcement-learning</guid>
+<description><![CDATA[Reinforcement Learning enables systems to learn optimal decisions through interaction, maximizing outcomes with AI-driven exploration and adaptation.]]></description>
+</item>
+<item>
+<title>What is PCI Express (PCIe)? – How it Works?</title>
+<link>https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-pci-express</link>
+
+<pubDate>Thu, 10 Sep 2026 13:51:29 GMT</pubDate>
+
+<guid isPermaLink="true">https://main--synopsis-sd--paolomoz.aem.live/glossary/what-is-pci-express</guid>
+<description><![CDATA[Discover PCI Express (PCIe), a standard for connecting peripherals to motherboards, offering high bandwidth and low latency for various applications.]]></description>
+</item>
+</channel>
+</rss>
