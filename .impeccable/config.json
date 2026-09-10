@@ -23,6 +23,15 @@
         ],
         "createdAt": "2026-09-09T18:15:57.733Z",
         "reason": "agent: canon.css L42 is a CSS border-triangle caret (.caret-down) inside a pill button, not an accent border on a rounded card"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "blocks/cards/cards.css"
+        ],
+        "createdAt": "2026-09-10T09:13:29.817Z",
+        "reason": "agent: replica of live synopsys.com right-rail flag cards (.rightRailItem 4px purple left rule lifted from computed styles); same-design re-platform, not an invented accent"
       }
     ]
   }
