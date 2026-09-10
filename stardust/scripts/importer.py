@@ -387,6 +387,21 @@ def blog_card_row(card):
     if cta is not None and clean_text(cta.get_text()): cell += f'<p><a href="{esc(localize(cta.get("href")))}">{esc(clean_text(cta.get_text()))}</a></p>'
     return [img_html(img), cell] if img is not None and img_html(img) else [cell]
 
+def mra_card_row(item):
+    """Author archive row (source: .cmp-blogsdev__mra-item-container): thumb | label · title · byline · date/read · tags."""
+    img = item.select_one('.cmp-blogsdev__mra-image img, img')
+    lab = item.select_one('.cmp-blogsdev__mra-right .label, .label'); h = item.select_one('.cmp-blogsdev__mra-title'); ha = h.find('a') if h else None
+    dt = item.select_one('.cmp-blogsdev__mra-date-time'); by = item.select_one('.cmp-blogsdev__mra-author'); tags = item.select_one('.cmp-blogsdev__mra-tags')
+    cell = ''
+    if lab is not None and clean_text(lab.get_text()): cell += f'<p><strong>{esc(clean_text(lab.get_text()))}</strong></p>'
+    if h is not None:
+        t = clean_text(h.get_text(' ')); href = localize(ha.get('href')) if ha is not None else None
+        cell += f'<h3><a href="{esc(href)}">{esc(t)}</a></h3>' if href else f'<h3>{esc(t)}</h3>'
+    if by is not None and clean_text(by.get_text()): cell += f'<p>{rich_inline_p(by)}</p>'
+    if dt is not None and clean_text(dt.get_text()): cell += f'<p>{esc(clean_text(dt.get_text()).replace(" / ", " / ").replace("/", " / ").replace("  ", " "))}</p>'
+    if tags is not None and clean_text(tags.get_text()): cell += f'<p>{rich_inline_p(tags)}</p>'
+    return [img_html(img), cell] if img is not None and img_html(img) else [cell]
+
 def solution_card_row(card):
     a = card.find('a'); img = card.find('img'); t = card.select_one('.text-hover span'); d = card.select_one('.text-hover p'); b = card.select_one('.text-hover .button')
     cell = ''
@@ -510,8 +525,10 @@ def handle_column(col, page):
         for c in cols:
             if c.select_one('.component-author-profile') is not None: continue
             for sub in grid_children(c) or [c]:
-                if col_type(sub) == 'blogsDev' and sub.select_one('.component-card-b'):
-                    page.add_block(block_table('cards author', [blog_card_row(x) for x in sub.select('.component-card-b')[:60]]), 'main'); COVERAGE['cards author'] += 1
+                if col_type(sub) == 'blogsDev' and sub.select_one('.component-card-b, .cmp-blogsdev__mra-item-container'):
+                    items = sub.select('.cmp-blogsdev__mra-item-container')
+                    rows = [mra_card_row(x) for x in items[:60]] if items else [blog_card_row(x) for x in sub.select('.component-card-b')[:60]]
+                    page.add_block(block_table('cards author', rows), 'main'); COVERAGE['cards author'] += 1
                 else: convert_column(sub, page)
         for sct in page.sections[before:]: sct['style'] = 'main' if not sct['style'] or sct['style'] == 'main' else sct['style'] + ', main'
         page.new_section()
@@ -807,7 +824,7 @@ def convert_column(col, page, inherited_style=''):
         if text_col is not None:
             page.add_default(rich(text_col, allow_headings=True).replace('<h1>', '<h1>' if not page.h1_used else '<h2>').replace('</h1>', '</h1>' if not page.h1_used else '</h2>'), form_style)
             page.h1_used = True
-        form_title = col.select_one('.form-title, .form-col .title, .marketo-form-title, .component-marketo-form-container .title, .cmp-subscription-form .title')
+        form_title = col.select_one('.form-title, .form-col .title, .marketo-form-title') or next((x for x in col.select('.component-marketo-form-container .title, .cmp-subscription-form .title') if x.find_parent(class_='text-col') is None and clean_text(x.get_text())), None)
         wrap = col.select_one('.component-marketo-form-container, .cmp-subscription-form')
         wcls = ' '.join(wrap.get('class') or []) if wrap is not None else ''
         form_style = 'purple' if 'purpleGradient' in wcls else ('dark' if 'darkGrey' in wcls or 'darkGradient' in wcls or 'blackGradient' in wcls else bg_of(col))

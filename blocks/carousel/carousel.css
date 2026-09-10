@@ -208,3 +208,16 @@
     width: 30px;
   }
 }
+
+/* blog variant (source: .cmp-dynamiccards .component-card-b in a 3-up slick carousel): image on top, natural height */
+.carousel.blog .carousel-list { height: auto; }
+.carousel.blog .carousel-card { height: auto; box-shadow: var(--shadow-card); }
+.carousel.blog .carousel-card-image { line-height: 0; }
+.carousel.blog .carousel-card-image img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.carousel.blog .carousel-card-text { height: auto; min-height: 260px; padding: 20px 24px 56px; }
+.carousel.blog .carousel-card-body :is(h2, h3, h4) { margin: 8px 0 12px; font-size: 18px; line-height: 24px; }
+.carousel.blog .carousel-card-body :is(h2, h3, h4) a:any-link { color: var(--ink); }
+.carousel.blog .carousel-card-body p { margin: 0 0 8px; color: var(--grey); font-size: 12px; line-height: 18px; }
+.carousel.blog .carousel-card-body p a:any-link { color: var(--grey); }
+.carousel.blog .carousel-cta { position: absolute; left: 24px; bottom: 20px; }
+.carousel.blog .carousel-cta a:any-link { color: var(--link); font-size: 14px; }

@@ -22,6 +22,8 @@ export default async function decorate(block) {
     card.className = 'carousel-card';
     const body = document.createElement('div');
     body.className = 'carousel-card-text';
+    const imgCell = [...row.children].find((c) => c.querySelector('picture, img') && !c.textContent.trim());
+    if (imgCell) { imgCell.className = 'carousel-card-image'; imgCell.querySelectorAll('img').forEach((i) => i.setAttribute('loading', 'lazy')); card.append(imgCell); }
     const heading = row.querySelector('h1, h2, h3, h4, h5, h6');
     const ps = [...row.querySelectorAll('p')];
     const label = ps.find((p) => p.querySelector('strong') && !p.querySelector('a'));
