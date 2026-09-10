@@ -489,5 +489,87 @@
    ],
    "residualWhy": "published, but carry <img src=\"about:error\"> because the source images 404 on www.synopsys.com (broken 200_ Dynamic Media URLs)"
   }
+ },
+ "chromeStates": {
+  "probedAt": "2026-09-10T10:05:21Z",
+  "instrument": "stardust/scripts/probe-menu.mjs (\u2192 stardust plugin replica/scripts/chrome-states.mjs)",
+  "live": {
+   "themeVariants": {
+    "light": "static rgba(255,255,255,.8) nav row (4,179 pages)",
+    "dark": "absolute transparent nav over the banner carousel, white brand/links/CTA (index, ko-kr, ja-jp, zh-cn, zh-tw)"
+   },
+   "panels": {
+    "Why Synopsys": [
+     346,
+     126,
+     596,
+     366
+    ],
+    "Solutions": [
+     273,
+     126,
+     894,
+     462
+    ],
+    "Products": [
+     100,
+     126,
+     1240,
+     872
+    ],
+    "Support & Training": [
+     422,
+     126,
+     596,
+     192
+    ],
+    "Resources": [
+     273,
+     126,
+     894,
+     274
+    ]
+   },
+   "placement": "left = min(trigger.left, (vw-panel)/2); top = row.bottom - 7",
+   "search": "right-hand 644px panel, page dimmed",
+   "mobile": "no utility bar; full-height trigger list \u2192 drill with Back bar; promo hidden; CTA + utility at bottom"
+  },
+  "build": {
+   "panels": {
+    "Why Synopsys": [
+     346,
+     126,
+     596,
+     308
+    ],
+    "Solutions": [
+     273,
+     126,
+     894,
+     392
+    ],
+    "Products": [
+     100,
+     126,
+     1240,
+     782
+    ]
+   }
+  },
+  "cropGates1440": {
+   "rest": "99.48% PASS",
+   "pinned": "96.86% (moving carousel background behind translucent bar)",
+   "products-panel": "97.25% (row pitch 38 vs 46 on icon rows)",
+   "solutions": "91.46% full-width band incl. rotating hero",
+   "why": "88.47% (Brightcove poster is JS-loaded; band incl. hero)",
+   "search": "89.19% (band incl. hero; no Popular Content feed)",
+   "mobile-rest": "78.96% (band incl. rotating hero)"
+  },
+  "residuals": [
+   "Why Synopsys promo poster (Brightcove, JS-loaded) not captured",
+   "search Popular Content feed (Coveo) not replicated",
+   "icon-row pitch 38 vs 46px",
+   "language dropdown/ask panel are buttons without panels"
+  ]
  }
 }

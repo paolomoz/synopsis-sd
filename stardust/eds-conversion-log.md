@@ -119,3 +119,27 @@ failures were transient Dynamic Media fetches and recovered on re-drive.
 Stale duplicates of the 25 mixed-case paths remain in DA under their original names (never previewed); harmless, can be deleted.
 Ledger: `content/.deploy-ledger.json` (4,186 entries). Re-run `deploy-batch` with the same arguments to re-drive; the ledger
 skips live pages.
+
+## Header re-clone from the chrome state matrix (2026-09-10)
+User review: "the header is not properly implemented". The resting header crop had passed (99.6%) but every
+other header STATE was unmeasured and wrong. Probed live with `stardust/scripts/probe-menu.mjs` (now the
+stardust plugin's `replica/scripts/chrome-states.mjs`):
+- **Theme variant**: the nav row is absolute + transparent over the banner carousel on 5 pages (home + 4
+  locale homes; marker = `carousel-type="banner-carousel"`, NOT the `data-color-theme="dark"` attribute that
+  sits on 4,145 pages). Importer emits `Header-Theme: dark`; header adds `body.header-dark`/`header.is-dark`;
+  pinned row stays white (source).
+- **Mega menus**: `.dropdown[data-menu]` panels live outside the trigger `<li>`; `stardust/scripts/build-nav.py`
+  rebuilds `/nav` section 3 from the associated panels with the model group `<li><a><img>Header</a><ul>…`,
+  item `<li><a><img?>Title</a><em>Subtitle</em></li>`, promo `<li><img><a>Title</a><em>Desc</em><a>CTA</a></li>`,
+  footer `<li><strong><a>View all</a></strong></li>`. header.js unwraps the pipeline's loose-list paragraphs and
+  decorateButtons' button classes before classifying; hover/focus opens (120ms), caret, panel
+  `left = min(trigger.left, centered)`, `top = row.bottom − 7`; Products = grey card + column-major By Function strip.
+- **Search**: right-hand "Search Synopsys" panel with Cancel + input (posts to the live search); page dimmed.
+- **Mobile**: full-height trigger list → drill-down panel with Back bar; promo hidden; Contact Sales + utility at bottom.
+Gates (1440, `stardust/replica/gates/chrome-states/`): resting header 99.48%; panels open at the live rects
+(Why 346/596, Solutions 273/894, Products 100/1240, top 126). Full-width bands over the rotating hero report
+background drift (79–91%) — see the plugin note. Residuals: Brightcove poster in the Why Synopsys promo
+(JS-loaded), Coveo "Popular Content" in the search panel, icon-row pitch 38 vs 46px, language/Ask panels.
+Learnings tracked in the stardust plugin source: branch `synopsys-chrome-states` in `/Users/paolo/excat/skills`
+(`plugins/stardust/notes/chrome-states-learnings-synopsys.md`, recreation-procedure § Chrome interaction states,
+source-fidelity-gate item 5, `replica/scripts/chrome-states.mjs`, CHANGELOG Unreleased).
