@@ -12,18 +12,29 @@
  * and the variant is tile-like (pillars/news) — the inner anchor is unwrapped (EW6).
  */
 async function enrichAuthor(block) {
-  // the author archive is a paged feed on the source; list every indexed post by this author
+  // the author archive is a paged feed on the source; list every indexed post by this author, merged with the
+  // authored rows (the server-rendered snapshot also lists non-article pages such as webinars) — union by path, newest first
   const name = (document.querySelector('.author .author-name h2, .author .author-name h1, .author h2')?.textContent || '').trim();
   if (!name) return;
   try {
-    const { getIndex, byDateDesc, cardMarkup } = await import('../../scripts/index.js');
-    const rows = (await getIndex()).filter((r) => (r.author || '').split(/,\s*/).includes(name)).sort(byDateDesc);
-    const authored = block.querySelectorAll(':scope > ul > li').length;
-    if (rows.length <= authored) return;
+    const { getIndex, cardMarkup } = await import('../../scripts/index.js');
+    const rows = (await getIndex()).filter((r) => (r.author || '').split(/,\s*/).includes(name));
+    if (!rows.length) return;
+    const seen = new Set(rows.map((r) => r.path));
+    const items = rows.map((r) => ({ ts: Number(r.publishedTs) || 0, html: cardMarkup(r) }));
+    [...block.querySelectorAll(':scope > div')].forEach((row) => {
+      const href = row.querySelector('h3 a, a[href]')?.getAttribute('href') || '';
+      const path = href.replace(/^https?:\/\/[^/]+/, '').split(/[?#]/)[0];
+      if (!path || seen.has(path)) return;
+      seen.add(path);
+      const m = row.textContent.match(/\b([A-Z][a-z]{2} \d{1,2}, \d{4})\b/);
+      items.push({ ts: m ? Date.parse(m[1]) / 1000 : 0, html: row.innerHTML });
+    });
+    items.sort((a, b) => b.ts - a.ts);
     const ul = document.createElement('ul');
-    rows.forEach((r) => { const li = document.createElement('li'); li.innerHTML = cardMarkup(r); [...li.children].forEach((d) => { d.className = d.querySelector('picture') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); if (last) last.classList.add('cards-card-cta'); ul.append(li); });
+    items.forEach((it) => { const li = document.createElement('li'); li.innerHTML = it.html; [...li.children].forEach((d) => { d.className = d.querySelector('picture, img') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); if (last) last.classList.add('cards-card-cta'); ul.append(li); });
     block.replaceChildren(ul);
-    block.dataset.indexed = String(rows.length);
+    block.dataset.indexed = String(rows.length); block.dataset.total = String(items.length);
   } catch (e) { /* index unavailable: keep authored rows */ }
 }
 

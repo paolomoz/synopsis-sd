@@ -13,7 +13,9 @@
  */
 async function relatedRows() {
   // source "Continue Reading" is a tag-driven feed: rebuild the rows from the index when the page carries tags
-  const tags = (document.querySelector('meta[name="tags"]')?.content || '').split(/,\s*/).filter(Boolean);
+  // EDS renders the Tags metadata as one <meta property="article:tag"> per tag
+  const tags = [...document.querySelectorAll('meta[property="article:tag"]')].map((m) => m.content.trim()).filter(Boolean);
+  if (!tags.length) tags.push(...(document.querySelector('meta[name="tags"]')?.content || '').split(/,\s*/).filter(Boolean));
   if (!tags.length) return null;
   try {
     const { getIndex, related, cardMarkup } = await import('../../scripts/index.js');

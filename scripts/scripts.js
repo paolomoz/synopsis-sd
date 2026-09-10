@@ -90,7 +90,7 @@ function buildShareBlock(main) {
   const section = document.createElement('div');
   const block = document.createElement('div'); block.className = 'share'; block.append(document.createElement('div'));
   const meta = document.createElement('div'); meta.className = 'section-metadata';
-  meta.innerHTML = '<div><div>Style</div><div>rail</div></div>';
+  meta.innerHTML = '<div><div>style</div><div>rail</div></div>';
   section.append(block, meta);
   anchor.after(section);
 }
