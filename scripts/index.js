@@ -52,7 +52,13 @@ function indexCategoryPages(rows) {
   });
 }
 export const categoryPath = (family, tag) => categoryPages.get(`${family}:${tagKey(tag)}`) || null;
-export const splitList = (s) => String(s || '').split(/,\s*/).map((x) => x.trim()).filter(Boolean);
+/** comma list or JSON array (the index stores multi-valued properties such as article:tag as a JSON array string) */
+export const splitList = (s) => {
+  if (Array.isArray(s)) return s.map((x) => String(x).trim()).filter(Boolean);
+  const str = String(s || '').trim();
+  if (str.startsWith('[')) { try { return JSON.parse(str).map((x) => String(x).trim()).filter(Boolean); } catch (e) { /* fall through */ } }
+  return str.split(/,\s*/).map((x) => x.trim()).filter(Boolean);
+};
 export const isArticle = (row) => /^(article|glossary|listing)$/.test(row.template || '') || /^\/(blogs|articles|glossary)\//.test(row.path);
 export const byDateDesc = (a, b) => (Number(b.publishedTs) || 0) - (Number(a.publishedTs) || 0);
 
