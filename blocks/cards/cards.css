@@ -262,13 +262,22 @@
   gap: 30px;
 }
 
+/* lone leader row: live puts one 250px portrait centered in the first third (col-sm-4) */
 .cards.people > ul:has(> li:only-child) {
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .cards.people > ul > li:only-child {
-  max-width: 190px;
+  max-width: 250px;
   margin: 0 auto;
+}
+
+main > .section.cards-container:has(.cards.people) + .section.cards-container:has(.cards.people) {
+  padding-top: 0;
+}
+
+main > .section.cards-container:has(.cards.people) {
+  padding-bottom: 40px;
 }
 
 .cards.people > ul > li {

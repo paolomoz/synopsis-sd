@@ -160,5 +160,562 @@
     "preview": 200,
     "live": 200,
     "verify": "ok"
+  },
+  "/academic-research/contactus/educators": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:48.379Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/contactus/entrepreneurs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:48.380Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/contactus/researchers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:48.380Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/contactus/students": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:48.380Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/contactus": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:54.348Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/educators": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:54.557Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/entrepreneurs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:54.612Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/researchers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:06:54.940Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/students": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:01.735Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/subscription": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:02.097Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/academic-research/university": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:02.600Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/agentic-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:03.124Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-chip-development": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:08.721Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda/aso-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:08.879Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda/design-da": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:10.189Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda/dso-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:10.736Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda/silicon-da": {
+    "status": "preview-fail",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:14.643Z",
+    "put": 201,
+    "preview": 409,
+    "lastError": "preview 409 error from content-bus"
+  },
+  "/ai/ai-powered-eda/tso-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:14.821Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda/videos": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:15.328Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda/vso-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:16.197Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/ai-powered-eda": {
+    "status": "preview-fail",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:17.252Z",
+    "put": 201,
+    "preview": 409,
+    "lastError": "preview 409 error from content-bus"
+  },
+  "/ai/contact-us": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:20.223Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/generative-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:20.238Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai/physical-ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:21.304Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ai": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:21.910Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/112g-ethernet-implementations": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:24.926Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/112g-ethernet-ip": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:25.339Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/112g-linear-optics-phy": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:27.420Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/224g-ethernet-phy-ip": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:27.846Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/224g-serdes-interoperability-ai-hpc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:30.846Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/224g-serdes-ip-linear-drive-optics": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:31.169Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/224gbps-electrical-interface": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:32.992Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/25g-ethernet-ip-for-high-performance-data-center-socs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:34.215Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/25g-ethernet": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:36.352Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/3dio-multi-die-integration": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:36.820Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/40g-ucie-ip-ai-applications": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:38.392Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/5g-asips-communication-socs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:39.237Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/5g-dsp-controller-radio-modems": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:41.359Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/accelerate-time-to-market-with-interface-ip-subsystems": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:42.314Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/accelerating-32gtps-pcie5-designs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:44.023Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/accelerating-cryptographic-operations": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:45.034Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/achieving-10-gbps": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:47.102Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/achieving-iso-compliance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:47.883Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/adapting-non-volatile-memory": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:49.087Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/adas-ivi-automotive-grade": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:50.487Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/adas-ivi-socs-sdv-automotive-ip": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:52.029Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/addressing-ai-advanced-packaging-3dio-phy": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:53.591Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/addressing-functional-safety-in-socs-with-test-solutions": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:54.584Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/adoption-5g-automotive-applications": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:56.558Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/advanced-processors-virtual-reality-interfaces": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:07:58.148Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/advantages-embedded-mtp-nvm-iot-soc-designs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:00.042Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/ai-edge-algorithms": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:02.207Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/ai-hpc-multi-die-designs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:02.717Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/anatomy-ethernet-phy-for-hpc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:03.511Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/arc-sem130fs-safety-security-processor": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:06.404Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/artificial-intelligence-soc-nature-nurture": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:08.055Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/asil-d-systematic-iso-26262-compliance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:10.184Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/augmenting-your-reality": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:10.718Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/automotive-certified-trng-ip": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:12.051Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/automotive-cybersecurity-starts-with-chips": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:14.445Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/articles/automotive-ddr-dram": {
+    "status": "pending",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:15.810Z",
+    "put": 201,
+    "preview": 200
+  },
+  "/articles/automotive-embedded-storage-ufs": {
+    "status": "pending",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:17.467Z",
+    "put": 201
+  },
+  "/articles/automotive-ic-design": {
+    "status": "pending",
+    "attempts": 1,
+    "ts": "2026-09-10T06:08:18.104Z",
+    "put": 201
   }
 }
