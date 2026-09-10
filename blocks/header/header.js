@@ -68,8 +68,12 @@ function unwrapParagraphs(li) {
 
 function classifyGroup(li) {
   if (li.querySelector(':scope > ul')) return 'group';
-  if (li.querySelector(':scope > strong > a')) return 'footer';
-  if (li.querySelector(':scope > picture, :scope > img, :scope > p > picture, :scope > p > img')) return 'promo';
+  const links = li.querySelectorAll(':scope > a, :scope > strong > a');
+  const media = li.querySelector(':scope > picture, :scope > img');
+  const em = li.querySelector(':scope > em');
+  // footer: a lone link (the authored <strong> is consumed by decorateButtons); promo: media and/or description
+  if (!media && !em && links.length === 1) return 'footer';
+  if (media || em) return 'promo';
   return 'group';
 }
 
@@ -133,7 +137,7 @@ function buildPromo(li) {
 function buildFooter(li) {
   li.className = 'menu-footer';
   const a = li.querySelector('a');
-  if (a) { a.className = 'menu-footer-link'; a.append(svg(SVG.chevron)); li.replaceChildren(a); }
+  if (a) { a.className = 'menu-footer-link'; a.removeAttribute('title'); a.append(svg(SVG.chevron)); li.replaceChildren(a); }
   return li;
 }
 
@@ -193,7 +197,7 @@ function positionPanel(trigger, row) {
   panel.style.left = `${Math.round(left - tr.left)}px`;
   panel.style.setProperty('--caret-x', `${Math.round(tr.left + tr.width / 2 - left)}px`);
   const rowRect = row.getBoundingClientRect();
-  panel.style.top = `${Math.round(rowRect.bottom - tr.bottom - 7)}px`;
+  panel.style.top = `${Math.round(rowRect.bottom - tr.top - 7)}px`; /* source: panel top = nav row bottom − 7px */
 }
 
 function closeAll(navSections) {
