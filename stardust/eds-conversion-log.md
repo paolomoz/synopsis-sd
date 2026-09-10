@@ -168,5 +168,4 @@ redeployed with `--force`):
 - `<p><li>` orphan list items are wrapped back into lists.
 - 53 images that 404/403 on www.synopsys.com were stripped from 22 pages; one 30MB source JPEG was resized to 2000px
   and served from DA media (html2md rejects it otherwise).
-Result: 4,185 of 4,186 documents live; `/verification/resources` still carries an `about:error` image (source fails
-inside html2md). Learnings recorded in the stardust plugin branch (`notes/chrome-states-learnings-synopsys.md`, addendum).
+Result: 4,186 of 4,186 documents live (`/verification/resources` recovered on a later re-drive). Learnings recorded in the stardust plugin branch (`notes/chrome-states-learnings-synopsys.md`, addendum).

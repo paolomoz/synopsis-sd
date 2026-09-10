@@ -30528,14 +30528,13 @@
   "verify": "ok"
  },
  "/verification/resources": {
-  "status": "verify-fail",
+  "status": "live",
   "attempts": 1,
-  "ts": "2026-09-10T14:24:58.816Z",
+  "ts": "2026-09-10T14:41:54.317Z",
   "put": 200,
   "preview": 200,
   "live": 200,
-  "verify": "about:error in delivered html",
-  "lastError": "about:error in delivered html"
+  "verify": "ok"
  },
  "/verification/services-costart": {
   "status": "live",

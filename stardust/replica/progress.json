@@ -510,7 +510,7 @@
     "30MB source JPEG resized to DA media"
    ],
    "redeployed": 3366,
-   "result": "4,185 of 4,186 live; /verification/resources carries an about:error image whose source fails in html2md"
+   "result": "4,186 of 4,186 documents live (the last about:error page recovered on re-drive)"
   }
  },
  "chromeStates": {
