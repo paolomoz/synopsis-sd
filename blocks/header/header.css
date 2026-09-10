@@ -456,6 +456,8 @@ header nav#nav .menu-strip .menu-group {
 header nav#nav .menu-strip .menu-list {
   display: grid;
   grid-template-columns: repeat(3, 247px);
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: column; /* source lists column-major (Analog, Digital, DFT, Verification down the first column) */
   gap: 0 30px;
 }
 
