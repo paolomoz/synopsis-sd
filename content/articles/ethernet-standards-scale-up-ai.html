@@ -3,7 +3,7 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Ethernet Standards for Scale-Up AI: An Overview of ESUN, SUE, and UALink | Synopsys</div></div><div><div>Description</div><div>Learn how Synopsys 224G IP enables Ethernet, ESUN, SUE, and UALink for scalable, lossless AI networking.</div></div><div><div>Template</div><div>article</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/sitb-q126-ethernet-social?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/articles">Articles</a></p><h1>Ethernet Standards for Scale-Up AI: An Overview of ESUN, SUE, and UALink</h1><p><a href="/authors/jon-ames">Jon Ames</a></p><p>Jan 15, 2026 / 6 min read</p></div></div></div>
+<div class="hero blog slate"><div><div><p><a href="/articles">Articles</a></p><h1>Ethernet Standards for Scale-Up AI: An Overview of ESUN, SUE, and UALink</h1><p><a href="/authors/jon-ames">Jon Ames</a></p><p>Jan 15, 2026 / 6 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
@@ -11,7 +11,9 @@
     <div>
 <h2>Synopsys IP 
             
-                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
+                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <p>Artificial Intelligence is transforming data center design. As models grow and compute clusters scale, networking inside the rack has become just as critical as the accelerators themselves. Traditional Ethernet was built for scale-out, connecting racks and buildings, but AI workloads demand something different: scale-up networking. This means ultra-fast, low-latency links between hundreds or even thousands of accelerators within a single pod.</p><p>AI pods have changed the rules of networking. Inside a rack, accelerators must share data with sub microsecond latency and deterministic performance while keeping tail latency in check. The industry is aligning behind open, Ethernet based approaches that deliver scaleup performance without vendor lock, most notably: ESUN (an OCP workstream), SUE (an OCP published framework), and UALink (a consortium standard for memory semantics).</p><p>In this article, we go deeper into each Ethernet-based initiative, its scope, the problems it solves, how it complements the others, and how Synopsys 224G IP provides the common physical layer for all three.</p>
     </div>
     <div>
@@ -47,7 +49,7 @@
     <div>
 <h2>Why it matters</h2><p>AI workloads increasingly rely on shared-memory programming models, which traditional Ethernet cannot efficiently support. UALink addresses this by enabling load/store and atomic operations across accelerators, making a pod behave like a unified memory domain. This reduces software complexity, improves performance for memory-intensive models, and scales to 1,024 accelerators per pod&mdash;all while leveraging standard Ethernet physical components for cost efficiency and ecosystem compatibility.</p>
 <h2>Comparative Summary</h2>
-<table><tr><td><strong>Dimension</strong></td><td><strong>ESUN (OCP Workstream)</strong></td><td><strong>SUE (OCP Framework)</strong></td><td><strong>UALink (Consortium Spec)</strong></td></tr><tr><td>Primary Scope</td><td>Open L2/L3 behaviors, headers, lossless delivery, interop across vendors</td><td>Pod level encapsulation + reliability (AFH, LLR, CBFC) for single hop</td><td>Memory semantics (load/store/atomic), accelerator to accelerator transactions</td></tr><tr><td>Standardization Host</td><td>OCP workstream coordinating with IEEE and UEC</td><td>OCP published spec (v1.0)</td><td>UALink Consortium</td></tr><tr><td>Key Benefits</td><td>Vendor neutral interop; open headers &amp; QoS for AI pods</td><td>Deterministic tail latency; efficient small payload handling</td><td>Shared memory programming model; deterministic bandwidth/latency</td></tr></table><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
+<div class="table header"><div><div><strong>Dimension</strong></div><div><strong>ESUN (OCP Workstream)</strong></div><div><strong>SUE (OCP Framework)</strong></div><div><strong>UALink (Consortium Spec)</strong></div></div><div><div>Primary Scope</div><div>Open L2/L3 behaviors, headers, lossless delivery, interop across vendors</div><div>Pod level encapsulation + reliability (AFH, LLR, CBFC) for single hop</div><div>Memory semantics (load/store/atomic), accelerator to accelerator transactions</div></div><div><div>Standardization Host</div><div>OCP workstream coordinating with IEEE and UEC</div><div>OCP published spec (v1.0)</div><div>UALink Consortium</div></div><div><div>Key Benefits</div><div>Vendor neutral interop; open headers &amp; QoS for AI pods</div><div>Deterministic tail latency; efficient small payload handling</div><div>Shared memory programming model; deterministic bandwidth/latency</div></div></div><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
     </div>
     <div>
 <h2>The Synopsys Advantage: 224G Ethernet PHY IP as the Common L1</h2>
@@ -59,8 +61,10 @@
 <p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a></p><div class="section-metadata"><div><div>anchor</div><div>5</div></div></div>
     </div>
     <div>
-<h2>Continue Reading</h2>
-<div class="cards asset"><div><div><p><strong>Blog</strong></p><h3>From Gate&#8209;All&#8209;Around to Complementary FETs: What&rsquo;s Next in Transistor Scaling</h3><p><a href="/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling">Read</a></p></div></div><div><div><p><strong>Blog</strong></p><h3>CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity</h3><p><a href="/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity">Read Now</a></p></div></div><div><div><p><strong>White Paper</strong></p><h3>Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure</h3><p><a href="/resources/standards-compliant-112g-phy-for-linear-optics">Download</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
+<h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>
+    </div>
+    <div>
+<div class="cards asset"><div><div><img src="https://www.synopsys.com/content/dam/synopsys/blogs/chip-design/images/cfet-fig4-social.jpg" alt="From Gate&#8209;All&#8209;Around to Complementary FETs: What&rsquo;s Next in Transistor Scaling"></div><div><p><strong>Blog</strong></p><h3>From Gate&#8209;All&#8209;Around to Complementary FETs: What&rsquo;s Next in Transistor Scaling</h3><p><a href="/blogs/chip-design/gate-all-around-complementary-fets-whats-next-transistor-scaling">Read</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/blogs/chip-design/social-shares/cxl-4-0-launch-social.jpg" alt="CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity"></div><div><p><strong>Blog</strong></p><h3>CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity</h3><p><a href="/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity">Read Now</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/white-paper/thumbnails/standards-compliant-112g-phy-wp-light-bkgd-thumbnail.jpg" alt="Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure"></div><div><p><strong>White Paper</strong></p><h3>Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure</h3><p><a href="/resources/standards-compliant-112g-phy-for-linear-optics">Download</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
     </div>
   </main>
   <footer></footer>

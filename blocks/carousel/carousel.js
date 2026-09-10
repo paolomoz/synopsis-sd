@@ -27,7 +27,7 @@ export default async function decorate(block) {
     const heading = row.querySelector('h1, h2, h3, h4, h5, h6');
     const ps = [...row.querySelectorAll('p')];
     const label = ps.find((p) => p.querySelector('strong') && !p.querySelector('a'));
-    const link = ps.find((p) => p.querySelector('a'));
+    const link = [...ps].reverse().find((p) => p.querySelector('a') && p.closest('div') && p === p.parentElement.lastElementChild) || [...ps].reverse().find((p) => p.querySelector('a'));
     const others = ps.filter((p) => p !== label && p !== link);
     if (label) { const l = document.createElement('div'); l.className = 'carousel-label'; l.append(label); body.append(l); }
     const hd = document.createElement('div');

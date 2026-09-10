@@ -3,7 +3,7 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Choosing the Right IP for Die-to-Die Connectivity | Synopsys IP</div></div><div><div>Description</div><div>Discover how to select the ideal high-speed PHY IP for die-to-die connectivity in multi-chip modules (MCMs) for improved IoT connectivity.</div></div><div><div>Template</div><div>article</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/sitb-q120-ip-die-to-die-connectiviy?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/articles">Articles</a></p><h1>Navigating IoT Connectivity with the Right Die-to-Die IP Solution</h1><p><a href="/authors/manuel-mota">Manuel Mota</a></p><p>Jan 20, 2020 / 6 min read</p></div></div></div>
+<div class="hero blog slate"><div><div><p><a href="/articles">Articles</a></p><h1>Navigating IoT Connectivity with the Right Die-to-Die IP Solution</h1><p><a href="/authors/manuel-mota">Manuel Mota</a></p><p>Jan 20, 2020 / 6 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
@@ -11,21 +11,35 @@
     <div>
 <h2>Synopsys IP 
             
-                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
+                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <p>System-on-Chip (SoC) designers for hyperscale data centers, artificial intelligence (AI), and networking applications are facing a challenge that has been trending since the advent of big data. Because of workload demands and the need to move data faster, such SoCs have become more complex with advanced functionalities and reached maximum reticle sizes. For this reason, designers are partitioning SoCs in smaller modules in a multi-chip module (MCM) packaging. These disaggregated chips require ultra- and extra-short reach links to enable inter-die connectivity with high data rates. In addition to bandwidth, the die-to-die connectivity must ensure reliable links with extremely low latency and power efficiency. This article describes several different use cases for die-to-die connectivity and essential considerations to make when searching for high-speed PHY IP for die-to-die connectivity.</p>
-<div class="columns features"><div><div><p><a href="/designware-ip/resources/looking-into-linear-pluggable-optics">  <img src="https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&amp;wid=1200&amp;ts=1771948409845&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Why HPC Chip Designers are Looking into Linear Pluggable Optics">  </a></p></div><div><h2>AI Doesn&rsquo;t Scale by Accident</h2><p>Explore the IP that enables high-performance, scalable AI systems</p></div></div></div>
+<div class="columns media third"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&amp;wid=1200&amp;ts=1771948409845&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Why HPC Chip Designers are Looking into Linear Pluggable Optics"></p></div><div><h2>AI Doesn&rsquo;t Scale by Accident</h2><p>Explore the IP that enables high-performance, scalable AI systems</p><p><strong><a href="/resources/inside-ai-accelerator">Download eBook</a></strong></p></div></div></div>
     </div>
     <div>
 <h2>Die-to-Die Connectivity Use Cases</h2><p>New use cases are emerging for die-to-die connectivity in MCMs, some of which include:</p><p>1. High-performance computing and server SoCs approaching maximum reticle sizes</p><p>2. Ethernet switches and networking SoCs exceeding maximum reticle sizes</p><p>3. Artificial intelligence (AI) SoCs with distributed SRAMs to scale complex algorithms</p><p>High-performance computing and server SoCs are becoming large in size, reaching 550 squared millimeters (mm2) to 800 mm2, diminishing the SoC yield and increasing the cost per die. A better approach to optimizing SoC yield is to split the SoC into two or multiple equivalent homogenous dies, as shown in Figure 1, and connecting the dies using a die-to-die PHY IP. The key requirements in such a use case are extremely low latency and zero bit-error rate since the smaller dies must depict and behave as a single die.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-q120-die2die-fig1?qlt=82&amp;wid=1200&amp;ts=1716995043830&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Die-to-Die Connectivity Diagram with Ethernet and PCI Express"></p>
-<p><em><strong>Figure 1: Example of a high-performance computing and server SoC requiring die-to-die connectivity</strong></em></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-q120-die2die-fig1?qlt=82&amp;wid=1200&amp;ts=1716995043830&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Die-to-Die Connectivity Diagram with Ethernet and PCI Express"></p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 1: Example of a high-performance computing and server SoC requiring die-to-die connectivity</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
+    </div>
+    <div>
 <p>Ethernet switch SoCs are at the core of the data center and must move data at faster rates from 12 Tbps to 25 Tbps which require 256 lanes of 100G SerDes interfaces, making it impossible to fit the SoC in an 800 mm2 reticle area. To overcome such a challenge, designers are splitting the SoC into a configuration where the core die is surrounded by I/O dies, as seen in Figure 2. The core die is then connected to the I/O dies using a die-to-die transceiver.</p><p>In this use case, die splitting is only effective if the bandwidth density by the die-to-die transceiver is much superior to the long reach SerDes in the I/O die. The key parameter is therefore the die-edge bandwidth density per millimeter.</p>
 <p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-q120-die2die-fig2?qlt=82&amp;wid=1200&amp;ts=1716995532799&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Illustrating Die-to-Die Connectivity via Ethernet"></p>
-<p><em><strong>Figure 2: Example of an Ethernet switch SoC requiring die-to-die connectivity</strong></em></p>
+    </div>
+    <div>
+<p><em><strong>Figure 2: Example of an Ethernet switch SoC requiring die-to-die connectivity</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
+    </div>
+    <div>
 <p>In an AI SoC, each die incorporates intelligence processing units (IPUs) and distributed SRAMs localized in the vicinity of each IPU. In such use case, the IPU in one die may need to access data located in a SRAM in another die relying on an extremely low-latency short-reach die-to-die link.</p>
 <p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-q120-die2die-fig3?qlt=82&amp;wid=1200&amp;ts=1720631623563&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Example of an AI SoC requiring die-to-die connectivity"></p>
-<p><em><strong>Figure 3: Example of an AI SoC requiring die-to-die connectivity</strong></em></p>
-<p>In all of these use cases, the ideal high-speed PHY for die-to-die connectivity can simplify the MCM packaging requirements. Due to the high throughput per lane, up to 112 Gbps, very high aggregate throughputs can be achieved with a relatively limited number of lanes. In this case, the package trace pitch and stack can be conservative (L/S of 10u/10u is common). In these use cases, traditional, low cost, organic substrate-based packaging can also be used.</p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 3: Example of an AI SoC requiring die-to-die connectivity</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
+    </div>
+    <div>
+<p>In all of these use cases, the ideal high-speed PHY for die-to-die connectivity can simplify the MCM packaging requirements. Due to the high throughput per lane, up to 112 Gbps, very high aggregate throughputs can be achieved with a relatively limited number of lanes. In this case, the package trace pitch and stack can be conservative (L/S of 10u/10u is common). In these use cases, traditional, low cost, organic substrate-based packaging can also be used.</p>
     </div>
     <div>
 <h2>High-Speed PHY IP Requirements for Die-to-Die Connectivity</h2><p>The Optical Internetworking Forum (OIF) is defining electrical I/O standards for transmission with data rates up to 112 Gbps over ultra-short reach (USR) and extra-short reach (XSR) links. These specifications define die-to-die links (i.e: within package) and die-to-die to optical engine that sits in the same package as the SoC) with significantly reduced power and complexity as well as very high throughput density.</p><p>When researching high-speed PHY IP solutions for die-to-die connectivity in MCMs, SoC designers must take several essential features into consideration, including data throughput or bandwidth measured in Giga- or Terabits per second (Gbps or Tbps), energy efficiency measured in picojoules per bit (pJ/bit), latency measured in nanoseconds (ns), maximum link reach measured in millimeter (mm), and bit error rate (unit-less).</p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
@@ -51,8 +65,10 @@
 <p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a>, <a href="/articles/category-interface-ip">Interface IP</a></p><div class="section-metadata"><div><div>anchor</div><div>8</div></div></div>
     </div>
     <div>
-<h2>Continue Reading</h2>
-<div class="cards asset"><div><div><p><strong>Blog</strong></p><h3>CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity</h3><p><a href="/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity">Read Now</a></p></div></div><div><div><p><strong>Article</strong></p><h3>World&#x27;s First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects</h3><p><a href="/articles/112g-linear-optics-phy">Read Now</a></p></div></div><div><div><p><strong>Blog</strong></p><h3>Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution</h3><p><a href="/blogs/chip-design/synopsys-pcie-leadership-recognized">Read Now</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
+<h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>
+    </div>
+    <div>
+<div class="cards asset"><div><div><img src="https://www.synopsys.com/content/dam/synopsys/blogs/chip-design/social-shares/cxl-4-0-launch-social.jpg" alt="CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity"></div><div><p><strong>Blog</strong></p><h3>CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity</h3><p><a href="/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity">Read Now</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/articles/thumbnails/q3-26-sitb-112g-fig3-thumbnail.jpg" alt="World&#x27;s First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects"></div><div><p><strong>Article</strong></p><h3>World&#x27;s First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects</h3><p><a href="/articles/112g-linear-optics-phy">Read Now</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/blogs/chip-design/images/synopsys-pcie-leadership-recognized-blog.jpg" alt="Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution"></div><div><p><strong>Blog</strong></p><h3>Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution</h3><p><a href="/blogs/chip-design/synopsys-pcie-leadership-recognized">Read Now</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
     </div>
   </main>
   <footer></footer>

@@ -403,6 +403,7 @@ main > .section.cards-container:has(.cards.people) {
 .cards.author .cards-card-body :is(h2, h3, h4) a:any-link { color: var(--ink); }
 .cards.author .cards-card-body p { font-size: 14px; line-height: 20px; }
 .cards.author .cards-card-body p a:any-link { color: var(--grey); }
+.cards.author .cards-card-cta a::after { content: none; }
 
 @media (width <= 992px) {
   .cards.pillars > ul { grid-template-columns: repeat(2, 1fr); }

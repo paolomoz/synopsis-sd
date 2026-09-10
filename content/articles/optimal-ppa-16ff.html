@@ -3,7 +3,7 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Achieve Optimal PPA for 16FFC SoCs with Foundation IP | Synopsys IP</div></div><div><div>Description</div><div>Learn how to leverage DesignWare Logic Libraries and Embedded Memories to achieve optimal Performance, Power, and Area (PPA) for 16FFC System-on-Chips.</div></div><div><div>Template</div><div>article</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/sitb-q416-optimal-ppa-16ff?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/articles">Articles</a></p><h1>Get Optimal PPA for 16FFC SoCs with Synopsys Logic Libraries &amp; Embedded Memories</h1><p>Oct 24, 2016 / 7 min read</p></div></div></div>
+<div class="hero blog slate"><div><div><p><a href="/articles">Articles</a></p><h1>Get Optimal PPA for 16FFC SoCs with Synopsys Logic Libraries &amp; Embedded Memories</h1><p>Oct 24, 2016 / 7 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
@@ -11,34 +11,52 @@
     <div>
 <h2>Synopsys IP 
             
-                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
+                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <p>TSMC recently released its fourth major 16nm process into volume production&mdash;16FFC (16nm FinFET Compact). This process provides an easy migration from 28nm processes along with significant performance, power and area advantages. To develop the most competitive <a href="/glossary/what-is-system-on-a-chip">system-on-chips (SoCs)</a> in this process, designers must choose optimized foundation IP building blocks (embedded memories and standard cell libraries) to achieve the highest SoC performance with lowest power and area. With the combination of the 16FFC process and the right foundation IP, designers can develop SoCs for applications from high-end green servers and network processors to ultra-low power mobile devices, consumer products, and wearables-and everything in-between.</p>
-<div class="columns features"><div><div><p><a href="/dw/doc.php/ds/e/dwc_nvm_xhf_otp_ds.pdf">  <img src="https://images.synopsys.com/is/image/synopsys/foundation-ip-digest-light-bkgd-thumbnail?qlt=82&amp;wid=1200&amp;ts=1761042997799&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Synopsys XHF OTP NVM IP Datasheet">  </a></p></div><div><h2>Foundation IP: Pushing the Boundaries of Energy- Efficient Chip Design</h2><p>Selected articles on trusted solutions and technical innovations</p></div></div></div>
+<div class="columns media third"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/foundation-ip-digest-light-bkgd-thumbnail?qlt=82&amp;wid=1200&amp;ts=1761042997799&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Synopsys XHF OTP NVM IP Datasheet"></p></div><div><h2>Foundation IP: Pushing the Boundaries of Energy- Efficient Chip Design</h2><p>Selected articles on trusted solutions and technical innovations</p><p><strong><a href="/resources/foundation-ip-energy-efficient-soc">Download Digest</a></strong></p></div></div></div>
     </div>
     <div>
 <p>This article describes seven ways designers can take advantage of this new process with the most advanced logic library and memory compiler technology to optimize the performance, power and area of their SoCs.</p><ol><li>Designers can improve SoC area by taking advantage of the <a href="/glossary/what-is-moores-law">Moore&rsquo;s law</a> scaling of 16nm as compared to 28nm.</li><li>FinFETs provide higher saturation currents per unit area that can be turned into improved performance through different circuit topologies that enables the use of shorter logic cells to close critical timing paths.</li><li>FinFETs have much less leakage as compared to 28nm but consume relative higher dynamic power due to increased input capacitance of the fins.</li><li>Standard cell architectures can take advantage of innovative process technology (continuous poly) to produce the densest layouts for both area and power savings aided by physical design tools co-optimized with logic libraries.</li><li>Routable high fan-in standard cells and new sequential cells with multi-delay, multi-setup and multi-bit flip-flops (MBFF) enable designers to optimize their processor cores for both performance and power.</li><li>A broad array of memory compilers using multiple bitcells with multiple periphery VTs and innovative power management features.</li><li>The combination of innovative process technology and library design capabilities along with the latest EDA tool innovations and flows enable SoC designers to use their design skills to develop the highest performance designs with the lowest die cost and consuming the lowest power.</li></ol>
     </div>
     <div>
 <h2>Process Scaling</h2><p>As part of Moore&rsquo;s Law and classic Dennard scaling, the 16FFC process offers a smaller transistor pitch (contacted poly pitch or CPP), smaller interconnect metal pitch (wire to wire, via to wire and via to via) for routing and a smaller bitcells that provide a basic area reduction. Optimized IP layout innovations can take advantage of these smaller design rules while addressing challenges of 16nm that include higher wire resistance due to thin wires, and associated electro-migration concerns for signal wires and for the power grid. These must be addressed both in IP architecture and IP validation. As seen in Figure 1, with optimized foundation IP, 16FFC provides greater than two times the area benefits and greater than 30% performance improvements as compared to 28nm.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img1?qlt=82&amp;wid=1200&amp;ts=1716555239011&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm vs 28nm Performance Comparison Chart"></p>
-<p><em><strong>Figure 1: Area vs. Performance &ndash; 28nm vs. 16nm for CPU</strong></em></p>
-<p>FinFETs provide higher saturation currents per unit area which can be turned into improved performance through different circuit topologies that enables the use of shorter logic cells to close critical timing paths.</p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img1?qlt=82&amp;wid=1200&amp;ts=1716555239011&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm vs 28nm Performance Comparison Chart"></p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 1: Area vs. Performance &ndash; 28nm vs. 16nm for CPU</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
+    </div>
+    <div>
+<p>FinFETs provide higher saturation currents per unit area which can be turned into improved performance through different circuit topologies that enables the use of shorter logic cells to close critical timing paths.</p>
     </div>
     <div>
 <h2>Reduced Gate Leakage but Increased Dynamic Power</h2><p>16FFC offers a rich palette of voltage threshold (VT) and channel lengths to cover a broad performance/leakage spectrum. Figure 2 shows a plot of logic gate performance vs leakage (log scale) that shows the design tradeoffs that can be achieved using footprint compatible standard cells at multiple VT/channel lengths.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img2?qlt=82&amp;wid=1200&amp;ts=1716557566561&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm Performance vs Leakage Graph"></p>
-<p><em><strong>Figure 2: Relative performance vs relative leakage per VT and channel length, 7.5 track (T) Ultra High Density</strong></em></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img2?qlt=82&amp;wid=1200&amp;ts=1716557566561&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm Performance vs Leakage Graph"></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 2: Relative performance vs relative leakage per VT and channel length, 7.5 track (T) Ultra High Density</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
+    </div>
+    <div>
 <p>Many mobile and Internet-of-Things (IoT) devices spend most of their time in standby or sleep state where the only power dissipated is in leakage. A major advantage of <a href="/glossary/what-is-a-finfet">FinFETs</a> is that they are functional at much lower voltages, with, of course, an associated drop in performance. Leakage is roughly proportional to the supply voltage but these savings can be considerable at low voltages.</p><p>Total power is comprised of dynamic power and leakage power. FinFETs have much less leakage as compared to 28nm or other nodes but do consume relatively higher dynamic power due to increased input capacitance of the fins and higher saturation currents. This change in relative leakage vs dynamic power can make large differences in design paradigms taken from 28nm SoCs. Figure 3 shows leakage power as a percentage of total SoC power from 180nm to 16nm. This takes much of the pressure off of designers from reducing leakage but puts more focus on reducing dynamic power at 16FFC.</p>
 <p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img3?qlt=82&amp;wid=1200&amp;ts=1716556340855&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm Leakage vs Power Chart Comparison"></p>
-<p><strong>Figure 3: Leakage as a percentage of total SoC power from 180nm to 16nm</strong></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+    </div>
+    <div>
+<p><strong>Figure 3: Leakage as a percentage of total SoC power from 180nm to 16nm</strong></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>Managing Dynamic Power = CFV2</h2><p>Since SoC performance is mandated by the application spec, designer-controllable sources of dynamic power include managing switching frequencies through use of aggressive clock gating, minimizing capacitance and minimizing operating voltages. Wiring capacitance is minimized with dense, optimized layouts and shorter wiring runs. (Input capacitance can be minimized by using libraries optimized with the best cell heights for a given function at a given frequency). Standard cells can be built in multiple heights (3 fin, 4 fin and 5 fin) to match the target frequency of the block in both performance and reliability. Figure 4 shows the input capacitance of 1X drive inverters at the three different track heights (7.5T, 9T, 10.5T). Other cells would show similar trends.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img4?qlt=82&amp;wid=1200&amp;ts=1716556541003&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm Architecture Comparison Chart"></p>
-<p><em><strong>Figure 4: Input capacitance of 1X inverter per standard cell architecture</strong></em></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img4?qlt=82&amp;wid=1200&amp;ts=1716556541003&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm Architecture Comparison Chart"></p><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 4: Input capacitance of 1X inverter per standard cell architecture</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
+    </div>
+    <div>
 <p>Depending on the block function and frequency, using the Ultra High Density (UHD) 7.5 track library for a block will not have the highest performance compared to the High Density (HD) 9 track library for the same block, but will consume ~25% less power due to reduced device capacitance. In addition, dynamic power can be reduced by a factor of V2 when lowering the block voltage. Figure 5 plots leakage power (dotted line) and dynamic power (solid line) of comparable blocks at different nominal voltages. The reduction in dynamic power at low voltages is due to the V2 component.</p>
 <p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img5?qlt=82&amp;wid=1200&amp;ts=1716556678588&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm Leakage and Dynamic Power Chart"></p>
-<p><em><strong>Figure 5: Performance vs leakage and dynamic power at multiple nominal voltages</strong></em></p><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 5: Performance vs leakage and dynamic power at multiple nominal voltages</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>Logic Library Design for Significant Block PPA Improvements</h2><p>Combining the benefits of the new TSMC 16FFC processes with optimized layout and innovative logic library circuit design provides design engineers who create blocks of digital logic from RTL through synthesis and place and route with several advantages. Routed block density is critical to saving both die area and saving power.</p><div class="section-metadata"><div><div>anchor</div><div>4</div></div></div>
@@ -54,8 +72,10 @@
     </div>
     <div>
 <h2>Memory Compiler Design for Significant PPA Improvements</h2><p>Optimized for low power, high performance and high density, DesignWare&reg; Memory Compilers offer advanced power management features such as light sleep, deep sleep, shut down and dual power rails, write assist, allowing designers to meet the stringent low-power requirements of today&#x27;s SoCs. DesignWare Memory Compilers are closely coupled with the DesignWare STAR Memory System&trade;, providing an integrated embedded memory test solution to detect and repair manufacturing faults for the highest possible yield with least impact on chip area. DesignWare Memory Compilers are silicon-proven with billions of chips shipping in volume, enabling designers to reduce risk and speed time-to-market.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img6?qlt=82&amp;wid=1200&amp;ts=1716557190747&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm SRAM IP Blocks for Optimal PPA"></p>
-<p><em><strong>Figure 6: Broad portfolio of DesignWare Memory Compilers for a variety of applications</strong></em></p><div class="section-metadata"><div><div>anchor</div><div>8</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-get-optimal-ppa-2016q4-img6?qlt=82&amp;wid=1200&amp;ts=1716557190747&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TSMC 16nm SRAM IP Blocks for Optimal PPA"></p><div class="section-metadata"><div><div>anchor</div><div>8</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 6: Broad portfolio of DesignWare Memory Compilers for a variety of applications</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>Summary</h2><p>TSMC&rsquo;s 16FFC process offers improvements in process rules and variability to enable smaller designs at higher performances, using less power. Leading synthesis and place and route tools can best take advantage of these process improvements to meet demanding design specifications if they have the right set of logic libraries and embedded memories that take full advantage of these new process capabilities. The Synopsys DesignWare Logic Libraries with leading <a href="/glossary/what-is-electronic-design-automation">EDA tools</a>, memory compilers and the complete line of interface IP are designed to enable SoC designers to push the limits of performance, area and power and fully utilize the capabilities of this new process for SoCs with the smallest area and highest megahertz per milliwatt.</p><p><a href="/designware-ip/memories-logic-libraries/hpc-design-kit">Learn more about accelerating high&#8209;performance, low&#8209;power SoC design on TSMC 16FFC</a></p>
@@ -63,8 +83,10 @@
 <p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a>, <a href="/articles/category-foundation-ip">Foundation IP</a></p><div class="section-metadata"><div><div>anchor</div><div>9</div></div></div>
     </div>
     <div>
-<h2>Continue Reading</h2>
-<div class="cards asset"><div><div><p><strong>White Paper</strong></p><h3>Beating the Edge AI Power Wall with Low Voltage Foundation IP</h3><p>How silicon-proven logic, memory, and I/O at ~0.4&ndash;0.5V deliver predictable PPA and faster convergence</p><p><a href="/resources/edge-ai-low-voltage-ip">Download</a></p></div></div><div><div><p><strong>White Paper</strong></p><h3>Accelerating Automotive Innovation: SRAM Compiler Breakthroughs for 5nm and 3nm SoCs</h3><p><a href="/resources/sram-compiler-breakthroughs-5nm-3nm-socs">Download</a></p></div></div><div><div><p><strong>Article</strong></p><h3>Addressing AI and Advanced Packaging Challenges with Synopsys 3DIO PHY</h3><p><a href="/articles/addressing-ai-advanced-packaging-3dio-phy">Learn more</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
+<h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>
+    </div>
+    <div>
+<div class="cards asset"><div><div><img src="https://www.synopsys.com/content/dam/synopsys/white-paper/registration-image/beating-edge-ai-power-wall-wp-reg-page-open-book.png" alt="Beating the Edge AI Power Wall with Low Voltage Foundation IP"></div><div><p><strong>White Paper</strong></p><h3>Beating the Edge AI Power Wall with Low Voltage Foundation IP</h3><p>How silicon-proven logic, memory, and I/O at ~0.4&ndash;0.5V deliver predictable PPA and faster convergence</p><p><a href="/resources/edge-ai-low-voltage-ip">Download</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/white-paper/thumbnails/embedded-memory-q226-wp-light-bkgd-thumbnail.jpg" alt="Accelerating Automotive Innovation: SRAM Compiler Breakthroughs for 5nm and 3nm SoCs"></div><div><p><strong>White Paper</strong></p><h3>Accelerating Automotive Innovation: SRAM Compiler Breakthroughs for 5nm and 3nm SoCs</h3><p><a href="/resources/sram-compiler-breakthroughs-5nm-3nm-socs">Download</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/articles/social-shares/sitb-q226-3dio-article-fig1-social.jpg" alt="Addressing AI and Advanced Packaging Challenges with Synopsys 3DIO PHY"></div><div><p><strong>Article</strong></p><h3>Addressing AI and Advanced Packaging Challenges with Synopsys 3DIO PHY</h3><p><a href="/articles/addressing-ai-advanced-packaging-3dio-phy">Learn more</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
     </div>
   </main>
   <footer></footer>

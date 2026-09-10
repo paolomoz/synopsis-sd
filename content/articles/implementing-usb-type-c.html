@@ -3,7 +3,7 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Implementing USB Type-C in High-Speed USB Products | Synopsys IP</div></div><div><div>Description</div><div>Learn about the steps and considerations for implementing USB Type-C in high-speed USB products for efficient, low-cost connectivity.</div></div><div><div>Template</div><div>article</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/sitb-q315-implementing-usb-type-c?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/articles">Articles</a></p><h1>Implementing USB Type-C in High-Speed USB Products</h1><p><a href="/authors/morten-christiansen">Morten Christiansen</a></p><p>Jul 27, 2015 / 8 min read</p></div></div></div>
+<div class="hero blog slate"><div><div><p><a href="/articles">Articles</a></p><h1>Implementing USB Type-C in High-Speed USB Products</h1><p><a href="/authors/morten-christiansen">Morten Christiansen</a></p><p>Jul 27, 2015 / 8 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
@@ -11,9 +11,11 @@
     <div>
 <h2>Synopsys IP 
             
-                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
+                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <p>USB Type-C has arrived! Products have been announced in almost every conceivable product category, and many are shipping in volume. Consumers appreciate the simplicity of the new USB Type-C connector and expect most products with USB to offer Type-C connectivity in the near future.</p><p>Many of the initial products using the Type-C connector run at the USB high-speed rate of 480 Mbps. This article will help designers who plan to convert existing high-speed USB products using older ASICs or SoCs without native USB Type-C support.</p>
-<div class="columns features"><div><div><p><a href="/designware-ip/resources/looking-into-linear-pluggable-optics">  <img src="https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&amp;wid=1200&amp;ts=1771948409845&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Why HPC Chip Designers are Looking into Linear Pluggable Optics">  </a></p></div><div><h2>AI Doesn&rsquo;t Scale by Accident</h2><p>Explore the IP that enables high-performance, scalable AI systems</p></div></div></div>
+<div class="columns media third"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&amp;wid=1200&amp;ts=1771948409845&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Why HPC Chip Designers are Looking into Linear Pluggable Optics"></p></div><div><h2>AI Doesn&rsquo;t Scale by Accident</h2><p>Explore the IP that enables high-performance, scalable AI systems</p><p><strong><a href="/resources/inside-ai-accelerator">Download eBook</a></strong></p></div></div></div>
     </div>
     <div>
 <h2>Mechanical Conversion to Type-C</h2><p>The Type-C receptacle, with 24 pins, is only slighter larger than a 5-pin micro-USB receptacle. Most existing products with micro-B USB can easily be modified mechanically for Type-C by mounting the receptacle low on the PCB (midmount) as shown in Figure 1.</p>
@@ -22,8 +24,10 @@
     </div>
     <div>
 <h2>High-Speed Datapath Adaptation for Type-C</h2><p>Orientation-agnostic insertion of a Type-C plug is possible due to signaling duplication with symmetry around both X and Y-axis in the Type-C receptacle (Figure 2). SuperSpeed (5G) signal integrity suffers when routing the same SuperSpeed RX/TX signals to both positions in the receptacle. SuperSpeed signaling uses dual PHYs or a switch to route the active signal to the appropriate receptacle pins. The active receptacle position depends on the plug orientation.</p><p>High-speed USB requires significantly lower bandwidth than SuperSpeed or SuperSpeedPlus (10G), so high-speed D+/D- signals are centered in the receptacle. This allows the high-speed USB D+/D- pins to be routed to both positions (pins A6/A7 and B6/B7) without affecting signal integrity. This solution simplifies the conversion of high-speed, full speed or low speed products to Type-C.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/usb-type-c-img2?qlt=82&amp;wid=1200&amp;ts=1716289020949&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="USB Type-C Pin Configuration Diagram Highlighting ID Pin"></p>
-<p><em><strong>Figure 2: Type-C receptacle pins show X and Y axis symmetry<br> <a href="https://www.usb.org/documents">Source: USB Type-C specification version 1.1, April 2015, Figure 2-1</a></strong></em></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/usb-type-c-img2?qlt=82&amp;wid=1200&amp;ts=1716289020949&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="USB Type-C Pin Configuration Diagram Highlighting ID Pin"></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 2: Type-C receptacle pins show X and Y axis symmetry<br> <a href="https://www.usb.org/documents">Source: USB Type-C specification version 1.1, April 2015, Figure 2-1</a></strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>Host/Device Role and Configuration Channel</h2><p>For classic USB connections, the host and device roles were determined by connector type: standard-A for hosts, standard-B or micro-B for device, and micro-AB for dual role. For micro-AB, the ID-pin determines host or device. The new Type-C hosts and Type-C devices use the same receptacle. No ID pin is required because Type-C products signal host, device or accessory roles with pullup and pulldown resistors (Figure 3).</p>
@@ -56,8 +60,10 @@
 <p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a>, <a href="/articles/category-interface-ip">Interface IP</a></p><div class="section-metadata"><div><div>anchor</div><div>10</div></div></div>
     </div>
     <div>
-<h2>Continue Reading</h2>
-<div class="cards asset"><div><div><p><strong>Blog</strong></p><h3>CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity</h3><p><a href="/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity">Read Now</a></p></div></div><div><div><p><strong>Article</strong></p><h3>World&#x27;s First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects</h3><p><a href="/articles/112g-linear-optics-phy">Read Now</a></p></div></div><div><div><p><strong>Blog</strong></p><h3>Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution</h3><p><a href="/blogs/chip-design/synopsys-pcie-leadership-recognized">Read Now</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
+<h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>
+    </div>
+    <div>
+<div class="cards asset"><div><div><img src="https://www.synopsys.com/content/dam/synopsys/blogs/chip-design/social-shares/cxl-4-0-launch-social.jpg" alt="CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity"></div><div><p><strong>Blog</strong></p><h3>CXL 4.0 Arrives &mdash; Synopsys Unlocks the Next Leap in AI-Scale Memory Connectivity</h3><p><a href="/blogs/chip-design/cxl-4-ip-solution-ai-memory-connectivity">Read Now</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/articles/thumbnails/q3-26-sitb-112g-fig3-thumbnail.jpg" alt="World&#x27;s First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects"></div><div><p><strong>Article</strong></p><h3>World&#x27;s First Standards-Compliant 112G PHY IP for Linear Optics: A Turning Point for AI Interconnects</h3><p><a href="/articles/112g-linear-optics-phy">Read Now</a></p></div></div><div><div><img src="https://www.synopsys.com/content/dam/synopsys/blogs/chip-design/images/synopsys-pcie-leadership-recognized-blog.jpg" alt="Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution"></div><div><p><strong>Blog</strong></p><h3>Synopsys PCIe Leadership Recognized: Paul Cassidy Joins a Track Record of PCI-SIG Contribution</h3><p><a href="/blogs/chip-design/synopsys-pcie-leadership-recognized">Read Now</a></p></div></div></div><div class="section-metadata"><div><div>style</div><div>tinted</div></div></div>
     </div>
   </main>
   <footer></footer>
