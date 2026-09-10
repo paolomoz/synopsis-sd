@@ -84,14 +84,13 @@ function buildWidgetAutoBlocks(main) {
 function buildShareBlock(main) {
   if (!document.body.classList.contains('article') || main.querySelector('.share')) return;
   const sections = [...main.children];
-  const isRail = (div) => [...div.querySelectorAll(':scope > .section-metadata div')].some((d) => /^(rail|toc)$/i.test(d.textContent.trim())) || div.querySelector(':scope > .toc, :scope > .form');
+  const isRail = (div) => div.classList.contains('rail') || div.querySelector(':scope > .toc, :scope > .form');
   const anchor = sections.filter(isRail).pop() || sections.find((d) => d.querySelector(':scope > .hero'));
   if (!anchor) return;
-  const section = document.createElement('div');
+  // section styles are applied by the pipeline at render time (section-metadata → class), so set the class directly
+  const section = document.createElement('div'); section.className = 'rail';
   const block = document.createElement('div'); block.className = 'share'; block.append(document.createElement('div'));
-  const meta = document.createElement('div'); meta.className = 'section-metadata';
-  meta.innerHTML = '<div><div>style</div><div>rail</div></div>';
-  section.append(block, meta);
+  section.append(block);
   anchor.after(section);
 }
 

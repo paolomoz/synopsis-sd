@@ -16,19 +16,20 @@ async function enrichAuthor(block) {
   // authored rows (the server-rendered snapshot also lists non-article pages such as webinars) — union by path, newest first
   const name = (document.querySelector('.author .author-name h2, .author .author-name h1, .author h2')?.textContent || '').trim();
   if (!name) return;
+  // snapshot the authored rows synchronously: decorate() moves them into <li>s as soon as this function yields
+  const authoredRows = [...block.querySelectorAll(':scope > div')].map((row) => ({ href: row.querySelector('h3 a, a[href]')?.getAttribute('href') || '', text: row.textContent, html: row.innerHTML }));
   try {
     const { getIndex, cardMarkup } = await import('../../scripts/index.js');
     const rows = (await getIndex()).filter((r) => (r.author || '').split(/,\s*/).includes(name));
     if (!rows.length) return;
     const seen = new Set(rows.map((r) => r.path));
     const items = rows.map((r) => ({ ts: Number(r.publishedTs) || 0, html: cardMarkup(r) }));
-    [...block.querySelectorAll(':scope > div')].forEach((row) => {
-      const href = row.querySelector('h3 a, a[href]')?.getAttribute('href') || '';
-      const path = href.replace(/^https?:\/\/[^/]+/, '').split(/[?#]/)[0];
+    authoredRows.forEach((row) => {
+      const path = row.href.replace(/^https?:\/\/[^/]+/, '').split(/[?#]/)[0];
       if (!path || seen.has(path)) return;
       seen.add(path);
-      const m = row.textContent.match(/\b([A-Z][a-z]{2} \d{1,2}, \d{4})\b/);
-      items.push({ ts: m ? Date.parse(m[1]) / 1000 : 0, html: row.innerHTML });
+      const m = row.text.match(/\b([A-Z][a-z]{2} \d{1,2}, \d{4})\b/);
+      items.push({ ts: m ? Date.parse(m[1]) / 1000 : 0, html: row.html });
     });
     items.sort((a, b) => b.ts - a.ts);
     const ul = document.createElement('ul');
