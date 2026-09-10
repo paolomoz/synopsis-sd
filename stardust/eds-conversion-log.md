@@ -143,3 +143,30 @@ background drift (79–91%) — see the plugin note. Residuals: Brightcove poste
 Learnings tracked in the stardust plugin source: branch `synopsys-chrome-states` in `/Users/paolo/excat/skills`
 (`plugins/stardust/notes/chrome-states-learnings-synopsys.md`, recreation-procedure § Chrome interaction states,
 source-fidelity-gate item 5, `replica/scripts/chrome-states.mjs`, CHANGELOG Unreleased).
+
+## Random 1:1 review round (2026-09-10)
+Ten random live/EDS pairs were reviewed side by side; six carried defects the template gates never saw. Each was
+traced to its source component and fixed for every page that uses it (re-import of 4,184 pages, 3,366 changed pages
+redeployed with `--force`):
+- Rich-text `<table>` → `table` block (a raw table in a DA document becomes a block named after its first cell);
+  `header`/`no-header` by bold first row. New `blocks/table`.
+- `.component-spotlight` (glossary "Definition") → `spotlight` block (framed callout, indented title). New block.
+- Brightcove player/playlist (`data-video-id` / `data-playlist-id`, also inside `htmlTextOnly`) and YouTube →
+  `video` block (iframe embed). New block.
+- Author pages: `author` block (photo, name, bio, follow) in a `rail-right` section + `cards author` rows built from
+  `.cmp-blogsdev__mra-item-container`; the single heading is promoted to h1 (32/300 like the source h2).
+- "Continue Reading" `dynamicCards` in a slick carousel → `carousel blog` (images, last link = CTA).
+- Text + image columns keep the source span: `columns media narrow` (col-sm-3) / `third` (col-sm-4); intrinsic size, no upscaling.
+- Right-rail pages (col-sm-9 + col-sm-3 with rail cards / downloads / CTAs) → `rail-right` section floated beside
+  `main` sections; rail cards as purple flag ribbons; `main::after` clears floats before the footer.
+- Article left rail: non-TOC/form components become `rail` sections (excluded from the TOC).
+- Blog hero full-bleed; technical-bulletin articles get the `slate` gradient; the date/read-time slash is spaced.
+- Text components with `text-align-center` → `centered` section style (Continue Reading heading centered purple).
+- Gated form pages: wrapper `purpleGradientBackground` / `darkGreyGradientBackground` → `purple` / `dark` section
+  styles with white copy; the form title comes from the form column ("Download Now", "Watch On-Demand").
+- Asset cards whose image lives only in `data-cmp-data-layer` JSON get it from there.
+- `<p><li>` orphan list items are wrapped back into lists.
+- 53 images that 404/403 on www.synopsys.com were stripped from 22 pages; one 30MB source JPEG was resized to 2000px
+  and served from DA media (html2md rejects it otherwise).
+Result: 4,185 of 4,186 documents live; `/verification/resources` still carries an `about:error` image (source fails
+inside html2md). Learnings recorded in the stardust plugin branch (`notes/chrome-states-learnings-synopsys.md`, addendum).

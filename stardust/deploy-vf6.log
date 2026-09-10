@@ -1,0 +1,25 @@
+{"t":"2026-09-10T14:24:11.571Z","path":"/careers/global/south-asia","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:11.572Z","path":"/ai/ai-powered-eda/tso-ai","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:14.155Z","path":"/blogs/chip-design/soc-hbm2e-capacity-speed-benefits","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:18.856Z","path":"/cloud/analog-saas","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:19.489Z","path":"/cloud/digital-saas","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:21.753Z","path":"/community/resources","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:25.037Z","path":"/company/contact-synopsys/office-locations/armenia/research-development","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:26.792Z","path":"/company/resources/synopsys-press/low-power-methodology-manual-download","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:28.546Z","path":"/company/resources/synopsys-press","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:31.250Z","path":"/manufacturing/resources","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:35.188Z","path":"/photonic-solutions/optsim/sensing","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:35.741Z","path":"/photonic-solutions/optocompiler/optsim-photonic-ic","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:37.341Z","path":"/photonic-solutions/product-applications/advanced-modulation-formats","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:42.413Z","path":"/photonic-solutions/product-applications/coherent-fiber-optic","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:42.960Z","path":"/photonic-solutions/product-applications/optical-amplifiers","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:44.152Z","path":"/photonic-solutions/product-applications/optical-networks","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:51.913Z","path":"/photonic-solutions/product-applications/performance-estimation","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:52.510Z","path":"/photonic-solutions/product-applications/photonic-integrated-circuits","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:53.053Z","path":"/photonic-solutions/product-applications/pon-catv-rof","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:58.787Z","path":"/photonic-solutions/product-applications/transmission-impairments-fiber","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:24:58.815Z","path":"/resources/interface-ip-subsystems-datasheet","step":"verify","ok":true}
+{"t":"2026-09-10T14:24:59.984Z","path":"/resources/ip-3d-multi-die-design","step":"verify","ok":true}
+{"t":"2026-09-10T14:25:05.779Z","path":"/verification/resources","step":"verify","ok":false,"why":"about:error in delivered html"}
+{"t":"2026-09-10T14:25:06.272Z","path":"/webinars/architecting-physical-ai-socs-standards-ip","step":"verify","ok":true}
+{"t":"2026-09-10T14:25:06.551Z","path":"/silicon-design","step":"verify","ok":false,"why":"about:error in delivered html"}

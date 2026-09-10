@@ -488,6 +488,29 @@
     "/company/resources/synopsys-press/low-power-methodology-manual-download"
    ],
    "residualWhy": "published, but carry <img src=\"about:error\"> because the source images 404 on www.synopsys.com (broken 200_ Dynamic Media URLs)"
+  },
+  "reviewRound": {
+   "at": "2026-09-10T14:39:56Z",
+   "trigger": "user 1:1 review of 10 random live/EDS pairs (6 with findings)",
+   "fixes": [
+    "spotlight block (glossary Definition, 172 pages)",
+    "table block from rich-text tables (255)",
+    "video block: Brightcove player/playlist + YouTube (122)",
+    "author block + cards author rows (442 author pages)",
+    "carousel blog for dynamicCards Continue Reading (1,298)",
+    "columns media narrow/third widths, no upscaling (587)",
+    "right-rail layout: rail-right + main sections (585 pages incl. authors)",
+    "article left-rail sections + TOC exclusion",
+    "full-bleed blog hero, slate family for technical-bulletin articles, spaced date slash",
+    "centered heading sections",
+    "gradient form pages (purple/dark) + real form titles",
+    "data-layer card images",
+    "orphan <p><li> lists",
+    "origin-broken images stripped (53 across 22 pages)",
+    "30MB source JPEG resized to DA media"
+   ],
+   "redeployed": 3366,
+   "result": "4,185 of 4,186 live; /verification/resources carries an about:error image whose source fails in html2md"
   }
  },
  "chromeStates": {
