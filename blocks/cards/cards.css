@@ -345,6 +345,7 @@ main > .section.cards-container:has(.cards.people) {
   .cards.benefits > ul > li { width: 100%; margin-bottom: 32px; }
   .cards.pillars > ul { grid-template-columns: 1fr; }
   .cards.pillars > ul > li { height: 320px; }
-  .cards.people > ul { grid-template-columns: repeat(2, 1fr); }
+  .cards.people > ul, .cards.people > ul:has(> li:only-child) { grid-template-columns: 1fr; }
+  .cards.people > ul > li { width: 70%; max-width: none; margin: 0 auto 30px; }
   .cards.news > ul > li { grid-template-columns: 1fr; }
 }
