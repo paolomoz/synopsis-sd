@@ -32,6 +32,31 @@ def absurl(u):
     if not re.match(r'^[a-z]+:', u): return urljoin(PAGE_URL, u)
     return u
 
+def slug_path(path):
+    """EDS-safe page path: lowercase a-z0-9- segments; `.php`/`.html` dropped; query values become trailing segments."""
+    from urllib.parse import urlsplit, parse_qsl
+    u = urlsplit(path); segs = [x for x in u.path.split('/') if x]
+    segs += [v for _, v in parse_qsl(u.query, keep_blank_values=True)]
+    out = []
+    for seg in segs:
+        seg = re.sub(r'\.(html|php)$', '', seg.lower())
+        seg = re.sub(r'[^a-z0-9]+', '-', seg).strip('-')
+        if seg: out.append(seg)
+    return '/' + '/'.join(out) if out else '/'
+
+def _inventory_slugs():
+    m = {}
+    try:
+        for line in open('stardust/inventory.txt'):
+            u = line.strip()
+            if not u: continue
+            key = u.replace(LIVE, ''); key = re.sub(r'\.html(?=[#?]|$)', '', key) or '/'
+            sl = slug_path(key)
+            if sl != key: m[key] = sl
+    except FileNotFoundError: pass
+    return m
+SLUG_MAP = _inventory_slugs()
+
 def localize(href):
     if not href: return '#'
     h = href.strip()
@@ -41,6 +66,8 @@ def localize(href):
         h = re.sub(r'\.html(?=[#?]|$)', '', h)
         if len(h) > 1 and h.endswith('/'): h = h[:-1]
         if not h: h = '/'
+        base, frag = (h.split('#', 1) + [''])[:2]
+        if base in SLUG_MAP: h = SLUG_MAP[base] + ('#' + frag if frag else '')
         return h
     return h
 
@@ -785,7 +812,8 @@ def import_page(raw_html, url, page_type=None):
     return '\n'.join(out), {'title': title, 'sections': len([s for s in page.sections if s['items']]), 'h1': page.h1_used}
 
 def out_path_for(url, out_dir):
-    p = url.replace(LIVE, '').strip('/'); p = re.sub(r'\.html$', '', p)
+    p = url.replace(LIVE, ''); p = re.sub(r'\.html(?=[#?]|$)', '', p) or '/'
+    p = slug_path(p).strip('/')
     if not p: p = 'index'
     return os.path.join(out_dir, p + '.html')
 
