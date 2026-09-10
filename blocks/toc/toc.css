@@ -32,3 +32,31 @@
 main .section.toc-empty {
   display: none;
 }
+
+/* mobile: collapsed accordion bar (live .cmp-tableofcontents__header on ≤729) */
+@media (width <= 729px) {
+  .toc .toc-box { padding: 0; }
+  .toc .toc-title {
+    position: relative;
+    margin: 0;
+    padding: 14px 40px 14px 15px;
+    background: var(--mist, #f7f7fa);
+    color: var(--ink);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  .toc .toc-title::after {
+    content: "";
+    position: absolute;
+    right: 18px;
+    top: 22px;
+    border: 5px solid transparent;
+    border-top: 6px solid var(--ink);
+  }
+  .toc .toc-title[aria-expanded="true"]::after { transform: translateY(-4px) rotate(180deg); }
+  .toc ul { display: none; margin: 8px 15px 0; }
+  .toc .toc-title[aria-expanded="true"] + ul { display: block; }
+  main .section.toc-container > div { padding: 0; }
+}

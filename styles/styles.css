@@ -523,8 +523,9 @@ body.listing main .section .default-content-wrapper h2 {
   body.article main > .section.toc-container > div,
   body.article main > .section.form-container > div { padding: 0 15px; }
   body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div { margin: 0; padding: 0 15px; }
-  body.form main > .section.form-container { display: block; }
-  body.form main > .section.form-container > div + div { margin-top: 32px; }
+  /* live mobile order: form panel first, then the gated copy */
+  body.form main > .section.form-container { display: flex; flex-direction: column; padding: 30px 15px; }
+  body.form main > .section.form-container > .form-wrapper { order: -1; margin-bottom: 32px; }
   main .section .default-content-wrapper h1 { font-size: 32px; line-height: 1.1; }
 }
 

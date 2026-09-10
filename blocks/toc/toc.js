@@ -10,6 +10,10 @@ export default async function decorate(block) {
   const box = document.createElement('div');
   box.className = 'toc-box';
   const t = document.createElement('div'); t.className = 'toc-title'; t.textContent = label;
+  t.setAttribute('role', 'button'); t.setAttribute('tabindex', '0'); t.setAttribute('aria-expanded', 'false');
+  const toggle = () => t.setAttribute('aria-expanded', t.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+  t.addEventListener('click', toggle);
+  t.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
   const ul = document.createElement('ul');
   heads.forEach((h, i) => {
     if (h.tagName !== 'H2') return;
