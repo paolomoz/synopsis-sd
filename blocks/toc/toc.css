@@ -1,0 +1,32 @@
+/* toc — article table of contents (lifted: .table-of-contents-article-layout) */
+.toc .toc-box {
+  padding: 0 0 24px;
+}
+
+.toc .toc-title {
+  margin: 0 0 16px;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.toc a:any-link {
+  color: var(--ink);
+}
+
+main .section.toc-empty {
+  display: none;
+}

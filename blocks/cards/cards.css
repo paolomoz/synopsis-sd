@@ -1,21 +1,20 @@
-/* cards — default (collection) + `benefits` variant (lifted: .cmp-key-benefits) */
+/* cards — collection default + synopsys.com variants (values lifted from live computed styles) */
 .cards > ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .cards > ul > li {
-  border: 1px solid var(--grey-light);
-  border-radius: var(--radius);
   background-color: #fff;
+  box-shadow: var(--shadow-card);
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 32px;
 }
 
 .cards .cards-card-image {
@@ -23,12 +22,66 @@
 }
 
 .cards > ul > li img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
-/* benefits: icon + title tiles, 3 columns, no card chrome */
+.cards .cards-card-body :is(h2, h3, h4) {
+  margin: 20px 0;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.cards .cards-card-body p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+}
+
+.cards .cards-card-label p {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: var(--purple);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.cards .cards-card-label p strong {
+  font-weight: 400;
+}
+
+.cards .cards-card-cta {
+  margin: 20px 0 0;
+}
+
+.cards .cards-card-cta a:any-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--link);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.cards .cards-card-cta a::after {
+  content: "";
+  display: inline-block;
+  width: 7.5px;
+  height: 12px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23316aca' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* ---- benefits: icon + title tiles, 3 columns, no card chrome ---- */
 .cards.benefits > ul {
   display: flex;
   flex-wrap: wrap;
@@ -39,23 +92,21 @@
 .cards.benefits > ul > li {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   width: 33.3333%;
+  margin-bottom: 48px;
   padding: 0 15px;
   border: 0;
-  border-radius: 0;
   background: transparent;
+  box-shadow: none;
   gap: 16px;
-  margin-bottom: 64px;
 }
 
 .cards.benefits .cards-card-image {
   flex: none;
-  line-height: 0;
 }
 
 .cards.benefits > ul > li img {
-  display: block;
   width: 50px;
   height: 50px;
   aspect-ratio: auto;
@@ -64,14 +115,12 @@
 
 .cards.benefits .cards-card-body {
   flex: 1;
-  margin: 0;
   min-height: 56px;
-  display: flex;
-  align-items: center;
+  padding: 0;
 }
 
-.cards.benefits .cards-card-body p {
-  max-height: 56px; /* source clamps the tile title to two lines */
+.cards.benefits .cards-card-body > p:first-child {
+  max-height: 56px;
   margin: 0;
   overflow: hidden;
   color: var(--ink);
@@ -80,9 +129,204 @@
   line-height: 28px;
 }
 
+.cards.benefits .cards-card-body > p:not(:first-child) {
+  flex-basis: 100%;
+  margin: 16px 0 0;
+}
+
+/* ---- asset: resource cards, 3/4-up ---- */
+.cards.asset > ul {
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+}
+
+.cards.asset > ul > li {
+  min-height: 283px;
+}
+
+/* ---- blog: image cards ---- */
+.cards.blog > ul > li {
+  box-shadow: none;
+}
+
+.cards.blog .cards-card-body {
+  padding: 16px 0 0;
+}
+
+.cards.blog .cards-card-body > p:first-child {
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.cards.blog .cards-card-body :is(h2, h3, h4) {
+  margin: 0 0 12px;
+}
+
+.cards.blog .cards-card-body :is(h2, h3, h4) a:any-link {
+  color: var(--ink);
+}
+
+.cards.blog .cards-card-body p {
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.cards.blog .cards-card-body p a:any-link {
+  color: var(--grey);
+}
+
+/* ---- news: content tiles (image left) ---- */
+.cards.news > ul {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.cards.news > ul > li {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  box-shadow: none;
+  border-bottom: 1px solid var(--grey-light);
+  padding-bottom: 20px;
+}
+
+.cards.news .cards-card-body {
+  padding: 0;
+}
+
+.cards.news .cards-card-body :is(h2, h3, h4) {
+  margin: 8px 0;
+}
+
+.cards.news .cards-card-body :is(h2, h3, h4) a:any-link {
+  color: var(--ink);
+}
+
+/* ---- pillars: 4-up image tiles with overlay label ---- */
+.cards.pillars > ul {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.cards.pillars > ul > li {
+  position: relative;
+  height: 434px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--ink);
+}
+
+.cards.pillars .cards-card-image,
+.cards.pillars > ul > li img {
+  height: 100%;
+  aspect-ratio: auto;
+}
+
+.cards.pillars .cards-card-image {
+  position: absolute;
+  inset: 0;
+}
+
+.cards.pillars .cards-card-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgb(17 28 36 / 0%) 40%, rgb(17 28 36 / 75%) 100%);
+}
+
+.cards.pillars .cards-card-body {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.cards.pillars .cards-card-body :is(h2, h3, h4) {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cards.pillars .cards-card-body p,
+.cards.pillars .cards-card-cta {
+  display: none;
+}
+
+/* ---- people: portrait grid ---- */
+.cards.people > ul {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.cards.people > ul > li {
+  box-shadow: none;
+  text-align: center;
+}
+
+.cards.people > ul > li img {
+  aspect-ratio: 1 / 1;
+}
+
+.cards.people .cards-card-body {
+  padding: 24px 0 0;
+}
+
+.cards.people .cards-card-body :is(h2, h3) {
+  margin: 0 0 12px;
+  color: var(--purple-dark);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.cards.people .cards-card-body p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards.people .cards-card-cta {
+  margin: 0;
+}
+
+.cards.people .cards-card-cta a::after {
+  content: none;
+}
+
+/* ---- tiles / rail: generic ---- */
+.cards.tiles > ul > li {
+  box-shadow: none;
+}
+
+.cards.tiles .cards-card-body {
+  padding: 0;
+}
+
+.cards.rail > ul {
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.cards.rail > ul > li {
+  border-left: 4px solid var(--purple);
+}
+
+.cards.rail .cards-card-body {
+  padding: 16px;
+}
+
+@media (width <= 992px) {
+  .cards.pillars > ul { grid-template-columns: repeat(2, 1fr); }
+  .cards.people > ul { grid-template-columns: repeat(3, 1fr); }
+}
+
 @media (width <= 729px) {
-  .cards.benefits > ul > li {
-    width: 100%;
-    margin-bottom: 48px;
-  }
+  .cards.benefits > ul > li { width: 100%; margin-bottom: 32px; }
+  .cards.pillars > ul { grid-template-columns: 1fr; }
+  .cards.pillars > ul > li { height: 320px; }
+  .cards.people > ul { grid-template-columns: repeat(2, 1fr); }
+  .cards.news > ul > li { grid-template-columns: 1fr; }
 }

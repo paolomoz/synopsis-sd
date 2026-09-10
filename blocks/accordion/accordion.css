@@ -1,0 +1,43 @@
+/* accordion (lifted: .component-faq .accordion-list) */
+.accordion .accordion-item {
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.accordion .accordion-head {
+  position: relative;
+  padding: 20px 48px 20px 0;
+  cursor: pointer;
+}
+
+.accordion .accordion-head p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--ink);
+}
+
+.accordion .accordion-head::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 26px;
+  width: 12px;
+  height: 16px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23111c24' d='M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9S300.9 192 288 192H32c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.accordion .accordion-head[aria-expanded="true"]::after {
+  transform: scaleY(-1);
+}
+
+.accordion .accordion-body {
+  padding: 0 0 24px;
+}
+
+.accordion .accordion-body p,
+.accordion .accordion-body li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+}

@@ -1,0 +1,79 @@
+/* form (lifted: .snps-aem-mktoForm / .cmp-subscription-form) */
+.form .form-panel {
+  padding: 32px 40px 40px;
+  background: var(--mist);
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 22%);
+}
+
+.form .form-title {
+  margin: 0 0 24px;
+  color: var(--purple-dark);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.form .form-required {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form .form-required span,
+.form .form-req {
+  color: #c00;
+}
+
+.form .form-field {
+  margin: 0 0 16px;
+}
+
+.form label {
+  display: block;
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--ink);
+}
+
+.form input,
+.form select {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--grey-light);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form .form-note {
+  margin: 8px 0 20px;
+  color: var(--grey);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form .form-submit {
+  display: inline-block;
+  height: 40px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 4px;
+  background: #80539c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.form .form-thanks {
+  font-size: 18px;
+  text-align: center;
+}

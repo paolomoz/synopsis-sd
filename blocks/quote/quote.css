@@ -1,0 +1,38 @@
+/* quote (lifted: .component-quote) */
+.quote figure {
+  margin: 0;
+  padding: 40px 48px;
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  text-align: center;
+}
+
+.quote blockquote {
+  margin: 0 0 20px;
+}
+
+.quote blockquote p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.quote figcaption p {
+  margin: 0;
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+}
+
+.quote .quote-logo {
+  margin-top: 24px;
+}
+
+.quote .quote-logo img {
+  display: inline-block;
+  max-height: 48px;
+  width: auto;
+}

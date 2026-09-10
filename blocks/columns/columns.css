@@ -1,4 +1,4 @@
-/* columns — collection block; `features` variant = synopsys.com two-column feature list + diagram */
+/* columns — collection block + synopsys.com variants: features (text | diagram), media (image | text) */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -20,6 +20,26 @@
   display: block;
 }
 
+.columns > div > div p,
+.columns > div > div li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+}
+
+.columns > div > div p {
+  margin: 0 0 10px;
+}
+
+.columns > div > div :is(h2, h3, h4) {
+  margin: 0 0 16px;
+}
+
+.columns > div > div h2 { font-size: 32px; font-weight: 300; line-height: 1.1; color: var(--purple-dark); }
+.columns > div > div h3 { font-size: 24px; font-weight: 300; line-height: 1.1; }
+.columns > div > div h4 { font-size: 20px; font-weight: 400; line-height: 1.15; }
+.columns > div > div strong { font-weight: 700; }
+
 @media (width >= 730px) {
   .columns > div {
     flex-direction: unset;
@@ -30,36 +50,18 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+    padding: 0 15px;
+  }
+
+  .columns > div {
+    margin: 0 -15px;
   }
 }
 
-/* features variant (lifted: .component-column .col-sm-6 + .component-text) — authored order on every width (text, then diagram) */
-.columns.features > div {
-  margin: 0 -15px;
-}
-
+/* features variant (VCS two-column feature list + diagram) — authored order on every width */
 .columns.features > div > div,
 .columns.features > div > .columns-img-col {
   order: unset;
-}
-
-.columns.features > div > div {
-  padding: 0 15px;
-}
-
-.columns.features > div > div:not(.columns-img-col) p,
-.columns.features > div > div:not(.columns-img-col) li {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 25.6px;
-}
-
-.columns.features > div > div:not(.columns-img-col) p {
-  margin: 0 0 10px;
-}
-
-.columns.features > div > div:not(.columns-img-col) p strong {
-  font-weight: 700;
 }
 
 .columns.features > div > div:not(.columns-img-col) ul {
@@ -75,16 +77,20 @@
   padding: 30px 15px;
 }
 
+/* media variant (imageTextCta / textImage2Column): image 40% · text 60% */
+@media (width >= 730px) {
+  .columns.media > div > .columns-img-col { flex: 0 0 41.6667%; }
+  .columns.media > div > div:not(.columns-img-col) { flex: 0 0 58.3333%; }
+  .columns.media.image-right > div > .columns-img-col { order: 1; }
+}
+
+.columns.media > div > .columns-img-col img {
+  border-radius: var(--radius);
+}
+
 @media (width <= 729px) {
-  .columns.features > div > div:not(.columns-img-col) li {
-    font-size: 15px;
-  }
-
-  .columns.features > div > div:not(.columns-img-col) {
-    margin-bottom: 24px;
-  }
-
-  .columns.features > div > .columns-img-col {
-    padding: 40px 15px 30px;
-  }
+  .columns.features > div > div:not(.columns-img-col) li { font-size: 15px; }
+  .columns.features > div > div:not(.columns-img-col) { margin-bottom: 24px; }
+  .columns.features > div > .columns-img-col { padding: 40px 15px 30px; }
+  .columns > div > div { padding: 0 15px; }
 }

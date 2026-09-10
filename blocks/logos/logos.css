@@ -1,0 +1,24 @@
+/* logos (lifted: .cmp-logo-carousel) */
+.logos ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px 64px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logos li img {
+  display: block;
+  height: 40px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+}
+
+@media (width <= 729px) {
+  .logos ul { gap: 24px 32px; }
+  .logos li img { height: 28px; }
+}

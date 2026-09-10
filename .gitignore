@@ -20,3 +20,6 @@ stardust/current/assets/screenshots/
 stardust/replica/gates/
 stardust/replica/capture/
 stardust/current/_style-samples.json
+stardust/raw/
+stardust/import.log
+stardust/lint-all.log

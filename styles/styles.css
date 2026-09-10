@@ -408,6 +408,122 @@ main .section.tinted {
   }
 }
 
+/* ---- page templates (metadata Template → body class) ---- */
+/* page title (pageTitle component) */
+main .section .default-content-wrapper h1 {
+  color: var(--purple-dark);
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 49.5px;
+  text-align: left;
+}
+
+/* article / static / form / listing: section titles left-aligned in ink (program & landing keep centered purple) */
+body:is(.article, .static, .form, .listing, .unique) main .section .default-content-wrapper h2 {
+  color: var(--ink);
+  text-align: left;
+}
+
+body.article main .section .default-content-wrapper h2 {
+  font-size: 32px;
+  line-height: 35.2px;
+  margin-top: 8px;
+}
+
+body.article main .section .default-content-wrapper h3 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.4px;
+  color: var(--purple-dark);
+  margin: 24px 0 12px;
+}
+
+body.article main .section .default-content-wrapper p img,
+body.article main .section .default-content-wrapper img {
+  margin: 24px auto;
+}
+
+/* article layout: left rail (toc, subscribe form) floats beside the 75% reading column */
+body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) {
+  padding: 0 0 24px;
+}
+
+body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div {
+  max-width: var(--container);
+  padding: 0 15px 0 calc(25% + 15px);
+}
+
+body.article main > .section.toc-container,
+body.article main > .section.form-container {
+  float: left;
+  clear: left;
+  width: 25%;
+  max-width: 292px;
+  margin-left: max(15px, calc((100% - var(--container)) / 2 + 15px));
+  padding: 0;
+}
+
+body.article main > .section.toc-container > div,
+body.article main > .section.form-container > div {
+  padding: 0 30px 0 0;
+}
+
+body.article main > .section.hero-container { padding: 30px 0 40px; }
+body.article main > .section.cards-container,
+body.article main > .section.carousel-container { clear: both; padding-top: 60px; }
+body.article main > .section.form-container .form .form-panel { padding: 24px; }
+body.article main > .section.form-container .form .form-title { font-size: 18px; text-align: left; }
+
+/* gated form pages: text 7/12 · form 5/12 in one section */
+body.form main > .section.form-container {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 30px;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 60px 15px;
+}
+
+body.form main > .section.form-container > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.form main > .section.form-container .default-content-wrapper h1 {
+  font-size: 30px;
+  line-height: 42px;
+  color: var(--ink);
+}
+
+body.form main > .section.form-container .default-content-wrapper p,
+body.form main > .section.form-container .default-content-wrapper li {
+  font-size: 21.6px;
+  line-height: 34.56px;
+}
+
+body.form main > .section.form-container .default-content-wrapper img {
+  max-width: 400px;
+  margin: 32px auto;
+}
+
+/* listing pages: large left-aligned index headline */
+body.listing main .section .default-content-wrapper h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+@media (width <= 992px) {
+  body.article main > .section.toc-container,
+  body.article main > .section.form-container { float: none; width: auto; max-width: none; margin: 0; }
+  body.article main > .section.toc-container > div,
+  body.article main > .section.form-container > div { padding: 0 15px; }
+  body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div { padding: 0 15px; }
+  body.form main > .section.form-container { display: block; }
+  body.form main > .section.form-container > div + div { margin-top: 32px; }
+  main .section .default-content-wrapper h1 { font-size: 32px; line-height: 1.1; }
+}
+
 /* Experience Workspace edit mode: repaint CTAs from their authored marks */
 .prosemirror-editor p > :is(strong, em) > a:any-link,
 .prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
