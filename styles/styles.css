@@ -448,9 +448,12 @@ body.article main > .section:not(.hero-container, .breadcrumbs-container, .carou
   padding: 0 0 24px;
 }
 
+/* wrappers are BFCs (flow-root) so they sit beside the floated rail; the left margin reserves the rail
+   width even after the floats end, keeping the reading column at container-left + 292px on every section */
 body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div {
-  max-width: var(--container);
-  padding: 0 15px 0 calc(25% + 15px);
+  max-width: none;
+  margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 292px));
+  padding: 0 15px 0 15px;
 }
 
 body.article main > .section.toc-container,
@@ -471,8 +474,9 @@ body.article main > .section.form-container > div {
 body.article main > .section.hero-container { padding: 30px 0 40px; }
 body.article main > .section.cards-container,
 body.article main > .section.carousel-container { clear: both; padding-top: 60px; }
-body.article main > .section.form-container .form .form-panel { padding: 24px; }
-body.article main > .section.form-container .form .form-title { font-size: 18px; text-align: left; }
+body.article main > .section.form-container .form .form-panel { padding: 0; background: transparent; border: 0; box-shadow: none; }
+body.article main > .section.form-container .form .form-title { margin: 0 0 16px; color: var(--ink); font-size: 24px; font-weight: 300; text-align: left; }
+body.article main > .section.form-container .form .form-panel .form-note { font-size: 12px; }
 
 /* gated form pages: text 7/12 · form 5/12 in one section */
 body.form main > .section.form-container {
@@ -518,7 +522,7 @@ body.listing main .section .default-content-wrapper h2 {
   body.article main > .section.form-container { float: none; width: auto; max-width: none; margin: 0; }
   body.article main > .section.toc-container > div,
   body.article main > .section.form-container > div { padding: 0 15px; }
-  body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div { padding: 0 15px; }
+  body.article main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container) > div { margin: 0; padding: 0 15px; }
   body.form main > .section.form-container { display: block; }
   body.form main > .section.form-container > div + div { margin-top: 32px; }
   main .section .default-content-wrapper h1 { font-size: 32px; line-height: 1.1; }
