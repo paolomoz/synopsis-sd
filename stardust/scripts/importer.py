@@ -458,7 +458,7 @@ def handle_column(col, page):
             for sub in grid_children(c) or [c]: convert_column(sub, page)
         COVERAGE['article-layout'] += 1
         return True
-    cards_b = sec.select('.component-card-b')
+    cards_b = sec.select('.component-card-b')[:60]  # html2md caps a document at 200 images (author archive pages)
     bio = next((c for c in cols if c.find('img') is not None and c.find(['h2', 'h3']) is not None and not c.select_one('.component-card-b')), None)
     if cards_b and bio is not None:
         h = bio.find(['h2', 'h3']); name = clean_text(h.get_text(' ')) if h else ''

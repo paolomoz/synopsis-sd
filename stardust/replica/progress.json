@@ -361,6 +361,60 @@
      }
     ]
    }
+  },
+  "landing": {
+   "archetypeSlug": "index",
+   "liveUrl": "https://www.synopsys.com/",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 34.43,
+      "heightDelta": 681,
+      "note": "carousel hero light 48px + dots vs live bold 40px + slide-title tabs; Support/Careers h2 flattened to <p><strong>, CTA links dropped; benefits 3-up vs live 2 headed lists"
+     },
+     {
+      "iter": 3,
+      "pixel": 18.45,
+      "heightDelta": -116,
+      "note": "hero tabs + bold title, column cells keep headings/CTA links, divider cells dropped, nested single-column layouts descend, columns benefits variant; hero.carousel unconstrained from carousel block CSS"
+     },
+     {
+      "iter": 5,
+      "pixel": 21.54,
+      "heightDelta": 192,
+      "note": "benefits rhythm lifted (92+48); residual = live nav overlays hero (hero starts at y=53), logo carousel single row (100px) vs 2 static rows, What's New card imagery from JS feed"
+     }
+    ]
+   }
+  },
+  "static": {
+   "archetypeSlug": "company-html",
+   "liveUrl": "https://www.synopsys.com/company.html",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 2,
+      "pixel": 18.41,
+      "heightDelta": 54,
+      "note": "structure matches; residual = stats row text-align-center (default content cannot carry alignment), box-links \"link list\" variant with chain icons vs cards, static h2 now program style (centered purple)"
+     }
+    ]
+   }
+  },
+  "glossary": {
+   "archetypeSlug": "glossary-what-are-chiplets-html",
+   "liveUrl": "https://www.synopsys.com/glossary/what-are-chiplets.html",
+   "iterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 23.1,
+      "heightDelta": 976,
+      "note": "article layout matches; residual = live \"Definition\" framed callout, h3 24/300 vs bold p (rich() h_shift inside two2575 column), hero blog padding, inline ebook CTA rules"
+     }
+    ]
+   }
   }
  },
  "pending": {},
@@ -397,6 +451,43 @@
    "contentTypeListing": 11,
    "coveoSearchFacets": "all listing pages",
    "marketoBackend": "forms render, no submit endpoint"
+  },
+  "batch1": {
+   "finished": "2026-09-10T07:50:34Z",
+   "live": 3680,
+   "previewFail": 444,
+   "putFail": 37,
+   "verifyFail": 25,
+   "failureClasses": {
+    "415 unsupported path (dots/query/php in name)": 321,
+    "409 html2md: SVG image > 40KB": 42,
+    "404 preview (.pdf-style paths)": 52,
+    "put-fail (query paths)": 37,
+    "verify-fail (uppercase path \u2192 EDS lowercases, plain.html 404)": 25
+   },
+   "fixes": "importer slug_path(): lowercase a-z0-9- segments, .php/.html dropped, query values \u2192 trailing segments (444 inventory URLs remapped, links localized through SLUG_MAP); stardust/scripts/svg-fix.mjs rasterises 64 oversized SVGs to PNG on DA media (stardust/svg-map.json)"
+  },
+  "finalWave": {
+   "started": "2026-09-10T08:00:34Z",
+   "pages": 3070,
+   "ledger": "stardust/deploy-final-ledger.json",
+   "log": "stardust/deploy-final.log",
+   "why": "re-import with cell headings/CTAs, divider drop, nested-column descent, people rows, tags skip, slugged paths, svg map",
+   "finished": "2026-09-10T09:09:55Z",
+   "ok": 3061,
+   "verifyFail": 8,
+   "previewFail": 1,
+   "redrive": "5 of 8 verify-fails recovered (transient Dynamic Media), editorial-staff archive trimmed to 180 images (html2md 200-image cap)"
+  },
+  "result": {
+   "live": 4183,
+   "of": 4186,
+   "residual": [
+    "/blogs/chip-design/soc-hbm2e-capacity-speed-benefits",
+    "/company/resources/synopsys-press",
+    "/company/resources/synopsys-press/low-power-methodology-manual-download"
+   ],
+   "residualWhy": "published, but carry <img src=\"about:error\"> because the source images 404 on www.synopsys.com (broken 200_ Dynamic Media URLs)"
   }
  }
 }

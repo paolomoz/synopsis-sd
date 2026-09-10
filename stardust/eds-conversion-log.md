@@ -100,3 +100,22 @@ card, grey benefit tiles, bold h2) while identical markup on VCS renders the cla
 field sets and form titles; Coveo blog sub-nav/search facets; dwProductsDownloads (159 pages) and contentTypeListing (11)
 are JS-driven and left as empty gaps. Lint: 12 🔴, all D15 code-sample pages (API/training docs), accepted.
 Note: aem.live serves code assets gzip-encoded — decode before grepping when verifying propagation.
+
+## Full-site rollout result (2026-09-10)
+Batch 1 drove 4,168 pages: 3,680 live, 506 failed. Failure classes → fixes:
+- 415 (321): page names with dots / query strings / `.php` (`articles/category.automotive`, `dw/ipdir.php?c=DW01_add`) →
+  importer `slug_path()` (lowercase a-z0-9- segments, `.php`/`.html` dropped, query values appended as segments);
+  444 inventory URLs remapped, and `localize()` rewrites internal links through the same map so no redirects are needed.
+- 409 (42): html2md rejects SVG images over 40KB → `stardust/scripts/svg-fix.mjs` rasterises them with Playwright to PNG
+  on DA media (`/media/svg/`, map in `stardust/svg-map.json`), 64 images.
+- 404 (52) / put-fail (37): `.pdf`-style and query paths → covered by slugging.
+- verify-fail (25): mixed-case paths (`…/Korea`, `…-SW-Development`) — EDS lowercases, `.plain.html` 404 → slugging.
+Final wave re-drove 3,070 pages (all changed by the importer fixes above plus every previously failed page) with `--force`:
+3,061 ok. One author archive exceeded html2md's 200-image cap → trimmed to 180 images. 5 of 8 `about:error` verify
+failures were transient Dynamic Media fetches and recovered on re-drive.
+
+**Result: 4,183 of 4,186 documents live** (4,184 pages + nav + footer). The 3 remaining pages are published but contain
+`about:error` images because their source assets 404 on www.synopsys.com (`…/200_?qlt=82…` Dynamic Media URLs).
+Stale duplicates of the 25 mixed-case paths remain in DA under their original names (never previewed); harmless, can be deleted.
+Ledger: `content/.deploy-ledger.json` (4,186 entries). Re-run `deploy-batch` with the same arguments to re-drive; the ledger
+skips live pages.
