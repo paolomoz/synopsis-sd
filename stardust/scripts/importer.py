@@ -423,7 +423,7 @@ def handle_column(col, page):
     sec = col.find(class_='component-column')
     if sec is None: return False
     style = bg_of(col)
-    cols = [c for c in sec.find_all(recursive=False) if isinstance(c, Tag)]
+    cols = [c for c in sec.find_all(recursive=False) if isinstance(c, Tag) and 'snps-col-divider' not in ' '.join(c.get('class') or [])]
     # article 25/75 layout: left rail (toc / subscribe / share) + right content column
     if any('two2575' in ' '.join(c.get('class') or []) for c in cols) or (len(cols) == 2 and sec.select_one('.cmp-tableofcontents')):
         left = next((c for c in cols if sec.select_one('.cmp-tableofcontents') and c.select_one('.cmp-tableofcontents')), cols[0])
