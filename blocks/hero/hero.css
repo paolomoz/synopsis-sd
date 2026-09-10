@@ -171,9 +171,9 @@
 
 .hero.carousel .hero-title :is(h1, h2) {
   margin: 0 0 24px;
-  font-size: 48px;
-  font-weight: 300;
-  line-height: 67.2px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
 }
 
 .hero.image .hero-title :is(h1, h2),
@@ -250,6 +250,41 @@
 
 .hero .hero-dots button[aria-selected="true"] {
   background: #fff;
+}
+
+/* carousel: slide-title tabs under the copy (live .carousel-indicators) */
+.hero.carousel .hero-dots {
+  left: 50%;
+  right: auto;
+  bottom: 40px;
+  width: min(var(--container), 100%);
+  padding: 0 var(--gutter);
+  transform: translateX(-50%);
+  justify-content: flex-start;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.hero.carousel .hero-dots button {
+  width: 190px;
+  height: auto;
+  padding: 14px 0 0;
+  border-top: 1px solid rgb(255 255 255 / 40%);
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.hero.carousel .hero-dots button[aria-selected="true"] {
+  border-top-color: #fff;
+  font-weight: 500;
 }
 
 .hero .hero-pause {
@@ -339,6 +374,8 @@
   .hero .hero-actions p.button-wrapper, .hero .hero-actions a.button { width: 100%; }
   .hero.image, .hero.video { height: 420px; }
   .hero.carousel { height: 560px; }
+  .hero.carousel .hero-dots button { width: auto; flex: 1; font-size: 0; height: 4px; padding: 0; border-top: 0; background: rgb(255 255 255 / 40%); }
+  .hero.carousel .hero-dots button[aria-selected="true"] { background: #fff; }
   .hero.image .hero-text, .hero.video .hero-text, .hero.carousel .hero-text { padding-top: 90px; }
   .hero.image .hero-title :is(h1, h2), .hero.video .hero-title :is(h1, h2), .hero.carousel .hero-title :is(h1, h2) { font-size: 32px; line-height: 40px; }
   .hero.image .hero-actions, .hero.video .hero-actions, .hero.carousel .hero-actions { width: auto; margin: 0; }

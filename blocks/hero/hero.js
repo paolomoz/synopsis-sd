@@ -85,7 +85,9 @@ export default async function decorate(block) {
     };
     slides.forEach((s, i) => {
       const b = document.createElement('button');
-      b.type = 'button'; b.setAttribute('role', 'tab'); b.setAttribute('aria-label', `Slide ${i + 1}`);
+      b.type = 'button'; b.setAttribute('role', 'tab');
+      const title = s.querySelector('.hero-title')?.textContent.trim() || `Slide ${i + 1}`;
+      b.setAttribute('aria-label', title); b.textContent = title;
       b.addEventListener('click', () => show(i));
       dots.append(b);
     });

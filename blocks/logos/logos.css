@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 40px 64px;
+  gap: 40px 80px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -12,9 +12,9 @@
 
 .logos li img {
   display: block;
-  height: 40px;
+  height: 60px;
   width: auto;
-  max-width: 180px;
+  max-width: 200px;
   object-fit: contain;
 }
 

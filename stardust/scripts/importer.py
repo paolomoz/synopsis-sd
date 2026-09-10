@@ -295,6 +295,8 @@ def handle_text(col, page):
     # buttons inside text components
     for b in sec.select('.component-button a'):
         if b.find_parent(class_='component-text') is None: h += cta_html(b, 'primary')
+    for b in sec.select('a.cta-link'):
+        if b.find_parent(class_='component-text') is None: h += f'<p><a href="{esc(localize(b.get("href")))}">{esc(clean_text(b.get_text(" ")))}</a></p>'
     if h: page.add_default(h, style)
     COVERAGE['text'] += 1
     return True
@@ -482,9 +484,11 @@ def convert_inline_column(col, page):
         sec = col.find(class_='component-textcomp') or col.find(class_='component-rte') or col
         h = ''
         title = sec.find(['h2', 'h3', 'h4'], class_='title')
-        if title is not None and clean_text(title.get_text(' ')): h += f'<p><strong>{rich_inline(title)}</strong></p>'
+        if title is not None and clean_text(title.get_text(' ')): h += f'<{title.name}>{rich_inline(title)}</{title.name}>'
         body = sec.select_one('.component-text') or sec
         h += rich(body, allow_headings=True, h_shift=0)
+        for b in sec.select('.component-button a, a.cta-link'):
+            if b.find_parent(class_='component-text') is None: h += f'<p><a href="{esc(localize(b.get("href")))}">{esc(clean_text(b.get_text(" ")))}</a></p>'
         return h
     if t == 'keyBenefits':
         return ''.join(f'<p>{img_html(kb.find("img"))}</p><p>{esc(clean_text(kb.select_one(".cmp-key-benefits__title").get_text()))}</p>' for kb in col.select('.cmp-key-benefits'))
@@ -568,6 +572,7 @@ def convert_column(col, page, inherited_style=''):
         if cards and 'component-eventcard' not in (cards[0].get('class') or []): handle_cards_grid(cards, page, bg_of(col)); return
         # generic: each card col → a cards row of its default HTML
         cols = col.select('.card-col')
+        cols = [cc for cc in cols if 'snps-col-divider' not in ' '.join(cc.get('class') or [])]
         rows = [[convert_inline_column(cc, page) if not grid_children(cc) else ''.join(convert_inline_column(s, page) for s in grid_children(cc))] for cc in cols]
         rows = [r for r in rows if clean_text(re.sub('<[^>]+>', '', r[0])) or '<img' in r[0]]
         if rows: page.add_block(block_table('cards tiles', rows), bg_of(col)); COVERAGE['cards tiles'] += 1
