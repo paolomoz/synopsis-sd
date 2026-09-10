@@ -1,0 +1,28 @@
+{
+ "at": "2026-09-10T15:15:13Z",
+ "documents": {
+  "live": 4186
+ },
+ "queryIndex": 404,
+ "liveDynamicFeatures": {
+  "coveoSearch": 4146,
+  "blogsdev": {
+   "browseByTags": 1083,
+   "mostRecentArticles": 547,
+   "categoryPage": 105
+  },
+  "dynamicCards": 1309,
+  "contentTypeListing": 11,
+  "dwProductsDownloads": 167,
+  "marketoForms": 1500,
+  "brightcove": 59,
+  "dynamicMediaImages": 4150,
+  "onetrust": 3875,
+  "adobeDataLayer": 4148,
+  "askAssistant": 3873,
+  "phpSelectors": 525,
+  "socialShare": 1276,
+  "rss": 1571,
+  "languageSwitcher": 3876
+ }
+}
