@@ -1,45 +1,51 @@
 {
- "pages": 2,
+ "pages": 1,
  "coverage": [
   [
-   "cards people",
-   4
+   "text",
+   6
   ],
   [
-   "htmlTextOnly",
-   4
-  ],
-  [
-   "breadcrumbs",
+   "hero carousel",
    1
   ],
   [
-   "pageTitle",
+   "cards pillars",
+   1
+  ],
+  [
+   "columns benefits",
+   1
+  ],
+  [
+   "logos",
+   1
+  ],
+  [
+   "carousel resources",
+   1
+  ],
+  [
+   "columns",
+   1
+  ],
+  [
+   "hero",
    1
   ]
  ],
  "unmapped": [
   [
-   "container",
-   1
-  ],
-  [
    "htmlTextOnly-skipped",
-   1
+   3
   ]
  ],
  "results": {
-  "articles__automotive-cybersecurity-starts-with-chips": {
-   "title": "What is Automotive Cybersecurity? | Ansys",
-   "sections": 1,
+  "index": {
+   "title": "Synopsys | EDA Tools, Semiconductor IP & Systems Verification",
+   "sections": 8,
    "h1": true,
-   "out": "/tmp/ppl2/articles/automotive-cybersecurity-starts-with-chips.html"
-  },
-  "company__management-team": {
-   "title": "Management Team | Synopsys",
-   "sections": 5,
-   "h1": true,
-   "out": "/tmp/ppl2/company/management-team.html"
+   "out": "/tmp/idx/index.html"
   }
  }
 }

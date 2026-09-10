@@ -137,7 +137,19 @@
   line-height: 28px;
 }
 
-.columns.benefits > div > div li p:not(:has(strong)) {
+/* the pipeline wraps the icon in <p><picture>: pin it to the icon column, description spans the row */
+.columns.benefits > div > div li > p:has(picture, img) {
+  grid-column: 1;
+  grid-row: 1;
+  line-height: 0;
+}
+
+.columns.benefits > div > div li > p:has(strong) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.columns.benefits > div > div li > p:not(:has(strong, picture, img)) {
   grid-column: 1 / -1;
   margin-top: 8px;
   font-size: 14px;
