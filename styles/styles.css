@@ -532,7 +532,9 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p > a:o
     flex-direction: column;
   }
 
-  body.landing main .columns-container .columns:not(.benefits) > div > div {
+  body.landing main .columns-container .columns:not(.benefits) > div > div,
+  body.landing main .columns-container .columns:not(.benefits) > div > div:first-child,
+  body.landing main .columns-container .columns:not(.benefits) > div > div:last-child {
     flex: none;
     padding: 0;
     border: 0;
