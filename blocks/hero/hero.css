@@ -414,3 +414,98 @@
   .hero.image .hero-actions, .hero.video .hero-actions, .hero.carousel .hero-actions { width: auto; margin: 0; }
   .hero.blog .hero-title :is(h1, h2) { font-size: 28px; }
 }
+
+/* ---- mobile (live 360): the carousel slide becomes a black band with a 296x180 image card, copy below, 40px dot bars ---- */
+@media (width <= 729px) {
+  .hero.carousel {
+    height: 560px;
+    background: linear-gradient(107.7deg, #000 0, #111 100%);
+  }
+
+  .hero.carousel .hero-media {
+    inset: 72px auto auto 32px;
+    width: 296px;
+    height: 180px;
+    overflow: hidden;
+  }
+
+  .hero.carousel .hero-media img {
+    width: 296px;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .hero.carousel .hero-container-inner {
+    padding: 0;
+  }
+
+  .hero.carousel .hero-text {
+    position: absolute;
+    top: 236px;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 24px 32px 0;
+    box-sizing: border-box;
+  }
+
+  .hero.carousel .hero-title :is(h1, h2) {
+    margin: 0 0 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .hero.carousel .hero-sub p {
+    margin: 0 0 24px;
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+
+  .hero.carousel .hero-subtitle {
+    display: none;
+  }
+
+  .hero.carousel .hero-actions a.button {
+    width: 260px;
+    justify-content: center;
+  }
+
+  .hero.carousel .hero-dots {
+    top: 518px;
+    bottom: auto;
+    height: 8px;
+    padding: 0 74px 0 24px;
+    gap: 15.5px;
+  }
+
+  .hero.carousel .hero-dots button {
+    width: 40px;
+    height: 8px;
+    margin: 0;
+    padding: 4px 0;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    display: block;
+  }
+
+  .hero.carousel .hero-dots button::before {
+    left: 0;
+    width: 40px;
+    background: rgb(255 255 255 / 40%);
+  }
+
+  .hero.carousel .hero-dots button[aria-selected="true"]::before {
+    width: 23px;
+    background: #fff;
+  }
+
+  .hero.carousel .hero-pause {
+    right: 24px;
+    bottom: 30px;
+    width: 24px;
+    height: 24px;
+  }
+}

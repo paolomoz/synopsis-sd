@@ -265,3 +265,22 @@
 .carousel.blog .carousel-card-body p a:any-link { color: var(--grey); }
 .carousel.blog .carousel-cta { position: absolute; left: 24px; bottom: 20px; }
 .carousel.blog .carousel-cta a:any-link { color: var(--link); font-size: 14px; }
+
+@media (width <= 729px) {
+  .carousel .carousel-card:has(.carousel-card-image) {
+    height: 451px;
+  }
+
+  .carousel .carousel-card-image img {
+    width: 320px;
+    height: 180px;
+  }
+
+  .carousel .carousel-list:has(.carousel-card-image) {
+    height: 461px;
+  }
+
+  .carousel:has(.carousel-card-image) .carousel-arrow {
+    top: 210px;
+  }
+}

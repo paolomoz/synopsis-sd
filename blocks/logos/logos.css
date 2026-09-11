@@ -23,6 +23,6 @@
 }
 
 @media (width <= 729px) {
-  .logos ul { gap: 24px 32px; }
-  .logos li img { height: 28px; }
+  .logos ul { gap: 0 24px; padding: 0 0 0 12px; }
+  .logos li img { width: 86px; height: 80px; }
 }

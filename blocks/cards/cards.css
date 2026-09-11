@@ -222,7 +222,7 @@
 .cards.pillars > ul > li img {
   position: absolute;
   top: 0;
-  left: -56px;
+  left: calc(50% - 187.5px); /* 375px rendition centred: -56px at 263, -22.5px at 330 */
   width: 375px;
   height: 443px;
   max-width: none;
@@ -422,7 +422,11 @@ main > .section.cards-container:has(.cards.people) {
 @media (width <= 729px) {
   .cards.benefits > ul > li { width: 100%; margin-bottom: 32px; }
   .cards.pillars > ul { grid-template-columns: 1fr; }
-  .cards.pillars > ul > li { height: 320px; }
+  .cards.pillars > ul > li { height: 434px; }
+  .cards.pillars .cards-card-body { inset: 205px 41px auto; }
+  .cards.pillars .cards-card-body p { display: block; margin: 16px 0 4px; font-size: 16px; font-weight: 300; line-height: 25.6px; }
+  .cards.pillars .cards-card-cta { display: block; margin: 4px 0 0; }
+  .cards.pillars .cards-card-cta a:any-link { display: inline-block; margin: 4px; padding: 8px 25px; border: 1px solid #fff; border-radius: 5px; color: #fff; font-size: 16px; font-weight: 300; line-height: 25.6px; }
   .cards.people > ul, .cards.people > ul:has(> li:only-child) { grid-template-columns: 1fr; }
   .cards.people > ul > li { width: 70%; max-width: none; margin: 0 auto 30px; }
   .cards.news > ul > li { grid-template-columns: 1fr; }

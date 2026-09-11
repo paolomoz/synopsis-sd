@@ -1,13 +1,13 @@
 // dom-dump.mjs <url> <selector>... — visible subtree with rects + key computed styles (depth ≤ 5)
 import { chromium } from 'playwright';
 const [url, ...sels] = process.argv.slice(2);
-const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+const W = +(process.env.W || 1440); const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: 900 }, isMobile: W < 600, hasTouch: W < 600 });
 await p.goto(url, { waitUntil: 'domcontentloaded' }); await p.waitForTimeout(4000);
 await p.addStyleTag({ content: '#onetrust-consent-sdk,.onetrust-pc-dark-filter{display:none!important} *{animation:none!important;transition:none!important}' });
 for (const sel of sels) {
   const out = await p.evaluate((spec) => {
     const [sel, txt] = spec.split('~'); const re = txt ? new RegExp(txt) : null;
-    const root = [...document.querySelectorAll(sel)].find((e) => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.left >= 0 && r.left < 1440 && (!re || re.test(e.textContent)); });
+    const root = [...document.querySelectorAll(sel)].find((e) => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.left >= 0 && r.left < window.innerWidth && (!re || re.test(e.textContent)); });
     if (!root) return `NO VISIBLE MATCH ${sel}`;
     const lines = [];
     const walk = (e, d) => {

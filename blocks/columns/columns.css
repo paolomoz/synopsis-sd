@@ -214,3 +214,14 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
   font-size: 16px;
   line-height: 25.6px;
 }
+
+@media (width <= 729px) {
+  .columns.benefits > div > div h3 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .columns.benefits > div > div li {
+    margin-bottom: 32px;
+  }
+}
