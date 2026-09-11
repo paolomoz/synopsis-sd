@@ -166,12 +166,17 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
   line-height: 28px;
 }
 
-/* the item title is a link on the source (.cmp-key-benefits__link); decorateButtons turns <p><strong><a> into a button — undo */
-.columns.benefits > div > div li p.button-container {
+/* the item title is a link on the source (.cmp-key-benefits__link); the runtime's decorateButtons turns
+   <p><strong><a> into <p class="button-wrapper"><a class="button primary"> — pin it to the title cell and undo the button skin */
+.columns.benefits > div > div li > p.button-wrapper {
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
   margin: 0;
   text-align: left;
 }
 
+.columns.benefits > div > div li p.button-wrapper a.button:any-link,
 .columns.benefits > div > div li p strong a.button:any-link {
   display: inline;
   margin: 0;
@@ -186,6 +191,7 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
   text-decoration: none;
 }
 
+.columns.benefits > div > div li p.button-wrapper a.button:hover,
 .columns.benefits > div > div li p strong a.button:hover {
   color: var(--purple-dark);
 }

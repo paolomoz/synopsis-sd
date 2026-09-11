@@ -233,13 +233,13 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgb(17 28 36 / 0%) 40%, rgb(17 28 36 / 75%) 100%);
+  background: linear-gradient(180deg, rgb(0 0 0 / 0%) 37%, rgb(0 0 0 / 85%) 100%); /* live .overlay: bottom 275px of 434 */
 }
 
 .cards.pillars .cards-card-body {
   position: absolute;
-  inset: auto 0 0;
-  padding: 24px;
+  inset: 279px 33px auto; /* live .text-hover box */
+  padding: 0;
   color: #fff;
   text-align: center;
 }
@@ -247,8 +247,9 @@
 .cards.pillars .cards-card-body :is(h2, h3, h4) {
   margin: 0;
   color: #fff;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33.6px;
 }
 
 .cards.pillars .cards-card-body p,
