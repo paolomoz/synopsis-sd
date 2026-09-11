@@ -1264,3 +1264,10 @@ a .prosemirror-editor a:any-link {
     margin-bottom: 34px;
   }
 }
+
+/* spacing tokens at mobile (source at 360: md and sm bands both collapse to 40px, xs stays 15px) */
+@media (width <= 729px) {
+  body.tokens main > .section:is(.pt-md, .pt-sm) { padding-top: 40px; }
+  body.tokens main > .section:is(.pb-md, .pb-sm) { padding-bottom: 40px; }
+  body.tokens main > .section:is(.gpb-md, .gpb-sm) { margin-bottom: 40px; }
+}

@@ -558,3 +558,7 @@ main > .section.cards-container:has(.cards.people) {
   margin: 0 0 32px;
   line-height: 18px;
 }
+
+@media (width <= 729px) {
+  .cards.asset > ul { gap: 0; } /* source: stacked asset cards touch (5px card margins only) */
+}
