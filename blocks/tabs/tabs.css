@@ -126,7 +126,7 @@
   box-shadow: none;
 }
 
-.tabs.horizontal .tabs-panel > :is(p, ul, ol):first-child {
+.tabs.horizontal .tabs-panel > .tabs-panel-head + :is(p, ul, ol) {
   margin-top: 24px; /* source: untitled textcomp — .component-text margin-top 24px */
 }
 
