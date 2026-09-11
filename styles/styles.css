@@ -1227,3 +1227,35 @@ a .prosemirror-editor a:any-link {
   }
 }
 
+
+/* gated form on mobile (source at 360: form first with 15px margins, copy column padding 10px 25px 20px, h1 20/28, copy 15/24) */
+@media (width <= 729px) {
+  body.form main > .section.form-container:is(.purple, .dark) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  body.form main > .section.form-container:is(.purple, .dark) > .form-wrapper {
+    margin: 15px 15px 24px;
+  }
+
+  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper {
+    padding: 10px 25px 20px;
+  }
+
+  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper :is(p, li) {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper p:has(+ p) {
+    margin-bottom: 34px;
+  }
+}
