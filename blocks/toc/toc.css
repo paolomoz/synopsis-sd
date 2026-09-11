@@ -35,7 +35,7 @@ main .section.toc-empty {
 
 /* mobile: collapsed accordion bar (live .cmp-tableofcontents__header on ≤729) */
 @media (width <= 729px) {
-  .toc .toc-box { padding: 0; }
+  .toc .toc-box { padding: 0 0 30px; } /* live 360: the collapsed bar keeps the 30px band padding */
   .toc .toc-title {
     position: relative;
     margin: 0;

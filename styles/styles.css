@@ -1040,6 +1040,10 @@ a .prosemirror-editor a:any-link {
     line-height: 35.2px;
   }
 
+  body:is(.article, .glossary) main > .section.tags-container + .section.centered {
+    padding-top: 70px;
+  }
+
   body:is(.article, .glossary) main > .section.toc-container,
   body:is(.article, .glossary) main > .section.form-container,
   body:is(.article, .glossary) main > .section.rail {
