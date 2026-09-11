@@ -793,7 +793,7 @@ body:is(.article, .glossary) main > .section.tags-container {
 }
 
 body:is(.article, .glossary) main > .section.tags-container + .section.centered {
-  padding-top: 90px;
+  padding: 90px 0 0; /* source: 90 above "Continue Reading", nothing below — the card row wrapper carries 76px */
   background: none;
 }
 
