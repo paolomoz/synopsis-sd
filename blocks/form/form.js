@@ -33,13 +33,16 @@ export default async function decorate(block) {
   const rows = [...block.children].map((r) => r.textContent.trim()).filter(Boolean);
   const title = rows.shift() || 'Register';
   const submit = rows.length ? rows.pop() : 'Submit';
-  const form = document.createElement('form');
-  form.className = 'form-panel';
-  form.noValidate = true;
-  const h = document.createElement('div');
+  // panel = title (an h2 on the source, outside the Marketo form) + the form itself
+  const panel = document.createElement('div');
+  panel.className = 'form-panel';
+  const h = document.createElement('h2');
   h.className = 'form-title';
   h.textContent = title;
-  form.append(h);
+  panel.append(h);
+  const form = document.createElement('form');
+  form.className = 'form-fields';
+  form.noValidate = true;
   const req = document.createElement('p');
   req.className = 'form-required';
   req.innerHTML = 'Required Fields <span>*</span>';
@@ -79,7 +82,8 @@ export default async function decorate(block) {
     const sent = await postToBackend(form, block);
     const ok = document.createElement('p'); ok.className = 'form-thanks';
     ok.textContent = sent === false ? 'Sorry, your request could not be sent. Please try again later.' : 'Thank you. Your request has been received.';
-    form.replaceChildren(h, ok);
+    form.replaceChildren(ok);
   });
-  block.replaceChildren(form);
+  panel.append(form);
+  block.replaceChildren(panel);
 }
