@@ -1,5 +1,5 @@
 {
- "version": "2026-09-11d",
+ "version": "2026-09-11e",
  "hideOnLive": [
   ".component-search-result",
   "[class*=\"coveo\"]",
@@ -33,6 +33,10 @@
   ],
   "glossary": [
    ".cmp-dynamiccards"
+  ],
+  "program": [
+   ".dynamicCards",
+   ".cmp-dynamiccards"
   ]
  },
  "hideOnBuildByTemplate": {
@@ -43,6 +47,12 @@
   "glossary": [
    ".carousel.blog",
    ".cmp-dynamiccards"
+  ],
+  "program": [
+   ".cards.asset.feed",
+   ".carousel.resources.feed",
+   ".cards.blog.feed",
+   ".carousel.blog.feed"
   ]
  }
 }

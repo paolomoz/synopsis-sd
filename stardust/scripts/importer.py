@@ -698,6 +698,7 @@ def handle_column(col, page):
             if c.find('img') is not None and not clean_text(c.get_text()): has_img_only = True
         if any(clean_text(re.sub('<[^>]+>', '', x)) or '<img' in x for x in cells):
             variant = 'features' if has_img_only and len(cols) == 2 else ''
+            if 'divider-row' in ' '.join(sec.get('class') or []): variant = (variant + ' divided').strip()  # source: vertical hairlines between the columns
             page.add_block(block_table('columns' + (' ' + variant if variant else ''), [cells]), style); COVERAGE['columns'] += 1
         return True
     # single column: flatten
@@ -712,7 +713,9 @@ def convert_inline_column(col, page):
         sec = col.find(class_='component-textcomp') or col.find(class_='component-rte') or col
         h = ''
         title = sec.find(['h2', 'h3', 'h4'], class_='title')
-        if title is not None and clean_text(title.get_text(' ')): h += f'<{title.name}>{rich_inline(title)}</{title.name}>'
+        if title is not None and clean_text(title.get_text(' ')):
+            tag = 'h3' if 'text-size-smaller' in ' '.join(title.get('class') or []) else title.name  # source: .text-size-smaller = 24px purple
+            h += f'<{tag}>{rich_inline(title)}</{tag}>'
         body = sec.select_one('.component-text') or sec
         h += rich(body, allow_headings=True, h_shift=0)
         for b in sec.select('.component-button a, a.component-button, a.cta-link, .buttons a'):
@@ -818,7 +821,13 @@ def convert_column(col, page, inherited_style=''):
     if t == 'column': handle_column(col, page); return
     if t == 'keyBenefits':
         page.add_block(block_table('cards benefits', kb_rows(col.select('.cmp-key-benefits'))), bg_of(col)); COVERAGE['cards benefits'] += 1; return
-    if t in ('carousel', 'dynamicCards', 'contentCarousel'): handle_carousel(col, page) or handle_generic(col, page, t); return
+    if t in ('carousel', 'dynamicCards', 'contentCarousel'):
+        before = len(page.sections); cur_items = len(page.cur['items']) if page.cur else 0
+        handle_carousel(col, page) or handle_generic(col, page, t)
+        if t == 'dynamicCards':
+            for sct in page.sections[max(0, before - 1):]:
+                sct['items'] = [re.sub(r'class="(cards asset|carousel resources|cards blog|carousel blog)"', r'class="\1 feed"', x) if x.startswith('<div class="') else x for x in sct['items']]
+        return
     if t in ('cards',):
         sols = col.select('.component-solutioncard')
         if sols: page.add_block(block_table('cards pillars', [solution_card_row(c) for c in sols]), bg_of(col)); COVERAGE['cards pillars'] += 1; return
@@ -882,7 +891,8 @@ def convert_column(col, page, inherited_style=''):
         ih = ''.join(f'<p>{img_html(i)}</p>' for i in (img_col.select('img') if img_col else []) if img_html(i)) or video_default(img_col) if img_col else ''
         th = rich(text_col, allow_headings=True) if text_col is not None else rich(col, allow_headings=True)
         cells = [ih, th] if img_first else [th, ih]
-        page.add_block(block_table('columns media' + ('' if img_first else ' image-right'), [cells]), bg_of(col)); COVERAGE['columns media'] += 1; return
+        half = text_col is not None and 'col-sm-6' in ' '.join(text_col.get('class') or [])
+        page.add_block(block_table('columns media' + (' half' if half else '') + ('' if img_first else ' image-right'), [cells]), bg_of(col)); COVERAGE['columns media'] += 1; return
     if t == 'contentTile':
         a = col.find('a'); img = col.select_one('img'); date = col.select_one('.content-tile-date-desktop'); typ = col.select_one('.content-tile-type'); title = col.select_one('.content-tile-title')
         cell = ''
