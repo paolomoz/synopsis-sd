@@ -1331,3 +1331,6 @@ main > .section:is(.img-pad-sm, .img-pad-md, .img-pad-lg) .default-content-wrapp
 main > .section.img-pad-sm .default-content-wrapper > p > picture > img { padding: 0 5px; }
 main > .section.img-pad-md .default-content-wrapper > p > picture > img { padding: 0 25px; }
 main > .section.img-pad-lg .default-content-wrapper > p > picture > img { padding: 0 100px; }
+
+/* DesignWare rail card: the CTA group ends with the source .component-text margin-bottom (21.9px) */
+body.dw main > .section.rail-right .default-content-wrapper > p.button-wrapper:last-child { margin-bottom: 22px; }
