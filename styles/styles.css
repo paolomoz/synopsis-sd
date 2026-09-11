@@ -1018,8 +1018,17 @@ main > .section.rail-right .default-content-wrapper a.button {
 
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 {
   margin: 0 0 15px;
-  font-size: 32px;
-  line-height: 44.8px;
+  font-size: 30px; /* source: h1.title > span.text-size-larger = 30px/42px */
+  line-height: 42px;
+}
+
+body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 + :is(p, ul) {
+  padding-top: 15px; /* source: .description.component-text padding 15px 0 */
+}
+
+body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper li {
+  font-size: 20px;
+  line-height: 32px;
 }
 
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper :is(h1, h2, h3, p, li) {
