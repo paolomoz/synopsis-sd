@@ -600,6 +600,24 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p > a:o
   }
 }
 
+/* ---- author pages (live @1440): heading and profile 75px under the breadcrumb, rows 30px under the heading, profile 345px at x=945 ---- */
+body.author main > .section.main:not(.cards-container),
+body.author main > .section.rail-right.author-container {
+  padding-top: 75px;
+}
+
+body.author main > .section.main .default-content-wrapper h1 {
+  margin-bottom: 30px;
+}
+
+body.author main > .section.main.cards-container {
+  padding-top: 0;
+}
+
+body.author main > .section.rail-right .author-wrapper {
+  padding-left: 45px;
+}
+
 /* ---- page templates (metadata Template → body class) ---- */
 
 /* page title (pageTitle component) */

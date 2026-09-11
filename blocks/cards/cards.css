@@ -432,3 +432,95 @@ main > .section.cards-container:has(.cards.people) {
   .cards.people > ul > li { width: 70%; max-width: none; margin: 0 auto 30px; }
   .cards.news > ul > li { grid-template-columns: 1fr; }
 }
+
+/* ---- author archive rows (live .cmp-blogsdev__mra-item-container @1440): 193px thumb | 30px | copy; 27px bottom pad, 24px between rows ---- */
+.cards.author > ul {
+  display: block;
+}
+
+.cards.author > ul > li {
+  display: grid;
+  grid-template-columns: 193px 1fr;
+  column-gap: 30px;
+  align-items: start;
+  height: auto;
+  margin: 0 0 24px;
+  padding: 0 0 27px;
+  border-bottom: 1px solid var(--grey-light);
+  background: none;
+  box-shadow: none;
+}
+
+.cards.author .cards-card-image {
+  width: 193px;
+  height: auto;
+  line-height: 0;
+}
+
+.cards.author .cards-card-image img {
+  display: block;
+  width: 193px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.cards.author .cards-card-image .cards-card-meta {
+  margin: 10px 0 0;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.5px;
+}
+
+.cards.author .cards-card-body {
+  padding: 0;
+}
+
+.cards.author .cards-card-body > p:first-child {
+  margin: 0 0 16px;
+  line-height: 0;
+}
+
+.cards.author .cards-card-body > p:first-child strong {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: var(--purple);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.cards.author .cards-card-body h3 {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cards.author .cards-card-body h3 a:any-link {
+  color: var(--ink);
+}
+
+.cards.author .cards-card-body p {
+  margin: 0 0 16px;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+}
+
+.cards.author .cards-card-body p:last-child {
+  margin-bottom: 0;
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.cards.author .cards-card-body p:last-child a:any-link {
+  color: var(--grey);
+  font-weight: 300;
+}

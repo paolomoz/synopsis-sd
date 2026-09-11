@@ -34,9 +34,19 @@ async function enrichAuthor(block) {
     items.sort((a, b) => b.ts - a.ts);
     const ul = document.createElement('ul');
     items.forEach((it) => { const li = document.createElement('li'); li.innerHTML = it.html; [...li.children].forEach((d) => { d.className = d.querySelector('picture, img') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); if (last) last.classList.add('cards-card-cta'); ul.append(li); });
+    ul.querySelectorAll('li').forEach(shapeAuthorRow);
     block.replaceChildren(ul);
     block.dataset.indexed = String(rows.length); block.dataset.total = String(items.length);
   } catch (e) { /* index unavailable: keep authored rows */ }
+}
+
+function shapeAuthorRow(li) {
+  // source .cmp-blogsdev__mra-item-container: thumb + date/read-time on the left, label · title · byline · tags on the right (no CTA)
+  const img = li.querySelector('.cards-card-image'); const body = li.querySelector('.cards-card-body');
+  if (!img || !body) return;
+  const meta = [...body.querislectorAll?.('x') || body.querySelectorAll('p')].find((p) => /\bmin read\b|\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b \d{1,2}, \d{4}/.test(p.textContent) && !p.querySelector('a'));
+  if (meta) { meta.className = 'cards-card-meta'; img.append(meta); }
+  const cta = body.querySelector('.cards-card-cta'); if (cta) cta.remove();
 }
 
 export default async function decorate(block) {
@@ -62,5 +72,6 @@ export default async function decorate(block) {
     ul.append(li);
   });
   ul.querySelectorAll('img').forEach((img) => { img.setAttribute('loading', 'lazy'); });
+  if (block.classList.contains('author')) ul.querySelectorAll('li').forEach(shapeAuthorRow);
   block.replaceChildren(ul);
 }
