@@ -330,6 +330,8 @@ export default async function decorate(block) {
 
   const theme = (getMetadata('header-theme') || '').trim().toLowerCase();
   if (theme === 'dark') { document.body.classList.add('header-dark'); block.closest('header')?.classList.add('is-dark'); }
+  // `plain`: DesignWare PHP pages on the source have no utility bar — the 80px nav row only
+  if (theme === 'plain') { document.body.classList.add('header-plain'); block.closest('header')?.classList.add('is-plain'); }
 
   block.textContent = '';
   const sections = [...fragment.children].map((s) => s.querySelector('.default-content-wrapper') || s);

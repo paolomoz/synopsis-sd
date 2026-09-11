@@ -909,3 +909,12 @@ header .utility-lang-menu li a:any-link {
 header .utility-lang-menu li a:hover,
 header .utility-lang-menu li.is-current a { color: var(--purple); }
 /* stylelint-enable no-descending-specificity */
+
+/* plain theme (metadata header-theme: plain): no utility bar, 80px nav only (source: DesignWare PHP pages) */
+header.is-plain .utility-bar {
+  display: none;
+}
+
+body.header-plain header {
+  height: 80px;
+}
