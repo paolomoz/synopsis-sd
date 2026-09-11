@@ -185,3 +185,23 @@ The static replica got its dynamic layer, one gated step at a time (`stardust/dy
   `config/third-party.json` (Launch bundle id recorded, hosts empty).
 - Blocked / deferred: AEM `contenttypelisting` endpoint (11 pages), Marketo endpoint, Dynamic Media re-hosting (18,814 refs).
 - Deploy driver fix: `--force` no longer discards the ledger records outside the run.
+
+## Landing archetype brought to the replica gate (2026-09-11)
+The home page had shipped through the importer without a Phase-3 prototype and sat at 21.5% / Δ192 after the earlier
+cap. Redone per `stardust:replica`: a gated standalone prototype first (`stardust/prototypes/index-proposed.html`,
+`index.css`, built by `stardust/scripts/build-index.py` from the imported content plus values lifted from the live DOM
+with `home-live-lift.mjs` / `dom-dump.mjs`), then the port to the EDS blocks, then the published-origin re-gate at both
+breakpoints. Evidence: `stardust/replica/gates/index-1440` (harness), `index-pub-1440`, `index-pub-360`; records in
+`stardust/replica/progress.json#pageTypes.landing`.
+- Harness 1440: 16.1% → 4.4% → 2.66% (Δ-3), content-diff 0 🔴, header 99.94% / footer 99.69%, visual-diff none.
+- Published 1440: 21.0% → 4.75% → 2.77% → 2.71% (Δ-2); every section anchor within 2px of live; header 99.88% / footer 99.69%.
+- Published 360: never gated before; 29.7% → 14.0% → 10.8% → 10.0% → 7.3% → 6.89% (Δ5); header 100% / footer ≥98%.
+Fixes that came out of it: importer keeps grid siblings of a nested wrapper column (the dropped "Design the Future Today
+with Synopsys" heading), links benefit item titles, emits asset-card dates and the mobile hero rendition; hero carousel
+(560px copy at x=160, 48/700, bottom tab strip, no scrim, mobile image-card composition), pillars (label box, overlay,
+375px crop, mobile copy+link), benefits (32px column titles, linked titles surviving the runtime's button wrapping),
+logos (single clipped row), news cards (370x208 image cards with dates, mobile controls under the rail), support
+columns (divider row, text CTAs), `body.landing` section rhythm at both widths, mobile header pinning, 32x24 toggler.
+Pipeline facts: the runtime buttonizes only emphasised lone links (`p.button-wrapper > a.button`, strong dropped);
+section-metadata styles resolve at render time; `<p><picture>` baseline; the live home authors several one-line
+labels with two or three line boxes (modelled as min-heights on mobile).

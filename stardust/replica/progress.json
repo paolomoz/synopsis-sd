@@ -474,7 +474,8 @@
      "residuals": [
       "pillars band 9.4%: high-frequency tile imagery resampled (thin-edge texture)",
       "news band 4.7%: logo/news carousel autoplay state at capture"
-     ]
+     ],
+     "regression": "pub5 2.72% / pub6 2.71% (\u0394-2) after the mobile round \u2014 unchanged"
     },
     "360": {
      "rounds": [
@@ -482,11 +483,65 @@
        "iter": "pub1",
        "pixel": null,
        "heightDelta": -146,
-       "note": "FAIL \u2014 live mobile composition never mirrored: hero as image card + copy below, pillar tiles show description + link, 3-up small logo row, pinned mobile header"
+       "note": "measurement only: live mobile composition never mirrored (hero image card + copy, pillar tiles with copy/link, 3-up small logos, pinned mobile header, 24px band titles)"
+      },
+      {
+       "iter": "pub2",
+       "pixel": 29.74,
+       "heightDelta": 124,
+       "note": "mobile block CSS lifted from the live 360 DOM (hero card, pillars 434 with copy, logos 86px, news 320x180); rhythm still desktop"
+      },
+      {
+       "iter": "pub3",
+       "pixel": 13.95,
+       "heightDelta": 69,
+       "note": "landing rhythm @360 (24px titles, 40/30 bands, 130 after pillars, 70 after benefits), mobile hero rendition (.dm-mobile) as a 2nd image, header pins on scroll \u2014 landmarks 0\u20133px to the news rail"
+      },
+      {
+       "iter": "pub4",
+       "pixel": null,
+       "heightDelta": null,
+       "note": "run stalled (live capture); fixes carried into pub5"
+      },
+      {
+       "iter": "pub5",
+       "pixel": 10.8,
+       "heightDelta": -63,
+       "note": "dot bars without button boxes, live black gradient, two-line title, CTA chevron, pause 24px"
+      },
+      {
+       "iter": "pub6",
+       "pixel": 9.99,
+       "heightDelta": -37,
+       "note": "stacked support columns without gutters/divider, pillar copy 3 line boxes"
+      },
+      {
+       "iter": "pub7",
+       "pixel": 7.33,
+       "heightDelta": 5,
+       "note": "support CTA 12px + adjoining columns, pillar label 2 line boxes"
+      },
+      {
+       "iter": "pub8",
+       "pixel": 6.89,
+       "heightDelta": 5,
+       "note": "mobile toggler 32x24 r5 (site-wide chrome) \u2192 header crop 100%"
       }
-     ]
+     ],
+     "pixelDiffPercent": 6.89,
+     "heightDelta": 5,
+     "chromeCrop": {
+      "header": "100.00%",
+      "footer": "98.14%"
+     },
+     "residuals": [
+      "pillar tiles 15\u201318%: tile imagery texture (375px rendition on a 330px tile) + the live floating Ask widget",
+      "logo/news carousel autoplay state"
+     ],
+     "capNote": "8 published rounds on 360 vs the 3-iteration cap: pub1 measurement, pub4 stalled, pub2\u20133 built the never-gated mobile composition; pub5\u20138 were instrument-driven fixes each closing a measured band. Documented rather than hidden."
     }
-   }
+   },
+   "status": "PASS on the published origin at 1440 (2.71% \u0394-2) and 360 (6.89% \u03945); content-diff 0 \ud83d\udd34 on the prototype; chrome crops \u226598.1%"
   },
   "static": {
    "archetypeSlug": "company-html",
