@@ -1067,6 +1067,7 @@ main > .section.dark {
 }
 
 main > .section.purple { background: linear-gradient(107.7deg, #5a2a82 0, #7e45af 100%); }
+body.form main > .section.form-container.purple { background: var(--gradient); } /* source: .purpleGradientBackground = 3-stop gradient starting at #2d1541 */
 main > .section.dark { background: linear-gradient(107.7deg, #171917 0, #2d3038 60%, #4a4f5a 100%); }
 
 main > .section:is(.purple, .dark) .default-content-wrapper :is(h1, h2, h3, h4, p, li),
