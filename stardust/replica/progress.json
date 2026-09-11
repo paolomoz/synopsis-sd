@@ -1010,11 +1010,11 @@
       "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
     },
     "article@1440": {
-      "at": "2026-09-11T15:04:06.458Z",
+      "at": "2026-09-11T15:09:04.156Z",
       "n": 10,
-      "median": 13.84,
-      "p90": 22.67,
-      "max": 26.88,
+      "median": 10.16,
+      "p90": 18.88,
+      "max": 23.24,
       "dhOver8": 10,
       "policy": "2026-09-11h"
     },

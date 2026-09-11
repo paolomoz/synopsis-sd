@@ -15,13 +15,13 @@
 <h2>The Solution</h2><p>We begin by building a TW-MZM device in OptSim Circuit and outlining options to model both the optical and the RF propagation. Later, we estimate the impact of foundry processes on the performance of a transmitter chip that uses the TW-MZM. We also analyze the impact of deviations in key design parameters on the bandwidth of the device. This case study helps photonic foundries estimate yield and helps chip designers understand performance bounds due to design choices and tolerances in the fabrication and packaging. </p><p>The basic building block of a TW-MZM is a traveling-wave phase shifter. As shown in Figure 1, the principle of operation of a traveling-wave electro-optical component is the distributed interaction over a region in space between electrical and optical signals propagating in a transmission line and in a waveguide, respectively. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig1-tw-ps?qlt=82&amp;wid=1200&amp;ts=1596144701222&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Traveling-wave phase shifter | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig1-tw-ps?qlt=82&amp;wid=1200&amp;ts=1596144701222&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Traveling-wave phase shifter | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em>Figure 1. Traveling-wave phase shifter.</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig2-twmzm-schematic?qlt=82&amp;wid=1200&amp;ts=1596144702028&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit schematic of a TW-MZM | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig2-twmzm-schematic?qlt=82&amp;wid=1200&amp;ts=1596144702028&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit schematic of a TW-MZM | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em>Figure 2. OptSim Circuit schematic of a TW-MZM.</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
@@ -33,7 +33,7 @@
 <h2>The Result</h2><p>OptSim Circuit provides a number of options [6] to capture stochastic variability in model and process parameters. One option is to associate mean, variance, and distribution to the parameters of interest. Parameters are then scanned over a large number of Monte Carlo runs. To estimate the resulting performance, a test circuit is created as shown in Figure 3. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig3-test-ckt?qlt=82&amp;wid=1200&amp;ts=1596144742482&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit test setup for evaluating performance of the TW-MZM | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig3-test-ckt?qlt=82&amp;wid=1200&amp;ts=1596144742482&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit test setup for evaluating performance of the TW-MZM | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em>Figure 3. OptSim Circuit test setup for evaluating performance of the TW-MZM.</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
@@ -47,7 +47,9 @@
     </div>
     <div>
 <p>The effective index mismatch (whether by design or due to manufacturing tolerances) is not the only factor limiting the device bandwidth. The traveling-wave nature of the modulator makes it sensitive to reflections from impedance mismatch in the traveling-wave electrode [5]. This could also happen in the optical waveguides, but for the moment we will assume that the effective index remains constant and doesn&rsquo;t introduce any reflection. RF trace length variations and imperfect terminations, whether on-chip or off-chip, could result in reflections causing bandwidth limitations.</p><p>A useful measurement is the modulator&rsquo;s extinction ratio. Figure 5 shows the extinction ratio measured from an optical eye at the TW-MZM output due to 15% mismatch between the phase shifter electrode and the load. </p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig5-extinction-ratio?qlt=82&amp;wid=1200&amp;ts=1596144726477&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Extinction ratio measured from an optical eye at the MZM output for 15% impedance mismatch | Synopsys"></p>
+    </div>
+    <div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig5-extinction-ratio?qlt=82&amp;wid=1200&amp;ts=1596144726477&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Extinction ratio measured from an optical eye at the MZM output for 15% impedance mismatch | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em>Figure 5. Extinction ratio measured from an optical eye at the MZM output for 15% impedance mismatch.</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>

@@ -15,7 +15,7 @@
 <p>The oceans are filled with waves containing almost unmeasurable amounts of water, which is similar to the huge amount of data in waveform files generated from various verification engines. This massive amount of data can be daunting for analysis. But, just like new wave turbines can harness the power of ocean waves, Synopsys Verdi utilities can process waveform files for powerful analysis. Furthermore, the <a href="/verification/debug/verdi">next generation of Verdi</a> waveform utilities offer even more performance and capacity.</p><p>Want to generate reports from your waveform files? Need to extract insightful data from your waveform files generated from simulation or emulation of a large design? The next generation Verdi waveform utilities, known simply as &ldquo;WaveUtils&rdquo;, provide various capabilities to assist. WaveUtils can process signal waveform results stored in the ubiquitous signal waveform FSDB file and is available to Verdi debug users. Verdi WaveUtils offers the following features:</p><ul><li>Extract &ndash; extract signals</li><li>Report &ndash; report signals and events</li><li>2vcd &ndash; convert an FSDB file to a VCD file</li></ul><p>Debugging requires much more time with each new design generation because of its increased complexity. The Verdi debug platform is well-known for accelerating a user&rsquo;s abilities to find errors, or &ldquo;bugs&rdquo;, in functionality. In the course of bug hunting, you might need specific information or analysis of the waveforms. For example, you might want a report of specific signals and their value changes. WaveUtils conveniently provides multiple methods to analyze and manipulate the FSDB file in batch mode. The report feature can then generate a text file with a list of specified signals from an FSDB file and list the corresponding signal value changes at each key point of a user-specified timeline. </p><p>Verdi WaveUtils can also read an FSDB database file on-demand using time-saving, multithreading processing to write values and handle large designs. To further improve runtime, WaveUtils also uses multiprocessing to extract signals. As a result, the overall runtime is shortened and memory consumption reduced.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<h2>Extract Feature</h2><p>The &ldquo;extract&rdquo; feature can be used to extract a selected scope from an FSDB database and write the result to a new FSDB database. Test results show improvement of up to 15X faster runtime versus early versions.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div><div><div>anchor</div><div>1</div></div></div>
+<h3>Extract Feature</h3><p>The &ldquo;extract&rdquo; feature can be used to extract a selected scope from an FSDB database and write the result to a new FSDB database. Test results show improvement of up to 15X faster runtime versus early versions.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div><div><div>anchor</div><div>1</div></div></div>
     </div>
     <div>
 <div class="columns"><div><div><p><strong>Case 1</strong></p><ul><li>FSDB size 7.5G</li><li>Gate-level</li><li>Partial signal/time extraction</li></ul></div><div><p><strong>Case 2</strong></p><ul><li>FSDB size 6.1G</li><li>RTL</li><li>Full signal/time extraction</li></ul></div><div><p><strong>Case 3</strong></p><ul><li>FSDB size 1.6G</li><li>Only hierarchy tree</li><li>Partial signal/time extraction</li><li>48 signal list strings</li></ul></div></div></div>
@@ -24,7 +24,7 @@
 <p><img src="https://images.synopsys.com/is/image/synopsys/vc120-verdi-wave-utils-extract?qlt=82&amp;wid=1200&amp;ts=1718309280223&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
     </div>
     <div>
-<h2>Report Feature</h2><p>The &quot;report&quot; feature can be used to output selected signal values to a report. Test results show the improvement can be more than 700X.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>2</div></div></div>
+<h3>Report Feature</h3><p>The &quot;report&quot; feature can be used to output selected signal values to a report. Test results show the improvement can be more than 700X.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>2</div></div></div>
     </div>
     <div>
 <div class="columns"><div><div><p><strong>Case 1</strong></p><ul><li>FSDB size 7.5G</li><li>All signals: 51M</li><li>Partial signal/time extraction</li></ul></div><div><p><strong>Case 2</strong></p><ul><li>FSDB size 1.6G</li><li>All signals: 516M</li><li>Full signal/time extraction</li></ul></div></div></div>
@@ -33,7 +33,7 @@
 <p><img src="https://images.synopsys.com/is/image/synopsys/vc120-verdi-wave-utils-reports?qlt=82&amp;wid=1200&amp;ts=1718309449485&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
     </div>
     <div>
-<h2>2vcd Feature</h2><p>The &quot;2vcd&quot; feature can be used to translate a FSDB file into VCD format. Test results show improvement up to 3X.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>3</div></div></div>
+<h3>2vcd Feature</h3><p>The &quot;2vcd&quot; feature can be used to translate a FSDB file into VCD format. Test results show improvement up to 3X.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>3</div></div></div>
     </div>
     <div>
 <div class="columns"><div><div><p><strong>Case 1</strong></p><ul><li>827MB FSDB</li><li>Gate level</li><li>Translate to VCD with time range, resulting VCD is 40G</li></ul></div><div><p><strong>Case 2</strong></p><ul><li>371MB FSDB</li><li>Extracted from Case 1</li><li>Time range specified</li><li>Convert to VCD without time range, resulting VCD is 40G</li></ul></div></div></div>
@@ -42,7 +42,7 @@
 <p><img src="https://images.synopsys.com/is/image/synopsys/vc120-verdi-wave-utils-2vcd?qlt=82&amp;wid=1200&amp;ts=1718309639201&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
     </div>
     <div>
-<h2>Conclusion</h2><p>As you can see using Verdi WaveUtils can result in significantly faster runtimes. Give them a try and quickly gain insights into FSDB waveforms. Take on the waves of simulation and emulation data! </p>
+<h3>Conclusion</h3><p>As you can see using Verdi WaveUtils can result in significantly faster runtimes. Give them a try and quickly gain insights into FSDB waveforms. Take on the waves of simulation and emulation data! </p>
 <div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li><li><a href="/blogs/chip-design/category-debug">Debug</a></li></ul></div></div></div><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>4</div></div></div>
     </div>
     <div>

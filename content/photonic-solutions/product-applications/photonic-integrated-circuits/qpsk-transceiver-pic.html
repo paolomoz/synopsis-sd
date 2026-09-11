@@ -14,7 +14,9 @@
 <h2>Concept: QPSK Transmitter</h2><p>Conceptually, a QPSK transmitter (I-Q modulator) is made up of in-phase and quadrature modulated components as shown in Figure 1.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig1-tx-concept?qlt=82&amp;wid=1200&amp;ts=1596144742554&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Basic building blocks of a QPSK transmitter | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig1-tx-concept?qlt=82&amp;wid=1200&amp;ts=1596144742554&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Basic building blocks of a QPSK transmitter | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 1. Basic building blocks of a QPSK transmitter.</em></p>
     </div>
     <div>
@@ -22,14 +24,18 @@
 <h2>Schematic Entry, Generation of Layout, and Design Rule Checks (DRC)</h2><p>Figure 2 shows an OptSim Circuit schematic of the QPSK transmitter in Figure 1 using the Tower Semiconductor silicon process (PH18) PDK. The connections between the PDK elements are &ldquo;hard&rdquo; connections. Hard connections are parametric PDK elements providing optical connectivity between the adjacent functional blocks (also represented by PDK) of a PIC. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig2-tx?qlt=82&amp;wid=1200&amp;ts=1596144747370&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit schematic for simulating QPSK transmitter | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig2-tx?qlt=82&amp;wid=1200&amp;ts=1596144747370&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit schematic for simulating QPSK transmitter | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 2. OptSim Circuit schematic for simulating QPSK transmitter.</em><br> </p>
     </div>
     <div>
 <p>The OptSim Circuit GUI launches OptoDesigner and loads the script for the PIC schematic. Figure 3 shows the corresponding layout from OptoDesigner.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig3-tx-layout?qlt=82&amp;wid=1200&amp;ts=1596144712650&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout from OptoDesigner for the QPSK transmitter schematic of Fig. 2 | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig3-tx-layout?qlt=82&amp;wid=1200&amp;ts=1596144712650&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout from OptoDesigner for the QPSK transmitter schematic of Fig. 2 | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 3. Layout from OptoDesigner for the QPSK transmitter schematic of Fig. 2.</em></p>
     </div>
     <div>
@@ -39,7 +45,9 @@
 <h2>Concept: QPSK Receiver</h2><p>The operating principle of a QPSK receiver is shown in Figure 4.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fix4-rx-concept?qlt=82&amp;wid=1200&amp;ts=1596144701808&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="QPSK receiver concept | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fix4-rx-concept?qlt=82&amp;wid=1200&amp;ts=1596144701808&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="QPSK receiver concept | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 4. QPSK receiver concept.</em></p>
     </div>
     <div>
@@ -47,35 +55,45 @@
 <h2>Schematic Entry, Generation of Layout, and Design Rule Checks (DRC)</h2><p>Figure 5 shows an OptSim Circuit schematic of the QPSK receiver (Figure 4) using Tower Semiconductor silicon process (PH18) active and passive PDK elements. The connections between the PDK elements are &ldquo;hard&rdquo; connections. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig5-rx-pic?qlt=82&amp;wid=1200&amp;ts=1596144729935&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit schematic for simulating QPSK receiver | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig5-rx-pic?qlt=82&amp;wid=1200&amp;ts=1596144729935&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit schematic for simulating QPSK receiver | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 5. OptSim Circuit schematic for simulating QPSK receiver.</em></p>
     </div>
     <div>
 <p>Photonic connectivity is realized with bends, tapers and couplers. The shown connectivity has incoming modulated and local oscillator signals mix from the opposite ends of the 90-degree hybrid resulting in a compact layout in OptoDesigner.</p><p>As before, the OptSim Circuit GUI launches OptoDesigner and loads a script for the PIC schematic. Figure 6 shows the corresponding layout in OptoDesigner.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig6-rx-layout?qlt=82&amp;wid=1200&amp;ts=1596144735347&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout from OptoDesigner for the QPSK receiver schematic shown in Figure 5 | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig6-rx-layout?qlt=82&amp;wid=1200&amp;ts=1596144735347&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout from OptoDesigner for the QPSK receiver schematic shown in Figure 5 | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 6. Layout from OptoDesigner for the QPSK receiver schematic shown in Figure 5.</em></p>
     </div>
     <div>
 <h2>Testing the QPSK Transceiver PIC Performance</h2><p>Figure 7 shows an OptSim Circuit test setup for a Tower Semiconductor PDK-based high-speed, photonic QPSK transceiver chip. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig7-test-setup?qlt=82&amp;wid=1200&amp;ts=1596144741027&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit test setup for the transceiver PIC | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig7-test-setup?qlt=82&amp;wid=1200&amp;ts=1596144741027&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OptSim Circuit test setup for the transceiver PIC | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 7. OptSim Circuit test setup for the transceiver PIC.</em></p>
     </div>
     <div>
 <p>The two blocks in the middle with red dotted lines around them are QPSK transmitter and receiver PICs. On the left of the design area, there&rsquo;s an off-chip laser emitting light at 1550nm, a standard telecom C-band wavelength. Two decorrelated data sources with NRZ drivers and low pass filters provide push-pull RF drives at 32-Gbd/s speed to the modulators, while bias signals choose the bias points for the modulators.</p><p>The transmitter and receiver PICs are connected back to back. Another off-chip laser at the receiver serves as a local oscillator. To provide homodyne detection, the laser wavelength is identical to that of the received signal.</p><p>On the right of the receiver PIC, the balanced post-detection electronics extract in-phase and quadrature components of the received QPSK signal. The blocks in yellow are measurement components for visualization of signals, spectra, eye diagrams, BER, etc.</p><p>Figure 8 shows waveforms at the transmitter PIC.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig8-tx-waveforms?qlt=82&amp;wid=1200&amp;ts=1596144715737&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Waveforms at the transmitter PIC | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig8-tx-waveforms?qlt=82&amp;wid=1200&amp;ts=1596144715737&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Waveforms at the transmitter PIC | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 8. Waveforms at the transmitter PIC.</em></p>
     </div>
     <div>
 <p>The plot at the top left shows the modulated optical signal at the output of the transmitter. Since QPSK is phase modulation, amplitude is constant while phase transitions are shown. The lower left plot shows the optical spectrum of the QPSK-modulated signal at the transmitter output. On the right is QPSK constellation symmetric around the origin observed at the output of the transmitter PIC.</p><p>Figure 9 shows waveforms at the receiver PIC.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig9-rx-waveforms?qlt=82&amp;wid=1200&amp;ts=1596144702240&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Waveforms at the receiver PIC | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig9-rx-waveforms?qlt=82&amp;wid=1200&amp;ts=1596144702240&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Waveforms at the receiver PIC | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 9. Waveforms at the receiver PIC.</em></p>
     </div>
     <div>
@@ -83,7 +101,9 @@
 <h2>Evaluating Impact of Foundry Process Variations</h2><p>There are a number of papers that discuss the impact of receiver imperfections in QPSK systems [3-4].</p><p>The current study has a Gaussian fluctuation introduced around the mean value of the phase-shifter length for the in-phase component at the receiver. A parameter scan is setup for 100 Monte Carlo runs. Bit-error-rate (BER) values are collected for different amounts of deviations and are plotted in Figure 10. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig10-mc-runs?qlt=82&amp;wid=1200&amp;ts=1596144721914&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Impact of Quadrature Imbalance in the QPSK receiver PIC due to stochastic variations in MZI arm-lengths | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig10-mc-runs?qlt=82&amp;wid=1200&amp;ts=1596144721914&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Impact of Quadrature Imbalance in the QPSK receiver PIC due to stochastic variations in MZI arm-lengths | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 10. Impact of Quadrature Imbalance in the QPSK receiver PIC due to stochastic variations in MZI arm-lengths.</em></p>
     </div>
     <div>
@@ -91,14 +111,18 @@
 <h2>Layout-Versus-Schematic (LVS)</h2><p>The Layout-Versus-Schematic (LVS) check is an important stage before generating the final GDS II output. The LVS comparison is a software check to ensure that the OptoDesigner layout is identical to the OptSim Circuit schematic. The previous example used hard connections and there were no changes done at the layout level, so the LVS is not crucial for this specific case. However, for the sake of illustrating the full flow, we perform an LVS check. A runset file comprises of spice netlists from OptSim Circuit schematic and from an OptoDesigner-annotated GDS. Synopsys IC Validator [5] uses the runset file and compares the two netlists. Figure 11 shows a &ldquo;Pass&rdquo; output from IC Validator.</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig11-lvs?qlt=82&amp;wid=1200&amp;ts=1596144744725&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Successful LVS check in IC Validator | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig11-lvs?qlt=82&amp;wid=1200&amp;ts=1596144744725&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Successful LVS check in IC Validator | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 11. Successful LVS check in IC Validator.</em></p>
     </div>
     <div>
 <h2>Packaging</h2><p>Before we place the transceiver PIC in a die, we use OptoDesigner to add electrical pads and vias for electrical routing as shown in Fig. 12. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig12-pad-via-s-routes?qlt=82&amp;wid=1200&amp;ts=1596144701862&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Adding electrical pads, vias and metal routes in OptoDesigner | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig12-pad-via-s-routes?qlt=82&amp;wid=1200&amp;ts=1596144701862&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Adding electrical pads, vias and metal routes in OptoDesigner | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 12. Adding electrical pads, vias and metal routes in OptoDesigner.</em></p>
     </div>
     <div>
@@ -106,14 +130,16 @@
     </div>
     <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/fig13-top-transceiver-gds?qlt=82&amp;wid=1200&amp;ts=1596144702502&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/fig13-bottom-transceiver-in-die?qlt=82&amp;wid=1200&amp;ts=1596144719926&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="GDS II View (top) of the QPSK transceiver PIC and a die (bottom) | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/fig13-bottom-transceiver-in-die?qlt=82&amp;wid=1200&amp;ts=1596144719926&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="GDS II View (top) of the QPSK transceiver PIC and a die (bottom) | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 13. GDS II View (top) of the QPSK transceiver PIC and a die (bottom).</em></p>
     </div>
     <div>
 <h2>Summary</h2><p>In this application note, we considered a Tower Semiconductor PDK-based high-speed, scalable QPSK transceiver PIC design case study using Synopsys tools. We discussed the design-for-manufacturing (DFM) stages from the basic idea to fabrication. Unlike fragmented, multi-vendor approaches in the market today, the Synopsys PIC design flow offers an intuitive pathway to productivity with design flexibility at each stage. For more information and to request a demo, please contact <a href="/cdn-cgi/l/email-protection#a0d0c8cfd4cfcec9c3d3ffd3d5d0d0cfd2d4e0d3d9cecfd0d3d9d38ec3cfcd">[email protected]</a>.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-md</div></div></div>
     </div>
     <div>
-<h2>References</h2><ol><li><a href="/content/dam/synopsys/photonic-solutions/pdf/photonic-solutions-overview-datasheet.pdf">Synopsys Photonic Solutions Datasheet</a></li><li><a href="https://towersemi.com/design-enablement/process-design-kitspdks/">https://towersemi.com/design-enablement/process-design-kitspdks/</a></li><li>Bosco, G., Poggiolini P., &ldquo;The impact of receiver imperfections on the performance of optical direct-detection DPSK,&rdquo; IEEE/OSA JLT, Feb 2005, pp. 842-848.</li><li>Petrou C.S., et al.,&rdquo; Quadrature imbalance compensation for PDM QPSK coherent optical systems,&rdquo; IEEE PTL, Dec 2009, pp. 1876-1878.</li><li><a href="/content/dam/synopsys/implementation&amp;signoff/datasheets/ic-validator-ds.pdf">IC Validator Physical Verification</a></li></ol><div class="section-metadata"><div><div>style</div><div>pb-md</div></div></div>
+<h3>References</h3><ol><li><a href="/content/dam/synopsys/photonic-solutions/pdf/photonic-solutions-overview-datasheet.pdf">Synopsys Photonic Solutions Datasheet</a></li><li><a href="https://towersemi.com/design-enablement/process-design-kitspdks/">https://towersemi.com/design-enablement/process-design-kitspdks/</a></li><li>Bosco, G., Poggiolini P., &ldquo;The impact of receiver imperfections on the performance of optical direct-detection DPSK,&rdquo; IEEE/OSA JLT, Feb 2005, pp. 842-848.</li><li>Petrou C.S., et al.,&rdquo; Quadrature imbalance compensation for PDM QPSK coherent optical systems,&rdquo; IEEE PTL, Dec 2009, pp. 1876-1878.</li><li><a href="/content/dam/synopsys/implementation&amp;signoff/datasheets/ic-validator-ds.pdf">IC Validator Physical Verification</a></li></ol><div class="section-metadata"><div><div>style</div><div>pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>

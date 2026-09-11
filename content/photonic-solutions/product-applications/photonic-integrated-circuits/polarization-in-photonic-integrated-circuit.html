@@ -11,10 +11,12 @@
     <div>
 <h2>Tools Used: ModePROP, OptSim Circuit, OptoDesigner</h2>
 <h2>Introduction</h2><p>Multi-mode operation and polarization conversion/splitting are common challenges in photonics integrated devices and circuits. It can be especially difficult to model them correctly and efficiently. In this report, we will demonstrate how to use the Synopsys full design flow, combining device and circuit simulation tools as well as a layout tool for a photonic integrated circuit (PIC). </p>
-<h2>Example Definition and Simulation Approach</h2><p>To demonstrate the capability of our simulation software, we select a relatively simple PIC as shown below[1] in Figure 1:</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
+<h2>Example Definition and Simulation Approach</h2><p>To demonstrate the capability of our simulation software, we select a relatively simple PIC as shown below[1] in Figure 1:</p><p>&#8203;</p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/pic-polarization-1?qlt=82&amp;wid=1200&amp;ts=1596143666794&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Schematic diagram of the polarization rotator-splitter | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/pic-polarization-1?qlt=82&amp;wid=1200&amp;ts=1596143666794&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Schematic diagram of the polarization rotator-splitter | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 1. Schematic diagram of the polarization rotator-splitter</em></p>
 <p>We picked this example because we would like to validate our circuit tool by comparing it with direct device simulation of the whole structure. This is the largest structure a device simulation tool can handle on a regular PC even at very coarse mesh. </p><p>There are two approaches:</p><p>1. Direct device simulation of the whole structure</p><p>2. Circuit simulation with custom PDKs by decomposing the whole structure into three sub-devices: polarization rotator, coupler, and splitter. </p><p>For the device simulation, the tool we use RSoft RCWA-based ModePROP, which is relatively efficient but maintains accuracy. </p>
     </div>
@@ -22,7 +24,9 @@
 <h2>Device Simulation</h2><p>To simulate the whole structure using a device tool, a very coarse mesh must be used (Dx=Dy=40nm, Dz=1&micro;m) in order to run it on a regular PC with 64G RAM. Shown below in Figure 2 is the layout of the whole structure in RSoft CAD, with an aspect ratio of 20:1. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/pic-polarization-2?qlt=82&amp;wid=1200&amp;ts=1596143666806&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout of the whole structure in RSoft CAD | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/pic-polarization-2?qlt=82&amp;wid=1200&amp;ts=1596143666806&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout of the whole structure in RSoft CAD | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 2. Layout of the whole structure in RSoft CAD</em></p>
     </div>
     <div>
@@ -57,7 +61,9 @@
     </div>
     <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-6-upper?qlt=82&amp;wid=1200&amp;ts=1596143666415&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Field patterns for input TE (upper) mode | Synopsys"></p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-6-lower?qlt=82&amp;wid=1200&amp;ts=1596143666685&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Field patterns for input TM (lower) mode | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-6-lower?qlt=82&amp;wid=1200&amp;ts=1596143666685&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Field patterns for input TM (lower) mode | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 6. Field patterns for input TE (upper) and TM (lower) modes</em></p>
     </div>
     <div>
@@ -68,10 +74,10 @@
 <p><em>Figure 7. Decomposition of the whole device into three sub-devices</em></p>
     </div>
     <div>
-<h2>Custom PDKs</h2><p>The RSoft built-in Custom PDK Utility can be used to automatically generate a PDK. A PDK includes an S-matrix for circuit simulation, and geometric framework for layout, for each of the sub-devices. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
+<h3>Custom PDKs</h3><p>The RSoft built-in Custom PDK Utility can be used to automatically generate a PDK. A PDK includes an S-matrix for circuit simulation, and geometric framework for layout, for each of the sub-devices. </p><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<h2>Polarization Rotator</h2><p>The polarization rotator shown in Figure 7(a) is a device with 1x1 physical ports. Each port carries two modes so it is 2x2 virtual ports from a circuit point of view. The input modes are the same as shown in Figure 3 used for the whole device simulation. The output modes are multi-modes guided in the wide (850nm) waveguide, as shown below in Figure 8.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
+<h3>Polarization Rotator</h3><p>The polarization rotator shown in Figure 7(a) is a device with 1x1 physical ports. Each port carries two modes so it is 2x2 virtual ports from a circuit point of view. The input modes are the same as shown in Figure 3 used for the whole device simulation. The output modes are multi-modes guided in the wide (850nm) waveguide, as shown below in Figure 8.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
 <div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-8a?qlt=82&amp;wid=1200&amp;ts=1596143666841&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TE0 mode | Synopsys"></p><p>(a) TE0 mode</p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-8b?qlt=82&amp;wid=1200&amp;ts=1596143666997&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TE1 mode | Synopsys"></p><p>(b) TE1 mode</p></div></div></div>
@@ -90,7 +96,7 @@
 <p>It is observed that both cross-talk and backward reflection is very small. </p>
     </div>
     <div>
-<h2>Coupler</h2><p>The coupler shown in Figure 7(b) is a 2x2 port device both physically and virtually. The input modes are the same as shown in Figure 8. The output modes are each TE0 mode from the two physical waveguides with different widths, as shown below in Figure 10. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
+<h3>Coupler</h3><p>The coupler shown in Figure 7(b) is a 2x2 port device both physically and virtually. The input modes are the same as shown in Figure 8. The output modes are each TE0 mode from the two physical waveguides with different widths, as shown below in Figure 10. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
 <div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-10a?qlt=82&amp;wid=1200&amp;ts=1596143665756&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TE0 mode with 650nm width | Synopsys"></p><p>(a) TE0 mode with 650nm width</p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-10b?qlt=82&amp;wid=1200&amp;ts=1596143666082&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="TE0 mode with 500nm width | Synopsys"></p><p>(b) TE0 mode with 500nm width</p></div></div></div>
@@ -106,7 +112,7 @@
 <p>Some cross-talk is observed, as well as some backward reflection because of appearance of the 2nd waveguide. </p>
     </div>
     <div>
-<h2>Splitter</h2><p>For the splitter shown in Figure 7(c), it is also a 2x2 port device both physically and virtually. The input modes are the same as output modes of the coupler, shown in Figure 10. The output modes are each TE0 mode from the two physical waveguides with different width, as shown below in Figure 10. The output modes are the same as the output modes of the whole device shown in Figure 4. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
+<h3>Splitter</h3><p>For the splitter shown in Figure 7(c), it is also a 2x2 port device both physically and virtually. The input modes are the same as output modes of the coupler, shown in Figure 10. The output modes are each TE0 mode from the two physical waveguides with different width, as shown below in Figure 10. The output modes are the same as the output modes of the whole device shown in Figure 4. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-12a?qlt=82&amp;wid=1200&amp;ts=1596143665365&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="S-matrix of the splitter | Synopsys"></p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-12b?qlt=82&amp;wid=1200&amp;ts=1596143665502&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div></div></div>
@@ -118,14 +124,16 @@
 <h2>Compound Component</h2><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<h2>Schematic Layout</h2><p>With the established custom PDKs, we can build a compound component (CC) in RSoft OptSim Circuit, a schematic layout for the whole device, as shown below. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
+<h3>Schematic Layout</h3><p>With the established custom PDKs, we can build a compound component (CC) in RSoft OptSim Circuit, a schematic layout for the whole device, as shown below. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-13?qlt=82&amp;wid=1200&amp;ts=1596143666188&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Schematic layout in OptSim Circuit | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-13?qlt=82&amp;wid=1200&amp;ts=1596143666188&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Schematic layout in OptSim Circuit | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 13. Schematic layout in OptSim Circuit</em></p>
     </div>
     <div>
-<h2>Physical Layout</h2><p>With the full integration of RSoft simulation tools and the PIC Design Suite, the device can be physically laid out in OptoDesigner automatically, as shown below. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
+<h3>Physical Layout</h3><p>With the full integration of RSoft simulation tools and the PIC Design Suite, the device can be physically laid out in OptoDesigner automatically, as shown below. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-14?qlt=82&amp;wid=1200&amp;ts=1596143666049&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Physical layout in OptoDesigner | Synopsys"></p>
@@ -133,10 +141,12 @@
 <p>With an aspect ratio of 1, it is a very long and narrow device, as expected. </p>
     </div>
     <div>
-<h2>Circuit Simulation</h2><p>With the S-matrix data for each sub-device, we can test the circuit performance in OptSim Circuit with a proper input source (wide-band) and monitors (Spectrum Analyzers), as shown below. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
+<h3>Circuit Simulation</h3><p>With the S-matrix data for each sub-device, we can test the circuit performance in OptSim Circuit with a proper input source (wide-band) and monitors (Spectrum Analyzers), as shown below. </p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-xs</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-15?qlt=82&amp;wid=1200&amp;ts=1596143665805&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Test setup in OptSim Circuit for performance simulation | Synopsys"></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/pic-pol-15?qlt=82&amp;wid=1200&amp;ts=1596143665805&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Test setup in OptSim Circuit for performance simulation | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
+    </div>
+    <div>
 <p><em>Figure 15. Test setup in OptSim Circuit for performance simulation</em></p>
     </div>
     <div>

@@ -9,15 +9,15 @@
 <div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
-<h2>Synopsys IP 
+<h3>Synopsys IP 
             
-                Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>pt-xs, rail</div></div></div>
+                Technical Bulletin</h3><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>pt-xs, rail</div></div></div>
     </div>
     <div>
 <p>Convolutional Neural Networks (CNNs) have gotten a lot of justified buzz for being the state-of-the-art technique for computer vision tasks such as object detection and recognition. For applications on the edge requiring vision processing, such as mobile phones, autonomous vehicles and augmented reality devices, a dedicated vision processor with a CNN accelerator can maximize performance while minimizing power consumption. However, the accuracy of object detection can be influenced by the quality of the image that is fed into the CNN engine or accelerator. For the highest quality of results, designers must ensure that the image coming from the camera is as enhanced as possible. For example, images captured at dusk might suffer from lack of differentiation between the image and the background. A possible way to improve the image is by using a &lsquo;normalization&rsquo; pre-processing step.</p><p>In an example vision pipeline (Figure 1), light passes through the camera lens and strikes a CMOS sensor where each pixel is represented as a voltage proportional to intensity. The output of the CMOS sensor is fed into an image signal processor (ISP) to correct lens distortions and make color corrections. That image then is passed on to the vision processor for vision processing and object detection.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/combining-isp-vision-proc-fig1?qlt=82&amp;wid=1200&amp;ts=1716907770322&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Explaining What Is ISP in Computer Vision Processing"></p><div class="section-metadata"><div><div>style</div><div>pb-xs</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/combining-isp-vision-proc-fig1?qlt=82&amp;wid=1200&amp;ts=1716907770322&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Explaining What Is ISP in Computer Vision Processing"></p><div class="section-metadata"><div><div>style</div><div>pb-xs, img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em><strong>Figure 1: A typical vision system from camera to output of Convolutional Neural Network</strong></em></p><div class="section-metadata"><div><div>style</div><div>pb-sm, centered</div></div></div>
@@ -26,7 +26,7 @@
 <p>One important task for the ISP is color image demosaicing (Figure 2). Most digital cameras get their inputs using a single image sensor overlaid with a color filter array (CFA). The output has a green appearance to the naked eye when using the most common color filter array &ndash; the Bayer pattern. The filter pattern is 50% green, 25% red and 25% blue &ndash; the extra green helps mimic the physiology of the human eye which is more sensitive to green light. Demosaicing makes the images look more natural by extrapolating the missing color values from nearby pixels. This pixel-by-pixel processing of a two-dimensional (2D) image is a good example of the types of processing an ISP must perform.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/combining-isp-vision-proc-fig2?qlt=82&amp;wid=1200&amp;ts=1716907963226&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Explaining What Is ISP in Computer Processing"></p><div class="section-metadata"><div><div>style</div><div>pb-xs</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/combining-isp-vision-proc-fig2?qlt=82&amp;wid=1200&amp;ts=1716907963226&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Explaining What Is ISP in Computer Processing"></p><div class="section-metadata"><div><div>style</div><div>pb-xs, img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em><strong>Figure 2: Demosaicing a Bayer pattern image to a normal RGB image requires two-dimensional pixel processing</strong></em></p><div class="section-metadata"><div><div>style</div><div>pb-sm, centered</div></div></div>
@@ -35,7 +35,7 @@
 <p>Some camera manufacturers embed ISP capabilities in their camera module. Others will design their own hardwired ISP. To execute computer vision algorithms such as object detection or facial recognition on the image outputs of the ISPs, a separate CNN engine &ndash; either on-chip or off-chip &ndash; is required. Modern vision processors, such as the Synopsys EV62 (Figure 3), include both vector DSP capabilities and a neural network accelerator or engine. The vision processor&rsquo;s vector DSP offers capabilities that are well suited to executing ISP functions.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/combining-isp-vision-proc-fig3?qlt=82&amp;wid=1200&amp;ts=1716908167512&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="ISP in Computer Vision Processing Diagram"></p><div class="section-metadata"><div><div>style</div><div>pb-xs</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/combining-isp-vision-proc-fig3?qlt=82&amp;wid=1200&amp;ts=1716908167512&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="ISP in Computer Vision Processing Diagram"></p><div class="section-metadata"><div><div>style</div><div>pb-xs, img-pad-lg</div></div></div>
     </div>
     <div>
 <p><em><strong>Figure 3: Synopsys&rsquo; DesignWare ARC EV62 Vision Processor EV62 with CNN option includes two vector DSP cores and one tightly integrated neural network engine.</strong></em></p><div class="section-metadata"><div><div>style</div><div>pb-sm, centered</div></div></div>

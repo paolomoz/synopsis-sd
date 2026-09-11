@@ -15,7 +15,7 @@
 <p>HBM2E (High Bandwidth Memory) is a high-performance 3D-stacked DRAM used in high-performance computing and graphic accelerators. It uses less power but posts higher bandwidth than graphics cards relying on DDR4 or GDDR5 memory. Validating the performance and utilization of memory is a big challenge for users due to complex structure of SoC and the subsystem attached to it such as memory subsystem, interconnect bus, and processor.</p><p><a href="/verification/debug/verdi">Synopsys&rsquo; Verdi Performance Analyzer</a> provides a solution. This blog will provide insight into how Verdi Performance Analyzer natively integrated with Synopsys VIP can be used to measure key performance metrics like number of commands, count of page empty scenarios that occur in a test. All of these metrics can be used for performance benchmarking.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<h2>Memory Transaction Flow</h2><p>The basic memory access flow can be described as opening a bank using an Activate command, followed by Writing or Reading from various addresses in the bank, and finally closing the bank using a precharge command.<br> </p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>1</div></div></div>
+<h3>Memory Transaction Flow</h3><p>The basic memory access flow can be described as opening a bank using an Activate command, followed by Writing or Reading from various addresses in the bank, and finally closing the bank using a precharge command.<br> </p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>1</div></div></div>
     </div>
     <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/hbm-performance-verification-made-easy?qlt=82&amp;wid=1200&amp;ts=1764973195553&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="HBM performance verification made easy"></p>
@@ -24,7 +24,7 @@
 <p><em>Figure 1: HBM Memory Transaction</em></p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm, centered</div></div></div>
     </div>
     <div>
-<h2>Verdi Performance Analyzer</h2><p>The number of cmd metric is categorized as single value metric and displayed in the tool as shown below.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>2</div></div></div>
+<h3>Verdi Performance Analyzer</h3><p>The number of cmd metric is categorized as single value metric and displayed in the tool as shown below.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>2</div></div></div>
     </div>
     <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/hbm-performance-verification-advanced-memory-systems?qlt=82&amp;wid=1200&amp;ts=1697704097827&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="HBM performance verification for advanced memory systems"></p>

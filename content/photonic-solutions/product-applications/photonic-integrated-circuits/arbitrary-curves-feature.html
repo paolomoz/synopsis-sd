@@ -15,33 +15,33 @@
 <h2>CurveUpDown</h2><p>CurveUpDown has two arguments &ndash; <em>XYup</em> and <em>XYlow</em>. Each of these is a function of a parameter <em>t</em>, which runs from 0 to 1, and describes a curve through space. The input port, <em>cin</em>, is located in the middle between the <em>XYup</em> and <em>XYlow</em> curves at <em>t=0</em>; the output port, <em>cout</em>, lies in the middle between <em>XYup</em> and <em>XYlow </em>at <em>t=1</em>. Their respective angles are the averages of the angles of the two curves.</p><p>unction arguments in the script are written at <em>{ t -&gt; sin(t) }</em> for a scalar function, or <em>{ t -&gt; sin(t)</em>, cos(t) } for a vector function. An example of a CurveUpDown that implements a one-sided grating whose period exponentially decreases is:</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-1?qlt=82&amp;wid=1200&amp;ts=1596143672970&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-1?qlt=82&amp;wid=1200&amp;ts=1596143672970&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p>When we use this for the silicon photonics waveguide type in the SOI DemoFab, the mask that gets generated looks like:</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-2?qlt=82&amp;wid=1200&amp;ts=1596143672964&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-2?qlt=82&amp;wid=1200&amp;ts=1596143672964&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p>Note that since this waveguide type is formed by trenches instead of the waveguide core itself, the tool automatically created these layers from the curve description. Also note that the density of vertices of the polygons is higher where the curve is more difficult, in order to keep the vertices within a given distance from the analytical curve. Also note that PDK specifies that the outer edge of the trench is allowed 10 times more distance between the curve and the polygon, and thus is discretized much more coarsely.</p>
 <h2>CenterPath</h2><p>The CenterPath is similar to the CurveUpDown. It is a suitable for curves that have a well-defined center path, with some width around it. Its first argument is the curve for the center path; the second is a width definition, which can be a built-in function like fixed or linear, or a user-defined function. The example below creates a cosine-shaped path with the same grating shape as above &ndash; except this time symmetrical:</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-3?qlt=82&amp;wid=1200&amp;ts=1596143672769&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-3?qlt=82&amp;wid=1200&amp;ts=1596143672769&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p>The generated shapes look like:</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-4?qlt=82&amp;wid=1200&amp;ts=1596143672727&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-4?qlt=82&amp;wid=1200&amp;ts=1596143672727&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <p>Again, the polygons are much denser where the curve is difficult, and the outer edges are discretized much more coarsely than the inner edges.</p>
 <h2>Pro Tip</h2><p>Using these script functions to create shapes is very flexible but can severely slow down mask export. This is caused by the discretization algorithm needing to execute a script function each time it needs to know the location of the curves, which is slow. Using &lsquo;functors&rsquo;, this can be sped up immensely. Functors look like script functions, but they are converted to c++ objects that evaluate orders of magnitude more quickly than normal script functions. Functors are written like { functor = sin(#) } for a scalar function, or { functor = sin(#), cos(#) } for a vector function. The &lsquo;#&rsquo; character takes the place of the running variable &lsquo;t&rsquo;. The two curves then look like this:</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
     </div>
     <div>
-<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-5?qlt=82&amp;wid=1200&amp;ts=1596143672623&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
+<p><img src="https://images.synopsys.com/is/image/synopsys/arb-curves-5?qlt=82&amp;wid=1200&amp;ts=1596143672623&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p><div class="section-metadata"><div><div>style</div><div>img-pad-lg</div></div></div>
     </div>
     <div>
 <h2>Want to Know More?</h2><p>If you have any comments or questions, contact us at <a href="/cdn-cgi/l/email-protection#acdcc4c3d8c3c2c5cfdff3dfd9dcdcc3ded8ecdfd5c2c3dcdfd5df82cfc3c1">[email protected]</a></p><p>If you&rsquo;d like to read other useful tips visit our <a href="/photonic-solutions/product-applications">Application Notes gallery</a> and our <a href="/photonic-solutions">Product Information page.</a></p><div class="section-metadata"><div><div>style</div><div>pb-md</div></div></div>
