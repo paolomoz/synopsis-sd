@@ -22,7 +22,8 @@
  "hideOnBuild": [
   ".carousel.blog",
   ".listing",
-  ".form form"
+  ".form form",
+  ".cmp-dynamiccards"
  ],
  "neutraliseOnLive": {
   ".two2575PinnedLeft, .two2575PinnedLeft > *": "position: static !important; top: auto !important"

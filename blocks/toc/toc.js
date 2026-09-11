@@ -20,6 +20,13 @@ export default async function decorate(block) {
     if (!h.id) h.id = `${h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${i}`;
     const li = document.createElement('li'); const a = document.createElement('a'); a.href = `#${h.id}`; a.textContent = h.textContent.trim(); li.append(a); ul.append(li);
   });
+  // source TOC ends with a "Subscribe" button that jumps to the blog subscription form in the rail
+  const railForm = main?.querySelector('.section.form-container .form.block, .section.rail .form.block');
+  if (railForm && ul.children.length) {
+    if (!railForm.id) railForm.id = 'subscribe';
+    const li = document.createElement('li'); li.className = 'toc-subscribe';
+    const a = document.createElement('a'); a.href = `#${railForm.id}`; a.textContent = 'Subscribe'; li.append(a); ul.append(li);
+  }
   box.append(t, ul);
   block.replaceChildren(box);
   if (!ul.children.length) block.closest('.section')?.classList.add('toc-empty');

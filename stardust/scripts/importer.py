@@ -932,6 +932,9 @@ def convert_column(col, page, inherited_style=''):
         h = ''
         if head is not None: h += f'<h2>{esc(clean_text(head.get_text()))}</h2>'
         if p is not None and clean_text(p.get_text()): h += f'<p>{esc(clean_text(p.get_text()))}</p>'
+        if tags and head is None and p is None:
+            # page tag chips (source ul.cmp-blogsdev__pagetags-container) → `tags` block
+            page.add_block(block_table('tags', [['<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></li>' for a in tags if clean_text(a.get_text())) + '</ul>']]), bg_of(col)); COVERAGE['tags'] += 1; return
         if tags: h += '<p>' + ('Tags: ' if head is None else '') + ', '.join(f'<a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a>' for a in tags) + '</p>'
         if h: page.add_default(h); COVERAGE['tags'] += 1
         return

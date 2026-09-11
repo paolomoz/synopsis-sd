@@ -683,7 +683,61 @@ body.article main .section .default-content-wrapper img {
 
 /* article layout: left rail (toc, subscribe form, rail sections) floats beside the 75% reading column */
 body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail) {
-  padding: 0 0 24px;
+  padding: 0 0 60px; /* source text bands: vert-pad-bottom-md */
+}
+
+/* a band that ends with a figure: the figure carries the 60px (source .image band pb 60) */
+body:is(.article, .glossary) main > .section:has(> .default-content-wrapper:last-child > p:last-child > picture) {
+  padding-bottom: 0;
+}
+
+body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> picture) {
+  margin: 30px 0 0;
+  padding-bottom: 60px;
+}
+
+body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> picture) img {
+  margin: 0;
+}
+
+/* intro band: copy starts 24px under the band top (source .component-text mt 24) */
+body:is(.article, .glossary) main > .section:not(.rail, .rail-right, .toc-container, .form-container) .default-content-wrapper > p:first-child {
+  margin-top: 24px;
+}
+
+/* band after an inline promo (columns media): heading 30px under the hairline */
+body:is(.article, .glossary) main > .section.columns-container + .section .default-content-wrapper > h2:first-child {
+  margin-top: 30px;
+}
+
+body:is(.article, .glossary) main > .section .default-content-wrapper + .columns-wrapper {
+  margin-top: 50px;
+}
+
+/* the last text band carries 76px of trailing space before the tag row on the source */
+body:is(.article, .glossary) main > .section:has(+ .section.tags-container) {
+  padding-bottom: 136px;
+}
+
+body:is(.article, .glossary) main > .section.tags-container {
+  padding: 0 0 10px;
+}
+
+body:is(.article, .glossary) main > .section.tags-container + .section.centered {
+  padding-top: 90px;
+  background: none;
+}
+
+body:is(.article, .glossary) main > .section.centered .default-content-wrapper h2:only-child {
+  margin: 0;
+  color: var(--purple-dark);
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+body:is(.article, .glossary) main > .section.carousel-container {
+  padding-bottom: 76px;
 }
 
 /* wrappers are BFCs (flow-root) so they sit beside the floated rail; the left margin reserves the rail
@@ -708,7 +762,7 @@ body:is(.article, .glossary) main > .section.rail {
 body:is(.article, .glossary) main > .section.toc-container > div,
 body:is(.article, .glossary) main > .section.form-container > div,
 body:is(.article, .glossary) main > .section.rail > div {
-  padding: 0 30px 0 0;
+  padding: 0 62px 0 0; /* source rail: 293px column, 15 left + 48 right → 230px of content */
 }
 
 body:is(.article, .glossary) main > .section.rail .default-content-wrapper h2,
@@ -731,7 +785,7 @@ body:is(.article, .glossary) main > .section.rail .default-content-wrapper p a:a
   font-weight: 400;
 }
 
-body:is(.article, .glossary) main > .section.hero-container { padding: 0 0 40px; }
+body:is(.article, .glossary) main > .section.hero-container { padding: 0 0 30px; }
 
 body:is(.article, .glossary) main > .section.cards-container,
 body:is(.article, .glossary) main > .section.centered,
@@ -740,7 +794,8 @@ body:is(.article, .glossary) main > .section.carousel-container { clear: both; p
 body:is(.article, .glossary) main > .section.centered + .section.carousel-container,
 body:is(.article, .glossary) main > .section.centered + .section.cards-container { padding-top: 0; }
 body.article main > .section.form-container .form .form-panel { padding: 0; background: transparent; border: 0; box-shadow: none; }
-body.article main > .section.form-container .form .form-title { margin: 0 0 16px; color: var(--ink); font-size: 24px; font-weight: 300; text-align: left; }
+body.article main > .section.form-container .form .form-title { margin: 0 0 10px; color: var(--ink); font-size: 24px; font-weight: 300; line-height: 33.6px; text-align: left; }
+body.article main > .section.form-container > div { padding-bottom: 32px; }
 body.article main > .section.form-container .form .form-panel .form-note { font-size: 12px; }
 
 /* gated form pages: text 7/12 · form 5/12 in one section */

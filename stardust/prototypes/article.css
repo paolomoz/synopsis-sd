@@ -1,0 +1,99 @@
+/* article.css — article archetype page layer (blog post, 25/75). Shared chrome in canon.css. Values lifted from the live page @1440. */
+body.article-page{background:#fff}
+/* banner: 344px gradient, breadcrumb row 41, title/authors/date centred (source .cmp-blogbanner) */
+.cmp-blogbanner{position:relative;height:344px}
+.cmp-blogbanner .blog-banner{height:344px;background:linear-gradient(to right,#5a2a82,#714794,#956eb6)}
+.cmp-blogbanner .text-overlay{position:absolute;inset:0;padding:0 15px}
+.cmp-blogbanner .breadcrumb{max-width:1170px;margin:0 auto;padding:0 15px}
+.cmp-blogbanner .breadcrumb nav{padding:20px 0 0}
+.cmp-blogbanner .breadcrumb ul{display:flex;margin:0;padding:0;list-style:none;font-size:16px;line-height:25.6px}
+.cmp-blogbanner .breadcrumb li{position:relative;line-height:16px}
+.cmp-blogbanner .breadcrumb a{display:inline-block;margin-right:20px;padding:0 5px 0 0;color:#fff;font-size:15px;font-weight:400;line-height:20px}
+.cmp-blogbanner .breadcrumb li + li a{padding-left:5px}
+.cmp-blogbanner .breadcrumb li + li a::before{content:"  /  ";white-space:pre}
+.cmp-blogbanner .info-holder{position:absolute;left:0;right:0;top:56px}
+.cmp-blogbanner h1.title{max-width:1170px;margin:0 auto;padding:20px 15px 0;color:#fff;font-size:44px;font-weight:400;line-height:normal;text-align:center}
+.cmp-blogbanner .authors,.cmp-blogbanner .date-time{max-width:1170px;margin:0 auto;padding:30px 0 0;color:#fff;font-size:20px;font-weight:400;line-height:normal;text-align:center}
+.cmp-blogbanner .authors a{color:#fff}
+.cmp-blogbanner .slash{padding:0 20px}
+/* 25/75 row 30px under the banner */
+.two2575{margin-top:30px}
+.two2575 .container{max-width:1170px;margin:0 auto;padding:0 15px}
+.two2575 .component-column{display:flex;flex-wrap:nowrap;align-items:flex-start;margin:0 -15px}
+.two2575PinnedLeft{position:sticky;top:80px;flex:0 0 293px;width:293px;padding:0 48px 0 15px;box-sizing:border-box}
+.two2575Right{flex:0 0 878px;width:878px;padding:0 15px;box-sizing:border-box}
+/* rail: TOC */
+.cmp-tableofcontents{padding-bottom:30px}
+.cmp-tableofcontents__header{display:flex;margin-top:15px}
+.cmp-tableofcontents__title{font-size:24px;font-weight:300;line-height:38.4px;color:var(--ink)}
+.cmp-tableofcontents__content-list{margin-top:15px}
+.cmp-tableofcontents__content-list-wraper{margin:0 0 10px;padding:0;list-style:none;font-size:16px;font-weight:300;line-height:25.6px}
+.cmp-tableofcontents__content-item-wraper{display:flex}
+.cmp-tableofcontents__content-item-text{display:block;padding:8px 15px;color:var(--ink);font-size:16px;font-weight:300;line-height:25.6px;border-left:2px solid var(--rule)}
+.cmp-tableofcontents__content-item-text.subscribe-btn{display:inline-block;margin:15px 0;padding:12px 24px;border:0;border-radius:5px;background:var(--ink);color:#fff;font-size:16px;font-weight:400;line-height:16px}
+/* rail: subscription form frame (form body is JS on the source; hidden on both sides by policy) */
+.cmp-subscription-form .subscription-form-container{padding:0 0 32px}
+.cmp-subscription-form .form-title{margin:0 0 10px;font-size:24px;font-weight:300;line-height:33.6px;color:var(--ink)}
+.cmp-subscription-form form{display:none}
+/* rail: share */
+.cmp-socialshare{height:38px;padding-bottom:30px;line-height:38px}
+.cmp-socialshare__link{display:inline-block;padding:0 7.5px;color:var(--ink)}
+.cmp-socialshare__link:first-child{padding-left:0}
+.cmp-socialshare__link .ico{width:28px;height:28px;vertical-align:middle}
+/* main column bands */
+.band-text{padding-bottom:60px}
+.band-text:has(> .promo:last-child),.band-text:has(> .image:last-child){padding-bottom:0}
+.two2575Right .band-text:last-of-type{padding-bottom:136px} /* live: the last text band carries 76px of trailing space before the tag row */
+.band-text:has(.promo) + .band-text .component-textcomp{margin-top:30px}
+.band-text > p{margin:0 0 10px;font-size:16px;font-weight:300;line-height:25.6px;color:var(--ink)}
+.band-text > p:first-child{margin-top:24px}
+.band-text > p:last-child{margin-bottom:0}
+.band-text ul,.band-text ol{margin:0 0 10px;padding:0 0 0 40px;font-size:16px;font-weight:300;line-height:25.6px}
+.band-text a{color:var(--link)}
+.band-text .anchor{position:absolute;width:0;height:1px}
+.band-text .component-textcomp{position:relative;margin-top:0}
+.band-text .component-textcomp .title{margin:0;font-size:32px;font-weight:300;line-height:35.2px;color:var(--ink)}
+.band-text .component-textcomp + p{margin-top:24px}
+.band-text .image{margin-top:30px;padding:0 0 60px}
+.band-text .image img{display:block;width:100%;height:auto}
+/* inline promo (experience fragment): rules 20px apart, 4/8 media row */
+.promo{margin:30px 0 0;padding-bottom:15px}
+.promo .separator{height:1px;margin:20px 0;border:0;background:#c4c4c4}
+.promo .component-column{display:flex;flex-wrap:nowrap;margin:15px -15px 15px}
+.promo .col{padding:0 15px;box-sizing:border-box}
+.promo .col-sm-4{flex:0 0 292px}
+.promo .col-sm-8{flex:0 0 585px}
+.promo .image{margin-top:15px}
+.promo .image img{display:block;width:262px;height:148px;object-fit:cover}
+.band-text .promo .component-textcomp{margin-top:30px}
+.promo .component-textcomp .title{margin:0;font-size:24px;font-weight:300;line-height:26.4px;color:var(--purple-dark)}
+.promo .component-text{margin-top:24px;font-size:16px;font-weight:300;line-height:25.6px}
+.promo .component-text p{margin:0}
+.promo .buttons{display:flex;margin-top:24px}
+.promo .component-button.primary{display:flex;align-items:center;height:40px;padding:0 24px;border-radius:5px;background:var(--purple);color:#fff;font-size:16px;font-weight:400;line-height:25.6px}
+/* tags */
+.cmp-blogsdev{padding-bottom:10px}
+.cmp-blogsdev__pagetags-container{margin:0;padding:10px 0;list-style:none;font-size:16px;line-height:25.6px}
+.cmp-blogsdev__pagetags-container li{display:inline-block;margin:6px 3px}
+.cmp-blogsdev__pagetags-container a{display:flex;align-items:center;height:22px;padding:0 8px;border:1px solid #c4c4c4;border-radius:5px;color:var(--grey);font-size:12px;font-weight:300;line-height:12px}
+/* Continue Reading */
+.band-title{margin-top:30px;padding-top:60px}
+.band-title .container{max-width:1170px;margin:0 auto;padding:0 15px}
+.band-title .title{margin:0;font-size:40px;font-weight:300;line-height:44px;color:var(--purple-dark);text-align:center}
+.cmp-dynamiccards .container{max-width:1170px;margin:0 auto;padding:0 15px}
+.cmp-dynamiccards .row{display:flex;flex-wrap:nowrap;margin:0 -15px}
+.cmp-dynamiccards .card-col{flex:0 0 390px;padding:10px;box-sizing:border-box}
+.component-card-b{display:flex;flex-direction:column;margin:15px 0;background:#fff;box-shadow:0 1px 7px rgba(0,0,0,.15)}
+.component-card-b .image-wrapper img{display:block;width:370px;height:212px;object-fit:cover}
+.component-card-b .card-text{padding:20px 32px}
+.component-card-b .label-date-wrapper{display:flex;justify-content:flex-end;height:30px;margin-bottom:10px}
+.component-card-b .date-time{padding-top:2px;color:var(--grey);font-size:14px;font-weight:300;line-height:20px}
+.component-card-b h4.heading{margin:0 0 20px;font-size:20px;font-weight:400;line-height:22px}
+.component-card-b h4.heading a{color:var(--ink)}
+.component-card-b .author-info{display:flex;margin-bottom:32px;font-size:16px;font-weight:300;line-height:17px}
+.component-card-b .tag-holder{color:var(--grey);font-size:14px;font-weight:500;line-height:22.4px}
+.component-card-b .tag-holder a{color:var(--grey);font-weight:300}
+.component-card-b .cta{margin:32px 0 16px;font-size:16px;font-weight:300;line-height:16px}
+.component-card-b .cta a{display:flex;align-items:center;color:var(--ink)}
+.component-card-b .cta .ico{width:8px;height:12px;margin-left:8px}
+.site-footer{margin-top:76px}

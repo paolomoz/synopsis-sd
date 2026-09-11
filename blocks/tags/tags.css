@@ -1,0 +1,32 @@
+/* tags — source ul.cmp-blogsdev__pagetags-container: 12px grey chips, 22px tall, 6/3px gaps, 10px band padding */
+.tags .tags-list {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.tags .tags-list li {
+  display: inline-block;
+  margin: 6px 3px;
+}
+
+.tags .tags-list a:any-link {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 8px;
+  border: 1px solid var(--grey-light);
+  border-radius: 5px;
+  color: var(--grey);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  text-decoration: none;
+}
+
+.tags .tags-list a:hover {
+  color: var(--purple-dark);
+  border-color: var(--purple-dark);
+}

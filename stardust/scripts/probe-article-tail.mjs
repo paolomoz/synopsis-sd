@@ -1,0 +1,5 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('https://www.synopsys.com/blogs/chip-design/multiphysics-chip-design-challenges.html', { waitUntil: 'domcontentloaded' }); await p.waitForTimeout(3000);
+console.log(await p.evaluate(() => { const e = document.querySelector('.cmp-blogbanner .blog-banner'); const b4 = [...document.querySelectorAll('.two2575Right > .aem-Grid > .text')].pop(); const tags = document.querySelector('.two2575Right .blogsDev'); const cont = [...document.querySelectorAll('h2')].find((h) => /Continue Reading/.test(h.textContent)); const r = (x) => x ? [Math.round(x.getBoundingClientRect().top + scrollY), Math.round(x.getBoundingClientRect().height)] : null; return JSON.stringify({ bgi: getComputedStyle(e).backgroundImage, band4: r(b4), tags: r(tags), continueBand: r(cont.closest('.text')), footer: r(document.querySelector('footer')), crumbSep: getComputedStyle(document.querySelector('.cmp-blogbanner .breadcrumb li + li a'), '::before').content }); }));
+await b.close();

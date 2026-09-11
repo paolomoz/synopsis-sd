@@ -13,8 +13,9 @@ const base = 'https://main--synopsis-sd--paolomoz.aem.live';
 const policy = JSON.parse(readFileSync('stardust/replica/residual-policy.json', 'utf8'));
 const map = JSON.parse(readFileSync('stardust/path-map.json', 'utf8'));
 let paths = opt('--paths') ? opt('--paths').split(',') : Object.keys(map).filter((p) => map[p].template === template);
+const LIVE_OVERRIDE = opt('--live'); const BUILD_OVERRIDE = opt('--build'); if (LIVE_OVERRIDE) paths = ['__single__'];
 if (!opt('--paths')) { let s = seed; const rnd = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; }; paths = paths.sort().sort(() => rnd() - 0.5).slice(0, N); }
-const b = await chromium.launch(); const dir = `stardust/replica/gates/sample-${template}-${W}`; mkdirSync(dir, { recursive: true });
+const b = await chromium.launch(); const dir = opt('--dir') || `stardust/replica/gates/sample-${template}-${W}`; mkdirSync(dir, { recursive: true });
 async function shot(url, isLive, file) {
   const p = await b.newPage({ viewport: { width: W, height: 900 }, isMobile: W < 600, hasTouch: W < 600 });
   await p.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {}); await p.waitForTimeout(isLive ? 3500 : 2000);
@@ -28,10 +29,10 @@ async function shot(url, isLive, file) {
 }
 const results = [];
 for (const path of paths) {
-  const live = map[path]?.live; if (!live) continue;
+  const live = LIVE_OVERRIDE || map[path]?.live; if (!live) continue;
   const slug = path.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '');
   try {
-    const hl = await shot(live, true, `${dir}/${slug}-live.png`); const hb = await shot(base + path, false, `${dir}/${slug}-build.png`);
+    const hl = await shot(live, true, `${dir}/${slug}-live.png`); const hb = await shot(BUILD_OVERRIDE || (base + path), false, `${dir}/${slug}-build.png`);
     const a = PNG.sync.read(readFileSync(`${dir}/${slug}-live.png`)); const c = PNG.sync.read(readFileSync(`${dir}/${slug}-build.png`));
     const Wd = Math.min(a.width, c.width); const H = Math.max(a.height, c.height);
     const pad = (img) => { const o = new PNG({ width: Wd, height: H }); o.data.fill(255); PNG.bitblt(img, o, 0, 0, Wd, Math.min(img.height, H), 0, 0); return o; };

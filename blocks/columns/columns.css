@@ -98,18 +98,41 @@
 
 /* article inline CTA rows (source: imageTextCta between hairline rules, purple 24px title, button) */
 body:is(.article, .glossary) .columns.media {
-  margin: 30px 0;
-  padding: 30px 0;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  margin: 20px 0; /* source: hr separators with 20px margins, column row 15px inside, image +15, text +30 */
+  padding: 35px 0;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+body:is(.article, .glossary) .columns.media > div > .columns-img-col {
+  padding-top: 15px;
+}
+
+body:is(.article, .glossary) .columns.media > div > .columns-img-col img {
+  width: 100%;
+  border-radius: 0;
+}
+
+body:is(.article, .glossary) .columns.media > div > div:not(.columns-img-col) {
+  padding-top: 30px;
+}
+
+body:is(.article, .glossary) .columns.media > div > div h2 + p,
+body:is(.article, .glossary) .columns.media > div > div h3 + p {
+  margin-top: 24px;
+}
+
+body:is(.article, .glossary) .columns.media > div > div p.button-wrapper {
+  margin-top: 24px;
 }
 
 body:is(.article, .glossary) .columns.media > div > div h2,
 body:is(.article, .glossary) .columns.media > div > div h3 {
+  margin: 0;
   color: var(--purple-dark);
   font-size: 24px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 26.4px;
 }
 
 .columns.media > div > .columns-img-col img {
