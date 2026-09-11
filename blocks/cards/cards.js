@@ -50,6 +50,9 @@ function shapeAuthorRow(li) {
   const meta = [...body.querislectorAll?.('x') || body.querySelectorAll('p')].find((p) => /\bmin read\b|\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b \d{1,2}, \d{4}/.test(p.textContent) && !p.querySelector('a'));
   if (meta) { meta.className = 'cards-card-meta'; img.append(meta); }
   const cta = body.querySelector('.cards-card-cta'); if (cta) cta.remove();
+  // at 360 the source shows the type chip in the left (image) column's date row; keep a copy there, CSS picks one per breakpoint
+  const label = body.querySelector(':scope > p:first-child strong');
+  if (label) { const m = document.createElement('p'); m.className = 'cards-card-label-mobile'; m.append(label.cloneNode(true)); img.append(m); }
 }
 
 export default async function decorate(block) {

@@ -569,4 +569,9 @@ main > .section.cards-container:has(.cards.people) {
   .cards.author .cards-card-image { width: auto; }
   .cards.author .cards-card-image img { width: 100%; height: auto; }
   .cards.author .cards-card-body h3 { font-size: 16px; line-height: 16px; padding-bottom: 1px; }
+  .cards.author .cards-card-body > p:first-child { display: none; }
+  .cards.author .cards-card-image .cards-card-label-mobile { display: block; margin: 10px 0 0; line-height: 0; }
+  .cards.author .cards-card-image .cards-card-label-mobile strong { display: inline-block; padding: 4px 8px; border-radius: 3px; background: var(--purple); color: #fff; font-size: 12px; font-weight: 500; line-height: 12px; text-transform: uppercase; }
 }
+
+.cards.author .cards-card-image .cards-card-label-mobile { display: none; }
