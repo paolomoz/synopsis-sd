@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Seamless Transition: Software to Virtual Hardware | Synopsys Blog</div></div><div><div>Description</div><div>Effortlessly transition from software to virtual hardware with Synopsys Virtualizer Studio, enhancing your development process and efficiency.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Andreas Ropers, Markus Wedler</div></div><div><div>Published</div><div>Mar 15, 2021</div></div><div><div>Readtime</div><div>7 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Verification, Prototyping</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/msc11-navigating-transition-mil-to-vhil-virtualizer-studio?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Navigating the Transition from MiL to vHiL with Virtualizer Studio: A Comprehensive Guide</h1><p><a href="/authors/andreas-ropers">Andreas Ropers</a>, <a href="/authors/dr-markus-wedler">Markus Wedler</a></p><p>Mar 15, 2021 / 7 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Navigating the Transition from MiL to vHiL with Virtualizer Studio: A Comprehensive Guide</h1><p><a href="/authors/andreas-ropers">Andreas Ropers</a>, <a href="/authors/dr-markus-wedler">Markus Wedler</a></p><p>Mar 15, 2021 / 7 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>Introduction</h2><p>With the increasing complexity of software running on next generation engine control units (ECUs), car manufacturers and their suppliers are confronted with the need to develop models of the electrical and physical parts of the car at different levels of abstraction. There are several phases of abstraction (Figure 1).</p><ul><li><strong>Model in the Loop (MiL)</strong> where the functional behavior is often described on a functional level, which is commonly designed in MathWorks Simulink.</li><li><strong>Software in the Loop (SiL)</strong> where blocks of the functional design are replaced by actual code that represents the behavior.</li><li><strong>Processor in the Loop (PiL) </strong>where code is compiled for the actual target hardware. The target hardware communicates directly with the plant model in &lsquo;non real time&rsquo;.</li><li><strong>Hardware in the Loop (HiL)</strong> is similar to PiL, but the target hardware communicates to a PC which is typically equipped with I/O boards to connect to the physical ports of the ECU. The plant model is compiled to execute on the real-time computer.</li></ul>
@@ -49,7 +52,7 @@
     </div>
     <div>
 <h2>Summary</h2><p>New products, especially for the automotive domain, follow the V-model and go through different phases. Starting from the &lsquo;Model in the Loop&rsquo; parts of the design are migrated to more accurate simulators that better reflect the actual behavior. For the ECU, VDKs can be used to simulate the ECU behavior, while providing excellent debugging capabilities at the same time. Complex setups are supported by integrating VDKs directly with tools from Mathworks Simulink, Vector CANoe and Synopsys Saber. More tools are supported through the industry standard Functional Mock-up Interface (FMI). The complex migration step from &lsquo;Model/Software in the Loop&rsquo; to a &lsquo;virtual Hardware in the Loop&rsquo; setup is fully automated with Virtualizer Studio and saves time during the platform bring up. For high simulation performance VDKs provide a high speed communication mechanism and allows keeping all connected simulators synchronized.</p>
-<p>Tags: <a href="/blogs/chip-design/category-verification">Verification</a>, <a href="/blogs/chip-design/category-prototyping">Prototyping</a></p><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-verification">Verification</a></li><li><a href="/blogs/chip-design/category-prototyping">Prototyping</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

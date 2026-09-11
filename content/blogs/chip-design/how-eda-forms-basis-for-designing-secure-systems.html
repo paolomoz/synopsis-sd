@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>How Does EDA Form the Basis for Designing Secure Systems? | Synopsys Blog</div></div><div><div>Description</div><div>Discover how EDA forms the foundation for designing secure systems as IoT devices proliferate, addressing security risks at every level. Learn more with Synopsys.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Adam Cron, Brandon Wang</div></div><div><div>Published</div><div>Oct 08, 2020</div></div><div><div>Readtime</div><div>5 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Design</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/msc18-how-eda-forms-basis-for-designing-secure-systems?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>How Does EDA Form the Basis for Designing Secure Systems?</h1><p><a href="/authors/adam-cron">Adam Cron</a>, <a href="/authors/brandon-wang">Brandon Wang</a></p><p>Oct 08, 2020 / 5 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>How Does EDA Form the Basis for Designing Secure Systems?</h1><p><a href="/authors/adam-cron">Adam Cron</a>, <a href="/authors/brandon-wang">Brandon Wang</a></p><p>Oct 08, 2020 / 5 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>Introduction to IoT Security Risks</h2><p>As Internet of Things (IoT) devices rapidly increase in popularity and deployment, security risks are arising at all levels. It could be at the usability level such as social engineering, pretexting, phishing; at the primitive level such as cryptanalysis; at the software level such as client-side scripting, code injection; and now even at the hardware level. During hardware operation, we often have seen risks from side-channel analysis, cold boot, and fault injection; or during the hardware design and manufacturing cycles. Notable risks include IP theft, reverse engineering, cloning, and hardware trojan.</p>
@@ -36,7 +39,7 @@
     </div>
     <div>
 <p>To give a bit more color, for example, for protecting the supply chain, we&rsquo;re applying watermarking. We are watermarking IP, so as it gets out into the field, we can see if the IP is ours. To protect against reverse engineering, we have logic locking and obfuscation features which we can choose to implement. We can draw on those security tools or implementation details and apply those features to RTL or a design based on our security goals. If we are trying to increase supply chain security, then watermarking or locking can be implemented. For reverse engineering, obfuscation may be combined with locking. There&rsquo;re different levels of protection you might want to set for these four kinds of security issues (supply chain, reverse engineering, side-channel attack, trojans), and we can, dialing these things in, pick a certain amount or pick a certain number of these modifications and to a certain level: a 128-bit lock or 256-bit lock. Will the watermark be 50 steps or 1,000 steps?</p><p>Our ultimate goal is to accelerate the timeline from architecture to security-hardened RTL from one year, to one month, even one week &ndash; and to do so at a substantially reduced cost. The design flow pieces need to interact with each other so that the features inserted at earlier steps are not lost during later flow steps. Coordination of data elements and their use from design and deployment needs to be maintained so that keys can unlock the device functionalities, and watermarks can be validated in the field.</p>
-<p>Tags: <a href="/blogs/chip-design/category-design">Design</a></p>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-design">Design</a></li></ul></div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

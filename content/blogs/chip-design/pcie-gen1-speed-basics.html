@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Understanding Bandwidth: Back to Basics | Synopsys Blog</div></div><div><div>Description</div><div>Get back to basics with a clear, straightforward explanation of bandwidth and its crucial role in digital communication.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Richard Solomon</div></div><div><div>Published</div><div>Apr 21, 2016</div></div><div><div>Readtime</div><div>3 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Silicon IP, Interface IP</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/synopsys-logo-thumbnail?ts=1701970599130&amp;$responsive$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Understanding Bandwidth: Back to Basics</h1><p><a href="/authors/richard-solomon">Richard Solomon</a></p><p>Apr 21, 2016 / 3 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Understanding Bandwidth: Back to Basics</h1><p><a href="/authors/richard-solomon">Richard Solomon</a></p><p>Apr 21, 2016 / 3 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>One of the questions I&rsquo;ve been getting a lot recently is along the lines of <em>&ldquo;How many lanes and of what &lsquo;generation&rsquo; of PCI Express do I need?&rdquo;</em></p><p>This is a fairly straightforward question, and while coming up with a good first-order estimation is also fairly straightforward, it&rsquo;s not necessarily obvious in the PCI Express specification. Let&rsquo;s start with the &ldquo;raw&rdquo; data rate, which is fairly easy:</p><div class="table no-header"><div><div>PCI Express Data Rates </div></div><div><div>&ldquo;Gen1&rdquo;</div><div>2.5 Gb/s </div></div><div><div>&ldquo;Gen2&rdquo;</div><div>5 Gb/s </div></div><div><div>&ldquo;Gen3&rdquo;</div><div>8 Gb/s </div></div><div><div>&ldquo;Gen4&rdquo;</div><div>16 Gb/s   </div></div></div>
@@ -20,7 +23,7 @@
     </div>
     <div>
 <h2>Header Packets</h2><p>I should also mention that generally the use of 3-DWORD vs 4-DWORD headers is tied to whether your system is addressing 32-bit or 64-bit memory. So a small client system with less than 4GB of main memory might well use 100% 3-DWORD header packets, while a huge server running I/O Virtualization might come close to 100% 4-DWORD header packets. You could just be pessimistic and assume 100% 4-DWORD headers or you could make your own assumptions. (Averaging the 3-DWORD and 4-DWORD efficiencies isn&rsquo;t uncommon &ndash; which is probably where the &ldquo;85%&rdquo; number commonly batted around as the &ldquo;PCIe efficiency&rdquo; comes from: 128-byte packets with an even mix of 3-DWORD and 4-DWORD headers.) </p><p>So for an 8 lane (aka &ldquo;x8&rdquo;) &ldquo;Gen3&rdquo; implementation running 256-byte packets and using the more pessimistic 4-DWORD efficiency, we get: 8Gb/s * (128/130) * (0.914) * 8 = 57.6Gb/s or 7.2GB/s.</p><p>Clear as mud?</p><p>Probably needless to say, but I&rsquo;ll say it anyway &ndash; if this estimation is very close to your actual bandwidth needs and if it&rsquo;s critical you never fall short, then do a more detailed analysis! In real-world systems we&rsquo;ve used logic analyzers on actual hardware and measured the Synopsys controller IP hitting better than 98% of these numbers but there are obviously many factors which can come into play. Contact your friendly local Synopsys Application Engineer or drop a note to me if you need help digging deeper into your own PCI Express application.</p>
-<p>Tags: <a href="/blogs/chip-design/category-silicon-ip">Silicon IP</a>, <a href="/blogs/chip-design/category-interface-ip">Interface IP</a></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-silicon-ip">Silicon IP</a></li><li><a href="/blogs/chip-design/category-interface-ip">Interface IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

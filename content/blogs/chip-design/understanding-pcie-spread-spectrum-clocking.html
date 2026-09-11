@@ -3,10 +3,13 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Understanding PCIe Spread Spectrum Clocking | Synopsys Blog</div></div><div><div>Description</div><div>Explore the intricacies of PCIe Spread Spectrum Clocking (SSC). A comprehensive guide for digital verification engineers to understand SSC.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>VIP Expert</div></div><div><div>Published</div><div>Dec 14, 2015</div></div><div><div>Readtime</div><div>4 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Verification</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/vc5-understanding-pcie-spread-spectrum-clocking?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Understanding PCIe Spread Spectrum Clocking</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Dec 14, 2015 / 4 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Understanding PCIe Spread Spectrum Clocking</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Dec 14, 2015 / 4 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>Many of us who work primarily in digital verification and design are shielded from physical layer details. Only a handful of specialists closely follow these details. So for the rest of us, verifying and debugging Spread Spectrum Clocking (SSC) can be a daunting task.</p><p>This blog post is a quick Q&amp;A to give you a jump start in understanding some of the complexities of PCI Express (PCIe) Spread spectrum clocking (SSC) techniques.</p><p>Here&rsquo;s where you can learn more about Synopsys VC Verification IP for Gen 4 ready PCIe and PCIe Test Suites.</p>
@@ -36,7 +39,7 @@
     </div>
     <div>
 <h2>How can I visually verify if SSC is really happening?</h2><p>There are multiple ways. The simplest is you can visualize the &ldquo;clock period signal&rdquo; typically a floating point data type (real type in SystemVerilog) if it&rsquo;s accessible in your waveform viewer as analog signal.<br> </p><p>If it&rsquo;s not accessible, through a simple monitor collect the time stamp and period of the Refclk or internally generated transmit bit clock running at line speed, for at least 33us assuming you are using 30Khz modulation. Plot the timestamp on the X-axis and duration of the clock on the Y-axis. You should be able to see a profile matching the one shown in Figure 2.</p><p>In order for you to successfully verify spread spectrum clocking, the PCIe Verification IP you use needs to support SSC. It should give you the programmability to turn spread spectrum ON or OFF at different speeds. Also it should support the specification defined SSC profile for Down-spread of 0.5%. It should also allow programmability in terms of the frequency of modulated signal in the range of 30Khz (min) and 33Khz (max). Synopsys PCIe VIP comes loaded with all these features and more.</p>
-<p>Tags: <a href="/blogs/chip-design/category-engineering-central">Engineering Central</a>, <a href="/blogs/chip-design/category-verification">Verification</a></p><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

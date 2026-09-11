@@ -9,6 +9,9 @@
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <h2>Synopsys IP 
             
                 Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
@@ -18,7 +21,10 @@
     </div>
     <div>
 <h2>1. Protocol testing</h2><p>The USB Command Verifier (USBCV) test software validates that the USB protocols are followed. The USBCV software that includes a suite of tests for validating a Host or Device properly implements the USB specification. Specifically, they step through Chapter 9 of the USB specification and test each aspect of the Chapter 9 requirements (Figure 1). The tester runs the USBCV on a standard PC running Windows and the most recent version of Microsoft drivers. The Host is installed in the Windows PC and is connected to a peripheral of matching speed. For example, a USB 3.1 Gen 2 Host would be connected to a USB 3.1 Gen 2 solid state device (SSD).</p>
-<div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-challenges-usb-2016q4-img1?qlt=82&amp;wid=1200&amp;ts=1716547990325&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="USB 3.1 Gen X Command Test Interface Screenshot"></p><p><em><strong>Figure 1: USBCV testing a USB 3.1 Gen 2 Host</strong></em></p></div><div></div></div></div><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-challenges-usb-2016q4-img1?qlt=82&amp;wid=1200&amp;ts=1716547990325&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="USB 3.1 Gen X Command Test Interface Screenshot"></p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 1: USBCV testing a USB 3.1 Gen 2 Host</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>2. Gold Tree Testing</h2><p>The USB Gold Tree is a specific set of USB peripherals. To form the trunk of the tree, multiple hubs are connected, up to five in series. Branches of the tree include USB peripherals. The peripherals exercise all USB types of traffic. All peripherals use control transfers for enumeration and configuration of the endpoints. It tells the host the kind of peripheral, the number of endpoints, and the type of transfers to be supported. The three types of transfers are interrupt, bulk, and isochronous.</p><ul><li><strong>Interrupt</strong> &ndash; Keyboards, mice and touch screens generate interrupt transfers. Keyboards and mice are included in the Gold Tree.</li><li><strong>Bulk</strong> &ndash; Printers and flash drivers use bulk transfers to move data with 100% accuracy. A printed picture must have 100% accurate data. The Gold Tree includes a printer and multiple flash drives to test bulk transfers.</li><li><strong>Isochronous</strong> &ndash; Isochronous traffic includes video and audio traffic. Real time video or audio can drop a few packets from time-to-time with minimal impact to the user. To test Isochronous IN transactions, the Gold Tree includes two webcams and one microphone (as part of a USB headset). To test Isochronous out, a USB headset is used.</li></ul><p>The USB Gold Tree for USB 3.1 Gen 1 (5 Gbps) Hosts and USB 3.1 Gen 2 (10 Gbps) Hosts (Figure 2) includes a SuperSpeed USB 3.1 Gen 2 USB to video adapter. This is the major addition for 5 Gbps and faster testing.</p>
@@ -53,7 +59,7 @@
     <div>
 <h2>Summary</h2><p>USB Host certification is the most extensive USB certification process, and the most difficult to obtain. Most PC makers are able to obtain certification because the PC chipset providers have completed certification in advance. As long as the PC makers follow the guidance from the PC chipset providers, their system will likely pass compliance testing. For SoC developers, it&#x27;s tougher. They need to ensure their entire chip works, and the IP has already passed the Host certification testing. They may or may not have the resources and expertise of the PC chipmaker. Synopsys is the only IP vendor to have earned USB 3.1 Gen2 certification for its Host and Device IP solutions, which include <a href="/designware-ip/interface-ip/usb">DesignWare USB 3.1 Gen2 controllers and PHYs</a>. Using compliant, certified USB IP lowers integration risk, helps projects tape out on schedule, and supports first-silicon success for improved time-to-market.</p>
 <h2>  Subscribe to the Synopsys IP Technical Bulletin  </h2><p>Includes in-depth technical articles, white papers, videos, upcoming webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
-<p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a>, <a href="/articles/category-interface-ip">Interface IP</a></p><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a></li><li><a href="/articles/category-silicon-ip">Silicon IP</a></li><li><a href="/articles/category-interface-ip">Interface IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

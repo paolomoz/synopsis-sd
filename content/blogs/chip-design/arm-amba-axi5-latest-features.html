@@ -3,10 +3,13 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Learn About the Latest Arm AMBA AXI5 Features | Synopsys Blog</div></div><div><div>Description</div><div>Explore the latest Arm AMBA AXI5 protocol features in depth. Learn about its key characteristics and how these are supported by VIP for AMBA AXI5.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>VIP Expert</div></div><div><div>Published</div><div>Nov 05, 2022</div></div><div><div>Readtime</div><div>4 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Verification, Verification IP</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/vc89-arm-amba-axi5-latest-features?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Learn About the Latest Arm AMBA AXI5 Features</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Nov 05, 2022 / 4 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Learn About the Latest Arm AMBA AXI5 Features</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Nov 05, 2022 / 4 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/synopsys-verification-ips?qlt=82&amp;wid=1200&amp;ts=1698344873017&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Synopsys Verification IPs"></p>
@@ -23,7 +26,8 @@
 <h2>User Loopback Signaling</h2><p>User Loopback signaling enables a component to store transaction information in an indexed table and then use a fast table index to obtain the required information to respond to the transactions, rather than requiring a more complex lookup that uses the transaction AxID.</p><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
     </div>
     <div>
-<h2>Quality of Service (QoS) Accept Signaling</h2><p>QoS Accept signals are additional interface signals that enable the subordinate to indicate the minimum QoS value of transactions that it accepts. This permits the manager interface to only issue transactions that are likely to be accepted, which avoids unnecessary blocking of the interface.</p><div class="section-metadata"><div><div>anchor</div><div>4</div></div></div>
+<h2>Quality of Service (QoS) Accept Signaling</h2><p>QoS Accept signals are additional interface signals that enable the subordinate to indicate the minimum QoS value of transactions that it accepts. This permits the manager interface to only issue transactions that are likely to be accepted, which avoids unnecessary blocking of the interface.</p>
+<p><strong><a href="/cgi-bin/verification/dsdla/pdfr1.cgi?file=vc-amba-axi-vip-ds.pdf&amp;utm_source=VCBlog&amp;utm_medium=Datasheet&amp;utm_campaign=Blogs&amp;utm_id=Datasheet-Blogs">Synopsys&reg; VC Verification IP (VIP) for Arm&reg; AMBA&reg; AXI</a></strong></p><div class="section-metadata"><div><div>anchor</div><div>4</div></div></div>
     </div>
     <div>
 <h2>Wake-up Signaling</h2><p>The wake-up signal is used to provide a single, glitch-free indication showing that activity on the interface is required.</p><div class="section-metadata"><div><div>anchor</div><div>5</div></div></div>
@@ -48,7 +52,7 @@
     </div>
     <div>
 <h2>Parity Check Signals</h2><p>Interface parity extension is specifically helpful for use in applications such as automotive designs, which have resilience or functional safety requirements that need to detect errors and possibly correct. AXI5 VIP uses odd parity so check signals are supported with all data signals and control signals.</p><p>Key features of AXI5 that are supported by <a href="/verification/verification-ip/amba/amba-axi">Synopsys VIP for AMBA AXI5</a> include: Atomic operations to improve the performance, data check and poisoning to identify data corruption, low power wakeup signal to support the low power requirements of the designs, convert detected parity error into associated poison values, and track the same for a given address, and an elegant mechanism from subordinate VIP agent, to dynamically control the QoS Accept signal values.</p><p>Synopsys offers a broad set of <a href="/verification/verification-ip/amba">verification solutions for next generation Arm AMBA protocols</a>, including the AXI5 protocol that is part of the AMBA AXI and ACE Issue H specification. Synopsys has collaborated with Arm during the development of Synopsys VIP for AMBA AXI5, that has helped result in faster verification closure of several AXI5 based designs.</p><p>Synopsys VIP is natively integrated with the <a href="/verification/debug/verdi">Synopsys Verdi&reg; Protocol Analyzer</a> debug solution as well as <a href="/verification/debug/verdi">Synopsys Verdi&reg; Performance Analyzer</a>. Running system-level payload on SoCs requires a faster hardware-based pre-silicon solution. Synopsys transactors, memory models, hybrid and virtual solutions based on<a href="/designware-ip"> Synopsys IP</a> enable various verification and validation use-cases on the industry&rsquo;s fastest verification hardware, <a href="/verification/emulation-prototyping/emulation">Synopsys ZeBu&reg;</a> emulation and <a href="/verification/emulation-prototyping/prototyping">Synopsys HAPS&reg;</a> prototyping systems.</p><p>You can read some of our past AMBA-related blogs <a href="/blogs/chip-design">here</a>. </p><p><a href="/verification/verification-ip">Learn more about Synopsys VIP &amp; Test Suits for AMBA protocols.</a></p>
-<p>Tags: <a href="/blogs/chip-design/category-engineering-central">Engineering Central</a>, <a href="/blogs/chip-design/category-verification">Verification</a>, <a href="/blogs/chip-design/category-verificationip">Verification IP</a></p><div class="section-metadata"><div><div>anchor</div><div>12</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li><li><a href="/blogs/chip-design/category-verificationip">Verification IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>12</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

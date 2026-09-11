@@ -9,13 +9,19 @@
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <h2>Synopsys IP 
             
                 Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>Hardware Optimization and Resulting Software Challenges</h2><p>Processor architects continually strive to improve CPU hardware performance. System architects and SoC designers can leverage advancements in CPU designs to optimize their products for performance. However, hardware &ldquo;optimizations&rdquo; can, from time to time, alleviate performance challenges only to create equally perplexing software related development and performance challenges. These challenges are exacerbated by the variety of software typical SoCs are expected to process. As shown in Figure 1 below, from an application perspective, a narrowly dedicated SoC can leverage hardware optimization / customization without a major impact on the software solution. As the variety of software and the number of teams writing software for the SoC multiplies, the software challenges tend to multiply for hardware optimized SoCs.</p>
-<div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/arc-xy-memory_fig1?qlt=82&amp;wid=1200&amp;ts=1716462662596&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram of Software Challenges in Hardware Usage"></p><p><em><strong>Figure 1: Software challenges related to hardware optimization</strong></em></p></div><div></div></div></div><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/arc-xy-memory_fig1?qlt=82&amp;wid=1200&amp;ts=1716462662596&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram of Software Challenges in Hardware Usage"></p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 1: Software challenges related to hardware optimization</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>Instruction Level Parallelism</h2><p>Instruction-level parallelism (ILP) refers to design techniques that enable more than one RISC instruction to be executed simultaneously in the same instruction. ILP takes advantage of sequences of instructions in user code that use different functional units (e.g. load unit, ALU, FP multiplier, etc.) of the processor core. There are a variety of ways in which processor architectures can leverage these sequences, but the idea is always the same: to have these independent instructions executing simultaneously to keep the functional units busy as often as possible in order to maximize processor throughput. These techniques boost the performance of the processor by increasing the amount of work done in a given time interval, which increases the throughput.</p><p>When evaluating CPU architectures intended to take advantage of ILP, it is important to keep in mind the application environment, as results of improvements can and do vary greatly depending on the type of code being executed, and the potential impact on software development. For example, if the application is dominated by highly parallel code, any of a number of different architectures could improve application performance. However, if the dominant applications have little ILP, the performance improvements will be much smaller.</p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
@@ -64,7 +70,7 @@
 <h2>References:</h2><p><a href="http://www.scribd.com/doc/33700101/Instruction-Level-Parallelism">http://www.scribd.com/doc/33700101/Instruction-Level-Parallelism</a></p>
 <h2>Sources:</h2><p>1 <a href="https://en.wikipedia.org/wiki/Instruction-level_parallelism">http://en.wikipedia.org/wiki/Instruction-level_parallelism</a></p><p>2 Reflections on the Memory Wall </p>
 <h2>  Subscribe to the Synopsys IP Technical Bulletin  </h2><p>Includes in-depth technical articles, white papers, videos, upcoming webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
-<p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a></p><div class="section-metadata"><div><div>anchor</div><div>9</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a></li><li><a href="/articles/category-silicon-ip">Silicon IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>9</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

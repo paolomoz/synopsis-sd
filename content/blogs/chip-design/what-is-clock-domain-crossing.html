@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>What is Clock Domain Crossing? ASIC Design Challenges | Synopsys Blog</div></div><div><div>Description</div><div>We explain clock domain crossing &amp; common challenges faced during the ASIC design flow as chip designers scale up CDC verification for multi-billion-gate ASICs.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Rimpy Chugh</div></div><div><div>Published</div><div>Nov 22, 2021</div></div><div><div>Readtime</div><div>7 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>About Synopsys, Verification, Debug, Simulation</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/116-what-is-clock-domain-crossing?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>What is Clock Domain Crossing? - ASIC Design Challenges</h1><p><a href="/authors/rimpy-chugh">Rimpy Chugh</a></p><p>Nov 22, 2021 / 7 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>What is Clock Domain Crossing? - ASIC Design Challenges</h1><p><a href="/authors/rimpy-chugh">Rimpy Chugh</a></p><p>Nov 22, 2021 / 7 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>Clock Domain Crossing (CDC) Errors Can Break Your ASIC!</h2><p>Driven by multiple third-party IP blocks, external interfaces, and variable frequency power saving functions, today&rsquo;s multi-billion gate ASICs have dozens or sometimes even hundreds of asynchronous clock domains. Conventional RTL simulation is not designed to verify metastability effects which cause data transfer issues across asynchronous clock boundaries. Static timing analysis (STA) does not address asynchronous clock domains issues. As such, it&rsquo;s difficult to rely on both of these methods.</p><p>CDC is a well-documented and understood problem for digital designers, essentially arising from the four common clock domain crossing scenarios below. Meta-stability arising from jitter between asynchronous clock domains can result in functional failures if the appropriate clock synchronizers are not present. What&rsquo;s more, there are more complex paths and scenarios that can be buried deep into the design, such as the re-convergence problem where logic that combines multiple synchronized paths together can result in a timing mismatch due to synchronizer uncertainty. It is a class of bug that typically cannot be worked around in the final silicon, so getting it wrong can cost you a chip re-spin. An expensive mistake!</p>
@@ -45,7 +48,7 @@
 <h2>A Static Solution: VC SpyGlass CDC</h2><p>VC SpyGlass CDC provides a comprehensive CDC signoff methodology with scalable performance and capacity and high debug productivity.</p><p>It is one of several static analysis solutions from Synopsys that is integrated into the <a href="/verification">Synopsys Verification Continuum&reg;</a> platform. It works natively with other tools such as VCS simulation and delivers a consistent high-productivity debug experience thanks to integration with the Verdi debugger.</p>
 <p><img src="https://images.synopsys.com/is/image/synopsys/clock-domain-crossing-techniques?qlt=82&amp;wid=1200&amp;ts=1686265740948&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Clock Domain Crossing Techniques | Synopsys"></p>
 <p>In Part 2 of Integration Challenges for Multi-Billion Gate ASICs we will talk about reset domain crossing (RDC) challenges, because RDC errors can ALSO break your ASIC. Stay tuned!</p>
-<p>Tags: <a href="/blogs/chip-design/category-about-synopsys">About Synopsys</a>, <a href="/blogs/chip-design/category-verification">Verification</a>, <a href="/blogs/chip-design/category-debug">Debug</a>, <a href="/blogs/chip-design/category-simulation">Simulation</a></p><div class="section-metadata"><div><div>anchor</div><div>10</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-about-synopsys">About Synopsys</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li><li><a href="/blogs/chip-design/category-debug">Debug</a></li><li><a href="/blogs/chip-design/category-simulation">Simulation</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>10</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

@@ -3,10 +3,13 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Understanding AMBA AXI Exclusive Access | Synopsys Blog</div></div><div><div>Description</div><div>Get a clear understanding of AMBA AXI Exclusive Access. This resource de-mystifies complex concepts, helping you grasp intricate hardware protocols.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>VIP Expert</div></div><div><div>Published</div><div>Aug 23, 2016</div></div><div><div>Readtime</div><div>3 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Verification</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/vc6-understanding-amba-axi-exclusive-access?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Understanding AMBA AXI Exclusive Access</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Aug 23, 2016 / 3 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Understanding AMBA AXI Exclusive Access</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Aug 23, 2016 / 3 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>AMBA AXI exclusive access may look simple at first glance, but as we delve deeper into it, we find the different flavors of exclusive access. The possibility of these different scenarios and combinations poses a tough challenge in verifying the critical feature in AMBA-based designs. This blog primarily focusses on exclusive access in AMBA AXI3, the concept, its different flavors and how Synopsys VIP can be leveraged to overcome the corresponding verification challenges.</p>
@@ -20,7 +23,7 @@
     </div>
     <div>
 <h2>Different flavors of Exclusive Access</h2><p>There can be different flavors of Exclusive access operation which poses a verification challenge for the AMBA-based designs. Some of these tricky scenarios are highlighted below:<br> </p><ul><li>An Exclusive Read can be followed by Normal Read or Write operation.</li><li>A master might not complete the write portion of an exclusive operation.</li><li>An Exclusive Read can follow an Exclusive Read with same ARID value as previous exclusive read and reset the monitor to a different address location.</li><li>There can be two Exclusive Reads monitoring the same address region.</li><li>An exclusive read/write to a slave which does not support Exclusive access.</li></ul><p>Creating these scenarios accurately is extremely time-consuming and challenging, requiring deep protocol and methodology expertise. Verifying these scenarios is a challenge as the AXI protocol does not specifically goes into the details of the expected behavior in such cases. Synopsys VIP and Test suite for ARM AMBA AXI can be leveraged here to overcome the verification challenge.</p><p>Synopsys VC Verification IP (VIP) for ARM&reg; AMBA&reg; AXI&trade; provides complete protocol support, encapsulates System and Port level protocol checks, System Verilog source code test-suites, which include system-level coverage for accelerated verification closure.</p>
-<p>Tags: <a href="/blogs/chip-design/category-engineering-central">Engineering Central</a>, <a href="/blogs/chip-design/category-verification">Verification</a></p><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

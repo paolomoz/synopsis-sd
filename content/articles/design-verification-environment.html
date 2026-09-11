@@ -9,6 +9,9 @@
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <h2>Synopsys IP 
             
                 Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
@@ -18,7 +21,10 @@
     </div>
     <div>
 <h2>What is IP-XACT?</h2><p>IP-XACT is an XML schema for language and vendor-neutral IP descriptions that includes a generator interface for &ldquo;plug-in&rdquo; functionality. It is design language neutral, design tool neutral, efficient, and proven. The schema is built on the existing XML (W3C) standard with a standardized API for generator integration called the Tight Generator Interface (TGI). The schema, first released by the SPIRIT Consortium, is now an IEEE standard that is validated and released in accordance with the IEEE policies published as IEEE-1685.</p><p>XML schemas are used to define the legal building blocks of an XML document or document structure. An XML schema defines:</p><ul><li>Elements and attributes that can appear in a document</li><li>Which elements are child elements</li><li>The number and order of child elements</li><li>Whether an element is empty or can include text</li><li>Data types for elements and attributes</li><li>Default and fixed values for elements and attributes</li></ul><p>It is important to note that <strong>XML DOES NOT DO ANYTHING!</strong> It was created to structure, store and transport information. XML is just plain text. Software that can handle plain text can also handle XML. However, XML-aware applications can handle the XML tags specially. The functional meaning of the tags depends on the nature of the application. With XML, you invent your own tags, as XML has no pre-defined tags. XML is designed to support schemas like IP-XACT.</p><p>IP-XACT provides XML descriptions of components and systems. A component has several attributes that can map directly to XML. These include:</p><ul><li>Memory maps</li><li>Registers</li><li>Bus interfaces</li><li>Ports</li><li>Views (additional data files)</li><li>Parameters</li><li>Generators</li><li>File sets</li></ul><p>When multiple components are connected, it becomes an IP-XACT design file. This includes the attributes above, as well as the interconnect information of all the components in the design. Figure 1 shows how IP-XACT is mapped to a component. Think of the IP-XACT files and generators as simply &ldquo;another view&rdquo; of an IP block.</p>
-<div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-IP-XACT-design_fig1?qlt=82&amp;wid=1200&amp;ts=1716385288083&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Illustrating the IP-XACT Design Verification Environment"></p><p><em><strong>Figure 1: IP-XACT Component</strong></em></p></div><div></div></div></div><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-IP-XACT-design_fig1?qlt=82&amp;wid=1200&amp;ts=1716385288083&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Diagram Illustrating the IP-XACT Design Verification Environment"></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 1: IP-XACT Component</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <p>Synopsys provides highly configurable digital IP so customers can easily integrate the IP into their designs configured for the target application. Synopsys generates the IP-XACT file based on the users&rsquo; configuration. This allows designers to have an XML manager view of their configuration without having to deal with IP-XACT limitations related to configurable IP. Figure 2 shows how a single component can be configured to generate many different components, each of which has its own IP-XACT representation.</p>
@@ -56,7 +62,10 @@
     </div>
     <div>
 <p>This window walks you through the flow of adding all of the information related to the IP. Typical data includes:</p><ul><li>Source code</li><li>Configurability information</li><li>Design constraints</li><li>Documentation</li><li>Testbench</li><li>Customizations</li><li>Assembly intent / interfaces</li><li>Tool versions supported</li><li>IP-specific information</li></ul><p>The minimum data required to build a coreKit or IP-XACT component is the source code. All other information is optional and can be added incrementally. A high level view of the flow is shown in Figure 6.</p>
-<div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-IP-XACT-design_fig6?qlt=82&amp;wid=1200&amp;ts=1716370864205&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="IP-XACT Design Verification Environment Diagram"></p><p><em><strong>Figure 6: High-Level coreBuilder Flow</strong></em></p></div><div></div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/dwtb-IP-XACT-design_fig6?qlt=82&amp;wid=1200&amp;ts=1716370864205&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="IP-XACT Design Verification Environment Diagram"></p>
+    </div>
+    <div>
+<p><em><strong>Figure 6: High-Level coreBuilder Flow</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <p>At any point in using the GUI mode you can save a batch file to return to that point in development. Designers often choose to do the initial IP packaging with the GUI, and then write out the batch file and use it for updates to the core. The batch file is a TCL script that can easily be edited as you make updates to your IP.</p><p>Once you have completed the information collection process, coreBuilder generates your coreKit or IP-XACT component. This coreKit or IP-XACT component includes all of the information you provided, including help files, configuration dialogs, etc., as shown in Figure 7.</p>
@@ -103,7 +112,7 @@
     <div>
 <h2>Summary</h2><p>IP-XACT components basically create an electronic databook for the core. Synopsys digital IP cores provide generated IP-XACT which include: RAL files, configuration documentation, IP versions, memory and register maps, and a batch script that allows you to recreate your component or design configuration at any time. Whether you are using a single IP core or building a subsystem with multiple components, you will see the benefits of the generated files that reduce your design and verification time.</p><p>Synopsys was a charter member in creating the IP-XACT specification, and continues to be involved in the Accellera working groups to develop the next IEEE version of the schema.</p><p>For more information or information on training classes, please contact Synopsys.</p>
 <h2>  Subscribe to the Synopsys IP Technical Bulletin  </h2><p>Includes in-depth technical articles, white papers, videos, upcoming webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
-<p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a>, <a href="/articles/category-soc-infrastructure-ip">SoC Infrastructure IP</a></p><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a></li><li><a href="/articles/category-silicon-ip">Silicon IP</a></li><li><a href="/articles/category-soc-infrastructure-ip">SoC Infrastructure IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>6</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

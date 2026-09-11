@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>The Evolution of Synthesis: Navigating Complex Process &amp; Layout Rules in the FinFET Era | Synopsys Blog</div></div><div><div>Description</div><div>Explore how complex process and layout rules for finFET technologies impact synthesis decisions. Discover if synthesis remains truly process-independent today.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Synopsys Editorial Staff</div></div><div><div>Published</div><div>Oct 18, 2020</div></div><div><div>Readtime</div><div>2 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Design</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/msc23-evolution-of-synthesis-navigating-complex-rules-in-finfet-era?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>The Evolution of Synthesis: Navigating Complex Process and Layout Rules in the FinFET Era</h1><p><a href="/authors/synopsys-editorial-staff">Synopsys Editorial Staff</a></p><p>Oct 18, 2020 / 2 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>The Evolution of Synthesis: Navigating Complex Process and Layout Rules in the FinFET Era</h1><p><a href="/authors/synopsys-editorial-staff">Synopsys Editorial Staff</a></p><p>Oct 18, 2020 / 2 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>The Evolution of Synthesis Flows</h2><p><strong><em>Complex process and layout rules for FinFET processes have a big impact on the decisions made during synthesis.</em></strong></p><p>For many years, the idea that the release of a new process node from one of the major silicon foundries would require you to update your synthesis flow was a non-starter. Synthesis used the available timing, area and power models in the libraries and that was the beginning and end of the discussion.</p><p>With the arrival of physical synthesis, physical effects could be taken into consideration in synthesis flows and front-end designers began asking what changes to expect when a new process node was released.</p>
@@ -23,7 +26,7 @@
     </div>
     <div>
 <h2>Design Compiler Graphical and Advanced Node Designs</h2><p>Design Compiler Graphical feeds-forward design implementation guidance to drive the physical implementation flow that step-by-step converges on final PPA goals. The latest releases of Design Compiler Graphical can make tradeoffs between cells with better PPA characteristics vs. ones that are better for congestion and pin accessibility, assign nets to different routing layers to manage critical timing paths, add both electro-migration and performance vias, derive non-default routing rules and a myriad of other techniques to come up with a design which meets the required goals. When the design netlist and physical guidance is passed to the place and route tool, the resulting design PPA closely matches what the synthesis tool has predicted.<br> </p><p>Starting at 7nm and continuing at smaller nodes, Design Compiler Graphical is validated by the silicon foundries for deployment readiness at each new process node. This means the synthesis tool has been enhanced to support the latest process rules, placement, routing, power and timing requirements and is aware-of and takes into consideration the physical effects of the new nodes.</p><p>So, getting back to the original question, does every advanced node design require this new flow where all the physical implementation factors are accounted for during synthesis? The answer is a resounding yes. For designs on the latest process nodes you will need to get used to updating the version of your tool and your synthesis flow/scripts for every new process node in order to achieve the best PPA and fastest convergence.</p><p>Goodbye process independence in synthesis, it was nice knowing you.</p>
-<p>Tags: <a href="/blogs/chip-design/category-design">Design</a></p><div class="section-metadata"><div><div>anchor</div><div>4</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-design">Design</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>4</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

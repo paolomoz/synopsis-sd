@@ -3,10 +3,13 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Understanding HDMI &amp; HDCP 2.2 Authentication | Synopsys Blog</div></div><div><div>Description</div><div>Dive into the intricacies of HDMI and HDCP 2.2 authentication process, increasing your understanding about these vital digital content protections.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>VIP Expert</div></div><div><div>Published</div><div>Apr 20, 2015</div></div><div><div>Readtime</div><div>2 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Verification</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/vc4-hdmi-hdcp2-authentication-process?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Understanding HDMI &amp; HDCP 2.2 Authentication</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Apr 20, 2015 / 2 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Understanding HDMI &amp; HDCP 2.2 Authentication</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Apr 20, 2015 / 2 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>When digital content is transmitted, it is susceptible to unauthorized copying and interceptions. Hence protecting content has become an important factor in the transmission of audiovisual content. In 2003, Intel developed an encryption technique called the High-bandwidth Digital Content Protection (HDCP) protocol to protect audio and video data between a transmitter (transmitting the audio visual content such as a Blu-ray player) and a receiver such as a Monitor. If a transmitting device is transmitting the content HDCP protected then the receiver must also support HDCP in order to receive the content correctly.</p><p>HDCP protocol is now managed by Digital Content Protection (DCP), LLC, an Intel subidiary, which licenses technologies for the protection of commercial digital content. For every HDCP protected digital content must follow the HDCP protocol and also must have a license issued by DCP, LLC.</p>
@@ -20,7 +23,7 @@
     </div>
     <div>
 <h2>HDCP2.2 Authentication Protocol</h2><p>Before transmitting the audio visual content, the transmitter must make sure using the authentication protocol that the receiver is genuine and authorized to receive the protected content.<br> </p><p>The Authentication Protocol consists of:<br> 1. Authentication and key exchange (AKE): Checks that the receiver contains a valid un-revoked public key certificate.<br> 2. Locality Check: A check to make sure that the receiver is placed nearby and restricts the transmission to a locality.<br> 3. Session key exchange (SKE): A common shared session key is exchanged which will be used to encrypt the data itself.<br> 4. Authentication with repeater: An option step when sink is a repeater i.e., Subsequent sink device can be attached. Transmitter checks that none of the receivers in the topology is un-authorized.</p><p>In the next blog post, we will discuss the basics of RSA cryptography. An advanced version of RSA is the underlying cryptography standard used during the Authentication and key exchange.</p>
-<p>Tags: <a href="/blogs/chip-design/category-engineering-central">Engineering Central</a>, <a href="/blogs/chip-design/category-verification">Verification</a></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

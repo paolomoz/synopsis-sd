@@ -9,13 +9,19 @@
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <h2>Synopsys IP 
             
                 Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>Introduction</h2><p>If you have used Ubuntu or Red Hat Linux (RHEL) operating systems on your desktop, you may think of &lsquo;Linux&rsquo; as a full-featured operating system akin to Microsoft Windows or Mac OS. Ubuntu and RHEL are examples of a Linux distribution. &lsquo;Linux&rsquo; is the kernel software that provides system services, and additional software is needed to make it into the specific distribution that you know and love. In the embedded world where ARC Processors exist, a Linux distribution must be scaled down because of the constrained system resources, such as memory and storage, that are common in many <a href="/glossary/what-is-system-on-a-chip">systems-on-chips (SoCs)</a>.</p>
-<div class="columns"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/DWTBQ2-2018-ARC-fig1?qlt=82&amp;wid=1200&amp;ts=1716797910278&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Linux Operating System Structure for Buildroot vs Yocto Comparison"></p><p><em><strong>Figure 1 - A simplified view of the Linux Operating System</strong></em></p></div><div></div></div></div><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/DWTBQ2-2018-ARC-fig1?qlt=82&amp;wid=1200&amp;ts=1716797910278&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Linux Operating System Structure for Buildroot vs Yocto Comparison"></p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
+    </div>
+    <div>
+<p><em><strong>Figure 1 - A simplified view of the Linux Operating System</strong></em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
 <h2>What is a Linux Distribution?</h2><p>For a desktop or server Linux distribution, there are five main components:</p><ul><li>Bootloader</li><li>Linux kernel image</li><li>System libraries</li><li>User applications</li><li>Toolchain</li></ul><p>The bootloader is the first software to run in a system. It gets the system ready to load and execute the kernel. The Linux kernel performs further initialization and includes the device drivers for the hardware. It provides services such as device and memory management. The system libraries contain much of the functionality of the operating system and allow applications and utilities access to the kernel services. User applications are the programs such as a web browser or email applications that we use to perform everyday tasks. The toolchain executes on the target system and is used to build applications and other software, as needed.</p><p>In the case of an embedded Linux distribution, there is usually a separate toolchain and build system. These components often execute on a workstation with a different processor from the target processor. The toolchain performs cross-compilation of the software to the target processor.</p><p>On the target:</p><ul><li>Bootloader</li><li>Linux kernel image</li><li>System libraries</li><li>User applications</li></ul><p>On the development workstation:</p><ul><li>Toolchain</li><li>Build system/scripts</li></ul><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
@@ -36,7 +42,7 @@
     <div>
 <h2>Conclusion</h2><p>For embedded systems, it is necessary to scale down an embedded Linux distribution to meet the project&rsquo;s functional requirements to be able to fit within the constraints of the embedded system. There are multiple build systems that can do this and Yocto is a great choice if you need access to a large number of packages and want the level of customization it provides. You also have the choice to use a simpler build system, such as Buildroot, which may fit your needs in a simpler way.</p>
 <h2>  Subscribe to the Synopsys IP Technical Bulletin  </h2><p>Includes in-depth technical articles, white papers, videos, upcoming webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
-<p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-automotive">Automotive</a>, <a href="/articles/category-silicon-ip">Silicon IP</a></p><div class="section-metadata"><div><div>anchor</div><div>5</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a></li><li><a href="/articles/category-automotive">Automotive</a></li><li><a href="/articles/category-silicon-ip">Silicon IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>5</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

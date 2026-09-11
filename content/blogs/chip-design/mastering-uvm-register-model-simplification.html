@@ -3,10 +3,13 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Mastering UVM Register Model Simplification | Synopsys Blog</div></div><div><div>Description</div><div>Master the art of simplifying UVM Register Model with our detailed guide. Discover tips and techniques to streamline your verification process.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>VIP Expert</div></div><div><div>Published</div><div>Jan 05, 2015</div></div><div><div>Readtime</div><div>4 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Verification</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/vc1-mastering-uvm-register-model-simplification?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Mastering UVM Register Model Simplification</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Jan 05, 2015 / 4 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Mastering UVM Register Model Simplification</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Jan 05, 2015 / 4 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>When I began using UVM RAL, I could not understand what the UVM base class library had to say about updating the values of <em>desired value</em> and <em>mirror value</em> registers. I also felt that the terms used do not reflect the intent precisely. After spending some time, I came up with a table which helped me to understand the behavior of register model APIs, and how best they can be called.</p><p>Here&rsquo;s where you can find more information on our Verification IP.</p><p>Before I introduce the table, let us take a look at the process of creating the register model:</p><ol><li>Creating the register format specification</li><li>Converting the specification into UVM register model</li><li>Using the register model</li></ol>
@@ -23,7 +26,7 @@
     </div>
     <div>
 <h2>A few points to keep in mind</h2><p>I didn&rsquo;t expect peek() and poke() methods to update the mirror value unconditionally. After looking into the UVM source code, I found that the do_predit() method is called unconditionally inside peek() and poke() methods. I also noticed that the write() and read() methods using backdoor mechanism would update the mirror register as the do_predict() is called without checking the output of this get_auto_predict() method. The only place where I see this conditionally called is the write () and read() method with frontdoor access.<br> </p><p>After discussing with experts, I understand that the intended functionality is to make sure the mirror variable has the most up-to-date register value in it. Similarly read()/write() using backdoor access update the mirror register &mdash; this too is intentional. Because the backdoor is used, there won&rsquo;t be a transaction on the physical interface that will be observed (when auto-predict is turned OFF) to update the register model. It must thus be updated in all cases.</p>
-<p>Tags: <a href="/blogs/chip-design/category-engineering-central">Engineering Central</a>, <a href="/blogs/chip-design/category-verification">Verification</a></p><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>3</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

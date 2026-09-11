@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>PCIe Bifurcation: A Basic Guide to Understanding | Synopsys Blog</div></div><div><div>Description</div><div>Understand the basics of PCIe bifurcation and its significance in optimizing the use of PCI Express lanes.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Richard Solomon</div></div><div><div>Published</div><div>Oct 13, 2016</div></div><div><div>Readtime</div><div>2 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Silicon IP, Interface IP</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/synopsys-logo-thumbnail?ts=1701970725360&amp;$responsive$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>PCIe Bifurcation: A Basic Guide to Understanding</h1><p><a href="/authors/richard-solomon">Richard Solomon</a></p><p>Oct 13, 2016 / 2 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>PCIe Bifurcation: A Basic Guide to Understanding</h1><p><a href="/authors/richard-solomon">Richard Solomon</a></p><p>Oct 13, 2016 / 2 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>Pop quiz! Which section of the PCI Express Base Specification covers bifurcation? Here, I&rsquo;ll even wait while you look&hellip;.</p><p>Did you give up yet? Good. First of all, you won&rsquo;t find the word &ldquo;bifurcation&rdquo; in the spec at all! The term is commonly understood to mean splitting a set of PCI Express lanes into multiple links &ndash; and it&rsquo;s most common on Root Complexes. So for example, our friendly neighborhood Root Complex (RC) vendor builds an RC with 16 lanes &ndash; but he knows that in some uses the RC will connect to a single x16 link, while in others his customers only want x4 links. Rather than waste the 12 now unused lanes, wouldn&rsquo;t it be nice to instead be able to configure those 16 total lanes as 4 links each of x4 width?</p><p>Since I sent you on a bit of a wild goose chase earlier, I&rsquo;ll suggest you check section 4.2.4.12 of the PCIe 3.1 Base spec for what little is covered around &ldquo;bifurcation&rdquo; &ndash; it&rsquo;s all of about 12 lines and I can sum up what you need to know in two quotes as follows:</p><ul><li>&ldquo;a separate LTSSM is needed for each separate Link&rdquo;</li><li>&ldquo;&hellip;to configure &hellip; is implementation specific&rdquo;</li></ul>
@@ -19,7 +22,7 @@
     </div>
     <div>
 <h2>What Does Bifurcation Support Mean?</h2><p><em>Wait then Richard, so what does it mean to have a PCIe controller &ldquo;support bifurcation&rdquo;?</em></p><p>Well, honestly &ndash; not much. Partitioning the lanes of a PHY into one or more links is pretty much invisible to the controller &ndash; it just sees a PHY interface of some width. So *ANY* controller can &ldquo;support bifurcation&rdquo; in that sense. I suppose a controller might claim to &ldquo;support bifurcation&rdquo; through a single application interface, but as we established above that wouldn&rsquo;t be a good idea due to the bandwidth variations. Since each link needs an entire PCIe protocol stack, you wouldn&rsquo;t save very much (if any) area over simply using multiple controllers &ndash; and you&rsquo;d be stuck with only the configuration(s) designed in to that controller. (I had a customer recently who wanted 8 lanes of PCIe &ldquo;bifurcatable&rdquo; into 1ea x8 or 1ea x4 or 2ea x2s, so would he even have found that exact configuration available?)</p><p>Perhaps now you can see why the PCIe spec doesn&rsquo;t say much about bifurcation!</p>
-<p>Tags: <a href="/blogs/chip-design/category-silicon-ip">Silicon IP</a>, <a href="/blogs/chip-design/category-interface-ip">Interface IP</a></p><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-silicon-ip">Silicon IP</a></li><li><a href="/blogs/chip-design/category-interface-ip">Interface IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>2</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

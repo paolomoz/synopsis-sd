@@ -3,13 +3,16 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Automating Synchronous Signal Distribution with HAPS | Synopsys Blog</div></div><div><div>Description</div><div>Automate synchronous signal distribution across multiple FPGAs with HAPS ProtoCompiler for enhanced performance and efficiency. Learn more at Synopsys.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Christoph Kuznik, Rutger Carlsson</div></div><div><div>Published</div><div>Mar 14, 2021</div></div><div><div>Readtime</div><div>7 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Design, Prototyping</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/msc03-automating-synchronous-signal-distribution?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Optimizing Signal Distribution in FPGAs: A Guide to Automation with HAPS ProtoCompiler</h1><p><a href="/authors/christoph-kuznik">Christoph Kuznik</a>, <a href="/authors/rutger-carlsson">Rutger Carlsson</a></p><p>Mar 14, 2021 / 7 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Optimizing Signal Distribution in FPGAs: A Guide to Automation with HAPS ProtoCompiler</h1><p><a href="/authors/christoph-kuznik">Christoph Kuznik</a>, <a href="/authors/rutger-carlsson">Rutger Carlsson</a></p><p>Mar 14, 2021 / 7 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
 <div class="form"><div><div><p><strong>Subscribe to Our Blog</strong></p></div></div><div><div><p>Business Email</p></div></div><div><div><p>First Name</p></div></div><div><div><p>Last Name</p></div></div><div><div><p>Company</p></div></div><div><div><p>Country/Region</p></div></div><div><div><p><strong>Submit</strong></p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <h2>Abstract</h2><p>The synchronous distribution of time-critical signals in multi-FPGA environments is a challenging task in successful prototype setup, in particular, regarding overall signal delay and integrity. Moreover, whenever design partitions may change during the development cycle the distribution has to be re-assessed to ensure correct synchronization of the signal and its load.</p><p>In this article we will show how HAPS ProtoCompiler can help to ease this process, in fact, automating the synchronous distribution of signals across FPGA partitions. Here, we will focus on the most common use model of the feature, namely reset synchronization, which also lent its name for the new HAPS ProtoCompiler <strong>reset_synchronize</strong> PCF command.</p><div class="section-metadata"><div><div>anchor</div><div>1</div></div></div>
@@ -59,7 +62,7 @@
     </div>
     <div>
 <h2>Summary</h2><p>In this article we showed the usage of the recently introduced HAPS ProtoCompiler PCF command <strong>reset_synchronize </strong>to synchronously distribute signals across FPGA partitions in an automated fashion. By using this flow, the HAPS ProtoCompiler user can easily generate proper global reset scheme implementations which will eliminate one source of unpredictable design behavior. In particular, in the use model of reset synchronization the release of reset will become addressed by static-timing analysis within its clock domain. Moreover, introducing a synchronizer before signal distribution adds an additional advantage of effectively eliminating meta-stability issues on the original net.</p>
-<p>Tags: <a href="/blogs/chip-design/category-design">Design</a>, <a href="/blogs/chip-design/category-prototyping">Prototyping</a></p><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-design">Design</a></li><li><a href="/blogs/chip-design/category-prototyping">Prototyping</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

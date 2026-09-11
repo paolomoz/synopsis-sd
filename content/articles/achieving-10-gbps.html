@@ -9,6 +9,9 @@
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
     </div>
     <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
+    </div>
+    <div>
 <h2>Synopsys IP 
             
                 Technical Bulletin</h2><p>In-depth technical articles, white papers, videos, webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
@@ -36,7 +39,7 @@
     </div>
     <div>
 <p>On the upstream link to the host, significant bandwidth is wasted while the host waits for the data from the slower device. Two factors from the USB 3.0 specification cause this wasted bandwidth:</p><ol><li>A USB 3.0 host must receive all the data from one IN transaction before sending another ACK TP to a different device</li><li>A USB 3.0 hub does not buffer much data, and it immediately forwards the data it receives on its downstream ports to its upstream port</li></ol><p>At this point, it is reasonable to question why this was not a problem when we moved from USB 2.0 (480 Mbps) to USB 3.0. The answer to that question is that USB 2.0 devices communicate all the way from the host through the hubs to the devices on a completely separate set of wires than USB 3.0 devices. The introduction of USB 3.1&rsquo;s 10 Gbps rate marks the first time that the USB 3.0 wires are being shared between two different device speeds: 5 Gbps for USB 3.0, and 10 Gbps for USB 3.1.</p><p>Without a protocol-level solution, this loss of throughput would be unacceptable to users who purchase a USB 3.1 device and expect it to operate at least twice as fast as a USB 3.0 device, even when connected to a USB 3.1 hub.</p>
-<div class="columns media third"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&amp;wid=1200&amp;ts=1771948409845&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Why HPC Chip Designers are Looking into Linear Pluggable Optics"></p></div><div><h2>AI Doesn&rsquo;t Scale by Accident</h2><p>Explore the IP that enables high-performance, scalable AI systems</p><p><strong><a href="/resources/inside-ai-accelerator">Download eBook</a></strong></p></div></div></div>
+<div class="columns media third"><div><div><p><a href="/designware-ip/resources/looking-into-linear-pluggable-optics"><img src="https://images.synopsys.com/is/image/synopsys/hpc-ip-ai-accelerator-ebook-full-page-thumbnail-1?qlt=82&amp;wid=1200&amp;ts=1771948409845&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Why HPC Chip Designers are Looking into Linear Pluggable Optics"></a></p></div><div><h2>AI Doesn&rsquo;t Scale by Accident</h2><p>Explore the IP that enables high-performance, scalable AI systems</p><p><strong><a href="/resources/inside-ai-accelerator">Download eBook</a></strong></p></div></div></div>
     </div>
     <div>
 <h2>Fully Utilizing Host Bandwidth with Multiple USB Speeds Through a Hub</h2><p>The ideal system completely saturates the upstream link to the host with data, fully utilizing the extra bandwidth of the USB 3.1 link. Ignoring the USB 3.0 protocol for a minute, the perfect behavior would be to send an ACK TP to the slower device followed by the faster device, and have the hub buffer up the received data so that it can keep the upstream link busy, as shown in Figure 4.</p>
@@ -64,7 +67,7 @@
     <div>
 <h2>Summary</h2><p>In USB 3.1, there are significant challenges to make sure that backward compatibility with USB 3.0 devices can be maintained in a hub topology without sacrificing the speed gains available to new USB 3.1 devices. These challenges are not limited to increasing the physical data rate and they permeate every layer of the protocol, including the Link and Protocol layers.</p>
 <h2>  Subscribe to the Synopsys IP Technical Bulletin  </h2><p>Includes in-depth technical articles, white papers, videos, upcoming webinars, product announcements and more.</p><p><a href="/cgi-bin/dwtb/req1.cgi">Subscribe</a></p>
-<p>Tags: <a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a>, <a href="/articles/category-silicon-ip">Silicon IP</a>, <a href="/articles/category-interface-ip">Interface IP</a></p><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/articles/category-silicon-ip-technical-bulletin">Silicon IP Technical Bulletin</a></li><li><a href="/articles/category-silicon-ip">Silicon IP</a></li><li><a href="/articles/category-interface-ip">Interface IP</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>7</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>

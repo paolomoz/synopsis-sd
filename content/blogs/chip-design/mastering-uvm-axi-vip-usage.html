@@ -3,10 +3,13 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Mastering UVM for Effective AXI VIP Usage | Synopsys Blog</div></div><div><div>Description</div><div>Gain skill in AXI VIP through UVM basics. Uncover the potential of Verification IP with a fundamental understanding of Universal Verification Methodology.</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>VIP Expert</div></div><div><div>Published</div><div>Mar 09, 2015</div></div><div><div>Readtime</div><div>4 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Verification</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/vc3-mastering-uvm-axi-vip-usage?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a></p><h1>Mastering UVM for Effective AXI VIP Usage</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Mar 09, 2015 / 4 min read</p></div></div></div>
+<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Mastering UVM for Effective AXI VIP Usage</h1><p><a href="/authors/vip-expert">VIP Expert</a></p><p>Mar 09, 2015 / 4 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
+    </div>
+    <div>
+<div class="share"><div><div><p>Share</p></div></div></div><div class="section-metadata"><div><div>style</div><div>rail</div></div></div>
     </div>
     <div>
 <p>Recently I worked with a user who was responsible for verifying an AXI interface. This user did not have a UVM background, but was conversant with SystemVerilog. The user was faced with the challenge of learning UVM as well as coming up to speed with an understanding of the VIP: both at the same time, under tight verification timelines. Figuring out how much UVM knowledge would suffice to integrate the VIP, then coding the testbench around the VIP to run and debug the verification environment, appeared to be the first few challenges. I proposed a simple approach: let us begin with a simple directed testbench, get some AXI tests going using the VIP, gain some confidence in terms of understanding the core functionality of the DUT and VIP, and then, in parallel, learn some UVM basics as well. Later, I suggested, he can move on to advanced testing using constrained-random verification where he will need more advanced UVM knowledge, for instance, the application of virtual sequences.</p><p>Here&rsquo;s where you can find more information on Synopsys&rsquo; Verification IP for AMBA 4 AXI.</p><p>Here are the steps used to integrate AXI VIP to start verification of an AXI interface in a simple directed environment. This approach for directed testing achieves good performance as well.</p><p>The testbench example below shows one AXI master VIP connected to a DUT slave. The actual example also uses a VIP in lieu of a slave DUT.</p>
@@ -42,7 +45,7 @@
     <div>
 <h2>No. 8: Trigger End of Test</h2><p>The end_test event is used to enable the objection that was raised for the run_phase() to drop. This signals the end of the run phase, and the rest of the UVM phases will execute once the run phase is done. This signals the end of the test.<br> </p>
 <div class="table no-header"><div><div>1 2 3 4 </div><div>   //Trigger uvm end of test  end_test;  `uvm_info(&quot;Directed_test&quot;, &quot;Exited...&quot;, UVM_MEDIUM) end   </div></div></div>
-<p>Tags: <a href="/blogs/chip-design/category-engineering-central">Engineering Central</a>, <a href="/blogs/chip-design/category-verification">Verification</a></p><div class="section-metadata"><div><div>anchor</div><div>8</div></div></div>
+<div class="tags"><div><div><ul><li><a href="/blogs/chip-design/category-engineering-central">Engineering Central</a></li><li><a href="/blogs/chip-design/category-verification">Verification</a></li></ul></div></div></div><div class="section-metadata"><div><div>anchor</div><div>8</div></div></div>
     </div>
     <div>
 <h2>Continue Reading</h2><div class="section-metadata"><div><div>style</div><div>tinted, centered</div></div></div>
