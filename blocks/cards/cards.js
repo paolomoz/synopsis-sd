@@ -36,7 +36,7 @@ async function enrichAuthor(block) {
     rows.forEach((r) => { if (seen.has(r.path)) return; seen.add(r.path); items.push({ ts: Number(r.publishedTs) || 0, html: cardMarkup(r) }); });
     items.sort((a, b) => b.ts - a.ts);
     const ul = document.createElement('ul');
-    items.forEach((it) => { const li = document.createElement('li'); li.innerHTML = it.html; [...li.children].forEach((d) => { d.className = d.querySelector('picture, img') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); if (last) last.classList.add('cards-card-cta'); ul.append(li); });
+    items.forEach((it) => { const li = document.createElement('li'); li.innerHTML = it.html; [...li.children].forEach((d) => { d.className = d.querySelector('picture, img') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); const lastA = last && last.querySelector('a'); if (lastA && last.textContent.trim() === lastA.textContent.trim()) last.classList.add('cards-card-cta'); /* a lone link is a CTA; the source's trailing "Tags: …" line is not */ ul.append(li); });
     ul.querySelectorAll('li').forEach(shapeAuthorRow);
     block.replaceChildren(ul);
     block.dataset.indexed = String(rows.length); block.dataset.total = String(items.length);
