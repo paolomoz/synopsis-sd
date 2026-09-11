@@ -232,10 +232,17 @@ def col_type(col):
     cls = col.get('class') or []
     return cls[0] if cls else ''
 
+PAD_TOKENS = False  # set per page: article/glossary bands carry their authored vertical padding as section styles
 def bg_of(col):
     bc = col.find(class_='background-component')
-    if bc and 'light-grey-bg' in (bc.get('class') or []): return 'tinted'
-    return ''
+    toks = []
+    if bc is not None and 'light-grey-bg' in (bc.get('class') or []): toks.append('tinted')
+    if PAD_TOKENS and bc is not None:
+        cls = ' '.join(bc.get('class') or [])
+        for side, key in (('top', 'pt'), ('bottom', 'pb')):
+            m = re.search(r'vert-pad-' + side + r'-(xs|sm|md|lg)', cls)
+            if m: toks.append(f'{key}-{m.group(1)}')
+    return ', '.join(toks)
 
 class Page:
     def __init__(self):
@@ -1019,6 +1026,8 @@ def import_page(raw_html, url, page_type=None):
         elif re.match(r'^/(blogs/[^/]+\.html|authors\.html|success-stories(/view-all)?\.html|webinars\.html|resources\.html|events\.html|newsroom\.html|articles\.html|glossary\.html)$', path): page_type = 'listing'
         elif re.match(r'^/(company|partners|academic-research|startup-innovation|careers|support|community|services|sitemap|authors/)', path): page_type = 'static'
         else: page_type = 'program' 
+    global PAD_TOKENS
+    PAD_TOKENS = page_type in ('article', 'glossary')
     top = root.find(class_='aem-Grid') if root else None
     cols = [c for c in (top.find_all(recursive=False) if top else []) if isinstance(c, Tag)]
     if root is not None and 'site-content' in (root.get('class') or []):

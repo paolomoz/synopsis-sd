@@ -732,17 +732,19 @@ body.article main .section .default-content-wrapper img {
 
 /* article layout: left rail (toc, subscribe form, rail sections) floats beside the 75% reading column */
 body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) {
-  padding: 0 0 60px; /* source text bands: vert-pad-bottom-md */
+  padding: 0; /* band padding comes from the authored tokens below (source vert-pad-* classes) */
 }
 
-/* a band that ends with a figure: the figure carries the 60px (source .image band pb 60) */
-body:is(.article, .glossary) main > .section:has(> .default-content-wrapper:last-child > p:last-child > picture) {
-  padding-bottom: 0;
-}
+/* authored band padding (importer: vert-pad-top/bottom-xs|sm|md → pt-*/pb-* section styles) */
+body:is(.article, .glossary) main > .section.pt-xs { padding-top: 15px; }
+body:is(.article, .glossary) main > .section.pt-sm { padding-top: 30px; }
+body:is(.article, .glossary) main > .section.pt-md { padding-top: 60px; }
+body:is(.article, .glossary) main > .section.pb-xs { padding-bottom: 15px; }
+body:is(.article, .glossary) main > .section.pb-sm { padding-bottom: 30px; }
+body:is(.article, .glossary) main > .section.pb-md { padding-bottom: 60px; }
 
 body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> picture) {
-  margin: 30px 0 0;
-  padding-bottom: 60px;
+  margin: 0;
 }
 
 body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> picture) img {
@@ -757,20 +759,6 @@ body:is(.article, .glossary) main > .section:not(.rail, .rail-right, .toc-contai
 /* a band's leading heading sits flush at the band top (the figure band above carries the 60px) */
 body:is(.article, .glossary) main > .section .default-content-wrapper > h2:first-child {
   margin-top: 0;
-}
-
-/* band after an inline promo (columns media): heading 30px under the hairline */
-body:is(.article, .glossary) main > .section.columns-container + .section .default-content-wrapper > h2:first-child {
-  margin-top: 30px;
-}
-
-body:is(.article, .glossary) main > .section .default-content-wrapper + .columns-wrapper {
-  margin-top: 50px;
-}
-
-/* a band that ends with an inline promo: the promo's own 20px + the next heading's 30px make the gap */
-body:is(.article, .glossary) main > .section:has(> .columns-wrapper:last-child) {
-  padding-bottom: 0;
 }
 
 /* <p><picture> keeps an inline baseline descender (+6–8px per figure) — kill the line box */
@@ -792,7 +780,7 @@ body:is(.article, .glossary) main > .section.centered > div {
 
 /* the last text band carries 76px of trailing space before the tag row on the source */
 body:is(.article, .glossary) main > .section:has(+ .section.tags-container) {
-  padding-bottom: 136px;
+  margin-bottom: 76px;
 }
 
 body:is(.article, .glossary) main > .section.tags-container {
@@ -802,6 +790,10 @@ body:is(.article, .glossary) main > .section.tags-container {
 body:is(.article, .glossary) main > .section.tags-container + .section.centered {
   padding-top: 90px;
   background: none;
+}
+
+body.glossary .hero.blog .hero-eyebrow p {
+  margin-bottom: 41px; /* glossary banner: copy block starts 82px under the banner top */
 }
 
 body:is(.article, .glossary) main > .section.centered .default-content-wrapper h2:only-child {
