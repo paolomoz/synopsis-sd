@@ -141,6 +141,29 @@
 
 .cards.asset > ul > li {
   min-height: 283px;
+  margin: 5px; /* source: section.component-assetcard margin 5px inside a 360px column → 350px card */
+}
+
+.cards.asset .cards-card-body {
+  position: relative;
+  min-height: 271px; /* source: .component-text.card-text (label · title · empty description) measured 271px */
+  padding: 20px 32px 53px;
+}
+
+.cards.asset .cards-card-label {
+  height: 20px;
+  line-height: 0;
+}
+
+.cards.asset .cards-card-body :is(h2, h3, h4) {
+  margin: 20px 0;
+}
+
+.cards.asset .cards-card-cta {
+  position: absolute; /* source: the "Read" link is absolutely positioned 32px above the card bottom */
+  left: 32px;
+  bottom: 32px;
+  margin: 0;
 }
 
 /* ---- blog: image cards ---- */
@@ -394,6 +417,7 @@ main > .section.cards-container:has(.cards.people) {
 
 /* author archive rows (source: .component-card-b in the author's "From this Author" list) */
 .cards.author > ul {
+  margin-bottom: 95px; /* source: empty .cmp-blogsdev__mra-pgn pagination stub, margin 35px 0 60px */
   grid-template-columns: 1fr;
   gap: 40px;
 }

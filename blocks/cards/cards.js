@@ -22,8 +22,10 @@ async function enrichAuthor(block) {
     const { getIndex, cardMarkup } = await import('../../scripts/index.js');
     const rows = (await getIndex()).filter((r) => (r.author || '').split(/,\s*/).includes(name));
     if (!rows.length) return;
-    const seen = new Set(rows.map((r) => r.path));
-    const items = rows.map((r) => ({ ts: Number(r.publishedTs) || 0, html: cardMarkup(r) }));
+    // authored rows win for the paths they cover: the source card title is a CMS field (glossary rows use the short
+    // "What is X?" form, not the page title the index carries); the index only adds posts the snapshot did not list
+    const seen = new Set();
+    const items = [];
     authoredRows.forEach((row) => {
       const path = row.href.replace(/^https?:\/\/[^/]+/, '').split(/[?#]/)[0];
       if (!path || seen.has(path)) return;
@@ -31,6 +33,7 @@ async function enrichAuthor(block) {
       const m = row.text.match(/\b([A-Z][a-z]{2} \d{1,2}, \d{4})\b/);
       items.push({ ts: m ? Date.parse(m[1]) / 1000 : 0, html: row.html });
     });
+    rows.forEach((r) => { if (seen.has(r.path)) return; seen.add(r.path); items.push({ ts: Number(r.publishedTs) || 0, html: cardMarkup(r) }); });
     items.sort((a, b) => b.ts - a.ts);
     const ul = document.createElement('ul');
     items.forEach((it) => { const li = document.createElement('li'); li.innerHTML = it.html; [...li.children].forEach((d) => { d.className = d.querySelector('picture, img') && !d.textContent.trim() ? 'cards-card-image' : 'cards-card-body'; }); const last = li.querySelector('.cards-card-body > p:last-child'); if (last) last.classList.add('cards-card-cta'); ul.append(li); });

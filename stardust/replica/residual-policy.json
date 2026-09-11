@@ -1,58 +1,62 @@
 {
- "version": "2026-09-11f",
- "hideOnLive": [
-  ".component-search-result",
-  "[class*=\"coveo\"]",
-  "atomic-search-interface",
-  "atomic-external",
-  "[data-blogsdev-type=\"browseByTags\"]",
-  ".contentTypeListing",
-  "#ask-synopsys",
-  ".ask-widget",
-  "[class*=\"askSynopsys\"]",
-  "[id*=\"askSynopsys\"]",
-  "#onetrust-consent-sdk",
-  ".onetrust-pc-dark-filter",
-  ".mktoForm",
-  "form.mktoForm",
-  "[data-blogsdev-type=\"mostRecentArticles\"][data-page-type=\"category\"]",
-  "[data-blogsdev-type=\"categoryPage\"]",
-  ".dwProductsDownloads"
- ],
- "hideOnBuild": [
-  ".listing",
-  ".form form"
- ],
- "neutraliseOnLive": {
-  ".two2575PinnedLeft, .two2575PinnedLeft > *": "position: static !important; top: auto !important"
- },
- "freeze": "*{animation:none!important;transition:none!important;caret-color:transparent!important}",
- "hideOnLiveByTemplate": {
-  "article": [
-   ".cmp-dynamiccards"
+  "version": "2026-09-11g",
+  "hideOnLive": [
+    ".component-search-result",
+    "[class*=\"coveo\"]",
+    "atomic-search-interface",
+    "atomic-external",
+    "[data-blogsdev-type=\"browseByTags\"]",
+    ".contentTypeListing",
+    "#ask-synopsys",
+    ".ask-widget",
+    "[class*=\"askSynopsys\"]",
+    "[id*=\"askSynopsys\"]",
+    "#onetrust-consent-sdk",
+    ".onetrust-pc-dark-filter",
+    ".mktoForm",
+    "form.mktoForm",
+    "[data-blogsdev-type=\"mostRecentArticles\"][data-page-type=\"category\"]",
+    "[data-blogsdev-type=\"categoryPage\"]",
+    ".dwProductsDownloads",
+    ".htmlTextOnly"
   ],
-  "glossary": [
-   ".cmp-dynamiccards"
+  "hideOnBuild": [
+    ".listing",
+    ".form form"
   ],
-  "program": [
-   ".dynamicCards",
-   ".cmp-dynamiccards"
-  ]
- },
- "hideOnBuildByTemplate": {
-  "article": [
-   ".carousel.blog",
-   ".cmp-dynamiccards"
-  ],
-  "glossary": [
-   ".carousel.blog",
-   ".cmp-dynamiccards"
-  ],
-  "program": [
-   ".cards.asset.feed",
-   ".carousel.resources.feed",
-   ".cards.blog.feed",
-   ".carousel.blog.feed"
-  ]
- }
+  "neutraliseOnLive": {
+    ".two2575PinnedLeft, .two2575PinnedLeft > *": "position: static !important; top: auto !important"
+  },
+  "freeze": "*{animation:none!important;transition:none!important;caret-color:transparent!important}",
+  "hideOnLiveByTemplate": {
+    "article": [
+      ".cmp-dynamiccards"
+    ],
+    "glossary": [
+      ".cmp-dynamiccards"
+    ],
+    "program": [
+      ".dynamicCards",
+      ".cmp-dynamiccards"
+    ]
+  },
+  "hideOnBuildByTemplate": {
+    "article": [
+      ".carousel.blog",
+      ".cmp-dynamiccards"
+    ],
+    "glossary": [
+      ".carousel.blog",
+      ".cmp-dynamiccards"
+    ],
+    "program": [
+      ".cards.asset.feed",
+      ".carousel.resources.feed",
+      ".cards.blog.feed",
+      ".carousel.blog.feed"
+    ]
+  },
+  "notes": {
+    ".htmlTextOnly": "raw HTML+script component (IP selector redirect <select>); JS-only widget with no static equivalent"
+  }
 }
