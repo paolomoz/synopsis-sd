@@ -296,3 +296,28 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
     border-left: 1px solid var(--grey-light);
   }
 }
+
+/* ---- divided: textcomp cells (source .component-textcomp in col-sm-4 with .snps-col-divider between) ---- */
+.columns.divided > div > div :is(h2, h3) {
+  margin-bottom: 24px; /* source: .component-text margin-top 24px under the title */
+}
+
+.columns.divided > div > div p:has(> a:only-child) {
+  margin-top: 24px; /* source: .buttons margin-top 24px */
+}
+
+.columns.divided > div > div p > a:only-child {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.columns.divided > div > div p > a:only-child::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  margin-left: 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23316aca' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
