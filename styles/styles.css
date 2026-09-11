@@ -618,6 +618,55 @@ body.author main > .section.rail-right .author-wrapper {
   padding-left: 45px;
 }
 
+@media (width <= 729px) {
+  /* article / glossary @360: stacked rail and copy, text bands 40px apart with 30px below, 24px headings */
+  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) {
+    padding: 0 0 30px;
+  }
+
+  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div {
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  body:is(.article, .glossary) main > .section .default-content-wrapper > h2:first-child {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  body:is(.article, .glossary) main > .section .default-content-wrapper h2 + p {
+    margin-top: 16px;
+  }
+
+  body:is(.article, .glossary) main > .section .default-content-wrapper > p:last-child {
+    margin-bottom: 24px;
+  }
+
+  body:is(.article, .glossary) main > .section.toc-container,
+  body:is(.article, .glossary) main > .section.form-container,
+  body:is(.article, .glossary) main > .section.rail {
+    float: none;
+    width: auto;
+    max-width: none;
+    margin: 0;
+  }
+
+  body:is(.article, .glossary) main > .section.toc-container > div,
+  body:is(.article, .glossary) main > .section.form-container > div,
+  body:is(.article, .glossary) main > .section.rail > div {
+    padding: 0 15px;
+  }
+
+  body:is(.article, .glossary) main > .section.hero-container {
+    padding: 0;
+  }
+
+  body:is(.article, .glossary) main > .section.tags-container .tags .tags-list li {
+    margin: 4px 2px;
+  }
+}
+
 /* ---- page templates (metadata Template → body class) ---- */
 
 /* page title (pageTitle component) */

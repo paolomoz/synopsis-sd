@@ -537,3 +537,39 @@
     display: block;
   }
 }
+
+@media (width <= 729px) {
+  .hero.blog {
+    height: 259px;
+  }
+
+  .hero.blog .hero-slide {
+    min-height: 259px;
+  }
+
+  .hero.blog .hero-container-inner {
+    padding: 0 15px;
+  }
+
+  .hero.blog .hero-text {
+    padding: 20px 0 0;
+  }
+
+  .hero.blog .hero-eyebrow p {
+    margin: 0 0 9px;
+    padding: 0 15px;
+  }
+
+  .hero.blog .hero-title :is(h1, h2) {
+    margin: 0;
+    padding: 15px 15px 0;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .hero.blog .hero-sub p {
+    padding: 20px 0 0;
+    font-size: 14px;
+    line-height: normal;
+  }
+}

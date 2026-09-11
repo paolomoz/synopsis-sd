@@ -252,3 +252,17 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
     margin-top: 40px;
   }
 }
+
+/* article / glossary: an image-only 8/12 column beside an empty column (source) — figure at 66.67% minus gutters */
+@media (width >= 730px) {
+  body:is(.article, .glossary) .columns.features > div > .columns-img-col {
+    flex: 0 0 66.6667%;
+    padding: 0 15px;
+  }
+
+  body:is(.article, .glossary) .columns.features > div > .columns-img-col img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+  }
+}
