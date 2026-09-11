@@ -614,6 +614,10 @@ body.author main > .section.main.cards-container {
   padding-top: 0;
 }
 
+body.author.tokens main > .section.main:has(+ .cards-container) .default-content-wrapper h2 {
+  margin-bottom: 0; /* source: the 30px gap between "From this Author" and the list is the band's bottom padding, not a heading margin */
+}
+
 body.author main > .section.rail-right .author-wrapper {
   padding-left: 45px;
 }
