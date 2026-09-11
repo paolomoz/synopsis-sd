@@ -351,7 +351,45 @@
      }
     ]
    },
-   "note": "2026-09-11: prototype built after the fact; port to EDS committed; published re-gate pending redeploy"
+   "note": "2026-09-11: prototype built after the fact; port to EDS committed; published re-gate pending redeploy",
+   "publishedOrigin": {
+    "url": "https://main--synopsis-sd--paolomoz.aem.live/blogs/chip-design/multiphysics-chip-design-challenges",
+    "1440": {
+     "rounds": [
+      {
+       "iter": "pub1",
+       "pixel": 10.7,
+       "heightDelta": 81,
+       "note": "port: promo nested in the intro section (double padding), <p><picture> line boxes, tags block not yet in content"
+      },
+      {
+       "iter": "pub2",
+       "pixel": 7.44,
+       "heightDelta": 21,
+       "note": "promo band bottom, figure line boxes, full-width Continue Reading"
+      },
+      {
+       "iter": "pub3",
+       "pixel": null,
+       "heightDelta": null,
+       "note": "reading column at x443 (rail float edge 428), h2 flush; then authored padding tokens (pt-*/pb-*) replaced the heuristics \u2014 a stray */ in a CSS comment disabled the rules for one round"
+      },
+      {
+       "iter": "pub4",
+       "pixel": 2.18,
+       "heightDelta": -35,
+       "note": "tokens + promo margins + no padding under Continue Reading: every heading \u03940\u20131px; the 35px is the live article footer (539) vs the shared footer (575)"
+      }
+     ],
+     "pixelDiffPercent": 2.18,
+     "heightDelta": -35,
+     "landmarks": "all headings 0/\u22121px, Continue Reading 0, footer 0",
+     "residuals": [
+      "footer variant 539 vs 575 on article pages (live footer differs per template)",
+      "pipeline drops some <br> inside paragraphs (10 \u2192 4 on the glossary archetype)"
+     ]
+    }
+   }
   },
   "people": {
    "archetypeSlug": "company-management-team-html",
