@@ -984,6 +984,10 @@ main > .section.main > div {
   padding: 0 15px;
 }
 
+main > .section.main.rail-4 > div {
+  margin-right: max(15px, calc((100% - var(--container)) / 2 + 390px)); /* source: col-sm-8 copy beside a col-sm-4 rail */
+}
+
 main > .section.main + .section:not(.main, .rail-right) {
   clear: both;
 }

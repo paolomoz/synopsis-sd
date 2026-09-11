@@ -599,7 +599,7 @@ def handle_column(col, page):
         COVERAGE['author-layout'] += 1
         return True
     # right rail: wide content column + narrow column of rail cards / downloads / CTAs (source col-sm-9 + col-sm-3)
-    if len(cols) == 2 and span_of(cols[1]) <= 4 and span_of(cols[0]) >= 8 and cols[1].select_one('.component-railCard, .component-downloads, .component-calltoaction'):
+    if len(cols) == 2 and span_of(cols[1]) <= 4 and span_of(cols[0]) >= 8 and cols[1].select_one('.component-railCard, .component-downloads, .component-calltoaction, .mktoForm'):  # source col-sm-8 + col-sm-4 Marketo form (webinars) is the same layout with a 390px rail
         rail = cols[1]; main = cols[0]
         page.new_section('rail-right')
         def rail_walk(node):
@@ -622,7 +622,8 @@ def handle_column(col, page):
         rail_walk(rail)
         before = len(page.sections); page.new_section('main')
         for sub in grid_children(main) or [main]: convert_column(sub, page)
-        for sct in page.sections[before:]: sct['style'] = 'main' if not sct['style'] or sct['style'] == 'main' else sct['style'] + ', main'
+        main_style = 'main, rail-4' if span_of(cols[0]) <= 8 else 'main'  # col-sm-8 copy beside a col-sm-4 rail: copy column is 780px, rail 390px
+        for sct in page.sections[before:]: sct['style'] = main_style if not sct['style'] or sct['style'] == 'main' else sct['style'] + ', ' + main_style
         page.new_section()
         COVERAGE['rail-layout'] += 1
         return True
@@ -713,6 +714,7 @@ def handle_column(col, page):
         if any(clean_text(re.sub('<[^>]+>', '', x)) or '<img' in x for x in cells):
             variant = 'features' if has_img_only and len(cols) == 2 else ''
             if 'divider-row' in ' '.join(sec.get('class') or []): variant = (variant + ' divided').strip()  # source: vertical hairlines between the columns
+            if any(cc.select_one('.component-rte h2') is not None for cc in cols) and not any(cc.select_one('.component-title h2, h2.title') is not None for cc in cols): variant = (variant + ' rte').strip()  # source: free-text h2 inside a column keeps the 44px page h2, unlike the 32px textcomp title
             page.add_block(block_table('columns' + (' ' + variant if variant else ''), [cells]), style); COVERAGE['columns'] += 1
         return True
     # single column: flatten

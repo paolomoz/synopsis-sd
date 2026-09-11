@@ -36,6 +36,7 @@
 }
 
 .columns > div > div h2 { font-size: 32px; font-weight: 300; line-height: 1.1; color: var(--ink); }
+.columns.rte > div > div h2 { font-size: 44px; line-height: 48.4px; margin-bottom: 15px; } /* source: rich-text h2 in a column keeps the page-level h2 size */
 .columns > div > div h3 { font-size: 24px; font-weight: 300; line-height: 1.1; }
 .columns > div > div h4 { font-size: 20px; font-weight: 400; line-height: 1.15; }
 .columns > div > div strong { font-weight: 700; }
