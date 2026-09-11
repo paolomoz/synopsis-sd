@@ -386,7 +386,53 @@
       "note": "benefits rhythm lifted (92+48); residual = live nav overlays hero (hero starts at y=53), logo carousel single row (100px) vs 2 static rows, What's New card imagery from JS feed"
      }
     ]
-   }
+   },
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "pageLayer": "stardust/prototypes/index.css",
+   "builder": "stardust/scripts/build-index.py",
+   "sharedLayers": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/canon.js"
+   ],
+   "prototypeIterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 16.12,
+      "heightDelta": 135,
+      "note": "first assembly from imported content + live lift; hero band 3.9%; pillars band pt 30 (live 60), design band mt 60 (live 120), benefits pb 12 (live 60)"
+     },
+     {
+      "iter": 2,
+      "pixel": 4.38,
+      "heightDelta": -3,
+      "note": "rhythm fixed; header 53px too low (double offset), hero title light (live <p><b> bold two lines), carousels flattened (content-diff 41 red: hidden slides, slick clones, dates, kb links)"
+     },
+     {
+      "iter": 3,
+      "pixel": 2.66,
+      "heightDelta": -3,
+      "note": "all 5 hero slides in DOM, bold two-line title, slick clone structure for news/logos, dates from source, kb links, pinned header (.overlapping) mirrored; content-diff 0 red (18 yellow: live inline script text + slide title line splits); header crop 4.77% \u2192 white CTA over dark hero \u2192 99.94%; footer 99.69%"
+     },
+     {
+      "iter": "final",
+      "pixelDiffPercent": 2.66,
+      "heightDelta": -3,
+      "contentDiffStructuralRed": 0,
+      "chromeCrop": {
+       "header": "99.94%",
+       "footer": "99.69%"
+      },
+      "visualDiffFlags": "none",
+      "regime": "harness",
+      "residuals": [
+       "pillar tile texture (high-frequency circuit imagery resampled 441\u2192375, thin-edge)",
+       "logo carousel autoplay state at capture time"
+      ]
+     }
+    ]
+   },
+   "note": "2026-09-11: landing prototype built after the fact (Phase 3 had been skipped for this archetype); published-origin re-gate pending the EDS port."
   },
   "static": {
    "archetypeSlug": "company-html",

@@ -1,0 +1,34 @@
+// home-live-lift.mjs — lift VISIBLE computed values from the live home page (offscreen SEO duplicates excluded)
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto('https://www.synopsys.com/', { waitUntil: 'domcontentloaded' }); await p.waitForTimeout(4000);
+await p.addStyleTag({ content: '#onetrust-consent-sdk,.onetrust-pc-dark-filter{display:none!important} *{animation:none!important;transition:none!important}' });
+const r = await p.evaluate(() => {
+  const vis = (e) => { const r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0 && r.left >= 0 && r.left < 1440; };
+  const rect = (e) => { const r = e.getBoundingClientRect(); return { y: Math.round(r.top + scrollY), h: Math.round(r.height), x: Math.round(r.left), w: Math.round(r.width) }; };
+  const st = (e, keys = ['fontSize', 'fontWeight', 'lineHeight', 'color', 'backgroundColor', 'marginTop', 'marginBottom', 'paddingTop', 'paddingBottom', 'paddingLeft', 'borderRadius', 'textTransform', 'letterSpacing', 'border', 'boxShadow', 'backgroundImage']) => { const c = getComputedStyle(e); const o = {}; keys.forEach((k) => { if (c[k] && c[k] !== 'none' && c[k] !== 'normal' && c[k] !== '0px') o[k] = c[k].length > 80 ? c[k].slice(0, 80) + '…' : c[k]; }); return o; };
+  const find = (re, tags = 'h1,h2,h3,h4,h5,p,span,a,button,li,div,strong') => [...document.querySelectorAll(tags)].filter((e) => vis(e) && re.test(e.textContent.trim()) && e.children.length < 3).sort((a, b2) => a.getBoundingClientRect().width - b2.getBoundingClientRect().width)[0];
+  const info = (e) => (e ? { tag: e.tagName, cls: e.className.toString().slice(0, 60), ...rect(e), ...st(e) } : null);
+  const out = {};
+  out.header = info(document.querySelector('.topNav, header')); out.headerBg = getComputedStyle(document.querySelector('.component-nav-top') || document.querySelector('header')).backgroundColor;
+  out.heroTitle = info(find(/^Introducing Synopsys Physical AI Solutions$/)); out.heroSub = info(find(/^Accelerate Physical AI development/)); out.heroCta = info(find(/^Learn More/, 'a,span'));
+  out.heroCtaBox = info(find(/^Learn More/, 'a')); out.heroText = info(find(/^Introducing Synopsys Physical AI Solutions$/)?.parentElement);
+  out.tab = info(find(/^Introducing Synopsys Physical AI Solutions$/, 'button,li,div')); out.tabStrip = info(find(/^Introducing Synopsys Physical AI Solutions$/, 'button')?.parentElement);
+  out.powering = info(find(/^Powering the Era/)); out.poweringSub = info(find(/^Supercharge Productivity/));
+  const pillarImg = [...document.querySelectorAll('img')].find((i) => vis(i) && i.getBoundingClientRect().width > 300 && i.getBoundingClientRect().top + scrollY > 950 && i.getBoundingClientRect().top + scrollY < 1100);
+  out.pillarImg = info(pillarImg); out.pillarCard = info(pillarImg?.closest('a, .cmp-teaser, [class*="tile"], [class*="card"], li')); out.pillarLabel = info(find(/^Synopsys\.ai$/, 'h2,h3,h4,p,span,a,div')); out.pillarLabelBox = info(find(/^Synopsys\.ai$/, 'h2,h3,h4,p,span,a,div')?.parentElement);
+  out.designFuture = info(find(/^Design the Future Today/)); out.industry = info(find(/^Industry$/, 'h2,h3,h4,p,span')); out.itemTitle = info(find(/^AI Chip Development$/)); out.itemDesc = info(find(/^Achieve first-pass silicon/));
+  const icon = find(/^AI Chip Development$/)?.closest('li, .cmp-teaser, [class*="item"], div')?.querySelector('img, svg'); out.itemIcon = info(icon); out.itemRow = info(find(/^AI Chip Development$/)?.parentElement?.parentElement);
+  out.item2 = info(find(/^Physical AI$/)); out.itemLast = info(find(/^Multi-Die Design$/)); out.itemLastDesc = info(find(/^A comprehensive solution for fast/));
+  out.eco = info(find(/^Ecosystem Partners$/)); out.ecoBand = info(find(/^Ecosystem Partners$/)?.closest('.light-grey-bg'));
+  const logo = [...document.querySelectorAll('img')].find((i) => vis(i) && Math.round(i.getBoundingClientRect().height) === 100 && i.getBoundingClientRect().top + scrollY > 2500 && i.getBoundingClientRect().top + scrollY < 3100); out.logo = info(logo); out.logoSlide = info(logo?.parentElement); out.logoTrack = info(logo?.closest('.slick-track, .slick-list, ul')); const logos = [...document.querySelectorAll('img')].filter((i) => vis(i) && Math.round(i.getBoundingClientRect().height) === 100 && i.getBoundingClientRect().top + scrollY > 2500 && i.getBoundingClientRect().top + scrollY < 3100); out.logosVisible = logos.map((i) => ({ x: Math.round(i.getBoundingClientRect().left), src: i.src.split('/').pop() }));
+  out.whatsNew = info(find(/^What's New$/)); const newsImg = [...document.querySelectorAll('img')].find((i) => vis(i) && Math.round(i.getBoundingClientRect().width) === 370); out.newsImg = info(newsImg); out.newsCard = info(newsImg?.closest('.cmp-card, [class*="card"]')); out.newsCardInner = info(newsImg?.parentElement?.parentElement);
+  out.newsEyebrow = info(find(/^(News Release|Blog)$/, 'span,p,div,a')); out.newsDate = info(find(/^(August|June|July) \d+, 2026$/, 'span,p,div')); out.newsTitle = info(find(/^Synopsys Posts Financial Results/, 'h3,h4,p,a')); out.newsLearn = info([...document.querySelectorAll('a')].filter((a) => vis(a) && /^Learn more/i.test(a.textContent.trim()) && a.getBoundingClientRect().top + scrollY > 3000)[0]);
+  out.newsArrow = info(document.querySelector('.slick-prev, [class*="prev"]:not(.slick-disabled)')); out.newsDots = info(document.querySelector('.slick-dots'));
+  out.support = info(find(/^Support & Services$/)); out.supportBand = info(find(/^Support & Services$/)?.closest('.light-grey-bg')); out.supportText = info(find(/^Explore the Synopsys Support Community/)); out.supportLink = info(find(/^View Support & Services/, 'a,span'));
+  out.connect = info(find(/^Connect with Us$/)); out.connectBand = info(find(/^Connect with Us$/)?.closest('.background-component, section, div')); out.connectCta = info([...document.querySelectorAll('a')].filter((a) => vis(a) && /^Contact Sales/.test(a.textContent.trim()) && a.getBoundingClientRect().top + scrollY > 3800)[0]);
+  const cb = find(/^Connect with Us$/); let e = cb; while (e && getComputedStyle(e).backgroundImage === 'none' && getComputedStyle(e).backgroundColor === 'rgba(0, 0, 0, 0)') e = e.parentElement; out.connectBg = e ? { cls: e.className.toString().slice(0, 60), ...rect(e), bgi: getComputedStyle(e).backgroundImage.slice(0, 120), bgc: getComputedStyle(e).backgroundColor } : null;
+  out.footer = info(document.querySelector('footer'));
+  return out;
+});
+await b.close(); for (const [k, v] of Object.entries(r)) console.log(k.padEnd(14), JSON.stringify(v));

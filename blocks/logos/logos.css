@@ -1,20 +1,24 @@
 /* logos (lifted: .cmp-logo-carousel) */
 .logos ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* source: one slick row, 148px slides with 40px side margins, overflow clipped */
   align-items: center;
-  justify-content: center;
-  gap: 40px 80px;
+  justify-content: flex-start;
+  gap: 0 80px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 40px;
+  overflow: hidden;
   list-style: none;
+}
+
+.logos li {
+  flex: none;
 }
 
 .logos li img {
   display: block;
+  width: 148px;
   height: 100px;
-  width: auto;
-  max-width: 150px;
   object-fit: contain;
 }
 

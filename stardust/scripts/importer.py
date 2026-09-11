@@ -363,6 +363,8 @@ def asset_card_row(card):
         if clean_text(cand.get_text()) and cand.find_parent(class_='heading') is None: a = cand; break
     cell = ''
     if lab and clean_text(lab.get_text()): cell += f'<p><strong>{esc(clean_text(lab.get_text()))}</strong></p>'
+    dt = card.select_one('.date-time')  # source label row: type chip · date (right-aligned); authored as an emphasised paragraph
+    if dt is not None and clean_text(dt.get_text()): cell += f'<p><em>{esc(clean_text(dt.get_text()))}</em></p>'
     if h and clean_text(h.get_text(' ')): cell += f'<h3>{esc(clean_text(h.get_text(" ")))}</h3>'
     if p and clean_text(p.get_text()): cell += f'<p>{esc(clean_text(p.get_text()))}</p>'
     if a: cell += f'<p><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></p>'
@@ -594,6 +596,10 @@ def handle_column(col, page):
         # single wrapper column around a nested multi-column layout: descend so the inner layout decides
         inner = cols[0].select_one('.column.aem-GridColumn')
         if inner is not None and inner.find(class_='component-column') is not None and len([c for c in inner.find(class_='component-column').find_all(recursive=False) if isinstance(c, Tag)]) > 1:
+            # grid siblings that precede the nested column (source: the "Design the Future Today with Synopsys" text) are content
+            for sib in grid_children(cols[0]):
+                if sib is inner or inner in sib.descendants: break
+                convert_column(sib, page)
             return handle_column(inner, page)
     if kbs and len(kbs) >= len(cols):
         # headed benefit lists side by side (home "Industry | Technology"): columns benefits, one cell per column
@@ -606,7 +612,9 @@ def handle_column(col, page):
                     img = kb.find('img'); t = kb.select_one('.cmp-key-benefits__title'); d = kb.select_one('.cmp-key-benefits__description')
                     title = clean_text(t.get_text(' ')) if t else ''
                     desc = rich(d, allow_headings=False) if d and clean_text(d.get_text()) else ''
-                    lis += f'<li>{img_html(img, title) if img else ""}<p><strong>{esc(title)}</strong></p>{desc}</li>'
+                    link = kb.select_one('a.cmp-key-benefits__link'); href = localize(link.get('href')) if link is not None and link.get('href') else None
+                    ttl = f'<a href="{esc(href)}">{esc(title)}</a>' if href else esc(title)
+                    lis += f'<li>{img_html(img, title) if img else ""}<p><strong>{ttl}</strong></p>{desc}</li>'
                 cells.append(f'<h3>{esc(clean_text(hd.get_text(" ")))}</h3><ul>{lis}</ul>')
             page.add_block(block_table('columns benefits', [cells]), style); COVERAGE['columns benefits'] += 1; return True
         page.add_block(block_table('cards benefits', kb_rows(kbs)), style); COVERAGE['cards benefits'] += 1; return True

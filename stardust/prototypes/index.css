@@ -1,0 +1,114 @@
+/* index.css — landing-archetype page layer (home). Shared chrome lives in canon.css. Values lifted from the live home page @1440. */
+/* header floats transparent over the hero (live: .topNav absolute at y=53, white wordmark/labels/search) */
+body.home header.topNav{position:absolute;top:0;left:0;right:0;z-index:50;height:80px}
+body.home .component-nav-top{background:transparent;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+body.home .nav-top-wrapper .logo svg path{fill:#fff}
+body.home .main-nav .main-nav-item-header{color:#fff}
+body.home .main-nav .main-nav-item-header::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='%23ffffff' d='M352 160c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-9.2-9.2-11.9-22.9-6.9-34.9S19.1 160 32 160h320z'/%3E%3C/svg%3E") no-repeat center/8px 12px}
+body.home .icon-search{color:#fff}
+body.home .component-button.cta{background:#fff;color:var(--ink)}
+body.home .component-nav-top.overlapping .component-button.cta{background:var(--purple);color:#fff}
+body.home .site-wrapper{position:relative}
+/* scrolled state (live: .component-nav-top.overlapping once the pre-header scrolls away — fixed, translucent white, dark labels) */
+body.home .component-nav-top.overlapping{position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,.8);box-shadow:0 4px 4px rgba(0,0,0,.25);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+body.home .component-nav-top.overlapping .nav-top-wrapper .logo svg path{fill:#5a2a82}
+body.home .component-nav-top.overlapping .main-nav .main-nav-item-header{color:var(--ink)}
+body.home .component-nav-top.overlapping .main-nav .main-nav-item-header::after{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='%23111c24' d='M352 160c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-9.2-9.2-11.9-22.9-6.9-34.9S19.1 160 32 160h320z'/%3E%3C/svg%3E") no-repeat center/8px 12px}
+body.home .component-nav-top.overlapping .icon-search{color:var(--ink)}
+
+/* hero: 1440x700 image slide, copy at (160,170), tab strip at the bottom */
+.home-hero{position:relative;height:700px;overflow:hidden;background:linear-gradient(107.7deg,#2d1541 0,#5a2a82 50%,#7e45af 100%)}
+.home-hero .cmp-carousel__item{position:absolute;inset:0}
+.home-hero .cmp-carousel__item:not(.cmp-carousel__item--active){opacity:0;pointer-events:none}
+.home-hero .bg img{position:absolute;inset:0;width:1440px;height:700px;object-fit:cover;display:block}
+.home-hero .ui-helper-hidden-accessible{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.home-hero .center-wrapper{position:absolute;top:170px;left:0;right:0;display:flex;padding:0 160px}
+.home-hero .text-wrapper{width:560px;color:#fff}
+.home-hero .title{margin:0 0 32px;color:#fff}
+.home-hero .title p{margin:0;font-size:48px;font-weight:300;line-height:67.2px}
+.home-hero .title p b{font-weight:700}
+.home-hero .sub-title{font-size:20px;font-weight:300;line-height:32px;margin:0 0 32px}
+.home-hero .cta-wrapper{display:flex;height:55px}
+.home-hero .component-button{display:flex;align-items:center;justify-content:center;height:40px;padding:0 24px;margin:0 15px 15px 0;border-radius:5px;background:#fff}
+.home-hero .component-button a{display:flex;align-items:center;color:var(--ink);font-size:16px;font-weight:400;line-height:16px}
+.home-hero .component-button .ico{width:9px;height:16px;margin-left:8px}
+.home-hero .slick-dots{position:absolute;left:0;right:0;bottom:0;display:flex;height:69px;margin:0;padding:0 160px;list-style:none}
+.home-hero .slick-dots li{position:relative;width:181px;flex:none;padding:0 8px 10px;margin-right:54px}
+.home-hero .slick-dots li:nth-child(2){margin-right:54px}
+.home-hero .slick-dots button{display:block;width:165px;padding:14px 0 0;border:0;background:none;color:#fff;font:400 16px/22.4px var(--font);text-align:left;cursor:pointer}
+.home-hero .slick-dots .slider-progress-bar{position:absolute;left:0;top:0;width:0;height:2px;background:#fff}
+.home-hero .slick-dots li.slick-active .slider-progress-bar{width:104px}
+
+/* section rhythm (live: heading bands margin-top 60 / padding-bottom 30; content bands padding 30/60) */
+.band.powering{margin-top:90px;padding-bottom:30px}
+.band.powering .component-text{margin-top:24px;font-size:20px;line-height:32px;text-align:center}
+.band.pillars{padding:60px 0 60px}
+.pillar-row{display:flex;justify-content:space-between}
+.pillar{display:block;width:263px;height:434px;text-align:center}
+.pillar .image{position:relative;width:263px;height:434px;overflow:hidden;border-radius:5px}
+.pillar .image > img{position:absolute;left:-56px;top:0;width:375px;height:443px;display:block}
+.pillar .overlay{position:absolute;left:0;right:0;bottom:0;height:275px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.85))}
+.pillar .text-hover{position:absolute;left:33px;top:279px;width:197px;color:#fff}
+.pillar .text-hover span{display:block;font-size:24px;font-weight:300;line-height:33.6px}
+.pillar .text-hover p{margin:16px 0 4px;font-size:16px;font-weight:300;line-height:25.6px;opacity:0}
+.pillar .text-hover .button{display:inline-block;margin:4px;padding:8px 25px;border:1px solid #fff;border-radius:5px;font-size:16px;font-weight:300;line-height:25.6px;opacity:0}
+.pillar .text-hover .button .ico{width:6px;height:10px;margin-left:8px}
+.pillar:hover .text-hover p,.pillar:hover .text-hover .button{opacity:1}
+.band.design-title{margin-top:120px;padding-bottom:30px}
+.band.benefits{padding:30px 0 60px}
+.row.two-col{display:flex;margin:0 -15px}
+.col-6{width:50%}
+.benefits .textcomp .title{text-align:left;margin-bottom:31px}
+.cmp-key-benefits__img-text{display:flex;align-items:center;margin-bottom:16px;height:50px}
+.cmp-key-benefits__img-wrapper{width:50px;height:50px;margin-right:16px;flex:none}
+.cmp-key-benefits__img-wrapper img{display:block;width:50px;height:50px}
+.cmp-key-benefits__title{font-size:20px;font-weight:300;line-height:28px}
+.cmp-key-benefits__description{margin:0 0 48px;font-size:16px;font-weight:300;line-height:25.6px}
+
+/* ecosystem partners: grey band 315px = 60 + 35 + 40 + 100 + 80 */
+.band.eco{padding-top:60px}
+.cmp-logo-carousel{margin:40px 0 80px;height:100px}
+.cmp-logo-carousel .slick-list{overflow:hidden;width:1140px;height:100px}
+.cmp-logo-carousel .slick-track{display:flex;width:max-content;transform:translate3d(-1368px,0,0)}
+.cmp-logo-carousel .slick-slide{width:148px;flex:none;margin:0 40px}
+.cmp-logo-carousel .partner-logo{display:block;width:148px;height:100px;object-fit:contain}
+
+/* what's new: heading band 60/30, carousel band 15 top / 60 bottom, cards 370x479 + 5px margins, dots 28 below */
+.band.news-title{margin-top:60px;padding-bottom:30px}
+.band.news{margin-top:15px;padding-bottom:60px}
+.band.news .cmp-carousel{position:relative}
+.band.news .slick-list{overflow:hidden;height:489px}
+.band.news .slick-track{display:flex;width:max-content;transform:translate3d(-1140px,0,0)}
+.band.news .component-assetcard{width:370px;height:479px;flex:none;margin:5px;background:#fff;box-shadow:0 1px 7px rgba(0,0,0,.15);position:relative}
+.band.news .cmp-image img{display:block;width:370px;height:208px;object-fit:cover}
+.band.news .card-text{padding:20px 32px 53px;height:271px;position:relative}
+.band.news .label-date-wrapper{display:flex;justify-content:space-between;height:20px}
+.band.news .label-wrapper{display:inline-block;padding:4px 8px;border-radius:3px;background:var(--purple);color:#fff;font-size:12px;font-weight:400;line-height:12px;text-transform:uppercase}
+.band.news .date-time{font-size:14px;line-height:16.5px;color:var(--grey)}
+.band.news h4.heading{margin:20px 0;font-size:20px;font-weight:400;line-height:23px;color:var(--ink)}
+.band.news .heading-desc-wrapper p{margin:0 0 32px;font-size:16px;line-height:18px}
+.band.news .card-text > a{position:absolute;left:32px;bottom:32px;display:flex;align-items:center;height:16px;font-size:16px;font-weight:400;line-height:16px;color:var(--link)}
+.band.news .card-text > a .ico{width:8px;height:12px;margin-left:8px}
+.band.news .slick-dots{display:flex;justify-content:center;max-width:342px;height:8px;margin:28px auto 0;padding:0;list-style:none}
+.band.news .slick-dots li{position:relative;width:50px;height:8px;padding:4px 0;margin-right:8px}
+.band.news .slick-dots li:last-child{margin-right:0}
+.band.news .slick-dots li::before{content:"";position:absolute;left:0;right:0;top:3px;height:2px;background:#c4c4c4}
+.band.news .slick-dots li.slick-active::before{background:var(--purple-dark)}
+.band.news .slick-dots button{opacity:0;width:100%;height:0;padding:0;border:0}
+.band.news .slick-nav-container{position:absolute;top:226px;left:0;right:0;height:0}
+.band.news .slick-arrow{position:absolute;width:40px;height:40px;border:0;border-radius:20px;background:#fff;color:var(--grey);display:flex;align-items:center;justify-content:center;padding:0;box-shadow:0 1px 7px rgba(0,0,0,.15);cursor:pointer}
+.band.news .slick-arrow .ico{width:13px;height:20px}
+.band.news .slick-prev{left:-80px}
+.band.news .slick-prev .ico{transform:rotate(180deg)}
+.band.news .slick-next{right:-80px}
+
+/* support & careers: grey band, 60px padding, two 540px text columns around a 1px divider */
+.band.support{padding:60px 0}
+.row.divider-row{display:flex;margin:0 -15px}
+.divider-row .col-6{width:570px;padding:0 15px}
+.divider-row .textcomp .title{text-align:left}
+.divider-row .component-text{margin-top:24px}
+.divider-row .cta-text{display:inline-flex;align-items:center;margin-top:24px;color:var(--ink);font-size:16px;font-weight:400;line-height:25.6px}
+.divider-row .cta-text .ico{width:8px;height:12px;margin-left:8px}
+.snps-col-divider{position:relative;width:30px;flex:none}
+.snps-col-divider .vl{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#c4c4c4}

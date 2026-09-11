@@ -36,7 +36,51 @@
 .carousel .carousel-label {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 20px;
+}
+
+.carousel .carousel-date {
+  margin: 0 0 0 16px;
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.5px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.carousel .carousel-date em {
+  font-style: normal;
+}
+
+/* resources with imagery (home "What's New"): 370x208 image over a 271px text panel */
+.carousel .carousel-card:has(.carousel-card-image) {
+  height: 479px;
+}
+
+.carousel .carousel-card-image {
+  line-height: 0;
+}
+
+.carousel .carousel-card-image img {
+  display: block;
+  width: 370px;
+  height: 208px;
+  object-fit: cover;
+}
+
+.carousel .carousel-card:has(.carousel-card-image) .carousel-card-text {
+  height: 271px;
+  padding: 20px 32px 53px;
+}
+
+.carousel .carousel-list:has(.carousel-card-image) {
+  height: 489px;
+}
+
+.carousel:has(.carousel-card-image) .carousel-arrow {
+  top: 226px;
 }
 
 .carousel .carousel-label p {

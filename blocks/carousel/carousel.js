@@ -45,9 +45,11 @@ export default async function decorate(block) {
     const heading = row.querySelector('h1, h2, h3, h4, h5, h6');
     const ps = [...row.querySelectorAll('p')];
     const label = ps.find((p) => p.querySelector('strong') && !p.querySelector('a'));
+    // source asset cards carry a date on the label row (right-aligned); authored as <p><em>Month D, YYYY</em></p>
+    const date = ps.find((p) => p !== label && !p.querySelector('a') && p.children.length === 1 && p.firstElementChild.tagName === 'EM' && /\d{4}/.test(p.textContent));
     const link = [...ps].reverse().find((p) => p.querySelector('a') && p.closest('div') && p === p.parentElement.lastElementChild) || [...ps].reverse().find((p) => p.querySelector('a'));
-    const others = ps.filter((p) => p !== label && p !== link);
-    if (label) { const l = document.createElement('div'); l.className = 'carousel-label'; l.append(label); body.append(l); }
+    const others = ps.filter((p) => p !== label && p !== link && p !== date);
+    if (label || date) { const l = document.createElement('div'); l.className = 'carousel-label'; if (label) l.append(label); if (date) { date.className = 'carousel-date'; l.append(date); } body.append(l); }
     const hd = document.createElement('div');
     hd.className = 'carousel-card-body';
     if (heading) hd.append(heading);

@@ -125,11 +125,11 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
 
 /* benefits variant (home "Industry | Technology"): headed icon lists side by side */
 .columns.benefits > div > div h3 {
-  margin: 0 0 24px;
+  margin: 0 0 31px; /* live h2.title 32px + 31px to the first item */
   color: var(--ink);
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 35.2px;
 }
 
 .columns.benefits > div > div ul {
@@ -164,6 +164,30 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
   font-size: 20px;
   font-weight: 300;
   line-height: 28px;
+}
+
+/* the item title is a link on the source (.cmp-key-benefits__link); decorateButtons turns <p><strong><a> into a button — undo */
+.columns.benefits > div > div li p.button-container {
+  margin: 0;
+  text-align: left;
+}
+
+.columns.benefits > div > div li p strong a.button:any-link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.columns.benefits > div > div li p strong a.button:hover {
+  color: var(--purple-dark);
 }
 
 /* the pipeline wraps the icon in <p><picture>: pin it to the icon column, description spans the row */

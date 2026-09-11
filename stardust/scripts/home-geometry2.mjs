@@ -1,0 +1,46 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+async function probe(url, isLive) {
+  const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+  await p.goto(url, { waitUntil: 'domcontentloaded' }).catch(() => {}); await p.waitForTimeout(3500);
+  await p.addStyleTag({ content: '#onetrust-consent-sdk,.onetrust-pc-dark-filter{display:none!important} *{animation:none!important;transition:none!important}' });
+  const r = await p.evaluate((isLive) => {
+    const rect = (e) => { if (!e) return null; const r = e.getBoundingClientRect(); return { y: Math.round(r.top + scrollY), h: Math.round(r.height), x: Math.round(r.left), w: Math.round(r.width) }; };
+    const byText = (re, tags = 'h1,h2,h3,h4,p,span,a,strong') => [...document.querySelectorAll(tags)].find((e) => re.test(e.textContent.trim()) && e.getBoundingClientRect().height > 0 && e.getBoundingClientRect().width > 50);
+    const style = (e) => { if (!e) return null; const c = getComputedStyle(e); return { fs: c.fontSize, fw: c.fontWeight, lh: c.lineHeight, mt: c.marginTop, mb: c.marginBottom, pt: c.paddingTop, pb: c.paddingBottom, ta: c.textAlign, color: c.color }; };
+    const out = {};
+    const heroBox = isLive ? document.querySelector('[carousel-type="banner-carousel"], .cmp-carousel') : document.querySelector('.hero.carousel');
+    out.heroBox = rect(heroBox);
+    const heroT = byText(/^Introducing Synopsys Physical AI/, 'h1,h2,h3,p'); out.heroTitle = { ...rect(heroT), ...style(heroT), tag: heroT?.tagName };
+    const heroSub = byText(/^Accelerate Physical AI development/, 'p,span,div'); out.heroSub = { ...rect(heroSub), ...style(heroSub) };
+    const learn = [...document.querySelectorAll('a')].find((a) => /^Learn More/i.test(a.textContent.trim()) && a.getBoundingClientRect().top < 900); out.learn = { ...rect(learn), ...style(learn) };
+    const tab = byText(/^Introducing Synopsys Physical AI/, 'button,li,a,span,div'); const tabs = [...document.querySelectorAll('button,li,a,span,div')].filter((e) => /^Synopsys Multiphysics Fusion/.test(e.textContent.trim()) && e.getBoundingClientRect().height > 0 && e.getBoundingClientRect().width < 400).pop(); out.tabStrip = { ...rect(tabs), ...style(tabs), tag: tabs?.tagName };
+    const pow = byText(/^Powering the Era/, 'h1,h2,h3'); out.powering = { ...rect(pow), ...style(pow) };
+    const powSub = byText(/^Supercharge Productivity/, 'p,span,div,li'); out.poweringSub = { ...rect(powSub), ...style(powSub) };
+    const pill = [...document.querySelectorAll('img')].filter((i) => { const y = i.getBoundingClientRect().top + scrollY; return y > 900 && y < 1700 && i.getBoundingClientRect().width > 200; }); out.pillars = pill.slice(0, 4).map((i) => ({ img: rect(i), card: rect(i.closest(isLive ? '.cmp-teaser, .card, li, .aem-GridColumn' : 'li')) }));
+    const pillLabel = byText(/^Synopsys\.ai$/, 'h2,h3,h4,p,span,a,strong'); out.pillarLabel = { ...rect(pillLabel), ...style(pillLabel), tag: pillLabel?.tagName };
+    const dft = byText(/^Design the Future Today/, 'h1,h2,h3'); out.designFuture = { ...rect(dft), ...style(dft), tag: dft?.tagName };
+    const ind = [...document.querySelectorAll('h2,h3,h4,p,strong')].find((e) => e.textContent.trim() === 'Industry' && e.getBoundingClientRect().top + scrollY > 1400); out.industry = { ...rect(ind), ...style(ind), tag: ind?.tagName };
+    const first = byText(/^AI Chip Development/, 'h3,h4,p,strong,a,span'); out.firstItem = { ...rect(first), ...style(first), tag: first?.tagName };
+    const firstDesc = byText(/^Achieve first-pass silicon/, 'p,span,div'); out.firstDesc = { ...rect(firstDesc), ...style(firstDesc) };
+    const second = byText(/^Physical AI$/, 'h3,h4,p,strong,a,span'); out.secondItem = rect(second);
+    const last = byText(/^Multi-Die Design/, 'h3,h4,p,strong,a,span'); out.lastItem = rect(last);
+    const lastDesc = byText(/^A comprehensive solution for fast/, 'p,span,div'); out.lastDesc = rect(lastDesc);
+    const eco = byText(/^Ecosystem Partners$/, 'h1,h2,h3'); out.eco = { ...rect(eco), ...style(eco), tag: eco?.tagName };
+    const ecoBand = eco?.closest(isLive ? '.light-grey-bg' : '.section'); out.ecoBand = rect(ecoBand);
+    const logo = [...document.querySelectorAll('img')].find((i) => { const y = i.getBoundingClientRect().top + scrollY; return y > 2500 && y < 3100 && i.getBoundingClientRect().height === 100; }); out.logoRow = { img: rect(logo), row: rect(logo?.parentElement?.parentElement), band: rect(logo?.closest(isLive ? '.light-grey-bg' : '.section')) };
+    const wn = byText(/^What's New$/, 'h1,h2,h3'); out.whatsNew = { ...rect(wn), ...style(wn) };
+    const newsImg = [...document.querySelectorAll('img')].find((i) => { const y = i.getBoundingClientRect().top + scrollY; return y > 3000 && y < 3400 && i.getBoundingClientRect().width === 370; });
+    const card = newsImg?.closest(isLive ? '.cmp-card, .card, [class*="card"]' : '.carousel-card'); out.newsCard = { card: rect(card), img: rect(newsImg), border: card ? getComputedStyle(card).border : null, cardText: card?.textContent.trim().replace(/\s+/g, ' ').slice(0, 120) };
+    const newsTitle = byText(/^Synopsys Posts Financial Results/, 'h3,h4,p,a,strong,span'); out.newsTitle = { ...rect(newsTitle), ...style(newsTitle), tag: newsTitle?.tagName };
+    const newsLearn = [...document.querySelectorAll('a')].filter((a) => /^Learn more/i.test(a.textContent.trim()) && a.getBoundingClientRect().top + scrollY > 3000).slice(0, 1).map(rect); out.newsLearn = newsLearn[0];
+    const newsSection = card?.closest(isLive ? '.background-component' : '.section'); out.newsSection = rect(newsSection);
+    const sup = byText(/^Support & Services$/, 'h1,h2,h3'); out.support = { ...rect(sup), ...style(sup) }; out.supportBand = rect(sup?.closest(isLive ? '.light-grey-bg' : '.section'));
+    const con = byText(/^Connect with Us$/, 'h1,h2,h3'); out.connect = { ...rect(con), ...style(con), tag: con?.tagName }; out.connectBand = rect(con?.closest(isLive ? '.background-component' : '.section'));
+    const cta = [...document.querySelectorAll('a')].find((a) => /^Contact Sales/.test(a.textContent.trim()) && a.getBoundingClientRect().top + scrollY > 3800); out.connectCta = { ...rect(cta), ...style(cta) };
+    return out;
+  }, isLive);
+  await p.close(); return r;
+}
+const L = await probe('https://www.synopsys.com/', true); const B = await probe('https://main--synopsis-sd--paolomoz.aem.live/', false); await b.close();
+for (const k of Object.keys(L)) console.log(k.padEnd(13), 'L', JSON.stringify(L[k]), '\n' + ' '.repeat(13), 'B', JSON.stringify(B[k]));

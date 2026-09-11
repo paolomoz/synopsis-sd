@@ -157,8 +157,9 @@
 
 .hero.carousel .hero-text {
   align-items: flex-start;
-  max-width: 660px;
-  padding-top: 150px;
+  max-width: 560px; /* live .text-wrapper 560px at x=160 */
+  margin-left: 10px;
+  padding-top: 170px;
 }
 
 .hero.image .hero-text,
@@ -173,10 +174,10 @@
 }
 
 .hero.carousel .hero-title :is(h1, h2) {
-  margin: 0 0 24px;
-  font-size: 40px;
+  margin: 0 0 32px;
+  font-size: 48px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 67.2px; /* live .title 48px/1.4, bold inner paragraphs */
 }
 
 .hero.image .hero-title :is(h1, h2),
@@ -196,9 +197,14 @@
 }
 
 .hero.carousel .hero-sub p {
-  margin: 0 0 28px;
+  margin: 0 0 32px;
   font-size: 20px;
   line-height: 32px;
+}
+
+/* live: .image-overlay is opacity 0 on the banner carousel — the slide image carries its own darkness */
+.hero.carousel .hero-media::after {
+  background: none;
 }
 
 .hero.image .hero-actions,
@@ -255,29 +261,33 @@
   background: #fff;
 }
 
-/* carousel: slide-title tabs under the copy (live .carousel-indicators) */
+/* carousel: slide-title tabs along the bottom edge (live ul.slick-dots: padding 0 160px, li 181px + 54px gap, 2px progress bar on the active tab) */
 .hero.carousel .hero-dots {
-  left: 50%;
-  right: auto;
-  bottom: 40px;
-  width: min(var(--container), 100%);
-  padding: 0 var(--gutter);
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: 69px;
+  padding: 0 160px;
+  transform: none;
   justify-content: flex-start;
-  gap: 30px;
+  align-items: flex-start;
+  gap: 54px;
   box-sizing: border-box;
 }
 
 .hero.carousel .hero-dots button {
-  width: 190px;
+  position: relative;
+  width: 165px;
   height: auto;
+  margin: 0 8px 10px;
   padding: 14px 0 0;
-  border-top: 1px solid rgb(255 255 255 / 40%);
+  border: 0;
   background: transparent;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 22.4px;
   text-align: left;
   overflow: hidden;
   display: -webkit-box;
@@ -285,9 +295,18 @@
   -webkit-line-clamp: 2;
 }
 
-.hero.carousel .hero-dots button[aria-selected="true"] {
-  border-top-color: #fff;
-  font-weight: 500;
+.hero.carousel .hero-dots button::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+}
+
+.hero.carousel .hero-dots button[aria-selected="true"]::before {
+  width: 104px;
 }
 
 .hero .hero-pause {

@@ -425,6 +425,119 @@ main .section.tinted {
   }
 }
 
+/* ---- landing (home) rhythm — values lifted from the live home page @1440 (stardust/prototypes/index.css) ---- */
+body.landing main .section .default-content-wrapper h2 {
+  color: var(--ink);
+}
+
+/* hero → "Powering the Era" band: 90px gap, 20px lede, 30px to the pillars band (which keeps its 60px top) */
+body.landing main > .section.hero-container + .section.centered {
+  padding: 90px 0 30px;
+}
+
+body.landing main > .section.hero-container + .section.centered .default-content-wrapper h2 + p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* "Design the Future Today" title band: 120px above, 30 + 30 to the Industry/Technology columns */
+body.landing main > .section.centered:has(+ .columns-container) {
+  padding: 120px 0 30px;
+}
+
+body.landing main > .section.columns-container:has(.columns.benefits) {
+  padding-top: 30px;
+}
+
+/* Ecosystem Partners: one grey band — title (60 / 35 / 40) then the logo row (100) and 80px below */
+body.landing main > .section.tinted.centered:has(+ .logos-container) {
+  padding: 60px 0 40px;
+}
+
+body.landing main > .section.logos-container {
+  background-color: var(--mist);
+  padding: 0 0 80px;
+}
+
+/* What's New: title band 60 / 35, then 46px to the card rail (cards carry 5px margins), 60 below the dots */
+body.landing main > .section.centered:has(+ .carousel-container) {
+  padding: 60px 0 0;
+}
+
+body.landing main > .section.carousel-container {
+  padding: 46px 0 60px;
+}
+
+/* Support & Services | Careers: 540px text columns around a 1px divider (source .divider-row) */
+body.landing main .columns-container .columns:not(.benefits) > div {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div {
+  flex: 0 0 570px;
+  order: 1;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div:first-child {
+  padding-right: 30px;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div:last-child {
+  padding-left: 30px;
+  border-left: 1px solid var(--grey-light);
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div h2 {
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div p {
+  margin: 0;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div p.button-container {
+  margin-top: 24px;
+  text-align: left;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+body.landing main .columns-container .columns:not(.benefits) > div > div a.button::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  margin-left: 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23111c24' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+@media (width <= 899px) {
+  body.landing main .columns-container .columns:not(.benefits) > div {
+    flex-direction: column;
+  }
+
+  body.landing main .columns-container .columns:not(.benefits) > div > div {
+    flex: none;
+    padding: 0;
+    border: 0;
+  }
+}
+
 /* ---- page templates (metadata Template → body class) ---- */
 
 /* page title (pageTitle component) */
