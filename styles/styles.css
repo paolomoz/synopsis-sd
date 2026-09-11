@@ -815,8 +815,10 @@ body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> pi
   margin: 0;
 }
 
-body:is(.article, .glossary) main .section .default-content-wrapper > p:has(picture) img {
-  margin: 0; /* also when the picture is wrapped in a link */
+body:is(.article, .glossary) main .section .default-content-wrapper > p:has(picture) img,
+body:is(.article, .glossary) main .section .default-content-wrapper > picture img,
+body:is(.article, .glossary) main .section .default-content-wrapper > a > picture img {
+  margin: 0; /* the pipeline unwraps a lone picture paragraph: <picture> sits directly in the wrapper */
 }
 
 /* intro band: copy starts 24px under the band top (source .component-text mt 24) */
