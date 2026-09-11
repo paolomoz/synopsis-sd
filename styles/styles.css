@@ -1035,6 +1035,27 @@ body.form main > .section.form-container:is(.purple, .dark) .default-content-wra
   line-height: 32px;
 }
 
+body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper {
+  padding-bottom: 35px; /* source: description padding-bottom 15px + text-col padding-bottom 20px */
+}
+
+body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper p:has(+ p) {
+  margin-bottom: 36px; /* source: paragraphs separated by an authored <br> line (21px) that the pipeline drops */
+}
+
+body.form main > .section.form-container:is(.purple, .dark) .form-panel {
+  padding: 24px 46px 14px; /* source: section.snps-aem-mktoForm padding 0 46px 14px + title offset */
+  border-radius: 4px;
+}
+
+body.form main > .section.form-container:is(.purple, .dark) .form-panel .form-title {
+  margin: 0 0 34px;
+  font-size: 32px;
+  line-height: 35.2px;
+  color: var(--ink);
+  text-align: center; /* source: textcomp text-align-center "Download Now" */
+}
+
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper :is(h1, h2, h3, p, li) {
   color: #fff;
 }
