@@ -1,27 +1,53 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>ADC and DAC | Synopsys</div></div><div><div>Description</div><div>This application note illustrates resolution enhancement of analog-to-digital and digital-to-analog signal conversions in OptSim.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>ADC and DAC | Synopsys</div></div><div><div>Description</div><div>This application note illustrates resolution enhancement of analog-to-digital and digital-to-analog signal conversions in OptSim.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/other-applications">Other Applications</a></li><li><a href="/photonic-solutions/product-applications/other-applications/adc-dac-enhancing-resolution-of-conversions">ADC and DAC: Enhancing Resolution of Conversions</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>ADC and DAC: Enhancing Resolution of Conversions Between Analog and Digital Signals</h1>
-<h2>Tool Used: OptSim</h2><p>This application note illustrates resolution enhancement of analog-to-digital and digital-to-analog signal conversions in <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a>.</p><p>There are three basic signal types in OptSim: logical signal, electrical signal and optical signal. The PRBS data source, for example, outputs a logical signal that a driver model converts into an electrical signal to drive a laser or a modulator. The optical signal at the receiver is converted to an electrical signal by the photodetector. If users need to convert an electrical signal into a logical signal, they can use Analog-to-Digital Converter (ADC) model illustrated below.</p><p>Figure 1 shows the schematic layout of the project file that shows the electrical-to-logical signal conversion.</p>
+    </div>
+    <div>
+<h2>Tool Used: OptSim</h2><p>This application note illustrates resolution enhancement of analog-to-digital and digital-to-analog signal conversions in <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a>.</p><p>There are three basic signal types in OptSim: logical signal, electrical signal and optical signal. The PRBS data source, for example, outputs a logical signal that a driver model converts into an electrical signal to drive a laser or a modulator. The optical signal at the receiver is converted to an electrical signal by the photodetector. If users need to convert an electrical signal into a logical signal, they can use Analog-to-Digital Converter (ADC) model illustrated below.</p><p>Figure 1 shows the schematic layout of the project file that shows the electrical-to-logical signal conversion.</p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/optsim_adc_dac_fig1?qlt=82&amp;wid=1200&amp;ts=1596144743197&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Electrical-to-logical signal conversion | Synopsys"></p>
 <p><em>Figure 1. Simulation setup schematics for converting an electrical signal to a logical signal</em></p>
-<p>The sine signal generator provides an electrical test signal that we want to convert into digital first, and then back into electrical for verification. The clock drives the A/D converter and sets the sampling rate.</p><p>The dynamic range of the A/D converter is set equal to the amplitude of the sine wave. The number of bits used to quantize the electrical signal controls the buffer depth of the logical signals.</p><p>The number of bits is set equal to 6 that should be realistic for the current digital signal processors, which one can improve by using a scheme shown in Figure 4.</p><p>Figure 2 shows input sine wave (left) and the output signal (right) sampled at 40 samples per period and quantized with 6 bits.</p>
+    </div>
+    <div>
+<p>The sine signal generator provides an electrical test signal that we want to convert into digital first, and then back into electrical for verification. The clock drives the A/D converter and sets the sampling rate.</p><p>The dynamic range of the A/D converter is set equal to the amplitude of the sine wave. The number of bits used to quantize the electrical signal controls the buffer depth of the logical signals.</p><p>The number of bits is set equal to 6 that should be realistic for the current digital signal processors, which one can improve by using a scheme shown in Figure 4.</p><p>Figure 2 shows input sine wave (left) and the output signal (right) sampled at 40 samples per period and quantized with 6 bits.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/optsim_adc_dac_fig2?qlt=82&amp;wid=1200&amp;ts=1596144694602&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Shows input sine wave (left) and the output signal (right) sampled at 40 samples per period and quantized with 6 bits | Synopsys"></p>
 <p><em>Figure 2. Input analog signal (left) and output quantized signal (right)</em></p>
-<p>The representation of the digital values of the A/D and D/A blocks is sign and amplitude. The logical signal probe can be used to display the individual bit values as shown in Figure 3:</p>
+    </div>
+    <div>
+<p>The representation of the digital values of the A/D and D/A blocks is sign and amplitude. The logical signal probe can be used to display the individual bit values as shown in Figure 3:</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/optsim_adc_dac_fig3?qlt=82&amp;wid=1200&amp;ts=1596144717342&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Representation of the digital values of the A/D and D/A blocks is sign and amplitude | Synopsys"></p>
-<p><em>Figure 3. Sign and amplitude levels as seen at the logical signal analyzer</em></p><p>As mentioned previously, the blocks A/D and D/A are meant to be used in high-speed DSP units where a typical resolution of 6 to 8 bits is generally enough. However, if needed, one can improve it by using a scheme as shown in Figure 4.</p>
+    </div>
+    <div>
+<p><em>Figure 3. Sign and amplitude levels as seen at the logical signal analyzer</em></p><p>As mentioned previously, the blocks A/D and D/A are meant to be used in high-speed DSP units where a typical resolution of 6 to 8 bits is generally enough. However, if needed, one can improve it by using a scheme as shown in Figure 4.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/optsim_adc_dac_fig4?qlt=82&amp;wid=1200&amp;ts=1596144737089&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Simulation setup schematics for improving resolution of the ADC and DAC models | Synopsys"></p>
-<p><em>Figure 4. Simulation setup schematics for improving resolution of the ADC and DAC models</em></p><p>The method involves cascading stages of ADC and DAC and at each stage convert the quantization error of the previous stage. If the previous stage returns a digital value for the signal, the second stage returns a digital value for the error of the first stage, and so on. To keep the processing synchronous (so that the quantization error is correctly calculated), a couple of sampler and holder blocks are added that wouldn&rsquo;t otherwise be necessary.</p><p>Figure 5 shows quantization error at the output of the first stage (left) and at the second stage (right).</p>
+    </div>
+    <div>
+<p><em>Figure 4. Simulation setup schematics for improving resolution of the ADC and DAC models</em></p><p>The method involves cascading stages of ADC and DAC and at each stage convert the quantization error of the previous stage. If the previous stage returns a digital value for the signal, the second stage returns a digital value for the error of the first stage, and so on. To keep the processing synchronous (so that the quantization error is correctly calculated), a couple of sampler and holder blocks are added that wouldn&rsquo;t otherwise be necessary.</p><p>Figure 5 shows quantization error at the output of the first stage (left) and at the second stage (right).</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/optsim_adc_dac_fig5?qlt=82&amp;wid=1200&amp;ts=1596144753267&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Quantization error at the first (left) and second (right) stages | Synopsys"></p>
-<p><em>Figure 5. Quantization error at the first (left) and second (right) stages</em></p><p>The example uses 6 bits per each A/D and D/A block and an amplitude equal to 5 so the theoretical quantization errors are 5*2-6 = 0.078125 and 5*2-12 = 0.001220703125, which match well with the errors at the output of the first and second stages.</p><p>Figure 6 shows bits at the output of the first stage (left) and at the second stage (right).</p>
+    </div>
+    <div>
+<p><em>Figure 5. Quantization error at the first (left) and second (right) stages</em></p><p>The example uses 6 bits per each A/D and D/A block and an amplitude equal to 5 so the theoretical quantization errors are 5*2-6 = 0.078125 and 5*2-12 = 0.001220703125, which match well with the errors at the output of the first and second stages.</p><p>Figure 6 shows bits at the output of the first stage (left) and at the second stage (right).</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/optsim_adc_dac_fig6?qlt=82&amp;wid=1200&amp;ts=1596144711087&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Output bits at the first (left) and second (right) stages | Synopsys"></p>
-<p><em>Figure 6. Output bits at the first (left) and second (right) stages</em></p>
+    </div>
+    <div>
+<p><em>Figure 6. Output bits at the first (left) and second (right) stages</em></p><div class="section-metadata"><div><div>style</div><div>pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>

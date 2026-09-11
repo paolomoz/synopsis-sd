@@ -1,33 +1,45 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>OptSim Cladding-Pumped EDFA | Synopsys</div></div><div><div>Description</div><div>Cladding-pumped EDFAs have been identified as a solution for L-band amplification. In [1], the noise performance of these devices is studied for both co- and counter-propagating pump schemes. This example repeats some of the numerical studies from [1], illustrating the advantages of large pump claddings for the minimization of ASE noise in the amplifier, and therefore improved noise figure (NF).</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>OptSim Cladding-Pumped EDFA | Synopsys</div></div><div><div>Description</div><div>Cladding-pumped EDFAs have been identified as a solution for L-band amplification. In [1], the noise performance of these devices is studied for both co- and counter-propagating pump schemes. This example repeats some of the numerical studies from [1], illustrating the advantages of large pump claddings for the minimization of ASE noise in the amplifier, and therefore improved noise figure (NF).</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/optical-amplifiers">Optical Amplifiers</a></li><li><a href="/photonic-solutions/product-applications/optical-amplifiers/optsim-cladding-pumped-edfa">OptSim Cladding-Pumped EDFA</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>OptSim Cladding-Pumped EDFA</h1>
-<h2>Tool Used: OptSim</h2><p>Cladding-pumped EDFAs have been identified as a solution for L-band amplification. In [1], the noise performance of these devices is studied for both co- and counter-propagating pump schemes. This example repeats some of the numerical studies from [1], illustrating the advantages of large pump claddings for the minimization of ASE noise in the amplifier, and therefore improved noise figure (NF). The <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> Figure below depicts the topology used to study the noise performance of a cladding-pumped EDFA:</p>
+    </div>
+    <div>
+<h2>Tool Used: OptSim</h2><p>Cladding-pumped EDFAs have been identified as a solution for L-band amplification. In [1], the noise performance of these devices is studied for both co- and counter-propagating pump schemes. This example repeats some of the numerical studies from [1], illustrating the advantages of large pump claddings for the minimization of ASE noise in the amplifier, and therefore improved noise figure (NF). The <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> Figure below depicts the topology used to study the noise performance of a cladding-pumped EDFA:</p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-cladding-pumped-edfa-fig1-1?qlt=82&amp;wid=1200&amp;ts=1596144889009&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Noise performance of a cladding-pumped EDFA | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>In its initial configuration, this topology implements a co-propagating pump scheme. The EDFA (model block EDFAPhys) is configured for bi-directional operation in order to study the differences between forward and backward ASE (a cw signal of insignificant power is launched at the EDFA&#x27;s backward input in order to facilitate the analysis). <br> <br> The plots below depict the ASE output powers of the EDFA in the forward and backward directions, respectively. As the results clearly indicate, while the ASE power in the forward direction is very low (tens of micro W) for all cladding areas, the backward ASE output power is very high (hundreds of mW) for small claddings, but significantly lower as the area is increased.<br> </p>
+<p>In its initial configuration, this topology implements a co-propagating pump scheme. The EDFA (model block EDFAPhys) is configured for bi-directional operation in order to study the differences between forward and backward ASE (a cw signal of insignificant power is launched at the EDFA&#x27;s backward input in order to facilitate the analysis). <br> <br> The plots below depict the ASE output powers of the EDFA in the forward and backward directions, respectively. As the results clearly indicate, while the ASE power in the forward direction is very low (tens of micro W) for all cladding areas, the backward ASE output power is very high (hundreds of mW) for small claddings, but significantly lower as the area is increased.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-cladding-pumped-edfa-fig2?qlt=82&amp;wid=1200&amp;ts=1596144879491&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="ASE output powers | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>Next, we will simulate the amplifier using a counter-propagating pump scheme:<br> </p>
+<p>Next, we will simulate the amplifier using a counter-propagating pump scheme:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-cladding-pumped-edfa-fig3?qlt=82&amp;wid=1200&amp;ts=1596144879349&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Counter-propagating pump scheme | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The plots for the forward and backward ASE outputs are shown below. Essentially, the results are the reverse of those presented in earlier plots, with the forward ASE now benefiting from large cladding areas. However, the same essential reasoning behind this behavior holds, with large cladding areas leading to more uniform pump distributions.<br> </p>
+<p>The plots for the forward and backward ASE outputs are shown below. Essentially, the results are the reverse of those presented in earlier plots, with the forward ASE now benefiting from large cladding areas. However, the same essential reasoning behind this behavior holds, with large cladding areas leading to more uniform pump distributions.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-cladding-pumped-edfa-fig4?qlt=82&amp;wid=1200&amp;ts=1596144888416&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Forward and backward ASE outputs | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>To further demonstrate the benefits of large cladding areas, we plot of NF versus cladding area. As can be seen (see figure below), while the NF values are by no means low, they are significantly reduced for large cladding areas.<br> </p>
+<p>To further demonstrate the benefits of large cladding areas, we plot of NF versus cladding area. As can be seen (see figure below), while the NF values are by no means low, they are significantly reduced for large cladding areas.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-cladding-pumped-edfa-fig5?qlt=82&amp;wid=1200&amp;ts=1596144874627&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Plot of NF versus cladding area | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>References [1] M. S&ouml;derlund, S. Tammela, P. P&ouml;yh&ouml;nen, M. Leppihalme, and N. Peyghambarian, &quot;Amplified spontaneous emission in cladding-pumped L-band erbium-doped fiber amplifiers,&quot; IEEE Photonics Technology Letters, vol. 13, no. 1, pp. 22-24, January 2001.</p>
+<p>References [1] M. S&ouml;derlund, S. Tammela, P. P&ouml;yh&ouml;nen, M. Leppihalme, and N. Peyghambarian, &quot;Amplified spontaneous emission in cladding-pumped L-band erbium-doped fiber amplifiers,&quot; IEEE Photonics Technology Letters, vol. 13, no. 1, pp. 22-24, January 2001.</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>

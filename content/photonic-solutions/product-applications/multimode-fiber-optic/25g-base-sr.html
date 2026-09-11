@@ -1,34 +1,42 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>25GBASE-SR: Migration Path for 100m MMF Data Links from 10G/40G to 25G/100G over NRZ</div></div><div><div>Description</div><div>In this application note, we study a 25GBASE-SR link over a high-bandwidth OM4 WideCap multimode fiber from Prysmian Group [3]. The topology of the design is shown in Figure. 1.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>25GBASE-SR: Migration Path for 100m MMF Data Links from 10G/40G to 25G/100G over NRZ</div></div><div><div>Description</div><div>In this application note, we study a 25GBASE-SR link over a high-bandwidth OM4 WideCap multimode fiber from Prysmian Group [3]. The topology of the design is shown in Figure. 1.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/multimode-fiber-optic">Multimode Fiber Optic Systems</a></li><li><a href="/photonic-solutions/product-applications/multimode-fiber-optic/25g-base-sr">25GBASE-SR: Migration Path for 100m MMF Data Links from 10G/40G to 25G/100G over NRZ</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>25GBASE-SR: Migration Path for 100m MMF Data Links from 10G/40G to 25G/100G over NRZ</h1>
-<h2>Tools Used: OptSim</h2><p>25GBASE-SR is an IEEE Ethernet standard that provides an upgrade path from 10G/40G to 25G/100G migration in response to rapidly increasing bandwidth demand while still using cost-effective multimode fiber-based, NRZ transmission. The core idea is to use a single-lane with 25G NRZ direct modulation over OM-3 and OM-4 multimode fibers that can be scaled up with number of lanes when needed. The bandwidth-distance product can be further improved by use of Reed-Solomon Forward-Error Correction (RS FEC) coding technique. Typical use-case is 70m to 100m links in enterprise data centers and cloud environments [1-2].</p><p>In this application note, we study a 25GBASE-SR link over a high-bandwidth OM4 WideCap multimode fiber from Prysmian Group [3]. The topology of the design is shown in Figure. 1.</p>
+    </div>
+    <div>
+<h2>Tools Used: OptSim</h2><p>25GBASE-SR is an IEEE Ethernet standard that provides an upgrade path from 10G/40G to 25G/100G migration in response to rapidly increasing bandwidth demand while still using cost-effective multimode fiber-based, NRZ transmission. The core idea is to use a single-lane with 25G NRZ direct modulation over OM-3 and OM-4 multimode fibers that can be scaled up with number of lanes when needed. The bandwidth-distance product can be further improved by use of Reed-Solomon Forward-Error Correction (RS FEC) coding technique. Typical use-case is 70m to 100m links in enterprise data centers and cloud environments [1-2].</p><p>In this application note, we study a 25GBASE-SR link over a high-bandwidth OM4 WideCap multimode fiber from Prysmian Group [3]. The topology of the design is shown in Figure. 1.</p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/25g-base-schematic?qlt=82&amp;wid=1200&amp;ts=1599859040360&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
     </div>
     <div>
 <p><em>Figure 1. Schematic of the 25GBASE-SR transmission over 100m of OM4 multimode fiber</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p>The design can be broken into three stages: (i) transmitter setup using Finisar VCSEL (ii) setting up an OM4 fiber as per [3] and estimating its effective modal bandwidth (EMB) and (iii) calibrating receiver sensitivity</p><p>A high-speed, 855-nm VCSEL with 0.34nm linewidth is directly modulated by a 25.8Gbps NRZ data stream. Figure 2 shows transmitted signal and spectrum.</p>
+<p>The design can be broken into three stages: (i) transmitter setup using Finisar VCSEL (ii) setting up an OM4 fiber as per [3] and estimating its effective modal bandwidth (EMB) and (iii) calibrating receiver sensitivity</p><p>A high-speed, 855-nm VCSEL with 0.34nm linewidth is directly modulated by a 25.8Gbps NRZ data stream. Figure 2 shows transmitted signal and spectrum.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/25g-base-signal?qlt=82&amp;wid=1200&amp;ts=1666314866765&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="25G Base Signal | Synopsys"></p></div><div><p><img src="https://images.synopsys.com/is/image/synopsys/25g-base-spectrum?qlt=82&amp;wid=1200&amp;ts=1599859085038&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p></div></div></div>
     </div>
     <div>
 <p><em>Figure 2. Transmitter outputs: NRZ-modulated signal (left) and spectrum (right)</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p>The power normalizer model at the laser output helps set power launched into the multimode fiber. A parameter scan is setup to vary this power. Modal and chromatic dispersion are taken into account while mode coupling is ignored. To run the design file, click on the &ldquo;Scan&rdquo; button. The parameter scan is carried out for 100m and BER vs. received power values are plotted.</p><p>Figure 3 plots BER vs. launched power. The inset eye diagrams shows eyes corresponding to the worst (red) and best (blue) cases. </p>
+<p>The power normalizer model at the laser output helps set power launched into the multimode fiber. A parameter scan is setup to vary this power. Modal and chromatic dispersion are taken into account while mode coupling is ignored. To run the design file, click on the &ldquo;Scan&rdquo; button. The parameter scan is carried out for 100m and BER vs. received power values are plotted.</p><p>Figure 3 plots BER vs. launched power. The inset eye diagrams shows eyes corresponding to the worst (red) and best (blue) cases. </p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://images.synopsys.com/is/image/synopsys/25g-base-ber?qlt=82&amp;wid=1200&amp;ts=1599859135235&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt=""></p>
     </div>
     <div>
 <p><em>Figure 3. Performance at 200m (left) and 300m (right) transmission</em></p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p>The plot of Fig. 3 suggests, as is intuitive, that increasing launched power results in improved performance. No electronic dispersion compensation (EDC) or forward error correction (FEC) is necessary to support 100m over OM4 in order to achieve high performance. Learn more about <a href="/photonic-solutions/optsim/multi-mode-network">ModeSYS</a>.</p><h4>References</h4><p>1. https://www.marvell.com/content/dam/marvell/en/public-collateral/ethernet-adaptersandcontrollers/marvell-ethernet-adapters-fastlinq-25gb-ethernet-white-paper-2017-10.pdf</p><p>2. <a href="https://www.arista.com/assets/data/pdf/Whitepapers/25GEthernet_Whitepaper.pdf">https://www.arista.com/assets/data/pdf/Whitepapers/25GEthernet_Whitepaper.pdf</a></p><p>3. <a href="http://www.focabex.com/library-n/WideCap-OM4_2014-09.pdf">http://www.focabex.com/library-n/WideCap-OM4_2014-09.pdf</a></p>
+<p>The plot of Fig. 3 suggests, as is intuitive, that increasing launched power results in improved performance. No electronic dispersion compensation (EDC) or forward error correction (FEC) is necessary to support 100m over OM4 in order to achieve high performance. Learn more about <a href="/photonic-solutions/optsim/multi-mode-network">ModeSYS</a>.</p><h4>References</h4><p>1. https://www.marvell.com/content/dam/marvell/en/public-collateral/ethernet-adaptersandcontrollers/marvell-ethernet-adapters-fastlinq-25gb-ethernet-white-paper-2017-10.pdf</p><p>2. <a href="https://www.arista.com/assets/data/pdf/Whitepapers/25GEthernet_Whitepaper.pdf">https://www.arista.com/assets/data/pdf/Whitepapers/25GEthernet_Whitepaper.pdf</a></p><p>3. <a href="http://www.focabex.com/library-n/WideCap-OM4_2014-09.pdf">http://www.focabex.com/library-n/WideCap-OM4_2014-09.pdf</a></p><div class="section-metadata"><div><div>style</div><div>pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>

@@ -1,33 +1,47 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>DWDM Ring with OADM (Optical Add-Drop Multiplexer) Nodes | Synopsys</div></div><div><div>Description</div><div>This example demonstrates an OptSim design for DWDM ring with Optical Add-Drop Multiplexers (OADM).</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>DWDM Ring with OADM (Optical Add-Drop Multiplexer) Nodes | Synopsys</div></div><div><div>Description</div><div>This example demonstrates an OptSim design for DWDM ring with Optical Add-Drop Multiplexers (OADM).</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/optical-networks">Optical Networks</a></li><li><a href="/photonic-solutions/product-applications/optical-networks/optsim-dwdm-ring">DWDM Ring</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>DWDM Ring with OADM (Optical Add-Drop Multiplexer) Nodes</h1>
-<h2>Tool Used: OptSim</h2><p>This example demonstrates an <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> design for DWDM ring with Optical Add-Drop Multiplexers (OADM). The configuration of DWDM ring is in the figure below:<br> </p>
+    </div>
+    <div>
+<h2>Tool Used: OptSim</h2><p>This example demonstrates an <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> design for DWDM ring with Optical Add-Drop Multiplexers (OADM). The configuration of DWDM ring is in the figure below:<br> </p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-dwdm-ring-fig1-1?qlt=82&amp;wid=1200&amp;ts=1596144879196&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Configuration of DWDM ring | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The DWDM ring consists of six nodes and six fiber spans. Total number of wavelengths used is eight, with 3 head-end nodes adding/dropping five channels at the time and 3 serial OADM nodes adding/dropping two channels. <br> <br> Figure below demonstrates an equivalent design of the OC-192 ring configuration in OptSim:<br> </p>
+<p>The DWDM ring consists of six nodes and six fiber spans. Total number of wavelengths used is eight, with 3 head-end nodes adding/dropping five channels at the time and 3 serial OADM nodes adding/dropping two channels. <br> <br> Figure below demonstrates an equivalent design of the OC-192 ring configuration in OptSim:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-dwdm-ring-fig2?qlt=82&amp;wid=1200&amp;ts=1596144881684&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Configuration of DWDM ring | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>Figure below shows more details of OADM node on the example of serial OADM with 2 wavelengths adding/dropping:<br> </p>
+<p>Figure below shows more details of OADM node on the example of serial OADM with 2 wavelengths adding/dropping:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-dwdm-ring-fig3?qlt=82&amp;wid=1200&amp;ts=1596144889496&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Serial OADM Nodes | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The OADM compound component (CC) block (see figure below) consists of one 1x8 Demultiplexer, 8x1 Multiplexer, and 8 optical switches. The input from transport interface (Input1) is demultiplexed into 8 wavelengths and each of them goes to a switch with corresponding input from client interface (Input2-Input9). The switch can be in either bar or cross state (is set by the switching array value). One output from the switch goes back to clients interface out ports (Output2-Output9) and the other output is being multiplexed with 7 other outputs and then sent to transport interface output (Output1).<br> </p>
+<p>The OADM compound component (CC) block (see figure below) consists of one 1x8 Demultiplexer, 8x1 Multiplexer, and 8 optical switches. The input from transport interface (Input1) is demultiplexed into 8 wavelengths and each of them goes to a switch with corresponding input from client interface (Input2-Input9). The switch can be in either bar or cross state (is set by the switching array value). One output from the switch goes back to clients interface out ports (Output2-Output9) and the other output is being multiplexed with 7 other outputs and then sent to transport interface output (Output1).<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-dwdm-ring-fig4?qlt=82&amp;wid=1200&amp;ts=1596144878497&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="OADM compound component (CC) block | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>Figure below shows optical spectrum after two of nodes: (a) Node 1, and (b) Node 6.<br> </p>
+<p>Figure below shows optical spectrum after two of nodes: (a) Node 1, and (b) Node 6.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-dwdm-ring-fig5?qlt=82&amp;wid=1200&amp;ts=1596144884987&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Optical spectrum after two of node | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The figure 6 shows a few examples of eye diagrams for dropped channels at (a) Node 1, wavelength 3 and (b) Node 6, wavelength 8.<br> </p>
+<p>The figure 6 shows a few examples of eye diagrams for dropped channels at (a) Node 1, wavelength 3 and (b) Node 6, wavelength 8.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-dwdm-ring-fig6?qlt=82&amp;wid=1200&amp;ts=1596144886369&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Eye diagrams for dropped channels | Synopsys"></p></div><div></div></div></div>
     </div>
   </main>

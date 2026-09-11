@@ -1,29 +1,41 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>Dispersion-Managed Soliton | Synopsys</div></div><div><div>Description</div><div>The purpose of this example is to demonstrate the dispersion-managed soliton regime in a fiber link with loss and periodical amplification.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>Dispersion-Managed Soliton | Synopsys</div></div><div><div>Description</div><div>The purpose of this example is to demonstrate the dispersion-managed soliton regime in a fiber link with loss and periodical amplification.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/transmission-impairments-fiber">Transmission Impairments in Fiber</a></li><li><a href="/photonic-solutions/product-applications/transmission-impairments-fiber/dispersion-managed-soliton">Dispersion-Managed Soliton</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>Dispersion-Managed Soliton</h1>
-<h2>Tool Used: OptSim</h2><p>The purpose of this example is to demonstrate the dispersion-managed soliton regime in a fiber link with loss and periodical amplification. Ideal lossless and loss-managed solitons require GVD parameter beta2 to stay constant along the fiber length. Modern WDM lightwave systems employ dispersion management to compensate for cumulative dispersion and to suppress FWM penalties. It was demonstrated that solitons can form even when beta2 varies along the fiber length but their properties are quite different. This kind of solitons is called dispersion-managed solitons.</p><p>The figure below demonstrates the <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> layout used to study dispersion-managed soliton regime in a long-haul fiber link. It represents the circulating loop setup, where each loop is consist of six regular fiber spans, one dispersion-compensating fiber (DCF) span, optical filter and seven optical amplifiers - EDFAs, with total loop length about 180 km. Pulse will travel total 100 loops or 18,000km.</p>
+    </div>
+    <div>
+<h2>Tool Used: OptSim</h2><p>The purpose of this example is to demonstrate the dispersion-managed soliton regime in a fiber link with loss and periodical amplification. Ideal lossless and loss-managed solitons require GVD parameter beta2 to stay constant along the fiber length. Modern WDM lightwave systems employ dispersion management to compensate for cumulative dispersion and to suppress FWM penalties. It was demonstrated that solitons can form even when beta2 varies along the fiber length but their properties are quite different. This kind of solitons is called dispersion-managed solitons.</p><p>The figure below demonstrates the <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> layout used to study dispersion-managed soliton regime in a long-haul fiber link. It represents the circulating loop setup, where each loop is consist of six regular fiber spans, one dispersion-compensating fiber (DCF) span, optical filter and seven optical amplifiers - EDFAs, with total loop length about 180 km. Pulse will travel total 100 loops or 18,000km.</p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dispersion-managed-soliton-fig1?qlt=82&amp;wid=1200&amp;ts=1596144881771&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Dispersion-managed soliton | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The following plot shows the dispersion map of a link - dispersion accumulation along the fiber length. In each loop, the dispersion compensated back to zero, but since DCF is inserted non-symmetrically, after second out of six fiber spans, the average dispersion is small but non-zero, equal to &ndash;6 ps/nm. Non-zero local dispersion helps to reduce FWM penalties. <br> </p>
+<p>The following plot shows the dispersion map of a link - dispersion accumulation along the fiber length. In each loop, the dispersion compensated back to zero, but since DCF is inserted non-symmetrically, after second out of six fiber spans, the average dispersion is small but non-zero, equal to &ndash;6 ps/nm. Non-zero local dispersion helps to reduce FWM penalties. <br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dispersion-managed-soliton-fig2?qlt=82&amp;wid=1200&amp;ts=1596144879547&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Dispersion map | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The following figure shows the pulse width evolution &ndash; it starts at 7 ps, then oscillating with amplitude going up to 32 ps, and after about 10,000 km converges to steady-state with pulse width changing periodically between 6 and 13 ps within each loop. <br> </p>
+<p>The following figure shows the pulse width evolution &ndash; it starts at 7 ps, then oscillating with amplitude going up to 32 ps, and after about 10,000 km converges to steady-state with pulse width changing periodically between 6 and 13 ps within each loop. <br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dispersion-managed-soliton-fig3?qlt=82&amp;wid=1200&amp;ts=1596144878288&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Pulse width evolution | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The figure below shows overlaid dispersion map plot with pulse width plot &ndash; one can see that pulse is narrowing in anomalous dispersion fiber and broadening at DCF. When the pulse spectrum is broadening due to the high-order soliton effect and third-order dispersion near the zero dispersion wavelength, the spectrum begin to be shaped by optical filter installed at the end of the loop - it removes the unwanted spectral peak that gets created on the left hand side of the spectrum. <br> </p>
+<p>The figure below shows overlaid dispersion map plot with pulse width plot &ndash; one can see that pulse is narrowing in anomalous dispersion fiber and broadening at DCF. When the pulse spectrum is broadening due to the high-order soliton effect and third-order dispersion near the zero dispersion wavelength, the spectrum begin to be shaped by optical filter installed at the end of the loop - it removes the unwanted spectral peak that gets created on the left hand side of the spectrum. <br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dispersion-managed-soliton-fig4?qlt=82&amp;wid=1200&amp;ts=1596144884986&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Overlaid dispersion map plot with pulse width plot | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The waterfall plot for waveform and spectrum as a function of transmission distance is shown below:<br> </p>
+<p>The waterfall plot for waveform and spectrum as a function of transmission distance is shown below:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/dispersion-managed-soliton-fig5?qlt=82&amp;wid=1200&amp;ts=1596144887543&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Waterfall plot for waveform and spectrum | Synopsys"></p></div><div></div></div></div>
     </div>
   </main>

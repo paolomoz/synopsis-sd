@@ -1,57 +1,81 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>3D Plot of Evolution of Optical Pulse in the Fiber | Synopsys</div></div><div><div>Description</div><div>The 3D slice plot is similar to &quot;interval shooting&quot; in photography. Both help you get the overall picture in terms of time-lapsed image captures. In this tip, we consider a case of soliton transmission in a lossless fiber. The dispersion and nonlinearities in the fiber affect the shape of the soliton pulse as it propagates through the fiber. It is common in such cases to plot the soliton pulse evolution in the fiber, along one soliton period.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>3D Plot of Evolution of Optical Pulse in the Fiber | Synopsys</div></div><div><div>Description</div><div>The 3D slice plot is similar to &quot;interval shooting&quot; in photography. Both help you get the overall picture in terms of time-lapsed image captures. In this tip, we consider a case of soliton transmission in a lossless fiber. The dispersion and nonlinearities in the fiber affect the shape of the soliton pulse as it propagates through the fiber. It is common in such cases to plot the soliton pulse evolution in the fiber, along one soliton period.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/performance-estimation">Performance Estimation</a></li><li><a href="/photonic-solutions/product-applications/performance-estimation/3d-plot-optical-pulse">3D Plot of Evolution of Optical Pulse in the Fiber</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>3D Plot of Evolution of Optical Pulse in the Fiber</h1>
-<p>The 3D slice plot is similar to &quot;interval shooting&quot; in photography. Both help you get the overall picture in terms of time-lapsed image captures. In this tip, we consider a case of soliton transmission in a lossless fiber. The dispersion and nonlinearities in the fiber affect the shape of the soliton pulse as it propagates through the fiber. It is common in such cases to plot the soliton pulse evolution in the fiber, along one soliton period.</p><p>Let&rsquo;s consider the following <a href="/photonic-solutions/optsim/single-mode-network">OptSim&trade;</a> layout:</p>
+    </div>
+    <div>
+<p>The 3D slice plot is similar to &quot;interval shooting&quot; in photography. Both help you get the overall picture in terms of time-lapsed image captures. In this tip, we consider a case of soliton transmission in a lossless fiber. The dispersion and nonlinearities in the fiber affect the shape of the soliton pulse as it propagates through the fiber. It is common in such cases to plot the soliton pulse evolution in the fiber, along one soliton period.</p><p>Let&rsquo;s consider the following <a href="/photonic-solutions/optsim/single-mode-network">OptSim&trade;</a> layout:</p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://www.synopsys.com/photonic-solutions/product-applications/performance-estimation/3d-plot-optical-pulse/_jcr_content/root/synopsyscontainer/column/colLeft/column_copy_18729742/colLeft/image.coreimg.82.1200.gif/1596145110233/2015may-image01.gif" alt="RSoft&trade; OptSim&trade; layout | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The layout consists of a pulse generator (mode-locked laser), single-mode lossless fiber, and waveform and spectrum analyzers. The fiber is lossless to demonstrate ideal soliton propagation, the length of the fiber is set to one soliton period, and the dispersion- and nonlinearity-related parameters are set as described in the application note documentation, which you can access in the <strong>Help</strong> &gt; <strong>Application Notes</strong> menu in the OptSim GUI.</p><p>A parametric scan is set up to sweep over the fiber length from zero to the soliton period, in steps of 10% of the soliton period.</p>
+<p>The layout consists of a pulse generator (mode-locked laser), single-mode lossless fiber, and waveform and spectrum analyzers. The fiber is lossless to demonstrate ideal soliton propagation, the length of the fiber is set to one soliton period, and the dispersion- and nonlinearity-related parameters are set as described in the application note documentation, which you can access in the <strong>Help</strong> &gt; <strong>Application Notes</strong> menu in the OptSim GUI.</p><p>A parametric scan is set up to sweep over the fiber length from zero to the soliton period, in steps of 10% of the soliton period.</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image02?qlt=82&amp;wid=1200&amp;ts=1596145117079&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Parametric scan dialog | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>When the simulation is done, double-clicking on the &quot;<strong><em>fiber_out1</em></strong>&quot; signal analyzer displays a list of ten plots, each corresponding to one of the scan steps:</p>
+<p>When the simulation is done, double-clicking on the &quot;<strong><em>fiber_out1</em></strong>&quot; signal analyzer displays a list of ten plots, each corresponding to one of the scan steps:</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://www.synopsys.com/photonic-solutions/product-applications/performance-estimation/3d-plot-optical-pulse/_jcr_content/root/synopsyscontainer/column/colLeft/column_copy_57570025/colLeft/image.coreimg.82.1200.gif/1596145089012/2015may-image03.gif" alt="Select a plot | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>Let&rsquo;s open the first plot (you can open any) from the above list:</p>
+<p>Let&rsquo;s open the first plot (you can open any) from the above list:</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://www.synopsys.com/photonic-solutions/product-applications/performance-estimation/3d-plot-optical-pulse/_jcr_content/root/synopsyscontainer/column/colLeft/column_copy_15922937/colLeft/image.coreimg.82.1200.gif/1596145074745/2015may-image04.gif" alt="View Editor | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>Click the <strong>View Editor</strong> button in the plot window to display the WinPLOT window.</p>
+<p>Click the <strong>View Editor</strong> button in the plot window to display the WinPLOT window.</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image05?qlt=82&amp;wid=1200&amp;ts=1596145084306&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Combine files | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>There is only one plot file, named &quot;<strong>lstmpfiber_out1step1_mag.sig,&quot;</strong> and we need to combine all the remaining nine files so that we can have a single graph showing all ten individual plots.</p>
+<p>There is only one plot file, named &quot;<strong>lstmpfiber_out1step1_mag.sig,&quot;</strong> and we need to combine all the remaining nine files so that we can have a single graph showing all ten individual plots.</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image06?qlt=82&amp;wid=1200&amp;ts=1596145085018&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="View plot | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>In the WinPLOT window, click the <strong>View</strong> <strong>Plot</strong> button to return to the plot window.</p>
+<p>In the WinPLOT window, click the <strong>View</strong> <strong>Plot</strong> button to return to the plot window.</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image07?qlt=82&amp;wid=1200&amp;ts=1596145080641&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Plot window | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>However, this is not yet a 3D plot. To generate a 3D plot in the plot window, choose the <strong>Options 3D &gt; Data Display &gt; 3D Slices</strong> menu.<br> </p>
+<p>However, this is not yet a 3D plot. To generate a 3D plot in the plot window, choose the <strong>Options 3D &gt; Data Display &gt; 3D Slices</strong> menu.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image08?qlt=82&amp;wid=1200&amp;ts=1596145112249&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Generate a 3D plot in the plot window | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The plot now looks like the following figure:<br> </p>
+<p>The plot now looks like the following figure:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image09?qlt=82&amp;wid=1200&amp;ts=1596145087904&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="3D plot | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>This is still not the plot we want, because (a) there&rsquo;s no Z-axis title, (b) the Y-axis label needs modification, and (c) we would like to set the X-axis scale to nanoseconds. These changes require opening the WinPLOT editor by clicking the <strong>View Editor</strong> button and making command line changes.</p><p>The command line changes require some experience with WinPLOT, the plotting tool used by the blockmode engine of OptSim, OptSim Circuit and ModeSYS&trade;. Chapter 2 of the WinPLOT manual provides an overview of the commands, and Chapter 3 describes them in detail.</p><p>For our purposes, we need to use the following commands:</p><p><strong>/zl&quot;Z/Z_0&quot;</strong> adds the Z-axis title. The underscore in Z_0 will make &quot;0&quot; appear as a subscript to Z, as in Z0.</p><p><strong>/yl&quot;Magnitude (au)&quot; </strong>modifies the Y-axis title.</p><p><strong>/sx1e9 </strong>scales the X-axis so that the time scale is in nanoseconds.</p><p><strong>/xl&quot;Time (ns)&quot; </strong>applies a new label to the X-axis.</p><p>With these changes, the WinPLOT window looks like the following figure:</p>
+<p>This is still not the plot we want, because (a) there&rsquo;s no Z-axis title, (b) the Y-axis label needs modification, and (c) we would like to set the X-axis scale to nanoseconds. These changes require opening the WinPLOT editor by clicking the <strong>View Editor</strong> button and making command line changes.</p><p>The command line changes require some experience with WinPLOT, the plotting tool used by the blockmode engine of OptSim, OptSim Circuit and ModeSYS&trade;. Chapter 2 of the WinPLOT manual provides an overview of the commands, and Chapter 3 describes them in detail.</p><p>For our purposes, we need to use the following commands:</p><p><strong>/zl&quot;Z/Z_0&quot;</strong> adds the Z-axis title. The underscore in Z_0 will make &quot;0&quot; appear as a subscript to Z, as in Z0.</p><p><strong>/yl&quot;Magnitude (au)&quot; </strong>modifies the Y-axis title.</p><p><strong>/sx1e9 </strong>scales the X-axis so that the time scale is in nanoseconds.</p><p><strong>/xl&quot;Time (ns)&quot; </strong>applies a new label to the X-axis.</p><p>With these changes, the WinPLOT window looks like the following figure:</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image10?qlt=82&amp;wid=1200&amp;ts=1596145092445&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="View Plot | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>In order to view the final plot, click <strong>View</strong> <strong>Plot</strong>, and resize the plot window if necessary using the mouse. The final plot showing evolution of soliton pulse in the fiber looks like the following figure:<br> </p>
+<p>In order to view the final plot, click <strong>View</strong> <strong>Plot</strong>, and resize the plot window if necessary using the mouse. The final plot showing evolution of soliton pulse in the fiber looks like the following figure:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/2015May_image11?qlt=82&amp;wid=1200&amp;ts=1596145082120&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Final plot | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>For any questions about OptSim, or for more information, please email us at <a href="/cdn-cgi/l/email-protection#99e9f1f6edf6f7f0faeac6eaece9e9f6ebedd9eae0f7f6e9eae0eab7faf6f4">[email protected]</a>.<br> </p>
+<p>For any questions about OptSim, or for more information, please email us at <a href="/cdn-cgi/l/email-protection#99e9f1f6edf6f7f0faeac6eaece9e9f6ebedd9eae0f7f6e9eae0eab7faf6f4">[email protected]</a>.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>

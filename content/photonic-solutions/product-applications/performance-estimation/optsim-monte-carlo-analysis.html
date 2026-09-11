@@ -1,48 +1,66 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>Monte Carlo Analysis: Uncertainties in Q and BER | Synopsys</div></div><div><div>Description</div><div>This example discusses confidence intervals for Q and BER estimation due to Monte Carlo analysis.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>Monte Carlo Analysis: Uncertainties in Q and BER | Synopsys</div></div><div><div>Description</div><div>This example discusses confidence intervals for Q and BER estimation due to Monte Carlo analysis.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/performance-estimation">Performance Estimation</a></li><li><a href="/photonic-solutions/product-applications/performance-estimation/optsim-monte-carlo-analysis">Monte Carlo Analysis</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>Monte Carlo Analysis: Uncertainties in Q and BER</h1>
-<h2>Tool Used: OptSim</h2><p>This example discusses confidence intervals for Q and BER estimation due to Monte Carlo analysis. <br> <br> The figure below depicts the <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> layout for this example:<br> </p>
+    </div>
+    <div>
+<h2>Tool Used: OptSim</h2><p>This example discusses confidence intervals for Q and BER estimation due to Monte Carlo analysis. <br> <br> The figure below depicts the <a href="/photonic-solutions/optsim/single-mode-network">OptSim</a> layout for this example:<br> </p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig1?qlt=82&amp;wid=1200&amp;ts=1596144876815&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Monte Carlo Analysis | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>When 32 bits are simulated and the Q is estimated, the plot of Q vs. Received Power is not even monotonic:<br> </p>
+<p>When 32 bits are simulated and the Q is estimated, the plot of Q vs. Received Power is not even monotonic:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig2?qlt=82&amp;wid=1200&amp;ts=1596144878318&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Plot of Q vs. Received Power | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>When 512 bits are simulated, the Q-estimation plor vs the received power is smoother and monotonic:<br> </p>
+<p>When 512 bits are simulated, the Q-estimation plor vs the received power is smoother and monotonic:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig3?qlt=82&amp;wid=1200&amp;ts=1596144884513&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Q-estimation plor vs the received power | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>This behavior is due to statistical fluctuations of the estimate:<br> </p>
+<p>This behavior is due to statistical fluctuations of the estimate:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig4?qlt=82&amp;wid=1200&amp;ts=1596144884890&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Fluctuations of the estimate | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The table in above diagram shows that as the number of simulated bits increases, the uncertainty in Q-estimation decreases. For a nominal value of Q = 6 (15.56 dB), the figure below shows &quot;confidence interval&quot; as a function of the number of simulated bits:<br> </p>
+<p>The table in above diagram shows that as the number of simulated bits increases, the uncertainty in Q-estimation decreases. For a nominal value of Q = 6 (15.56 dB), the figure below shows &quot;confidence interval&quot; as a function of the number of simulated bits:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig5?qlt=82&amp;wid=1200&amp;ts=1596144881764&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="confidence interval | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The corresponding nominal BER is 1.0E-09 and its fluctuations are shown in the following figure:<br> </p>
+<p>The corresponding nominal BER is 1.0E-09 and its fluctuations are shown in the following figure:<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig6?qlt=82&amp;wid=1200&amp;ts=1596144877779&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Fluctuations | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>We run several simulations by changing the global random generator seed and the attenuation at the receiver. The following two graphs shows the measured Q-factor and BER vs. the received power. Each plot refers to different seeds.<br> </p>
+<p>We run several simulations by changing the global random generator seed and the attenuation at the receiver. The following two graphs shows the measured Q-factor and BER vs. the received power. Each plot refers to different seeds.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig7?qlt=82&amp;wid=1200&amp;ts=1596144876287&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Q-factor and BER vs. the received power | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig8?qlt=82&amp;wid=1200&amp;ts=1596144883942&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Q-factor and BER vs. the received power | Synopsys"></p></div><div></div></div></div>
+<div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig8?qlt=82&amp;wid=1200&amp;ts=1596144883942&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Q-factor and BER vs. the received power | Synopsys"></p></div><div></div></div></div><div class="section-metadata"><div><div>style</div><div>pt-sm</div></div></div>
     </div>
     <div>
-<p>We saw that:</p><ol><li>the Q-factor and BER have an intrinsic uncertainty that decrease while increasing the number of the simulated bits;</li><li>at least some hundreds of bit should be simulated in order to have sufficiently accurate measurement.</li></ol><p>The user should always be aware of these results. Let&#x27;s suppose that one wants to measure the BER as a function of some given system parameters as, for example, the receiver attenuation. Two situations are possible:<br> <br> </p><ol><li>the simulation tools force the pseudorandom noise sources to be the same for all simulation runs on the different values of the variable parameters;</li><li>the simulation tools generate independent pseudorandom noise sources for the different runs.</li></ol><p>The resulting uncertainty range is exactly the SAME for both the strategies. The second strategy is the one that OptSim follows in the most of the cases while simulating multiple runs since it avoids to create unwanted correlation between different realization of the pseudorandom sequences. The user should anyway be aware that, for each value of the free parameters in the multiple runs, different noise sequences are generated, and thus the resulting Q or BER can have different positions inside their uncertainty range. The resulting plots, in the same situation of the last graph, but with only one common random generator seed will typically look as the solid line in the graph of the following figure:</p>
+<p>We saw that:</p><ol><li>the Q-factor and BER have an intrinsic uncertainty that decrease while increasing the number of the simulated bits;</li><li>at least some hundreds of bit should be simulated in order to have sufficiently accurate measurement.</li></ol><p>The user should always be aware of these results. Let&#x27;s suppose that one wants to measure the BER as a function of some given system parameters as, for example, the receiver attenuation. Two situations are possible:<br> <br> </p><ol><li>the simulation tools force the pseudorandom noise sources to be the same for all simulation runs on the different values of the variable parameters;</li><li>the simulation tools generate independent pseudorandom noise sources for the different runs.</li></ol><p>The resulting uncertainty range is exactly the SAME for both the strategies. The second strategy is the one that OptSim follows in the most of the cases while simulating multiple runs since it avoids to create unwanted correlation between different realization of the pseudorandom sequences. The user should anyway be aware that, for each value of the free parameters in the multiple runs, different noise sequences are generated, and thus the resulting Q or BER can have different positions inside their uncertainty range. The resulting plots, in the same situation of the last graph, but with only one common random generator seed will typically look as the solid line in the graph of the following figure:</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <div class="columns features"><div><div><p><img src="https://images.synopsys.com/is/image/synopsys/optsim-monte-carlo-analysis-fig9?qlt=82&amp;wid=1200&amp;ts=1596144886622&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Results Graph | Synopsys"></p></div><div></div></div></div>
     </div>
     <div>
-<p>The solid line above shows a typical result obtained when the pseudorandom sources are independent from one run to the next in a multiple run simulation.<br> </p>
+<p>The solid line above shows a typical result obtained when the pseudorandom sources are independent from one run to the next in a multiple run simulation.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>

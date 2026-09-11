@@ -1,35 +1,45 @@
 <body>
   <header></header>
   <main>
-    <div><div class="metadata"><div><div>Title</div><div>Multipath Interference (MPI) | Synopsys</div></div><div><div>Description</div><div>This application shows how to take advantage of OptSim Circuit&#x27;s bi-directional propagation capabilities to model MPI.</div></div><div><div>Template</div><div>program</div></div></div></div>
+    <div><div class="metadata"><div><div>Title</div><div>Multipath Interference (MPI) | Synopsys</div></div><div><div>Description</div><div>This application shows how to take advantage of OptSim Circuit&#x27;s bi-directional propagation capabilities to model MPI.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>program</div></div></div></div>
     <div>
 <div class="breadcrumbs"><div><div><ul><li><a href="/">Home</a></li><li><a href="/photonic-solutions">Silicon Photonics</a></li><li><a href="/photonic-solutions/product-applications">Photonics Applications</a></li><li><a href="/photonic-solutions/product-applications/photonic-integrated-circuits">Photonic Integrated Circuits (PICs)</a></li><li><a href="/photonic-solutions/product-applications/photonic-integrated-circuits/optsim-circuit-multipath-interference">Multipath Interference (MPI)</a></li></ul></div></div></div>
     </div>
     <div>
 <h1>Multipath Interference (MPI)</h1>
-<h2>Tools Used: OptSim Circuit and OptSim</h2><p>Multipath interference (MPI) plays a major role in optical communication links, especially in FTTx PON architecture where splitter-based distribution causes reflections from each splitter. Isolators can help mitigate this problem but they are not very suitable for passive networks due to their insertion loss.</p><p>This application shows how to take advantage of <a href="/photonic-solutions/pic-design-suite/optsim-circuit">OptSim Circuit</a>&#x27;s bi-directional propagation capabilities to model MPI. The layout of a 1the data link under consideration is shown in Fig. 1.</p>
-<p><img src="https://images.synopsys.com/is/image/synopsys/multipath-interference-mpi-fig1?qlt=82&amp;wid=1200&amp;ts=1596144876547&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout of the topology to study multipath interference effects | Synopsys"></p>
+    </div>
+    <div>
+<h2>Tools Used: OptSim Circuit and OptSim</h2><p>Multipath interference (MPI) plays a major role in optical communication links, especially in FTTx PON architecture where splitter-based distribution causes reflections from each splitter. Isolators can help mitigate this problem but they are not very suitable for passive networks due to their insertion loss.</p><p>This application shows how to take advantage of <a href="/photonic-solutions/pic-design-suite/optsim-circuit">OptSim Circuit</a>&#x27;s bi-directional propagation capabilities to model MPI. The layout of a 1the data link under consideration is shown in Fig. 1.</p><div class="section-metadata"><div><div>style</div><div>pb-sm, pt-sm</div></div></div>
+    </div>
+    <div>
+<p><img src="https://images.synopsys.com/is/image/synopsys/multipath-interference-mpi-fig1?qlt=82&amp;wid=1200&amp;ts=1596144876547&amp;$responsive$&amp;fit=constrain&amp;dpr=off" alt="Layout of the topology to study multipath interference effects | Synopsys"></p><div class="section-metadata"><div><div>style</div><div>pt-xs</div></div></div>
     </div>
     <div>
 <p><em>Figure 1: Layout of the topology to study multipath interference effects</em><br> </p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p>The example consists of a link of two spans of fibers. The bi-directional fiber model includes bidirectional optical signal propagation, a main cause of MPI. Three bi-directional connectors between the transmitter, the receiver and the fiber spans create two closed loops where the optical signal is enclosed and circulates back and forth. The bidirectional connectors enable adjusting the optical insertion loss and return loss [1], thereby physically creating a backward propagating optical signal.</p><p>Figure 2 shows a received eye diagram for the case when return loss at bidirectional connectors is minimal.</p>
+<p>The example consists of a link of two spans of fibers. The bi-directional fiber model includes bidirectional optical signal propagation, a main cause of MPI. Three bi-directional connectors between the transmitter, the receiver and the fiber spans create two closed loops where the optical signal is enclosed and circulates back and forth. The bidirectional connectors enable adjusting the optical insertion loss and return loss [1], thereby physically creating a backward propagating optical signal.</p><p>Figure 2 shows a received eye diagram for the case when return loss at bidirectional connectors is minimal.</p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://www.synopsys.com/photonic-solutions/product-applications/photonic-integrated-circuits/optsim-circuit-multipath-interference/_jcr_content/root/synopsyscontainer/column/colLeft/column_1451346614_co/colLeft/image_copy_copy_copy.coreimg.82.1200.gif/1596144884896/multipath-interference-mpi-fig2a.gif" alt="Received eye diagram for a weakly reflected signal | Synopsys"></p>
     </div>
     <div>
 <p><em>Figure 2: Received eye diagram for a weakly reflected signal</em><br> </p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p>As the reflections become stronger and undergo multiple passes, the impact on the quality of the transmission as evident from the eye diagrams of Fig. 3.<br> </p>
+<p>As the reflections become stronger and undergo multiple passes, the impact on the quality of the transmission as evident from the eye diagrams of Fig. 3.<br> </p><div class="section-metadata"><div><div>style</div><div>pt-xs, pb-sm</div></div></div>
+    </div>
+    <div>
 <p><img src="https://www.synopsys.com/photonic-solutions/product-applications/photonic-integrated-circuits/optsim-circuit-multipath-interference/_jcr_content/root/synopsyscontainer/column/colLeft/column_808548382_cop/colLeft/image_copy_copy_copy.coreimg.82.1200.gif/1596144882660/multipath-interference-mpi-3.gif" alt="Impact of MPI: Received eye diagrams for strong (left) and sever (right) MPI | Synopsys"></p>
     </div>
     <div>
 <p><em>Figure 3: Impact of MPI: Received eye diagrams for strong (left) and sever (right) MPI</em><br> </p><div class="section-metadata"><div><div>style</div><div>centered</div></div></div>
     </div>
     <div>
-<p>As evident from the eye diagrams, stronger are the reflections, worse is the link performance.</p>
-<h2>References:</h2><p>1. M. Adams, &quot;Insertion loss and return loss &ndash; Keys to FTTx passive component reliability testing,&quot; JDSU White Paper, <a href="https://www.viavisolutions.com/en-us/literature/insertion-loss-and-return-loss-keys-fttx-passive-component-reliability-testing-application-notes.pdf">https://www.viavisolutions.com/en-us/literature/insertion-loss-and-return-loss-keys-fttx-passive-component-reliability-testing-application-notes.pdf</a><br> <br> 2. Ali Ghiasi, Jigesh Patel, Enrico Ghillino, Dwight Richards, &quot;Tools for simulating 400 GbE Optical PMDs,&quot; IEEE 803.2bs Task Force Meeting, July 2014, San Diego, CA <a href="http://www.ieee802.org/3/bs/public/14_07/ghiasi_3bs_02_0714.pdf">http://www.ieee802.org/3/bs/public/14_07/ghiasi_3bs_02_0714.pdf</a></p>
+<p>As evident from the eye diagrams, stronger are the reflections, worse is the link performance.</p><div class="section-metadata"><div><div>style</div><div>pt-xs</div></div></div>
+    </div>
+    <div>
+<h2>References:</h2><p>1. M. Adams, &quot;Insertion loss and return loss &ndash; Keys to FTTx passive component reliability testing,&quot; JDSU White Paper, <a href="https://www.viavisolutions.com/en-us/literature/insertion-loss-and-return-loss-keys-fttx-passive-component-reliability-testing-application-notes.pdf">https://www.viavisolutions.com/en-us/literature/insertion-loss-and-return-loss-keys-fttx-passive-component-reliability-testing-application-notes.pdf</a><br> <br> 2. Ali Ghiasi, Jigesh Patel, Enrico Ghillino, Dwight Richards, &quot;Tools for simulating 400 GbE Optical PMDs,&quot; IEEE 803.2bs Task Force Meeting, July 2014, San Diego, CA <a href="http://www.ieee802.org/3/bs/public/14_07/ghiasi_3bs_02_0714.pdf">http://www.ieee802.org/3/bs/public/14_07/ghiasi_3bs_02_0714.pdf</a></p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-md</div></div></div>
     </div>
   </main>
   <footer></footer>
