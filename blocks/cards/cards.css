@@ -424,6 +424,7 @@ main > .section.cards-container:has(.cards.people) {
   .cards.pillars > ul { grid-template-columns: 1fr; gap: 32px; }
   .cards.pillars > ul > li { height: 434px; }
   .cards.pillars .cards-card-body { inset: 205px 41px auto; }
+  .cards.pillars .cards-card-body :is(h2, h3, h4) { min-height: 68px; } /* live label span keeps two line boxes */
   .cards.pillars .cards-card-body p { display: block; min-height: 77px; margin: 16px 0 4px; font-size: 16px; font-weight: 300; line-height: 25.6px; } /* live: three line boxes */
   .cards.pillars .cards-card-cta { display: block; margin: 4px 0 0; }
   .cards.pillars .cards-card-cta a:any-link { display: inline-block; margin: 4px; padding: 8px 25px; border: 0; color: #fff; font-size: 16px; font-weight: 300; line-height: 25.6px; }

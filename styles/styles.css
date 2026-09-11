@@ -585,13 +585,13 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p > a:o
     padding: 40px 0 60px;
   }
 
-  /* stacked support columns: 18px between the two text blocks (live col 169 = 151 content + 18) */
+  /* stacked support columns (live 360): text CTA 12px under the copy, second column directly after the first */
   body.landing main .columns-container .columns:not(.benefits) > div {
     gap: 0;
   }
 
-  body.landing main .columns-container .columns:not(.benefits) > div > div:last-child {
-    margin-top: 18px;
+  body.landing main .columns-container .columns:not(.benefits) > div > div p:has(> a:only-child) {
+    margin-top: 12px;
   }
 
   body.landing main .columns-container .columns:not(.benefits) > div > div h2 {
