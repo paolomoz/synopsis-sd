@@ -1,12 +1,11 @@
 {
- "version": "2026-09-11e",
+ "version": "2026-09-11f",
  "hideOnLive": [
   ".component-search-result",
   "[class*=\"coveo\"]",
   "atomic-search-interface",
   "atomic-external",
   "[data-blogsdev-type=\"browseByTags\"]",
-  ".dwProductsDownloads .cmp-dynamiccards",
   ".contentTypeListing",
   "#ask-synopsys",
   ".ask-widget",
@@ -17,7 +16,8 @@
   ".mktoForm",
   "form.mktoForm",
   "[data-blogsdev-type=\"mostRecentArticles\"][data-page-type=\"category\"]",
-  "[data-blogsdev-type=\"categoryPage\"]"
+  "[data-blogsdev-type=\"categoryPage\"]",
+  ".dwProductsDownloads"
  ],
  "hideOnBuild": [
   ".listing",

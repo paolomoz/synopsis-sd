@@ -775,6 +775,11 @@ body.tokens main > .section:not(.hero-container, .breadcrumbs-container, .anchor
   padding: 0;
 }
 
+body.tokens main > .section:not(.rail, .rail-right, .toc-container, .form-container) .default-content-wrapper > p:first-child:not(:has(> picture)),
+body.tokens .columns:not(.benefits, .media) > div > div > :is(p, ul):first-child {
+  margin-top: 24px;
+}
+
 body.tokens main > .section.pt-xs { padding-top: 15px; }
 body.tokens main > .section.pt-sm { padding-top: 30px; }
 body.tokens main > .section.pt-md { padding-top: 60px; }
@@ -1007,6 +1012,12 @@ main > .section.rail-right .default-content-wrapper a.button {
   text-align: center;
 }
 
+body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 {
+  margin: 0 0 15px;
+  font-size: 32px;
+  line-height: 44.8px;
+}
+
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper :is(h1, h2, h3, p, li) {
   color: #fff;
 }
@@ -1031,8 +1042,10 @@ main > .section:is(.purple, .dark) .form .form-panel {
 }
 
 body.form main > .section.form-container:is(.purple, .dark) {
+  column-gap: 98px;
+  grid-template-columns: 667px 375px; /* source: col-sm-7 copy · col-sm-1 · col-sm-4 form */
   max-width: none;
-  padding: 60px max(15px, calc((100% - var(--container)) / 2));
+  padding: 60px max(15px, calc((100% - var(--container)) / 2 + 15px));
 }
 
 /* listing pages: large left-aligned index headline */
