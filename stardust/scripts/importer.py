@@ -977,7 +977,10 @@ def convert_column(col, page, inherited_style=''):
             zoom = ''
             if im.find_parent(class_='zoom-container') is not None:  # source zoomable figure: "Click to see the detail" line (31px, 10px margins) under the image opens a modal — link to the asset instead
                 zoom = f'<p><em><a href="{esc(biggest_src(im))}">Click to see the detail</a></em></p>'; COVERAGE['zoom-caption'] += 1
-            page.add_default(f'<p>{ih}</p>' + zoom, bg_of(col)); COVERAGE['image'] += 1
+            pad = re.search(r'horizontal-padding-(sm|md|lg)', ' '.join(im.get('class') or []))  # source img.horizontal-padding-*: letterboxed inside the column (5 / 25 / 100px each side, border-box)
+            st = bg_of(col)
+            if pad: st = (st + ', ' if st else '') + 'img-pad-' + pad.group(1); COVERAGE['img-pad'] += 1
+            page.add_default(f'<p>{ih}</p>' + zoom, st); COVERAGE['image'] += 1
         return
     if t in ('subscriptionForm', 'marketoFormsContainer', 'marketoForm'):
         # text column (title/description) → default content; the form → form block (labels + submit)

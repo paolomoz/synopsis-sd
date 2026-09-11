@@ -1313,3 +1313,14 @@ main .default-content-wrapper p:has(> picture) + p:has(> em > a:only-child) {
   line-height: 31px;
   text-align: center;
 }
+
+/* letterboxed content images (source img.horizontal-padding-sm|md|lg: padding 0 5|25|100px, border-box, full column width) */
+main > .section:is(.img-pad-sm, .img-pad-md, .img-pad-lg) .default-content-wrapper > p > picture > img {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+main > .section.img-pad-sm .default-content-wrapper > p > picture > img { padding: 0 5px; }
+main > .section.img-pad-md .default-content-wrapper > p > picture > img { padding: 0 25px; }
+main > .section.img-pad-lg .default-content-wrapper > p > picture > img { padding: 0 100px; }
