@@ -1,0 +1,7 @@
+{
+  "version": "2026-09-11",
+  "hideOnLive": [".component-search-result", "[class*=\"coveo\"]", "atomic-search-interface", "atomic-external", ".cmp-dynamiccards", "[data-blogsdev-type=\"mostRecentArticles\"]", "[data-blogsdev-type=\"browseByTags\"]", ".dwProductsDownloads .cmp-dynamiccards", ".contentTypeListing", "#ask-synopsys", ".ask-widget", "[class*=\"askSynopsys\"]", "[id*=\"askSynopsys\"]", "#onetrust-consent-sdk", ".onetrust-pc-dark-filter", ".mktoForm", "form.mktoForm"],
+  "hideOnBuild": [".carousel.blog", ".listing", ".form form"],
+  "neutraliseOnLive": {".two2575PinnedLeft, .two2575PinnedLeft > *": "position: static !important; top: auto !important"},
+  "freeze": "*{animation:none!important;transition:none!important;caret-color:transparent!important}"
+}
