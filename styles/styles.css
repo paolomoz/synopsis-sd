@@ -498,12 +498,13 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p {
   margin: 0;
 }
 
-body.landing main .columns-container .columns:not(.benefits) > div > div p:is(.button-container, .button-wrapper) {
+/* the text CTA is a lone link paragraph (the runtime only buttonizes emphasised links): 24px above, ink, chevron */
+body.landing main .columns-container .columns:not(.benefits) > div > div p:has(> a:only-child) {
   margin-top: 24px;
   text-align: left;
 }
 
-body.landing main .columns-container .columns:not(.benefits) > div > div a.button:any-link {
+body.landing main .columns-container .columns:not(.benefits) > div > div p > a:only-child:any-link {
   display: inline-flex;
   align-items: center;
   margin: 0;
@@ -517,7 +518,7 @@ body.landing main .columns-container .columns:not(.benefits) > div > div a.butto
   line-height: 25.6px;
 }
 
-body.landing main .columns-container .columns:not(.benefits) > div > div a.button::after {
+body.landing main .columns-container .columns:not(.benefits) > div > div p > a:only-child::after {
   content: "";
   display: inline-block;
   width: 8px;

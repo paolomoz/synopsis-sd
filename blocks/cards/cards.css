@@ -218,10 +218,21 @@
   background: var(--ink);
 }
 
-.cards.pillars .cards-card-image,
-.cards.pillars > ul > li img {
+.cards.pillars .cards-card-image {
   height: 100%;
   aspect-ratio: auto;
+}
+
+/* live: the 441x520 rendition is scaled to 375x443 and top-aligned, centred horizontally (56px cropped each side) */
+.cards.pillars > ul > li img {
+  position: absolute;
+  top: 0;
+  left: -56px;
+  width: 375px;
+  height: 443px;
+  max-width: none;
+  aspect-ratio: auto;
+  object-fit: fill;
 }
 
 .cards.pillars .cards-card-image {
