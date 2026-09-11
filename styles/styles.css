@@ -735,7 +735,7 @@ body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-c
   padding: 0; /* band padding comes from the authored tokens below (source vert-pad-* classes) */
 }
 
-/* authored band padding (importer: vert-pad-top/bottom-xs|sm|md → pt-*/pb-* section styles) */
+/* authored band padding (importer: vert-pad-top/bottom-xs|sm|md → section styles pt-x / pb-x) */
 body:is(.article, .glossary) main > .section.pt-xs { padding-top: 15px; }
 body:is(.article, .glossary) main > .section.pt-sm { padding-top: 30px; }
 body:is(.article, .glossary) main > .section.pt-md { padding-top: 60px; }
