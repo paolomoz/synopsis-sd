@@ -645,7 +645,8 @@ def handle_column(col, page):
         main_style = 'main, rail-4' if span_of(cols[0]) <= 8 else 'main'  # col-sm-8 copy beside a col-sm-4 rail: copy column is 780px, rail 390px
         for sct in page.sections[before:]: sct['style'] = main_style if not sct['style'] or sct['style'] == 'main' else sct['style'] + ', ' + main_style
         # the layout's own group padding (vert-pad-* on the wrapper around both columns) lands on the first/last main section as a margin token (gpt-*/gpb-*)
-        grp = [t for t in bg_of(col).split(', ') if t.startswith(('pt-', 'pb-'))]
+        # bg_of already hands the group's top padding to the first grid column (= main); the bottom went to the rail column, which is dropped → re-attach it
+        grp = [t for t in bg_of(col).split(', ') if t.startswith('pb-')]
         mains = page.sections[before:]
         if grp and mains:
             for t in grp:
