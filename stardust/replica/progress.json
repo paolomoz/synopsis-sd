@@ -570,6 +570,37 @@
      }
     ]
    }
+  },
+  "author": {
+   "liveUrl": "https://www.synopsys.com/authors/frank-malloy.html",
+   "sampledGate": {
+    "1440": [
+     {
+      "at": "2026-09-11",
+      "n": 8,
+      "median": 6.84,
+      "p90": 40.26,
+      "note": "baseline (policy bug hid the author archive on live)"
+     },
+     {
+      "at": "2026-09-11",
+      "n": 8,
+      "median": 8.09,
+      "p90": 21.08,
+      "note": "policy fixed; long archives +196..309px (row pitch 224 vs live 189, meta placement, CTA)"
+     },
+     {
+      "at": "2026-09-11",
+      "n": 8,
+      "median": 7.36,
+      "p90": 9.34,
+      "max": 12.04,
+      "dhOver8": 7,
+      "note": "cards author rows at the live geometry (193px thumb, meta under it, 20px title, no CTA), heading/profile rhythm; \u0394h 13\u201352 remains"
+     }
+    ]
+   },
+   "note": "direct-authored template (no prototype); brought to <10% p90 by a lift round measured with gate-sample; residual \u0394h 13\u201352px unexplained yet"
   }
  },
  "pending": {},
