@@ -585,12 +585,12 @@ header nav#nav .nav-hamburger button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 46px;
+  width: 32px; /* live .navbar-toggler 32x24, radius 5 */
+  height: 24px;
   margin: 0;
   padding: 0;
   border: 0;
-  border-radius: 8px;
+  border-radius: 5px;
   background: rgb(196 196 196 / 80%);
   color: var(--ink);
   cursor: pointer;
@@ -598,9 +598,8 @@ header nav#nav .nav-hamburger button {
 
 header nav#nav .nav-hamburger svg {
   display: block;
-  width: 20px;
-  height: 20px;
-  fill: currentcolor;
+  width: 14px;
+  height: 16px;
 }
 
 header nav#nav .nav-hamburger .hamburger-close {
@@ -648,7 +647,7 @@ header.is-dark .nav-row:not(.is-pinned) nav#nav .nav-cta a.button {
 }
 
 header.is-dark .nav-row:not(.is-pinned) nav#nav .nav-hamburger button {
-  background: rgb(255 255 255 / 30%);
+  background: rgb(196 196 196 / 80%); /* live: same toggler skin over the dark hero */
   color: #fff;
 }
 
