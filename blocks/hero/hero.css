@@ -416,7 +416,8 @@
   .hero .hero-subtitle { margin: -22px 0 16px; }
   .hero .hero-actions { width: 260px; margin: 0 auto; }
   .hero .hero-actions p.button-wrapper, .hero .hero-actions a.button { width: 100%; }
-  .hero.image, .hero.video { height: 420px; }
+  .hero.image { height: 420px; }
+  .hero.video { height: 325px; } /* source: .banner-img.mobile-video is 325px at 360 */
   .hero.carousel { height: 560px; }
   .hero.carousel .hero-dots button { width: auto; flex: 1; font-size: 0; height: 4px; padding: 0; border-top: 0; background: rgb(255 255 255 / 40%); }
   .hero.carousel .hero-dots button[aria-selected="true"] { background: #fff; }
