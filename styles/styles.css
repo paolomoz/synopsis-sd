@@ -766,7 +766,7 @@ body:is(.article, .glossary) main > .section.carousel-container {
    width even after the floats end, keeping the reading column at container-left + 292px on every section */
 body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div {
   max-width: none;
-  margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 292px));
+  margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 278px)); /* copy at container-left + 293 + 15 = x443 @1440 */
   padding: 0 15px;
 }
 

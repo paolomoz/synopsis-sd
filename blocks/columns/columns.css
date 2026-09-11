@@ -99,7 +99,7 @@
 /* article inline CTA rows (source: imageTextCta between hairline rules, purple 24px title, button) */
 body:is(.article, .glossary) .columns.media {
   margin: 20px 0; /* source: hr separators with 20px margins, column row 15px inside, image +15, text +30 */
-  padding: 35px 0;
+  padding: 35px 0 20px;
   border-top: 1px solid #c4c4c4;
   border-bottom: 1px solid #c4c4c4;
 }
