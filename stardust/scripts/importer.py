@@ -168,6 +168,8 @@ def rich(node, allow_headings=True, h_shift=0):
             if re.search(r'(function\s*\(|window\.[a-zA-Z]|document\.[a-zA-Z]|try\s*\{|\$\(|=>\s*\{)', plain): return
             if plain or '<img' in txt:
                 out.append(f'<p>{txt}</p>')
+            elif re.search(r'\xa0|&nbsp;|<br', str(n)):
+                out.append('<p>&#160;</p>')  # source spacer paragraph (<p>&nbsp;</p>) = one 25.6px line; an empty <p></p> has no height and is dropped
             return
         if name in ('ul', 'ol'):
             items = []
@@ -189,7 +191,8 @@ def rich(node, allow_headings=True, h_shift=0):
             if rows:
                 header = bool(n.find('th')) or (n.find('tr') is not None and all(td.find(['b', 'strong']) is not None for td in n.find('tr').find_all(['td', 'th'])))
                 cells_rows = ''.join('<div>' + ''.join(f'<div>{c}</div>' for c in [inline_children(td) for td in tr.find_all(['td', 'th'])]) + '</div>' for tr in n.find_all('tr'))
-                out.append(f'<div class="table{" header" if header else " no-header"}">{cells_rows}</div>')
+                compact = ' compact' if n.find_parent(class_='cmp-table') is not None else ''  # source Table component (.cmp-table): 14px/22.4px cells; tables typed inside a text component keep 16px
+                out.append(f'<div class="table{" header" if header else " no-header"}{compact}">{cells_rows}</div>')
             return
         if name == 'blockquote':
             out.append(f'<blockquote>{inline_children(n)}</blockquote>'); return
@@ -971,7 +974,10 @@ def convert_column(col, page, inherited_style=''):
         if im is not None and img_html(im):
             a = im.find_parent('a')
             ih = f'<a href="{esc(localize(a.get("href")))}">{img_html(im)}</a>' if a is not None and a.get('href') and not a.get('href').startswith(('#', 'javascript:')) else img_html(im)
-            page.add_default(f'<p>{ih}</p>', bg_of(col)); COVERAGE['image'] += 1
+            zoom = ''
+            if im.find_parent(class_='zoom-container') is not None:  # source zoomable figure: "Click to see the detail" line (31px, 10px margins) under the image opens a modal — link to the asset instead
+                zoom = f'<p><em><a href="{esc(biggest_src(im))}">Click to see the detail</a></em></p>'; COVERAGE['zoom-caption'] += 1
+            page.add_default(f'<p>{ih}</p>' + zoom, bg_of(col)); COVERAGE['image'] += 1
         return
     if t in ('subscriptionForm', 'marketoFormsContainer', 'marketoForm'):
         # text column (title/description) → default content; the form → form block (labels + submit)

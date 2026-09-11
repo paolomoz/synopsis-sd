@@ -50,3 +50,10 @@ body:is(.article, .glossary) .table table {
 body:is(.article, .glossary) .table td:first-child {
   font-weight: 300;
 }
+
+/* source .cmp-table (Table component): 14px/22.4px cells, 18px 24px padding */
+.table.compact td,
+.table.compact th {
+  font-size: 14px;
+  line-height: 22.4px;
+}

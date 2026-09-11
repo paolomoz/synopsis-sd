@@ -1306,3 +1306,10 @@ body.dw main > .section.rail-right .default-content-wrapper > p:first-child:has(
 }
 
 body.dw main > .section.rail-right .default-content-wrapper > p:first-child:has(> strong:only-child):not(:has(a)) strong { font-weight: 300; }
+
+/* zoomable figure caption line (source .zoom-instructions: centred, 31px tall, 10px margins) */
+main .default-content-wrapper p:has(> picture) + p:has(> em > a:only-child) {
+  margin: 10px 0;
+  line-height: 31px;
+  text-align: center;
+}
