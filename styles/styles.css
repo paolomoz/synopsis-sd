@@ -785,7 +785,7 @@ body:is(.article, .glossary) main > .section.centered > div {
 
 /* the last text band carries 76px of trailing space before the tag row on the source */
 body:is(.article, .glossary) main > .section:has(+ .section.tags-container) {
-  margin-bottom: 76px;
+  margin-bottom: 61px; /* source: the last text band ends 61px above the tag row (measured, unexplained by tokens) */
 }
 
 body:is(.article, .glossary) main > .section.tags-container {
