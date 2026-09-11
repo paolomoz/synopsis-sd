@@ -169,7 +169,7 @@ def rich(node, allow_headings=True, h_shift=0):
             if plain or '<img' in txt:
                 out.append(f'<p>{txt}</p>')
             elif re.search(r'\xa0|&nbsp;|<br', str(n)):
-                out.append('<p>&#160;</p>')  # source spacer paragraph (<p>&nbsp;</p>) = one 25.6px line; an empty <p></p> has no height and is dropped
+                out.append('<p>&#8203;</p>')  # source spacer paragraph (<p>&nbsp;</p>) = one 25.6px line; nbsp-only paragraphs are trimmed away by the EDS md pipeline, a zero-width space survives and still makes a line box
             return
         if name in ('ul', 'ol'):
             items = []
