@@ -498,7 +498,7 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p {
   margin: 0;
 }
 
-body.landing main .columns-container .columns:not(.benefits) > div > div p.button-container {
+body.landing main .columns-container .columns:not(.benefits) > div > div p:is(.button-container, .button-wrapper) {
   margin-top: 24px;
   text-align: left;
 }
