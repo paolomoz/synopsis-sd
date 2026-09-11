@@ -940,6 +940,135 @@
       "at": "2026-09-11T12:17:29.403730Z",
       "landmarks": "all headings Δ0 after benefit tiles 64px tail",
       "policy": "2026-09-11g"
+    },
+    "static:/company@1440": {
+      "rounds": [
+        {
+          "pct": 11.82,
+          "dh": -1
+        },
+        {
+          "pct": 11.66,
+          "dh": -1
+        }
+      ],
+      "note": "video banner = justified visual flag; height Δ−1"
+    },
+    "program:/webinars/deep-dive-synopsys-ai@1440": {
+      "rounds": [
+        {
+          "pct": 10.11,
+          "dh": 56
+        },
+        {
+          "pct": 2.77,
+          "dh": -4
+        }
+      ],
+      "note": "main+Marketo rail layout (rail-4), media row, group padding re-attached"
+    },
+    "mobile360": {
+      "form": {
+        "pct": 9.95,
+        "dh": 3
+      },
+      "author": {
+        "dh": -4
+      },
+      "program:cxl": {
+        "pct": 17.82,
+        "dh": -110
+      },
+      "static:company": {
+        "dh": 74
+      },
+      "webinar": {
+        "pct": 10.42,
+        "dh": 5
+      },
+      "note": "first mobile pass: top tokens 40px, tabs accordion, cards flush, author stacked rows"
+    }
+  },
+  "sampledGates": {
+    "program@1440": {
+      "at": "2026-09-11T13:07:49.643Z",
+      "n": 10,
+      "median": 10.4,
+      "p90": 15.25,
+      "max": 20.93,
+      "dhOver8": 8,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "dw@1440": {
+      "at": "2026-09-11T13:07:50.057Z",
+      "n": 0,
+      "median": null,
+      "p90": null,
+      "max": null,
+      "dhOver8": 0,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "article@1440": {
+      "at": "2026-09-11T13:09:45.846Z",
+      "n": 10,
+      "median": 15.43,
+      "p90": 31.12,
+      "max": 34.06,
+      "dhOver8": 10,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "glossary@1440": {
+      "at": "2026-09-11T13:11:42.574Z",
+      "n": 10,
+      "median": 9.24,
+      "p90": 12.13,
+      "max": 14.84,
+      "dhOver8": 8,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "form@1440": {
+      "at": "2026-09-11T13:13:22.111Z",
+      "n": 10,
+      "median": 11.45,
+      "p90": 29.47,
+      "max": 40.58,
+      "dhOver8": 7,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "author@1440": {
+      "at": "2026-09-11T13:15:00.342Z",
+      "n": 10,
+      "median": 5.4,
+      "p90": 5.8,
+      "max": 7.49,
+      "dhOver8": 7,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "static@1440": {
+      "at": "2026-09-11T13:16:48.036Z",
+      "n": 10,
+      "median": 21.09,
+      "p90": 46.56,
+      "max": 46.62,
+      "dhOver8": 10,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+    },
+    "listing@1440": {
+      "at": "2026-09-11T13:17:39.326Z",
+      "n": 5,
+      "median": 38.22,
+      "p90": 40.36,
+      "max": 46.36,
+      "dhOver8": 5,
+      "policy": "2026-09-11g",
+      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
     }
   }
 }
