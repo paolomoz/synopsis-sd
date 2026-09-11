@@ -619,18 +619,19 @@ body.author main > .section.rail-right .author-wrapper {
 }
 
 @media (width <= 729px) {
-  /* article / glossary @360: stacked rail and copy, text bands 40px apart with 30px below, 24px headings */
-  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) {
-    padding: 0 0 30px;
-  }
-
+  /* article / glossary @360 (live lift): every pt-* token is 40px, pb tokens keep 30/60; 24px headings, copy 16px under them, 24px after */
   body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div {
     margin: 0;
     padding: 0 15px;
   }
 
-  body:is(.article, .glossary) main > .section .default-content-wrapper > h2:first-child {
-    margin-top: 40px;
+  body:is(.article, .glossary) main > .section.pt-xs,
+  body:is(.article, .glossary) main > .section.pt-sm,
+  body:is(.article, .glossary) main > .section.pt-md {
+    padding-top: 40px;
+  }
+
+  body:is(.article, .glossary) main > .section .default-content-wrapper h2 {
     font-size: 24px;
     line-height: 26.4px;
   }
@@ -639,8 +640,13 @@ body.author main > .section.rail-right .author-wrapper {
     margin-top: 16px;
   }
 
-  body:is(.article, .glossary) main > .section .default-content-wrapper > p:last-child {
+  body:is(.article, .glossary) main > .section .default-content-wrapper > p:last-child:not(:has(> picture)) {
     margin-bottom: 24px;
+  }
+
+  body:is(.article, .glossary) main > .section.centered .default-content-wrapper h2:only-child {
+    font-size: 32px;
+    line-height: 35.2px;
   }
 
   body:is(.article, .glossary) main > .section.toc-container,
@@ -664,6 +670,17 @@ body.author main > .section.rail-right .author-wrapper {
 
   body:is(.article, .glossary) main > .section.tags-container .tags .tags-list li {
     margin: 4px 2px;
+  }
+
+  body:is(.article, .glossary) .share .share-links {
+    height: 44px;
+    padding: 12px 0 0;
+    gap: 10px;
+  }
+
+  body:is(.article, .glossary) .columns.media > div > .columns-img-col,
+  body:is(.article, .glossary) .columns.media > div > div:not(.columns-img-col) {
+    padding-top: 40px;
   }
 }
 
