@@ -331,3 +331,8 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
   margin-left: 8px;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23316aca' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / contain;
 }
+
+/* media rows built from a textcomp (source: title → .component-text margin-top 24px) */
+.columns.media:not(.half) > div > div:not(.columns-img-col) > :is(h2, h3) {
+  margin-bottom: 24px;
+}
