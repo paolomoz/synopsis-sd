@@ -140,6 +140,7 @@ def rich(node, allow_headings=True, h_shift=0):
         return inner
     def block(n):
         if isinstance(n, NavigableString) and str(n).strip() == 'coveo-noindex': return  # source indexing marker text (DesignWare pages)
+        if isinstance(n, Tag) and clean_text(n.get_text()) == 'coveo-noindex': return  # same marker wrapped in <p><div>
         if isinstance(n, (Comment, Doctype, CData, ProcessingInstruction)): return
         if isinstance(n, NavigableString):
             t = esc(re.sub(r'\s+', ' ', str(n))).strip()
@@ -633,7 +634,9 @@ def handle_column(col, page):
                 if sub.select_one('form') and not sub.select_one('.component-calltoaction, a[href]'): continue
                 cta = sub.select_one('.component-calltoaction')
                 if cta is not None:
-                    page.add_default(''.join(cta_html(a, 'secondary' if 'btn-secondary' in ' '.join(a.get('class') or []) else 'primary') for a in cta.select('a[href]')), 'rail-right'); continue
+                    flag = sub.select_one('.component-railCard .flag .text, .component-railCard .flag')  # DesignWare rail card: purple "Search Tools" flag above the CTAs
+                    fh = f'<p><strong>{esc(clean_text(flag.get_text()))}</strong></p>' if flag is not None and clean_text(flag.get_text()) else ''
+                    page.add_default(fh + ''.join(cta_html(a, 'secondary' if 'btn-secondary' in ' '.join(a.get('class') or []) else 'primary') for a in cta.select('a[href]')), 'rail-right'); continue
                 if st == 'downloads' or sub.select_one('.component-downloads'):
                     page.add_default(''.join(f'<p><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></p>' for a in sub.select('a[href]') if clean_text(a.get_text())), 'rail-right'); continue
                 before2 = len(page.sections); convert_column(sub, page)
@@ -932,6 +935,12 @@ def convert_column(col, page, inherited_style=''):
         return
     if t in ('imageTextCta', 'textImage2Column', 'mediaLinkTile'):
         sec = col.find(class_=re.compile('component-(imageTextCta|text-image-2-column|mediaLinkTile)'))
+        if sec is not None and sec.select_one('.component-no-media') is not None and col.find('img') is None and col.find('video') is None:
+            # caption-only imageTextCta (blog figure captions): plain text band; the empty buttons row leaves 24px under the copy on the source
+            th = rich(sec.select_one('.component-text') or sec, allow_headings=True)
+            if th:
+                st = bg_of(col); page.add_default(th, (st + ', ' if st else '') + 'caption'); COVERAGE['caption'] += 1
+            return
         img_col = col.select_one('.img-col'); text_col = col.select_one('.text-col') or (col.select_one('[class*="col-sm-8"]') if col.select_one('[class*="col-sm-8"]') else None)
         img_first = True
         if img_col is not None and 'col-sm-push-6' in ' '.join(img_col.get('class') or []): img_first = False
@@ -1070,6 +1079,7 @@ def import_page(raw_html, url, page_type=None):
     global PAGES, PAGE_URL
     PAGES += 1; PAGE_URL = url
     soup = BeautifulSoup(raw_html, 'html.parser')
+    for _h in soup.select('h2.title.text-size-smaller'): _h.name = 'h3'  # source: .text-size-smaller titles render 24px/300 — the h3 size everywhere in the replica
     title = clean_text(soup.title.get_text()) if soup.title else ''
     desc_el = soup.find('meta', attrs={'name': 'description'}); desc = clean_text(desc_el.get('content')) if desc_el else ''
     ogi = soup.find('meta', attrs={'property': 'og:image'}); og_image = ogi.get('content') if ogi else ''

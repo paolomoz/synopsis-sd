@@ -1287,3 +1287,22 @@ a .prosemirror-editor a:any-link {
   body.tokens main > .section:not(.rail, .rail-right, .toc-container, .form-container) .default-content-wrapper > p:first-child:not(:has(> picture)) { margin-top: 16px; }
   body.tokens main > .section:not(.rail, .rail-right, .toc-container, .form-container) .default-content-wrapper > p:last-child:not(:has(> picture)) { margin-bottom: 24px; }
 }
+
+/* caption-only figure text (source imageTextCta.component-no-media): copy then an empty 24px buttons row */
+main > .section.caption > .default-content-wrapper {
+  padding-bottom: 24px;
+}
+
+/* DesignWare rail card flag (source .component-railCard .flag: purple bar, 15px uppercase, margin 25px 0 5px) */
+body.dw main > .section.rail-right .default-content-wrapper > p:first-child:has(> strong:only-child):not(:has(a)) {
+  margin: 25px 0 5px;
+  padding: 5px 0 5px 25px;
+  background: #80539c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+body.dw main > .section.rail-right .default-content-wrapper > p:first-child:has(> strong:only-child):not(:has(a)) strong { font-weight: 300; }

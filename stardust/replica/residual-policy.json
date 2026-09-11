@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-11g",
+  "version": "2026-09-11h",
   "hideOnLive": [
     ".component-search-result",
     "[class*=\"coveo\"]",
@@ -18,7 +18,8 @@
     "[data-blogsdev-type=\"mostRecentArticles\"][data-page-type=\"category\"]",
     "[data-blogsdev-type=\"categoryPage\"]",
     ".dwProductsDownloads",
-    ".htmlTextOnly"
+    ".htmlTextOnly",
+    ".component-railCard form"
   ],
   "hideOnBuild": [
     ".listing",
@@ -57,6 +58,7 @@
     ]
   },
   "notes": {
-    ".htmlTextOnly": "raw HTML+script component (IP selector redirect <select>); JS-only widget with no static equivalent"
+    ".htmlTextOnly": "raw HTML+script component (IP selector redirect <select>); JS-only widget with no static equivalent",
+    ".component-railCard form": "DesignWare rail search box (Coveo-driven JS widget); no static equivalent"
   }
 }
