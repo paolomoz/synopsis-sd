@@ -736,11 +736,18 @@ body.glossary main .section .default-content-wrapper h2 {
   text-align: left;
 }
 
+/* glossary section titles are h2.title.text-size-smaller on the source (24px/300 purple) → h3 in the replica since the global demotion */
 body.glossary main .section .default-content-wrapper h3 {
-  color: var(--ink);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.4;
+  color: var(--purple-dark);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+}
+
+body:is(.article, .glossary) main .section .default-content-wrapper h3 + p,
+body:is(.article, .glossary) main .section .default-content-wrapper h3 + ul {
+  margin-top: 24px; /* source: .component-text margin-top 24px under the title */
 }
 
 /* article / static / form / listing: section titles left-aligned in ink (program & landing keep centered purple) */
