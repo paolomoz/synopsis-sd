@@ -771,7 +771,7 @@ body:is(.article, .glossary) main > .section.carousel-container {
    width even after the floats end, keeping the reading column at container-left + 292px on every section */
 body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div {
   max-width: none;
-  margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 278px)); /* copy at container-left + 293 + 15 = x443 @1440 */
+  margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 293px)); /* copy at container-left + 293 + 15 = x443 @1440 */
   padding: 0 15px;
 }
 
@@ -781,7 +781,7 @@ body:is(.article, .glossary) main > .section.rail {
   float: left;
   clear: left;
   width: 25%;
-  max-width: 292px;
+  max-width: 278px; /* source rail column 293 = 15 (container gutter) + 230 content + 48 right padding; float edge at x428 */
   margin-left: max(15px, calc((100% - var(--container)) / 2 + 15px));
   padding: 0;
 }
@@ -789,7 +789,7 @@ body:is(.article, .glossary) main > .section.rail {
 body:is(.article, .glossary) main > .section.toc-container > div,
 body:is(.article, .glossary) main > .section.form-container > div,
 body:is(.article, .glossary) main > .section.rail > div {
-  padding: 0 62px 0 0; /* source rail: 293px column, 15 left + 48 right → 230px of content */
+  padding: 0 48px 0 0; /* source rail: 230px of content, 48px to the reading column */
 }
 
 body:is(.article, .glossary) main > .section.rail .default-content-wrapper h2,
