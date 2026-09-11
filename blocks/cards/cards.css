@@ -94,7 +94,7 @@
   flex-wrap: wrap;
   align-items: flex-start;
   width: 33.3333%;
-  margin-bottom: 48px;
+  margin-bottom: 64px; /* source: img-text margin-bottom 16px + (possibly empty) description margin-bottom 48px */
   padding: 0 15px;
   border: 0;
   background: transparent;
