@@ -784,6 +784,14 @@ body.tokens .columns:not(.benefits, .media) > div > div > :is(p, ul):first-child
   margin-top: 24px;
 }
 
+/* group padding of a two-column layout (rail + main): margins so they stack with the inner band's own tokens */
+body.tokens main > .section.gpt-xs { margin-top: 15px; }
+body.tokens main > .section.gpt-sm { margin-top: 30px; }
+body.tokens main > .section.gpt-md { margin-top: 60px; }
+body.tokens main > .section.gpb-xs { margin-bottom: 15px; }
+body.tokens main > .section.gpb-sm { margin-bottom: 30px; }
+body.tokens main > .section.gpb-md { margin-bottom: 60px; }
+
 body.tokens main > .section.pt-xs { padding-top: 15px; }
 body.tokens main > .section.pt-sm { padding-top: 30px; }
 body.tokens main > .section.pt-md { padding-top: 60px; }

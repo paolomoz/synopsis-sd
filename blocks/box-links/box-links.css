@@ -55,7 +55,7 @@
 .box-links.plain .box-links-label p {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px; /* source: 36px icon on the left, label 56px in */
   padding: 16px 0;
   border-bottom: 0;
   font-size: 20px;
@@ -67,7 +67,7 @@
   text-decoration: none;
 }
 
-.box-links.plain .box-links-label p::after {
+.box-links.plain .box-links-label p::before {
   content: "";
   flex: 0 0 36px;
   height: 36px;
