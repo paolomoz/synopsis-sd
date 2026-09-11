@@ -1268,5 +1268,6 @@ a .prosemirror-editor a:any-link {
 /* spacing tokens at mobile (source at 360: md and sm bands both collapse to 40px, xs stays 15px) */
 @media (width <= 729px) {
   body.tokens main > .section:is(.pt-md, .pt-sm) { padding-top: 40px; }
+  body.tokens main > .section.pt-xs:not(.columns-container) { padding-top: 40px; } /* source: vert-pad-top-xs is also 40px at 360 (cards band on product pages) */
   /* bottom tokens keep their desktop value at 360 (measured on the CXL product page: every pb-md band is still 60px) */
 }
