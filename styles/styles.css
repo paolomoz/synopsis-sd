@@ -614,7 +614,7 @@ body.author main > .section.main.cards-container {
   padding-top: 0;
 }
 
-body.author.tokens main > .section.main:has(+ .cards-container) .default-content-wrapper h2 {
+body.author.tokens main > .section.main:has(+ .cards-container) .default-content-wrapper :is(h1, h2) {
   margin-bottom: 0; /* source: the 30px gap between "From this Author" and the list is the band's bottom padding, not a heading margin */
 }
 
@@ -1040,7 +1040,7 @@ body.form main > .section.form-container:is(.purple, .dark) .default-content-wra
 }
 
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper p:has(+ p) {
-  margin-bottom: 36px; /* source: paragraphs separated by an authored <br> line (21px) that the pipeline drops */
+  margin-bottom: 38px; /* source: paragraph margin 10px + an authored <br> line (21px) + line box slack, measured 38px */
 }
 
 body.form main > .section.form-container:is(.purple, .dark) .form-panel {
