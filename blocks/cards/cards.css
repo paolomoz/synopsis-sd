@@ -548,3 +548,13 @@ main > .section.cards-container:has(.cards.people) {
   color: var(--grey);
   font-weight: 300;
 }
+
+/* asset card without an image (source .component-assetcard.no-link, text only): 32px top padding + an 8px invisible label row */
+.cards.asset > ul > li > .cards-card-body:first-child {
+  padding-top: 40px;
+}
+
+.cards.asset .cards-card-body p:not(.cards-card-cta) {
+  margin: 0 0 32px;
+  line-height: 18px;
+}
