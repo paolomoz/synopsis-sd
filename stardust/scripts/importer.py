@@ -345,6 +345,8 @@ def handle_text(col, page):
     sec = col.find(class_='component-textcomp') or col.find(class_='component-rte') or col.find(class_='component-rtecomp')
     if sec is None: return False
     style = bg_of(col)
+    if PAD_TOKENS and 'component-textcomp' not in (sec.get('class') or []):
+        style = ', '.join(x for x in (style, 'rte') if x)  # rich-text editor band: copy starts flush (no 24px component-text offset)
     if 'text-align-center' in ' '.join(sec.get('class') or []) and sec.find(['h1', 'h2', 'h3']) is not None and len(clean_text(sec.get_text())) < 160:
         style = ', '.join(x for x in (style, 'centered') if x)
     h = ''

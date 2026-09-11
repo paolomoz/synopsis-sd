@@ -32,3 +32,8 @@
 }
 
 main .section.tinted .spotlight .spotlight-title { background: var(--mist); }
+
+/* source: the definition copy is a component-text (24px above the first paragraph) */
+body:is(.article, .glossary) .spotlight .spotlight-body {
+  padding-top: 24px;
+}

@@ -40,3 +40,13 @@
 @media (width <= 729px) {
   .table th, .table td { padding: 12px 14px; }
 }
+
+/* article / glossary tables (source: 16px/25.6 paragraphs in 18/24px cells) */
+body:is(.article, .glossary) .table table {
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+body:is(.article, .glossary) .table td:first-child {
+  font-weight: 300;
+}

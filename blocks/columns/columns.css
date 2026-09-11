@@ -122,8 +122,12 @@ body:is(.article, .glossary) .columns.media > div > div h3 + p {
   margin-top: 24px;
 }
 
+body:is(.article, .glossary) .columns.media > div > div p {
+  margin-bottom: 0; /* source promo copy: single paragraph, no trailing margin */
+}
+
 body:is(.article, .glossary) .columns.media > div > div p.button-wrapper {
-  margin-top: 24px;
+  margin: 24px 0 0;
 }
 
 body:is(.article, .glossary) .columns.media > div > div h2,

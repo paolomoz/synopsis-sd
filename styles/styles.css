@@ -743,6 +743,11 @@ body:is(.article, .glossary) main > .section.pb-xs { padding-bottom: 15px; }
 body:is(.article, .glossary) main > .section.pb-sm { padding-bottom: 30px; }
 body:is(.article, .glossary) main > .section.pb-md { padding-bottom: 60px; }
 
+/* rich-text-editor bands (captions, notes) start flush; the 24px offset belongs to textcomp copy only */
+body:is(.article, .glossary) main > .section.rte .default-content-wrapper > p:first-child {
+  margin-top: 0;
+}
+
 body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> picture) {
   margin: 0;
 }
