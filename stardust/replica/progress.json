@@ -991,14 +991,13 @@
   },
   "sampledGates": {
     "program@1440": {
-      "at": "2026-09-11T13:07:49.643Z",
+      "at": "2026-09-11T14:36:32.182Z",
       "n": 10,
-      "median": 10.4,
+      "median": 9.55,
       "p90": 15.25,
-      "max": 20.93,
-      "dhOver8": 8,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+      "max": 57.54,
+      "dhOver8": 9,
+      "policy": "2026-09-11h"
     },
     "dw@1440": {
       "at": "2026-09-11T13:07:50.057Z",
@@ -1011,24 +1010,22 @@
       "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
     },
     "article@1440": {
-      "at": "2026-09-11T13:09:45.846Z",
+      "at": "2026-09-11T15:04:06.458Z",
       "n": 10,
-      "median": 15.43,
-      "p90": 31.12,
-      "max": 34.06,
+      "median": 13.84,
+      "p90": 22.67,
+      "max": 26.88,
       "dhOver8": 10,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+      "policy": "2026-09-11h"
     },
     "glossary@1440": {
-      "at": "2026-09-11T13:11:42.574Z",
+      "at": "2026-09-11T14:57:30.612Z",
       "n": 10,
-      "median": 9.24,
-      "p90": 12.13,
-      "max": 14.84,
-      "dhOver8": 8,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+      "median": 6.28,
+      "p90": 12.29,
+      "max": 15.37,
+      "dhOver8": 7,
+      "policy": "2026-09-11h"
     },
     "form@1440": {
       "at": "2026-09-11T13:13:22.111Z",
@@ -1037,8 +1034,7 @@
       "p90": 29.47,
       "max": 40.58,
       "dhOver8": 7,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+      "policy": "2026-09-11g"
     },
     "author@1440": {
       "at": "2026-09-11T13:15:00.342Z",
@@ -1047,8 +1043,7 @@
       "p90": 5.8,
       "max": 7.49,
       "dhOver8": 7,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+      "policy": "2026-09-11g"
     },
     "static@1440": {
       "at": "2026-09-11T13:16:48.036Z",
@@ -1057,8 +1052,7 @@
       "p90": 46.56,
       "max": 46.62,
       "dhOver8": 10,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
+      "policy": "2026-09-11g"
     },
     "listing@1440": {
       "at": "2026-09-11T13:17:39.326Z",
@@ -1067,8 +1061,8 @@
       "p90": 40.36,
       "max": 46.36,
       "dhOver8": 5,
-      "policy": "2026-09-11g",
-      "note": "after site-wide tokens; before the article/glossary/DW sibling fixes (redeploy of 2,103 pages in progress)"
-    }
+      "policy": "2026-09-11g"
+    },
+    "_note": "latest run per template; article/glossary/program re-run after the sibling-variance fixes (2026-09-11 late); form/author/static/listing from the first run"
   }
 }
