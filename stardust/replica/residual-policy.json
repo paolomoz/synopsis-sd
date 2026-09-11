@@ -1,11 +1,10 @@
 {
- "version": "2026-09-11b",
+ "version": "2026-09-11d",
  "hideOnLive": [
   ".component-search-result",
   "[class*=\"coveo\"]",
   "atomic-search-interface",
   "atomic-external",
-  ".cmp-dynamiccards",
   "[data-blogsdev-type=\"browseByTags\"]",
   ".dwProductsDownloads .cmp-dynamiccards",
   ".contentTypeListing",
@@ -17,16 +16,33 @@
   ".onetrust-pc-dark-filter",
   ".mktoForm",
   "form.mktoForm",
-  "[data-blogsdev-type=\"mostRecentArticles\"][data-page-type=\"category\"]"
+  "[data-blogsdev-type=\"mostRecentArticles\"][data-page-type=\"category\"]",
+  "[data-blogsdev-type=\"categoryPage\"]"
  ],
  "hideOnBuild": [
-  ".carousel.blog",
   ".listing",
-  ".form form",
-  ".cmp-dynamiccards"
+  ".form form"
  ],
  "neutraliseOnLive": {
   ".two2575PinnedLeft, .two2575PinnedLeft > *": "position: static !important; top: auto !important"
  },
- "freeze": "*{animation:none!important;transition:none!important;caret-color:transparent!important}"
+ "freeze": "*{animation:none!important;transition:none!important;caret-color:transparent!important}",
+ "hideOnLiveByTemplate": {
+  "article": [
+   ".cmp-dynamiccards"
+  ],
+  "glossary": [
+   ".cmp-dynamiccards"
+  ]
+ },
+ "hideOnBuildByTemplate": {
+  "article": [
+   ".carousel.blog",
+   ".cmp-dynamiccards"
+  ],
+  "glossary": [
+   ".carousel.blog",
+   ".cmp-dynamiccards"
+  ]
+ }
 }

@@ -139,6 +139,7 @@ def rich(node, allow_headings=True, h_shift=0):
         if name in ('sup', 'sub'): return inner
         return inner
     def block(n):
+        if isinstance(n, NavigableString) and str(n).strip() == 'coveo-noindex': return  # source indexing marker text (DesignWare pages)
         if isinstance(n, (Comment, Doctype, CData, ProcessingInstruction)): return
         if isinstance(n, NavigableString):
             t = esc(re.sub(r'\s+', ' ', str(n))).strip()
@@ -157,7 +158,7 @@ def rich(node, allow_headings=True, h_shift=0):
             txt = inline_children(n)
             if clean_text(re.sub('<[^>]+>', '', txt)): out.append(f'<ul><li>{txt}</li></ul>')
             return
-        if name == 'p' and n.find('li', recursive=False) is not None:
+        if name == 'p' and (n.find('li', recursive=False) is not None or n.find(['table', 'ul', 'ol']) is not None):
             for c in n.children: block(c)
             return
         if name == 'p':
@@ -799,7 +800,7 @@ def convert_column(col, page, inherited_style=''):
         if aid: page.set_anchor(aid)
         return
     if t == 'breadcrumb':
-        items = col.select('nav > ul > li > a.parent')
+        items = col.select('nav > ul > li > a.parent') or col.select('nav ul > li > a')
         if items:
             lis = ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></li>' for a in items)
             page.add_block(block_table('breadcrumbs', [[f'<ul>{lis}</ul>']])); COVERAGE['breadcrumbs'] += 1
@@ -1034,7 +1035,13 @@ def import_page(raw_html, url, page_type=None):
     cols = [c for c in (top.find_all(recursive=False) if top else []) if isinstance(c, Tag)]
     if root is not None and 'site-content' in (root.get('class') or []):
         # DesignWare PHP pages (dw/ipdir, dw/doc…): no AEM grid; .site-content > container(breadcrumb) / container(page title) / background-component(column row)
-        cols = [c for c in root.find_all(recursive=False) if isinstance(c, Tag) and c.name not in ('br', 'script', 'style')]
+        cols = []
+        for c in root.find_all(recursive=False):
+            if not isinstance(c, Tag) or c.name in ('br', 'script', 'style'): continue
+            if c.find(class_='component-breadcrumb') is not None: c['class'] = ['breadcrumb']       # dispatch as the breadcrumb component
+            elif c.find(class_='component-page-title') is not None: c['class'] = ['pageTitle']     # dispatch as the page title (single h1)
+            cols.append(c)
+        page_type = 'dw'
     for col in cols: convert_column(col, page)
     if page_type == 'listing' and re.match(r'^/(blogs/[^/]+|articles|glossary)\.html$', url.replace(LIVE, '')) and not any('class="listing"' in x for sct in page.sections for x in sct['items']):
         page.new_section(); page.add_block(block_table('listing', [['<p>Most recent</p>']])); COVERAGE['listing'] += 1
@@ -1042,6 +1049,7 @@ def import_page(raw_html, url, page_type=None):
     meta_rows = [['<div>Title</div>', f'<div>{esc(title)}</div>'], ['<div>Description</div>', f'<div>{esc(desc)}</div>']]
     # source: the nav row sits transparent over the home banner carousel (nav absolute, white brand/links)
     if soup.select_one('[carousel-type="banner-carousel"]') is not None: meta_rows.append(['<div>Header-Theme</div>', '<div>dark</div>'])
+    if page_type == 'dw': meta_rows.append(['<div>Header-Theme</div>', '<div>plain</div>'])  # source PHP pages carry no utility bar
     if page_type: meta_rows.append(['<div>Template</div>', f'<div>{esc(page_type)}</div>'])
     page.template = page_type
     # index metadata for the article family (source: .cmp-blogbanner authors/date/read-time, eyebrow, page tags)

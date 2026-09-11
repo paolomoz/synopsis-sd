@@ -1,13 +1,14 @@
 // landmarks-generic.mjs <liveUrl> <buildUrl> [width] — y of every heading (matched by text) + first images, live vs build, top-down Δ
 import { chromium } from 'playwright';
 import { readFileSync } from 'node:fs';
-const [live, build, w = '1440'] = process.argv.slice(2);
+const [live, build, w = '1440', template = ''] = process.argv.slice(2);
 const policy = JSON.parse(readFileSync('stardust/replica/residual-policy.json', 'utf8'));
 const b = await chromium.launch();
 async function probe(url, isLive) {
   const p = await b.newPage({ viewport: { width: +w, height: 900 }, isMobile: +w < 600, hasTouch: +w < 600 });
   await p.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {}); await p.waitForTimeout(isLive ? 3500 : 2000);
-  const hide = (isLive ? policy.hideOnLive : policy.hideOnBuild).join(','); const neutral = isLive ? Object.entries(policy.neutraliseOnLive || {}).map(([k, v]) => `${k}{${v}}`).join('') : '';
+  const tmplHide = (isLive ? policy.hideOnLiveByTemplate : policy.hideOnBuildByTemplate)?.[template] || [];
+  const hide = [...(isLive ? policy.hideOnLive : policy.hideOnBuild), ...tmplHide].join(','); const neutral = isLive ? Object.entries(policy.neutraliseOnLive || {}).map(([k, v]) => `${k}{${v}}`).join('') : '';
   await p.addStyleTag({ content: `${hide}{display:none!important}${neutral}${policy.freeze}` }).catch(() => {});
   await p.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 700) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 60)); } window.scrollTo(0, 0); await new Promise((r) => setTimeout(r, 300)); });
   const r = await p.evaluate(() => {

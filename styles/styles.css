@@ -618,6 +618,89 @@ body.author main > .section.rail-right .author-wrapper {
   padding-left: 45px;
 }
 
+/* ---- DesignWare PHP pages (template dw, header plain) — live @1440: crumbs 41 · title band 65 · detail 848 | rail 263 ---- */
+body.dw main > .section.breadcrumbs-container .breadcrumbs {
+  padding: 10px 0;
+}
+
+body.dw main > .section:not(.breadcrumbs-container, .main, .rail-right) {
+  padding: 0;
+}
+
+body.dw main > .section .default-content-wrapper h1 {
+  margin: 15px 0;
+  color: var(--purple-dark);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 35.2px;
+  text-align: left;
+}
+
+body.dw main > .section.main {
+  padding: 0 0 60px;
+}
+
+body.dw main > .section.main .default-content-wrapper > p:first-child {
+  margin-top: 24px;
+}
+
+body.dw main > .section.main .default-content-wrapper h5 {
+  margin: 15px 0;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 28.6px;
+}
+
+body.dw main > .section.main .table table {
+  border: 0;
+  font-size: 14px;
+  line-height: 25.6px;
+}
+
+body.dw main > .section.main .table td {
+  padding: 2px 3px;
+  border: 0;
+  font-weight: 300;
+}
+
+body.dw main > .section.main .table td:first-child {
+  width: 105px;
+  padding-right: 4px;
+  text-align: right;
+}
+
+body.dw main > .section.main .table tbody tr:nth-child(even) td {
+  background: none;
+}
+
+body.dw main > .section.rail-right {
+  width: 263px;
+  max-width: 263px;
+  margin-right: max(15px, calc((100% - var(--container)) / 2 + 15px));
+  padding: 21px 0 0;
+}
+
+body.dw main > .section.rail-right > div {
+  padding: 0;
+}
+
+body.dw main > .section.rail-right .default-content-wrapper p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+body.dw main > .section.rail-right .default-content-wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+body.dw main > .section.rail-right .default-content-wrapper li {
+  padding: 4px 0;
+}
+
 /* ---- page templates (metadata Template → body class) ---- */
 
 /* page title (pageTitle component) */

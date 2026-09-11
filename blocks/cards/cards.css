@@ -136,7 +136,7 @@
 
 /* ---- asset: resource cards, 3/4-up ---- */
 .cards.asset > ul {
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); /* source .component-card-container.col-3/.col-4: three cards fill the row at 350px */
 }
 
 .cards.asset > ul > li {

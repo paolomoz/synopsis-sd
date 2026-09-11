@@ -19,7 +19,8 @@ const b = await chromium.launch(); const dir = opt('--dir') || `stardust/replica
 async function shot(url, isLive, file) {
   const p = await b.newPage({ viewport: { width: W, height: 900 }, isMobile: W < 600, hasTouch: W < 600 });
   await p.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {}); await p.waitForTimeout(isLive ? 3500 : 2000);
-  const hide = (isLive ? policy.hideOnLive : policy.hideOnBuild).join(',');
+  const tmplHide = (isLive ? policy.hideOnLiveByTemplate : policy.hideOnBuildByTemplate)?.[template] || [];
+  const hide = [...(isLive ? policy.hideOnLive : policy.hideOnBuild), ...tmplHide].join(',');
   const neutral = isLive ? Object.entries(policy.neutraliseOnLive || {}).map(([k, v]) => `${k}{${v}}`).join('') : '';
   await p.addStyleTag({ content: `${hide}{display:none!important}${neutral}${policy.freeze}` }).catch(() => {});
   if (isLive) { for (const s of ['#onetrust-accept-btn-handler']) { await p.click(s, { timeout: 800 }).catch(() => {}); } }
