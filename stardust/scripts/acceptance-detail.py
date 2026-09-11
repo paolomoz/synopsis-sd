@@ -2,7 +2,7 @@
 """acceptance-detail.py <template> <field> [n] — show concrete missing items with their source container for sample pages."""
 import sys, json, os, re, html, collections
 from bs4 import BeautifulSoup
-sys.argv, args = ['x'], sys.argv[1:]
+args = list(sys.argv[1:]); sys.argv = ['x']
 sys.path.insert(0, 'stardust/scripts'); import importlib.util
 spec = importlib.util.spec_from_file_location('imp', 'stardust/scripts/importer.py'); IMP = importlib.util.module_from_spec(spec); spec.loader.exec_module(IMP)
 INDEX = json.load(open('stardust/raw/_index.json')); LIVE = 'https://www.synopsys.com'

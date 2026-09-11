@@ -18,7 +18,11 @@ LIVE = 'https://www.synopsys.com'
 EXCLUDE = ['.cmp-experiencefragment--topnav', '.cmp-experiencefragment--chatbot', '.cmp-experiencefragment--footer', 'header.topNav', '.topNav',
            'footer', '#legal-overlay', '.slick-cloned', '.ui-helper-hidden-accessible', '.sr-only', 'script', 'style', 'noscript', 'template',
            '.pre-header', '.search-header', '.utility-nav', '[data-blogsdev-type="browseByTags"]', '[data-blogsdev-type="mostRecentArticles"]',
-           '.component-breadcrumb', '.cmp-breadcrumb', 'iframe', 'svg']
+           '.component-breadcrumb', '.cmp-breadcrumb', 'iframe', 'svg', '.navList',
+           '.component-search-result',   # blog sub-nav = Coveo atomic search interface (JS-only, registered residual)
+           '.zoom-container',            # lightbox duplicate of an inline figure
+           '.cmp-dynamiccards',          # "Continue Reading" JS feed (rebuilt from the query index on EDS)
+           'img[src*="_jcr_content/"]']  # AEM rendition duplicates of the same figure
 
 def norm(t): return re.sub(r'\s+', ' ', html.unescape(t or '')).strip().lower()
 def nhref(h):
@@ -31,21 +35,29 @@ def nhref(h):
         h = h.rstrip('/') or '/'
     return h.lower()
 
+def container(e):
+    for p in e.parents:
+        cls = ' '.join(p.get('class') or [])
+        m = re.search(r'(component-[a-zA-Z-]+|cmp-[a-zA-Z-]+|navList|pageList|railCard|text|column|carousel|calltoaction)', cls)
+        if m: return m.group(1)
+    return '?'
+
 def inventory(soup, root):
     for sel in EXCLUDE:
         for e in root.select(sel): e.decompose()
     heads = [norm(h.get_text(' ')) for h in root.find_all(['h1', 'h2', 'h3', 'h4']) if norm(h.get_text(' '))]
-    links = {}
+    links = {}; lctn = {}
     for a in root.find_all('a'):
         h = nhref(a.get('href')); t = norm(a.get_text(' '))
-        if h and (t or a.find('img')): links.setdefault(h, t)
-    imgs = [i for i in root.find_all('img') if (i.get('src') or '').strip() and not (i.get('src') or '').startswith('data:')]
+        if h and (t or a.find('img')): links.setdefault(h, t); lctn.setdefault(h, container(a))
+    hctn = {norm(h.get_text(' ')): container(h) for h in root.find_all(['h1', 'h2', 'h3', 'h4'])}
+    imgs = {re.sub(r'[?#].*$', '', (i.get('src') or '').strip()) for i in root.find_all('img') if (i.get('src') or '').strip() and not (i.get('src') or '').startswith('data:')}
     text = norm(root.get_text(' '))
-    return {'headings': heads, 'links': links, 'images': len(imgs), 'words': len(text.split()), 'text': text}
+    return {'headings': heads, 'links': links, 'images': len(imgs), 'words': len(text.split()), 'text': text, 'lctn': lctn, 'hctn': hctn}
 
 def source_inventory(path):
     soup = BeautifulSoup(open(path, encoding='utf-8', errors='ignore').read(), PARSER)
-    root = soup.select_one('.root.synopsysContainer') or soup.body or soup
+    root = soup.select_one('.root.synopsysContainer') or soup.select_one('.site-content') or soup.body or soup
     return inventory(soup, root)
 
 def build_inventory(path):
@@ -60,8 +72,9 @@ def build_inventory(path):
 def one(raw):
     slug = os.path.basename(raw)[:-5]
     rec = INDEX.get(slug, {}); url = rec.get('url') or (LIVE + '/' + slug.replace('__', '/') + '.html')
-    cpath = IMP.out_path_for(url, 'content')
-    web = '/' + cpath[len('content/'):-5]
+    cdir = os.environ.get('CONTENT_DIR', 'content')
+    cpath = IMP.out_path_for(url, cdir)
+    web = '/' + cpath[len(cdir) + 1:-5]
     if not os.path.exists(cpath): return {'path': web, 'error': 'no imported document'}
     try:
         S = source_inventory(raw); B = build_inventory(cpath)
@@ -71,8 +84,9 @@ def one(raw):
     missing_heads = [h for h in S['headings'] if h not in bheads]
     dropped = [h for h in missing_heads if h not in btext]          # text gone entirely
     retagged = [h for h in missing_heads if h in btext]              # present as other role
-    missing_links = [(h, t) for h, t in S['links'].items() if h not in B['links'] and (t and t in btext or not t)]
-    missing_link_text = [(h, t) for h, t in S['links'].items() if h not in B['links'] and t and t not in btext]
+    missing_links = [(h, t, S['lctn'].get(h, '?')) for h, t in S['links'].items() if h not in B['links'] and (t and t in btext or not t)]
+    missing_link_text = [(h, t, S['lctn'].get(h, '?')) for h, t in S['links'].items() if h not in B['links'] and t and t not in btext]
+    dropped = [(h, S['hctn'].get(h, '?')) for h in dropped]
     return {'path': web, 'template': B['template'],
             'src': {'headings': len(S['headings']), 'links': len(S['links']), 'images': S['images'], 'words': S['words']},
             'build': {'headings': len(B['headings']), 'links': len(B['links']), 'images': B['images'], 'words': B['words']},
@@ -85,7 +99,7 @@ if __name__ == '__main__':
     raws = sorted(f for f in glob.glob('stardust/raw/*.html') if not os.path.basename(f).startswith('_'))
     if len(sys.argv) > 1 and sys.argv[1].isdigit(): raws = raws[:int(sys.argv[1])]
     with Pool(max(2, os.cpu_count() - 2)) as pool: rows = pool.map(one, raws, chunksize=8)
-    json.dump({'parser': PARSER, 'pages': len(rows), 'rows': rows}, open('stardust/content-acceptance.json', 'w'), indent=0)
+    json.dump({'parser': PARSER, 'pages': len(rows), 'rows': rows}, open(os.environ.get('ACCEPTANCE_OUT', 'stardust/content-acceptance.json'), 'w'), indent=0)
     ok = [r for r in rows if 'error' not in r]
     by = collections.defaultdict(list)
     for r in ok: by[r['template']].append(r)
@@ -93,6 +107,8 @@ if __name__ == '__main__':
     print(f"{'template':10s} {'pages':>5s} {'dropH':>6s} {'retagH':>6s} {'unlinked':>8s} {'dropLink':>8s} {'img<':>5s} {'words<0.9':>9s}")
     for t, rs in sorted(by.items(), key=lambda x: -len(x[1])):
         print(f"{t:10s} {len(rs):5d} {sum(1 for r in rs if r['droppedHeadings']):6d} {sum(1 for r in rs if r['retaggedHeadings']):6d} {sum(1 for r in rs if r['unlinked']):8d} {sum(1 for r in rs if r['droppedLinks']):8d} {sum(1 for r in rs if r['imageDelta'] < 0):5d} {sum(1 for r in rs if (r['wordRatio'] or 1) < 0.9):9d}")
-    dh = collections.Counter(h for r in ok for h in r['droppedHeadings']); print('\ntop dropped headings:', dh.most_common(12))
-    dl = collections.Counter(t for r in ok for _, t in r['droppedLinks']); print('top dropped link texts:', dl.most_common(12))
-    ul = collections.Counter(t for r in ok for _, t in r['unlinked']); print('top unlinked texts:', ul.most_common(12))
+    dh = collections.Counter(h for r in ok for h, _ in r['droppedHeadings']); print('\ntop dropped headings:', dh.most_common(10))
+    dhc = collections.Counter(c for r in ok for _, c in r['droppedHeadings']); print('dropped headings by container:', dhc.most_common(8))
+    dlc = collections.Counter(c for r in ok for _, _, c in r['droppedLinks']); print('dropped links by container:', dlc.most_common(10))
+    ulc = collections.Counter(c for r in ok for _, _, c in r['unlinked']); print('unlinked by container:', ulc.most_common(8))
+    dl = collections.Counter(t for r in ok for _, t, _ in r['droppedLinks']); print('top dropped link texts:', dl.most_common(10))

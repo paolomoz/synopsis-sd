@@ -86,6 +86,21 @@ def biggest_src(img):
         if best: return absurl(html.unescape(best))
     return absurl(html.unescape(img.get('src') or img.get('data-src') or ''))
 
+def box_label_html(lab):
+    if lab is None: return ''
+    top = lab.select_one('a[href]') if lab.name != 'a' else lab
+    t = esc(clean_text(lab.get_text()))
+    return f'<p><strong><a href="{esc(localize(top.get("href")))}">{t}</a></strong></p>' if top is not None and top.get('href') else f'<p><strong>{t}</strong></p>'
+
+def linked_img_html(img, alt=None):
+    """img_html wrapped in the source link when the image sits inside an <a> of its own component (linked figures, image tiles)."""
+    h = img_html(img, alt)
+    if not h: return ''
+    a = img.find_parent('a')
+    if a is not None and a.get('href') and not a.get('href').strip().lower().startswith(('#', 'javascript:')) and a.find_parent(class_=re.compile('component-image|image|mediaLinkTile|cmp-image')) is not None or (a is not None and a.get('href') and a.find_parent(class_='aem-GridColumn') is not None and a.find_parent(class_='aem-GridColumn') is img.find_parent(class_='aem-GridColumn') and not clean_text(a.get_text())):
+        return f'<a href="{esc(localize(a.get("href")))}">{h}</a>'
+    return h
+
 def img_html(img, alt=None):
     if img is None: return ''
     src = biggest_src(img)
@@ -116,6 +131,7 @@ def rich(node, allow_headings=True, h_shift=0):
         if name == 'picture': return img_html(n.find('img'))
         inner = ''.join(inline(c) for c in n.children)
         if name == 'a' and n.get('href'):
+            if n['href'].strip().lower().startswith('javascript:'): return inner  # source in-page scripts (show/hide) — text only
             return f'<a href="{esc(localize(n["href"]))}">{inner}</a>'
         if name in ('strong', 'b'): return f'<strong>{inner}</strong>' if inner.strip() else ''
         if name in ('em', 'i'): return f'<em>{inner}</em>' if inner.strip() else ''
@@ -288,12 +304,13 @@ def banner_family(soup):
 def handle_blogbanner(col, page):
     sec = col.find(class_='cmp-blogbanner')
     if sec is None: return False
-    cat = sec.select_one('.breadcrumb a')
+    crumbs = [a for a in sec.select('.breadcrumb a') if clean_text(a.get_text()) and a.get('href')]  # banner breadcrumb: Home / Silicon to Systems
+    cat = None
     h1 = sec.find('h1')
     authors = [a for a in sec.select('.authors a')]
     date = sec.select_one('.date'); rt = sec.select_one('.read-time')
     cell = ''
-    if cat: cell += f'<p><a href="{esc(localize(cat.get("href")))}">{esc(clean_text(cat.get_text()))}</a></p>'
+    if crumbs: cell += '<p>' + ' / '.join(f'<a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a>' for a in crumbs) + '</p>'
     if h1: cell += f'<h1>{esc(clean_text(h1.get_text(" ")))}</h1>'; page.h1_used = True
     if authors: cell += '<p>' + ', '.join(f'<a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a>' for a in authors) + '</p>'
     meta = ' / '.join(clean_text(x.get_text()) for x in (date, rt) if x)
@@ -336,8 +353,8 @@ def handle_text(col, page):
     if body is not None:
         h += rich(body, allow_headings=True)
     # buttons inside text components
-    for b in sec.select('.component-button a'):
-        if b.find_parent(class_='component-text') is None: h += cta_html(b, 'primary')
+    for b in sec.select('.component-button a, a.component-button'):
+        if b.find_parent(class_='component-text') is None and b.get('href'): h += cta_html(b, 'secondary' if 'secondary' in ' '.join(b.get('class') or []) + ' '.join((b.parent.get('class') or [])) else 'primary')
     for b in sec.select('a.cta-link'):
         if b.find_parent(class_='component-text') is None: h += f'<p><a href="{esc(localize(b.get("href")))}">{esc(clean_text(b.get_text(" ")))}</a></p>'
     if h: page.add_default(h, style)
@@ -493,10 +510,25 @@ def handle_column(col, page):
     cols = [c for c in sec.find_all(recursive=False) if isinstance(c, Tag) and 'snps-col-divider' not in ' '.join(c.get('class') or [])]
     def span_of(c):
         m = re.search(r'col-sm-(\d+)', ' '.join(c.get('class') or [])); return int(m.group(1)) if m else 12
+    # single column whose grid starts with text components (a heading band) followed by a component (cards XF, box links…):
+    # emit the text first as default content, then let the remainder pick its block pattern
+    if len(cols) == 1:
+        kids = grid_children(cols[0]) or []
+        lead = []
+        for k in kids:
+            if col_type(k) in ('text',) and k.select_one('.component-textcomp, .component-text, .component-rte') is not None: lead.append(k)
+            else: break
+        if lead and len(kids) > len(lead):
+            for k in lead: convert_column(k, page); k.decompose()
     # a slick/dynamic-cards carousel nested in the column (source "Continue Reading") keeps its carousel nature
     car = sec.select_one('.component-content-carousel, .slick-carousel, .cmp-dynamiccards')
     if car is not None and car.select_one('.component-card-b, .component-assetcard') and not sec.select_one('.component-author-profile'):
-        if handle_carousel(car.find_parent(class_=re.compile('aem-GridColumn')) or car, page): return True
+        carcol = car.find_parent(class_=re.compile('aem-GridColumn')) or car
+        if handle_carousel(carcol, page):
+            # the carousel is one component of the column, not the column: drop it from the tree and keep converting the rest
+            carcol.decompose()
+            cols = [c for c in sec.find_all(recursive=False) if isinstance(c, Tag) and 'snps-col-divider' not in ' '.join(c.get('class') or [])]
+            if not any(clean_text(c.get_text()) or c.find('img') for c in cols): return True
     # article 25/75 layout: left rail (toc / subscribe / share / blurbs) + right content column
     if any('two2575' in ' '.join(c.get('class') or []) for c in cols) or (len(cols) == 2 and sec.select_one('.cmp-tableofcontents')):
         left = next((c for c in cols if 'two2575' in ' '.join(c.get('class') or []) or c.select_one('.cmp-tableofcontents')), cols[0])
@@ -547,7 +579,11 @@ def handle_column(col, page):
         rail = cols[1]; main = cols[0]
         page.new_section('rail-right')
         def rail_walk(node):
-            for sub in grid_children(node) or []:
+            kids = grid_children(node) or []
+            if not kids:
+                inh = node.select_one('.par, .iparys_inherited')
+                kids = [c for c in (inh.find_all(recursive=False) if inh is not None else node.find_all(recursive=False)) if isinstance(c, Tag) and c.name not in ('br', 'script', 'style')]
+            for sub in kids:
                 st = col_type(sub)
                 if st == 'experiencefragment': rail_walk(sub); continue
                 if sub.select_one('form') and not sub.select_one('.component-calltoaction, a[href]'): continue
@@ -572,15 +608,26 @@ def handle_column(col, page):
         if imgc is not None and span_of(imgc) <= 4:
             other = cols[1] if imgc is cols[0] else cols[0]
             sp = span_of(imgc); variant = 'narrow' if sp <= 3 else 'third'
-            ih = ''.join(f'<p>{img_html(i)}</p>' for i in imgc.select('img') if img_html(i))
+            ih = ''.join(f'<p>{linked_img_html(i)}</p>' for i in imgc.select('img') if img_html(i))
             th = ''.join(convert_inline_column(sub, page) for sub in grid_children(other) or [other])
             if ih and th:
                 cells = [ih, th] if imgc is cols[0] else [th, ih]
                 page.add_block(block_table('columns media' + (' ' + variant if variant else '') + ('' if imgc is cols[0] else ' image-right'), [cells]), style); COVERAGE['columns media'] += 1
                 return True
+    # one content column with MIXED grid children (text bands + a cards grid + more text): convert in authored order —
+    # a block pattern (cards / box links / people) must never swallow the sibling text components
+    content_cols = [c for c in cols if clean_text(c.get_text()) or c.find('img') is not None]
+    if len(content_cols) == 1:
+        kids = grid_children(content_cols[0]) or []
+        types = [col_type(k) for k in kids]
+        if len(kids) > 1 and any(t in ('text', 'richTextEditor', 'htmlTextOnly') for t in types) and any(t not in ('text', 'richTextEditor', 'htmlTextOnly') for t in types):
+            for sub in kids: convert_column(sub, page, inherited_style=style)
+            COVERAGE['mixed-column'] += 1
+            return True
     cards_b = sec.select('.component-card-b')[:60]  # html2md caps a document at 200 images (author archive pages)
-    bio = next((c for c in cols if c.find('img') is not None and c.find(['h2', 'h3']) is not None and not c.select_one('.component-card-b')), None)
-    if cards_b and bio is not None:
+    # author layout fallback: a NARROW profile column (photo + name) beside a card list — never a full-width content column
+    bio = next((c for c in cols if span_of(c) <= 4 and c.find('img') is not None and c.find(['h2', 'h3']) is not None and not c.select_one('.component-card-b')), None)
+    if cards_b and len(cards_b) >= 2 and bio is not None:
         h = bio.find(['h2', 'h3']); name = clean_text(h.get_text(' ')) if h else ''
         img = bio.find('img'); paras = [p for p in bio.select('p') if clean_text(p.get_text()) and not p.find('img')]
         tag = 'h1' if not page.h1_used else 'h2'; page.h1_used = page.h1_used or tag == 'h1'
@@ -629,7 +676,7 @@ def handle_column(col, page):
         rows = []
         for b in boxes:
             lab = b.select_one('.topLabel'); links = b.select('.dropdown-link a')
-            rows.append([f'<p><strong>{esc(clean_text(lab.get_text()))}</strong></p>' if lab else '', '<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></li>' for a in links) + '</ul>'])
+            rows.append([box_label_html(lab), '<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></li>' for a in links) + '</ul>'])
         page.add_block(block_table('box-links', rows), style); COVERAGE['box-links'] += 1; return True
     if len(cols) >= 2:
         cells = []; has_img_only = False
@@ -663,6 +710,19 @@ def convert_inline_column(col, page):
             if 'cta-link' in (b.get('class') or []): h += f'<p><a href="{esc(localize(b.get("href")))}">{esc(clean_text(b.get_text(" ")))}</a></p>'
             else: h += cta_html(b, 'secondary' if 'secondary' in ' '.join(b.get('class') or []) else 'primary')
         return h
+    if t == 'pageList' or col.select_one('.component-pageList') is not None:
+        pl = col.select_one('.component-pageList') or col; ttl = pl.select_one('h2, h3, h4, .title')
+        items = [a for a in pl.select('a[href]') if clean_text(a.get_text())]
+        return (f'<p><strong>{esc(clean_text(ttl.get_text(" ")))}</strong></p>' if ttl is not None and clean_text(ttl.get_text()) else '') + ('<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text(" ")))}</a></li>' for a in items) + '</ul>' if items else '')
+    if t == 'image':
+        im = col.find('img')
+        return f'<p>{linked_img_html(im)}</p>' if im is not None and img_html(im) else ''
+    if t == 'faq':
+        out = ''
+        for it in col.select('.accordion-list .item'):
+            q = it.select_one('.title h4, .title h3, .title'); d = it.select_one('.detail')
+            out += (f'<p><strong>{esc(clean_text(q.get_text(" ")))}</strong></p>' if q else '') + (rich(d, allow_headings=False) if d else '')
+        return out
     if t == 'keyBenefits':
         return ''.join(f'<p>{img_html(kb.find("img"))}</p><p>{esc(clean_text(kb.select_one(".cmp-key-benefits__title").get_text()))}</p>' for kb in col.select('.cmp-key-benefits'))
     if t in ('cards',):
@@ -706,8 +766,13 @@ def handle_generic(col, page, name):
     h = rich(col, allow_headings=True)
     if clean_text(re.sub('<[^>]+>', '', h)) or '<img' in h: page.add_default(h, bg_of(col))
 
+COMPONENT_TYPE = {'component-railCard': 'rightRailItem', 'component-pageList': 'pageList', 'component-calltoaction': 'callToAction', 'component-textcomp': 'text', 'component-rte': 'text', 'component-downloads': 'downloads', 'component-image': 'image', 'component-faq': 'faq', 'component-boxLink': 'boxLink'}
 def convert_column(col, page, inherited_style=''):
     t = col_type(col)
+    if t.startswith('component-'): t = COMPONENT_TYPE.get(t, t[len('component-'):])
+    if t in ('background-component', 'container') and col.find(class_='component-column') is not None and col.find(class_='aem-Grid') is None:
+        # bare column row inside a background/container wrapper (DesignWare PHP pages): the column layouts apply
+        if handle_column(col, page): return
     cls = ' '.join(col.get('class') or [])
     if 'cmp-experiencefragment--topnav' in str(col.get('class')): return
     if t in ('experiencefragment',):
@@ -765,7 +830,7 @@ def convert_column(col, page, inherited_style=''):
         boxes = col.select('.component-boxLink'); rows = []
         for b in boxes:
             lab = b.select_one('.topLabel'); links = b.select('.dropdown-link a')
-            rows.append([f'<p><strong>{esc(clean_text(lab.get_text()))}</strong></p>' if lab else '', '<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></li>' for a in links) + '</ul>'])
+            rows.append([box_label_html(lab), '<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></li>' for a in links) + '</ul>'])
         if rows: page.add_block(block_table('box-links', rows), bg_of(col)); COVERAGE['box-links'] += 1
         return
     if t == 'floatingTabs':
@@ -827,7 +892,10 @@ def convert_column(col, page, inherited_style=''):
         return
     if t == 'image':
         im = col.find('img')
-        if im is not None and img_html(im): page.add_default(f'<p>{img_html(im)}</p>', bg_of(col)); COVERAGE['image'] += 1
+        if im is not None and img_html(im):
+            a = im.find_parent('a')
+            ih = f'<a href="{esc(localize(a.get("href")))}">{img_html(im)}</a>' if a is not None and a.get('href') and not a.get('href').startswith(('#', 'javascript:')) else img_html(im)
+            page.add_default(f'<p>{ih}</p>', bg_of(col)); COVERAGE['image'] += 1
         return
     if t in ('subscriptionForm', 'marketoFormsContainer', 'marketoForm'):
         # text column (title/description) → default content; the form → form block (labels + submit)
@@ -871,6 +939,13 @@ def convert_column(col, page, inherited_style=''):
         h = rich(col, allow_headings=True)
         if h: page.add_default(h, bg_of(col)); COVERAGE['table'] += 1
         return
+    if t == 'pageList' or col.select_one('.component-pageList') is not None and t in ('pageList', 'column'):
+        pl = col.select_one('.component-pageList') or col
+        ttl = pl.select_one('h2, h3, h4, .title')
+        items = [a for a in pl.select('ul.pageLinks a[href], a.pageLink[href]') if clean_text(a.get_text())]
+        if items:
+            h = (f'<p><strong>{esc(clean_text(ttl.get_text(" ")))}</strong></p>' if ttl is not None and clean_text(ttl.get_text()) else '') + '<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text(" ")))}</a></li>' for a in items) + '</ul>'
+            page.add_default(h, bg_of(col)); COVERAGE['pageList'] += 1; return
     if t in ('socialShare', 'search', 'separator', 'synopsysContainer', 'topNavAd', 'navList', 'subNavLinks'):
         if t == 'synopsysContainer':
             for sub in grid_children(col): convert_column(sub, page)
@@ -928,7 +1003,7 @@ def import_page(raw_html, url, page_type=None):
     title = clean_text(soup.title.get_text()) if soup.title else ''
     desc_el = soup.find('meta', attrs={'name': 'description'}); desc = clean_text(desc_el.get('content')) if desc_el else ''
     ogi = soup.find('meta', attrs={'property': 'og:image'}); og_image = ogi.get('content') if ogi else ''
-    root = soup.select_one('.root.synopsysContainer') or soup.body
+    root = soup.select_one('.root.synopsysContainer') or soup.select_one('.site-content') or soup.body
     page = Page(); page.h1_used = False; page.banner_family = banner_family(soup)
     if not page_type:
         path = url.replace(LIVE, '')
@@ -943,6 +1018,9 @@ def import_page(raw_html, url, page_type=None):
         else: page_type = 'program' 
     top = root.find(class_='aem-Grid') if root else None
     cols = [c for c in (top.find_all(recursive=False) if top else []) if isinstance(c, Tag)]
+    if root is not None and 'site-content' in (root.get('class') or []):
+        # DesignWare PHP pages (dw/ipdir, dw/doc…): no AEM grid; .site-content > container(breadcrumb) / container(page title) / background-component(column row)
+        cols = [c for c in root.find_all(recursive=False) if isinstance(c, Tag) and c.name not in ('br', 'script', 'style')]
     for col in cols: convert_column(col, page)
     if page_type == 'listing' and re.match(r'^/(blogs/[^/]+|articles|glossary)\.html$', url.replace(LIVE, '')) and not any('class="listing"' in x for sct in page.sections for x in sct['items']):
         page.new_section(); page.add_block(block_table('listing', [['<p>Most recent</p>']])); COVERAGE['listing'] += 1
