@@ -1340,3 +1340,8 @@ main > .section.img-pad-lg .default-content-wrapper > p > picture > img { paddin
 
 /* DesignWare rail card: the CTA group ends with the source .component-text margin-bottom (21.9px) */
 body.dw main > .section.rail-right .default-content-wrapper > p.button-wrapper:last-child { margin-bottom: 22px; }
+
+/* a demoted section title (source h2.text-size-smaller) opens its band flush at the top */
+body:is(.article, .glossary) main .section .default-content-wrapper > h3:first-child {
+  margin-top: 0;
+}
