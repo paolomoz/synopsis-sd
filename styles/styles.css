@@ -1246,13 +1246,18 @@ a .prosemirror-editor a:any-link {
 
   body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 {
     margin: 0 0 15px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 30px; /* source: h1 is 20px but its span.text-size-larger renders 30px/42px */
+    line-height: 42px;
   }
 
-  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper :is(p, li) {
-    font-size: 15px;
-    line-height: 24px;
+  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper p {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+
+  body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper li {
+    font-size: 16px;
+    line-height: 25.6px;
   }
 
   body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper p:has(+ p) {

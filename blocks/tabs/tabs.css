@@ -142,3 +142,13 @@
 @media (width <= 729px) {
   .tabs.horizontal .tabs-panel-head { display: block; }
 }
+
+/* horizontal tabs on mobile: accordion headers (source .tab-header 44px, #f7f7fa, title 15px padded 10/28/10/10, body 40px below) */
+@media (width <= 729px) {
+  .tabs.horizontal { margin: 0; }
+  .tabs.horizontal .tabs-nav { display: none; }
+  .tabs.horizontal .tabs-panels { padding-top: 0; }
+  .tabs.horizontal .tabs-panel { display: block !important; margin: 0; padding: 0; }
+  .tabs.horizontal .tabs-panel-head { display: block; margin: 0 0 40px; padding: 10px 28px 10px 10px; border-bottom: 0; background: #f7f7fa; color: var(--ink); font-size: 15px; font-weight: 300; line-height: 24px; }
+  .tabs.horizontal .tabs-panel > .tabs-panel-head + :is(p, ul, ol) { margin-top: 0; }
+}
