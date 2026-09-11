@@ -1,0 +1,5 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 360, height: 640 }, isMobile: true, hasTouch: true });
+await p.goto('https://www.synopsys.com/', { waitUntil: 'domcontentloaded' }); await p.waitForTimeout(3000);
+console.log(await p.evaluate(() => { const e = document.querySelector('.cmp-carousel__item--active .bg-mobile'); const c = getComputedStyle(e); const btn = document.querySelector('.cmp-carousel__item--active .component-button'); const bc = btn ? getComputedStyle(btn) : {}; const pause = document.querySelector('[carousel-type="banner-carousel"] .pause, [carousel-type="banner-carousel"] button[class*="pause"], [carousel-type="banner-carousel"] .slick-pause'); return JSON.stringify({ bgi: c.backgroundImage, bgc: c.backgroundColor, btn: btn ? [btn.getBoundingClientRect().width, btn.getBoundingClientRect().height, bc.backgroundColor, bc.borderRadius] : null, pause: pause ? [pause.className, ...Object.values(pause.getBoundingClientRect().toJSON()).map(Math.round)] : null }); }));
+await b.close();

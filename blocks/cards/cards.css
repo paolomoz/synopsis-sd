@@ -426,7 +426,7 @@ main > .section.cards-container:has(.cards.people) {
   .cards.pillars .cards-card-body { inset: 205px 41px auto; }
   .cards.pillars .cards-card-body p { display: block; margin: 16px 0 4px; font-size: 16px; font-weight: 300; line-height: 25.6px; }
   .cards.pillars .cards-card-cta { display: block; margin: 4px 0 0; }
-  .cards.pillars .cards-card-cta a:any-link { display: inline-block; margin: 4px; padding: 8px 25px; border: 1px solid #fff; border-radius: 5px; color: #fff; font-size: 16px; font-weight: 300; line-height: 25.6px; }
+  .cards.pillars .cards-card-cta a:any-link { display: inline-block; margin: 4px; padding: 8px 25px; border: 0; color: #fff; font-size: 16px; font-weight: 300; line-height: 25.6px; }
   .cards.people > ul, .cards.people > ul:has(> li:only-child) { grid-template-columns: 1fr; }
   .cards.people > ul > li { width: 70%; max-width: none; margin: 0 auto 30px; }
   .cards.news > ul > li { grid-template-columns: 1fr; }

@@ -118,6 +118,7 @@
   content: none;
 }
 
+.hero.carousel .hero-actions a.button::after,
 .hero.connect .hero-actions a.button::after {
   content: "";
   display: block;
@@ -419,7 +420,7 @@
 @media (width <= 729px) {
   .hero.carousel {
     height: 560px;
-    background: linear-gradient(107.7deg, #000 0, #111 100%);
+    background: linear-gradient(107.7deg, #000 0, #191c20 35%, #646e81 100%); /* live .bg-mobile.black-gradient */
   }
 
   .hero.carousel .hero-media {
@@ -455,6 +456,7 @@
   }
 
   .hero.carousel .hero-title :is(h1, h2) {
+    max-width: 250px; /* live authors the title as two bold lines ("Introducing Synopsys" / "Physical AI Solutions") */
     margin: 0 0 30px;
     font-size: 20px;
     font-weight: 700;
@@ -509,8 +511,8 @@
   }
 
   .hero.carousel .hero-pause {
-    right: 24px;
-    bottom: 30px;
+    right: 36px;
+    bottom: 29px;
     width: 24px;
     height: 24px;
   }
