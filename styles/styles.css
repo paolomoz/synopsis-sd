@@ -580,7 +580,16 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p > a:o
   }
 
   body.landing main > .section.carousel-container {
-    padding: 40px 0 84px;
+    padding: 40px 0 60px;
+  }
+
+  /* stacked support columns: 18px between the two text blocks (live col 169 = 151 content + 18) */
+  body.landing main .columns-container .columns:not(.benefits) > div {
+    gap: 0;
+  }
+
+  body.landing main .columns-container .columns:not(.benefits) > div > div:last-child {
+    margin-top: 18px;
   }
 
   body.landing main .columns-container .columns:not(.benefits) > div > div h2 {

@@ -484,11 +484,13 @@
     gap: 15.5px;
   }
 
-  .hero.carousel .hero-dots button {
+  .hero.carousel .hero-dots button,
+  .hero.carousel .hero-dots button[aria-selected="true"] {
     width: 40px;
     height: 8px;
     margin: 0;
     padding: 4px 0;
+    background: transparent; /* the 2px bar is the ::before, not the button box */
     font-size: 0;
     line-height: 0;
     color: transparent;
