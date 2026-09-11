@@ -233,17 +233,31 @@ def col_type(col):
     cls = col.get('class') or []
     return cls[0] if cls else ''
 
-PAD_TOKENS = False  # set per page: article/glossary bands carry their authored vertical padding as section styles
-def bg_of(col):
-    bc = col.find(class_='background-component')
+PAD_TOKENS = False  # set per page: bands carry their authored vertical padding (vert-pad-*) as section styles
+def _pad_tokens(cls, top=True, bottom=True):
     toks = []
-    if bc is not None and 'light-grey-bg' in (bc.get('class') or []): toks.append('tinted')
-    if PAD_TOKENS and bc is not None:
-        cls = ' '.join(bc.get('class') or [])
-        for side, key in (('top', 'pt'), ('bottom', 'pb')):
-            m = re.search(r'vert-pad-' + side + r'-(xs|sm|md|lg)', cls)
-            if m: toks.append(f'{key}-{m.group(1)}')
-    return ', '.join(toks)
+    for side, key, on in (('top', 'pt', top), ('bottom', 'pb', bottom)):
+        if not on: continue
+        m = re.search(r'vert-pad-' + side + r'-(xs|sm|md|lg)', cls)
+        if m: toks.append(f'{key}-{m.group(1)}')
+    return toks
+def bg_of(col):
+    """Section style tokens for a grid column: tint + authored padding. The padding may sit on a background-component
+    INSIDE the column (one band) or on an ANCESTOR wrapping several columns (a group): the group's top padding belongs
+    to its first column, its bottom padding to its last."""
+    toks = []
+    bc = col.find(class_='background-component')
+    anc = col.find_parent(class_='background-component')
+    tint_src = bc if bc is not None else anc
+    if tint_src is not None and 'light-grey-bg' in (tint_src.get('class') or []): toks.append('tinted')
+    if PAD_TOKENS:
+        if bc is not None: toks += _pad_tokens(' '.join(bc.get('class') or []))
+        if anc is not None:
+            grid_cols = [c for c in anc.find_all(class_=re.compile(r'\baem-GridColumn\b')) if c.find_parent(class_='background-component') is anc]
+            if grid_cols:
+                toks += _pad_tokens(' '.join(anc.get('class') or []), top=(grid_cols[0] is col), bottom=(grid_cols[-1] is col))
+    seen = []; [seen.append(t) for t in toks if t not in seen]
+    return ', '.join(seen)
 
 class Page:
     def __init__(self):
@@ -1060,6 +1074,7 @@ def import_page(raw_html, url, page_type=None):
     # source: the nav row sits transparent over the home banner carousel (nav absolute, white brand/links)
     if soup.select_one('[carousel-type="banner-carousel"]') is not None: meta_rows.append(['<div>Header-Theme</div>', '<div>dark</div>'])
     if page_type == 'dw': meta_rows.append(['<div>Header-Theme</div>', '<div>plain</div>'])  # source PHP pages carry no utility bar
+    if PAD_TOKENS: meta_rows.append(['<div>Theme</div>', '<div>tokens</div>'])  # body.tokens: section padding comes from pt-*/pb-* tokens, not the 60px default
     if page_type: meta_rows.append(['<div>Template</div>', f'<div>{esc(page_type)}</div>'])
     page.template = page_type
     # index metadata for the article family (source: .cmp-blogbanner authors/date/read-time, eyebrow, page tags)

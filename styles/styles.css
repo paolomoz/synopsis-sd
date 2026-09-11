@@ -769,21 +769,18 @@ body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-c
   padding: 0; /* band padding comes from the authored tokens below (source vert-pad-* classes) */
 }
 
-/* authored band padding (importer: vert-pad-top/bottom-xs|sm|md → section styles pt-x / pb-x) — every template but the home page.
-   A band without tokens has no padding on the source, so token-bearing pages drop the 60px section default. */
-body:not(.landing) main > .section:has(~ .section.pb-md, ~ .section.pb-sm, ~ .section.pt-sm, ~ .section.pt-md):not(.hero-container, .breadcrumbs-container, .anchor-nav-container, .rail, .rail-right, .toc-container, .form-container),
-body:not(.landing) main > .section.pb-md ~ .section:not(.hero-container, .breadcrumbs-container, .anchor-nav-container, .rail, .rail-right, .toc-container, .form-container),
-body:not(.landing) main > .section.pb-sm ~ .section:not(.hero-container, .breadcrumbs-container, .anchor-nav-container, .rail, .rail-right, .toc-container, .form-container),
-body:not(.landing) main > .section.pt-md ~ .section:not(.hero-container, .breadcrumbs-container, .anchor-nav-container, .rail, .rail-right, .toc-container, .form-container) {
+/* authored band padding (importer: vert-pad-top/bottom-xs|sm|md → section styles pt-x / pb-x). Pages imported with tokens carry
+   metadata Theme: tokens → body.tokens: a band without tokens has no padding on the source, so the 60px default is dropped. */
+body.tokens main > .section:not(.hero-container, .breadcrumbs-container, .anchor-nav-container, .rail, .rail-right, .toc-container, .form-container) {
   padding: 0;
 }
 
-body:not(.landing) main > .section.pt-xs { padding-top: 15px; }
-body:not(.landing) main > .section.pt-sm { padding-top: 30px; }
-body:not(.landing) main > .section.pt-md { padding-top: 60px; }
-body:not(.landing) main > .section.pb-xs { padding-bottom: 15px; }
-body:not(.landing) main > .section.pb-sm { padding-bottom: 30px; }
-body:not(.landing) main > .section.pb-md { padding-bottom: 60px; }
+body.tokens main > .section.pt-xs { padding-top: 15px; }
+body.tokens main > .section.pt-sm { padding-top: 30px; }
+body.tokens main > .section.pt-md { padding-top: 60px; }
+body.tokens main > .section.pb-xs { padding-bottom: 15px; }
+body.tokens main > .section.pb-sm { padding-bottom: 30px; }
+body.tokens main > .section.pb-md { padding-bottom: 60px; }
 
 /* rich-text-editor bands (captions, notes) start flush; the 24px offset belongs to textcomp copy only */
 body:is(.article, .glossary) main > .section.rte .default-content-wrapper > p:first-child {
