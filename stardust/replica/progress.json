@@ -432,7 +432,61 @@
      }
     ]
    },
-   "note": "2026-09-11: landing prototype built after the fact (Phase 3 had been skipped for this archetype); published-origin re-gate pending the EDS port."
+   "note": "2026-09-11: landing prototype built after the fact (Phase 3 had been skipped for this archetype); published-origin re-gate pending the EDS port.",
+   "publishedOrigin": {
+    "url": "https://main--synopsis-sd--paolomoz.aem.live/",
+    "1440": {
+     "rounds": [
+      {
+       "iter": "pub1",
+       "pixel": 21.01,
+       "heightDelta": -314,
+       "note": "port of the gated prototype: rhythm exact to the Industry heading; pillar label CSS edit had not applied; benefit title links buttonized by the runtime (+56px/item); support CTA"
+      },
+      {
+       "iter": "pub2",
+       "pixel": 4.75,
+       "heightDelta": 22,
+       "note": "pillar label box + benefits button-wrapper reset; residual: support CTA 21px (selector), pillar imagery crop"
+      },
+      {
+       "iter": "pub3",
+       "pixel": 4.75,
+       "heightDelta": 22,
+       "note": "no-op (selector still wrong: the runtime does not buttonize a lone plain link)"
+      },
+      {
+       "iter": "pub4",
+       "pixel": 2.77,
+       "heightDelta": -2,
+       "note": "support CTA as lone-link paragraph, pillar image at the live 375x443 crop"
+      }
+     ],
+     "pixelDiffPercent": 2.77,
+     "heightDelta": -2,
+     "chromeCrop": {
+      "header": "99.88%",
+      "footer": "99.69%"
+     },
+     "visualDiffFlags": "none",
+     "contentDiff": "not scopable symmetrically on the published origin (live has no <main>; its .synopsysContainer wraps nav+footer) \u2014 the recreation content-diff on the prototype (0 \ud83d\udd34) stands; published content is the same imported document",
+     "landmarks": "all section anchors within 2px of live (hero title, Powering, pillars, Design, Industry, kb items, Ecosystem, logos, What's New, cards, Support, Connect, footer)",
+     "residuals": [
+      "pillars band 9.4%: high-frequency tile imagery resampled (thin-edge texture)",
+      "news band 4.7%: logo/news carousel autoplay state at capture"
+     ]
+    },
+    "360": {
+     "rounds": [
+      {
+       "iter": "pub1",
+       "pixel": null,
+       "heightDelta": -146,
+       "note": "FAIL \u2014 live mobile composition never mirrored: hero as image card + copy below, pillar tiles show description + link, 3-up small logo row, pinned mobile header"
+      }
+     ]
+    }
+   }
   },
   "static": {
    "archetypeSlug": "company-html",
