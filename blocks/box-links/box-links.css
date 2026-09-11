@@ -44,3 +44,32 @@
 
 @media (width <= 992px) { .box-links .box-links-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (width <= 729px) { .box-links .box-links-grid { grid-template-columns: 1fr; } }
+
+/* ---- plain (source .component-boxLink.no-dropdown): 68px label bars stacked per column, no box chrome ---- */
+.box-links.plain .box-links-box {
+  border-top: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.box-links.plain .box-links-label p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.box-links.plain .box-links-label p a:any-link {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.box-links.plain .box-links-label p::after {
+  content: "";
+  flex: 0 0 36px;
+  height: 36px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23316aca' d='M305 239c9.4 9.4 9.4 24.6 0 33.9L113 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l175-175L79 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L305 239z'/%3E%3C/svg%3E") no-repeat center / 10px 16px;
+}

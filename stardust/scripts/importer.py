@@ -527,6 +527,24 @@ def handle_cards_grid(cards, page, style):
         rows = [asset_card_row(c) for c in cards]; name = 'cards asset'
     page.add_block(block_table(name, rows), style); COVERAGE[name] += 1
 
+def plain_box_links(root, page, style):
+    """Source .component-boxLink.no-dropdown: one 68px label bar per link, stacked inside each .boxLinkItem column (no dropdown list).
+    Emitted as `box-links plain`, one row per column, the column's bars as a stack of <p><a> in a single cell."""
+    bars = root.select('.component-boxLink.no-dropdown')
+    if not bars or len(bars) != len(root.select('.component-boxLink')): return False
+    cols = root.select('.boxLinkItem') or [root]
+    rows = []
+    for c in cols:
+        cell = ''
+        for b in c.select('.component-boxLink.no-dropdown'):
+            a = b.select_one('.topLabel a[href]') or b.select_one('a[href]')
+            if a is None or not clean_text(a.get_text()): continue
+            cell += f'<p><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></p>'
+        if cell: rows.append([cell])
+    if not rows: return False
+    page.add_block(block_table('box-links plain', rows), style); COVERAGE['box-links plain'] += 1
+    return True
+
 def handle_column(col, page):
     sec = col.find(class_='component-column')
     if sec is None: return False
@@ -554,7 +572,9 @@ def handle_column(col, page):
             cols = [c for c in sec.find_all(recursive=False) if isinstance(c, Tag) and 'snps-col-divider' not in ' '.join(c.get('class') or [])]
             if not any(clean_text(c.get_text()) or c.find('img') for c in cols): return True
     # article 25/75 layout: left rail (toc / subscribe / share / blurbs) + right content column
-    if any('two2575' in ' '.join(c.get('class') or []) for c in cols) or (len(cols) == 2 and sec.select_one('.cmp-tableofcontents')):
+    left_probe = next((c for c in cols if 'two2575' in ' '.join(c.get('class') or [])), None)
+    image_only_left = left_probe is not None and left_probe.find('img') is not None and not clean_text(left_probe.get_text())  # 25/75 row whose narrow column is just a picture (webinar speaker): a media row, not a rail
+    if not image_only_left and (any('two2575' in ' '.join(c.get('class') or []) for c in cols) or (len(cols) == 2 and sec.select_one('.cmp-tableofcontents'))):
         left = next((c for c in cols if 'two2575' in ' '.join(c.get('class') or []) or c.select_one('.cmp-tableofcontents')), cols[0])
         for c in cols:
             for sub in grid_children(c) or [c]:
@@ -697,6 +717,7 @@ def handle_column(col, page):
     if cards and len(cards) >= max(2, len(cols) - 1):
         handle_cards_grid(cards, page, style); return True
     boxes = sec.select('.component-boxLink')
+    if boxes and plain_box_links(sec, page, style): return True
     if boxes:
         rows = []
         for b in boxes:
@@ -862,6 +883,7 @@ def convert_column(col, page, inherited_style=''):
         if rows: page.add_block(block_table('cards tiles', rows), bg_of(col)); COVERAGE['cards tiles'] += 1
         return
     if t == 'boxLink' or t == 'boxLinkContainer':
+        if plain_box_links(col, page, bg_of(col)): return
         boxes = col.select('.component-boxLink'); rows = []
         for b in boxes:
             lab = b.select_one('.topLabel'); links = b.select('.dropdown-link a')
