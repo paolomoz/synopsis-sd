@@ -421,7 +421,7 @@ main > .section.cards-container:has(.cards.people) {
 
 @media (width <= 729px) {
   .cards.benefits > ul > li { width: 100%; margin-bottom: 32px; }
-  .cards.pillars > ul { grid-template-columns: 1fr; }
+  .cards.pillars > ul { grid-template-columns: 1fr; gap: 32px; }
   .cards.pillars > ul > li { height: 434px; }
   .cards.pillars .cards-card-body { inset: 205px 41px auto; }
   .cards.pillars .cards-card-body p { display: block; margin: 16px 0 4px; font-size: 16px; font-weight: 300; line-height: 25.6px; }

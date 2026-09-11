@@ -3,7 +3,7 @@ import { chromium } from 'playwright';
 const [live, build, w = '1440'] = process.argv.slice(2);
 const b = await chromium.launch();
 async function probe(url) {
-  const p = await b.newPage({ viewport: { width: +w, height: 900 } });
+  const p = await b.newPage({ viewport: { width: +w, height: 900 }, isMobile: +w < 600, hasTouch: +w < 600 });
   await p.goto(url, { waitUntil: 'domcontentloaded' }).catch(() => {}); await p.waitForTimeout(3500);
   await p.addStyleTag({ content: '#onetrust-consent-sdk,.onetrust-pc-dark-filter{display:none!important} *{animation:none!important;transition:none!important}' });
   const r = await p.evaluate(() => {

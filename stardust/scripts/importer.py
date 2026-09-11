@@ -419,6 +419,7 @@ def handle_banner_carousel(sec, page):
         b = item.find(class_='component-banner')
         if b is None: continue
         img = b.select_one('.dm-desktop img, img')
+        mimg = b.select_one('.dm-mobile img')  # separate mobile rendition on the source: authored as a second image in the cell
         t = b.find(['h1', 'h2', 'h3']) or b.select_one('.title p, .text-size-larger, .text-size-normal')
         title = clean_text(t.get_text(' ')) if t else clean_text(item.get('title') or '')
         sub = b.select_one('.sub-title, .component-text p:not(:first-child)')
@@ -426,7 +427,9 @@ def handle_banner_carousel(sec, page):
         tag = 'h1' if not page.h1_used else 'h2'
         if tag == 'h1': page.h1_used = True
         cell = (f'<{tag}>{esc(title)}</{tag}>' if title else '') + (f'<p>{esc(clean_text(sub.get_text()))}</p>' if sub and clean_text(sub.get_text()) and clean_text(sub.get_text()) != title else '') + ctas
-        rows.append([img_html(img), cell] if img is not None and img_html(img) else [cell])
+        imgs = img_html(img) if img is not None else ''
+        if mimg is not None and mimg is not img and img_html(mimg): imgs += img_html(mimg)
+        rows.append([imgs, cell] if imgs else [cell])
     if rows: page.add_block(block_table('hero carousel', rows)); COVERAGE['hero carousel'] += 1
     return bool(rows)
 

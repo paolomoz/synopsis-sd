@@ -453,7 +453,7 @@ export default async function decorate(block) {
 
   // pin the nav row once the utility bar has scrolled away (source: fixed nav after 53px)
   const update = () => {
-    const threshold = isDesktop.matches ? (utilityBar?.getBoundingClientRect().height || 53) : 0;
+    const threshold = isDesktop.matches ? (utilityBar?.getBoundingClientRect().height || 53) : 1; // mobile: the source pins as soon as the page scrolls
     const pinned = window.scrollY >= threshold && threshold > 0;
     row.classList.toggle('is-pinned', pinned);
     const opened = navSections.querySelector(':scope > ul > li[aria-expanded="true"]');

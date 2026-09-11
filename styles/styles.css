@@ -539,6 +539,56 @@ body.landing main .columns-container .columns:not(.benefits) > div > div p > a:o
   }
 }
 
+@media (width <= 729px) {
+  /* live 360: section titles are 24px/26.4, band gaps 40 + 30 */
+  body.landing main .section.centered .default-content-wrapper h2 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  body.landing main > .section.hero-container + .section.centered {
+    padding: 80px 0 30px;
+  }
+
+  body.landing main > .section.hero-container + .section.centered .default-content-wrapper h2 + p {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+
+  body.landing main > .section.cards-container:has(.cards.pillars) {
+    padding: 40px 0 130px;
+  }
+
+  body.landing main > .section.centered:has(+ .columns-container) {
+    padding: 40px 0 30px;
+  }
+
+  body.landing main > .section.columns-container:has(.columns.benefits) {
+    padding: 40px 0 70px;
+  }
+
+  body.landing main > .section.tinted.centered:has(+ .logos-container) {
+    padding: 40px 0 24px;
+  }
+
+  body.landing main > .section.logos-container {
+    padding: 0 0 48px;
+  }
+
+  body.landing main > .section.centered:has(+ .carousel-container) {
+    padding: 41px 0 30px;
+  }
+
+  body.landing main > .section.carousel-container {
+    padding: 40px 0 84px;
+  }
+
+  body.landing main .columns-container .columns:not(.benefits) > div > div h2 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+}
+
 /* ---- page templates (metadata Template → body class) ---- */
 
 /* page title (pageTitle component) */

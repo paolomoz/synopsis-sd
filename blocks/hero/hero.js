@@ -23,10 +23,14 @@ function buildSlide(rowCells, block, isFirst) {
   const media = rowCells.find((c) => c.querySelector('picture, img') && !c.textContent.trim());
   const textCell = rowCells.find((c) => c !== media) || rowCells[0];
   if (media) {
-    const pic = media.querySelector('picture, img');
+    const pics = [...media.querySelectorAll('picture')];
+    const pic = pics[0] || media.querySelector('img');
     const img = pic.tagName === 'IMG' ? pic : pic.querySelector('img');
     if (img && isFirst) { img.setAttribute('loading', 'eager'); img.setAttribute('fetchpriority', 'high'); }
-    slide.append(wrapNode(pic, 'hero-media'));
+    const mediaWrap = wrapNode(pic, 'hero-media');
+    // source banner carousel: a separate mobile rendition (.dm-mobile) — authored as a second image in the same cell
+    if (pics[1]) { pics[1].classList.add('hero-media-mobile'); mediaWrap.append(pics[1]); }
+    slide.append(mediaWrap);
   }
   const overlay = document.createElement('div');
   overlay.className = 'hero-overlay';

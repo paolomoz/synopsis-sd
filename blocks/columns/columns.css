@@ -224,4 +224,8 @@ body:is(.article, .glossary) .columns.media > div > div h3 {
   .columns.benefits > div > div li {
     margin-bottom: 32px;
   }
+
+  .columns.benefits > div > div + div {
+    margin-top: 40px;
+  }
 }

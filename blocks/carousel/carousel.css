@@ -281,6 +281,17 @@
   }
 
   .carousel:has(.carousel-card-image) .carousel-arrow {
-    top: 210px;
+    top: 481px;
+  }
+
+  .carousel:has(.carousel-card-image) .carousel-prev { left: 15px; }
+  .carousel:has(.carousel-card-image) .carousel-next { right: 15px; }
+
+  .carousel:has(.carousel-card-image) .carousel-dots {
+    max-width: 218px;
+  }
+
+  .carousel:has(.carousel-card-image) .carousel-dots li {
+    width: 17px;
   }
 }

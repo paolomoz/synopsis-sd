@@ -435,6 +435,10 @@
     object-fit: cover;
   }
 
+  .hero.carousel .hero-media:has(.hero-media-mobile) > picture:not(.hero-media-mobile) {
+    display: none;
+  }
+
   .hero.carousel .hero-container-inner {
     padding: 0;
   }
@@ -507,5 +511,15 @@
     bottom: 30px;
     width: 24px;
     height: 24px;
+  }
+}
+
+.hero.carousel .hero-media .hero-media-mobile {
+  display: none;
+}
+
+@media (width <= 729px) {
+  .hero.carousel .hero-media .hero-media-mobile {
+    display: block;
   }
 }
