@@ -815,8 +815,8 @@ body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> pi
   margin: 0;
 }
 
-body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> picture) img {
-  margin: 0;
+body:is(.article, .glossary) main .section .default-content-wrapper > p:has(picture) img {
+  margin: 0; /* also when the picture is wrapped in a link */
 }
 
 /* intro band: copy starts 24px under the band top (source .component-text mt 24) */
@@ -1297,7 +1297,11 @@ a .prosemirror-editor a:any-link {
 
 /* caption-only figure text (source imageTextCta.component-no-media): copy then an empty 24px buttons row */
 main > .section.caption > .default-content-wrapper {
-  padding-bottom: 24px;
+  padding: 24px 0; /* source: .component-text margin-top 24px + empty .buttons row margin-top 24px */
+}
+
+main > .section.caption > .default-content-wrapper > p:first-child {
+  margin-top: 0;
 }
 
 /* DesignWare rail card flag (source .component-railCard .flag: purple bar, 15px uppercase, margin 25px 0 5px) */
