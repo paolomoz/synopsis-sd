@@ -81,3 +81,56 @@
   .tabs .tabs-panel-head { padding: 16px 0; margin: 0; border-bottom: 1px solid var(--grey-light); font-size: 18px; cursor: pointer; }
   .tabs .tabs-panel.collapsed > :not(.tabs-panel-head) { display: none; }
 }
+
+/* ---- horizontal (source: .component-floating-tabs.horizontal-tabs — the majority variant, 293 pages) ---- */
+.tabs.horizontal {
+  display: block;
+  margin: 20px 0;
+}
+
+.tabs.horizontal .tabs-nav {
+  display: flex;
+}
+
+.tabs.horizontal .tabs-nav li {
+  flex: 1 1 0;
+  justify-content: center;
+  padding: 20px 24px;
+  border-left: 0;
+  border-bottom: 1px solid #646e81;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+}
+
+.tabs.horizontal .tabs-nav li::after {
+  content: none;
+}
+
+.tabs.horizontal .tabs-nav li[aria-selected="true"] {
+  padding-bottom: 17px;
+  border-bottom: 3px solid #7921b0;
+  background: #f7f7fa;
+  color: var(--ink);
+  box-shadow: none;
+}
+
+.tabs.horizontal .tabs-panels {
+  padding-top: 30px;
+}
+
+.tabs.horizontal .tabs-panel {
+  padding: 15px 0 30px; /* source: tab body band margin-top 15px, padding-bottom 30px */
+  background: none;
+  box-shadow: none;
+}
+
+.tabs.horizontal .tabs-panel-head {
+  display: none; /* source: .tab-header is the mobile accordion header, hidden on desktop */
+}
+
+@media (width <= 729px) {
+  .tabs.horizontal .tabs-panel-head { display: block; }
+}

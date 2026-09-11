@@ -874,7 +874,8 @@ def convert_column(col, page, inherited_style=''):
             title = tab.select_one('.tab-header-title'); body = tab.select_one('.tab-body')
             inner = ''.join(convert_inline_column(s, page) for s in grid_children(body)) if body is not None else ''
             rows.append([f'<p><strong>{esc(clean_text(title.get_text()))}</strong></p>' if title else '', inner])
-        if rows: page.add_block(block_table('tabs', rows), bg_of(col)); COVERAGE['tabs'] += 1
+        variant = ' horizontal' if col.select_one('.component-floating-tabs.horizontal-tabs') is not None else ''  # source: 293 pages horizontal-tabs vs 39 vertical-tabs
+        if rows: page.add_block(block_table('tabs' + variant, rows), bg_of(col)); COVERAGE['tabs' + variant] += 1
         return
     if t == 'faq':
         rows = []
