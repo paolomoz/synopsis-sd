@@ -752,7 +752,7 @@ body:is(.article, .glossary) main .section .default-content-wrapper > p:has(> pi
 }
 
 /* intro band: copy starts 24px under the band top (source .component-text mt 24) */
-body:is(.article, .glossary) main > .section:not(.rail, .rail-right, .toc-container, .form-container) .default-content-wrapper > p:first-child {
+body:is(.article, .glossary) main > .section:not(.rail, .rail-right, .toc-container, .form-container) .default-content-wrapper > p:first-child:not(:has(> picture)) {
   margin-top: 24px;
 }
 
