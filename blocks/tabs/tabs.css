@@ -110,11 +110,10 @@
 }
 
 .tabs.horizontal .tabs-nav li[aria-selected="true"] {
-  padding-bottom: 17px;
-  border-bottom: 3px solid #7921b0;
+  border-bottom: 3px solid #7921b0; /* source: anchor 3px purple over the item's 1px grey rule (62px strip) */
   background: #f7f7fa;
   color: var(--ink);
-  box-shadow: none;
+  box-shadow: 0 1px 0 #646e81;
 }
 
 .tabs.horizontal .tabs-panels {
@@ -125,6 +124,15 @@
   padding: 15px 0 30px; /* source: tab body band margin-top 15px, padding-bottom 30px */
   background: none;
   box-shadow: none;
+}
+
+.tabs.horizontal .tabs-panel > :is(p, ul, ol):first-child {
+  margin-top: 24px; /* source: untitled textcomp — .component-text margin-top 24px */
+}
+
+.tabs.horizontal .tabs-panel > :is(ul, ol):last-child,
+.tabs.horizontal .tabs-panel > p:last-child {
+  margin-bottom: 0;
 }
 
 .tabs.horizontal .tabs-panel-head {
