@@ -705,6 +705,11 @@ body:is(.article, .glossary) main > .section:not(.rail, .rail-right, .toc-contai
   margin-top: 24px;
 }
 
+/* a band's leading heading sits flush at the band top (the figure band above carries the 60px) */
+body:is(.article, .glossary) main > .section .default-content-wrapper > h2:first-child {
+  margin-top: 0;
+}
+
 /* band after an inline promo (columns media): heading 30px under the hairline */
 body:is(.article, .glossary) main > .section.columns-container + .section .default-content-wrapper > h2:first-child {
   margin-top: 30px;
