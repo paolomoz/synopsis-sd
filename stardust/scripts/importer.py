@@ -1040,7 +1040,7 @@ def import_page(raw_html, url, page_type=None):
         elif re.match(r'^/(company|partners|academic-research|startup-innovation|careers|support|community|services|sitemap|authors/)', path): page_type = 'static'
         else: page_type = 'program' 
     global PAD_TOKENS
-    PAD_TOKENS = page_type in ('article', 'glossary')
+    PAD_TOKENS = page_type not in ('landing',)  # every template except the home page carries its authored band padding as section tokens
     top = root.find(class_='aem-Grid') if root else None
     cols = [c for c in (top.find_all(recursive=False) if top else []) if isinstance(c, Tag)]
     if root is not None and 'site-content' in (root.get('class') or []):
@@ -1051,7 +1051,7 @@ def import_page(raw_html, url, page_type=None):
             if c.find(class_='component-breadcrumb') is not None: c['class'] = ['breadcrumb']       # dispatch as the breadcrumb component
             elif c.find(class_='component-page-title') is not None: c['class'] = ['pageTitle']     # dispatch as the page title (single h1)
             cols.append(c)
-        page_type = 'dw'
+        page_type = 'dw'; PAD_TOKENS = True
     for col in cols: convert_column(col, page)
     if page_type == 'listing' and re.match(r'^/(blogs/[^/]+|articles|glossary)\.html$', url.replace(LIVE, '')) and not any('class="listing"' in x for sct in page.sections for x in sct['items']):
         page.new_section(); page.add_block(block_table('listing', [['<p>Most recent</p>']])); COVERAGE['listing'] += 1
