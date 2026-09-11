@@ -300,7 +300,58 @@
       "note": "toc collapsed bar like live; residual = form field set + blog sub-nav (Coveo search) not imported"
      }
     ]
-   }
+   },
+   "prototype": "stardust/prototypes/article-proposed.html",
+   "pageLayer": "stardust/prototypes/article.css",
+   "builder": "stardust/scripts/build-article.py",
+   "prototypeIterations": {
+    "1440": [
+     {
+      "iter": 1,
+      "pixel": 33.44,
+      "heightDelta": -1539,
+      "note": "first assembly: 25/75 row wrapped (flex-wrap), dynamic cards shown on build only"
+     },
+     {
+      "iter": 2,
+      "pixel": 17.25,
+      "heightDelta": -247,
+      "note": "nowrap; related cards must be hidden on both sides (policy)"
+     },
+     {
+      "iter": 3,
+      "pixel": 10.56,
+      "heightDelta": -247,
+      "note": "band rhythm: pb 60 default, figure mt 30/pb 60, band after promo mt 30, share 38px, tags 64 + 90"
+     },
+     {
+      "iter": 4,
+      "pixel": 6.45,
+      "heightDelta": 12,
+      "note": "no connect band on articles (structural); gradient to-right 3-stop; crumb separators; Continue band pt 60"
+     },
+     {
+      "iter": 5,
+      "pixel": 7.06,
+      "heightDelta": 47,
+      "note": "promo text margin specificity; stray \"Tags:\" paragraph (importer) dropped from the copy"
+     },
+     {
+      "iter": 6,
+      "pixel": 5.49,
+      "heightDelta": -29,
+      "note": "last text band trailing 76px (source quirk) modelled; footer variant 539 vs 575 = the \u0394"
+     },
+     {
+      "iter": "final",
+      "pixelDiffPercent": 5.49,
+      "heightDelta": -29,
+      "regime": "harness (residual policy applied both sides)",
+      "capNote": "6 rounds: 1\u20132 structural (layout wrap, policy symmetry), 3 tuning, 4 structural (connect band), 5 content (stray paragraph), 6 tuning"
+     }
+    ]
+   },
+   "note": "2026-09-11: prototype built after the fact; port to EDS committed; published re-gate pending redeploy"
   },
   "people": {
    "archetypeSlug": "company-management-team-html",
