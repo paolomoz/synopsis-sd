@@ -33,7 +33,7 @@ for (const path of paths) {
   const live = LIVE_OVERRIDE || map[path]?.live; if (!live) continue;
   const slug = path.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '');
   try {
-    const hl = await shot(live, true, `${dir}/${slug}-live.png`); const hb = await shot(BUILD_OVERRIDE || (base + path), false, `${dir}/${slug}-build.png`);
+    const hl = await shot(live, true, `${dir}/${slug}-live.png`); const hb = await shot(BUILD_OVERRIDE || (base + (p === '/index' ? '/' : p)ath), false, `${dir}/${slug}-build.png`);
     const a = PNG.sync.read(readFileSync(`${dir}/${slug}-live.png`)); const c = PNG.sync.read(readFileSync(`${dir}/${slug}-build.png`));
     const Wd = Math.min(a.width, c.width); const H = Math.max(a.height, c.height);
     const pad = (img) => { const o = new PNG({ width: Wd, height: H }); o.data.fill(255); PNG.bitblt(img, o, 0, 0, Wd, Math.min(img.height, H), 0, 0); return o; };
