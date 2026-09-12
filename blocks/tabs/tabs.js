@@ -23,7 +23,7 @@ export default async function decorate(block) {
     const panel = document.createElement('div');
     panel.className = 'tabs-panel';
     panel.setAttribute('role', 'tabpanel');
-    panel.hidden = i !== 0;
+    panel.classList.toggle('tabs-panel-off', i !== 0); panel.setAttribute('aria-hidden', String(i !== 0));
     const head = document.createElement('div');
     head.className = 'tabs-panel-head';
     head.textContent = t.textContent.trim();
@@ -31,7 +31,7 @@ export default async function decorate(block) {
     if (bodyCell) panel.append(...bodyCell.children);
     const select = () => {
       [...nav.children].forEach((n, j) => n.setAttribute('aria-selected', j === i ? 'true' : 'false'));
-      [...panels.children].forEach((p, j) => { p.hidden = j !== i; });
+      [...panels.children].forEach((p, j) => { p.classList.toggle('tabs-panel-off', j !== i); p.setAttribute('aria-hidden', String(j !== i)); });
     };
     li.addEventListener('click', select);
     li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(); } });

@@ -29,5 +29,5 @@ export default async function decorate(block) {
   }
   box.append(t, ul);
   block.replaceChildren(box);
-  if (!ul.children.length) block.closest('.section')?.classList.add('toc-empty');
+  if (!ul.children.length) { block.closest('.section')?.remove(); return; } // no headings: drop the section (hidden text counts against AI readability)
 }
