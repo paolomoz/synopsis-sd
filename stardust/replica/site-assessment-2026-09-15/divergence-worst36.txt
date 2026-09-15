@@ -1,0 +1,108 @@
+ 51.5%  dh=  -456  first@  850 cascade= 94%  program  /dw/doc/wp/dataconverters-ip-for-automotive-socs-white-paper-pdf
+        live:  navList [693 h190] "By Function Analog Design Digital Design"
+        build: -
+ 51.0%  dh=   617  first@  150 cascade=100%  program  /implementation-and-signoff/3dic-design
+        live:  navList [150 h144] "Training & Education Synopsys provides t"
+        build: section hero-container [133 h500] "3DIC CompilerThe Industry’s Only Unified"
+ 50.2%  dh= -1462  first@  650 cascade= 98%  static   /community/snug/snug-india/location-proceedings-2025
+        live:  mediaLinkTile image [550 h100] "Mastering AI Chip Complexity This eBook "
+        build: section hero-container [586 h285] "Watch SNUG Keynotes On-DemandWatch Now"
+ 47.4%  dh=  -481  first@  950 cascade= 96%  static   /community/snug/snug-penang/location-proceedings-2023
+        live:  assetCard image [859 h217] "Best User Presentation - Signoff Enhance"
+        build: -
+ 46.3%  dh=   540  first@  150 cascade=100%  program  /verification/debug
+        live:  navList [150 h144] "Training & Education Synopsys provides t"
+        build: section hero-container [133 h500] "Debug and Verification ManagementThe ind"
+ 46.2%  dh=  -516  first@ 1150 cascade= 96%  static   /community/snug/snug-singapore/location-proceedings-2023
+        live:  assetCard image [1099 h217] "Best User Presentation - Analog Mixed Si"
+        build: -
+ 46.0%  dh=  -718  first@ 1150 cascade= 99%  program  /designware-ip/interface-ip/hdmi/hdmi-20-csds-rx
+        live:  text [561 h593] "The Synopsys HDMI 2.0 RX Controller and "
+        build: section video-container [1128 h784] "Watch playlist"
+ 45.1%  dh=  -561  first@  150 cascade=100%  article  /blogs/chip-design/lpddr5-enhancements-iot-ai-image-processing
+        live:  experiencefragment [133 h72] "Silicon to Systems Blog Topics Browse by"
+        build: section hero-container [133 h374] "Blogs / Silicon to SystemsLPDDR5 Upgrade"
+ 44.5%  dh=  -657  first@ 1550 cascade= 94%  program  /designware-ip/security-ip/cryptography-ip/puf/security-puf-fpga-x
+        live:  text [1506 h50] "Product Details"
+        build: tinted section cards-container [1524 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 43.3%  dh=  1385  first@ 1550 cascade= 89%  program  /designware-ip/interface-ip/usb
+        live:  experiencefragment [1519 h285] "@media only screen and (max-width: 729px"
+        build: tinted pt-md centered section [1497 h95] "Products"
+ 41.9%  dh= -1069  first@ 1450 cascade= 98%  program  /designware-ip/star-hierarchical-test
+        live:  floatingTabs [1422 h750] "Products Downloads & Documentation Produ"
+        build: tinted section cards-container [1408 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 41.6%  dh=  -795  first@ 1950 cascade= 96%  program  /designware-ip/security-ip/interface-security-modules/hpc-macsec-up-to-1-6t
+        live:  floatingTabs [1179 h777] "Highlights Highlights + - IEEE 802.1ae, "
+        build: tinted section cards-container [1942 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 40.2%  dh=  -716  first@ 1550 cascade= 96%  static   /community/snug/snug-europe/location-proceedings-2019
+        live:  cards image [1548 h293] "TCA - Best Paper Using SysML for Modelli"
+        build: -
+ 39.8%  dh=  -657  first@ 2050 cascade= 94%  program  /designware-ip/security-ip/cryptography-ip/random-number-generators/trng-nist
+        live:  floatingTabs [2026 h317] "Products Downloads & Documentation Produ"
+        build: tinted section cards-container [1991 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 39.6%  dh=  -590  first@ 1850 cascade= 96%  program  /designware-ip/security-ip/root-of-trust/troot-hsm-automotive
+        live:  floatingTabs [1713 h356] "Products Downloads & Documentation Produ"
+        build: tinted section cards-container [1784 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 39.1%  dh=   339  first@ 1250 cascade= 95%  form     /webinars/shift-left-soc-ip-verification
+        live:  text [1245 h74] "Featured Speakers"
+        build: pb-md section columns-container [1173 h884] "Madhumita Sanyal Sr. Director of Technic"
+ 38.7%  dh=  1917  first@  350 cascade= 99%  listing  /articles
+        live:  navList [150 h214] "Synopsys Converge SNUG SNUG Silicon Vall"
+        build: section columns-container [243 h1696] "Jul 10, 2026 / 6 min read Industry's Fir"
+ 35.9%  dh=  -312  first@  650 cascade= 97%  program  /manufacturing/quantumatk/videos
+        live:  mediaLinkTile image [550 h100] "Mastering AI Chip Complexity This eBook "
+        build: pt-sm pb-sm section columns-container [398 h360] "Watch video Dr. Sayan Kanungo from Birla"
+ 35.4%  dh=   874  first@ 2650 cascade= 73%  program  /blogs/chip-design/category-executive-voices
+        live:  siteFooter image [2612 h539] "Company About Us Careers Responsible Bus"
+        build: section listing-container [133 h3317] "Executive VoicesBlogs4 min read / Sep 02"
+ 35.2%  dh=  -248  first@  150 cascade=100%  article  /blogs/chip-design/arm-amba-ace5-axi5-test-suite
+        live:  experiencefragment [133 h72] "Silicon to Systems Blog Topics Browse by"
+        build: section hero-container [133 h374] "Blogs / Silicon to SystemsArm AMBA ACE5 "
+ 33.9%  dh= -2975  first@   50 cascade=100%  article  /blogs/chip-design/edge-ai-in-memory-compute
+        live:  -
+        build: -
+ 32.4%  dh=  -446  first@ 2050 cascade= 97%  program  /designware-ip/interface-ip/usb/usb-3-0-drd
+        live:  floatingTabs [1877 h277] "Products Downloads & Documentation Produ"
+        build: tinted section cards-container [2013 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 32.3%  dh=   283  first@ 1650 cascade= 82%  form     /webinars/system-level-performance-insights-early-soc-de-risking-nxp
+        live:  banner image [1585 h285] "@media only screen and (max-width: 729px"
+        build: pb-md section columns-container [1158 h710] "Viacheslav FedorovNXP"
+ 31.6%  dh=  -153  first@  150 cascade=100%  article  /blogs/chip-design/cxl-2-device-discovery-path
+        live:  experiencefragment [133 h72] "Silicon to Systems Blog Topics Browse by"
+        build: section hero-container [133 h374] "Blogs / Silicon to SystemsThe Fascinatin"
+ 31.1%  dh=  2006  first@ 3150 cascade= 93%  program  /verification/verification-ip
+        live:  cards image [3130 h478] "White Paper Accelerate Test Regressions "
+        build: tinted pb-md section box-links-container [2029 h2467] "AMBA AMBA ACE AMBA AHB AMBA APB AMBA ATB"
+ 30.7%  dh=   214  first@  850 cascade= 84%  form     /academic-research/subscription
+        live:  navList [746 h229] "By Function Analog Design Digital Design"
+        build: purple section form-container [133 h893] "Stay Connected!Synopsys Academic & Resea"
+ 30.6%  dh=  -247  first@ 1950 cascade= 96%  program  /implementation-and-signoff/signoff/primeclosure
+        live:  image [1862 h399] ""
+        build: tinted pt-xs pb-md section carousel-container [1945 h600] ""
+ 30.2%  dh=   131  first@  150 cascade=100%  program  /events/virtual-prototyping-day-2025
+        live:  navList [150 h144] "Training & Education Synopsys provides t"
+        build: section hero-container [133 h500] "Synopsys Virtual Prototyping Day 2025An "
+ 30.0%  dh= -2985  first@  250 cascade= 99%  listing  /newsroom
+        live:  navList [150 h144] "Training & Education Synopsys provides t"
+        build: section hero-container [133 h500] "Newsroom"
+ 30.0%  dh=  -263  first@ 1250 cascade= 97%  program  /implementation-and-signoff/signoff/electrical-layout-verification
+        live:  synopsysContainer responsivegrid [1177 h202] "var contentSegment= "4:M:75-100"; var co"
+        build: tinted pt-md pb-xs centered section [1188 h110] "Resources"
+ 29.6%  dh=   248  first@ 1650 cascade= 79%  form     /webinars/leveraging-synopsys-vdk-to-shift-soc-development-left-mediatek
+        live:  banner image [1585 h285] "@media only screen and (max-width: 729px"
+        build: pb-md section columns-container [1123 h710] "Francis LeeMediaTek"
+ 29.1%  dh= -5040  first@  150 cascade=100%  article  /blogs/chip-design/timing-aware-multiphysics-eco-design-closure
+        live:  experiencefragment [133 h72] "Silicon to Systems Blog Topics Browse by"
+        build: section hero-container [133 h374] "Blogs / Silicon to SystemsBreaking the D"
+ 28.3%  dh=  -294  first@ 1550 cascade= 97%  program  /designware-ip/interface-ip/ethernet/200g-400g-800g-ethernet-mac-ip
+        live:  text [1510 h50] "Resources"
+        build: tinted section cards-container [1461 h478] "Brochure Synopsys IP Brochure A comprehe"
+ 28.3%  dh=   325  first@ 2150 cascade= 70%  program  /blogs/chip-design/category-custom-implementation
+        live:  siteFooter image [2134 h539] "Company About Us Careers Responsible Bus"
+        build: section listing-container [133 h2289] "Custom ImplementationBlogs4 min read / A"
+ 27.8%  dh=  -219  first@ 1050 cascade= 85%  form     /resources/foundation-ip-for-tsmc-65lp-datasheet
+        live:  marketoFormsContainer image [133 h1112] "Synopsys Foundation IP for TSMC 65LP Dat"
+        build: -
+ 27.6%  dh=  -219  first@ 1050 cascade= 86%  form     /resources/slm-actionable-silicon-insights
+        live:  marketoFormsContainer image [133 h1112] "Silicon Lifecycle Management: Actionable"
+        build: -
