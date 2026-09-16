@@ -470,6 +470,7 @@ main > .section.cards-container:has(.cards.people) {
   grid-template-columns: 193px 1fr;
   grid-template-areas: "img label" "img body";
   grid-template-rows: max-content 1fr; /* the spanning thumbnail must not stretch the chip row */
+  row-gap: 0; /* the collection grid gap must not open a 24px gap between chip and copy */
   column-gap: 30px;
   align-items: start;
   height: auto;

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+import { newLiveContext, gotoLive, dismissOverlays } from '../../scripts/diff/live-session.mjs';
+const b = await chromium.launch(); const ctx = await newLiveContext(b, { viewport: { width: 1440, height: 900 } }); const p = await ctx.newPage();
+await gotoLive(p, process.argv[2], { settleMs: 2500 }); await dismissOverlays(p, { extra: ['button[aria-label*="lose"]'], lateWindowMs: 4000 }); await p.waitForTimeout(+(process.argv[3] || 3000));
+await p.evaluate(async () => { for (let y = 0; y < document.documentElement.scrollHeight; y += 600) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } scrollTo(0, 0); }); await p.waitForTimeout(1500);
+const r = await p.evaluate(() => { const H = document.documentElement.scrollHeight; const foot = document.querySelector('footer, .siteFooter, [class*="footer"]'); const fb = foot ? foot.getBoundingClientRect().bottom + scrollY : 0;
+  const late = [...document.querySelectorAll('[class*="chat" i], [class*="ask" i], [class*="prompt" i], [class*="maze" i], [id*="QSI"], [class*="survey" i], [class*="recommend" i]')].map((e) => { const r = e.getBoundingClientRect(); return `${e.tagName.toLowerCase()}#${e.id}.${[...e.classList].slice(0, 2).join('.')} ${Math.round(r.width)}x${Math.round(r.height)} @${Math.round(r.top + scrollY)} ${getComputedStyle(e).position}`; }).filter((x) => !/ 0x0 /.test(x));
+  const els = [...document.body.querySelectorAll('body > *, body > * > *, .synopsysContainer > .aem-Grid > *')].map((e) => { const r = e.getBoundingClientRect(); return { tag: e.tagName.toLowerCase() + '#' + e.id + '.' + [...e.classList].slice(0, 2).join('.'), top: Math.round(r.top + scrollY), h: Math.round(r.height), pos: getComputedStyle(e).position, disp: getComputedStyle(e).display }; }).filter((x) => x.h > 0 && x.top + x.h > fb - 5 && x.pos !== 'fixed');
+  return { H, late, footerBottom: Math.round(fb), bodyH: Math.round(document.body.getBoundingClientRect().height), els: els.filter((x) => x.h > 100) }; });
+console.log(JSON.stringify(r, null, 1)); await b.close();
