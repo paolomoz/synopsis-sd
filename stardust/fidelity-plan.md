@@ -126,3 +126,27 @@ is kept only as a diagnostic — anything the policy hides on live has to be *re
 Phases 0–3 cover ~3,400 pages and are the bulk of the gain: about 4–5 working days of unattended rounds, each block
 round costing 1–2 h including a targeted re-import and republish (a full-site republish is ≈3 h at concurrency 6, so
 phases are batched into one republish each). Phases 4–5 add 1.5–2 days. Total ≈ 6–7 days to the objective at 1440.
+
+
+## Update 2026-09-16 — method switch and round 1
+
+The plan above used whole-page pixel percentage as the metric. On 2026-09-16 the gate switched to the element-level
+instrument ported from the coca-cola replica (`stardust/scripts/fidelity-core.mjs` + `fidelity-gate.mjs`, method in
+`stardust/fidelity-gate-method.md`): text pairing, per-element geometry and style deltas, per-band pixel crops between
+paired headings (no cascade), deterministic error/warn/pass, ranked by pages affected per template. The owner's
+under-10% KPI stays as the reporting number (`site-assess.mjs`, neutral method) and is re-measured at each round exit.
+
+Expanding-sample protocol: round 1 = 156-page stratified sample (`stardust/replica/fidelity/sample-r1-156.json`),
+fix template-level classes, re-run the same sample; round 2 = 400 new pages (`sample-r2-400.json`); round 3 ≈ 1,000;
+round 4 = all pages.
+
+Round 1 course (same 156 pages, 1440):
+| run | what changed | result |
+|---|---|---|
+| 1 | raw port | 0 pass; 16,441 false font findings, header region mis-detected |
+| 1b–1c | site noise calibrated (regions, separators, font case, image pairing, hosts, Ask launcher purge) | 0 pass; findings real |
+| 1d–1e | blog sub-nav, TOC regression, Continue Reading rule, banner variants, Marketo field sets, author rows, DW tabs from the public feed, article image widths, letterbox tokens | 7 warn-only (author), median |Δh| 180 → 76 px, 55/156 within 60 px |
+| 1f | + DW section tokens, Resources card tokens, IP-selector field, blog card internals, form band grid for all variants | running |
+
+Content freshness turned out to be a fidelity input: five posts published after the snapshot were fetched, imported,
+deployed and indexed (`content sync`), otherwise every "Continue Reading" carousel differs from live by definition.
