@@ -17,7 +17,7 @@ export const slug = (p) => p.replace(/^\/+|\/+$/g, '').replace(/\//g, '-') || 'h
 const INVENTORY = () => {
   const norm = (s) => s.replace(/[\u00a0\u200b]/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
   const keyOf = (s) => norm(s).replace(/[|,;:·•/\\()\[\]\-–—]+/g, ' ').replace(/\s+/g, ' ').trim(); // separators the source renders as text nodes ('| | |', 'Tags: , , ,') are layout, not content
-  const vis = (el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); if (!(r.width > 1 && r.height > 1 && cs.visibility !== 'hidden' && cs.opacity !== '0')) return false; for (let e = el.parentElement; e && e !== document.body; e = e.parentElement) if (getComputedStyle(e).opacity === '0') return false; return true; };
+  const vis = (el) => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); if (!(r.width > 1 && r.height > 1 && cs.visibility !== 'hidden' && cs.opacity !== '0')) return false; if (r.right < 0 || r.left > innerWidth || r.bottom + scrollY < 0) return false; /* accessibility-only copies are positioned off-canvas (source hero h1 at left:-33554280) */ for (let e = el.parentElement; e && e !== document.body; e = e.parentElement) if (getComputedStyle(e).opacity === '0') return false; return true; };
   const box = (el) => { const r = el.getBoundingClientRect(); return [Math.round(r.left), Math.round(r.top + scrollY), Math.round(r.width), Math.round(r.height)]; };
   const cvs = document.createElement('canvas').getContext('2d');
   const fam = (cs) => { // rendered face: the first family in the stack whose glyph advance equals the full stack's (canvas width probe)

@@ -609,7 +609,10 @@ def handle_column(col, page):
     # a column that only holds a modal video renders nothing on the source (the CTA in the sibling column opens the dialog);
     # its thumbnail must not be mistaken for a media image — drop the column before any layout pattern matches
     def modal_only(c):
-        vids = c.select('.cmp-video'); return bool(vids) and all(v.get('data-mode') == 'modal' for v in vids) and not clean_text(c.get_text()) and c.select_one('.cmp-video[data-mode="inline"]') is None
+        vids = c.select('.cmp-video')
+        if not vids or any(v.get('data-mode') != 'modal' for v in vids): return False
+        words = ''.join(t for t in c.find_all(string=True) if t.parent.name not in ('script', 'style', 'noscript'))  # get_text() would count the player's inline script
+        return not clean_text(words)
     cols = [c for c in cols if not modal_only(c)]
     if not cols: return True
     def span_of(c):
@@ -1111,7 +1114,7 @@ def convert_column(col, page, inherited_style=''):
         return
     if t == 'pageList' or col.select_one('.component-pageList') is not None and t in ('pageList', 'column'):
         pl = col.select_one('.component-pageList') or col
-        ttl = pl.select_one('h2, h3, h4, .title')
+        ttl = pl.select_one('h2, h3, h4, h5, .title')  # DesignWare rail list title is an h5 ("More IP Resources")
         items = [a for a in pl.select('ul.pageLinks a[href], a.pageLink[href]') if clean_text(a.get_text())]
         if items:
             h = (f'<p><strong>{esc(clean_text(ttl.get_text(" ")))}</strong></p>' if ttl is not None and clean_text(ttl.get_text()) else '') + '<ul>' + ''.join(f'<li><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text(" ")))}</a></li>' for a in items) + '</ul>'
