@@ -150,3 +150,10 @@ Round 1 course (same 156 pages, 1440):
 
 Content freshness turned out to be a fidelity input: five posts published after the snapshot were fetched, imported,
 deployed and indexed (`content sync`), otherwise every "Continue Reading" carousel differs from live by definition.
+
+Round 2 (400 new pages, captured 2026-09-16 while the round-1 content fixes were still deploying): 10 warn-only
+(author), median |Δh| 78 px, 155/367 within 60 px; author 14/40 within 8 px, form 29/55 within 60 px. New classes it
+surfaced: modal videos rendered inline (+950 px on 197 pages), dropped video carousels (8 pages), promo-row padding
+applied to plain image+text rows in articles, DesignWare rail list title (h5) and search icon, empty spacer text
+bands, stacked group padding. All fixed in code; the re-import is deployed as `redeploy16` (904 pages) and the
+round-1 sample is re-run after it as the honest post-deploy number. Round 3 (1,000 pages) is drawn.
