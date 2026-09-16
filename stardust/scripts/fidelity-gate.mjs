@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, appendFileSync } fr
 import { LIVE, DEP, slug, capture, compare } from './fidelity-core.mjs';
 
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] : d; };
-const OUT = arg('--out', 'qa/fidelity'); const WIDTHS = arg('--widths', '1440,360,1920').split(',').map(Number); const CONC = +arg('--concurrency', 2); // synopsys.com closes connections above ~2 parallel sessions const RESUME = process.argv.includes('--resume');
+const OUT = arg('--out', 'qa/fidelity'); const WIDTHS = arg('--widths', '1440,360,1920').split(',').map(Number); const CONC = +arg('--concurrency', 2); /* synopsys.com closes connections above ~2 parallel sessions */ const RESUME = process.argv.includes('--resume');
 const MAP = JSON.parse(readFileSync(arg('--map', 'stardust/path-map.json'), 'utf8'));
 const sample = arg('--sample') ? JSON.parse(readFileSync(arg('--sample'), 'utf8')) : null;
 const paths = sample ? sample.map((s) => s[1]) : arg('--paths') ? readFileSync(arg('--paths'), 'utf8').split('\n').map((s) => s.trim()).filter(Boolean) : process.argv.slice(2).filter((a) => a.startsWith('/'));
