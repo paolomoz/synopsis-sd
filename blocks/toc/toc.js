@@ -1,6 +1,6 @@
 /**
  * toc — article table of contents (source: .table-of-contents-article-layout). Authored row: the
- * "Table of Contents" label. The list is generated from the page's <h2>s at decorate time
+ * "Table of Contents" label. The list is generated from the page's section titles (h2/h3) at decorate time
  * (ids assigned when missing). @ew-exempt <p> label — rendered as the list heading
  */
 export default async function decorate(block) {
@@ -16,7 +16,7 @@ export default async function decorate(block) {
   t.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
   const ul = document.createElement('ul');
   heads.forEach((h, i) => {
-    if (h.tagName !== 'H2') return;
+    if (h.tagName !== 'H2' && h.tagName !== 'H3') return; // section titles are h3 since the text-size-smaller demotion (2026-09-11)
     if (!h.id) h.id = `${h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${i}`;
     const li = document.createElement('li'); const a = document.createElement('a'); a.href = `#${h.id}`; a.textContent = h.textContent.trim(); li.append(a); ul.append(li);
   });
