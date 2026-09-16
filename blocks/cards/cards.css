@@ -469,6 +469,7 @@ main > .section.cards-container:has(.cards.people) {
   display: grid;
   grid-template-columns: 193px 1fr;
   grid-template-areas: "img label" "img body";
+  grid-template-rows: max-content 1fr; /* the spanning thumbnail must not stretch the chip row */
   column-gap: 30px;
   align-items: start;
   height: auto;
