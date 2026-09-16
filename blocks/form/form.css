@@ -99,3 +99,7 @@ main .section:is(.purple, .dark) .form .form-title {
 /* blog subscribe form (8479): dark submit, 13px consent notice with #333 links */
 .form[data-form-id="8479"] .form-submit { background: #111c24; border-color: #111c24; }
 .form[data-form-id="8479"] .form-note, .form[data-form-id="8479"] .form-note a { font-size: 13px; color: #333; }
+
+/* gated panel: the consent notice wraps at 273px on the source (panel 375 − 2×51) */
+.form .form-note { max-width: 273px; }
+.form .form-required { margin: 0 0 14px; line-height: 22px; }

@@ -1378,3 +1378,6 @@ body.form main > .section.form-container:is(.purple, .dark) .form .form-submit {
 
 /* centred figure captions (source imageTextCta.text-align-center) */
 main > .section.caption.centered > .default-content-wrapper p { text-align: center; }
+
+/* DesignWare ipdir: the detail heading sits 24px under the band top on the source */
+body.dw main > .section.main .default-content-wrapper h5:first-child { margin-top: 24px; }
