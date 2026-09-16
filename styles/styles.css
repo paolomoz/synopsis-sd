@@ -776,7 +776,7 @@ body.article main .section .default-content-wrapper img {
 }
 
 /* article layout: left rail (toc, subscribe form, rail sections) floats beside the 75% reading column */
-body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) {
+body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered, .blog-subnav-container) {
   padding: 0; /* band padding comes from the authored tokens below (source vert-pad-* classes) */
 }
 
@@ -880,7 +880,7 @@ body:is(.article, .glossary) main > .section.carousel-container {
 
 /* wrappers are BFCs (flow-root) so they sit beside the floated rail; the left margin reserves the rail
    width even after the floats end, keeping the reading column at container-left + 292px on every section */
-body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div {
+body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered, .blog-subnav-container) > div {
   max-width: none;
   margin: 0 max(15px, calc((100% - var(--container)) / 2)) 0 max(15px, calc((100% - var(--container)) / 2 + 293px)); /* copy at container-left + 293 + 15 = x443 @1440 */
   padding: 0 15px;
@@ -1118,7 +1118,7 @@ body.listing main .section .default-content-wrapper h2 {
   body:is(.article, .glossary) main > .section.toc-container > div,
   body:is(.article, .glossary) main > .section.form-container > div,
   body:is(.article, .glossary) main > .section.rail > div { padding: 0 15px; }
-  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div { margin: 0; padding: 0 15px; }
+  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered, .blog-subnav-container) > div { margin: 0; padding: 0 15px; }
   main > .section.rail-right, main > .section.main > div { float: none; width: auto; max-width: none; margin: 0 auto; }
 
   /* live mobile order: form panel first, then the gated copy */
@@ -1168,7 +1168,7 @@ a .prosemirror-editor a:any-link {
 /* ---- article / glossary mobile: kept last so it overrides the desktop token rules above ---- */
 @media (width <= 729px) {
   /* article / glossary @360 (live lift): every pt-* token is 40px, pb tokens keep 30/60; 24px headings, copy 16px under them, 24px after */
-  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered) > div {
+  body:is(.article, .glossary) main > .section:not(.hero-container, .breadcrumbs-container, .carousel-container, .cards-container, .toc-container, .form-container, .rail, .centered, .blog-subnav-container) > div {
     margin: 0;
     padding: 0 15px;
   }
