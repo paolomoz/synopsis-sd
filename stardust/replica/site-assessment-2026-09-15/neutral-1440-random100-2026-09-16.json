@@ -1,0 +1,902 @@
+[
+ {
+  "template": "form",
+  "path": "/resources/co-packaged-optics-and-the-evolution-of-switch-optical-interconnects-in-data-centers-white-paper",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 7.83,
+  "dh": -37
+ },
+ {
+  "template": "program",
+  "path": "/manufacturing/quantumatk/videos",
+  "w": 1440,
+  "hLive": 6223,
+  "hBuild": 5911,
+  "pct": 28.32,
+  "dh": -312
+ },
+ {
+  "template": "program",
+  "path": "/photonic-solutions/product-applications/multimode-fiber-optic/modeling-multimode-modesys",
+  "w": 1440,
+  "hLive": 4321,
+  "hBuild": 3658,
+  "pct": 28.8,
+  "dh": -663
+ },
+ {
+  "template": "program",
+  "path": "/dw/doc/ds/i/dw8051-pdf",
+  "w": 1440,
+  "hLive": 900,
+  "hBuild": 900,
+  "pct": 66.95,
+  "dh": 0
+ },
+ {
+  "template": "static",
+  "path": "/community/snug/snug-silicon-valley/location-proceedings-2026",
+  "w": 1440,
+  "hLive": 3688,
+  "hBuild": 4186,
+  "pct": 33.07,
+  "dh": 498
+ },
+ {
+  "template": "form",
+  "path": "/resources/synopsys-phy-ip-for-pci-express-3-1-datasheet",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 7.28,
+  "dh": -37
+ },
+ {
+  "template": "form",
+  "path": "/webinars/accelerating-windows-driver-development-using-synopsys-virtualizer",
+  "w": 1440,
+  "hLive": 2085,
+  "hBuild": 2601,
+  "pct": 40.34,
+  "dh": 516
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/primesim-continuum-transforming-soc-design-insights-hany-elhak",
+  "w": 1440,
+  "hLive": 5261,
+  "hBuild": 4111,
+  "pct": 18.27,
+  "dh": -1150
+ },
+ {
+  "template": "program",
+  "path": "/verification/verification-ip/ethernet/ethernet-avb",
+  "w": 1440,
+  "hLive": 2650,
+  "hBuild": 2543,
+  "pct": 15.91,
+  "dh": -107
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/security-ip/cryptography-ip/puf/medical",
+  "w": 1440,
+  "hLive": 4293,
+  "hBuild": 4032,
+  "pct": 20.5,
+  "dh": -261
+ },
+ {
+  "template": "article",
+  "path": "/articles/techniques-for-improving-qor",
+  "w": 1440,
+  "hLive": 15201,
+  "hBuild": 17951,
+  "pct": 8.58,
+  "dh": 2750
+ },
+ {
+  "template": "program",
+  "path": "/manufacturing",
+  "w": 1440,
+  "hLive": 4328,
+  "hBuild": 4746,
+  "pct": 27.76,
+  "dh": 418
+ },
+ {
+  "template": "form",
+  "path": "/webinars/multi-die-3dic-partitioning-floorplanning",
+  "w": 1440,
+  "hLive": 2783,
+  "hBuild": 3248,
+  "pct": 41.77,
+  "dh": 465
+ },
+ {
+  "template": "program",
+  "path": "/manufacturing/quantumatk/feature-list",
+  "w": 1440,
+  "hLive": 30443,
+  "hBuild": 2222,
+  "pct": 11.35,
+  "dh": -28221
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/cloud-computing-infrastructure",
+  "w": 1440,
+  "hLive": 5926,
+  "hBuild": 6006,
+  "pct": 9.07,
+  "dh": 80
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/alessandra-costa-qa",
+  "w": 1440,
+  "hLive": 5197,
+  "hBuild": 5266,
+  "pct": 7.64,
+  "dh": 69
+ },
+ {
+  "template": "program",
+  "path": "/dw/ipdir/dw-8b10b-enc",
+  "w": 1440,
+  "hLive": 1444,
+  "hBuild": 1523,
+  "pct": 12.56,
+  "dh": 79
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/interface-ip/usb/usb4-phy",
+  "w": 1440,
+  "hLive": 4216,
+  "hBuild": 4200,
+  "pct": 6.32,
+  "dh": -16
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/pcie-6-specification-speed-keysight",
+  "w": 1440,
+  "hLive": 4937,
+  "hBuild": 5003,
+  "pct": 7.89,
+  "dh": 66
+ },
+ {
+  "template": "program",
+  "path": "/blogs/chip-design/category-signoff",
+  "w": 1440,
+  "hLive": 3174,
+  "hBuild": 4265,
+  "pct": 33.54,
+  "dh": 1091
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/dfi-5-enhances-ddr5-lpddr5-performance",
+  "w": 1440,
+  "hLive": 4877,
+  "hBuild": 4924,
+  "pct": 7.69,
+  "dh": 47
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/semiconductors-chip-design-global-innovation",
+  "w": 1440,
+  "hLive": 6196,
+  "hBuild": 1472,
+  "pct": 19.25,
+  "dh": -4724
+ },
+ {
+  "template": "author",
+  "path": "/authors/gopinath-lakshmi-narasimhan",
+  "w": 1440,
+  "hLive": 1288,
+  "hBuild": 1306,
+  "pct": 5.55,
+  "dh": 18
+ },
+ {
+  "template": "article",
+  "path": "/articles/challenges-of-usb-3-1-ip-certification",
+  "w": 1440,
+  "hLive": 6800,
+  "hBuild": 6947,
+  "pct": 18.85,
+  "dh": 147
+ },
+ {
+  "template": "program",
+  "path": "/manufacturing/mask-solutions/proteus",
+  "w": 1440,
+  "hLive": 3376,
+  "hBuild": 2748,
+  "pct": 51.32,
+  "dh": -628
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/what-is-elasticity-in-cloud-computing",
+  "w": 1440,
+  "hLive": 4529,
+  "hBuild": 4613,
+  "pct": 11.08,
+  "dh": 84
+ },
+ {
+  "template": "article",
+  "path": "/articles/understanding-the-mipi",
+  "w": 1440,
+  "hLive": 6335,
+  "hBuild": 6583,
+  "pct": 20.13,
+  "dh": 248
+ },
+ {
+  "template": "program",
+  "path": "/webinars/accelerated-sdv-development",
+  "w": 1440,
+  "hLive": 2384,
+  "hBuild": 2459,
+  "pct": 11.89,
+  "dh": 75
+ },
+ {
+  "template": "static",
+  "path": "/partners/globalfoundries",
+  "w": 1440,
+  "hLive": 3445,
+  "hBuild": 3777,
+  "pct": 43.85,
+  "dh": 332
+ },
+ {
+  "template": "form",
+  "path": "/resources/foundation-ip-for-tsmc-16ffc-datasheet",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 7.92,
+  "dh": -37
+ },
+ {
+  "template": "form",
+  "path": "/resources/software-defined-hardware-assisted-verification-ai-era",
+  "w": 1440,
+  "hLive": 1866,
+  "hBuild": 1886,
+  "pct": 8.5,
+  "dh": 20
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/ai-predictions-2022",
+  "w": 1440,
+  "hLive": 4988,
+  "hBuild": 5056,
+  "pct": 7.83,
+  "dh": 68
+ },
+ {
+  "template": "program",
+  "path": "/solutions/silicon-lifecycle-management/resources/podcasts",
+  "w": 1440,
+  "hLive": 1320,
+  "hBuild": 900,
+  "pct": 62.82,
+  "dh": -420
+ },
+ {
+  "template": "program",
+  "path": "/dw/ipdir/dw02-tree",
+  "w": 1440,
+  "hLive": 1444,
+  "hBuild": 1523,
+  "pct": 12.57,
+  "dh": 79
+ },
+ {
+  "template": "static",
+  "path": "/company/management-team/antonio-varas-bio",
+  "w": 1440,
+  "hLive": 1292,
+  "hBuild": 1234,
+  "pct": 15.37,
+  "dh": -58
+ },
+ {
+  "template": "author",
+  "path": "/authors/manu-verma",
+  "w": 1440,
+  "hLive": 1352,
+  "hBuild": 900,
+  "pct": 45.73,
+  "dh": -452
+ },
+ {
+  "template": "static",
+  "path": "/support/training/locations/locations-denmark",
+  "w": 1440,
+  "hLive": 1380,
+  "hBuild": 1040,
+  "pct": 48.31,
+  "dh": -340
+ },
+ {
+  "template": "author",
+  "path": "/authors/jamil-kawa",
+  "w": 1440,
+  "hLive": 1525,
+  "hBuild": 1531,
+  "pct": 4.98,
+  "dh": 6
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/interface-ip/pci-express/pci-express-axi",
+  "w": 1440,
+  "hLive": 3607,
+  "hBuild": 3558,
+  "pct": 6.95,
+  "dh": -49
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/silicon-frontline-technology-acquisition",
+  "w": 1440,
+  "hLive": 4456,
+  "hBuild": 3264,
+  "pct": 17.02,
+  "dh": -1192
+ },
+ {
+  "template": "author",
+  "path": "/authors/jon-ames",
+  "w": 1440,
+  "hLive": 2338,
+  "hBuild": 2339,
+  "pct": 5.38,
+  "dh": 1
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/linting-tools-machine-learning",
+  "w": 1440,
+  "hLive": 5036,
+  "hBuild": 5094,
+  "pct": 6.82,
+  "dh": 58
+ },
+ {
+  "template": "author",
+  "path": "/authors/ajay-daga",
+  "w": 1440,
+  "hLive": 1310,
+  "hBuild": 1327,
+  "pct": 5.62,
+  "dh": 17
+ },
+ {
+  "template": "program",
+  "path": "/photonic-solutions/product-applications/pon-catv-rof/rf-dual-parallel-mzm",
+  "w": 1440,
+  "hLive": 4982,
+  "hBuild": 5470,
+  "pct": 23.58,
+  "dh": 488
+ },
+ {
+  "template": "program",
+  "path": "/solutions/silicon-lifecycle-management/environmental-monitors",
+  "w": 1440,
+  "hLive": 1818,
+  "hBuild": 900,
+  "pct": 51.93,
+  "dh": -918
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/security-ip/security-protocol-accelerators/security-protocol-accelerator-sm3-sm4",
+  "w": 1440,
+  "hLive": 3961,
+  "hBuild": 900,
+  "pct": 29.92,
+  "dh": -3061
+ },
+ {
+  "template": "glossary",
+  "path": "/glossary/what-is-hav-prototyping",
+  "w": 1440,
+  "hLive": 6279,
+  "hBuild": 900,
+  "pct": 18.32,
+  "dh": -5379
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/interface-ip/ethernet/200g-400g-800g-ethernet-mac-ip",
+  "w": 1440,
+  "hLive": 3504,
+  "hBuild": 900,
+  "pct": 32.4,
+  "dh": -2604
+ },
+ {
+  "template": "article",
+  "path": "/articles/ddr-hardening-demystified",
+  "w": 1440,
+  "hLive": 7395,
+  "hBuild": 1093,
+  "pct": 18.77,
+  "dh": -6302
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/hdmi-hdcp2-authentication-process",
+  "w": 1440,
+  "hLive": 3502,
+  "hBuild": 2242,
+  "pct": 22.05,
+  "dh": -1260
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/ai-chip-silicon-success-tips",
+  "w": 1440,
+  "hLive": 6508,
+  "hBuild": 2150,
+  "pct": 17.75,
+  "dh": -4358
+ },
+ {
+  "template": "program",
+  "path": "/verification/verification-ip/mipi/c-phy",
+  "w": 1440,
+  "hLive": 2648,
+  "hBuild": 1962,
+  "pct": 36.78,
+  "dh": -686
+ },
+ {
+  "template": "form",
+  "path": "/resources/high-performance-aes-gcm-ctr-ip-core-datasheet",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 7.67,
+  "dh": -37
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/turbocharging-ai-how-hardware-assisted-verification-fuels-the-revolution",
+  "w": 1440,
+  "hLive": 6252,
+  "hBuild": 5808,
+  "pct": 14.91,
+  "dh": -444
+ },
+ {
+  "template": "static",
+  "path": "/support/licensing-installation-computeplatforms/compute-platforms/release-specific-support/supported-t-foundation",
+  "w": 1440,
+  "hLive": 2497,
+  "hBuild": 2452,
+  "pct": 9.05,
+  "dh": -45
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/rfic-design-flow-corehw",
+  "w": 1440,
+  "hLive": 5537,
+  "hBuild": 5497,
+  "pct": 16.95,
+  "dh": -40
+ },
+ {
+  "template": "glossary",
+  "path": "/glossary/what-is-automatic-test-equipment",
+  "w": 1440,
+  "hLive": 6540,
+  "hBuild": 6070,
+  "pct": 15.82,
+  "dh": -470
+ },
+ {
+  "template": "author",
+  "path": "/authors/alex-wakefield",
+  "w": 1440,
+  "hLive": 1340,
+  "hBuild": 1336,
+  "pct": 6.64,
+  "dh": -4
+ },
+ {
+  "template": "article",
+  "path": "/articles/design-considerations",
+  "w": 1440,
+  "hLive": 7087,
+  "hBuild": 7187,
+  "pct": 12.78,
+  "dh": 100
+ },
+ {
+  "template": "program",
+  "path": "/verification/verification-ip/bus-interface/interlaken",
+  "w": 1440,
+  "hLive": 2437,
+  "hBuild": 2396,
+  "pct": 17.66,
+  "dh": -41
+ },
+ {
+  "template": "form",
+  "path": "/webinars/advancing-sic-power-transistors",
+  "w": 1440,
+  "hLive": 2539,
+  "hBuild": 2460,
+  "pct": 11.54,
+  "dh": -79
+ },
+ {
+  "template": "program",
+  "path": "/webinars/verify-clock-gating-vc-formal-part-1",
+  "w": 1440,
+  "hLive": 2408,
+  "hBuild": 2349,
+  "pct": 8.75,
+  "dh": -59
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/soc-infrastructure-ip",
+  "w": 1440,
+  "hLive": 2047,
+  "hBuild": 2421,
+  "pct": 38.83,
+  "dh": 374
+ },
+ {
+  "template": "author",
+  "path": "/authors/yuval-shay",
+  "w": 1440,
+  "hLive": 1545,
+  "hBuild": 1551,
+  "pct": 5.12,
+  "dh": 6
+ },
+ {
+  "template": "static",
+  "path": "/support/licensing-installation-computeplatforms/compute-platforms/platform-notice/2008-sivl-sun-sparc-solaris",
+  "w": 1440,
+  "hLive": 1481,
+  "hBuild": 900,
+  "pct": 46.4,
+  "dh": -581
+ },
+ {
+  "template": "author",
+  "path": "/authors/manoz-palaparthi",
+  "w": 1440,
+  "hLive": 2506,
+  "hBuild": 2468,
+  "pct": 10.72,
+  "dh": -38
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/analog-design-ai-aimc-innovation",
+  "w": 1440,
+  "hLive": 6111,
+  "hBuild": 900,
+  "pct": 22.55,
+  "dh": -5211
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/chip-design-tools-github-hardware-development",
+  "w": 1440,
+  "hLive": 7456,
+  "hBuild": 900,
+  "pct": 13.28,
+  "dh": -6556
+ },
+ {
+  "template": "program",
+  "path": "/webinars/ai-driven-debug-verdi",
+  "w": 1440,
+  "hLive": 2196,
+  "hBuild": 2262,
+  "pct": 11.97,
+  "dh": 66
+ },
+ {
+  "template": "author",
+  "path": "/authors/swami-venkat",
+  "w": 1440,
+  "hLive": 1341,
+  "hBuild": 1337,
+  "pct": 6.53,
+  "dh": -4
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/security-ip/cryptography-ip/puf/firmware-ip-protection",
+  "w": 1440,
+  "hLive": 3242,
+  "hBuild": 3842,
+  "pct": 39.34,
+  "dh": 600
+ },
+ {
+  "template": "article",
+  "path": "/articles/design-precision",
+  "w": 1440,
+  "hLive": 8876,
+  "hBuild": 8438,
+  "pct": 15.38,
+  "dh": -438
+ },
+ {
+  "template": "form",
+  "path": "/verification/resources/datasheets/zebu-200",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 11.17,
+  "dh": -37
+ },
+ {
+  "template": "program",
+  "path": "/designware-ip/interface-ip/hbm/hbm3-controller",
+  "w": 1440,
+  "hLive": 4438,
+  "hBuild": 4431,
+  "pct": 5.19,
+  "dh": -7
+ },
+ {
+  "template": "author",
+  "path": "/authors/patrick-haspel",
+  "w": 1440,
+  "hLive": 1751,
+  "hBuild": 900,
+  "pct": 37.38,
+  "dh": -851
+ },
+ {
+  "template": "static",
+  "path": "/support/training/locations/locations-hillsboro",
+  "w": 1440,
+  "hLive": 2564,
+  "hBuild": 2080,
+  "pct": 36.82,
+  "dh": -484
+ },
+ {
+  "template": "author",
+  "path": "/authors/vikram-bhatia",
+  "w": 1440,
+  "hLive": 2938,
+  "hBuild": 4207,
+  "pct": 29.49,
+  "dh": 1269
+ },
+ {
+  "template": "author",
+  "path": "/authors/jigesh-patel",
+  "w": 1440,
+  "hLive": 1400,
+  "hBuild": 900,
+  "pct": 41.91,
+  "dh": -500
+ },
+ {
+  "template": "static",
+  "path": "/support/licensing-installation-computeplatforms/compute-platforms/platform-notice/2006-os-platform-end-of-life-itanium-processor",
+  "w": 1440,
+  "hLive": 1353,
+  "hBuild": 900,
+  "pct": 43.04,
+  "dh": -453
+ },
+ {
+  "template": "glossary",
+  "path": "/glossary/what-is-physical-design",
+  "w": 1440,
+  "hLive": 6315,
+  "hBuild": 900,
+  "pct": 15.27,
+  "dh": -5415
+ },
+ {
+  "template": "program",
+  "path": "/photonic-solutions/product-applications/photonic-integrated-circuits/dxf-transfer-function",
+  "w": 1440,
+  "hLive": 3777,
+  "hBuild": 3517,
+  "pct": 17.34,
+  "dh": -260
+ },
+ {
+  "template": "author",
+  "path": "/authors/licinio-sousa",
+  "w": 1440,
+  "hLive": 1540,
+  "hBuild": 1545,
+  "pct": 5.66,
+  "dh": 5
+ },
+ {
+  "template": "form",
+  "path": "/demo/ldw-sms",
+  "w": 1440,
+  "hLive": 2434,
+  "hBuild": 2592,
+  "pct": 16.25,
+  "dh": 158
+ },
+ {
+  "template": "form",
+  "path": "/resources/quantumatk",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 9.54,
+  "dh": -37
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/eda-tools-for-aerospace-chip-designers",
+  "w": 1440,
+  "hLive": 4396,
+  "hBuild": 4518,
+  "pct": 12.38,
+  "dh": 122
+ },
+ {
+  "template": "program",
+  "path": "/dw/doc/wp/how-the-doubling-of-interconnect-bandwidth-with-pcie-6-0-impacts-ip-electrical-validation-wp-pdf",
+  "w": 1440,
+  "hLive": 900,
+  "hBuild": 900,
+  "pct": 66.95,
+  "dh": 0
+ },
+ {
+  "template": "program",
+  "path": "/ai/ai-powered-eda/dso-ai",
+  "w": 1440,
+  "hLive": 5903,
+  "hBuild": 6315,
+  "pct": 35.58,
+  "dh": 412
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/2nm-technology-process-design-kit-imec",
+  "w": 1440,
+  "hLive": 5058,
+  "hBuild": 5070,
+  "pct": 13.05,
+  "dh": 12
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/what-is-cloud-security-framework",
+  "w": 1440,
+  "hLive": 4928,
+  "hBuild": 4917,
+  "pct": 10.64,
+  "dh": -11
+ },
+ {
+  "template": "article",
+  "path": "/articles/interface-ip-avoid-cloud-jams",
+  "w": 1440,
+  "hLive": 6870,
+  "hBuild": 6867,
+  "pct": 10.2,
+  "dh": -3
+ },
+ {
+  "template": "form",
+  "path": "/resources/3-3v-1-8v-i2c-io-ip-with-5v-fail-safe-for-gf-12lp-datasheet",
+  "w": 1440,
+  "hLive": 1820,
+  "hBuild": 1783,
+  "pct": 7.79,
+  "dh": -37
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/summer-tech-internship-program",
+  "w": 1440,
+  "hLive": 4828,
+  "hBuild": 4896,
+  "pct": 8.16,
+  "dh": 68
+ },
+ {
+  "template": "author",
+  "path": "/authors/pavithra-c-suriyanarayanan",
+  "w": 1440,
+  "hLive": 1422,
+  "hBuild": 1432,
+  "pct": 5.8,
+  "dh": 10
+ },
+ {
+  "template": "author",
+  "path": "/authors/dale-donchin",
+  "w": 1440,
+  "hLive": 1220,
+  "hBuild": 1243,
+  "pct": 5.46,
+  "dh": 23
+ },
+ {
+  "template": "form",
+  "path": "/webinars/silicon-systems-innovation-ai",
+  "w": 1440,
+  "hLive": 3544,
+  "hBuild": 5638,
+  "pct": 33.76,
+  "dh": 2094
+ },
+ {
+  "template": "program",
+  "path": "/dw/ipdir/dw-lp-fifoctl-1c-df",
+  "w": 1440,
+  "hLive": 1444,
+  "hBuild": 1523,
+  "pct": 12.58,
+  "dh": 79
+ },
+ {
+  "template": "article",
+  "path": "/articles/ai-hpc-multi-die-designs",
+  "w": 1440,
+  "hLive": 10121,
+  "hBuild": 10069,
+  "pct": 10.88,
+  "dh": -52
+ },
+ {
+  "template": "article",
+  "path": "/blogs/chip-design/physical-ai-system-level-engineering",
+  "w": 1440,
+  "hLive": 5508,
+  "hBuild": 5018,
+  "pct": 36.67,
+  "dh": -490
+ },
+ {
+  "template": "program",
+  "path": "/blogs/chip-design/category-silicon-ip",
+  "w": 1440,
+  "hLive": 3123,
+  "hBuild": 4105,
+  "pct": 35.17,
+  "dh": 982
+ },
+ {
+  "template": "author",
+  "path": "/authors/idan-berko",
+  "w": 1440,
+  "hLive": 1196,
+  "hBuild": 1218,
+  "pct": 5.72,
+  "dh": 22
+ }
+]
