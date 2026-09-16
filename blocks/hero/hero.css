@@ -578,3 +578,6 @@
     line-height: normal;
   }
 }
+
+/* blog banner: crumb row 41px, then 41px to the title block (source .info-holder at +82) */
+.hero.blog .hero-eyebrow p { margin-bottom: 41px; }

@@ -1355,3 +1355,14 @@ body.dw main > .section.rail-right .default-content-wrapper > p.button-wrapper:l
 body:is(.article, .glossary) main .section .default-content-wrapper > h3:first-child {
   margin-top: 0;
 }
+
+/* article / glossary body images fill the reading column on the source (a 500px asset renders at 848px) unless letterboxed */
+body:is(.article, .glossary) main > .section:not(.img-pad-sm, .img-pad-md, .img-pad-lg) .default-content-wrapper > :is(picture, p > picture, a > picture, p > a > picture) > img {
+  width: 100%;
+  height: auto;
+}
+
+/* author archive: the breadcrumb sits 15px lower on the source, the band below is 15px shorter */
+body.author main > .section.breadcrumbs-container { padding-top: 15px; }
+body.author main > .section.main:not(.cards-container),
+body.author main > .section.rail-right.author-container { padding-top: 60px; }
