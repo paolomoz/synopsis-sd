@@ -925,6 +925,14 @@ def convert_column(col, page, inherited_style=''):
     if t == 'keyBenefits':
         page.add_block(block_table('cards benefits', kb_rows(col.select('.cmp-key-benefits'))), bg_of(col)); COVERAGE['cards benefits'] += 1; return
     if t in ('carousel', 'dynamicCards', 'contentCarousel'):
+        vids = col.select('.cmp-video[data-video-id]')
+        if vids and not col.select_one('.component-assetcard, .component-card-b, .component-eventcard'):
+            # source: a one-slide content carousel of Brightcove video tiles (modal players, 16:9, 3-up) → cards video (links open the public player)
+            rows = []
+            for v in vids:
+                acct = v.get('data-account') or v.get('data-video-lang') or '5748441669001'
+                rows.append([f'<p><a href="https://players.brightcove.net/{esc(acct)}/default_default/index.html?videoId={esc(v["data-video-id"])}">Watch video</a></p>'])
+            page.add_block(block_table('cards video', rows), bg_of(col)); COVERAGE['cards video'] += 1; return
         before = len(page.sections); cur_items = len(page.cur['items']) if page.cur else 0
         handle_carousel(col, page) or handle_generic(col, page, t)
         if t == 'dynamicCards':

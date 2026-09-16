@@ -594,3 +594,12 @@ main > .section.cards-container:has(.cards.people) {
 .cards.author .cards-card-body p:last-child { color: var(--ink); font-size: 16px; font-weight: 300; line-height: 22.4px; } /* the byline keeps its size when it is the last line */
 .cards.author .cards-card-body p.cards-card-tags { margin-bottom: 0; color: var(--grey); font-size: 14px; font-weight: 400; line-height: 16px; }
 .cards.author .cards-card-body p a:any-link { color: var(--ink); } /* source byline links are ink */
+
+/* ---- video: Brightcove tiles (source .cmp-video 16:9 in col-sm-4, dark poster area, 56px play circle; the link opens the public player) ---- */
+.cards.video > ul { grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.cards.video > ul > li { position: relative; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: #151b17; box-shadow: none; }
+.cards.video > ul > li::after { content: ""; position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px; border-radius: 50%; background: rgb(0 0 0 / 75%) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 21'%3E%3Cpath fill='%23fff' d='M0 0l16 10.5L0 21z'/%3E%3C/svg%3E") no-repeat 22px 17px / 16px 21px; pointer-events: none; }
+.cards.video .cards-card-body { position: absolute; inset: 0; padding: 0; }
+.cards.video .cards-card-body p { margin: 0; height: 100%; }
+.cards.video .cards-card-body a:any-link { display: block; height: 100%; color: transparent; font-size: 16px; }
+.cards.video .cards-card-body a::after { content: none; }
