@@ -580,12 +580,14 @@ def handle_dw_products(col, page):
         if r.get('stars'): links += f' <a href="{esc(r["stars"])}">STARs</a>'
         if r.get('myDesignWare'): links += f' <a href="{esc(r["myDesignWare"])}">Subscribe</a>'
         rows_p.append(f'<li>{desc}{links}</li>')
-        docs = r.get('documentation') or []
-        if docs:
-            items = ''.join(f'<li><a href="{esc(d.get("url") or d.get("link") or "")}">{esc(clean_text(str(d.get("title") or d.get("name") or d.get("type") or "Document")))}</a></li>' for d in docs if isinstance(d, dict))
-            rows_d.append(f'<p><strong>{desc}</strong></p><ul>{items}</ul>')
-        elif r.get('download'):
-            rows_d.append(f'<p><strong>{desc}</strong></p><ul><li><a href="{esc(r["download"])}">Download</a></li></ul>')
+        # source Downloads tab: one key/value table per product (Description, Name, Version, ECCN, documentation, download)
+        kv = [('Description', desc), ('Name', esc(r.get('name') or '')), ('Version', esc(r.get('version') or '')), ('ECCN', esc(r.get('eccn') or ''))]
+        items = ''.join(f'<li><strong>{k}:</strong> {v}</li>' for k, v in kv if v)
+        for d in (r.get('documentation') or []):
+            if isinstance(d, dict) and (d.get('title') or d.get('pathinfo')):
+                items += f'<li>{esc(clean_text(str(d.get("type") or "Document")))}: {esc(clean_text(str(d.get("title") or d.get("pathinfo"))))}{(" (" + esc(str(d.get("format"))) + ")") if d.get("format") else ""}</li>'
+        if r.get('download'): items += f'<li><a href="{esc(r["download"])}">Download</a></li>'
+        rows_d.append(f'<ul>{items}</ul>')
     if not rows_p: return False
     tabs = [['<p><strong>Products</strong></p>', '<ul>' + ''.join(rows_p) + '</ul>'], ['<p><strong>Downloads &amp; Documentation</strong></p>', ''.join(rows_d) or '<p>No downloads listed.</p>']]
     page.add_block(block_table('tabs horizontal products', tabs), 'pt-xs pb-md'); COVERAGE['dw-products'] += 1
