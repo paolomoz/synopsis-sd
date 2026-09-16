@@ -57,3 +57,5 @@ body:is(.article, .glossary) .table td:first-child {
   font-size: 14px;
   line-height: 22.4px;
 }
+
+.table b, .table strong { font-weight: 700; }

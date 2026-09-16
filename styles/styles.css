@@ -1039,8 +1039,8 @@ main > .section.rail-right .default-content-wrapper a.button {
 
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 {
   margin: 0 0 15px;
-  font-size: 30px; /* source: h1.title > span.text-size-larger = 30px/42px */
-  line-height: 42px;
+  font-size: 32px; /* source: h1.title > span.text-size-larger renders 32px/44.8px (the h1 itself reports 30px) */
+  line-height: 44.8px;
 }
 
 body.form main > .section.form-container:is(.purple, .dark) .default-content-wrapper h1 + :is(p, ul) {
@@ -1067,7 +1067,7 @@ body.form main > .section.form-container:is(.purple, .dark) .form-panel {
 
 body.form main > .section.form-container:is(.purple, .dark) .form-panel .form-title {
   margin: 0 0 34px;
-  font-size: 32px;
+  font-size: 24px; /* source: the panel title span renders 24px */
   line-height: 35.2px;
   color: var(--ink);
   text-align: center; /* source: textcomp text-align-center "Download Now" */
@@ -1321,10 +1321,20 @@ body.dw main > .section.rail-right .default-content-wrapper > p:first-child:has(
 body.dw main > .section.rail-right .default-content-wrapper > p:first-child:has(> strong:only-child):not(:has(a)) strong { font-weight: 300; }
 
 /* zoomable figure caption line (source .zoom-instructions: centred, 31px tall, 10px margins) */
-main .default-content-wrapper p:has(> picture) + p:has(> em > a:only-child) {
+main .default-content-wrapper :is(p:has(> picture), picture) + p:is(.button-wrapper, :has(> em > a:only-child)) {
   margin: 10px 0;
   line-height: 31px;
   text-align: center;
+}
+
+main .default-content-wrapper :is(p:has(> picture), picture) + p.button-wrapper a.button {
+  padding: 1px 6px; /* source .zoom-instructions button: transparent, 18px/300 */
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28.8px;
 }
 
 /* letterboxed content images (source img.horizontal-padding-sm|md|lg: padding 0 5|25|100px, border-box, full column width) */

@@ -50,9 +50,11 @@ function shapeAuthorRow(li) {
   const meta = [...body.querislectorAll?.('x') || body.querySelectorAll('p')].find((p) => /\bmin read\b|\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b \d{1,2}, \d{4}/.test(p.textContent) && !p.querySelector('a'));
   if (meta) { meta.className = 'cards-card-meta'; img.append(meta); }
   const cta = body.querySelector('.cards-card-cta'); if (cta) cta.remove();
-  // at 360 the source shows the type chip in the left (image) column's date row; keep a copy there, CSS picks one per breakpoint
-  const label = body.querySelector(':scope > p:first-child strong');
-  if (label) { const m = document.createElement('p'); m.className = 'cards-card-label-mobile'; m.append(label.cloneNode(true)); img.append(m); }
+  // the type chip is one element placed by the row grid: beside the copy on desktop, under the image at 360 (no hidden clone)
+  const label = body.querySelector(':scope > p:first-child:has(> strong)');
+  if (label) { label.className = 'cards-card-label-row'; li.insertBefore(label, body); }
+  const tags = [...body.querySelectorAll(':scope > p')].find((p) => /^tags\s*:/i.test(p.textContent.trim()));
+  if (tags) tags.classList.add('cards-card-tags');
 }
 
 export default async function decorate(block) {

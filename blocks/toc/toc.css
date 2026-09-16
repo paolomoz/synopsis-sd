@@ -61,3 +61,11 @@ main .section.toc-empty {
   .toc .toc-title[aria-expanded="true"] + ul { display: block; }
   main .section.toc-container > div { padding: 0; }
 }
+
+/* source .cmp-tableofcontents geometry: header margin-top 15px, 24px/300 title on a 38.4px line, list 15px below, 42px rows (a: block, padding 8px 15px) */
+.toc .toc-box { padding-bottom: 24px; }
+.toc .toc-title { margin: 15px 0 0; font-size: 24px; font-weight: 300; line-height: 38.4px; }
+.toc .toc-box > ul { margin: 15px 0 10px; padding: 0; list-style: none; }
+.toc .toc-box > ul > li { padding: 0; }
+.toc .toc-box > ul > li > a { display: block; padding: 8px 15px; font-size: 16px; font-weight: 300; line-height: 25.6px; }
+main > .section.toc-container .toc-wrapper { padding-right: 15px; } /* rail 278 → toc 263 like the source */

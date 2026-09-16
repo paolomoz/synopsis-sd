@@ -58,10 +58,11 @@ export default async function decorate(block) {
   if (!spec) addRequired();
   const fieldRows = spec ? spec.rows : rows.map((label) => ({ kind: 'field', label }));
   fieldRows.forEach((row, i) => {
-    if (row.kind === 'required') { addRequired(); return; }
-    if (row.kind === 'notice') { addNotice(); return; }
+    const sized = (el) => { if (spec && row.h) el.style.minHeight = `${row.h}px`; form.append(el); };
+    if (row.kind === 'required') { const req = document.createElement('p'); req.className = 'form-required'; req.innerHTML = 'Required Fields <span>*</span>'; sized(req); return; }
+    if (row.kind === 'notice') { const note = document.createElement('p'); note.className = 'form-note'; note.innerHTML = NOTICE; sized(note); return; }
     if (row.kind === 'html') { const p = document.createElement('p'); p.className = 'form-html'; p.textContent = row.text; form.append(p); return; }
-    if (row.kind === 'checkbox') { const wrap = document.createElement('div'); wrap.className = 'form-field form-checkbox'; const cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = `f-${i}-consent`; cb.name = cb.id; cb.required = !!row.required; const lab = document.createElement('label'); lab.htmlFor = cb.id; lab.textContent = row.label || 'I agree'; wrap.append(cb, lab); form.append(wrap); return; }
+    if (row.kind === 'checkbox') { const wrap = document.createElement('div'); wrap.className = 'form-field form-checkbox'; const cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = `f-${i}-consent`; cb.name = cb.id; cb.required = !!row.required; const lab = document.createElement('label'); lab.htmlFor = cb.id; lab.textContent = row.label || 'I agree'; wrap.append(cb, lab); sized(wrap); return; }
     const label = row.label;
     const wrap = document.createElement('div');
     wrap.className = 'form-field';
@@ -83,6 +84,7 @@ export default async function decorate(block) {
     }
     input.id = id; input.name = id; input.required = isReq;
     wrap.append(lab, input);
+    if (spec && row.h) wrap.style.minHeight = `${row.h}px`;
     form.append(wrap);
   });
   if (!spec) addNotice();

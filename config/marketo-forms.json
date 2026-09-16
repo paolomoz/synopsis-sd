@@ -5176,68 +5176,79 @@
    "rows": [
     {
      "kind": "html",
-     "text": "* Required Fields"
+     "text": "* Required Fields",
+     "h": 38
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Phone Number",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Country",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "How can we help?",
      "type": "textarea",
-     "required": true
+     "required": true,
+     "h": 109
     },
     {
      "kind": "checkbox",
      "label": "Which application area do you currently work in?",
-     "required": true
+     "required": true,
+     "h": 151
     }
    ]
   },
@@ -5246,60 +5257,70 @@
    "height": 933,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 38
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 199
+     "options": 199,
+     "h": 78
     },
     {
      "kind": "checkbox",
      "label": "",
-     "required": true
+     "required": true,
+     "h": 84
     },
     {
      "kind": "checkbox",
      "label": "",
-     "required": true
+     "required": true,
+     "h": 185
     }
    ]
   },
@@ -5309,53 +5330,62 @@
    "rows": [
     {
      "kind": "html",
-     "text": "// <![CDATA[ (function (){ // Please include the email domains you would like to"
+     "text": "// <![CDATA[ (function (){ // Please include the email domains you would like to",
+     "h": 38
     },
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 38
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 199
+     "options": 199,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Tell us about your service project",
      "type": "textarea",
-     "required": true
+     "required": true,
+     "h": 86
     }
    ]
   },
@@ -5365,53 +5395,62 @@
    "rows": [
     {
      "kind": "html",
-     "text": "// <![CDATA[ (function (){ // Please include the email domains you would like to"
+     "text": "// <![CDATA[ (function (){ // Please include the email domains you would like to",
+     "h": 38
     },
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 38
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 78
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 199
+     "options": 199,
+     "h": 78
     }
    ]
   },
@@ -5420,50 +5459,58 @@
    "height": 609,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 199
+     "options": 199,
+     "h": 73
     }
    ]
   },
@@ -5472,60 +5519,70 @@
    "height": 533,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 73
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 145
     }
    ]
   },
@@ -5534,48 +5591,56 @@
    "height": 457,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 37
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 73
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 145
     }
    ]
   },
@@ -5584,62 +5649,72 @@
    "height": 902,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 199
+     "options": 199,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Reason for Contacting Synopsys",
      "type": "select",
      "required": true,
-     "options": 7
+     "options": 7,
+     "h": 73
     },
     {
      "kind": "checkbox",
      "label": "",
-     "required": true
+     "required": true,
+     "h": 218
     }
    ]
   },
@@ -5648,72 +5723,84 @@
    "height": 615,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "City",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 81
     },
     {
      "kind": "field",
      "label": "Additional Information",
      "type": "textarea",
-     "required": true
+     "required": true,
+     "h": 81
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 145
     }
    ]
   },
@@ -5722,74 +5809,86 @@
    "height": 854,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 38
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "Address",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "City",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 74
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 74
     },
     {
      "kind": "checkbox",
      "label": "",
-     "required": true
+     "required": true,
+     "h": 41
     }
    ]
   },
@@ -5798,79 +5897,92 @@
    "height": 689,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "City",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Product Interest",
      "type": "select",
      "required": true,
-     "options": 8
+     "options": 8,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Additional Information",
      "type": "textarea",
-     "required": true
+     "required": true,
+     "h": 81
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 145
     }
    ]
   },
@@ -5879,46 +5991,54 @@
    "height": 757,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 37
     },
     {
      "kind": "field",
      "label": "Business Email Address",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 244
+     "options": 244,
+     "h": 73
     },
     {
      "kind": "checkbox",
      "label": "",
-     "required": true
+     "required": true,
+     "h": 106
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 190
     }
    ]
   },
@@ -5927,98 +6047,114 @@
    "height": 1338,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Business Mobile Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 36
+     "options": 36,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Role",
      "type": "select",
      "required": true,
-     "options": 11
+     "options": 11,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "SNUG Role",
      "type": "select",
      "required": true,
-     "options": 11
+     "options": 11,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Market Verticals",
      "type": "select",
      "required": true,
-     "options": 5
+     "options": 5,
+     "h": 73
     },
     {
      "kind": "checkbox",
      "label": "Technical Tracks",
-     "required": true
+     "required": true,
+     "h": 173
     },
     {
      "kind": "field",
      "label": "How many SNUG conferences have you previously attended?",
      "type": "select",
      "required": true,
-     "options": 6
+     "options": 6,
+     "h": 73
     },
     {
      "kind": "checkbox",
      "label": "",
-     "required": true
+     "required": true,
+     "h": 61
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 123
     }
    ]
   },
@@ -6027,60 +6163,70 @@
    "height": 874,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 39
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "First Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Last Name",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Phone",
      "type": "tel",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Job Title",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Company",
      "type": "text",
-     "required": true
+     "required": true,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 73
     },
     {
      "kind": "field",
      "label": "State",
      "type": "select",
      "required": true,
-     "options": 52
+     "options": 52,
+     "h": 73
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 190
     }
    ]
   },
@@ -6089,23 +6235,27 @@
    "height": 514,
    "rows": [
     {
-     "kind": "required"
+     "kind": "required",
+     "h": 45
     },
     {
      "kind": "field",
      "label": "Business Email",
      "type": "email",
-     "required": true
+     "required": true,
+     "h": 94
     },
     {
      "kind": "field",
      "label": "Country/Region",
      "type": "select",
      "required": true,
-     "options": 243
+     "options": 243,
+     "h": 94
     },
     {
-     "kind": "notice"
+     "kind": "notice",
+     "h": 232
     }
    ]
   }
