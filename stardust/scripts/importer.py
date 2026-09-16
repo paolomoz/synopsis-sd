@@ -1024,6 +1024,11 @@ def convert_column(col, page, inherited_style=''):
         inp = col.select_one('form input'); ph = inp.get('placeholder') or inp.get('title') or 'Search for IP'
         page.add_block(block_table('search field', [[esc(ph)]]), bg_of(col)); COVERAGE['search field'] += 1; return  # source: JS redirect form (IP selector), 43px text field + 21px line
     if t == 'video' or (t in ('htmlTextOnly', 'text', 'embed') and (col.find('video') is not None or col.find(attrs={'data-video-id': True}) is not None or col.find(attrs={'data-playlist-id': True}) is not None)):
+        modal = col.select_one('.cmp-video[data-mode="modal"]')
+        if modal is not None and col.select_one('.cmp-video[data-mode="inline"]') is None:
+            # source: a modal video renders nothing inline — the textcomp CTA ("Watch now") opens the player in a dialog and the
+            # thumbnail lives inside that hidden dialog (197 pages). Emit nothing; inline videos (48 pages) keep the video block.
+            COVERAGE['video modal (skipped)'] += 1; return
         href, label = video_link(col)
         if href:
             thumb = col.select_one('.cmp-video__thumbnail-img img, img'); poster = (col.find('video') or {}).get('poster') if col.find('video') else None
