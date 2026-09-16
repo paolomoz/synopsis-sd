@@ -606,6 +606,12 @@ def handle_column(col, page):
     if sec is None: return False
     style = bg_of(col)
     cols = [c for c in sec.find_all(recursive=False) if isinstance(c, Tag) and 'snps-col-divider' not in ' '.join(c.get('class') or [])]
+    # a column that only holds a modal video renders nothing on the source (the CTA in the sibling column opens the dialog);
+    # its thumbnail must not be mistaken for a media image — drop the column before any layout pattern matches
+    def modal_only(c):
+        vids = c.select('.cmp-video'); return bool(vids) and all(v.get('data-mode') == 'modal' for v in vids) and not clean_text(c.get_text()) and c.select_one('.cmp-video[data-mode="inline"]') is None
+    cols = [c for c in cols if not modal_only(c)]
+    if not cols: return True
     def span_of(c):
         m = re.search(r'col-sm-(\d+)', ' '.join(c.get('class') or [])); return int(m.group(1)) if m else 12
     # single column whose grid starts with text components (a heading band) followed by a component (cards XF, box links…):
