@@ -136,7 +136,7 @@ export function compare(L, D, width, dir) {
     const local = prev ? (x.box[1] - prev[1].box[1]) - (l.box[1] - prev[0].box[1]) : dt; // gap-to-previous delta → the module that introduced the shift
     if (d(local, 0) > TOL || d(dl, 0) > TOL || d(dw, 0) > TOL || d(dh, 0) > TOL) {
       f.geometry.push({ region: l.region, tag: l.tag, text: l.key.slice(0, 40), live: l.box, dep: x.box, dTop: dt, local, dLeft: dl, dW: dw, dH: dh });
-      if (firstDiv === null && l.region === 'main') firstDiv = l.key.slice(0, 40);
+      if (firstDiv === null && l.region === 'main' && d(local, 0) > 8) firstDiv = `${l.key.slice(0, 40)} (${local > 0 ? '+' : ''}${local})`; // first VERTICAL break in main (width/left deltas are not shifts)
     }
     const sd = [];
     if (l.face.toLowerCase().replace(/[-_ ]/g, '') !== x.face.toLowerCase().replace(/[-_ ]/g, '') && !l.face.startsWith('?') && !x.face.startsWith('?')) sd.push(`face ${l.face}→${x.face}`);
