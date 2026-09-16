@@ -1,0 +1,102 @@
+{
+ "round1f": {
+  "n": 156,
+  "median_abs_dh": 73.5,
+  "within8": 9,
+  "within60": 57,
+  "byTemplate": {
+   "form": {
+    "n": 20,
+    "median": 61.0,
+    "within8": 0,
+    "within60": 3
+   },
+   "author": {
+    "n": 15,
+    "median": 13,
+    "within8": 4,
+    "within60": 14
+   },
+   "article": {
+    "n": 45,
+    "median": 69,
+    "within8": 1,
+    "within60": 17
+   },
+   "program": {
+    "n": 50,
+    "median": 149.0,
+    "within8": 3,
+    "within60": 18
+   },
+   "glossary": {
+    "n": 8,
+    "median": 129.5,
+    "within8": 0,
+    "within60": 2
+   },
+   "static": {
+    "n": 12,
+    "median": 221.5,
+    "within8": 0,
+    "within60": 2
+   },
+   "listing": {
+    "n": 5,
+    "median": 1917,
+    "within8": 0,
+    "within60": 0
+   },
+   "landing": {
+    "n": 1,
+    "median": 2,
+    "within8": 1,
+    "within60": 1
+   }
+  }
+ },
+ "round2": {
+  "n": 397,
+  "median_abs_dh": 87,
+  "within8": 25,
+  "within60": 164,
+  "byTemplate": {
+   "article": {
+    "n": 120,
+    "median": 86.5,
+    "within8": 4,
+    "within60": 37
+   },
+   "program": {
+    "n": 132,
+    "median": 164.5,
+    "within8": 4,
+    "within60": 45
+   },
+   "static": {
+    "n": 35,
+    "median": 102,
+    "within8": 2,
+    "within60": 11
+   },
+   "author": {
+    "n": 40,
+    "median": 15.5,
+    "within8": 14,
+    "within60": 38
+   },
+   "glossary": {
+    "n": 15,
+    "median": 240,
+    "within8": 1,
+    "within60": 4
+   },
+   "form": {
+    "n": 55,
+    "median": 57,
+    "within8": 0,
+    "within60": 29
+   }
+  }
+ }
+}

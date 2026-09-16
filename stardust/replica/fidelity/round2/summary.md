@@ -1,0 +1,433 @@
+# Fidelity gate — 400 pages, widths 1440, 9 min
+
+pass 0 · warn 10 · fail 387 · unavailable 3
+
+## Failures
+- `/manufacturing/quantumatk/feature-list` — @1440 missing text ×674; @1440 height Δ -28221; @1440 geometry ×3 (first: descriptions of features (-15))
+- `/designware-ip/interface-ip/ddr/lpddr5x54x-phy` — @1440 missing text ×1; @1440 height Δ -76; @1440 geometry ×2 (first: highlights & key features (+176)); @1440 style ×11
+- `/dw/ipdir/dw02-mac` — @1440 missing text ×2; @1440 geometry ×1 (first: ip directory component detail (-9)); @1440 style ×2
+- `/articles/category-cloud` — @1440 missing text ×4; @1440 height Δ -162; @1440 style ×3
+- `/blogs/chip-design/category-simpleware` — @1440 missing text ×8; @1440 height Δ -152; @1440 geometry ×2 (first: by (-20)); @1440 style ×14
+- `/verification/static-and-formal-verification/spyglass/spyglass-power` — @1440 missing text ×1; @1440 height Δ 1074; @1440 geometry ×4 (first: key benefits (+1068)); @1440 style ×3
+- `/photonic-solutions/product-applications/waveguide-sensors` — @1440 geometry ×3 (first: si waveguide absorption based methane se (+111)); @1440 style ×1
+- `/designware-ip/interface-ip/ddr/ddr-universal-umctl` — @1440 missing text ×1; @1440 height Δ -304; @1440 geometry ×3 (first: highlights & key features (-10)); @1440 style ×8
+- `/dw/ipdir/dw-lp-fp-multifunc` — @1440 missing text ×2; @1440 geometry ×1 (first: ip directory component detail (-9)); @1440 style ×2
+- `/designware-ip/interface-ip/ddr/lpddr5x54x-controller` — @1440 missing text ×1; @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+29)); @1440 style ×10
+- `/blogs/chip-design/category-automotive` — @1440 missing text ×36; @1440 height Δ 985; @1440 style ×14
+- `/solutions/silicon-lifecycle-management/data-highway/synopsys-ip-shs/shs-silicon-browser` — @1440 height Δ 199; @1440 geometry ×12 (first: news (+69)); @1440 style ×33; @1440 dynamics
+- `/articles/category-hpc-data-center` — @1440 missing text ×24; @1440 height Δ 1723; @1440 geometry ×3 (first: silicon ip technical bulletin (-1570)); @1440 style ×8
+- `/designware-ip/interface-ip/ddr/ddr2-mem` — @1440 missing text ×1; @1440 height Δ -104; @1440 geometry ×20 (first: highlights & key features (+10)); @1440 style ×8
+- `/verification/verification-ip/subsystems` — @1440 missing text ×1; @1440 style ×1
+- `/success-stories/gowin-securing-iot-with-fpga` — @1440 height Δ 70; @1440 geometry ×2 (first: solution (+9)); @1440 style ×8
+- `/verification/simulation/vcs/vcs-matlab` — @1440 missing text ×1; @1440 geometry ×1 (first: easy to use command to export the models (-24)); @1440 style ×3
+- `/designware-ip/memories-logic-libraries/non-volatile-memory/medium-density` — @1440 height Δ -277; @1440 geometry ×2 (first: highlights (-25)); @1440 style ×9
+- `/verification/virtual-prototyping/references` — @1440 missing text ×2; @1440 height Δ 358; @1440 geometry ×1 (first: amg (+45)); @1440 style ×22
+- `/manufacturing/mask-solutions` — @1440 missing text ×7; @1440 height Δ 187; @1440 geometry ×6 (first: explore process and litho options before (+44)); @1440 style ×8
+- `/designware-ip/security-ip/cryptography-ip/public-key-accelerators/agile-pqc-pka` — @1440 height Δ -112; @1440 geometry ×17 (first: highlights & key features (-10)); @1440 style ×10
+- `/dw/doc/ds/cc/asip-designer-ds-pdf` — @1440 missing text ×14; @1440 height Δ -346; @1440 geometry ×1 (first: news (-31)); @1440 style ×2
+- `/dw/emllselector/io` — @1440 missing text ×5; @1440 height Δ -1236; @1440 geometry ×5 (first: foundation ip selector (+43)); @1440 style ×63
+- `/verification/vc-formal-services` — @1440 missing text ×15; @1440 geometry ×9 (first: for customers who don’t have formal expe (-30)); @1440 style ×6
+- `/webinars/seamless-license-management` — @1440 missing text ×14; @1440 height Δ 91; @1440 geometry ×3 (first: jason sheplak has amassed a broad range  (-14)); @1440 style ×1
+- `/implementation-and-signoff/physical-implementation/redhawk-analysis` — @1440 geometry ×3 (first: ic compiler ii and fusion compiler with  (-24)); @1440 style ×3
+- `/verification/verification-ip/bus-interface/tilelink` — @1440 missing text ×1; @1440 geometry ×12 (first: highlights (-41)); @1440 style ×5
+- `/photonic-solutions/product-applications/pon-catv-rof/fsk-modulated-rf-subcarrier-fiber-optic-transmission` — @1440 height Δ 438; @1440 geometry ×7 (first: tool used optsim (-15))
+- `/implementation-and-signoff/resources/videos` — @1440 missing text ×10; @1440 height Δ -835; @1440 dynamics
+- `/photonic-solutions/optsim/single-mode-network` — @1440 height Δ 778; @1440 geometry ×14 (first: synopsys optsim is an award winning soft (-15)); @1440 style ×1
+- `/photonic-solutions/product-applications/pon-catv-rof/bdc-based-burstmode-receiver` — @1440 height Δ -152; @1440 geometry ×20 (first: bdc based burstmode receiver in pon syst (-36))
+- `/implementation-and-signoff/ams-simulation/primesim-hspice/primesim-hspice-tips-tricks` — @1440 missing text ×1; @1440 height Δ -37; @1440 geometry ×1 (first: primesim hspice tips & tricks #1 (-48)); @1440 style ×5; @1440 dynamics
+- `/cloud/digital-saas` — @1440 missing text ×4; @1440 broken images ×2; @1440 height Δ -387; @1440 geometry ×2 (first: get productive with cloud based digital  (-41)); @1440 style ×4; @1440 dynamics
+- `/dw/ipdir/dw03-lfsr-load` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/security-ip/cryptography-ip/puf/embedded-microcontrollers` — @1440 missing text ×2; @1440 height Δ 400; @1440 geometry ×7 (first: problem (+30)); @1440 style ×8
+- `/dw/ipdir/dwf-dp-count-ones` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/interface-ip/usb/usb2-type-c-iot` — @1440 missing text ×1; @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+30)); @1440 style ×9
+- `/blogs/chip-design/category-test-automation` — @1440 missing text ×10; @1440 height Δ 175; @1440 geometry ×1 (first: testmax test all the limits (+91)); @1440 style ×7
+- `/dw/ipdir/dw-fifoctl-2c-df` — @1440 missing text ×2; @1440 style ×2
+- `/manufacturing/quantumatk/contact-us/about-us` — @1440 missing text ×2; @1440 height Δ -744; @1440 geometry ×16 (first: from quantumwise to quantumatk (-15)); @1440 style ×1
+- `/blogs/chip-design/category-engineering-central` — @1440 missing text ×31; @1440 height Δ 1095; @1440 geometry ×3 (first: engineering central (-29)); @1440 style ×17
+- `/verification/imperasdv` — @1440 height Δ 81; @1440 geometry ×7 (first: using the industry proven imperas risc v (+44)); @1440 style ×4
+- `/articles/category-data-center` — @1440 missing text ×31; @1440 height Δ 989; @1440 style ×8
+- `/photonic-solutions/product-applications/transmission-impairments-fiber` — @1440 broken images ×3; @1440 height Δ 51; @1440 geometry ×2 (first: fiber nonlinearity on nrz and rz formats (-12))
+- `/dw/ipdir/dw03-lfsr-scnto` — @1440 missing text ×2; @1440 style ×2
+- `/implementation-and-signoff/test-automation/testmax-ale` — @1440 height Δ 40; @1440 geometry ×1 (first: software and hardware for hsio (+10)); @1440 style ×5
+- `/designware-ip/interface-ip/usb/usb-3-0-controllers` — @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+30)); @1440 style ×10
+- `/dw/ipdir/dw-fp-div-seq` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/security-ip/cryptography-ip/random-number-generators/trng` — @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+31)); @1440 style ×9
+- `/dw/ipdir/dw-ahb-ictl-dw-apb-ictl` — @1440 missing text ×2; @1440 height Δ 389; @1440 geometry ×1 (first: toolsets (+204)); @1440 style ×2
+- `/verification/virtual-prototyping/silver` — @1440 missing text ×12; @1440 height Δ 388; @1440 geometry ×9 (first: control sw development without additiona (-31)); @1440 style ×7; @1440 dynamics
+- `/webinars/virtual-prototyping-software-defined-vehicles` — @1440 missing text ×13; @1440 height Δ 17; @1440 geometry ×2 (first: speakers (+11)); @1440 style ×1
+- `/dw/ipdir/dw-pl-reg` — @1440 missing text ×2; @1440 style ×2
+- `/blogs/chip-design/category-silicon-ip` — @1440 missing text ×37; @1440 height Δ 982; @1440 style ×13
+- `/dw/ipdir/dw03-bictr-scnto` — @1440 missing text ×2; @1440 style ×2
+- `/success-stories/calligotech-next-gen-computing-with-synopsys-design-flow` — @1440 missing text ×4; @1440 height Δ 309; @1440 geometry ×5 (first: challenges (+151)); @1440 style ×6
+- `/dw/ipdir/dw-ahb-icm` — @1440 missing text ×2; @1440 height Δ 19; @1440 style ×2
+- `/designware-ip/memories-logic-libraries/tcam-memory-compilers` — @1440 height Δ -241; @1440 geometry ×2 (first: synopsys cam designs are available from  (+10)); @1440 style ×11
+- `/designware-ip/soc-infrastructure-ip/amba/general-purpose-timer` — @1440 height Δ -294; @1440 geometry ×2 (first: brochure (-123)); @1440 style ×8
+- `/verification/static-and-formal-verification/vc-spyglass/vc-spyglass-rdc` — @1440 missing text ×7; @1440 height Δ 135; @1440 geometry ×10 (first: uses trusted industry standard static en (+44)); @1440 style ×5
+- `/verification/solutions/low-power` — @1440 missing text ×3; @1440 geometry ×1 (first: power options and issues (-44)); @1440 style ×19
+- `/implementation-and-signoff/ams-simulation/snug-gets-wisdom` — @1440 missing text ×4; @1440 height Δ -175; @1440 geometry ×6 (first: what our customers say about primesim (+43)); @1440 style ×10; @1440 dynamics
+- `/implementation-and-signoff/signoff/primeclock` — @1440 missing text ×2; @1440 height Δ 187; @1440 geometry ×6 (first: restore clock margins by analyzing and r (+44)); @1440 style ×3
+- `/articles/category-custom-design-platform` — @1440 missing text ×3; @1440 height Δ -110; @1440 style ×3
+- `/success-stories/keysight-validates-pcie-6-0-specification` — @1440 missing text ×1; @1440 height Δ 167; @1440 geometry ×5 (first: challenges (+10)); @1440 style ×6
+- `/verification/verification-ip/bus-interface/avsbus` — @1440 height Δ -47; @1440 geometry ×8 (first: highlights (-41)); @1440 style ×5
+- `/verification/static-and-formal-verification/vc-spyglass/vc-spyglass-idc` — @1440 missing text ×7; @1440 geometry ×2 (first: reuse existing vc spyglass setup for eas (-24)); @1440 style ×4
+- `/manufacturing/tcad/interconnect-simulation/raphael` — @1440 geometry ×1 (first: analyze complex on chip interconnect str (-24)); @1440 style ×5
+- `/dw/ipdir/dw-pricod` — @1440 missing text ×2; @1440 style ×2
+- `/dw/ipdir/dw-ram-2r-w-a-lat` — @1440 missing text ×2; @1440 style ×2
+- `/dw/ipdir/dw-ram-rw-a-dff` — @1440 missing text ×2; @1440 style ×2
+- `/implementation-and-signoff/signoff/nanotime` — @1440 missing text ×3; @1440 height Δ 561; @1440 geometry ×1 (first: white paper (+11)); @1440 style ×3
+- `/webinars/ai-driven-debug-verdi` — @1440 missing text ×13; @1440 height Δ 66; @1440 geometry ×3 (first: robert ruiz is a product management dire (-39)); @1440 style ×1
+- `/solutions/silicon-lifecycle-management/resources/articles` — @1440 missing text ×11; @1440 height Δ -963
+- `/implementation-and-signoff/physical-implementation/ic-compiler` — @1440 missing text ×8; @1440 height Δ 19; @1440 geometry ×4 (first: efficient engines ml tech & parallel opt (+44)); @1440 style ×7
+- `/verification/verification-ip/storage/sata` — @1440 missing text ×1; @1440 height Δ -41; @1440 geometry ×1 (first: protocol features (-41)); @1440 style ×4
+- `/articles/category-ip-accelerated` — @1440 missing text ×16; @1440 height Δ 330; @1440 geometry ×1 (first: ip accelerated (+46)); @1440 style ×12
+- `/cloud/verification-saas` — @1440 missing text ×4; @1440 height Δ -421; @1440 geometry ×2 (first: the industry's 1st scalable on demand ve (-122)); @1440 style ×4; @1440 dynamics
+- `/blogs/chip-design/category-ams-simulation` — @1440 missing text ×19; @1440 height Δ 465; @1440 geometry ×1 (first: ams simulation (+62)); @1440 style ×12
+- `/photonic-solutions/product-applications/fiber-sensors` — @1440 height Δ 147; @1440 geometry ×1 (first: interferometric fiber optic gyroscope i  (+142))
+- `/cloud` — @1440 missing text ×47; @1440 height Δ -159; @1440 geometry ×5 (first: learn more about the synopsys cloud plat (+40)); @1440 style ×18; @1440 dynamics
+- `/implementation-and-signoff/ams-simulation/paragonx` — @1440 missing text ×3; @1440 height Δ -283; @1440 geometry ×11 (first: key benefits (-20)); @1440 style ×19
+- `/photonic-solutions/product-applications/photonic-integrated-circuits/optsim-circuit-silicon-photonic-ring` — @1440 missing text ×2; @1440 height Δ -378; @1440 geometry ×2 (first: tools used optsim circuit and optsim (-15))
+- `/dw/ipdir/dw-exp2` — @1440 missing text ×2; @1440 style ×2
+- `/dw/ipdir/dw03-lfsr-updn` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/soc-infrastructure-ip/amba/amba-ssi` — @1440 missing text ×4; @1440 height Δ -431; @1440 geometry ×1 (first: search for ip (+30)); @1440 style ×11
+- `/photonic-solutions/product-applications/advanced-modulation-formats/optsim-dqpsk-modulation` — @1440 height Δ -64; @1440 geometry ×4 (first: dqpsk modulation ber curves as a functio (-36))
+- `/implementation-and-signoff/rtl-synthesis-test` — @1440 missing text ×7; @1440 height Δ 419; @1440 geometry ×1 (first: design compiler (+45)); @1440 style ×4; @1440 dynamics
+- `/implementation-and-signoff/ams-simulation/primesim-pro` — @1440 missing text ×8; @1440 height Δ 70; @1440 geometry ×2 (first: primesim™ pro simulator an essential par (-53)); @1440 style ×5
+- `/events/tsmc-oip-ecosystem-forum` — @1440 missing text ×19; @1440 height Δ -1007; @1440 geometry ×3 (first: stop by booth #508 for hands‑on demonstr (-25)); @1440 style ×2
+- `/manufacturing/tcad/dtco` — @1440 missing text ×3; @1440 height Δ 175; @1440 geometry ×3 (first: simulate materials and processes before  (+44)); @1440 style ×5
+- `/implementation-and-signoff/signoff/pathfinder-sc` — @1440 missing text ×2; @1440 height Δ 144; @1440 geometry ×13 (first: key benefits (+21)); @1440 style ×20
+- `/designware-ip/soc-infrastructure-ip/clock-delay-monitor` — @1440 missing text ×1; @1440 height Δ -304; @1440 geometry ×3 (first: highlights & key features (-10)); @1440 style ×8
+- `/dw/ipdir/dw-div-seq` — @1440 missing text ×2; @1440 style ×2
+- `/blogs/chip-design/category-verification` — @1440 missing text ×34; @1440 height Δ 983; @1440 geometry ×1 (first: how to certify a supercomputer (-180)); @1440 style ×15
+- `/designware-ip/interface-ip/usb/usb-3-0-host-controller` — @1440 height Δ -262; @1440 geometry ×2 (first: highlights & key features (-10)); @1440 style ×9
+- `/dw/ipdir/dw-asymfifo-s2-sf` — @1440 missing text ×2; @1440 style ×2
+- `/dw/ipdir/dw-reset-sync` — @1440 missing text ×2; @1440 style ×2
+- `/blogs/chip-design/category-virtualprototyping` — @1440 missing text ×29; @1440 height Δ 1064; @1440 geometry ×4 (first: tda5 socs and synopsys vdk powering safe (+381)); @1440 style ×17
+- `/designware-ip/ip-market-segments/hpc` — @1440 missing text ×52; @1440 broken images ×2; @1440 height Δ 2000; @1440 style ×5; @1440 dynamics
+- `/verification/debug/verdi-upf-architect` — @1440 height Δ -41; @1440 style ×3
+- `/success-stories/microsoft-uncovers-hidden-testbench-bugs` — @1440 missing text ×3; @1440 height Δ 429; @1440 geometry ×9 (first: solution (+10)); @1440 style ×7
+- `/solutions/silicon-lifecycle-management/data-highway/synopsys-ip-shs/shs-yield-accelerator` — @1440 height Δ 199; @1440 geometry ×18 (first: the synopsys slm shs ip yield accelerato (+80)); @1440 style ×33
+- `/dw/ipdir/dw-ram-2r-2w-s-dff` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/security-ip/cryptography-ip/symmetric-cryptographic-engines/security-aes-gcm-ctr` — @1440 missing text ×1; @1440 height Δ -283; @1440 geometry ×2 (first: highlights & key features (-10)); @1440 style ×10
+- `/designware-ip/soc-infrastructure-ip` — @1440 missing text ×1; @1440 height Δ 374; @1440 geometry ×1 (first: synopsys library (-47)); @1440 style ×7
+- `/dw/ipdir/dw-fp-dp3` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/interface-ip/ethernet/ether-pcs` — @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+30)); @1440 style ×11
+- `/photonic-solutions/product-applications/advanced-modulation-formats/partial-dpsk` — @1440 height Δ -143; @1440 geometry ×3 (first: tool used optsim (-15))
+- `/designware-ip/interface-ip/ddr/ddr2-lite-pctl` — @1440 missing text ×2; @1440 height Δ -95; @1440 geometry ×20 (first: provides a complete ddr2 sdram interface (+10)); @1440 style ×8
+- `/dw/ipdir/dw01-ash` — @1440 missing text ×2; @1440 style ×2
+- `/designware-ip/interface-ip/usb/usb-2-0-device` — @1440 missing text ×1; @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+30)); @1440 style ×10
+- `/implementation-and-signoff/physical-implementation/fusion-compiler/variable-voltage-optimization-technique` — @1440 missing text ×2; @1440 style ×1
+- `/designware-ip/memories-logic-libraries/non-volatile-memory/otp-xbc` — @1440 height Δ -294; @1440 geometry ×2 (first: brochure (-123)); @1440 style ×8
+- `/blogs/chip-design/category-emulation` — @1440 missing text ×33; @1440 height Δ 1006; @1440 geometry ×1 (first: engineering central (-2234)); @1440 style ×9
+- `/designware-ip/soc-infrastructure-ip/amba/spi` — @1440 missing text ×2; @1440 height Δ -294; @1440 geometry ×2 (first: brochure (-123)); @1440 style ×8
+- `/blogs/chip-design/category-platform` — @1440 missing text ×9; @1440 height Δ -18; @1440 style ×5
+- `/cloud/astera-labs` — @1440 missing text ×6; @1440 height Δ -73; @1440 geometry ×3 (first: synopsys cloud solutions give astera lab (-9)); @1440 style ×9; @1440 dynamics
+- `/blogs/chip-design/category-formal-verification` — @1440 missing text ×24; @1440 height Δ 1003; @1440 geometry ×3 (first: engineering central (-260)); @1440 style ×19
+- `/designware-ip/interface-ip/ethernet/ether-qos` — @1440 missing text ×1; @1440 height Δ -52; @1440 geometry ×21 (first: ieee 802.3 for ethernet mac gigabit medi (+10)); @1440 style ×10
+- `/designware-ip/soc-infrastructure-ip/amba/i2c` — @1440 missing text ×2; @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+30)); @1440 style ×9
+- `/dw/ipdir/dw01-cmp6` — @1440 missing text ×2; @1440 style ×2
+- `/photonic-solutions/product-applications/transmission-impairments-fiber/dispersion-managed-soliton` — @1440 height Δ -199; @1440 geometry ×5 (first: tool used optsim (-15))
+- `/webinars/real-time-processing-automotive-safety` — @1440 missing text ×13; @1440 height Δ -318; @1440 geometry ×1 (first: rich collins is senior product managemet (-39)); @1440 style ×1
+- `/webinars/ucie-system-level-verification-challenges` — @1440 missing text ×12; @1440 height Δ 37; @1440 geometry ×3 (first: varun has 15 years of experience in ip t (-40)); @1440 style ×1
+- `/dw/ipdir/dwf-dp-sign-select` — @1440 missing text ×2; @1440 style ×2
+- `/events/ces` — @1440 missing text ×16; @1440 height Δ -419; @1440 geometry ×7 (first: request an invitation (-14)); @1440 style ×18; @1440 dynamics
+- `/designware-ip/interface-ip/pci-express/pcie6-controller` — @1440 height Δ -252; @1440 geometry ×1 (first: search for ip (+29)); @1440 style ×10
+- `/dw/ipdir/dw-tap-uc` — @1440 missing text ×2; @1440 style ×2
+- `/blogs/chip-design/category-energy-efficient-socs` — @1440 missing text ×39; @1440 height Δ 947; @1440 geometry ×3 (first: about synopsys (-20)); @1440 style ×5
+- `/designware-ip/interface-ip/usb/usb-type-c` — @1440 missing text ×1; @1440 height Δ 473; @1440 geometry ×1 (first: usb c 3.2 displayport 1.4 solution (+45)); @1440 style ×3
+- `/blogs/chip-design/category-medical` — @1440 missing text ×9; @1440 height Δ -83; @1440 style ×6
+- `/articles/ethernet-security-macsec` — @1440 missing text ×11; @1440 height Δ -107; @1440 geometry ×8 (first: what is macsec? (+25)); @1440 style ×9
+- `/articles/slm-pvt-monitoring-advanced-node-gaa` — @1440 missing text ×13; @1440 height Δ -88; @1440 geometry ×3 (first: learn about synopsys slm pvt monitor ip (-11)); @1440 style ×9
+- `/blogs/chip-design/soc-design-services-hpc-data-center` — @1440 missing text ×55; @1440 height Δ 78; @1440 geometry ×3 (first: privacy notice (-24)); @1440 style ×19
+- `/blogs/chip-design/access-memory-mapped-registers-cxl` — @1440 missing text ×9; @1440 geometry ×4 (first: click to see the detail (-31)); @1440 style ×5
+- `/blogs/chip-design/primetime-technologies-digital-design` — @1440 missing text ×9; @1440 height Δ -116; @1440 geometry ×2 (first: timing constraint consistency (+61)); @1440 style ×12
+- `/articles/logic-library-capabilities` — @1440 missing text ×3; @1440 height Δ 317; @1440 geometry ×7 (first: harnessing tsmc's 28hpc+ process with si (+27)); @1440 style ×12
+- `/blogs/chip-design/achieving-functional-safety-high-reliability-design-synplify-tool` — @1440 missing text ×9; @1440 height Δ 87; @1440 geometry ×2 (first: local tmr to protect registers (+10)); @1440 style ×9
+- `/blogs/chip-design/digital-media-internship-program` — @1440 missing text ×9; @1440 height Δ 442; @1440 geometry ×3 (first: privacy notice (-25)); @1440 style ×9
+- `/articles/eusb2v2-interoperability-fpga-prototyping` — @1440 missing text ×1; @1440 height Δ -202; @1440 geometry ×4 (first: driving eusb2v2 interoperability through (+25)); @1440 style ×5
+- `/blogs/chip-design/using-ai-to-debug-more-quickly-and-accurately` — @1440 missing text ×36; @1440 height Δ 41; @1440 geometry ×2 (first: seamless integration and future innovati (+26)); @1440 style ×8
+- `/blogs/chip-design/hybrid-cloud-chip-design-agility-efficiency` — @1440 missing text ×9; @1440 height Δ 92; @1440 geometry ×3 (first: subscribe to our blog (+36)); @1440 style ×10
+- `/blogs/chip-design/understanding-cloud-computing-for-eda-workloads` — @1440 missing text ×13; @1440 height Δ 21; @1440 geometry ×4 (first: synopsys cloud (-17)); @1440 style ×11
+- `/blogs/chip-design/reinforcement-learning-dac-2023` — @1440 missing text ×55; @1440 height Δ 68; @1440 geometry ×2 (first: privacy notice (-25)); @1440 style ×18
+- `/articles/automotive-certified-trng-ip` — @1440 missing text ×12; @1440 height Δ -133; @1440 geometry ×2 (first: white paper (-43)); @1440 style ×9
+- `/blogs/chip-design/pcie-6-high-performance-computing-solutions` — @1440 missing text ×60; @1440 height Δ 108; @1440 geometry ×2 (first: privacy notice (-24)); @1440 style ×17
+- `/blogs/chip-design/ucie-3-0-chiplet-ip-solutions` — @1440 missing text ×7; @1440 height Δ 117; @1440 geometry ×2 (first: webinar ucie in ai chips (-14)); @1440 style ×14
+- `/articles/direct-drive-electro-optical` — @1440 missing text ×1; @1440 height Δ 66; @1440 geometry ×4 (first: co packaged optics cpo & linear drive pl (+160)); @1440 style ×8
+- `/blogs/chip-design/amba-chi-g-verification-ip` — @1440 missing text ×8; @1440 height Δ 302; @1440 geometry ×8 (first: the existing datasource field in read an (-10)); @1440 style ×12
+- `/blogs/chip-design/tcad-semiconductor-industry-iit-bombay` — @1440 missing text ×53; @1440 height Δ 47; @1440 geometry ×4 (first: subscribe to our blog (+37)); @1440 style ×19
+- `/blogs/chip-design/minimizing-late-stage-functional-ecos-interview-todd-buzan` — @1440 missing text ×14; @1440 height Δ 51; @1440 geometry ×2 (first: we sat down with todd buzan r&d director (+18)); @1440 style ×16
+- `/blogs/chip-design/edge-computing-benefits-and-challenges` — @1440 missing text ×13; @1440 geometry ×5 (first: synopsys cloud (-17)); @1440 style ×11
+- `/articles/introduction-ccix` — @1440 missing text ×2; @1440 height Δ 153; @1440 geometry ×2 (first: moving beyond 16gt s (+25)); @1440 style ×6
+- `/blogs/chip-design/ai-chip-design-emulation-prototyping-tools` — @1440 missing text ×21; @1440 geometry ×4 (first: privacy notice (-24)); @1440 style ×10
+- `/blogs/chip-design/alessandra-costa-qa` — @1440 missing text ×61; @1440 height Δ 69; @1440 geometry ×1 (first: about synopsys (-30)); @1440 style ×23
+- `/blogs/chip-design/virtual-electronic-control-unit-prototyping-tools` — @1440 missing text ×66; @1440 height Δ 28; @1440 geometry ×5 (first: subscribe to our blog (-19)); @1440 style ×16
+- `/blogs/chip-design/4-criteria-for-picking-best-eda-tools` — @1440 missing text ×64; @1440 geometry ×4 (first: privacy notice (-25)); @1440 style ×18
+- `/blogs/chip-design/virtual-prototyping-shifts-software-soc-design-left` — @1440 missing text ×47; @1440 height Δ 67; @1440 geometry ×3 (first: subscribe to our blog (+77)); @1440 style ×17
+- `/blogs/chip-design/coverage-models-memory-vip-solutions` — @1440 missing text ×9; @1440 height Δ 45; @1440 geometry ×2 (first: the unique flexible coverage architectur (+10)); @1440 style ×6
+- `/blogs/chip-design/finding-hardware-bugs-faster` — @1440 missing text ×16; @1440 height Δ 331; @1440 geometry ×5 (first: subscribe to our blog (+65)); @1440 style ×9
+- `/blogs/chip-design/advancing-automotive-with-software-defined-vehicles` — @1440 missing text ×14; @1440 height Δ 61; @1440 geometry ×3 (first: privacy notice (-25)); @1440 style ×11
+- `/blogs/chip-design/navigating-transition-mil-to-vhil-virtualizer-studio` — @1440 missing text ×16; @1440 height Δ 540; @1440 geometry ×4 (first: subscribe to our blog (+36)); @1440 style ×7
+- `/articles/modeling-integration-112g-phy-ip` — @1440 missing text ×1; @1440 height Δ 227; @1440 geometry ×1 (first: blog (-14)); @1440 style ×5
+- `/blogs/chip-design/advanced-node-physical-verification-ic-validator` — @1440 missing text ×10; @1440 height Δ 98; @1440 geometry ×2 (first: if you are facing similar challenges lea (-11)); @1440 style ×13
+- `/blogs/chip-design/advanced-rpmb-ufs4-authentication` — @1440 missing text ×8; @1440 height Δ 115; @1440 geometry ×1 (first: why should i use advanced rpmb instead? (+61)); @1440 style ×7
+- `/blogs/chip-design/die-to-die-connectivity-for-hpc` — @1440 missing text ×70; @1440 height Δ 21; @1440 geometry ×1 (first: about synopsys (+61)); @1440 style ×15
+- `/blogs/chip-design/iot-device-security-isim` — @1440 missing text ×20; @1440 height Δ 101; @1440 geometry ×4 (first: complete integrated iot security solutio (-20)); @1440 style ×7
+- `/blogs/chip-design/software-defined-vehicles-changes-auto-design` — @1440 missing text ×70; @1440 height Δ 68; @1440 geometry ×2 (first: privacy notice (-25)); @1440 style ×14
+- `/blogs/chip-design/cloud-virtual-prototypes-sdvs` — @1440 missing text ×10; @1440 height Δ 111; @1440 geometry ×3 (first: leveraging the soafee reference architec (+9)); @1440 style ×10
+- `/blogs/chip-design/sima-ai-bug-free-physical-ai-silicon` — @1440 missing text ×8; @1440 height Δ 108; @1440 geometry ×1 (first: ebook mastering ai chip complexity (-14)); @1440 style ×10
+- `/blogs/chip-design/swap-marc-swinnen-kenneth-larsen` — @1440 missing text ×15; @1440 height Δ -88; @1440 geometry ×7 (first: subscribe (+52)); @1440 style ×17; @1440 dynamics
+- `/blogs/chip-design/slm-data-center-reliability` — @1440 missing text ×107; @1440 height Δ 68; @1440 geometry ×1 (first: privacy notice (-24)); @1440 style ×15
+- `/blogs/chip-design/latest-arm-amba-ace5-lite-updates` — @1440 missing text ×8; @1440 height Δ 104; @1440 geometry ×3 (first: data protection and poisoning signaling  (+9)); @1440 style ×8
+- `/blogs/chip-design/library-characterization-for-advanced-process-designs` — @1440 missing text ×72; @1440 height Δ 88; @1440 geometry ×3 (first: subscribe to our blog (-20)); @1440 style ×14
+- `/blogs/chip-design/piketec-acquisition-digital-twins` — @1440 missing text ×61; @1440 height Δ 19; @1440 geometry ×2 (first: privacy notice (-25)); @1440 style ×11
+- `/blogs/chip-design/silent-data-corruption-sdc-challenges` — @1440 missing text ×18; @1440 height Δ 77; @1440 geometry ×2 (first: privacy notice (-24)); @1440 style ×8; @1440 dynamics
+- `/blogs/chip-design/tech-internships-summer-2023` — @1440 missing text ×56; @1440 geometry ×1 (first: subscribe to our blog (+77)); @1440 style ×21
+- `/blogs/chip-design/ccix-pcie-ai-networking-storage` — @1440 missing text ×10; @1440 height Δ 70; @1440 geometry ×1 (first: the verdi snapshot below displays link u (+9)); @1440 style ×5
+- `/blogs/chip-design/ai-chip-design-stmicroelectronics-microsoft` — @1440 missing text ×54; @1440 height Δ 68; @1440 geometry ×2 (first: privacy notice (-24)); @1440 style ×19
+- `/blogs/chip-design/electronics-industry-sustainable-world` — @1440 missing text ×54; @1440 height Δ 103; @1440 geometry ×5 (first: subscribe to our blog (+36)); @1440 style ×20
+- `/blogs/chip-design/4-ways-ualink-2-0-advances-ai-scale-up` — @1440 missing text ×14; @1440 geometry ×7 (first: all accelerators have a value and those  (-11)); @1440 style ×12
+- `/blogs/chip-design/pcie-5-ip-solutions-pass-compliance-testing` — @1440 missing text ×51; @1440 geometry ×5 (first: subscribe to our blog (+35)); @1440 style ×17
+- `/blogs/chip-design/eda-workloads-amd-processors` — @1440 missing text ×47; @1440 height Δ 68; @1440 geometry ×3 (first: privacy notice (-25)); @1440 style ×16
+- `/blogs/chip-design/how-secure-ddr-interfaces-protect-dram-from-memory-attacks` — @1440 missing text ×7; @1440 height Δ 51; @1440 geometry ×3 (first: safeguard your memory interfaces by desi (+10)); @1440 style ×13
+- `/blogs/chip-design/power-semiconductor-devices` — @1440 missing text ×26; @1440 height Δ 26; @1440 geometry ×4 (first: privacy notice (-24)); @1440 style ×7
+- `/blogs/chip-design/celebrating-women-innovation-nvidia-gtc-2026` — @1440 missing text ×9; @1440 height Δ 17; @1440 geometry ×2 (first: conclusion (+62)); @1440 style ×10
+- `/blogs/chip-design/arm-automotive-semiconductor-design` — @1440 missing text ×14; @1440 height Δ 278; @1440 geometry ×5 (first: subscribe (-14)); @1440 style ×9
+- `/blogs/chip-design/semiconductor-talent-shortage-qa` — @1440 missing text ×11; @1440 height Δ 53; @1440 geometry ×3 (first: privacy notice (-24)); @1440 style ×13
+- `/blogs/chip-design/innovations-formality-equivalence-checking-interview-todd-buzan` — @1440 missing text ×15; @1440 height Δ 33; @1440 geometry ×1 (first: about synopsys (-30)); @1440 style ×16
+- `/blogs/chip-design/south-korean-startup-rebellions-redefines-energy-efficient-ai-computing` — @1440 missing text ×9; @1440 height Δ 129; @1440 geometry ×6 (first: outlook and expansion plans (+26)); @1440 style ×9
+- `/blogs/chip-design/pcie-6-specification-speed-keysight` — @1440 missing text ×16; @1440 height Δ 66; @1440 geometry ×4 (first: privacy notice (-24)); @1440 style ×9
+- `/blogs/chip-design/customizing-foundation-ip-low-voltage-design` — @1440 missing text ×2; @1440 height Δ 194; @1440 geometry ×5 (first: subscribe to our blog (+35)); @1440 style ×5
+- `/articles/high-accuracy-computer-vision-isps-vision-processors` — @1440 missing text ×50; @1440 height Δ 112; @1440 geometry ×1 (first: subscribe to the synopsys ip technical b (-56)); @1440 style ×17
+- `/blogs/chip-design/tools-accelerate-memory-chip-design` — @1440 missing text ×54; @1440 height Δ 68; @1440 geometry ×4 (first: subscribe (-15)); @1440 style ×20
+- `/blogs/chip-design/hbm3-next-generation-memory-standard` — @1440 missing text ×9; @1440 height Δ 61; @1440 geometry ×1 (first: engineering central (+61)); @1440 style ×6
+- `/blogs/chip-design/soc-verification-kit-out-of-the-box-verification-solution` — @1440 missing text ×10; @1440 height Δ -150; @1440 geometry ×1 (first: stand alone ips and vips support wide ra (-211)); @1440 style ×9
+- `/blogs/chip-design/physics-chip-design-constraint` — @1440 missing text ×9; @1440 height Δ 72; @1440 geometry ×1 (first: about synopsys (+50)); @1440 style ×9
+- `/blogs/chip-design/ai-impact-on-low-power-chip-design` — @1440 missing text ×51; @1440 height Δ 59; @1440 geometry ×3 (first: subscribe (-15)); @1440 style ×22
+- `/blogs/chip-design/ic-design-engineer-training-vietnam` — @1440 missing text ×66; @1440 height Δ -1920; @1440 geometry ×3 (first: to commemorate the signing of the septem (-15)); @1440 style ×16
+- `/articles/accelerating-32gtps-pcie5-designs` — @1440 missing text ×2; @1440 height Δ 134; @1440 geometry ×6 (first: modeling and testing (+25)); @1440 style ×5
+- `/blogs/chip-design/accelerating-emib-t-packaging-synopsys-intel-foundry` — @1440 missing text ×18; @1440 height Δ 174; @1440 geometry ×7 (first: what this means for chip designers (+25)); @1440 style ×10
+- `/blogs/chip-design/reduce-risk-and-time-to-market-for-ddr6-designs` — @1440 missing text ×14; @1440 height Δ 40; @1440 geometry ×6 (first: ddr6 rdimm scaling reliability through t (+10)); @1440 style ×35
+- `/blogs/chip-design/prototyping-building-blocks-design` — @1440 missing text ×16; @1440 height Δ 97; @1440 geometry ×3 (first: privacy notice (-25)); @1440 style ×7
+- `/blogs/chip-design/what-is-reset-domain-crossing` — @1440 missing text ×16; @1440 height Δ 21; @1440 geometry ×4 (first: subscribe to our blog (+36)); @1440 style ×13
+- `/blogs/chip-design/cloud-computing-vs-traditional-it-structures` — @1440 missing text ×13; @1440 height Δ -164; @1440 geometry ×10 (first: the cloud offers much more scalability t (-21)); @1440 style ×15
+- `/blogs/chip-design/stem-education-with-eda-tools` — @1440 missing text ×54; @1440 height Δ 68; @1440 geometry ×3 (first: privacy notice (-24)); @1440 style ×19
+- `/blogs/chip-design/energy-efficient-ai-accelerator-data-centers` — @1440 missing text ×9; @1440 height Δ 101; @1440 geometry ×2 (first: ebook mastering ai chip complexity (-13)); @1440 style ×10
+- `/articles/minimizing-auto-vulnerabilities` — @1440 missing text ×1; @1440 height Δ 960; @1440 geometry ×4 (first: synopsys ip technical bulletin (+41)); @1440 style ×6
+- `/blogs/chip-design/reduce-pcie-5-0-link-time` — @1440 missing text ×9; @1440 height Δ 60; @1440 geometry ×1 (first: engineering central (+62)); @1440 style ×5
+- `/blogs/chip-design/multi-die-systems-chip-verification` — @1440 missing text ×72; @1440 height Δ -112; @1440 geometry ×4 (first: privacy notice (-24)); @1440 style ×17
+- `/blogs/chip-design/dynamic-hdr-hdmi2-for-tv-mobiles` — @1440 missing text ×9; @1440 height Δ 61; @1440 style ×8
+- `/blogs/chip-design/speed-up-simulation-coverage-closure` — @1440 missing text ×52; @1440 height Δ 34; @1440 geometry ×4 (first: subscribe to our blog (+77)); @1440 style ×18
+- `/blogs/chip-design/europe-semiconductor-workforce-development` — @1440 missing text ×11; @1440 height Δ 47; @1440 geometry ×3 (first: privacy notice (-25)); @1440 style ×9
+- `/blogs/chip-design/extending-mobile-soc-battery-life` — @1440 missing text ×15; @1440 height Δ 465; @1440 geometry ×4 (first: adding support for simple pmu power mana (+10)); @1440 style ×7
+- `/blogs/chip-design/ai-chip-design-retargeting` — @1440 missing text ×10; @1440 height Δ 208; @1440 geometry ×1 (first: get started (-41)); @1440 style ×12
+- `/blogs/chip-design/advancing-quantum-computing-rd` — @1440 missing text ×9; @1440 height Δ 46; @1440 geometry ×3 (first: privacy notice (-24)); @1440 style ×10
+- `/blogs/chip-design/worlds-first-hbm4-ip-test-chip-ai-hpc-validation` — @1440 missing text ×11; @1440 height Δ 57; @1440 geometry ×5 (first: collaboration across the ecosystem (+10)); @1440 style ×13
+- `/blogs/chip-design/ucie-performance-40g-multi-die-systems` — @1440 missing text ×16; @1440 height Δ 47; @1440 geometry ×4 (first: subscribe to our blog (+36)); @1440 style ×13
+- `/blogs/chip-design/cloud-interoperability-chip-design` — @1440 missing text ×67; @1440 height Δ -387; @1440 geometry ×2 (first: privacy notice (-25)); @1440 style ×12
+- `/blogs/chip-design/zebu-cloud-saas-flow` — @1440 missing text ×13; @1440 height Δ 126; @1440 geometry ×3 (first: synopsys cloud (-78)); @1440 style ×9
+- `/blogs/chip-design/difference-between-mom-mim-mos-capacitor` — @1440 missing text ×8; @1440 height Δ 292; @1440 geometry ×12 (first: metal oxide metal capacitor structure (+192)); @1440 style ×47
+- `/articles/guidelines-for-integration` — @1440 missing text ×2; @1440 height Δ 839; @1440 geometry ×6 (first: guidelines for successful ip integration (+27)); @1440 style ×5
+- `/blogs/chip-design/multi-die-automotive-chip-designs` — @1440 missing text ×4; @1440 height Δ 133; @1440 geometry ×3 (first: design and verification new rules for a  (+10)); @1440 style ×10
+- `/articles/terabit-ethernet-macsec-security` — @1440 missing text ×1; @1440 height Δ -158; @1440 geometry ×3 (first: introducing synopsys hpc macsec security (+25)); @1440 style ×5
+- `/blogs/chip-design/soc-physical-verification-tool-achronix` — @1440 missing text ×14; @1440 height Δ 47; @1440 geometry ×3 (first: privacy notice (-25)); @1440 style ×7
+- `/blogs/chip-design/hybrid-cloud-architecture-benefits-and-challenges` — @1440 missing text ×13; @1440 geometry ×3 (first: start free trial (-23)); @1440 style ×12
+- `/articles/solving-clock-signal-integrity-and-jitter-issues` — @1440 missing text ×8; @1440 height Δ -92; @1440 geometry ×4 (first: key failure mechanisms in clock networks (+25)); @1440 style ×14
+- `/blogs/chip-design/pervasive-intelligence-snug-2024` — @1440 missing text ×10; @1440 height Δ 66; @1440 geometry ×3 (first: privacy notice (-24)); @1440 style ×10
+- `/blogs/chip-design/pcie-5-applications-and-importance-of-silicon-proven-ip` — @1440 missing text ×59; @1440 height Δ 79; @1440 geometry ×4 (first: a notable example that pcie 5.0 is on th (+17)); @1440 style ×19
+- `/articles/wired-ethernet-speeds` — @1440 missing text ×1; @1440 geometry ×1 (first: blog (-13)); @1440 style ×5
+- `/articles/synopsys-and-arm-display-ip` — @1440 missing text ×1; @1440 height Δ 539; @1440 geometry ×3 (first: in this example two links of one display (-43)); @1440 style ×5
+- `/articles/challenges-of-usb-3-1-ip-certification` — @1440 missing text ×1; @1440 height Δ 241; @1440 geometry ×1 (first: blog (-13)); @1440 style ×5
+- `/blogs/chip-design/one-on-one-with-aveek-sarkar` — @1440 missing text ×13; @1440 height Δ 149; @1440 geometry ×2 (first: we sat down with aveek sarkar vice presi (+19)); @1440 style ×14
+- `/blogs/chip-design/phalanx-greek-warfare-verification` — @1440 missing text ×16; @1440 height Δ 67; @1440 geometry ×5 (first: subscribe to our blog (-19)); @1440 style ×13
+- `/blogs/chip-design/rapid-elasticity-in-cloud-computing-on-demand-scaling-for-business` — @1440 missing text ×14; @1440 height Δ -48; @1440 geometry ×6 (first: privacy notice (-24)); @1440 style ×16
+- `/blogs/chip-design/ai-chip-design-synopsys-microsoft` — @1440 missing text ×9; @1440 height Δ 113; @1440 geometry ×2 (first: brochure full stack ai driven eda (-14)); @1440 style ×9
+- `/blogs/chip-design/prototyping-for-chip-verification` — @1440 missing text ×47; @1440 height Δ 38; @1440 geometry ×1 (first: an integrated verification continuum (+60)); @1440 style ×15
+- `/blogs/chip-design/custom-compiler-layout` — @1440 missing text ×9; @1440 height Δ 97; @1440 geometry ×2 (first: privacy notice (-25)); @1440 style ×9
+- `/articles/the-next-frontier` — @1440 missing text ×13; @1440 height Δ -86; @1440 geometry ×8 (first: ip subsystems the next frontier for ip i (+27)); @1440 style ×8
+- `/blogs/chip-design/preeti-sharma-automotive-soc-design` — @1440 missing text ×9; @1440 height Δ -206; @1440 geometry ×4 (first: privacy notice (-25)); @1440 style ×9
+- `/blogs/chip-design/software-defined-vehicles-aws` — @1440 missing text ×18; @1440 height Δ 97; @1440 geometry ×5 (first: today’s vehicles are increasingly define (+17)); @1440 style ×12
+- `/blogs/chip-design/cxl-design-verification-synopsys-protocol` — @1440 missing text ×9; @1440 height Δ 71; @1440 geometry ×3 (first: synopsys advantage (+25)); @1440 style ×7
+- `/blogs/chip-design/hbm-performance-verification-guide` — @1440 missing text ×9; @1440 height Δ 116; @1440 geometry ×1 (first: engineering central (+70)); @1440 style ×7
+- `/blogs/chip-design/photonic-saas-ic-design` — @1440 missing text ×13; @1440 height Δ 456; @1440 geometry ×4 (first: subscribe (-15)); @1440 style ×10
+- `/articles/visually-lossless-compression-for-uhd-displays` — @1440 missing text ×1; @1440 height Δ 53; @1440 geometry ×2 (first: quality evaluation (+26)); @1440 style ×7
+- `/blogs/chip-design/how-socs-are-designed-for-ai-applications` — @1440 missing text ×57; @1440 height Δ -203; @1440 geometry ×5 (first: why now is the time to create an ai stra (-12)); @1440 style ×21
+- `/articles/best-112g-serdes-ip-performance` — @1440 missing text ×1; @1440 height Δ 223; @1440 geometry ×3 (first: temperature tracking ensuring robust per (+9)); @1440 style ×6
+- `/blogs/chip-design/automotive-soc-slm` — @1440 missing text ×75; @1440 height Δ -321; @1440 geometry ×2 (first: imagine your dream car of the future. pe (+17)); @1440 style ×15
+- `/blogs/chip-design/256gb-pcie-gen6-verification-ip` — @1440 missing text ×9; @1440 height Δ 30; @1440 geometry ×3 (first: 4 signal levels of pam4 helps transmit t (+10)); @1440 style ×8
+- `/articles/flexible-connectivity` — @1440 missing text ×1; @1440 height Δ 25; @1440 geometry ×4 (first: usb type c advantages for iot (+26)); @1440 style ×5
+- `/blogs/chip-design/2022-eda-and-chip-design-advances` — @1440 missing text ×51; @1440 height Δ 98; @1440 geometry ×2 (first: subscribe to our blog (+34)); @1440 style ×24
+- `/resources/ide-secure-module-for-cxl-2-0-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/demo/ldw-sms` — @1440 height Δ 158; @1440 geometry ×4 (first: manish arora (+27)); @1440 style ×3
+- `/resources/pci-express-7-in-practice` — @1440 height Δ -174; @1440 style ×6
+- `/webinars/atpg-power-timing-ai` — @1440 height Δ 1143; @1440 geometry ×3 (first: khader abdel hafez scientist synopsys (+37)); @1440 style ×17
+- `/resources/synopsys-phy-ip-for-pci-express-3-1-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/public-key-accelerator-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/slm-pvt-monitor-ip-tsmc-n2p-reliability` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/mastering-layout-parasitics-with-paragonx-cest` — @1440 height Δ 406; @1440 geometry ×2 (first: required fields (-17)); @1440 style ×13
+- `/resources/esun-ip-solution-datasheet` — @1440 height Δ -71; @1440 geometry ×1 (first: pre verified for first pass silicon succ (-20)); @1440 style ×7
+- `/resources/achieving-your-low-power-goals-with-synopsys-ultra-low-leakage-io-white-paper` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/ras-challenges-chiplets-ai` — @1440 height Δ 457; @1440 style ×8
+- `/cloud/made-in-the-cloud` — @1440 missing text ×2; @1440 height Δ -347; @1440 geometry ×1 (first: why isn’t everybody doing it? (-53)); @1440 style ×4
+- `/resources/verification-and-validation-of-automotive-safety-element-out-of-context-white-paper` — @1440 height Δ -36; @1440 style ×3
+- `/resources/bump-tsv-planning-multi-die` — @1440 height Δ -143; @1440 style ×3
+- `/resources/endpoint-controller-ip-for-pci-express-1-1-5-0-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/mipi-i3c-controller-ip-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/re-engineering-automotive-physical-ai-development` — @1440 height Δ 58; @1440 geometry ×1 (first: required fields (-17)); @1440 style ×5
+- `/resources/testmax-xlbist` — @1440 height Δ 320; @1440 style ×3
+- `/resources/foundation-ip-for-intel-18a-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/automated-method-soc-designs` — @1440 height Δ -156; @1440 style ×3
+- `/resources/foundation-ip-for-smic-40ll-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/ternary-cam-compilers-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/vecu-based-integration` — @1440 missing text ×40; @1440 height Δ 556; @1440 geometry ×2 (first: required fields (-17)); @1440 style ×15
+- `/webinars/using-platform-architect-for-optimizing-aurix-microcontrollers` — @1440 height Δ 427; @1440 geometry ×2 (first: required fields (-17)); @1440 style ×6
+- `/resources/hbm4-phy-ip-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/ip-solutions-for-the-amba-interconnect-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/custom-hbm-ai` — @1440 height Δ 1499; @1440 geometry ×2 (first: hoshik kim svp fellow memory systems res (+37)); @1440 style ×19
+- `/resources/ide-secure-module-for-cxl-4-0` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/multiphysics-hbm-3d-integration` — @1440 height Δ 432; @1440 geometry ×3 (first: required fields (-17)); @1440 style ×9
+- `/resources/foundation-ip-for-umc-40ulp-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/resources/usb-3-1-evolution-and-revolution-white-paper` — @1440 height Δ -36; @1440 style ×3
+- `/resources/ip-phy-ip-for-pci-express-5-0-and-cxl-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/verification/resources/datasheets/zebu-ep` — @1440 height Δ -120; @1440 style ×3
+- `/verification/resources/whitepapers/virtualizer-native-execution-accelerates-sw-defined-product-development-for-arm-solutions-wp` — @1440 height Δ -36; @1440 style ×3
+- `/resources/re-engineering-engineering-electronics-digital-twin-sdv-era` — @1440 missing text ×1; @1440 height Δ -263; @1440 style ×3
+- `/verification/resources/whitepapers/virtual-prototyping-regression-wp` — @1440 height Δ -129; @1440 style ×3
+- `/resources/multi-die-automotive-wp` — @1440 height Δ -48; @1440 style ×3
+- `/verification/resources/whitepapers/vc-spyglass-connectivity-linting` — @1440 height Δ -36; @1440 style ×3
+- `/verification/resources/datasheets/vc-formal` — @1440 height Δ -36; @1440 style ×3
+- `/resources/sram-compiler-breakthroughs-5nm-3nm-socs` — @1440 height Δ -36; @1440 style ×7
+- `/resources/confirmation-measures-iso26262-functional-safety` — @1440 height Δ -36; @1440 style ×3
+- `/success-stories/fujitsu-next-gen-processor-fugakunext-supercomputer` — @1440 height Δ -173; @1440 geometry ×1 (first: required fields (-17)); @1440 style ×8
+- `/resources/gen-2-ddr-multiphy-ip-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/speed-barriers-virtual-prototypes-advanced-use-cases` — @1440 height Δ 365; @1440 geometry ×2 (first: required fields (-17)); @1440 style ×6
+- `/resources/ccix-ip-complete-solution-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/services/design-services/contact-system-design-solutions` — @1440 missing text ×2; @1440 height Δ 57; @1440 style ×3
+- `/webinars/multi-die-3dic-partitioning-floorplanning` — @1440 height Δ 406; @1440 style ×14
+- `/academic-research/contactus/entrepreneurs` — @1440 height Δ 418; @1440 style ×3
+- `/webinars/de-risking-socs-with-interface-ip` — @1440 height Δ 427; @1440 geometry ×2 (first: required fields (-17)); @1440 style ×19
+- `/events/virtual-prototyping-day` — @1440 missing text ×41; @1440 height Δ -1398; @1440 style ×12
+- `/resources/phy-ip-for-pci-express-7-0-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/webinars/synopsys-guc-coupe` — @1440 missing text ×2; @1440 height Δ 1000; @1440 geometry ×5 (first: how synopsys and guc co optimize xpu the (+39)); @1440 style ×18
+- `/webinars/marvell-accelerating-design-signal-integrity-analysis` — @1440 height Δ 416; @1440 geometry ×1 (first: how to use physics based si feedback dur (+38)); @1440 style ×11
+- `/webinars/redhawk-sc-emir-signoff-ir-aware-design` — @1440 height Δ 483; @1440 geometry ×2 (first: sojan philips is the principal product m (-15)); @1440 style ×6
+- `/resources/200g-400g-800g-ethernet-mac-ip-datasheet` — @1440 height Δ -36; @1440 style ×3
+- `/authors/tao-huang` — @1440 height Δ 23
+- `/authors/shuaiyu-jiang` — @1440 missing text ×1; @1440 height Δ 23; @1440 geometry ×1 (first: using formal datapath validation to veri (-11)); @1440 style ×3
+- `/authors/vikas-gautam` — @1440 geometry ×1 (first: by (-21))
+- `/authors/ajay-daga` — @1440 missing text ×1; @1440 height Δ 17; @1440 geometry ×2 (first: automated constraints promotion methodol (-11)); @1440 style ×3
+- `/authors/mathias-hoehne` — @1440 height Δ 18; @1440 geometry ×1 (first: follow on (-10))
+- `/authors/mary-ann-white` — @1440 height Δ 24; @1440 geometry ×1 (first: by (-21))
+- `/authors/sojan-philips` — @1440 missing text ×1; @1440 geometry ×2 (first: redhawk sc from emir signoff to ir aware (-11)); @1440 style ×2
+- `/authors/gary-ruggles` — @1440 missing text ×3; @1440 height Δ 1484; @1440 geometry ×1 (first: by gordon getty (+19))
+- `/authors/youngkwon-cho` — @1440 missing text ×1; @1440 geometry ×2 (first: ml enhanced tcad calibration achieve 10x (-11)); @1440 style ×4
+- `/authors/chiragkumar-patel` — @1440 height Δ 20
+- `/authors/nikhil-jain` — @1440 height Δ 23
+- `/authors/vaida-arcisauskaite` — @1440 missing text ×1; @1440 geometry ×2 (first: gpu accelerated atomistic simulations fo (-11)); @1440 style ×4
+- `/authors/deepak-sherlekar` — @1440 height Δ 18; @1440 geometry ×1 (first: follow on (-10))
+- `/authors/arun-bhattacharya` — @1440 missing text ×2; @1440 geometry ×6 (first: process design kits how synopsys and int (-199))
+- `/authors/sutirtha-kabir` — @1440 missing text ×1; @1440 style ×1
+- `/authors/atul-walimbe` — @1440 missing text ×2; @1440 geometry ×2 (first: jumpstart chip design with digital insta (-11)); @1440 style ×3
+- `/authors/aart-de-geus` — @1440 height Δ 21
+- `/authors/asutosh-mishra` — @1440 height Δ 21
+- `/authors/gustavo-pimentel` — @1440 height Δ -30; @1440 style ×2
+- `/authors/stephane-maulet` — @1440 missing text ×1; @1440 height Δ 20; @1440 geometry ×1 (first: out of the box equivalence checking with (-11)); @1440 style ×2
+- `/authors/joao-lucas` — @1440 height Δ 24
+- `/authors/lorin-kennedy` — @1440 height Δ 18; @1440 geometry ×1 (first: follow on (-10))
+- `/authors/rick-furtner` — @1440 height Δ 17; @1440 geometry ×1 (first: follow on (-11))
+- `/authors/mark-richards` — @1440 geometry ×1 (first: by (-21))
+- `/authors/hezi-saar` — @1440 missing text ×3; @1440 height Δ 432; @1440 geometry ×2 (first: blog (+16))
+- `/authors/rob-kruger` — @1440 height Δ -28; @1440 style ×1
+- `/authors/wim-slagter` — @1440 geometry ×1 (first: follow on (-14))
+- `/authors/michael-posner` — @1440 height Δ -17; @1440 geometry ×1 (first: by (-21))
+- `/authors/anupama-shojaei` — @1440 missing text ×1; @1440 style ×2
+- `/authors/eldo-n-baby` — @1440 height Δ 18; @1440 geometry ×1 (first: follow on (-10))
+- `/community/snug/snug-europe` — @1440 missing text ×4; @1440 height Δ -104; @1440 geometry ×3 (first: technical committee (-515)); @1440 style ×5
+- `/support/licensing-installation-computeplatforms/compute-platforms/platform-notice/2006-ic-workbench-ev-on-hp-ux` — @1440 height Δ 46; @1440 geometry ×2 (first: august 30 2006 (-36)); @1440 style ×9
+- `/company/corporate-governance-ethics/audit-committee` — @1440 height Δ -335; @1440 geometry ×8 (first: the audit committee the “ ” is appointed (-31)); @1440 style ×9
+- `/support/licensing-installation-computeplatforms/certificates` — @1440 height Δ -447; @1440 geometry ×6 (first: most synopsys products for the windows p (-15)); @1440 style ×1
+- `/company/responsible-business` — @1440 missing text ×1; @1440 height Δ 52; @1440 style ×3
+- `/services/design-services/soc-design-services` — @1440 missing text ×5; @1440 height Δ -18; @1440 geometry ×5 (first: type of services (+9)); @1440 style ×3
+- `/company/legal/employment-candidate-privacy-notice` — @1440 missing text ×2; @1440 height Δ 1499; @1440 geometry ×39 (first: this privacy notice “ ” describes how sy (+9))
+- `/support/training/locations` — @1440 height Δ -94; @1440 geometry ×3 (first: click on a training center location to g (+9)); @1440 style ×3
+- `/company/contact-synopsys/office-locations/armenia/research-development` — @1440 broken images ×2; @1440 height Δ 90; @1440 geometry ×3 (first: careers (+63)); @1440 style ×10
+- `/support/licensing-installation-computeplatforms/compute-platforms/release-specific-support/supported-s-foundation` — @1440 missing text ×4; @1440 height Δ -61; @1440 geometry ×6 (first: release specific support (-36)); @1440 style ×8
+- `/community/snug/snug-europe/authors-kit` — @1440 missing text ×44; @1440 height Δ -2080; @1440 geometry ×1 (first: reflecting snug’s commitment to technica (-9)); @1440 style ×5
+- `/community/snug/snug-silicon-valley/location-proceedings-2017` — @1440 height Δ -772; @1440 geometry ×20 (first: user papers zip file (+21)); @1440 style ×23
+- `/community/snug/snug-india` — @1440 missing text ×3; @1440 height Δ -340; @1440 geometry ×5 (first: thank you to our 2026 sponsors (-516)); @1440 style ×7
+- `/academic-research/researchers` — @1440 missing text ×1; @1440 height Δ -102; @1440 geometry ×4 (first: solvnetplus is a repository of self help (+18)); @1440 style ×6
+- `/careers/benefits/france-gender-equality-index` — @1440 geometry ×2 (first: synopsys offre des récompenses totales c (-15))
+- `/careers/global/europe-and-middle-east/armenia-careers/employment-opportunities` — @1440 height Δ -18; @1440 geometry ×1 (first: we offer a wide range of benefits and pr (-15))
+- `/support/licensing-installation-computeplatforms/ansys` — @1440 missing text ×8; @1440 height Δ 78; @1440 geometry ×7 (first: now delivered from smartkeys (-15)); @1440 style ×2
+- `/company/contact-synopsys/office-locations/taiwan` — @1440 missing text ×5; @1440 height Δ 108; @1440 geometry ×3 (first: office locations (+53)); @1440 style ×9
+- `/community/snug/snug-taiwan/location-proceedings-2020` — @1440 height Δ -934; @1440 geometry ×11 (first: 2020 (-39))
+- `/community/snug/snug-taiwan/location-proceedings-2021` — @1440 missing text ×1; @1440 height Δ 27; @1440 geometry ×2 (first: best paper (+54)); @1440 style ×8
+- `/careers/global/asia-pacific` — @1440 height Δ -94; @1440 geometry ×3 (first: countries regions (-41)); @1440 style ×6
+- `/support/training/locations/locations-taiwan` — @1440 missing text ×2; @1440 geometry ×3 (first: taiwan training centers (-15)); @1440 style ×2
+- `/support/licensing-installation-computeplatforms/compute-platforms/release-specific-support/supported-v-foundation` — @1440 missing text ×2; @1440 height Δ 90; @1440 geometry ×5 (first: release specific support (-36)); @1440 style ×8
+- `/academic-research/university` — @1440 missing text ×11; @1440 height Δ -409; @1440 geometry ×6 (first: 3dic compiler (-51)); @1440 style ×10
+- `/support/licensing-installation-computeplatforms/compute-platforms/platform-notice/2021-t-foundation-centos-support-changes` — @1440 missing text ×1; @1440 height Δ -41; @1440 geometry ×1 (first: centos support change for t foundation r (-36)); @1440 style ×10
+- `/support/training/self-paced` — @1440 missing text ×2; @1440 height Δ 463; @1440 geometry ×9 (first: explore learning journeys (-11)); @1440 style ×13
+- `/company/management-team` — @1440 height Δ -189; @1440 style ×42
+- `/careers/global/europe-and-middle-east/armenia-careers` — @1440 height Δ 22; @1440 style ×4
+- `/academic-research/entrepreneurs` — @1440 missing text ×3; @1440 geometry ×2 (first: resource (+10)); @1440 style ×3
+- `/community/snug/snug-europe/location-proceedings-2022` — @1440 height Δ -705; @1440 geometry ×14 (first: 2022 (-15))
+- `/support/licensing-installation-computeplatforms/compute-platforms/release-specific-support/supported-r-foundation` — @1440 missing text ×4; @1440 geometry ×4 (first: release specific support (-36)); @1440 style ×8
+- `/support/training/locations/locations-france-grenoble` — @1440 height Δ -443; @1440 geometry ×7 (first: france training center (-15)); @1440 style ×1
+- `/company/legal/vulnerability-disclosure-policy` — @1440 height Δ -245; @1440 geometry ×7 (first: synopsys is committed to the security of (-30)); @1440 style ×26
+- `/support/licensing-installation-computeplatforms/ansys-scbu-migration` — @1440 missing text ×14; @1440 height Δ -128; @1440 geometry ×15 (first: december 2026 migration to synopsys comm (-15)); @1440 style ×5
+- `/community/snug/snug-europe/location-proceedings-2020` — @1440 height Δ -704; @1440 geometry ×10 (first: 2020 (-15))
+- `/glossary/what-is-a-digital-twin` — @1440 missing text ×31; @1440 height Δ -631; @1440 geometry ×12 (first: definition (+382)); @1440 style ×94
+- `/glossary/what-is-reinforcement-learning` — @1440 missing text ×46; @1440 height Δ -695; @1440 geometry ×3 (first: benefit (+11)); @1440 style ×21
+- `/glossary/what-is-low-power-design` — @1440 missing text ×31; @1440 height Δ -240; @1440 geometry ×5 (first: low power design methodology (+26)); @1440 style ×16
+- `/glossary/what-is-ic-design` — @1440 missing text ×36; @1440 height Δ -563; @1440 geometry ×1 (first: what solutions does synopsys offer for i (-10)); @1440 style ×11
+- `/glossary/what-is-physical-design` — @1440 missing text ×31; @1440 height Δ -202; @1440 geometry ×18 (first: translating the architecture into logic  (-10)); @1440 style ×17
+- `/glossary/what-is-circuit-simulation` — @1440 missing text ×36; @1440 height Δ -451; @1440 geometry ×1 (first: circuit simulation and synopsys (+25)); @1440 style ×11
+- `/glossary/what-is-eda-agentic-ai` — @1440 missing text ×32; @1440 height Δ -189; @1440 geometry ×10 (first: benefits of eda agentic ai (+26)); @1440 style ×20
+- `/glossary/what-is-design-rule-checking` — @1440 missing text ×36; @1440 height Δ -470; @1440 geometry ×2 (first: rule type (+11)); @1440 style ×11
+- `/glossary/what-is-synthesis` — @1440 missing text ×41; @1440 height Δ -516; @1440 style ×16
+- `/company/contact-synopsys/office-locations` — @1440 missing text ×20; @1440 height Δ -1887; @1440 geometry ×22 (first: americas (+8200)); @1440 style ×33
+- `/glossary/what-is-hav-prototyping` — @1440 missing text ×31; @1440 style ×11
+- `/glossary/what-is-verification` — @1440 missing text ×32; @1440 geometry ×2 (first: benefits of verification (+77)); @1440 style ×14
+- `/glossary/what-is-an-ai-accelerator` — @1440 missing text ×38; @1440 height Δ -175; @1440 geometry ×2 (first: ai accelerator and synopsys (+10)); @1440 style ×14
+- `/glossary/what-is-model-based-design` — @1440 missing text ×34; @1440 height Δ -39; @1440 style ×14
+- `/glossary/what-is-hyper-convergent-design-flow` — @1440 missing text ×31; @1440 height Δ -28; @1440 style ×11
+
+## Unavailable (live or deployed did not serve the page)
+- `/dw/doc/wp/how-new-storage-technologies-enhance-hpc-systems-pdf` — HTTP 404: HTTP 404 at https://www.synopsys.com/dw/doc.php/wp/How_New_Storage_Technologies_Enhance_HPC_Systems.pdf — not a challeng
+- `/dw/doc/ss/inuitive-usb-ddr-mipi-foundationip-ss-pdf` — null
+- `/dw/doc/ds/c/dwc-100g-ethernet-mac-tsn-ds-pdf` — null
+
+## Warnings only
+- `/authors/karan-shah` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/jamil-kawa` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/mitch-heins` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/nikhil-amin` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/lj-chen` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/licinio-sousa` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/erika-varga-mcenroe` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/deepak-kumar-lnu` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/rutger-carlsson` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+- `/authors/pratap-neelashetty` — @1440 extra text ×11; @1440 chrome text ×7; @1440 bands >5% ×1; @1440 merged text ×1
+
+## Finding classes ranked by pages affected
+- **bands >5%** — 396 pages (program 132, article 120, form 55, author 40, static 34, glossary 15)
+- **merged text** — 376 pages (program 125, article 120, form 55, author 40, static 21, glossary 15)
+- **style** — 351 pages (program 121, article 120, form 55, static 29, glossary 15, author 11)
+- **extra text** — 338 pages (program 120, article 120, author 40, static 34, glossary 15, form 9)
+- **height Δ** — 329 pages (article 111, program 99, form 55, static 31, author 20, glossary 13)
+- **geometry** — 295 pages (article 119, program 97, static 32, author 20, form 16, glossary 11)
+- **missing text** — 276 pages (article 120, program 104, static 19, glossary 15, author 12, form 6)
+- **images** — 251 pages (article 116, program 84, form 25, glossary 14, static 10, author 2)
+- **chrome text** — 183 pages (article 99, program 44, author 40)
+- **dynamics** — 14 pages (program 12, article 2)
+- **broken images** — 4 pages (program 3, static 1)
+- **live-only hosts** — 3 pages (program 1, article 1, glossary 1)
+
+## By template
+| template | pass | warn | fail | unavailable |
+|---|---|---|---|---|
+| program | 0 | 0 | 132 | 3 |
+| article | 0 | 0 | 120 | 0 |
+| form | 0 | 0 | 55 | 0 |
+| author | 0 | 10 | 30 | 0 |
+| static | 0 | 0 | 35 | 0 |
+| glossary | 0 | 0 | 15 | 0 |

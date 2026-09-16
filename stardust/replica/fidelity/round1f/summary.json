@@ -1,0 +1,2533 @@
+[
+ {
+  "path": "/designware-ip/security-ip/interface-security-modules/hpc-macsec-up-to-1-6t",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×14",
+   "@1440 height Δ -795",
+   "@1440 geometry ×3 (first: the demand for enhanced security is furt (+10))",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×5"
+  ],
+  "note": null
+ },
+ {
+  "path": "/solutions/multi-die-design/customer-success",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-fp-addsub-dg",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/soc-infrastructure-ip/designware-library",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 105",
+   "@1440 geometry ×1 (first: datapath building blocks (-47))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×4"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/emulation-prototyping/prototyping/haps-200",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×17",
+   "@1440 broken images ×2",
+   "@1440 height Δ 354",
+   "@1440 geometry ×12 (first: rtl regression (+26))",
+   "@1440 style ×5",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×5",
+   "@1440 images ×32",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×31"
+  ],
+  "note": null
+ },
+ {
+  "path": "/manufacturing/quantumatk/videos",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×6",
+   "@1440 height Δ -312",
+   "@1440 geometry ×2 (first: synopsys video series on sensor design (-15))",
+   "@1440 style ×7",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×9",
+   "@1440 images ×35",
+   "@1440 bands >5% ×2",
+   "@1440 live-only hosts ×1",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/implementation-and-signoff/resources/videos/qsk-video-whitepaper",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 28",
+   "@1440 style ×1",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/hdmi/hdmi-csds-rx",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ -294",
+   "@1440 geometry ×2 (first: brochure (-123))",
+   "@1440 style ×9"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/category-executive-voices",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×31",
+   "@1440 height Δ 946",
+   "@1440 geometry ×1 (first: about synopsys (-20))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×51",
+   "@1440 chrome text ×9",
+   "@1440 images ×25",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×96"
+  ],
+  "note": null
+ },
+ {
+  "path": "/photonic-solutions/product-applications/coherent-fiber-optic/nyquist-wdm-pm-16qam",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×3",
+   "@1440 height Δ -202",
+   "@1440 geometry ×3 (first: tool used optsim (-15))"
+  ],
+  "warns": [
+   "@1440 extra text ×4",
+   "@1440 images ×3",
+   "@1440 bands >5% ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/debug",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×8",
+   "@1440 height Δ 540",
+   "@1440 geometry ×5 (first: on the fly development checks and ai dri (+72))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×25"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/virtual-prototyping/vp-book",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ -219",
+   "@1440 geometry ×4 (first: better software. faster! (-15))"
+  ],
+  "warns": [
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/ethernet/200g-400g-800g-ethernet-mac-ip",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 height Δ -294",
+   "@1440 geometry ×2 (first: brochure (-123))",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×3",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×4"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/usb/usb-3-0-drd",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ -112",
+   "@1440 geometry ×17 (first: highlights & key features (-10))",
+   "@1440 style ×9"
+  ],
+  "warns": [
+   "@1440 extra text ×29",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×7"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-fifoctl-s2-sf",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×17"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/verification-ip/storage/nvme",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -41",
+   "@1440 geometry ×1 (first: key features (-20))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/events/spie-advanced-lithography-patterning",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 height Δ -24",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×5"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/virtual-prototyping/references/amg",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -145",
+   "@1440 geometry ×3 (first: amg development of dct software for the  (-15))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-pulseack-sync",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/manufacturing/quantumatk/atomistic-simulation-products",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ -68",
+   "@1440 geometry ×9 (first: quantumatk products (+71))",
+   "@1440 style ×22"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/emllselector/university",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×5",
+   "@1440 height Δ 37",
+   "@1440 geometry ×1 (first: foundation ip selector (+43))",
+   "@1440 style ×18"
+  ],
+  "warns": [
+   "@1440 extra text ×13",
+   "@1440 chrome text ×14",
+   "@1440 images ×2",
+   "@1440 bands >5% ×1",
+   "@1440 live-only hosts ×3",
+   "@1440 merged text ×14"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/star-hierarchical-test",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -262",
+   "@1440 geometry ×1 (first: search for ip (+30))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 extra text ×14",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×63"
+  ],
+  "note": null
+ },
+ {
+  "path": "/implementation-and-signoff/signoff/electrical-layout-verification",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×10",
+   "@1440 height Δ -263",
+   "@1440 geometry ×1 (first: resources (-262))",
+   "@1440 style ×3",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×47"
+  ],
+  "note": null
+ },
+ {
+  "path": "/photonic-solutions/product-applications/other-applications/adc-dac-enhancing-resolution-of-conversions",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 583",
+   "@1440 geometry ×11 (first: tool used optsim (-15))"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×6",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw01-csa",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/security-ip/cryptography-ip/puf/security-puf-fpga-x",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ -283",
+   "@1440 geometry ×2 (first: highlights & key features (-10))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 images ×2",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×9"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/security-ip/cryptography-ip",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×14",
+   "@1440 broken images ×1",
+   "@1440 height Δ 304",
+   "@1440 geometry ×1 (first: symmetric cryptographic engines (-43))",
+   "@1440 style ×11",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×8",
+   "@1440 images ×12",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×26"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/ddr5-lpddr5",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×3",
+   "@1440 height Δ -75",
+   "@1440 geometry ×1 (first: ddr5 4 phy (-14))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×21",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×27"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/usb",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×3",
+   "@1440 height Δ 1385",
+   "@1440 geometry ×2 (first: products (+411))",
+   "@1440 style ×16"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 images ×6",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×53"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/security-ip/root-of-trust/troot-hsm-automotive",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -177",
+   "@1440 geometry ×10 (first: meets stringent iso 26262 safety process (+10))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 extra text ×10",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×13"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/ddr/ddr-gen2-multiphy",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 35",
+   "@1440 geometry ×35 (first: highlights & key features (-10))",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×4"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/verification-ip",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×7",
+   "@1440 height Δ 2006",
+   "@1440 geometry ×4 (first: amba (-47))",
+   "@1440 style ×19"
+  ],
+  "warns": [
+   "@1440 extra text ×19",
+   "@1440 images ×8",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×60"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/category-multiphysics-fusion",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×12",
+   "@1440 height Δ 179",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×23",
+   "@1440 chrome text ×9",
+   "@1440 images ×11",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×35"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/interface-ip/hdmi/hdmi-20-csds-rx",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×14",
+   "@1440 height Δ -29",
+   "@1440 geometry ×2 (first: highlights & key features (+249))",
+   "@1440 style ×10",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×63",
+   "@1440 images ×8",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×44"
+  ],
+  "note": null
+ },
+ {
+  "path": "/implementation-and-signoff/signoff/primeclosure",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×6",
+   "@1440 height Δ -247",
+   "@1440 geometry ×8 (first: primeclosure gigascale closure that scal (+10))",
+   "@1440 style ×4",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×26",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×21"
+  ],
+  "note": null
+ },
+ {
+  "path": "/implementation-and-signoff/resources/videos/esperanto-custom-compiler",
+  "status": "fail",
+  "errs": [
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×2",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/events/virtual-prototyping-day-2025",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 height Δ 131",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×2",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/security-ip/cryptography-ip/random-number-generators/trng-nist",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -283",
+   "@1440 geometry ×1 (first: search for ip (+30))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×14",
+   "@1440 images ×2",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×13"
+  ],
+  "note": null
+ },
+ {
+  "path": "/verification/emulation-prototyping/prototyping/haps-100",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×4",
+   "@1440 height Δ -224",
+   "@1440 geometry ×5 (first: key benefits (-156))",
+   "@1440 style ×9",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×3",
+   "@1440 images ×3",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×6"
+  ],
+  "note": null
+ },
+ {
+  "path": "/solutions/medical",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 80",
+   "@1440 geometry ×6 (first: partner with a leader that understands m (+44))",
+   "@1440 style ×7"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×5"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-lp-piped-sqrt",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/implementation-and-signoff/3dic-design",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×11",
+   "@1440 broken images ×6",
+   "@1440 height Δ 617",
+   "@1440 geometry ×4 (first: support for major foundries including ts (+26))",
+   "@1440 style ×13",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×25",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×37"
+  ],
+  "note": null
+ },
+ {
+  "path": "/designware-ip/memories-logic-libraries/gpio",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 153",
+   "@1440 geometry ×19 (first: synopsys 3.3v 1.8v gpio ip for gf 12lp d (+22))",
+   "@1440 style ×27"
+  ],
+  "warns": [
+   "@1440 extra text ×14",
+   "@1440 images ×2",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×17"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/category-custom-implementation",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×20",
+   "@1440 height Δ 397",
+   "@1440 geometry ×2 (first: custom implementation (+63))",
+   "@1440 style ×13"
+  ],
+  "warns": [
+   "@1440 extra text ×37",
+   "@1440 chrome text ×9",
+   "@1440 images ×19",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×63"
+  ],
+  "note": null
+ },
+ {
+  "path": "/demo",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: demo (+10))",
+   "@1440 style ×1"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-apb-i2s",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×19"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/doc/wp/dataconverters-ip-for-automotive-socs-white-paper-pdf",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×13",
+   "@1440 height Δ -346",
+   "@1440 geometry ×1 (first: news (-30))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×11"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-ram-2r-w-a-dff",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-fp-add-dg",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/dw/ipdir/dw-fp-exp",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 geometry ×1 (first: ip directory component detail (-9))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×9",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×18"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/high-performance-dsp-for-5g",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×50",
+   "@1440 height Δ -51",
+   "@1440 geometry ×3 (first: cellular lte took dsps wide (+25))",
+   "@1440 style ×17"
+  ],
+  "warns": [
+   "@1440 extra text ×18",
+   "@1440 images ×39",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×101"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/silicon-testing-with-high-speed-functional-interfaces",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×60",
+   "@1440 height Δ 57",
+   "@1440 geometry ×2 (first: subscribe to our blog (+35))",
+   "@1440 style ×18"
+  ],
+  "warns": [
+   "@1440 extra text ×25",
+   "@1440 chrome text ×8",
+   "@1440 images ×42",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×100"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/risc-processors",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×50",
+   "@1440 height Δ -67",
+   "@1440 style ×17"
+  ],
+  "warns": [
+   "@1440 extra text ×18",
+   "@1440 images ×39",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×101"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/first-verification-ips-arm-amba",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×8",
+   "@1440 height Δ 238",
+   "@1440 geometry ×5 (first: other features (+26))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×7",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×27"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/cxl-2-device-discovery-path",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×9",
+   "@1440 height Δ -97",
+   "@1440 geometry ×1 (first: engineering central (+61))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×11",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×26"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/auto-industry-trends-2022",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×73",
+   "@1440 height Δ 98",
+   "@1440 geometry ×5 (first: subscribe to our blog (-19))",
+   "@1440 style ×17"
+  ],
+  "warns": [
+   "@1440 extra text ×26",
+   "@1440 chrome text ×9",
+   "@1440 images ×40",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×91"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/ams-emulation-dale-donchin-johanness-stahl",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×17",
+   "@1440 height Δ 87",
+   "@1440 geometry ×10 (first: subscribe to our blog (-20))",
+   "@1440 style ×22",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×21",
+   "@1440 chrome text ×9",
+   "@1440 images ×5",
+   "@1440 bands >5% ×11",
+   "@1440 merged text ×36"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/software-drives-product-design-innovation",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×54",
+   "@1440 height Δ 117",
+   "@1440 geometry ×3 (first: subscribe to our blog (+35))",
+   "@1440 style ×18"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×41",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×104"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/ddr4-bank-groups",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 291",
+   "@1440 geometry ×3 (first: ddr4 and bank groups (+26))",
+   "@1440 style ×6"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×4",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/ai-factories-data-center-infrastructure",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×8",
+   "@1440 height Δ 122",
+   "@1440 geometry ×4 (first: subscribe (+26))",
+   "@1440 style ×9",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×17",
+   "@1440 chrome text ×8",
+   "@1440 images ×10",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×25"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/cloud-data-center-architecture",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×13",
+   "@1440 height Δ 31",
+   "@1440 geometry ×5 (first: subscribe (+26))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×21",
+   "@1440 chrome text ×9",
+   "@1440 images ×5",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×24"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/fanout-rdl-routing-design-automation",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×11",
+   "@1440 height Δ 17",
+   "@1440 geometry ×7 (first: subscribe to our blog (+36))",
+   "@1440 style ×13",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×2",
+   "@1440 images ×3",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×28"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/simulation-quantum-computing-research-development",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×11",
+   "@1440 height Δ 106",
+   "@1440 geometry ×4 (first: privacy notice (-24))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×18",
+   "@1440 chrome text ×9",
+   "@1440 images ×10",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×22"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/ufs-4-0-specification-flash-storage",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×16",
+   "@1440 height Δ 27",
+   "@1440 geometry ×5 (first: privacy notice (-25))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×5",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×29"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/when-functional-chip-design-verification-truly-finished",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×43",
+   "@1440 height Δ 68",
+   "@1440 geometry ×2 (first: subscribe to our blog (-20))",
+   "@1440 style ×18"
+  ],
+  "warns": [
+   "@1440 extra text ×25",
+   "@1440 chrome text ×9",
+   "@1440 images ×32",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×106"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/usb4-device-ip-edge-ai",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 height Δ 191",
+   "@1440 geometry ×7 (first: by providing your information you agree  (-9))",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 chrome text ×8",
+   "@1440 images ×4",
+   "@1440 bands >5% ×4",
+   "@1440 live-only hosts ×1",
+   "@1440 merged text ×10"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/ufs-5-0-verification-mobile-automotive-ai-storage",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×14",
+   "@1440 height Δ -212",
+   "@1440 geometry ×34 (first: the use of pam 4 modulation instead of n (-10))",
+   "@1440 style ×13"
+  ],
+  "warns": [
+   "@1440 extra text ×10",
+   "@1440 chrome text ×2",
+   "@1440 images ×11",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×25"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/integrated-ip-mipi-camera-display",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 572",
+   "@1440 geometry ×1 (first: blog (-13))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×6",
+   "@1440 bands >5% ×6",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/high-performance-computing-cluster",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×13",
+   "@1440 height Δ 46",
+   "@1440 geometry ×5 (first: privacy notice (-25))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×21",
+   "@1440 chrome text ×9",
+   "@1440 images ×5",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×24"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/aip-vip-technology-benefits",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×14",
+   "@1440 height Δ 97",
+   "@1440 geometry ×4 (first: privacy notice (-25))",
+   "@1440 style ×7"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×5",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×24"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/cloud-architecture-patterns",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×13",
+   "@1440 height Δ 143",
+   "@1440 geometry ×3 (first: cloud architecture patterns (-30))",
+   "@1440 style ×31"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×11",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×25"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/the-dna-of-an-ai-soc",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 59",
+   "@1440 geometry ×1 (first: blog (-12))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×4",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/vso-ai-nvidia",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×16",
+   "@1440 height Δ -363",
+   "@1440 geometry ×5 (first: excluding the unreachable coverage targe (-74))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 extra text ×21",
+   "@1440 chrome text ×9",
+   "@1440 images ×11",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×23"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/memory-design-with-machine-learning",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×54",
+   "@1440 height Δ 58",
+   "@1440 geometry ×4 (first: subscribe (-15))",
+   "@1440 style ×21"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×33",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×103"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/on-the-fly-code-review-chip-design-process",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×48",
+   "@1440 height Δ 43",
+   "@1440 geometry ×5 (first: subscribe to our blog (-19))",
+   "@1440 style ×17"
+  ],
+  "warns": [
+   "@1440 extra text ×22",
+   "@1440 chrome text ×9",
+   "@1440 images ×33",
+   "@1440 bands >5% ×3",
+   "@1440 live-only hosts ×1",
+   "@1440 merged text ×109"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/fast-accurate-virtual-prototyping",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×16",
+   "@1440 height Δ 62",
+   "@1440 geometry ×4 (first: subscribe to our blog (-19))",
+   "@1440 style ×15"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×5",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×23"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/uasp-faster-usb-mass-storage",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×16",
+   "@1440 height Δ 67",
+   "@1440 geometry ×2 (first: silicon ip (-30))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×7",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×25"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/800g-ethernet-industry-standards",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×59",
+   "@1440 height Δ 69",
+   "@1440 geometry ×3 (first: subscribe (+27))",
+   "@1440 style ×19"
+  ],
+  "warns": [
+   "@1440 extra text ×25",
+   "@1440 chrome text ×9",
+   "@1440 images ×42",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×99"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/verification-of-ual-uec-protocols-for-scalable-hpc-ai-networks-using-synopsys-vip",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×10",
+   "@1440 height Δ 96",
+   "@1440 geometry ×5 (first: scaling out across servers connects node (+10))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×10",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×31"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/lpddr5-enhancements-iot-ai-image-processing",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×10",
+   "@1440 height Δ -503",
+   "@1440 geometry ×5 (first: link ecc (+35))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×13",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×31"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/arc-sem130fs-safety-security-processor",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×50",
+   "@1440 height Δ -54",
+   "@1440 geometry ×5 (first: synopsys ip technical bulletin (+16))",
+   "@1440 style ×17"
+  ],
+  "warns": [
+   "@1440 extra text ×19",
+   "@1440 images ×39",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×100"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/arm-amba-ace5-axi5-test-suite",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×9",
+   "@1440 height Δ -192",
+   "@1440 geometry ×2 (first: learn more about synopsys vip and test s (-11))",
+   "@1440 style ×6"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×11",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×26"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/hpc-multi-die-chip-design-2025",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×10",
+   "@1440 height Δ 83",
+   "@1440 geometry ×3 (first: subscribe (+26))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 extra text ×17",
+   "@1440 chrome text ×9",
+   "@1440 images ×4",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×23"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/3dhi-chip-designs",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×18",
+   "@1440 height Δ 41",
+   "@1440 geometry ×5 (first: subscribe (-16))",
+   "@1440 style ×12"
+  ],
+  "warns": [
+   "@1440 extra text ×22",
+   "@1440 chrome text ×9",
+   "@1440 images ×10",
+   "@1440 bands >5% ×6",
+   "@1440 merged text ×21"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/ai-chip-design-with-ibm-hybrid-cloud-architecture",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×51",
+   "@1440 height Δ 72",
+   "@1440 geometry ×3 (first: privacy notice (-24))",
+   "@1440 style ×20"
+  ],
+  "warns": [
+   "@1440 extra text ×20",
+   "@1440 chrome text ×9",
+   "@1440 images ×33",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×107"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/edge-ai-in-memory-compute",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×13",
+   "@1440 broken images ×3",
+   "@1440 height Δ -514",
+   "@1440 geometry ×4 (first: subscribe to our blog (+35))",
+   "@1440 style ×16",
+   "@1440 dynamics"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×41",
+   "@1440 images ×8",
+   "@1440 bands >5% ×3",
+   "@1440 page errors",
+   "@1440 merged text ×30"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles/automotive-macsec-ethernet",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ -48",
+   "@1440 geometry ×3 (first: what synopsys has to offer (+25))",
+   "@1440 style ×122"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×1",
+   "@1440 bands >5% ×11",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/timing-aware-multiphysics-eco-design-closure",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×9",
+   "@1440 height Δ 206",
+   "@1440 geometry ×4 (first: by providing your information you agree  (-9))",
+   "@1440 style ×15"
+  ],
+  "warns": [
+   "@1440 extra text ×6",
+   "@1440 chrome text ×2",
+   "@1440 images ×10",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×24"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/what-is-cloud-native-architecture",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×13",
+   "@1440 geometry ×7 (first: subscribe (+53))",
+   "@1440 style ×12"
+  ],
+  "warns": [
+   "@1440 extra text ×21",
+   "@1440 chrome text ×9",
+   "@1440 images ×11",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×23"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/atomic-scale-simulation-resistive-switching-reram",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×28",
+   "@1440 height Δ 18",
+   "@1440 geometry ×11 (first: dft negf simulation of transmission for  (-15))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×16",
+   "@1440 chrome text ×2",
+   "@1440 images ×19",
+   "@1440 bands >5% ×6",
+   "@1440 merged text ×32"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/cloud-enabled-chip-design-education-concept-to-tapeout",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×11",
+   "@1440 height Δ 61",
+   "@1440 geometry ×6 (first: subscribe (-15))",
+   "@1440 style ×13"
+  ],
+  "warns": [
+   "@1440 extra text ×10",
+   "@1440 chrome text ×2",
+   "@1440 images ×3",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×24"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/2nm-technology-process-design-kit-imec",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×11",
+   "@1440 geometry ×5 (first: privacy notice (-25))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 extra text ×15",
+   "@1440 chrome text ×9",
+   "@1440 images ×10",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×27"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/boost-debug-productivity-serial-protocols",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×9",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×5",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×26"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/mastering-uvm-register-model-simplification",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×9",
+   "@1440 height Δ 41",
+   "@1440 geometry ×2 (first: creating the register format specificati (+10))",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×7",
+   "@1440 chrome text ×2",
+   "@1440 images ×4",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×28"
+  ],
+  "note": null
+ },
+ {
+  "path": "/blogs/chip-design/2nm-power-efficiency-hyperscale-socs",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×8",
+   "@1440 height Δ 83",
+   "@1440 geometry ×6 (first: subscribe to our blog (+36))",
+   "@1440 style ×9"
+  ],
+  "warns": [
+   "@1440 extra text ×16",
+   "@1440 chrome text ×9",
+   "@1440 images ×4",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×24"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/slm-actionable-silicon-insights",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/foundation-ip-for-gf-55lpe-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/webinars/leveraging-synopsys-vdk-to-shift-soc-development-left-mediatek",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 377",
+   "@1440 geometry ×3 (first: required fields (-17))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/mipi-m-phy-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/lpddr5-4-4x-controller-ip-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/webinars/shift-left-soc-ip-verification",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 418",
+   "@1440 geometry ×1 (first: submit (+26))",
+   "@1440 style ×13"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×4",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/success-stories/dreambig-semiconductors-tapeout-synopsys-3dic-compiler-cloud",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -58",
+   "@1440 geometry ×4 (first: required fields (-17))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/cloud/digital-saas/cloud-based-digital-design-flow",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -59",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/foundation-cores-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/webinars/system-level-performance-insights-early-soc-de-risking-nxp",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 377",
+   "@1440 geometry ×2 (first: required fields (-17))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/agile-pqc-public-key-accelerators-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/success-stories/rain-ai-low-power-ai-accelerator-chip-synopsys-cloud",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -37",
+   "@1440 geometry ×3 (first: required fields (-17))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/foundation-ip-for-tsmc-65lp-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/academic-research/subscription",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 223",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/multi-die-systems-start-guide",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -177",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 images ×2",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/ccix-controller-ip-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/simulating-atomic-layer-processing-2d-materials",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/quantumatk",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/testmax-manager",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 295",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/resources/mipi-c-phy-d-phy-ip-datasheet",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -61",
+   "@1440 geometry ×1 (first: by providing your information you agree  (-10))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/mischa-jonker",
+  "status": "fail",
+  "errs": [
+   "@1440 geometry ×1 (first: follow on (-17))"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/synopsys-editorial-staff",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×4",
+   "@1440 height Δ 45568",
+   "@1440 style ×6"
+  ],
+  "warns": [
+   "@1440 extra text ×459",
+   "@1440 chrome text ×7",
+   "@1440 images ×237",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1236"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/shawn-carpenter",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/jerome-toublanc",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -20",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/dustin-todd",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/dennis-kengo-oka",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×6",
+   "@1440 geometry ×1 (first: connected vehicle cybersecurity for wire (-11))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×7"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/rohan-bhatangar",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/irfan-shaikh",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/john-alwyn",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 18",
+   "@1440 geometry ×2 (first: accelerating static esd simulation for f (-11))",
+   "@1440 style ×4"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/raja-badrinarayanan",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 17",
+   "@1440 geometry ×2 (first: what is a digital twin? (-11))",
+   "@1440 style ×2"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/plamen-asenov",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 20",
+   "@1440 geometry ×1 (first: follow on (-9))"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/xingang-zhao",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/patrick-sheridan",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/charlie-matar",
+  "status": "warn",
+  "errs": [],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors/jacob-avidan",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ 24"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 chrome text ×7",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/snug/snug-europe/location-proceedings-2019",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -716",
+   "@1440 geometry ×14 (first: 2019 (-15))"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/company/corporate-governance-ethics/board-committees",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -75",
+   "@1440 style ×13"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/interoperability-programs/tap-in",
+  "status": "fail",
+  "errs": [
+   "@1440 geometry ×1 (first: synopsys technology access program tap i (+9))",
+   "@1440 style ×1"
+  ],
+  "warns": [
+   "@1440 extra text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/snug/snug-korea/call-for-content",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×4",
+   "@1440 height Δ -495",
+   "@1440 geometry ×11 (first: call for content info (+14))",
+   "@1440 style ×20"
+  ],
+  "warns": [
+   "@1440 images ×1",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×7"
+  ],
+  "note": null
+ },
+ {
+  "path": "/support/licensing-installation-computeplatforms/compute-platforms/release-specific-support/synopsys-k-foundation",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×4",
+   "@1440 height Δ 70",
+   "@1440 geometry ×9 (first: release specific support (-36))",
+   "@1440 style ×8"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/support/licensing-installation-computeplatforms/licensing/springsoft-tools",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×1",
+   "@1440 height Δ 36",
+   "@1440 geometry ×2 (first: june 2013 migration to scl (+53))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/careers/global/south-asia/ncr",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×3",
+   "@1440 height Δ 68",
+   "@1440 geometry ×1 (first: search synopsys careers (-14))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 extra text ×3",
+   "@1440 images ×4",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/snug/snug-india/location-proceedings-2025",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×24",
+   "@1440 height Δ -1462",
+   "@1440 geometry ×2 (first: complete proceedings (-15))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×7"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/snug/snug-singapore/location-proceedings-2023",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -516",
+   "@1440 geometry ×15 (first: 2023 (-15))",
+   "@1440 style ×16"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/snug/snug-penang/location-proceedings-2023",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -481",
+   "@1440 geometry ×11 (first: 2023 2019 (-15))",
+   "@1440 style ×12"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/community/snug/snug-israel/call-for-content",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×4",
+   "@1440 height Δ -336",
+   "@1440 geometry ×7 (first: if you have used synopsys technology to  (-9))",
+   "@1440 style ×10"
+  ],
+  "warns": [
+   "@1440 images ×1",
+   "@1440 bands >5% ×5",
+   "@1440 merged text ×7"
+  ],
+  "note": null
+ },
+ {
+  "path": "/company/legal/vulnerability-disclosure-policy/advisories",
+  "status": "fail",
+  "errs": [
+   "@1440 height Δ -107",
+   "@1440 geometry ×2 (first: synopsys is committed to the security of (-39))",
+   "@1440 style ×5"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 height Δ -1294",
+   "@1440 geometry ×14 (first: battery management system (-32))",
+   "@1440 style ×7"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×2"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-adas",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×25",
+   "@1440 height Δ -206",
+   "@1440 geometry ×7 (first: how does adas work? (+10))",
+   "@1440 style ×24"
+  ],
+  "warns": [
+   "@1440 extra text ×4",
+   "@1440 images ×29",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×78"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-physical-synthesis",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×31",
+   "@1440 height Δ -93",
+   "@1440 geometry ×2 (first: importance of physical synthesis (-20))",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 images ×31",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×75"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-serdes",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×31",
+   "@1440 height Δ -22",
+   "@1440 style ×11"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 images ×31",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×75"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-a-data-center",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×29",
+   "@1440 height Δ -629",
+   "@1440 geometry ×15 (first: definition (+714))",
+   "@1440 style ×98"
+  ],
+  "warns": [
+   "@1440 extra text ×10",
+   "@1440 images ×31",
+   "@1440 bands >5% ×6",
+   "@1440 merged text ×83"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-silicon-die",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×29",
+   "@1440 height Δ -77",
+   "@1440 geometry ×12 (first: frequently asked questions about silicon (+26))",
+   "@1440 style ×19"
+  ],
+  "warns": [
+   "@1440 extra text ×11",
+   "@1440 images ×31",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×79"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-ucie",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×23",
+   "@1440 height Δ -166",
+   "@1440 geometry ×3 (first: ucie and synopsys (+10))",
+   "@1440 style ×17"
+  ],
+  "warns": [
+   "@1440 extra text ×5",
+   "@1440 images ×37",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×111"
+  ],
+  "note": null
+ },
+ {
+  "path": "/glossary/what-is-fault-detection",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×31",
+   "@1440 height Δ -18",
+   "@1440 geometry ×2 (first: artificial intelligence in fault detecti (+25))",
+   "@1440 style ×12"
+  ],
+  "warns": [
+   "@1440 extra text ×12",
+   "@1440 images ×31",
+   "@1440 bands >5% ×1",
+   "@1440 merged text ×76"
+  ],
+  "note": null
+ },
+ {
+  "path": "/events",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×24",
+   "@1440 height Δ -3863",
+   "@1440 geometry ×1 (first: snug conference (+288))",
+   "@1440 style ×6"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 images ×9",
+   "@1440 bands >5% ×3",
+   "@1440 merged text ×3"
+  ],
+  "note": null
+ },
+ {
+  "path": "/newsroom",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×53",
+   "@1440 height Δ -2987",
+   "@1440 geometry ×7 (first: explore all events (-152))",
+   "@1440 style ×25"
+  ],
+  "warns": [
+   "@1440 extra text ×23",
+   "@1440 images ×40",
+   "@1440 bands >5% ×9",
+   "@1440 live-only hosts ×2",
+   "@1440 merged text ×84"
+  ],
+  "note": null
+ },
+ {
+  "path": "/authors",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×3",
+   "@1440 height Δ 648",
+   "@1440 geometry ×8 (first: eldo n baby (+3618))",
+   "@1440 style ×3"
+  ],
+  "warns": [
+   "@1440 extra text ×1",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×1"
+  ],
+  "note": null
+ },
+ {
+  "path": "/articles",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×11",
+   "@1440 height Δ 1917",
+   "@1440 style ×48"
+  ],
+  "warns": [
+   "@1440 extra text ×59",
+   "@1440 images ×28",
+   "@1440 bands >5% ×2",
+   "@1440 merged text ×64"
+  ],
+  "note": null
+ },
+ {
+  "path": "/success-stories/view-all",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×2",
+   "@1440 height Δ -642",
+   "@1440 geometry ×53 (first: discover how ferrari solves powertrain e (+102))",
+   "@1440 style ×113"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×51",
+   "@1440 bands >5% ×7",
+   "@1440 merged text ×25"
+  ],
+  "note": null
+ },
+ {
+  "path": "/index",
+  "status": "fail",
+  "errs": [
+   "@1440 missing text ×19",
+   "@1440 broken images ×2",
+   "@1440 geometry ×1 (first: synopsys.ai (+279))",
+   "@1440 style ×13"
+  ],
+  "warns": [
+   "@1440 extra text ×2",
+   "@1440 images ×29",
+   "@1440 bands >5% ×4",
+   "@1440 merged text ×32"
+  ],
+  "note": null
+ }
+]
