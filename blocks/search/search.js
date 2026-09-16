@@ -53,6 +53,14 @@ function resultItem(row) {
 }
 
 export default async function decorate(block) {
+  if (block.classList.contains('compact')) {
+    // rail search box (source: DesignWare rail card's Coveo box, 34px input, margins 20px 0 10px): a plain form posting to /search
+    const placeholder = block.textContent.trim() || 'Search';
+    const form = document.createElement('form'); form.className = 'search-compact'; form.action = '/search'; form.method = 'get';
+    const input = document.createElement('input'); input.type = 'search'; input.name = 'q'; input.placeholder = placeholder; input.setAttribute('aria-label', placeholder);
+    const btn = document.createElement('button'); btn.type = 'submit'; btn.setAttribute('aria-label', 'Search'); btn.textContent = '›';
+    form.append(input, btn); block.replaceChildren(form); return;
+  }
   const authored = [...block.querySelectorAll('h1, h2')];
   const band = el('div', 'search-band');
   const inner = el('div', 'search-band-inner');

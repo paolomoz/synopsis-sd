@@ -148,3 +148,8 @@
     gap: 24px;
   }
 }
+
+/* compact rail search box (source .component-railCard form.responsive: 34px, margin 20px 0 10px) */
+.search.compact .search-compact { display: flex; height: 34px; margin: 20px 0 10px; border: 1px solid #ccc; border-radius: 4px; background: #fff; }
+.search.compact .search-compact input { flex: 1; min-width: 0; padding: 0 10px; border: 0; background: none; font: inherit; font-size: 14px; outline: none; }
+.search.compact .search-compact button { width: 34px; border: 0; background: var(--purple); color: #fff; font-size: 18px; cursor: pointer; }

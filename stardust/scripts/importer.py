@@ -645,7 +645,12 @@ def handle_column(col, page):
                 if cta is not None:
                     flag = sub.select_one('.component-railCard .flag .text, .component-railCard .flag')  # DesignWare rail card: purple "Search Tools" flag above the CTAs
                     fh = f'<p><strong>{esc(clean_text(flag.get_text()))}</strong></p>' if flag is not None and clean_text(flag.get_text()) else ''
-                    page.add_default(fh + ''.join(cta_html(a, 'secondary' if 'btn-secondary' in ' '.join(a.get('class') or []) else 'primary') for a in cta.select('a[href]')), 'rail-right'); continue
+                    if fh: page.add_default(fh, 'rail-right')
+                    sform = sub.select_one('.component-railCard form')
+                    if sform is not None:  # the rail card's search box (34px) is part of the layout on the source → compact search block posting to /search
+                        ph = (sform.select_one('input[placeholder]') or {}).get('placeholder') if sform.select_one('input[placeholder]') else 'Search'
+                        page.add_block(block_table('search compact', [[esc(ph or 'Search')]]), 'rail-right'); COVERAGE['search compact'] += 1
+                    page.add_default(''.join(cta_html(a, 'secondary' if 'btn-secondary' in ' '.join(a.get('class') or []) else 'primary') for a in cta.select('a[href]')), 'rail-right'); continue
                 if st == 'downloads' or sub.select_one('.component-downloads'):
                     page.add_default(''.join(f'<p><a href="{esc(localize(a.get("href")))}">{esc(clean_text(a.get_text()))}</a></p>' for a in sub.select('a[href]') if clean_text(a.get_text())), 'rail-right'); continue
                 before2 = len(page.sections); convert_column(sub, page)
