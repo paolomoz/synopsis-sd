@@ -1028,7 +1028,7 @@ def convert_column(col, page, inherited_style=''):
         th = rich(text_col, allow_headings=True) if text_col is not None else rich(col, allow_headings=True)
         cells = [ih, th] if img_first else [th, ih]
         half = text_col is not None and 'col-sm-6' in ' '.join(text_col.get('class') or [])
-        page.add_block(block_table('columns media' + (' half' if half else '') + ('' if img_first else ' image-right'), [cells]), bg_of(col)); COVERAGE['columns media'] += 1; return
+        page.add_block(block_table('columns media promo' + (' half' if half else '') + ('' if img_first else ' image-right'), [cells]), bg_of(col)); COVERAGE['columns media promo'] += 1; return  # imageTextCta promo row: padded variant on article pages
     if t == 'contentTile':
         a = col.find('a'); img = col.select_one('img'); date = col.select_one('.content-tile-date-desktop'); typ = col.select_one('.content-tile-type'); title = col.select_one('.content-tile-title')
         cell = ''
