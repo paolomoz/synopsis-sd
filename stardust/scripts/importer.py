@@ -623,6 +623,14 @@ def handle_column(col, page):
     # emit the text first as default content, then let the remainder pick its block pattern
     if len(cols) == 1:
         kids = grid_children(cols[0]) or []
+        # a single column holding one experience fragment (DesignWare "Resources": title text + a cards row, each with its own
+        # padding wrapper): convert the fragment's grid children in order — collapsing it to a cards grid drops the title and the tokens
+        if len(kids) == 1 and col_type(kids[0]) == 'experiencefragment':
+            inner = grid_children(kids[0].select_one('.cmp-experiencefragment') or kids[0]) or []
+            if len(inner) > 1:
+                for k in inner: convert_column(k, page)
+                COVERAGE['fragment-unwrapped'] += 1
+                return True
         lead = []
         for k in kids:
             if col_type(k) in ('text',) and k.select_one('.component-textcomp, .component-text, .component-rte') is not None: lead.append(k)
