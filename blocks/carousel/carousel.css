@@ -300,3 +300,5 @@
 .carousel.blog .carousel-card { width: 340px; margin: 15px; }
 .carousel.blog .carousel-date { text-align: right; }
 .carousel.blog .carousel-card-body p:not(.carousel-date, .carousel-label, .carousel-cta), .carousel.blog .carousel-card-body p a:any-link { color: var(--ink); font-size: 16px; }
+.carousel.blog .carousel-card { height: 575px; } /* source .component-card-b: 340×575, image 195 */
+.carousel.blog .carousel-card-image img { height: 195px; }
