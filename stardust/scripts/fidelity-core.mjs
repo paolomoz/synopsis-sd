@@ -1,5 +1,6 @@
 // fidelity-core — live-vs-deployed FIDELITY parity instrument (deploy-flow gate). Method: stardust/fidelity-gate-method.md
 // Ported from the coca-cola replica (2026-09-16); synopsys.com specifics: live URLs come from stardust/path-map.json, Roboto face, Ask/chat overlays.
+// Noise found on this site: the Ask launcher (#floating-icon) and its confirm overlay drop to static flow below <body> once other overlays are purged and add 171px to the live scrollHeight — purge them too.
 // Exports: capture(browser, url, width, withStates, opts) → inventory+shot; compare(live, dep, width, dir) → findings.
 import { chromium } from 'playwright';
 import { PNG } from 'pngjs';
@@ -51,7 +52,7 @@ const INVENTORY = () => {
   return { texts, images, icons, links, dyn, blockTexts, height: Math.round(document.documentElement.scrollHeight), title: document.title };
 };
 
-const PURGE = () => { document.querySelectorAll('#onetrust-consent-sdk, .onetrust-pc-dark-filter, [id^="QSI"], [class*="QSI"], [role="dialog"], #ask-synopsys, #askSynopsys, [class*="ask-synopsys"], [id*="chat" i], [class*="chatbot" i]').forEach((e) => e.remove()); [...document.body.children].forEach((e) => { if (e.tagName !== 'HEADER' && e.tagName !== 'MAIN' && e.tagName !== 'FOOTER' && e.getBoundingClientRect().height > 0 && getComputedStyle(e).position === 'fixed' && e.getBoundingClientRect().height < innerHeight * 0.6) e.remove(); }); document.documentElement.style.overflow = ''; document.body.style.overflow = ''; document.body.classList.remove('ot-pc-open'); };
+const PURGE = () => { document.querySelectorAll('#onetrust-consent-sdk, .onetrust-pc-dark-filter, [id^="QSI"], [class*="QSI"], [role="dialog"], #ask-synopsys, #askSynopsys, [class*="ask-synopsys"], [id*="chat" i], [class*="chatbot" i], #floating-icon, .confirm-overlay, [class*="border-gradient-ask"]').forEach((e) => e.remove()); [...document.body.children].forEach((e) => { if (e.tagName !== 'HEADER' && e.tagName !== 'MAIN' && e.tagName !== 'FOOTER' && e.getBoundingClientRect().height > 0 && getComputedStyle(e).position === 'fixed' && e.getBoundingClientRect().height < innerHeight * 0.6) e.remove(); }); document.documentElement.style.overflow = ''; document.body.style.overflow = ''; document.body.classList.remove('ot-pc-open'); };
 export async function states(page) {
   await page.evaluate(PURGE);
   const out = {};
@@ -103,6 +104,7 @@ export async function capture(browser, url, width, withStates, { cookies = [] } 
   await page.waitForFunction(() => document.fonts.status === 'loaded' && ![...document.fonts].some((f) => f.status === 'loading'), null, { timeout: 10000 }).catch(() => console.log('  (fonts still loading after 10s)'));
   await sleep(500);
   const inv = await page.evaluate(INVENTORY);
+  if (process.env.FID_DEBUG) { const tail = await page.evaluate(() => [...document.querySelectorAll('body, body > *, body > * > *, body > * > * > *')].map((e) => { const r = e.getBoundingClientRect(); return `${e.tagName.toLowerCase()}#${e.id}.${[...e.classList].slice(0, 2).join('.')} top=${Math.round(r.top + scrollY)} h=${Math.round(r.height)} ${getComputedStyle(e).position} ${getComputedStyle(e).display}`; }).filter((x) => / h=(\d+)/.test(x) && +x.match(/ h=(\d+)/)[1] > 60)); const over = await page.evaluate(() => { const bh = document.body.getBoundingClientRect().bottom + scrollY; return [...document.querySelectorAll('*')].filter((e) => { const r = e.getBoundingClientRect(); return r.height > 0 && r.bottom + scrollY > bh + 5 && getComputedStyle(e).position !== 'fixed'; }).slice(0, 8).map((e) => `${e.tagName.toLowerCase()}#${e.id}.${[...e.classList].slice(0, 2).join('.')} top=${Math.round(e.getBoundingClientRect().top + scrollY)} h=${Math.round(e.getBoundingClientRect().height)} ${getComputedStyle(e).position}`); }); console.log(`[debug] ${url}\n  ${tail.join('\n  ')}\n  beyond body: ${over.join(' | ') || 'none'} ; html scrollHeight ${inv.height}`); }
   const shot = PNG.sync.read(await page.screenshot({ fullPage: true, animations: 'disabled' }));
   const st = withStates ? await states(page) : null;
   await ctx.close();
