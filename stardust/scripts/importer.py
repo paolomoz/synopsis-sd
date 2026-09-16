@@ -590,7 +590,7 @@ def handle_dw_products(col, page):
         rows_d.append(f'<ul>{items}</ul>')
     if not rows_p: return False
     tabs = [['<p><strong>Products</strong></p>', '<ul>' + ''.join(rows_p) + '</ul>'], ['<p><strong>Downloads &amp; Documentation</strong></p>', ''.join(rows_d) or '<p>No downloads listed.</p>']]
-    page.add_block(block_table('tabs horizontal products', tabs), 'pt-xs pb-md'); COVERAGE['dw-products'] += 1
+    page.add_block(block_table('tabs horizontal products', tabs), 'pt-xs, pb-md'); COVERAGE['dw-products'] += 1  # section styles are comma-separated tokens
     return True
 
 def handle_column(col, page):
