@@ -87,5 +87,5 @@ export function cardMarkup(row, opts = {}) {
   const label = (row.category || '').split(' / ')[0];
   const tags = splitList(row.tags);
   const img = row.image && !row.image.includes('synopsys-purple-bkgd-logo-social') ? `<picture><img src="${row.image}" alt="" loading="lazy"></picture>` : '';
-  return `${img ? `<div>${img}</div>` : ''}<div>${label && opts.label !== false ? `<p><strong>${label}</strong></p>` : ''}${meta ? `<p>${meta}</p>` : ''}<h3><a href="${row.path}">${row.title.replace(/\s*\|\s*Synopsys.*$/, '')}</a></h3>${row.author ? `<p>By ${row.author}</p>` : ''}${tags.length ? `<p>Tags: ${tags.map((t) => { const href = categoryPath(familyOf(row.path) || 'articles', t); return href ? `<a href="${href}">${t}</a>` : t; }).join(', ')}</p>` : ''}<p><a href="${row.path}">Read Article</a></p></div>`;
+  return `${img ? `<div>${img}</div>` : ''}<div>${label && opts.label !== false ? `<p><strong>${label}</strong></p>` : ''}${meta ? `<p><em>${meta}</em></p>` : ''}<h3><a href="${row.path}">${row.title.replace(/\s*\|\s*Synopsys.*$/, '')}</a></h3>${row.author ? `<p>By ${row.author}</p>` : ''}${tags.length ? `<p>Tags: ${tags.map((t) => { const href = categoryPath(familyOf(row.path) || 'articles', t); return href ? `<a href="${href}">${t}</a>` : t; }).join(', ')}</p>` : ''}<p><a href="${row.path}">Read Article</a></p></div>`;
 }

@@ -302,3 +302,12 @@
 .carousel.blog .carousel-card-body p:not(.carousel-date, .carousel-label, .carousel-cta), .carousel.blog .carousel-card-body p a:any-link { color: var(--ink); font-size: 16px; }
 .carousel.blog .carousel-card { height: 575px; } /* source .component-card-b: 340×575, image 195 */
 .carousel.blog .carousel-card-image img { height: 195px; }
+
+/* blog card internals (source .component-card-b .card-text): label/date row 30px + 10, title 20/22 + 20, byline row 36px + 32, tags 14px/500 grey */
+.carousel.blog .carousel-label { display: flex; justify-content: space-between; align-items: flex-start; min-height: 30px; margin: 0 0 10px; }
+.carousel.blog .carousel-label .carousel-date { margin: 0 0 0 auto; padding-top: 2px; color: #555; font-size: 14px; font-weight: 300; line-height: 20px; text-align: right; }
+.carousel.blog .carousel-label .carousel-date em { font-style: normal; }
+.carousel.blog .carousel-card-body h3 { margin: 0 0 20px; font-size: 20px; line-height: 22px; }
+.carousel.blog .carousel-card-body p { min-height: 36px; margin: 0 0 32px; color: var(--ink); font-size: 16px; font-weight: 300; line-height: 17px; display: flex; align-items: center; }
+.carousel.blog .carousel-card-body p:last-child { display: block; min-height: 0; margin: 0; color: #555; font-size: 14px; font-weight: 500; line-height: 22.4px; }
+.carousel.blog .carousel-card-body p:last-child a:any-link { color: #555; font-weight: 300; font-size: 14px; }
