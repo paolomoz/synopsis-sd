@@ -2,7 +2,7 @@
  "munchkinId": "367-MRV-360",
  "baseUrl": "//online.synopsys.com",
  "endpoint": "",
- "note": "endpoint empty \u2192 the form block keeps its confirmation-only behaviour; set to a Marketo/proxy URL to POST field payloads",
+ "note": "endpoint empty → the form block keeps its confirmation-only behaviour; set to a Marketo/proxy URL to POST field payloads",
  "forms": {
   "/academic-research/contactus/educators": [
    "7209",
@@ -5168,5 +5168,947 @@
    "6087",
    "7792"
   ]
- }
+ },
+ "fields": {
+  "1205": {
+   "button": "submit",
+   "height": 1002,
+   "rows": [
+    {
+     "kind": "html",
+     "text": "* Required Fields"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone Number",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "field",
+     "label": "How can we help?",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "kind": "checkbox",
+     "label": "Which application area do you currently work in?",
+     "required": true
+    }
+   ]
+  },
+  "2842": {
+   "button": "submit",
+   "height": 933,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 199
+    },
+    {
+     "kind": "checkbox",
+     "label": "",
+     "required": true
+    },
+    {
+     "kind": "checkbox",
+     "label": "",
+     "required": true
+    }
+   ]
+  },
+  "3575": {
+   "button": "submit",
+   "height": 710,
+   "rows": [
+    {
+     "kind": "html",
+     "text": "// <![CDATA[ (function (){ // Please include the email domains you would like to"
+    },
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 199
+    },
+    {
+     "kind": "field",
+     "label": "Tell us about your service project",
+     "type": "textarea",
+     "required": true
+    }
+   ]
+  },
+  "5094": {
+   "button": "submit",
+   "height": 702,
+   "rows": [
+    {
+     "kind": "html",
+     "text": "// <![CDATA[ (function (){ // Please include the email domains you would like to"
+    },
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 199
+    }
+   ]
+  },
+  "5231": {
+   "button": "submit",
+   "height": 609,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 199
+    }
+   ]
+  },
+  "6087": {
+   "button": "submit",
+   "height": 533,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "6090": {
+   "button": "Submit",
+   "height": 457,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "7134": {
+   "button": "submit",
+   "height": 902,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 199
+    },
+    {
+     "kind": "field",
+     "label": "Reason for Contacting Synopsys",
+     "type": "select",
+     "required": true,
+     "options": 7
+    },
+    {
+     "kind": "checkbox",
+     "label": "",
+     "required": true
+    }
+   ]
+  },
+  "7209": {
+   "button": "Submit",
+   "height": 615,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "field",
+     "label": "City",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Additional Information",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "7270": {
+   "button": "Submit",
+   "height": 854,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Address",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "City",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "checkbox",
+     "label": "",
+     "required": true
+    }
+   ]
+  },
+  "7687": {
+   "button": "Submit",
+   "height": 689,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "field",
+     "label": "City",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Product Interest",
+     "type": "select",
+     "required": true,
+     "options": 8
+    },
+    {
+     "kind": "field",
+     "label": "Additional Information",
+     "type": "textarea",
+     "required": true
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "7699": {
+   "button": "Submit",
+   "height": 757,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email Address",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 244
+    },
+    {
+     "kind": "checkbox",
+     "label": "",
+     "required": true
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "8206": {
+   "button": "submit",
+   "height": 1338,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Business Mobile Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 36
+    },
+    {
+     "kind": "field",
+     "label": "Job Role",
+     "type": "select",
+     "required": true,
+     "options": 11
+    },
+    {
+     "kind": "field",
+     "label": "SNUG Role",
+     "type": "select",
+     "required": true,
+     "options": 11
+    },
+    {
+     "kind": "field",
+     "label": "Market Verticals",
+     "type": "select",
+     "required": true,
+     "options": 5
+    },
+    {
+     "kind": "checkbox",
+     "label": "Technical Tracks",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "How many SNUG conferences have you previously attended?",
+     "type": "select",
+     "required": true,
+     "options": 6
+    },
+    {
+     "kind": "checkbox",
+     "label": "",
+     "required": true
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "8429": {
+   "button": "submit",
+   "height": 874,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "First Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Last Name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Phone",
+     "type": "tel",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Job Title",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Company",
+     "type": "text",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "field",
+     "label": "State",
+     "type": "select",
+     "required": true,
+     "options": 52
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  },
+  "8479": {
+   "button": "Subscribe",
+   "height": 514,
+   "rows": [
+    {
+     "kind": "required"
+    },
+    {
+     "kind": "field",
+     "label": "Business Email",
+     "type": "email",
+     "required": true
+    },
+    {
+     "kind": "field",
+     "label": "Country/Region",
+     "type": "select",
+     "required": true,
+     "options": 243
+    },
+    {
+     "kind": "notice"
+    }
+   ]
+  }
+ },
+ "fieldsNote": "rendered field set per Marketo form id, captured from www.synopsys.com on 2026-09-16 (labels, types, required flags, select option counts); the form block renders these when the page maps to a known id"
 }

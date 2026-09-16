@@ -341,6 +341,10 @@
   background: linear-gradient(to right, #8770a6, #606397, #446d92); /* .purple-blue-gradient: technical-bulletin articles */
 }
 
+.hero.blog.blue {
+  background: linear-gradient(to right, #416d91, #7eaad3); /* source .blog-banner.blue-blue-gradient */
+}
+
 .hero.blog .hero-slide {
   min-height: 344px;
 }

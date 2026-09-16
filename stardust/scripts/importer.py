@@ -324,6 +324,12 @@ def handle_banner(col, page):
     return True
 
 def banner_family(soup):
+    # source .blog-banner carries the gradient class: purple-purple (699 pages), blue-blue (309), purple-blue (268, technical articles)
+    bb = soup.select_one('.blog-banner')
+    cls = ' '.join(bb.get('class') or []) if bb is not None else ''
+    if 'blue-blue-gradient' in cls: return ' blue'
+    if 'purple-blue-gradient' in cls: return ' slate'
+    if 'purple-purple-gradient' in cls: return ''
     tmpl = (soup.body.get('data-template') if soup.body else '') or ''
     return ' slate' if 'technical-bulletin' in tmpl or 'article' in tmpl and 'chip-design' not in tmpl else ''
 

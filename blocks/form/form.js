@@ -28,11 +28,21 @@ async function postToBackend(form, block) {
   } catch (err) { return false; }
 }
 
+const NOTICE = 'By providing your information, you agree to the processing of your personal data for the purposes of providing the activity and for related communications, including cross-border transfers (i.e., Synopsys is a global company) and inter-company and third-party sharing (including our subsidiaries), as detailed in the <a href="/company/legal/privacy-policy">Privacy Notice</a>.';
 const REQUIRED = new Set(['business email', 'email', 'first name', 'last name', 'company', 'country/region', 'state']);
 export default async function decorate(block) {
   const rows = [...block.children].map((r) => r.textContent.trim()).filter(Boolean);
   const title = rows.shift() || 'Register';
-  const submit = rows.length ? rows.pop() : 'Submit';
+  let submit = rows.length ? rows.pop() : 'Submit';
+  // the source renders the Marketo form's real field set at runtime; when the page maps to a known form id, render that
+  // set (captured per id in the config) instead of the authored labels — same fields, same order, same height
+  let spec = null;
+  try {
+    const cfg = await loadConfig(); const ids = cfg.forms?.[window.location.pathname] || [];
+    const nth = [...document.querySelectorAll('.form.block')].indexOf(block);
+    spec = cfg.fields?.[ids[nth] || ids[0]] || null;
+    if (spec) { submit = spec.button || submit; block.dataset.formId = ids[nth] || ids[0]; }
+  } catch (e) { spec = null; }
   // panel = title (an h2 on the source, outside the Marketo form) + the form itself
   const panel = document.createElement('div');
   panel.className = 'form-panel';
@@ -43,21 +53,28 @@ export default async function decorate(block) {
   const form = document.createElement('form');
   form.className = 'form-fields';
   form.noValidate = true;
-  const req = document.createElement('p');
-  req.className = 'form-required';
-  req.innerHTML = 'Required Fields <span>*</span>';
-  form.append(req);
-  rows.forEach((label, i) => {
+  const addRequired = () => { const req = document.createElement('p'); req.className = 'form-required'; req.innerHTML = 'Required Fields <span>*</span>'; form.append(req); };
+  const addNotice = () => { const note = document.createElement('p'); note.className = 'form-note'; note.innerHTML = NOTICE; form.append(note); };
+  if (!spec) addRequired();
+  const fieldRows = spec ? spec.rows : rows.map((label) => ({ kind: 'field', label }));
+  fieldRows.forEach((row, i) => {
+    if (row.kind === 'required') { addRequired(); return; }
+    if (row.kind === 'notice') { addNotice(); return; }
+    if (row.kind === 'html') { const p = document.createElement('p'); p.className = 'form-html'; p.textContent = row.text; form.append(p); return; }
+    if (row.kind === 'checkbox') { const wrap = document.createElement('div'); wrap.className = 'form-field form-checkbox'; const cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = `f-${i}-consent`; cb.name = cb.id; cb.required = !!row.required; const lab = document.createElement('label'); lab.htmlFor = cb.id; lab.textContent = row.label || 'I agree'; wrap.append(cb, lab); form.append(wrap); return; }
+    const label = row.label;
     const wrap = document.createElement('div');
     wrap.className = 'form-field';
     const id = `f-${i}-${label.toLowerCase().replace(/[^a-z]+/g, '-')}`;
     const lab = document.createElement('label');
     lab.htmlFor = id;
     lab.textContent = `${label}:`;
-    const isReq = REQUIRED.has(label.toLowerCase());
+    const isReq = spec ? !!row.required : REQUIRED.has(label.toLowerCase());
     if (isReq) { const s = document.createElement('span'); s.className = 'form-req'; s.textContent = ' *'; lab.append(s); }
     let input;
-    if (/country|state|region|industry|job level/i.test(label)) {
+    if (row.type === 'textarea') {
+      input = document.createElement('textarea'); input.rows = 2;
+    } else if (row.type === 'select' || (!spec && /country|state|region|industry|job level/i.test(label))) {
       input = document.createElement('select');
       const o = document.createElement('option'); o.textContent = /country/i.test(label) ? 'United States' : 'Select...'; input.append(o);
     } else {
@@ -68,10 +85,7 @@ export default async function decorate(block) {
     wrap.append(lab, input);
     form.append(wrap);
   });
-  const note = document.createElement('p');
-  note.className = 'form-note';
-  note.innerHTML = 'By providing your information, you agree to the processing of your personal data for the purposes of providing the activity and for related communications, including cross-border transfers (i.e., Synopsys is a global company) and inter-company and third-party sharing (including our subsidiaries), as detailed in the <a href="/company/legal/privacy-policy">Privacy Notice</a>.';
-  form.append(note);
+  if (!spec) addNotice();
   const btn = document.createElement('button');
   btn.type = 'submit'; btn.className = 'form-submit'; btn.textContent = submit;
   form.append(btn);
