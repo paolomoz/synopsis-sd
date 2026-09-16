@@ -295,3 +295,8 @@
     width: 17px;
   }
 }
+
+/* blog cards (source .component-card-b in a 370px column): 340px card with 15px side margins, right-aligned date, 16px ink byline */
+.carousel.blog .carousel-card { width: 340px; margin: 15px; }
+.carousel.blog .carousel-date { text-align: right; }
+.carousel.blog .carousel-card-body p:not(.carousel-date, .carousel-label, .carousel-cta), .carousel.blog .carousel-card-body p a:any-link { color: var(--ink); font-size: 16px; }

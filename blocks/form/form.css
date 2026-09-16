@@ -95,3 +95,7 @@ main .section:is(.purple, .dark) .form .form-title {
 .form[data-form-id="8479"] .form-fields label { color: #444; }
 .form .form-field textarea { width: 100%; min-height: 48px; font: inherit; }
 .form .form-checkbox { display: flex; align-items: center; gap: 8px; }
+
+/* blog subscribe form (8479): dark submit, 13px consent notice with #333 links */
+.form[data-form-id="8479"] .form-submit { background: #111c24; border-color: #111c24; }
+.form[data-form-id="8479"] .form-note, .form[data-form-id="8479"] .form-note a { font-size: 13px; color: #333; }

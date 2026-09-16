@@ -1366,3 +1366,12 @@ body:is(.article, .glossary) main > .section:not(.img-pad-sm, .img-pad-md, .img-
 body.author main > .section.breadcrumbs-container { padding-top: 15px; }
 body.author main > .section.main:not(.cards-container),
 body.author main > .section.rail-right.author-container { padding-top: 60px; }
+
+/* centred section titles stay centred on article/glossary pages (source "Continue Reading" is centred) */
+body:is(.article, .glossary) main > .section.centered .default-content-wrapper :is(h2, h3) { text-align: center; }
+
+/* gated forms (source): 14px required line and consent notice, #333 links, 400 submit */
+body.form main > .section.form-container:is(.purple, .dark) .form .form-required,
+body.form main > .section.form-container:is(.purple, .dark) .form .form-note { font-size: 14px; }
+body.form main > .section.form-container:is(.purple, .dark) .form .form-note a { color: #333; font-size: 14px; }
+body.form main > .section.form-container:is(.purple, .dark) .form .form-submit { font-weight: 400; }
