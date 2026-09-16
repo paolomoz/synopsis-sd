@@ -16734,5 +16734,21 @@
 "/verification/resources/whitepapers/timing-constraints-manager": {
 "live": "https://www.synopsys.com/verification/resources/whitepapers/timing-constraints-manager.html",
 "template": "form"
+},
+"/blogs/chip-design/agentic-ai-chip-design-series": {
+"live": "https://www.synopsys.com/blogs/chip-design/agentic-ai-chip-design-series.html",
+"template": "article"
+},
+"/blogs/chip-design/arm-total-design-physical-ai": {
+"live": "https://www.synopsys.com/blogs/chip-design/arm-total-design-physical-ai.html",
+"template": "article"
+},
+"/blogs/chip-design/agentic-ai-chip-design-capacity": {
+"live": "https://www.synopsys.com/blogs/chip-design/agentic-ai-chip-design-capacity.html",
+"template": "article"
+},
+"/blogs/chip-design/dynamic-power-management-demands-adaptive-clocks": {
+"live": "https://www.synopsys.com/blogs/chip-design/dynamic-power-management-demands-adaptive-clocks.html",
+"template": "article"
 }
 }

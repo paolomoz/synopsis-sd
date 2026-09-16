@@ -4185,3 +4185,7 @@ https://www.synopsys.com/verification/resources/whitepapers.html
 https://www.synopsys.com/verification/resources/videos.html
 https://www.synopsys.com/company/contact-synopsys/office-locations/india/educational-program/student-design-contest.html
 https://www.synopsys.com/verification/resources/whitepapers/timing-constraints-manager.html
+https://www.synopsys.com/blogs/chip-design/dynamic-power-management-demands-adaptive-clocks.html
+https://www.synopsys.com/blogs/chip-design/agentic-ai-chip-design-series.html
+https://www.synopsys.com/blogs/chip-design/arm-total-design-physical-ai.html
+https://www.synopsys.com/blogs/chip-design/agentic-ai-chip-design-capacity.html
