@@ -26,7 +26,7 @@ const INVENTORY = () => {
     return `?${fams[0]}`;
   };
   const fixedOverlay = (el) => { for (let e = el; e && e !== document.body; e = e.parentElement) { if (e.tagName === 'HEADER' || e.closest('header')) return false; if (getComputedStyle(e).position === 'fixed') return true; } return false; };
-  const skip = (el) => el.closest('script,style,noscript,svg,#onetrust-consent-sdk,.onetrust-pc-dark-filter,[id^="QSI"],[class*="QSI"],[role="dialog"],#ask-synopsys,[class*="ask-synopsys"],[id*="chat" i],[class*="chatbot" i],template,.is-clone,.splide__slide--clone,.swiper-slide-duplicate');
+  const skip = (el) => el.closest('script,style,noscript,svg,#onetrust-consent-sdk,.onetrust-pc-dark-filter,[id^="QSI"],[class*="QSI"],[role="dialog"],#ask-synopsys,#askSynopsys,[class*="ask-synopsys"],[id*="chat" i],[class*="chatbot" i],template,.is-clone,.splide__slide--clone,.swiper-slide-duplicate');
   const texts = [];
   for (const el of document.body.querySelectorAll('*')) {
     if (skip(el)) continue;
@@ -34,7 +34,7 @@ const INVENTORY = () => {
     if (own.length < 2 || !vis(el) || fixedOverlay(el)) continue;
     const cs = getComputedStyle(el);
     const ctl = el.closest('a, button'); // any text inside a control reports the control's box (live span vs deployed p inside the same button)
-    texts.push({ key: own, tag: el.tagName.toLowerCase(), box: box(ctl || el), region: el.closest('header, .sticky-nav, .experiencefragment.sticky-nav, .utility-nav, .nav-top-wrapper, [class*="navigation"], .header-wrapper') ? 'header' : el.closest('footer, .siteFooter, .footer-wrapper, [class*="footer" i]') ? 'footer' : 'main',
+    texts.push({ key: own, tag: el.tagName.toLowerCase(), box: box(ctl || el), region: el.closest('header, .sticky-nav, .experiencefragment.sticky-nav, .utility-nav, .nav-top-wrapper, [class*="navigation"], .header-wrapper, #utility-nav-bar, .pre-header, #topNav, .component-nav-top, .cmp-experiencefragment--topnav, .topNav') ? 'header' : el.closest('footer, .siteFooter, .footer-wrapper, [class*="footer" i]') ? 'footer' : 'main',
       face: fam(cs), faceLoaded: !fam(cs).startsWith('?'), bg: /^(a|button)$/.test(el.tagName.toLowerCase()) ? cs.backgroundColor : null, size: cs.fontSize, weight: cs.fontWeight, lh: cs.lineHeight, color: cs.color, align: cs.textAlign, transform: cs.textTransform });
   }
   const images = [...document.images].filter((i) => !skip(i) && i.getBoundingClientRect().width > 0).map((i) => {
@@ -44,13 +44,13 @@ const INVENTORY = () => {
   });
   const icons = [...document.querySelectorAll('[class*="icon"]')].filter((el) => !skip(el) && vis(el)).map((el) => { const b = getComputedStyle(el, '::before'); if (!b.content || b.content === 'none' || b.content === 'normal') return null; const f = fam(b); return { cls: el.className.toString().slice(0, 40), face: f, loaded: !f.startsWith('?'), w: Math.round(el.getBoundingClientRect().width) }; }).filter(Boolean);
   const links = [...document.querySelectorAll('a[href^="http"]')].filter((a) => !skip(a) && !/synopsys\.com|aem\.page|aem\.live/.test(a.host)).map((a) => ({ href: a.href.replace(/\/$/, ''), target: a.target || '', text: norm(a.textContent).slice(0, 40) }));
-  const shown = (e) => { const r = e.getBoundingClientRect(); return r.width > 2 && r.height > 2 && !e.closest('header, .sticky-nav, .experiencefragment.sticky-nav, .utility-nav, [class*="navigation"]'); }; // the source hides a promo <video> and tracking iframes in the mega-menu / body root
+  const shown = (e) => { const r = e.getBoundingClientRect(); return r.width > 2 && r.height > 2 && !e.closest('header, .sticky-nav, .experiencefragment.sticky-nav, .utility-nav, [class*="navigation"], #topNav, .cmp-experiencefragment--topnav'); }; // the source hides a promo <video> and tracking iframes in the mega-menu / body root
   const dyn = { video: [...document.querySelectorAll('video')].filter(shown).length, iframe: [...document.querySelectorAll('iframe:not([src*="onetrust"])')].filter(shown).length, sprinklr: [...document.querySelectorAll('.swe_embed, .cmp-embed__sprinklr-gallery')].map((e) => ({ kids: e.querySelectorAll('*').length, h: Math.round(e.getBoundingClientRect().height) })), onetrust: !!document.querySelector('#onetrust-consent-sdk, script[src*="otSDKStub"]') };
   const blockTexts = [...document.body.querySelectorAll('p, li, h1, h2, h3, h4, h5, h6, td, div, span, label, a')].filter((el) => !skip(el) && vis(el)).map((el) => norm(el.textContent)).filter((t) => t.length > 2);
   return { texts, images, icons, links, dyn, blockTexts, height: Math.round(document.documentElement.scrollHeight), title: document.title };
 };
 
-const PURGE = () => { document.querySelectorAll('#onetrust-consent-sdk, .onetrust-pc-dark-filter, [id^="QSI"], [class*="QSI"], [role="dialog"], #ask-synopsys, [class*="ask-synopsys"], [id*="chat" i], [class*="chatbot" i]').forEach((e) => e.remove()); [...document.body.children].forEach((e) => { if (e.tagName !== 'HEADER' && e.tagName !== 'MAIN' && e.tagName !== 'FOOTER' && e.getBoundingClientRect().height > 0 && getComputedStyle(e).position === 'fixed' && e.getBoundingClientRect().height < innerHeight * 0.6) e.remove(); }); document.documentElement.style.overflow = ''; document.body.style.overflow = ''; document.body.classList.remove('ot-pc-open'); };
+const PURGE = () => { document.querySelectorAll('#onetrust-consent-sdk, .onetrust-pc-dark-filter, [id^="QSI"], [class*="QSI"], [role="dialog"], #ask-synopsys, #askSynopsys, [class*="ask-synopsys"], [id*="chat" i], [class*="chatbot" i]').forEach((e) => e.remove()); [...document.body.children].forEach((e) => { if (e.tagName !== 'HEADER' && e.tagName !== 'MAIN' && e.tagName !== 'FOOTER' && e.getBoundingClientRect().height > 0 && getComputedStyle(e).position === 'fixed' && e.getBoundingClientRect().height < innerHeight * 0.6) e.remove(); }); document.documentElement.style.overflow = ''; document.body.style.overflow = ''; document.body.classList.remove('ot-pc-open'); };
 export async function states(page) {
   await page.evaluate(PURGE);
   const out = {};
