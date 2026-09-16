@@ -12,14 +12,17 @@
  * lives inside a <button> (EW7).
  */
 async function relatedRows() {
-  // source "Continue Reading" is a tag-driven feed: rebuild the rows from the index when the page carries tags
+  // source "Continue Reading": rebuild the rows from the index (most recent posts) when the page is a tagged blog post
   // EDS renders the Tags metadata as one <meta property="article:tag"> per tag
   const tags = [...document.querySelectorAll('meta[property="article:tag"]')].map((m) => m.content.trim()).filter(Boolean);
   if (!tags.length) tags.push(...(document.querySelector('meta[name="tags"]')?.content || '').split(/,\s*/).filter(Boolean));
   if (!tags.length) return null;
   try {
-    const { getIndex, related, cardMarkup } = await import('../../scripts/index.js');
-    const rows = related(await getIndex(), tags, window.location.pathname, 6);
+    const { getIndex, byDateDesc, cardMarkup } = await import('../../scripts/index.js');
+    // source rule (dynamicCards, data-dynamic-card-limit=3): the N most recent blog posts site-wide, current page excluded — not tag-related
+    const limit = Number(document.currentScript?.dataset?.limit) || document.querySelectorAll('.carousel.blog > div').length || 3;
+    const self = window.location.pathname.replace(/\/$/, '');
+    const rows = (await getIndex()).filter((r) => r.path !== self && /^\/blogs\//.test(r.path) && !/\/category-/.test(r.path)).sort(byDateDesc).slice(0, limit);
     if (rows.length < 3) return null;
     return rows.map((r) => { const div = document.createElement('div'); div.innerHTML = cardMarkup(r); return div; });
   } catch (e) { return null; }
