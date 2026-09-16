@@ -259,6 +259,8 @@ def bg_of(col):
         toks += inner
         if anc is not None:
             grid_cols = [c for c in anc.find_all(class_=re.compile(r'\baem-GridColumn\b')) if c.find_parent(class_='background-component') is anc]
+            filled = [c for c in grid_cols if clean_text(c.get_text()) or c.find('img') is not None or c.select_one('.cmp-video, form')]  # empty trailing columns (spacers, hidden wrappers) do not take the group's padding
+            grid_cols = filled or grid_cols
             if grid_cols:
                 inside = lambda g: g is col or g in col.parents  # the emitting column may sit inside the group's first/last grid column (experience fragment wrappers)
                 grp = _pad_tokens(' '.join(anc.get('class') or []), top=inside(grid_cols[0]), bottom=inside(grid_cols[-1]))
