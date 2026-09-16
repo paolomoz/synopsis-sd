@@ -14,7 +14,7 @@ report (stardust/import-coverage.json) so the block library can grow by frequenc
 
 Usage: python3 stardust/scripts/importer.py <raw.html> [<raw.html> …] [--out content] [--type T]
 """
-import sys, os, re, json, html, collections
+import json, sys, os, re, json, html, collections
 from urllib.parse import urljoin
 PAGE_URL = LIVE_URL = 'https://www.synopsys.com/'
 from bs4 import BeautifulSoup, NavigableString, Tag, Comment, Doctype, CData, ProcessingInstruction
@@ -555,6 +555,42 @@ def plain_box_links(root, page, style):
     page.add_block(block_table('box-links plain', rows), style); COVERAGE['box-links plain'] += 1
     return True
 
+_DW_CACHE = None
+def dw_components():
+    global _DW_CACHE
+    if _DW_CACHE is None:
+        try: _DW_CACHE = json.load(open('stardust/dw-components.json'))
+        except Exception: _DW_CACHE = {}
+    return _DW_CACHE
+
+def handle_dw_products(col, page):
+    """Source .dwProductsDownloads: an empty div with data-componentjson=[{component,id}], filled at runtime from
+    POST /dw/api/v1/component. The feed is public and cached in stardust/dw-components.json; emit the same two tabs:
+    Products (description · STARs · Subscribe) and Downloads & Documentation (per-product documentation links)."""
+    holder = col.select_one('[data-componentjson]')
+    if holder is None: return False
+    try: comps = json.loads(holder.get('data-componentjson'))
+    except Exception: return False
+    cache = dw_components(); rows_p = []; rows_d = []
+    for c in comps:
+        r = cache.get(str(c.get('id', '')).strip())
+        if not r: continue
+        desc = esc(clean_text(r.get('description') or r.get('name') or ''))
+        links = ''
+        if r.get('stars'): links += f' <a href="{esc(r["stars"])}">STARs</a>'
+        if r.get('myDesignWare'): links += f' <a href="{esc(r["myDesignWare"])}">Subscribe</a>'
+        rows_p.append(f'<li>{desc}{links}</li>')
+        docs = r.get('documentation') or []
+        if docs:
+            items = ''.join(f'<li><a href="{esc(d.get("url") or d.get("link") or "")}">{esc(clean_text(str(d.get("title") or d.get("name") or d.get("type") or "Document")))}</a></li>' for d in docs if isinstance(d, dict))
+            rows_d.append(f'<p><strong>{desc}</strong></p><ul>{items}</ul>')
+        elif r.get('download'):
+            rows_d.append(f'<p><strong>{desc}</strong></p><ul><li><a href="{esc(r["download"])}">Download</a></li></ul>')
+    if not rows_p: return False
+    tabs = [['<p><strong>Products</strong></p>', '<ul>' + ''.join(rows_p) + '</ul>'], ['<p><strong>Downloads &amp; Documentation</strong></p>', ''.join(rows_d) or '<p>No downloads listed.</p>']]
+    page.add_block(block_table('tabs horizontal products', tabs), 'pt-xs pb-md'); COVERAGE['dw-products'] += 1
+    return True
+
 def handle_column(col, page):
     sec = col.find(class_='component-column')
     if sec is None: return False
@@ -878,6 +914,8 @@ def convert_column(col, page, inherited_style=''):
             tag = 'h1' if not page.h1_used else 'h2'; page.h1_used = page.h1_used or tag == 'h1'
             page.add_default(f'<{tag}>{esc(clean_text(h.get_text(" ")))}</{tag}>'); COVERAGE['pageTitle'] += 1
         return
+    if t == 'dwProductsDownloads' or col.select_one('.dwProductsDownloads') is not None and t in ('dwProductsDownloads', 'column'):
+        if handle_dw_products(col, page): return
     if t == 'tableOfContents': handle_toc(col, page) or handle_generic(col, page, t); return
     if t in ('text', 'richTextEditor'): handle_text(col, page) or handle_generic(col, page, t); return
     if t == 'column': handle_column(col, page); return

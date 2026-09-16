@@ -29,6 +29,20 @@ export default async function decorate(block) {
     head.textContent = t.textContent.trim();
     panel.append(head);
     if (bodyCell) panel.append(...bodyCell.children);
+    // products variant (DesignWare "Product Details"): each list item is "description · STARs link · Subscribe link" → a 3-column table row
+    if (block.classList.contains('products')) {
+      panel.querySelectorAll(':scope > ul').forEach((ul) => {
+        const table = document.createElement('table'); table.className = 'tabs-products-table';
+        [...ul.children].forEach((li) => {
+          const tr = document.createElement('tr'); const links = [...li.querySelectorAll('a')];
+          const desc = document.createElement('td'); desc.textContent = [...li.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(' ').replace(/\s+/g, ' ').trim() || li.textContent.trim();
+          tr.append(desc);
+          links.forEach((a) => { const td = document.createElement('td'); td.append(a); tr.append(td); });
+          table.append(tr);
+        });
+        ul.replaceWith(table);
+      });
+    }
     const select = () => {
       [...nav.children].forEach((n, j) => n.setAttribute('aria-selected', j === i ? 'true' : 'false'));
       [...panels.children].forEach((p, j) => { p.classList.toggle('tabs-panel-off', j !== i); p.setAttribute('aria-hidden', String(j !== i)); });

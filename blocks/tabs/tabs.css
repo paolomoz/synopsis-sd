@@ -158,3 +158,10 @@
 
 /* inactive tab panels stay in the render tree, clipped (readable text, no layout) */
 .tabs .tabs-panel.tabs-panel-off { height: 0; padding: 0; margin: 0; overflow: hidden; box-shadow: none; }
+
+/* products variant (source .dw-products-section table): 14px/300 rows of 39px, 8px cell padding, 1px #ccc rules right and below */
+.tabs.products .tabs-products-table { width: 100%; margin: 0 0 44px; border-collapse: collapse; font-size: 14px; font-weight: 300; line-height: 22.4px; }
+.tabs.products .tabs-products-table td { padding: 8px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; color: var(--ink); vertical-align: top; }
+.tabs.products .tabs-products-table td:first-child { width: 73%; }
+.tabs.products .tabs-products-table td a:any-link { color: var(--link); }
+.tabs.products .tabs-panel > .tabs-panel-head + .tabs-products-table { margin-top: 0; }
