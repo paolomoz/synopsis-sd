@@ -468,6 +468,7 @@ main > .section.cards-container:has(.cards.people) {
 .cards.author > ul > li {
   display: grid;
   grid-template-columns: 193px 1fr;
+  grid-template-areas: "img label" "img body";
   column-gap: 30px;
   align-items: start;
   height: auto;
@@ -572,15 +573,22 @@ main > .section.cards-container:has(.cards.people) {
   .cards.author .cards-card-image { width: auto; }
   .cards.author .cards-card-image img { width: 100%; height: auto; }
   .cards.author .cards-card-body h3 { font-size: 16px; line-height: 16px; padding-bottom: 1px; }
-  .cards.author .cards-card-body > p:first-child { height: 0; margin: 0; overflow: hidden; }
-  .cards.author .cards-card-image .cards-card-label-mobile { display: block; margin: 10px 0 0; line-height: 0; }
-  .cards.author .cards-card-image .cards-card-label-mobile strong { display: inline-block; padding: 4px 8px; border-radius: 3px; background: var(--purple); color: #fff; font-size: 12px; font-weight: 500; line-height: 12px; text-transform: uppercase; }
+  .cards.author > ul > li { grid-template-areas: "img" "label" "body"; }
+  .cards.author .cards-card-label-row { margin: 10px 0 0; }
 }
 
-.cards.author .cards-card-image .cards-card-label-mobile { height: 0; margin: 0; overflow: hidden; }
 
 @media (width <= 729px) {
   .cards.pillars .cards-card-body p,
   .cards.pillars .cards-card-cta { height: auto; overflow: visible; }
-  .cards.author .cards-card-image .cards-card-label-mobile { height: auto; overflow: visible; }
 }
+
+
+/* author row grid areas: one type chip element, beside the copy on desktop and under the image at 360 (no hidden clone) */
+.cards.author .cards-card-image { grid-area: img; }
+.cards.author .cards-card-label-row { grid-area: label; margin: 0 0 16px; line-height: 0; }
+.cards.author .cards-card-label-row strong { display: inline-block; padding: 4px 8px; border-radius: 3px; background: var(--purple); color: #fff; font-size: 12px; font-weight: 500; line-height: 12px; text-transform: uppercase; }
+.cards.author .cards-card-body { grid-area: body; }
+.cards.author .cards-card-body p:last-child { color: var(--ink); font-size: 16px; font-weight: 300; line-height: 22.4px; } /* the byline keeps its size when it is the last line */
+.cards.author .cards-card-body p.cards-card-tags { margin-bottom: 0; color: var(--grey); font-size: 14px; font-weight: 400; line-height: 16px; }
+.cards.author .cards-card-body p a:any-link { color: var(--ink); } /* source byline links are ink */
