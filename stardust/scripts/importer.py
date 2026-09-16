@@ -376,7 +376,12 @@ def handle_toc(col, page):
 
 def handle_text(col, page):
     sec = col.find(class_='component-textcomp') or col.find(class_='component-rte') or col.find(class_='component-rtecomp')
-    if sec is None: return False
+    if sec is None:
+        # an empty text component (no textcomp section at all) still occupies its padding + one line on the source: keep it as a spacer band
+        st = bg_of(col)
+        if PAD_TOKENS and any(t.startswith(('pt-', 'pb-')) for t in st.split(', ')) and not clean_text(''.join(t for t in col.find_all(string=True) if t.parent.name not in ('script', 'style'))):
+            page.add_default('<p>&#8203;</p>', st); COVERAGE['spacer band'] += 1; return True
+        return False
     style = bg_of(col)
     if PAD_TOKENS and 'component-textcomp' not in (sec.get('class') or []):
         style = ', '.join(x for x in (style, 'rte') if x)  # rich-text editor band: copy starts flush (no 24px component-text offset)
