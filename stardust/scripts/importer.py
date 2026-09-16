@@ -387,6 +387,9 @@ def handle_text(col, page):
         style = ', '.join(x for x in (style, 'rte') if x)  # rich-text editor band: copy starts flush (no 24px component-text offset)
     if 'text-align-center' in ' '.join(sec.get('class') or []) and sec.find(['h1', 'h2', 'h3']) is not None and len(clean_text(sec.get_text())) < 160:
         style = ', '.join(x for x in (style, 'centered') if x)
+    if PAD_TOKENS and not clean_text(sec.get_text()) and sec.find('img') is None and sec.find('a') is None:
+        # an authored-but-empty text component still renders ~41px (title/text margins) on the source: keep a spacer line so the rhythm holds
+        page.add_default('<p>&#8203;</p>', style); COVERAGE['spacer band'] += 1; return True
     h = ''
     title = sec.find(['h1', 'h2', 'h3', 'h4'], class_='title') or sec.select_one('h2.title, h3.title')
     if title is not None and clean_text(title.get_text(' ')):
