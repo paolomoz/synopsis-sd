@@ -741,7 +741,7 @@ body.glossary main .section .default-content-wrapper h3 {
   color: var(--purple-dark);
   font-size: 24px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 26.4px; /* source h2.text-size-smaller: 24px/26.4px */
   text-align: left;
 }
 

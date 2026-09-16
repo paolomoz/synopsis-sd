@@ -58,7 +58,7 @@ export default async function decorate(block) {
   if (!spec) addRequired();
   const fieldRows = spec ? spec.rows : rows.map((label) => ({ kind: 'field', label }));
   fieldRows.forEach((row, i) => {
-    const sized = (el) => { if (spec && row.h) el.style.minHeight = `${row.h}px`; form.append(el); };
+    const sized = (el) => { if (spec && row.h) { el.style.minHeight = `${row.h}px`; el.style.margin = '0'; el.style.boxSizing = 'border-box'; } form.append(el); }; // measured row pitch already includes the source's spacing
     if (row.kind === 'required') { const req = document.createElement('p'); req.className = 'form-required'; req.innerHTML = 'Required Fields <span>*</span>'; sized(req); return; }
     if (row.kind === 'notice') { const note = document.createElement('p'); note.className = 'form-note'; note.innerHTML = NOTICE; sized(note); return; }
     if (row.kind === 'html') { const p = document.createElement('p'); p.className = 'form-html'; p.textContent = row.text; form.append(p); return; }
@@ -84,7 +84,7 @@ export default async function decorate(block) {
     }
     input.id = id; input.name = id; input.required = isReq;
     wrap.append(lab, input);
-    if (spec && row.h) wrap.style.minHeight = `${row.h}px`;
+    if (spec && row.h) { wrap.style.minHeight = `${row.h}px`; wrap.style.margin = '0'; wrap.style.boxSizing = 'border-box'; }
     form.append(wrap);
   });
   if (!spec) addNotice();
