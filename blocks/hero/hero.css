@@ -587,3 +587,8 @@
 .hero.blog .hero-container-inner { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; }
 .hero.blog .hero-eyebrow { position: absolute; top: 20px; left: 15px; right: 15px; }
 .hero.blog .hero-text { padding-top: 0; }
+
+/* skinny banner (285px, source .contentValignCenter): the text block is vertically centred, not padded from the top */
+.hero:not(.carousel, .blog, .connect, .image, .video) .hero-overlay { display: flex; align-items: center; min-height: 285px; }
+.hero:not(.carousel, .blog, .connect, .image, .video) .hero-container-inner { width: 100%; }
+.hero:not(.carousel, .blog, .connect, .image, .video) .hero-text { padding-top: 0; }

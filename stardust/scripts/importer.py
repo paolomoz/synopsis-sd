@@ -259,7 +259,8 @@ def bg_of(col):
         if anc is not None:
             grid_cols = [c for c in anc.find_all(class_=re.compile(r'\baem-GridColumn\b')) if c.find_parent(class_='background-component') is anc]
             if grid_cols:
-                toks += _pad_tokens(' '.join(anc.get('class') or []), top=(grid_cols[0] is col), bottom=(grid_cols[-1] is col))
+                inside = lambda g: g is col or g in col.parents  # the emitting column may sit inside the group's first/last grid column (experience fragment wrappers)
+                toks += _pad_tokens(' '.join(anc.get('class') or []), top=inside(grid_cols[0]), bottom=inside(grid_cols[-1]))
     seen = []; [seen.append(t) for t in toks if t not in seen]
     return ', '.join(seen)
 
@@ -1010,6 +1011,9 @@ def convert_column(col, page, inherited_style=''):
         if title: cell += f'<h3><a href="{esc(localize(a.get("href")))}">{esc(clean_text(title.get_text()))}</a></h3>' if a is not None and a.get('href') else f'<h3>{esc(clean_text(title.get_text()))}</h3>'
         if date: cell += f'<p>{esc(clean_text(date.get_text()))}</p>'
         page.add_block(block_table('cards news', [[img_html(img), cell] if img is not None and img_html(img) else [cell]]), bg_of(col)); COVERAGE['cards news'] += 1; return
+    if t == 'htmlTextOnly' and col.select_one('form input.textfield, form input[type="text"]') is not None and not clean_text(col.get_text()):
+        inp = col.select_one('form input'); ph = inp.get('placeholder') or inp.get('title') or 'Search for IP'
+        page.add_block(block_table('search field', [[esc(ph)]]), bg_of(col)); COVERAGE['search field'] += 1; return  # source: JS redirect form (IP selector), 43px text field + 21px line
     if t == 'video' or (t in ('htmlTextOnly', 'text', 'embed') and (col.find('video') is not None or col.find(attrs={'data-video-id': True}) is not None or col.find(attrs={'data-playlist-id': True}) is not None)):
         href, label = video_link(col)
         if href:
