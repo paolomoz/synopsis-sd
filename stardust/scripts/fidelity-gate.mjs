@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, appendFileSync } fr
 import { LIVE, DEP, slug, capture, compare } from './fidelity-core.mjs';
 
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > -1 ? process.argv[i + 1] : d; };
-const OUT = arg('--out', 'qa/fidelity'); const WIDTHS = arg('--widths', '1440,360,1920').split(',').map(Number); const CONC = +arg('--concurrency', 3); const RESUME = process.argv.includes('--resume');
+const OUT = arg('--out', 'qa/fidelity'); const WIDTHS = arg('--widths', '1440,360,1920').split(',').map(Number); const CONC = +arg('--concurrency', 2); // synopsys.com closes connections above ~2 parallel sessions const RESUME = process.argv.includes('--resume');
 const MAP = JSON.parse(readFileSync(arg('--map', 'stardust/path-map.json'), 'utf8'));
 const sample = arg('--sample') ? JSON.parse(readFileSync(arg('--sample'), 'utf8')) : null;
 const paths = sample ? sample.map((s) => s[1]) : arg('--paths') ? readFileSync(arg('--paths'), 'utf8').split('\n').map((s) => s.trim()).filter(Boolean) : process.argv.slice(2).filter((a) => a.startsWith('/'));
@@ -49,7 +49,8 @@ async function worker() {
     const rec = { path: p, template: templateOf(p), widths: {}, error: null };
     for (const w of WIDTHS) {
       try {
-        const [L, D] = await Promise.all([capture(browser, liveOf(p), w, w === 1440), capture(browser, depOf(p), w, w === 1440)]);
+        const once = () => Promise.all([capture(browser, liveOf(p), w, w === 1440), capture(browser, depOf(p), w, w === 1440)]);
+        const [L, D] = await once().catch(async (e) => { if (/TIMED_OUT|CONNECTION_CLOSED|Timeout/.test(String(e))) { await new Promise((r) => setTimeout(r, 8000)); return once(); } throw e; }); // one retry on transport errors (live bot management, slow origin)
         const f = compare(L, D, w, `${OUT}/crops/${s}-${w}`);
         delete f.stateEvidence; rec.widths[w] = { ...f, ...classify(f) };
       } catch (e) {
@@ -66,7 +67,7 @@ await Promise.all(Array.from({ length: CONC }, worker));
 await browser.close();
 
 // ---- summary
-const rows = paths.map((p) => { const r = results[p]; if (!r) return null; const errs = [...new Set(Object.entries(r.widths).flatMap(([w, x]) => (x.errors || []).map((e) => `@${w} ${e}`)))]; const warns = [...new Set(Object.entries(r.widths).flatMap(([w, x]) => (x.warns || []).map((e) => `@${w} ${e}`)))]; return { path: p, status: r.error ? 'unavailable' : errs.length ? 'fail' : warns.length ? 'warn' : 'pass', errs, warns, note: r.error }; }).filter(Boolean);
+const rows = paths.map((p) => { const r = results[p]; if (!r) return null; const errs = [...new Set(Object.entries(r.widths).flatMap(([w, x]) => (x.errors || []).map((e) => `@${w} ${e}`)))]; const warns = [...new Set(Object.entries(r.widths).flatMap(([w, x]) => (x.warns || []).map((e) => `@${w} ${e}`)))]; return { path: p, status: (r.error || Object.values(r.widths).some((x) => x.error)) ? 'unavailable' : errs.length ? 'fail' : warns.length ? 'warn' : 'pass', errs, warns, note: r.error }; }).filter(Boolean);
 const count = (s) => rows.filter((r) => r.status === s).length;
 const md = [`# Fidelity gate — ${rows.length} pages, widths ${WIDTHS.join('/')}, ${Math.round((Date.now() - t0) / 60000)} min`, '', `pass ${count('pass')} · warn ${count('warn')} · fail ${count('fail')} · unavailable ${count('unavailable')}`, '', '## Failures', ...rows.filter((r) => r.status === 'fail').map((r) => `- \`${r.path}\` — ${r.errs.join('; ')}`), '', '## Unavailable (live or deployed did not serve the page)', ...rows.filter((r) => r.status === 'unavailable').map((r) => `- \`${r.path}\` — ${r.note}`), '', '## Warnings only', ...rows.filter((r) => r.status === 'warn').map((r) => `- \`${r.path}\` — ${r.warns.join('; ')}`)];
 const cls = {}; for (const r of rows) { for (const e of [...r.errs, ...r.warns]) { const k = e.replace(/^@\d+ /, '').replace(/ ×\d+.*| \(first:.*| -?\d+$/, ''); (cls[k] ||= { pages: 0, byT: {} }); cls[k].pages += 1; cls[k].byT[results[r.path].template] = (cls[k].byT[results[r.path].template] || 0) + 1; } }
