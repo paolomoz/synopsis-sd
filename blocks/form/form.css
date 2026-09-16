@@ -86,9 +86,12 @@ main .section:is(.purple, .dark) .form .form-title {
 }
 
 /* source Marketo form CSS: Helvetica face, 12px labels (#555), 13px "Required Fields" and consent notice (#333) */
-.form .form-fields { font-family: Helvetica, Arial, sans-serif; }
-.form .form-fields label { font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #555; }
+/* gated / contact forms (source form CSS): Roboto face, 12px labels #555, 13px required/notice #333 */
+.form .form-fields label { font-size: 12px; color: #555; }
 .form .form-required { font-size: 13px; color: #333; }
 .form .form-note, .form .form-note a { font-size: 13px; color: #333; }
+/* the blog subscribe form (Marketo id 8479) keeps Marketo's default Helvetica face and #444 labels */
+.form[data-form-id="8479"] .form-fields, .form[data-form-id="8479"] .form-fields label { font-family: Helvetica, Arial, sans-serif; }
+.form[data-form-id="8479"] .form-fields label { color: #444; }
 .form .form-field textarea { width: 100%; min-height: 48px; font: inherit; }
 .form .form-checkbox { display: flex; align-items: center; gap: 8px; }
