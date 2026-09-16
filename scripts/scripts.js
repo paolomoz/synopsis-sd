@@ -94,8 +94,18 @@ function buildShareBlock(main) {
   anchor.after(section);
 }
 
+function buildBlogSubnav(main) {
+  // the source injects a "Silicon to Systems Blog" sub-navigation bar (72px) on every /blogs/ page at runtime
+  if (!/^\/blogs\//.test(window.location.pathname) || main.querySelector('.blog-subnav')) return;
+  const section = document.createElement('div');
+  const block = document.createElement('div'); block.className = 'blog-subnav'; block.append(document.createElement('div'));
+  section.append(block);
+  main.prepend(section);
+}
+
 function buildAutoBlocks(main) {
   buildShareBlock(main);
+  buildBlogSubnav(main);
   try {
     // auto load `*/fragments/*` references
     const fragments = [...main.querySelectorAll('a[href*="/fragments/"]')].filter((f) => !f.closest('.fragment'));
