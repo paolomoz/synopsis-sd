@@ -255,12 +255,17 @@ def bg_of(col):
     tint_src = bc if bc is not None else anc
     if tint_src is not None and 'light-grey-bg' in (tint_src.get('class') or []): toks.append('tinted')
     if PAD_TOKENS:
-        if bc is not None: toks += _pad_tokens(' '.join(bc.get('class') or []))
+        inner = _pad_tokens(' '.join(bc.get('class') or [])) if bc is not None else []
+        toks += inner
         if anc is not None:
             grid_cols = [c for c in anc.find_all(class_=re.compile(r'\baem-GridColumn\b')) if c.find_parent(class_='background-component') is anc]
             if grid_cols:
                 inside = lambda g: g is col or g in col.parents  # the emitting column may sit inside the group's first/last grid column (experience fragment wrappers)
-                toks += _pad_tokens(' '.join(anc.get('class') or []), top=inside(grid_cols[0]), bottom=inside(grid_cols[-1]))
+                grp = _pad_tokens(' '.join(anc.get('class') or []), top=inside(grid_cols[0]), bottom=inside(grid_cols[-1]))
+                # the group's padding stacks on top of the band's own padding on the source (both wrappers pad); when the band already
+                # carries the same side, the group's share becomes a margin token (gpt-*/gpb-*) so both survive
+                for t in grp:
+                    toks.append(('g' + t) if any(x.startswith(t[:3]) for x in inner) else t)
     seen = []; [seen.append(t) for t in toks if t not in seen]
     return ', '.join(seen)
 
@@ -393,6 +398,8 @@ def handle_text(col, page):
     for b in sec.select('a.cta-link'):
         if b.find_parent(class_='component-text') is None: h += f'<p><a href="{esc(localize(b.get("href")))}">{esc(clean_text(b.get_text(" ")))}</a></p>'
     if h: page.add_default(h, style)
+    elif PAD_TOKENS and any(t.startswith(('pt-', 'pb-')) for t in style.split(', ')) and not clean_text(sec.get_text()):
+        page.add_default('<p>&#8203;</p>', style); COVERAGE['spacer band'] += 1  # empty text component used as a spacer: its padding + one empty line still occupy height on the source
     COVERAGE['text'] += 1
     return True
 
