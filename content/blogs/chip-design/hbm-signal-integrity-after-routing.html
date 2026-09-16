@@ -3,7 +3,7 @@
   <main>
     <div><div class="metadata"><div><div>Title</div><div>Stop Finding HBM Signal-Integrity Problems After Routing | Synopsys</div></div><div><div>Description</div><div>Prototype, route, extract, and AI-optimize HBM channels in one flow with 3DIC Compiler and HFSS-IC&mdash;reduce crosstalk, loss, and rework.</div></div><div><div>Theme</div><div>tokens</div></div><div><div>Template</div><div>article</div></div><div><div>Author</div><div>Soheil Modirzadeh</div></div><div><div>Published</div><div>Aug 18, 2026</div></div><div><div>Readtime</div><div>2 min read</div></div><div><div>Category</div><div>Blogs / Silicon to Systems</div></div><div><div>Tags</div><div>Engineering Central, Multi-Die, Design, 3DIC Design</div></div><div><div>Image</div><div><img src="https://images.synopsys.com/is/image/synopsys/multiphysics-hbm-demo-social-400x225?$social-post$" alt=""></div></div></div></div>
     <div>
-<div class="hero blog"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Stop Finding HBM Signal Integrity Problems After Routing</h1><p><a href="/authors/soheil-modirzadeh">Soheil Modirzadeh</a></p><p>Aug 18, 2026 / 2 min read</p></div></div></div>
+<div class="hero blog blue"><div><div><p><a href="/blogs">Blogs</a> / <a href="/blogs/chip-design">Silicon to Systems</a></p><h1>Stop Finding HBM Signal Integrity Problems After Routing</h1><p><a href="/authors/soheil-modirzadeh">Soheil Modirzadeh</a></p><p>Aug 18, 2026 / 2 min read</p></div></div></div>
     </div>
     <div>
 <div class="toc"><div><div><p>Table of Contents</p></div></div></div>
@@ -16,9 +16,6 @@
     </div>
     <div>
 <h3>Introduction</h3><p>A PHY-to-memory channel integrates thousands of high-speed signals into a congested bus at near-100% routing utilization. Electrical penalties such as crosstalk, insertion loss, and skew often surface only after extraction, long after the layout is committed. Fixing the shielding pattern or wire pitch means modifying finalized routing. The demo, Full-Flow HBM Channel Prototyping, Implementation, and Analysis with 3DIC Compiler, shows how 3DIC Compiler can characterize the channel, route it, extract it, and let AI tune it, all within a single design environment.</p><div class="section-metadata"><div><div>style</div><div>pb-sm</div></div><div><div>anchor</div><div>1</div></div></div>
-    </div>
-    <div>
-<div class="video"><div><div><p><a href="https://players.brightcove.net/5748441669001/default_default/index.html?videoId=6397882171112">Watch video</a></p></div></div></div>
     </div>
     <div>
 <h3>Prototype the cross-section before committing to a single trace</h3><p>The demo opens in the cross-section view assistant, choosing a routing with shielding template that draws the data lines and shielding across five metal layers as a prototype. The editor lets users change offset distance, route thickness, and signal count, with every change reflected instantly in the preview. Setting net length to 300 microns, the tool generates S-parameter plots through the Synopsys HFSS-IC electromagnetic extraction tool, plotting crosstalk and insertion loss against frequency, and follows with an eye diagram. If the eye is unacceptable, the HBM configuration can be modified and rerun, before any real routing exists.</p><p>A routing feasibility study conducted early define optimal wire rules and shielding patterns, so achievable layouts and signal performance can be predicted for a given technology rather than discovered after the fact.</p><div class="section-metadata"><div><div>style</div><div>pt-sm, pb-sm</div></div><div><div>anchor</div><div>2</div></div></div>
