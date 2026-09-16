@@ -1375,3 +1375,6 @@ body.form main > .section.form-container:is(.purple, .dark) .form .form-required
 body.form main > .section.form-container:is(.purple, .dark) .form .form-note { font-size: 14px; }
 body.form main > .section.form-container:is(.purple, .dark) .form .form-note a { color: #333; font-size: 14px; }
 body.form main > .section.form-container:is(.purple, .dark) .form .form-submit { font-weight: 400; }
+
+/* centred figure captions (source imageTextCta.text-align-center) */
+main > .section.caption.centered > .default-content-wrapper p { text-align: center; }

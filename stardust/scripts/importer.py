@@ -994,7 +994,8 @@ def convert_column(col, page, inherited_style=''):
             # caption-only imageTextCta (blog figure captions): plain text band; the empty buttons row leaves 24px under the copy on the source
             th = rich(sec.select_one('.component-text') or sec, allow_headings=True)
             if th:
-                st = bg_of(col); page.add_default(th, (st + ', ' if st else '') + 'caption'); COVERAGE['caption'] += 1
+                st = bg_of(col); tok = 'caption' + (', centered' if 'text-align-center' in ' '.join(sec.get('class') or []) else '')  # source caption alignment
+                page.add_default(th, (st + ', ' if st else '') + tok); COVERAGE['caption'] += 1
             return
         img_col = col.select_one('.img-col'); text_col = col.select_one('.text-col') or (col.select_one('[class*="col-sm-8"]') if col.select_one('[class*="col-sm-8"]') else None)
         img_first = True
