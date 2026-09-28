@@ -7,6 +7,10 @@
  *   video      video banner rendered with its poster       rows: [img] [text]
  *   blog       article banner: category · h1 · authors · date/read-time   rows: [img?] [text]
  *   carousel   home banner carousel, one row per slide     rows: [img] [text] × N
+ *              media cell: desktop image + optional mobile rendition; text cell: heading, copy, CTAs
+ *              (<strong> = white primary, <em> = outlined secondary) + optional foreground image
+ *              (source .foreground, right column at ≥730). A CTA whose href is a video player
+ *              (Brightcove / YouTube / Vimeo) gets a play glyph and opens in a modal like the source.
  *   connect    site-wide "Connect with Us" band            rows: [text]
  * Every authored element is MOVED into the slots (EW1/EW3); CTAs keep their <p>.
  */
@@ -15,6 +19,52 @@ function wrapNode(node, className) {
   w.className = className;
   w.append(node);
   return w;
+}
+
+const VIDEO_HOSTS = /players\.brightcove\.net|youtube\.com|youtu\.be|vimeo\.com/;
+
+function videoEmbedSrc(href) {
+  try {
+    const u = new URL(href);
+    if (u.hostname.includes('youtube.com') || u.hostname === 'youtu.be') {
+      const id = u.hostname === 'youtu.be' ? u.pathname.slice(1) : (u.searchParams.get('v') || u.pathname.split('/').pop());
+      return `https://www.youtube.com/embed/${id}?rel=0&autoplay=1`;
+    }
+    if (u.hostname.includes('vimeo.com')) return `https://player.vimeo.com/video/${u.pathname.split('/').pop()}?autoplay=1`;
+    if (u.hostname.includes('brightcove.net')) { u.searchParams.set('autoplay', 'true'); return u.href; }
+    return u.href;
+  } catch (e) { return href; }
+}
+
+/* source: .cmp-video[data-mode="modal"] — the CTA opens the player in a dialog over the page */
+function videoDialog(block) {
+  let dialog = block.querySelector('.hero-video-dialog');
+  if (dialog) return dialog;
+  dialog = document.createElement('dialog');
+  dialog.className = 'hero-video-dialog';
+  const close = document.createElement('button');
+  close.type = 'button'; close.className = 'hero-video-close'; close.setAttribute('aria-label', 'Close video');
+  close.textContent = '×';
+  const frame = document.createElement('div');
+  frame.className = 'hero-video-frame';
+  dialog.append(close, frame);
+  const shut = () => { frame.replaceChildren(); dialog.close(); };
+  close.addEventListener('click', shut);
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) shut(); });
+  dialog.addEventListener('close', () => frame.replaceChildren());
+  block.append(dialog);
+  return dialog;
+}
+
+function openVideo(block, a) {
+  const dialog = videoDialog(block);
+  const iframe = document.createElement('iframe');
+  iframe.src = videoEmbedSrc(a.href);
+  iframe.title = a.textContent.trim() || 'Video';
+  iframe.setAttribute('allow', 'autoplay; encrypted-media; fullscreen; picture-in-picture');
+  iframe.setAttribute('allowfullscreen', '');
+  dialog.querySelector('.hero-video-frame').replaceChildren(iframe);
+  dialog.showModal();
 }
 
 function buildSlide(rowCells, block, isFirst) {
@@ -38,6 +88,11 @@ function buildSlide(rowCells, block, isFirst) {
   inner.className = 'hero-container-inner';
   const wrap = document.createElement('div');
   wrap.className = 'hero-text';
+  // source .foreground: an image authored in the text cell becomes the right-hand column (hidden ≤729 like the source);
+  // detached first so a <p><picture> wrapper is not mistaken for copy
+  const fg = block.classList.contains('carousel') && textCell ? textCell.querySelector('picture, img') : null;
+  const fgNode = fg ? (fg.closest('picture') || fg) : null;
+  if (fgNode) { const holder = fgNode.parentElement; fgNode.remove(); if (holder && holder.tagName === 'P' && !holder.textContent.trim()) holder.remove(); }
   if (textCell) {
     const heading = textCell.querySelector('h1, h2, h3, h4');
     const ps = [...textCell.querySelectorAll('p')];
@@ -60,12 +115,24 @@ function buildSlide(rowCells, block, isFirst) {
     if (ctas.length) {
       const actions = document.createElement('div');
       actions.className = 'hero-actions';
-      ctas.forEach((p) => actions.append(p));
+      ctas.forEach((p) => {
+        const a = p.querySelector('a');
+        if (VIDEO_HOSTS.test(a.href)) {
+          a.classList.add('hero-video-cta');
+          actions.classList.add('has-video');
+          a.addEventListener('click', (e) => { e.preventDefault(); openVideo(block, a); });
+        }
+        actions.append(p);
+      });
       wrap.append(actions);
     }
     [...textCell.querySelectorAll('ul, ol')].forEach((l) => wrap.append(wrapNode(l, 'hero-list')));
   }
   inner.append(wrap);
+  if (fgNode) {
+    inner.append(wrapNode(fgNode, 'hero-foreground'));
+    slide.classList.add('has-foreground');
+  }
   overlay.append(inner);
   slide.append(overlay);
   return slide;
